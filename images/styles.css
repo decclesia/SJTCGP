@@ -1,0 +1,234 @@
+:root {
+  --background: #f4f6fb;
+  --surface: #ffffff;
+  --text: #182033;
+  --muted: #68738a;
+  --border: #dce3ef;
+  --accent: #3155d4;
+  --accent-dark: #2443aa;
+  --shadow: 0 12px 34px rgba(24, 32, 51, 0.12);
+  --radius: 18px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--background);
+}
+
+button, input, select { font: inherit; }
+
+.site-header {
+  padding: 2rem 1rem 1rem;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  letter-spacing: -0.04em;
+}
+
+.site-header p {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+}
+
+.page {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto 3rem;
+}
+
+.controls {
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.control-group {
+  display: grid;
+  gap: 0.4rem;
+}
+
+label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+input, select {
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+  background: #ffffff;
+}
+
+input:focus, select:focus, button:focus-visible {
+  outline: 3px solid rgba(49, 85, 212, 0.25);
+  outline-offset: 2px;
+}
+
+.filter-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.actions-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#resultCount {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+button {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  color: white;
+  background: var(--accent);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+button:hover { background: var(--accent-dark); }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: grid;
+  gap: 0.6rem;
+  padding: 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 8px 20px rgba(24, 32, 51, 0.08);
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 34px rgba(24, 32, 51, 0.14);
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 5 / 7;
+  object-fit: cover;
+  border-radius: 13px;
+  background: #eef2f8;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.empty-state {
+  margin: 3rem auto;
+  max-width: 34rem;
+  padding: 2rem;
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.empty-state p { color: var(--muted); }
+
+.modal[hidden] { display: none; }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(12, 18, 32, 0.76);
+}
+
+.modal-panel {
+  position: relative;
+  width: min(520px, 100%);
+  max-height: 94vh;
+  overflow: auto;
+  padding: 1rem;
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.modal-image {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+  background: #eef2f8;
+}
+
+.modal-info { padding: 0.8rem 0.2rem 0.2rem; }
+.modal-info h2 { margin: 0; }
+.modal-info p {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+@media (max-width: 700px) {
+  .filter-row { grid-template-columns: 1fr; }
+  .actions-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+  }
+}
