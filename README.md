@@ -1,6 +1,11 @@
 # Simple Card Image Database
 
-This is the simplified version.
+This is the GitHub-friendly compressed image version.
+
+It contains:
+
+- PUP
+- ST1
 
 Each card only needs:
 
@@ -13,25 +18,30 @@ Example:
 
 ```json
 {
-  "number": "SD1-001",
-  "release": "SD1",
-  "set": "SMK",
-  "image": "images/SD1-001.png"
+  "number": "PUP-001",
+  "release": "PUP",
+  "set": "CSM",
+  "image": "images/PUP-001.jpg"
 }
 ```
 
-## Meaning
+## Current set rules
 
-- `number` = the card number / image filename
-- `release` = the batch or product, like `SD1`
-- `set` = the printed set code on the card, like `SMK`
-- `image` = where the card image is stored
+PUP:
 
-## Add more cards
+- PUP-001 to PUP-003 = CSM
+- PUP-004 to PUP-006 = HNI
+- PUP-007 to PUP-009 = NRT
 
-1. Put the image in the `images` folder.
-2. Add a new entry to `cards.json`.
-3. Save the file.
+ST1:
+
+- ST1-001 to ST1-025 and ST1-126 = CSM
+- ST1-026 to ST1-050 = HNI
+- ST1-051 to ST1-076 and ST1-127 = NRT
+- ST1-077 = SMK
+- ST1-101 = JBA
+
+Alternate filenames like `ST1-001 AA` use the same set rule as their base number.
 
 ## Run locally
 
