@@ -1,7 +1,3 @@
-// Simple Card Image Database
-// Edit cards.json to add more cards.
-// Each card only needs: number, release, set, and image.
-
 let allCards = [];
 
 const elements = {
@@ -24,10 +20,7 @@ document.addEventListener("DOMContentLoaded", init);
 async function init() {
   try {
     const response = await fetch("cards.json");
-
-    if (!response.ok) {
-      throw new Error("Could not load cards.json");
-    }
+    if (!response.ok) throw new Error("Could not load cards.json");
 
     allCards = await response.json();
 
@@ -40,7 +33,7 @@ async function init() {
     elements.cardGrid.innerHTML = `
       <div class="empty-state">
         <h2>Could not load cards</h2>
-        <p>Use a local web server instead of opening index.html directly.</p>
+        <p>Use a local web server or GitHub Pages.</p>
       </div>
     `;
   }
@@ -64,9 +57,7 @@ function addEventListeners() {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
-      closeModal();
-    }
+    if (event.key === "Escape") closeModal();
   });
 }
 
@@ -98,26 +89,18 @@ function renderCards() {
   const set = elements.setFilter.value;
 
   let cards = allCards.filter((card) => {
-    const searchableText = [
-      card.number,
-      card.release,
-      card.set
-    ].join(" ").toLowerCase();
-
-    const matchesSearch = !searchText || searchableText.includes(searchText);
-    const matchesRelease = !release || card.release === release;
-    const matchesSet = !set || card.set === set;
-
-    return matchesSearch && matchesRelease && matchesSet;
+    const searchableText = [card.number, card.release, card.set].join(" ").toLowerCase();
+    return (
+      (!searchText || searchableText.includes(searchText)) &&
+      (!release || card.release === release) &&
+      (!set || card.set === set)
+    );
   });
 
   cards = sortCards(cards, elements.sortSelect.value);
 
   elements.cardGrid.innerHTML = "";
-
-  cards.forEach((card) => {
-    elements.cardGrid.appendChild(createCardElement(card));
-  });
+  cards.forEach((card) => elements.cardGrid.appendChild(createCardElement(card)));
 
   elements.resultCount.textContent = `${cards.length} card${cards.length === 1 ? "" : "s"} found`;
   elements.emptyState.hidden = cards.length !== 0;
@@ -128,11 +111,9 @@ function sortCards(cards, sortBy) {
     if (sortBy === "release") {
       return compareText(a.release, b.release) || compareCardNumbers(a.number, b.number);
     }
-
     if (sortBy === "set") {
       return compareText(a.set, b.set) || compareCardNumbers(a.number, b.number);
     }
-
     return compareCardNumbers(a.number, b.number);
   });
 }
@@ -177,7 +158,6 @@ function openModal(card) {
 
   elements.modalTitle.textContent = card.number;
   elements.modalMeta.textContent = `Release: ${card.release} · Set: ${card.set}`;
-
   elements.modal.hidden = false;
   document.body.style.overflow = "hidden";
 }
@@ -217,7 +197,6 @@ function escapeHtml(value) {
 
 function createPlaceholderImage(cardNumber) {
   const safeNumber = escapeHtml(cardNumber || "Missing Image");
-
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" width="500" height="700" viewBox="0 0 500 700">
       <rect width="500" height="700" rx="32" fill="#eef2f8"/>
@@ -226,6 +205,5 @@ function createPlaceholderImage(cardNumber) {
       <text x="250" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#68738a">${safeNumber}</text>
     </svg>
   `;
-
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
