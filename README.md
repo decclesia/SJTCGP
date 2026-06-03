@@ -1,22 +1,27 @@
-# Complete Card Image Database
+# SJTCG Card Database
 
-This is the complete upload-ready version.
+Upload-ready static site for GitHub Pages.
 
-It includes:
+## Includes
 
-- SD1
-- PUP
-- ST1
+- SD1, PUP, and ST1 cards
+- Compressed JPG images
+- Black-and-gold logo
+- Dark mode toggle
+- Quick filter buttons
+- Default card order: ST releases first, SD releases second, PUP last
+- Left/right arrows in the card popup
 
-All images are compressed JPG files inside the `images` folder.
+## Upload to GitHub
 
-Upload these items to GitHub:
+Upload these items to your repository:
 
 - index.html
 - styles.css
 - app.js
 - cards.json
 - README.md
+- assets
 - images
 
-For the cleanest upload, delete your old GitHub `images` folder first, then upload this new one.
+For the cleanest upload, delete the old `assets` and `images` folders on GitHub first, then upload these new ones.
