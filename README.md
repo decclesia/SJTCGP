@@ -1,27 +1,14 @@
 # SJTCG Card Database
 
-Upload-ready static site for GitHub Pages.
+Static GitHub Pages version of the Shonen Jump Trading Card Game card image database.
 
-## Includes
+## Update contents
 
-- SD1, PUP, and ST1 cards
-- Compressed JPG images
-- Black-and-gold logo
-- Dark mode toggle
-- Quick filter buttons
-- Default card order: ST releases first, SD releases second, PUP last
-- Left/right arrows in the card popup
+- 155 cards in `cards.json`
+- Local compressed `.jpg` images in `/images`
+- Transparent black-and-gold SVG logo in `/assets`
+- Filters for release, set, and color
+- Color data added to each card entry
+- Default display order: ST releases, then SD releases, then PUP
 
-## Upload to GitHub
-
-Upload these items to your repository:
-
-- index.html
-- styles.css
-- app.js
-- cards.json
-- README.md
-- assets
-- images
-
-For the cleanest upload, delete the old `assets` and `images` folders on GitHub first, then upload these new ones.
+Upload the contents of this `SJTCGP` folder to the GitHub Pages repository.

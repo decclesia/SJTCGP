@@ -1,656 +1,1087 @@
 [
   {
-    "number": "PUP-001",
-    "release": "PUP",
-    "set": "CSM",
-    "image": "images/PUP-001.jpg"
-  },
-  {
-    "number": "PUP-002",
-    "release": "PUP",
-    "set": "CSM",
-    "image": "images/PUP-002.jpg"
-  },
-  {
-    "number": "PUP-003",
-    "release": "PUP",
-    "set": "CSM",
-    "image": "images/PUP-003.jpg"
-  },
-  {
-    "number": "PUP-004",
-    "release": "PUP",
-    "set": "HNI",
-    "image": "images/PUP-004.jpg"
-  },
-  {
-    "number": "PUP-005",
-    "release": "PUP",
-    "set": "HNI",
-    "image": "images/PUP-005.jpg"
-  },
-  {
-    "number": "PUP-006",
-    "release": "PUP",
-    "set": "HNI",
-    "image": "images/PUP-006.jpg"
-  },
-  {
-    "number": "PUP-007",
-    "release": "PUP",
-    "set": "NRT",
-    "image": "images/PUP-007.jpg"
-  },
-  {
-    "number": "PUP-008",
-    "release": "PUP",
-    "set": "NRT",
-    "image": "images/PUP-008.jpg"
-  },
-  {
-    "number": "PUP-009",
-    "release": "PUP",
-    "set": "NRT",
-    "image": "images/PUP-009.jpg"
-  },
-  {
-    "number": "SD1-001",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-001.jpg"
-  },
-  {
-    "number": "SD1-002",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-002.jpg"
-  },
-  {
-    "number": "SD1-003",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-003.jpg"
-  },
-  {
-    "number": "SD1-004",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-004.jpg"
-  },
-  {
-    "number": "SD1-005",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-005.jpg"
-  },
-  {
-    "number": "SD1-006",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-006.jpg"
-  },
-  {
-    "number": "SD1-007",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-007.jpg"
-  },
-  {
-    "number": "SD1-008",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-008.jpg"
-  },
-  {
-    "number": "SD1-009",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-009.jpg"
-  },
-  {
-    "number": "SD1-010",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-010.jpg"
-  },
-  {
-    "number": "SD1-011",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-011.jpg"
-  },
-  {
-    "number": "SD1-012",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-012.jpg"
-  },
-  {
-    "number": "SD1-013",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-013.jpg"
-  },
-  {
-    "number": "SD1-014",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-014.jpg"
-  },
-  {
-    "number": "SD1-015",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-015.jpg"
-  },
-  {
-    "number": "SD1-016",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-016.jpg"
-  },
-  {
-    "number": "SD1-017",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-017.jpg"
-  },
-  {
-    "number": "SD1-018",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-018.jpg"
-  },
-  {
-    "number": "SD1-019",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-019.jpg"
-  },
-  {
-    "number": "SD1-020",
-    "release": "SD1",
-    "set": "SMK",
-    "image": "images/SD1-020.jpg"
-  },
-  {
     "number": "ST1-001",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-001.jpg"
-  },
-  {
-    "number": "ST1-001 AA",
-    "release": "ST1",
-    "set": "CSM",
-    "image": "images/ST1-001 AA.jpg"
   },
   {
     "number": "ST1-002",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-002.jpg"
   },
   {
     "number": "ST1-003",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-003.jpg"
   },
   {
     "number": "ST1-004",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-004.jpg"
   },
   {
     "number": "ST1-005",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-005.jpg"
   },
   {
     "number": "ST1-006",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-006.jpg"
   },
   {
     "number": "ST1-007",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-007.jpg"
   },
   {
     "number": "ST1-008",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-008.jpg"
   },
   {
     "number": "ST1-009",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-009.jpg"
   },
   {
     "number": "ST1-010",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-010.jpg"
   },
   {
     "number": "ST1-011",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-011.jpg"
   },
   {
     "number": "ST1-012",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-012.jpg"
   },
   {
     "number": "ST1-013",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-013.jpg"
   },
   {
     "number": "ST1-014",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-014.jpg"
   },
   {
     "number": "ST1-015",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-015.jpg"
   },
   {
     "number": "ST1-016",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-016.jpg"
   },
   {
     "number": "ST1-017",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-017.jpg"
   },
   {
     "number": "ST1-018",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-018.jpg"
   },
   {
     "number": "ST1-019",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-019.jpg"
   },
   {
     "number": "ST1-020",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-020.jpg"
   },
   {
     "number": "ST1-021",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-021.jpg"
   },
   {
     "number": "ST1-022",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-022.jpg"
   },
   {
     "number": "ST1-023",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-023.jpg"
   },
   {
     "number": "ST1-024",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-024.jpg"
   },
   {
     "number": "ST1-025",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-025.jpg"
   },
   {
     "number": "ST1-026",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-026.jpg"
   },
   {
     "number": "ST1-027",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-027.jpg"
   },
   {
     "number": "ST1-028",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-028.jpg"
   },
   {
     "number": "ST1-030",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-030.jpg"
   },
   {
     "number": "ST1-031",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-031.jpg"
   },
   {
     "number": "ST1-032",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-032.jpg"
   },
   {
     "number": "ST1-033",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-033.jpg"
   },
   {
     "number": "ST1-034",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-034.jpg"
   },
   {
     "number": "ST1-035",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-035.jpg"
   },
   {
     "number": "ST1-036",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-036.jpg"
   },
   {
     "number": "ST1-037",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-037.jpg"
   },
   {
     "number": "ST1-038",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-038.jpg"
   },
   {
     "number": "ST1-039",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-039.jpg"
   },
   {
     "number": "ST1-040",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-040.jpg"
   },
   {
     "number": "ST1-041",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-041.jpg"
   },
   {
     "number": "ST1-042",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-042.jpg"
   },
   {
     "number": "ST1-043",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-043.jpg"
   },
   {
     "number": "ST1-044",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-044.jpg"
   },
   {
     "number": "ST1-045",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-045.jpg"
   },
   {
     "number": "ST1-046",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-046.jpg"
   },
   {
     "number": "ST1-047",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-047.jpg"
   },
   {
     "number": "ST1-048",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-048.jpg"
   },
   {
     "number": "ST1-049",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-049.jpg"
   },
   {
     "number": "ST1-050",
     "release": "ST1",
     "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-050.jpg"
   },
   {
     "number": "ST1-051",
     "release": "ST1",
-    "set": "NRT",
+    "set": "HNI",
+    "color": "Red",
     "image": "images/ST1-051.jpg"
   },
   {
     "number": "ST1-052",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-052.jpg"
   },
   {
     "number": "ST1-053",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-053.jpg"
   },
   {
     "number": "ST1-054",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-054.jpg"
   },
   {
     "number": "ST1-055",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-055.jpg"
   },
   {
     "number": "ST1-056",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-056.jpg"
   },
   {
     "number": "ST1-057",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-057.jpg"
   },
   {
     "number": "ST1-058",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-058.jpg"
   },
   {
     "number": "ST1-059",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-059.jpg"
   },
   {
     "number": "ST1-060",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-060.jpg"
   },
   {
     "number": "ST1-061",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-061.jpg"
   },
   {
     "number": "ST1-062",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-062.jpg"
   },
   {
     "number": "ST1-063",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-063.jpg"
   },
   {
     "number": "ST1-064",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-064.jpg"
   },
   {
     "number": "ST1-065",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-065.jpg"
   },
   {
     "number": "ST1-066",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-066.jpg"
   },
   {
     "number": "ST1-067",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-067.jpg"
   },
   {
     "number": "ST1-068",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-068.jpg"
   },
   {
     "number": "ST1-069",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-069.jpg"
   },
   {
     "number": "ST1-070",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-070.jpg"
   },
   {
     "number": "ST1-071",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-071.jpg"
   },
   {
     "number": "ST1-072",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-072.jpg"
   },
   {
     "number": "ST1-073",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-073.jpg"
   },
   {
     "number": "ST1-074",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-074.jpg"
   },
   {
     "number": "ST1-075",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-075.jpg"
   },
   {
     "number": "ST1-076",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-076.jpg"
   },
   {
     "number": "ST1-077",
     "release": "ST1",
     "set": "SMK",
+    "color": "Blue",
     "image": "images/ST1-077.jpg"
   },
   {
-    "number": "ST1-101",
+    "number": "ST1-078",
     "release": "ST1",
-    "set": "JBA",
-    "image": "images/ST1-101.jpg"
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-078.jpg"
+  },
+  {
+    "number": "ST1-079",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-079.jpg"
+  },
+  {
+    "number": "ST1-080",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-080.jpg"
+  },
+  {
+    "number": "ST1-081",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-081.jpg"
+  },
+  {
+    "number": "ST1-082",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-082.jpg"
+  },
+  {
+    "number": "ST1-083",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-083.jpg"
+  },
+  {
+    "number": "ST1-084",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-084.jpg"
+  },
+  {
+    "number": "ST1-085",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-085.jpg"
+  },
+  {
+    "number": "ST1-086",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-086.jpg"
+  },
+  {
+    "number": "ST1-087",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-087.jpg"
+  },
+  {
+    "number": "ST1-088",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-088.jpg"
+  },
+  {
+    "number": "ST1-089",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-089.jpg"
+  },
+  {
+    "number": "ST1-090",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-090.jpg"
+  },
+  {
+    "number": "ST1-091",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-091.jpg"
+  },
+  {
+    "number": "ST1-092",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-092.jpg"
+  },
+  {
+    "number": "ST1-093",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-093.jpg"
+  },
+  {
+    "number": "ST1-094",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-094.jpg"
+  },
+  {
+    "number": "ST1-095",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-095.jpg"
+  },
+  {
+    "number": "ST1-096",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-096.jpg"
+  },
+  {
+    "number": "ST1-097",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-097.jpg"
+  },
+  {
+    "number": "ST1-098",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-098.jpg"
+  },
+  {
+    "number": "ST1-099",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-099.jpg"
+  },
+  {
+    "number": "ST1-100",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-100.jpg"
   },
   {
     "number": "ST1-126",
     "release": "ST1",
     "set": "CSM",
+    "color": "Yellow",
     "image": "images/ST1-126.jpg"
   },
   {
     "number": "ST1-127",
     "release": "ST1",
     "set": "NRT",
+    "color": "Green",
     "image": "images/ST1-127.jpg"
+  },
+  {
+    "number": "SD1-001",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-001.jpg"
+  },
+  {
+    "number": "SD1-002",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-002.jpg"
+  },
+  {
+    "number": "SD1-003",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-003.jpg"
+  },
+  {
+    "number": "SD1-004",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-004.jpg"
+  },
+  {
+    "number": "SD1-005",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-005.jpg"
+  },
+  {
+    "number": "SD1-006",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-006.jpg"
+  },
+  {
+    "number": "SD1-007",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-007.jpg"
+  },
+  {
+    "number": "SD1-008",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-008.jpg"
+  },
+  {
+    "number": "SD1-009",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-009.jpg"
+  },
+  {
+    "number": "SD1-010",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-010.jpg"
+  },
+  {
+    "number": "SD1-011",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-011.jpg"
+  },
+  {
+    "number": "SD1-012",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-012.jpg"
+  },
+  {
+    "number": "SD1-013",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-013.jpg"
+  },
+  {
+    "number": "SD1-014",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-014.jpg"
+  },
+  {
+    "number": "SD1-015",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-015.jpg"
+  },
+  {
+    "number": "SD1-016",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-016.jpg"
+  },
+  {
+    "number": "SD1-017",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-017.jpg"
+  },
+  {
+    "number": "SD1-018",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-018.jpg"
+  },
+  {
+    "number": "SD1-019",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-019.jpg"
+  },
+  {
+    "number": "SD1-020",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-020.jpg"
+  },
+  {
+    "number": "SD2-001",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-001.jpg"
+  },
+  {
+    "number": "SD2-002",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-002.jpg"
+  },
+  {
+    "number": "SD2-003",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-003.jpg"
+  },
+  {
+    "number": "SD2-004",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-004.jpg"
+  },
+  {
+    "number": "SD2-005",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-005.jpg"
+  },
+  {
+    "number": "SD2-006",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-006.jpg"
+  },
+  {
+    "number": "SD2-007",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-007.jpg"
+  },
+  {
+    "number": "SD2-008",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-008.jpg"
+  },
+  {
+    "number": "SD2-009",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-009.jpg"
+  },
+  {
+    "number": "SD2-010",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-010.jpg"
+  },
+  {
+    "number": "SD2-011",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-011.jpg"
+  },
+  {
+    "number": "SD2-012",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-012.jpg"
+  },
+  {
+    "number": "SD2-013",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-013.jpg"
+  },
+  {
+    "number": "SD2-014",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-014.jpg"
+  },
+  {
+    "number": "SD2-015",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-015.jpg"
+  },
+  {
+    "number": "SD2-016",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-016.jpg"
+  },
+  {
+    "number": "SD2-017",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-017.jpg"
+  },
+  {
+    "number": "SD2-018",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-018.jpg"
+  },
+  {
+    "number": "SD2-019",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-019.jpg"
+  },
+  {
+    "number": "SD2-020",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-020.jpg"
+  },
+  {
+    "number": "PUP-001",
+    "release": "PUP",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/PUP-001.jpg"
+  },
+  {
+    "number": "PUP-002",
+    "release": "PUP",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/PUP-002.jpg"
+  },
+  {
+    "number": "PUP-003",
+    "release": "PUP",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/PUP-003.jpg"
+  },
+  {
+    "number": "PUP-004",
+    "release": "PUP",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/PUP-004.jpg"
+  },
+  {
+    "number": "PUP-005",
+    "release": "PUP",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/PUP-005.jpg"
+  },
+  {
+    "number": "PUP-006",
+    "release": "PUP",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/PUP-006.jpg"
+  },
+  {
+    "number": "PUP-007",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/PUP-007.jpg"
+  },
+  {
+    "number": "PUP-008",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/PUP-008.jpg"
+  },
+  {
+    "number": "PUP-009",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/PUP-009.jpg"
+  },
+  {
+    "number": "PUP-010",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-010.jpg"
+  },
+  {
+    "number": "PUP-011",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-011.jpg"
+  },
+  {
+    "number": "PUP-012",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-012.jpg"
+  },
+  {
+    "number": "PUP-013",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-013.jpg"
+  },
+  {
+    "number": "PUP-014",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-014.jpg"
   }
 ]
