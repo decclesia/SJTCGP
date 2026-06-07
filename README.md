@@ -1,14 +1,18 @@
 # SJTCG Card Database
 
-Static GitHub Pages version of the Shonen Jump Trading Card Game card image database.
+Static GitHub Pages card image database for Shonen Jump Trading Card Game.
 
-## Update contents
+## Contents
 
-- 155 cards in `cards.json`
-- Local compressed `.jpg` images in `/images`
-- Transparent black-and-gold SVG logo in `/assets`
-- Filters for release, set, and color
-- Color data added to each card entry
-- Default display order: ST releases, then SD releases, then PUP
+- Plain HTML, CSS, and JavaScript
+- Local `cards.json`
+- Local compressed JPG card images in `/images`
+- 156 cards included
+- Responsive grid
+- Modal image viewer with left/right arrows
+- Keyboard controls: left, right, escape
+- Dark mode toggle
+- Compact grouped filters for release, set, and color
+- Search by card number, release, set, or color
 
-Upload the contents of this `SJTCGP` folder to the GitHub Pages repository.
+Upload the contents of this folder to the GitHub Pages repository root.

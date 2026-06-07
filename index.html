@@ -9,38 +9,26 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <img class="site-logo" src="assets/sjtcg-logo.svg" alt="SJTCG - Shonen Jump Trading Card Game" />
+      <a class="brand" href="./" aria-label="SJTCG home">
+        <span class="brand-main"><span class="brand-sj">SJ</span><span class="brand-tcg">TCG</span></span>
+        <span class="brand-line" aria-hidden="true"></span>
+        <span class="brand-subtitle">SHONEN JUMP TRADING CARD GAME</span>
+      </a>
       <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">Dark</button>
     </div>
-    <p>Browse cards by image, card number, release, set, and color.</p>
   </header>
 
   <main class="page">
     <section class="controls" aria-label="Search and filters">
-      <div class="control-group">
-        <label for="searchInput">Search</label>
-        <input id="searchInput" type="search" placeholder="Search card number, release, set, or color..." autocomplete="off" />
-      </div>
-
-      <div id="quickFilters" class="quick-filters" aria-label="Quick filters"></div>
-
-      <div class="filter-row">
-        <div class="control-group">
-          <label for="releaseFilter">Release</label>
-          <select id="releaseFilter"><option value="">All releases</option></select>
+      <div class="top-controls">
+        <div class="control-group search-group">
+          <label for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="Card number, release, set, or color..." autocomplete="off" />
         </div>
-        <div class="control-group">
-          <label for="setFilter">Set</label>
-          <select id="setFilter"><option value="">All sets</option></select>
-        </div>
-        <div class="control-group">
-          <label for="colorFilter">Color</label>
-          <select id="colorFilter"><option value="">All colors</option></select>
-        </div>
-        <div class="control-group">
+        <div class="control-group sort-group">
           <label for="sortSelect">Sort</label>
           <select id="sortSelect">
-            <option value="default">Default order</option>
+            <option value="default">Default</option>
             <option value="number">Card number</option>
             <option value="release">Release</option>
             <option value="set">Set</option>
@@ -49,9 +37,24 @@
         </div>
       </div>
 
+      <div class="filter-stack">
+        <div class="filter-section">
+          <h2>Release</h2>
+          <div id="releaseFilters" class="filter-buttons" aria-label="Release filters"></div>
+        </div>
+        <div class="filter-section">
+          <h2>Set</h2>
+          <div id="setFilters" class="filter-buttons" aria-label="Set filters"></div>
+        </div>
+        <div class="filter-section color-section">
+          <h2>Color</h2>
+          <div id="colorFilters" class="filter-buttons color-buttons" aria-label="Color filters"></div>
+        </div>
+      </div>
+
       <div class="actions-row">
         <p id="resultCount">Loading cards...</p>
-        <button id="resetButton" type="button">Reset</button>
+        <button id="resetButton" class="reset-button" type="button">Reset</button>
       </div>
     </section>
 
