@@ -5,6 +5,7 @@ let currentModalIndex = -1;
 let modalCards = [];
 let activeFilters = { release: "", set: "", color: "", type: "" };
 let deck = { leader: "", main: {}, jump: {} };
+let deckSortMode = "number";
 
 const MAIN_DECK_SIZE = 50;
 const colorLetters = { Yellow: "Y", Red: "R", Blue: "B", Green: "G", Pink: "P" };
@@ -20,6 +21,8 @@ const elements = {
   backToDatabase: document.querySelector("#backToDatabase"),
   clearDeck: document.querySelector("#clearDeck"),
   finalizeDeck: document.querySelector("#finalizeDeck"),
+  downloadDeckText: document.querySelector("#downloadDeckText"),
+  deckSortSelect: document.querySelector("#deckSortSelect"),
   searchInput: document.querySelector("#searchInput"),
   releaseFilters: document.querySelector("#releaseFilters"),
   setFilters: document.querySelector("#setFilters"),
@@ -38,6 +41,7 @@ const elements = {
   modalPrev: document.querySelector("#modalPrev"),
   modalNext: document.querySelector("#modalNext"),
   modalAddToDeck: document.querySelector("#modalAddToDeck"),
+  modalAddFourToDeck: document.querySelector("#modalAddFourToDeck"),
   modalRemoveFromDeck: document.querySelector("#modalRemoveFromDeck"),
   modalDeckQty: document.querySelector("#modalDeckQty"),
   leaderStatus: document.querySelector("#leaderStatus"),
@@ -105,6 +109,10 @@ function addEventListeners() {
   elements.modalAddToDeck.addEventListener("click", () => {
     const card = modalCards[currentModalIndex];
     if (card) addCardToDeck(card.number);
+  });
+  elements.modalAddFourToDeck.addEventListener("click", () => {
+    const card = modalCards[currentModalIndex];
+    if (card) addCardCopiesToDeck(card.number, 4);
   });
   elements.modalRemoveFromDeck.addEventListener("click", () => {
     const card = modalCards[currentModalIndex];
@@ -228,7 +236,7 @@ function showModalCard() {
   elements.modalImage.src = card.image;
   elements.modalImage.alt = card.number;
   elements.modalTitle.textContent = card.number;
-  elements.modalMeta.innerHTML = `Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)} · Color: ${colorBadgeHtml(card.color)} ${escapeHtml(card.color)} · ${cardBadgesHtml(card)}`;
+  elements.modalMeta.innerHTML = `<span><strong>Release:</strong> ${escapeHtml(card.release)}</span><span><strong>Set:</strong> ${escapeHtml(card.set)}</span><span><strong>Color:</strong> ${colorBadgeHtml(card.color)} ${escapeHtml(card.color)}</span><span><strong>Type:</strong> ${escapeHtml(card.deckCategory)}</span><span><strong>Limit:</strong> ${card.deckLimit}</span><span>${cardBadgesHtml(card)}</span>`;
   updateModalDeckControls(card);
 }
 function showRelativeCard(offset) { if (!modalCards.length) return; currentModalIndex = (currentModalIndex + offset + modalCards.length) % modalCards.length; showModalCard(); }
@@ -242,7 +250,8 @@ function mainDeckTotal() { return Object.values(deck.main).reduce((sum, qty) => 
 function jumpDeckTotal() { return Object.values(deck.jump).reduce((sum, qty) => sum + Number(qty || 0), 0); }
 function selectedLeader() { return deck.leader ? getCard(deck.leader) : null; }
 
-function addCardToDeck(number) {
+function addCardToDeck(number, options = {}) {
+  const quiet = Boolean(options.quiet);
   const card = getCard(number);
   if (!card) return;
   const leader = selectedLeader();
@@ -251,18 +260,18 @@ function addCardToDeck(number) {
     deck.main = { ...deck.main, [card.number]: 1 };
     // Remove other leaders from main deck.
     Object.keys(deck.main).forEach(n => { const c = getCard(n); if (c && c.cardType === "Leader" && n !== card.number) delete deck.main[n]; });
-    showToast(`${card.number} selected as your Leader.`);
+    if (!quiet) showToast(`${card.number} selected as your Leader.`);
     saveDeck();
     return;
   }
-  if (!leader) { showToast("Choose a Leader first."); return; }
-  if (card.color !== leader.color) { showToast(`This card is ${card.color}. Your Leader is ${leader.color}.`); return; }
+  if (!leader) { if (!quiet) showToast("Choose a Leader first."); return; }
+  if (card.color !== leader.color) { if (!quiet) showToast(`This card is ${card.color}. Your Leader is ${leader.color}.`); return; }
   const zone = card.deckZone === "JUMP" ? "jump" : "main";
   const currentQty = Number(deck[zone][card.number] || 0);
-  if (currentQty >= card.deckLimit) { showToast(`${card.number} is limited to ${card.deckLimit}.`); return; }
-  if (zone === "main" && mainDeckTotal() >= MAIN_DECK_SIZE) { showToast("Main Deck is already at 50 cards."); return; }
+  if (currentQty >= card.deckLimit) { if (!quiet) showToast(`${card.number} is limited to ${card.deckLimit}.`); return; }
+  if (zone === "main" && mainDeckTotal() >= MAIN_DECK_SIZE) { if (!quiet) showToast("Main Deck is already at 50 cards."); return; }
   deck[zone][card.number] = currentQty + 1;
-  showToast(`${card.number} added to ${zone === "jump" ? "JUMP Deck" : "Main Deck"}.`);
+  if (!quiet) showToast(`${card.number} added to ${zone === "jump" ? "JUMP Deck" : "Main Deck"}.`);
   saveDeck();
 }
 function removeOne(number, zone) {
@@ -273,6 +282,22 @@ function removeOne(number, zone) {
   saveDeck();
 }
 function addOne(number, zone) { addCardToDeck(number); }
+function addCardCopiesToDeck(number, requestedCopies) {
+  const card = getCard(number);
+  if (!card) return;
+  let added = 0;
+  for (let i = 0; i < requestedCopies; i++) {
+    const before = getDeckQuantity(card);
+    addCardToDeck(number, { quiet: true });
+    const after = getDeckQuantity(card);
+    if (after <= before) break;
+    added++;
+  }
+  if (added) showToast(`${card.number}: added ${added}.`);
+  else showToast(`Could not add more copies of ${card.number}.`);
+  renderDeck();
+  updateModalDeckControls(card);
+}
 function clearDeck() { if (!confirm("Clear your saved deck?")) return; deck = { leader: "", main: {}, jump: {} }; saveDeck(); showToast("Deck cleared."); }
 
 function renderDeck() {
@@ -287,7 +312,17 @@ function renderDeck() {
   renderDeckMessages(leader, mainTotal);
 }
 function getDeckRows(entries) {
-  return Object.entries(entries).map(([number, qty]) => ({ card: getCard(number), qty: Number(qty || 0) })).filter(row => row.card).sort((a,b) => compareDefault(a.card,b.card));
+  return Object.entries(entries)
+    .map(([number, qty]) => ({ card: getCard(number), qty: Number(qty || 0) }))
+    .filter(row => row.card)
+    .sort(compareDeckRows);
+}
+function compareDeckRows(a, b) {
+  if (deckSortMode === "quantity") return b.qty - a.qty || compareDefault(a.card, b.card);
+  if (deckSortMode === "color") return compareColors(a.card.color, b.card.color) || compareDefault(a.card, b.card);
+  if (deckSortMode === "set") return compareText(a.card.set, b.card.set) || compareDefault(a.card, b.card);
+  if (deckSortMode === "type") return compareTypes(a.card.deckCategory, b.card.deckCategory) || compareDefault(a.card, b.card);
+  return compareDefault(a.card, b.card);
 }
 function renderDeckList(container, entries, zone) {
   const rows = getDeckRows(entries);
@@ -300,7 +335,7 @@ function renderDeckList(container, entries, zone) {
     tile.tabIndex = 0;
     tile.setAttribute("role", "button");
     tile.setAttribute("aria-label", `Open ${card.number} in deck viewer`);
-    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button></div>`;
+    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button></div>`;
     tile.querySelectorAll("button")[0].addEventListener("click", (event) => { event.stopPropagation(); removeOne(card.number, zone); });
     tile.querySelectorAll("button")[1].addEventListener("click", (event) => { event.stopPropagation(); addOne(card.number, zone); });
     tile.addEventListener("click", () => openModal(cardsInThisZone, index));
@@ -318,9 +353,13 @@ function getDeckQuantity(card) {
 function updateModalDeckControls(card) {
   const zoneName = card.deckZone === "JUMP" ? "JUMP Deck" : "Main Deck";
   const qty = getDeckQuantity(card);
-  elements.modalAddToDeck.textContent = `+ Add to ${zoneName}`;
-  elements.modalDeckQty.textContent = `${qty} in ${zoneName}`;
+  const remaining = Math.max(0, card.deckLimit - qty);
+  elements.modalAddToDeck.textContent = `+ Add 1 to ${zoneName}`;
+  elements.modalDeckQty.textContent = `${qty} in ${zoneName} · ${remaining} slot${remaining === 1 ? "" : "s"} left`;
   elements.modalRemoveFromDeck.disabled = qty <= 0;
+  elements.modalAddToDeck.disabled = remaining <= 0 || (card.deckZone !== "JUMP" && card.cardType !== "Leader" && mainDeckTotal() >= MAIN_DECK_SIZE);
+  elements.modalAddFourToDeck.hidden = card.deckLimit <= 1 || card.deckZone === "JUMP" || card.cardType === "Leader";
+  elements.modalAddFourToDeck.disabled = remaining <= 0 || mainDeckTotal() >= MAIN_DECK_SIZE;
 }
 function removeCardFromDeckByCard(card) {
   const zone = cardDeckZoneKey(card);
@@ -352,8 +391,8 @@ function loadImage(src) {
   });
 }
 async function buildDeckCanvasDownload(leader, mainRows, jumpRows) {
-  const cardW = 140, cardH = 196, gap = 16, cols = 10;
-  const headerH = 128, sectionTitleH = 40, footerH = 32;
+  const cardW = 240, cardH = 336, gap = 24, cols = 8;
+  const headerH = 170, sectionTitleH = 56, footerH = 44;
   const mainRowsCount = Math.ceil(mainRows.length / cols) || 1;
   const jumpRowsCount = Math.ceil(jumpRows.length / cols) || 0;
   const width = cols * cardW + (cols + 1) * gap;
@@ -365,10 +404,10 @@ async function buildDeckCanvasDownload(leader, mainRows, jumpRows) {
   ctx.fillStyle = document.body.classList.contains("dark") ? "#0d0d0f" : "#f4f1e8";
   ctx.fillRect(0, 0, width, height);
   ctx.fillStyle = document.body.classList.contains("dark") ? "#f6efe2" : "#151515";
-  ctx.font = "900 42px Arial, sans-serif";
-  ctx.fillText("SJTCG Deck List", gap, 54);
-  ctx.font = "700 23px Arial, sans-serif";
-  ctx.fillText(`Leader: ${leader.number}  •  Color: ${leader.color}  •  Main: ${mainDeckTotal()}/50  •  JUMP: ${jumpDeckTotal()}`, gap, 92);
+  ctx.font = "900 58px Arial, sans-serif";
+  ctx.fillText("SJTCG Deck List", gap, 72);
+  ctx.font = "700 30px Arial, sans-serif";
+  ctx.fillText(`Leader: ${leader.number}  •  Color: ${leader.color}  •  Main: ${mainDeckTotal()}/50  •  JUMP: ${jumpDeckTotal()}`, gap, 122);
   let y = headerH;
   y = await drawDeckSection(ctx, "Main Deck", mainRows, y, { cardW, cardH, gap, cols });
   if (jumpRows.length) y = await drawDeckSection(ctx, "JUMP Deck", jumpRows, y, { cardW, cardH, gap, cols });
@@ -385,9 +424,9 @@ async function buildDeckCanvasDownload(leader, mainRows, jumpRows) {
 async function drawDeckSection(ctx, title, rows, y, layout) {
   const { cardW, cardH, gap, cols } = layout;
   ctx.fillStyle = document.body.classList.contains("dark") ? "#f6efe2" : "#151515";
-  ctx.font = "900 28px Arial, sans-serif";
-  ctx.fillText(title, gap, y + 28);
-  y += 40;
+  ctx.font = "900 38px Arial, sans-serif";
+  ctx.fillText(title, gap, y + 38);
+  y += 56;
   for (let i = 0; i < rows.length; i++) {
     const { card, qty } = rows[i];
     const col = i % cols;
@@ -401,28 +440,69 @@ async function drawDeckSection(ctx, title, rows, y, layout) {
       ctx.fillStyle = "#222"; ctx.fillRect(x, cy, cardW, cardH);
     }
     ctx.fillStyle = "rgba(0,0,0,0.78)";
-    ctx.beginPath(); ctx.roundRect(x + cardW - 50, cy + 8, 42, 32, 10); ctx.fill();
+    ctx.beginPath(); ctx.roundRect(x + cardW - 78, cy + 12, 66, 46, 14); ctx.fill();
     ctx.fillStyle = "#fff";
-    ctx.font = "900 22px Arial, sans-serif";
-    ctx.fillText(`×${qty}`, x + cardW - 44, cy + 31);
+    ctx.font = "900 32px Arial, sans-serif";
+    ctx.fillText(`×${qty}`, x + cardW - 68, cy + 47);
     ctx.fillStyle = "rgba(0,0,0,0.72)";
-    ctx.fillRect(x, cy + cardH - 26, cardW, 26);
+    ctx.fillRect(x, cy + cardH - 42, cardW, 42);
     ctx.fillStyle = "#fff";
-    ctx.font = "800 14px Arial, sans-serif";
-    ctx.fillText(card.number, x + 6, cy + cardH - 8);
+    ctx.font = "800 22px Arial, sans-serif";
+    ctx.fillText(card.number, x + 10, cy + cardH - 13);
   }
   return y + (Math.ceil(rows.length / cols) || 1) * (cardH + gap);
 }
 
 function renderDeckMessages(leader, mainTotal) {
-  const messages = [];
-  if (!leader) messages.push(["warn", "Choose one Leader to set your deck color."]);
-  if (leader) messages.push(["good", `Leader color: ${leader.color}. Only ${leader.color} cards can be added.`]);
-  if (mainTotal < MAIN_DECK_SIZE) messages.push(["warn", `Main Deck needs ${MAIN_DECK_SIZE - mainTotal} more card${MAIN_DECK_SIZE - mainTotal === 1 ? "" : "s"}.`]);
-  if (mainTotal === MAIN_DECK_SIZE) messages.push(["good", "Main Deck is exactly 50 cards."]);
-  if (mainTotal > MAIN_DECK_SIZE) messages.push(["error", "Main Deck has too many cards."]);
-  elements.deckMessages.innerHTML = messages.map(([kind, text]) => `<div class="deck-message ${kind}">${escapeHtml(text)}</div>`).join("");
+  const invalidLimits = findLimitProblems();
+  const colorProblems = findColorProblems(leader);
+  const checks = [
+    [leader ? "good" : "warn", leader ? `Leader selected: ${leader.number} (${leader.color})` : "Choose one Leader"],
+    [mainTotal === MAIN_DECK_SIZE ? "good" : "warn", mainTotal === MAIN_DECK_SIZE ? "Main Deck is 50 / 50" : `Main Deck is ${mainTotal} / 50`],
+    [colorProblems.length ? "error" : "good", colorProblems.length ? `${colorProblems.length} card color issue${colorProblems.length === 1 ? "" : "s"}` : "Color restriction is valid"],
+    [invalidLimits.length ? "error" : "good", invalidLimits.length ? `${invalidLimits.length} card limit issue${invalidLimits.length === 1 ? "" : "s"}` : "Card copy limits are valid"],
+    ["good", `JUMP Deck: ${jumpDeckTotal()} card${jumpDeckTotal() === 1 ? "" : "s"}`]
+  ];
+  elements.deckMessages.innerHTML = checks.map(([kind, text]) => `<div class="deck-message ${kind}"><span class="check-icon">${kind === "good" ? "✓" : kind === "error" ? "!" : "•"}</span>${escapeHtml(text)}</div>`).join("");
 }
+function findLimitProblems() {
+  const rows = [...getDeckRows(deck.main), ...getDeckRows(deck.jump)];
+  return rows.filter(({card, qty}) => qty > card.deckLimit);
+}
+function findColorProblems(leader) {
+  if (!leader) return [];
+  const rows = [...getDeckRows(deck.main), ...getDeckRows(deck.jump)];
+  return rows.filter(({card}) => card.cardType !== "Leader" && card.color !== leader.color);
+}
+function downloadDeckTextList() {
+  const leader = selectedLeader();
+  const mainRows = getDeckRows(deck.main);
+  const jumpRows = getDeckRows(deck.jump);
+  const lines = [];
+  lines.push("SJTCG Deck List");
+  lines.push("================");
+  lines.push("");
+  lines.push(`Leader: ${leader ? leader.number + " (" + leader.color + ")" : "None selected"}`);
+  lines.push(`Main Deck: ${mainDeckTotal()} / ${MAIN_DECK_SIZE}`);
+  lines.push(`JUMP Deck: ${jumpDeckTotal()}`);
+  lines.push("");
+  lines.push("Main Deck:");
+  if (mainRows.length) mainRows.forEach(({card, qty}) => lines.push(`${qty}x ${card.number} - ${card.set} / ${card.color}${card.cardType === "Secret Rare" ? " / Secret Rare" : card.cardType === "Leader" ? " / Leader" : ""}`));
+  else lines.push("None");
+  lines.push("");
+  lines.push("JUMP Deck:");
+  if (jumpRows.length) jumpRows.forEach(({card, qty}) => lines.push(`${qty}x ${card.number} - ${card.set} / ${card.color}`));
+  else lines.push("None");
+  const blob = new Blob([lines.join("\n")], { type: "text/plain;charset=utf-8" });
+  const link = document.createElement("a");
+  const safeLeader = leader ? leader.number : "unfinished";
+  link.download = `SJTCG-deck-${safeLeader}.txt`;
+  link.href = URL.createObjectURL(blob);
+  link.click();
+  URL.revokeObjectURL(link.href);
+  showToast("Text decklist downloaded.");
+}
+
 function showToast(message) {
   elements.toast.textContent = message;
   elements.toast.hidden = false;

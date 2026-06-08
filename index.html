@@ -86,6 +86,7 @@
         <div class="deck-actions">
           <button id="backToDatabase" type="button">Back to Database</button>
           <button id="finalizeDeck" type="button">Finalize / Download Image</button>
+          <button id="downloadDeckText" type="button">Download Text List</button>
           <button id="clearDeck" class="danger-button" type="button">Clear Deck</button>
         </div>
       </section>
@@ -105,7 +106,21 @@
         </article>
       </section>
 
-      <section id="deckMessages" class="deck-messages" aria-live="polite"></section>
+      <section id="deckMessages" class="deck-messages deck-checklist" aria-live="polite"></section>
+
+      <section class="deck-toolbar controls" aria-label="Deck viewer options">
+        <div class="control-group sort-group">
+          <label for="deckSortSelect">Deck Sort</label>
+          <select id="deckSortSelect">
+            <option value="number">Card number</option>
+            <option value="color">Color</option>
+            <option value="set">Set</option>
+            <option value="quantity">Quantity</option>
+            <option value="type">Card type</option>
+          </select>
+        </div>
+        <p class="deck-toolbar-note">Click any card in your deck to enlarge it and manage quantities.</p>
+      </section>
 
       <div class="deck-columns">
         <section class="deck-list-panel">
@@ -135,7 +150,8 @@
         <div id="modalDeckControls" class="modal-deck-controls">
           <button id="modalRemoveFromDeck" class="qty-button" type="button">−</button>
           <span id="modalDeckQty" class="modal-deck-qty">0 in deck</span>
-          <button id="modalAddToDeck" class="add-button" type="button">Add to Deck</button>
+          <button id="modalAddToDeck" class="add-button" type="button">Add 1</button>
+          <button id="modalAddFourToDeck" class="add-button add-four-button" type="button">Add 4</button>
         </div>
       </div>
     </article>
