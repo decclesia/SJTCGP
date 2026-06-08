@@ -173,8 +173,8 @@ button:hover { background: var(--accent-dark); color: #fff; }
 }
 .deck-card-qty {
   position: absolute;
-  top: 0.35rem;
   right: 0.35rem;
+  bottom: 0.35rem;
   min-width: 2.2rem;
   padding: 0.22rem 0.35rem;
   border-radius: 999px;
@@ -236,7 +236,7 @@ button:hover { background: var(--accent-dark); color: #fff; }
   justify-content: space-between;
   align-items: end;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 .deck-toolbar .sort-group {
   width: min(18rem, 100%);
@@ -299,4 +299,98 @@ button:hover { background: var(--accent-dark); color: #fff; }
   .modal-deck-controls { grid-template-columns: auto 1fr; }
   .modal-deck-controls .add-button { grid-column: auto; }
   .modal-deck-controls .add-four-button { grid-column: 1 / -1; }
+}
+
+
+/* Deckbuilder cleanup update */
+.card-actions .add-button { min-width: 2.35rem; width: 2.35rem; height: 2.35rem; padding: 0; font-size: 1.35rem; line-height: 1; }
+.card-color-line { min-height: 1.45rem; }
+.deck-columns { margin-top: 1rem; }
+.deck-checklist { margin-top: 0; }
+
+/* Quality-of-life update */
+.card-image-wrap {
+  position: relative;
+  border-radius: 13px;
+  overflow: hidden;
+  background: var(--surface-2);
+}
+.card-image-wrap img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 7;
+  object-fit: cover;
+  border-radius: 13px;
+}
+.database-deck-qty {
+  position: absolute;
+  right: 0.45rem;
+  top: 0.45rem;
+  min-width: 2.05rem;
+  padding: 0.18rem 0.38rem;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.78);
+  color: #fff;
+  text-align: center;
+  font-size: 0.88rem;
+  font-weight: 950;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.28);
+}
+.card.in-deck {
+  border-color: color-mix(in srgb, var(--accent) 88%, var(--border));
+}
+.deck-status-pill {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.8rem;
+  margin: 0 0 1rem;
+  padding: 0.75rem 0.95rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  color: var(--muted);
+  font-weight: 850;
+}
+.deck-status-pill strong {
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.deck-status-pill.legal {
+  border-color: #4caf50;
+}
+.deck-status-pill.needs-work {
+  border-color: #ffb300;
+}
+.deck-status-pill span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.deck-toolbar {
+  align-items: end;
+}
+.deck-toolbar .control-group {
+  min-width: min(18rem, 100%);
+}
+@media (max-width: 760px) {
+  .deck-header {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    background: color-mix(in srgb, var(--surface) 96%, transparent);
+    backdrop-filter: blur(10px);
+  }
+  .deck-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .deck-actions button:first-child {
+    grid-column: 1 / -1;
+  }
+  .deck-status-pill {
+    border-radius: 18px;
+  }
 }
