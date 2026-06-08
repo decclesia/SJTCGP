@@ -7,7 +7,8 @@
     "image": "images/ST1-001.jpg",
     "deckZone": "Main",
     "cardType": "Leader",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-002",
@@ -16,8 +17,9 @@
     "color": "Yellow",
     "image": "images/ST1-002.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-003",
@@ -26,8 +28,9 @@
     "color": "Yellow",
     "image": "images/ST1-003.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-004",
@@ -36,8 +39,9 @@
     "color": "Yellow",
     "image": "images/ST1-004.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-005",
@@ -46,8 +50,9 @@
     "color": "Yellow",
     "image": "images/ST1-005.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-006",
@@ -56,8 +61,9 @@
     "color": "Yellow",
     "image": "images/ST1-006.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-007",
@@ -66,8 +72,9 @@
     "color": "Yellow",
     "image": "images/ST1-007.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-008",
@@ -76,8 +83,9 @@
     "color": "Yellow",
     "image": "images/ST1-008.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-009",
@@ -86,8 +94,9 @@
     "color": "Yellow",
     "image": "images/ST1-009.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-010",
@@ -96,8 +105,9 @@
     "color": "Yellow",
     "image": "images/ST1-010.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-011",
@@ -106,8 +116,9 @@
     "color": "Yellow",
     "image": "images/ST1-011.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-012",
@@ -116,8 +127,9 @@
     "color": "Yellow",
     "image": "images/ST1-012.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-013",
@@ -126,8 +138,9 @@
     "color": "Yellow",
     "image": "images/ST1-013.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-014",
@@ -136,8 +149,9 @@
     "color": "Yellow",
     "image": "images/ST1-014.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-015",
@@ -146,8 +160,9 @@
     "color": "Yellow",
     "image": "images/ST1-015.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-016",
@@ -156,8 +171,9 @@
     "color": "Yellow",
     "image": "images/ST1-016.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-017",
@@ -166,8 +182,9 @@
     "color": "Yellow",
     "image": "images/ST1-017.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-018",
@@ -176,8 +193,9 @@
     "color": "Yellow",
     "image": "images/ST1-018.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-019",
@@ -186,8 +204,9 @@
     "color": "Yellow",
     "image": "images/ST1-019.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-020",
@@ -196,8 +215,9 @@
     "color": "Yellow",
     "image": "images/ST1-020.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-021",
@@ -206,8 +226,9 @@
     "color": "Yellow",
     "image": "images/ST1-021.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-022",
@@ -216,8 +237,9 @@
     "color": "Yellow",
     "image": "images/ST1-022.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-023",
@@ -226,8 +248,9 @@
     "color": "Yellow",
     "image": "images/ST1-023.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-024",
@@ -236,8 +259,9 @@
     "color": "Yellow",
     "image": "images/ST1-024.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-025",
@@ -246,8 +270,9 @@
     "color": "Yellow",
     "image": "images/ST1-025.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-026",
@@ -257,7 +282,8 @@
     "image": "images/ST1-026.jpg",
     "deckZone": "Main",
     "cardType": "Leader",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-027",
@@ -266,8 +292,9 @@
     "color": "Red",
     "image": "images/ST1-027.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-028",
@@ -276,8 +303,9 @@
     "color": "Red",
     "image": "images/ST1-028.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-029",
@@ -286,8 +314,9 @@
     "color": "Red",
     "image": "images/ST1-029.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-030",
@@ -296,8 +325,9 @@
     "color": "Red",
     "image": "images/ST1-030.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-031",
@@ -306,8 +336,9 @@
     "color": "Red",
     "image": "images/ST1-031.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-032",
@@ -316,8 +347,9 @@
     "color": "Red",
     "image": "images/ST1-032.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-033",
@@ -326,8 +358,9 @@
     "color": "Red",
     "image": "images/ST1-033.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-034",
@@ -336,8 +369,9 @@
     "color": "Red",
     "image": "images/ST1-034.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-035",
@@ -346,8 +380,9 @@
     "color": "Red",
     "image": "images/ST1-035.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-036",
@@ -356,8 +391,9 @@
     "color": "Red",
     "image": "images/ST1-036.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-037",
@@ -366,8 +402,9 @@
     "color": "Red",
     "image": "images/ST1-037.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-038",
@@ -376,8 +413,9 @@
     "color": "Red",
     "image": "images/ST1-038.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-039",
@@ -386,8 +424,9 @@
     "color": "Red",
     "image": "images/ST1-039.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-040",
@@ -396,8 +435,9 @@
     "color": "Red",
     "image": "images/ST1-040.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-041",
@@ -406,8 +446,9 @@
     "color": "Red",
     "image": "images/ST1-041.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-042",
@@ -416,8 +457,9 @@
     "color": "Red",
     "image": "images/ST1-042.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-043",
@@ -426,8 +468,9 @@
     "color": "Red",
     "image": "images/ST1-043.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-044",
@@ -436,8 +479,9 @@
     "color": "Red",
     "image": "images/ST1-044.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-045",
@@ -446,8 +490,9 @@
     "color": "Red",
     "image": "images/ST1-045.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-046",
@@ -456,8 +501,9 @@
     "color": "Red",
     "image": "images/ST1-046.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-047",
@@ -466,8 +512,9 @@
     "color": "Red",
     "image": "images/ST1-047.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-048",
@@ -476,8 +523,9 @@
     "color": "Red",
     "image": "images/ST1-048.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-049",
@@ -486,8 +534,9 @@
     "color": "Red",
     "image": "images/ST1-049.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-050",
@@ -496,8 +545,9 @@
     "color": "Red",
     "image": "images/ST1-050.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-051",
@@ -506,8 +556,9 @@
     "color": "Red",
     "image": "images/ST1-051.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-052",
@@ -517,7 +568,8 @@
     "image": "images/ST1-052.jpg",
     "deckZone": "Main",
     "cardType": "Leader",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-053",
@@ -526,8 +578,9 @@
     "color": "Green",
     "image": "images/ST1-053.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-054",
@@ -536,8 +589,9 @@
     "color": "Green",
     "image": "images/ST1-054.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-055",
@@ -546,8 +600,9 @@
     "color": "Green",
     "image": "images/ST1-055.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-056",
@@ -556,8 +611,9 @@
     "color": "Green",
     "image": "images/ST1-056.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-057",
@@ -566,8 +622,9 @@
     "color": "Green",
     "image": "images/ST1-057.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-058",
@@ -576,8 +633,9 @@
     "color": "Green",
     "image": "images/ST1-058.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-059",
@@ -586,8 +644,9 @@
     "color": "Green",
     "image": "images/ST1-059.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-060",
@@ -596,8 +655,9 @@
     "color": "Green",
     "image": "images/ST1-060.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-061",
@@ -606,8 +666,9 @@
     "color": "Green",
     "image": "images/ST1-061.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-062",
@@ -616,8 +677,9 @@
     "color": "Green",
     "image": "images/ST1-062.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-063",
@@ -626,8 +688,9 @@
     "color": "Green",
     "image": "images/ST1-063.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-064",
@@ -636,8 +699,9 @@
     "color": "Green",
     "image": "images/ST1-064.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-065",
@@ -646,8 +710,9 @@
     "color": "Green",
     "image": "images/ST1-065.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-066",
@@ -656,8 +721,9 @@
     "color": "Green",
     "image": "images/ST1-066.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-067",
@@ -666,8 +732,9 @@
     "color": "Green",
     "image": "images/ST1-067.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-068",
@@ -676,8 +743,9 @@
     "color": "Green",
     "image": "images/ST1-068.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-069",
@@ -686,8 +754,9 @@
     "color": "Green",
     "image": "images/ST1-069.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-070",
@@ -696,8 +765,9 @@
     "color": "Green",
     "image": "images/ST1-070.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-071",
@@ -706,8 +776,9 @@
     "color": "Green",
     "image": "images/ST1-071.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-072",
@@ -716,8 +787,9 @@
     "color": "Green",
     "image": "images/ST1-072.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-073",
@@ -726,8 +798,9 @@
     "color": "Green",
     "image": "images/ST1-073.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-074",
@@ -736,8 +809,9 @@
     "color": "Green",
     "image": "images/ST1-074.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-075",
@@ -746,8 +820,9 @@
     "color": "Green",
     "image": "images/ST1-075.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-076",
@@ -756,8 +831,9 @@
     "color": "Green",
     "image": "images/ST1-076.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-077",
@@ -767,7 +843,8 @@
     "image": "images/ST1-077.jpg",
     "deckZone": "Main",
     "cardType": "Leader",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-078",
@@ -776,8 +853,9 @@
     "color": "Blue",
     "image": "images/ST1-078.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-079",
@@ -786,8 +864,9 @@
     "color": "Blue",
     "image": "images/ST1-079.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-080",
@@ -796,8 +875,9 @@
     "color": "Blue",
     "image": "images/ST1-080.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-081",
@@ -806,8 +886,9 @@
     "color": "Blue",
     "image": "images/ST1-081.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-082",
@@ -816,8 +897,9 @@
     "color": "Blue",
     "image": "images/ST1-082.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-083",
@@ -826,8 +908,9 @@
     "color": "Blue",
     "image": "images/ST1-083.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-084",
@@ -836,8 +919,9 @@
     "color": "Blue",
     "image": "images/ST1-084.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-085",
@@ -846,8 +930,9 @@
     "color": "Blue",
     "image": "images/ST1-085.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-086",
@@ -856,8 +941,9 @@
     "color": "Blue",
     "image": "images/ST1-086.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-087",
@@ -866,8 +952,9 @@
     "color": "Blue",
     "image": "images/ST1-087.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-088",
@@ -876,8 +963,9 @@
     "color": "Blue",
     "image": "images/ST1-088.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-089",
@@ -886,8 +974,9 @@
     "color": "Blue",
     "image": "images/ST1-089.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-090",
@@ -896,8 +985,9 @@
     "color": "Blue",
     "image": "images/ST1-090.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-091",
@@ -906,8 +996,9 @@
     "color": "Blue",
     "image": "images/ST1-091.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-092",
@@ -916,8 +1007,9 @@
     "color": "Blue",
     "image": "images/ST1-092.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-093",
@@ -926,8 +1018,9 @@
     "color": "Blue",
     "image": "images/ST1-093.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-094",
@@ -936,8 +1029,9 @@
     "color": "Blue",
     "image": "images/ST1-094.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-095",
@@ -946,8 +1040,9 @@
     "color": "Blue",
     "image": "images/ST1-095.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-096",
@@ -956,8 +1051,9 @@
     "color": "Blue",
     "image": "images/ST1-096.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-097",
@@ -966,8 +1062,9 @@
     "color": "Blue",
     "image": "images/ST1-097.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-098",
@@ -976,8 +1073,9 @@
     "color": "Blue",
     "image": "images/ST1-098.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-099",
@@ -986,8 +1084,9 @@
     "color": "Blue",
     "image": "images/ST1-099.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-100",
@@ -996,8 +1095,9 @@
     "color": "Blue",
     "image": "images/ST1-100.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-101",
@@ -1007,7 +1107,8 @@
     "image": "images/ST1-101.jpg",
     "deckZone": "Main",
     "cardType": "Leader",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-126",
@@ -1017,7 +1118,8 @@
     "image": "images/ST1-126.jpg",
     "deckZone": "Main",
     "cardType": "Secret Rare",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "ST1-127",
@@ -1027,7 +1129,8 @@
     "image": "images/ST1-127.jpg",
     "deckZone": "Main",
     "cardType": "Secret Rare",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-001",
@@ -1037,7 +1140,8 @@
     "image": "images/SD1-001.jpg",
     "deckZone": "Main",
     "cardType": "Leader",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-002",
@@ -1046,8 +1150,9 @@
     "color": "Blue",
     "image": "images/SD1-002.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-003",
@@ -1056,8 +1161,9 @@
     "color": "Blue",
     "image": "images/SD1-003.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-004",
@@ -1066,8 +1172,9 @@
     "color": "Blue",
     "image": "images/SD1-004.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-005",
@@ -1076,8 +1183,9 @@
     "color": "Blue",
     "image": "images/SD1-005.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-006",
@@ -1086,8 +1194,9 @@
     "color": "Blue",
     "image": "images/SD1-006.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-007",
@@ -1096,8 +1205,9 @@
     "color": "Blue",
     "image": "images/SD1-007.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-008",
@@ -1106,8 +1216,9 @@
     "color": "Blue",
     "image": "images/SD1-008.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-009",
@@ -1116,8 +1227,9 @@
     "color": "Blue",
     "image": "images/SD1-009.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-010",
@@ -1126,8 +1238,9 @@
     "color": "Blue",
     "image": "images/SD1-010.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-011",
@@ -1136,8 +1249,9 @@
     "color": "Blue",
     "image": "images/SD1-011.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-012",
@@ -1146,8 +1260,9 @@
     "color": "Blue",
     "image": "images/SD1-012.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-013",
@@ -1156,8 +1271,9 @@
     "color": "Blue",
     "image": "images/SD1-013.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-014",
@@ -1166,8 +1282,9 @@
     "color": "Blue",
     "image": "images/SD1-014.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-015",
@@ -1176,8 +1293,9 @@
     "color": "Blue",
     "image": "images/SD1-015.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-016",
@@ -1186,8 +1304,9 @@
     "color": "Blue",
     "image": "images/SD1-016.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-017",
@@ -1196,8 +1315,9 @@
     "color": "Blue",
     "image": "images/SD1-017.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "SD1-018",
@@ -1206,8 +1326,9 @@
     "color": "Blue",
     "image": "images/SD1-018.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "SD1-019",
@@ -1216,8 +1337,9 @@
     "color": "Blue",
     "image": "images/SD1-019.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "SD1-020",
@@ -1226,8 +1348,9 @@
     "color": "Blue",
     "image": "images/SD1-020.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-001",
@@ -1237,7 +1360,8 @@
     "image": "images/SD2-001.jpg",
     "deckZone": "Main",
     "cardType": "Leader",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-002",
@@ -1246,8 +1370,9 @@
     "color": "Pink",
     "image": "images/SD2-002.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-003",
@@ -1256,8 +1381,9 @@
     "color": "Pink",
     "image": "images/SD2-003.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-004",
@@ -1266,8 +1392,9 @@
     "color": "Pink",
     "image": "images/SD2-004.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-005",
@@ -1276,8 +1403,9 @@
     "color": "Pink",
     "image": "images/SD2-005.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-006",
@@ -1286,8 +1414,9 @@
     "color": "Pink",
     "image": "images/SD2-006.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-007",
@@ -1296,8 +1425,9 @@
     "color": "Pink",
     "image": "images/SD2-007.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-008",
@@ -1306,8 +1436,9 @@
     "color": "Pink",
     "image": "images/SD2-008.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-009",
@@ -1316,8 +1447,9 @@
     "color": "Pink",
     "image": "images/SD2-009.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-010",
@@ -1326,8 +1458,9 @@
     "color": "Pink",
     "image": "images/SD2-010.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-011",
@@ -1336,8 +1469,9 @@
     "color": "Pink",
     "image": "images/SD2-011.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-012",
@@ -1346,8 +1480,9 @@
     "color": "Pink",
     "image": "images/SD2-012.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-013",
@@ -1356,8 +1491,9 @@
     "color": "Pink",
     "image": "images/SD2-013.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-014",
@@ -1366,8 +1502,9 @@
     "color": "Pink",
     "image": "images/SD2-014.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-015",
@@ -1376,8 +1513,9 @@
     "color": "Pink",
     "image": "images/SD2-015.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-016",
@@ -1386,8 +1524,9 @@
     "color": "Pink",
     "image": "images/SD2-016.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-017",
@@ -1396,8 +1535,9 @@
     "color": "Pink",
     "image": "images/SD2-017.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-018",
@@ -1406,8 +1546,9 @@
     "color": "Pink",
     "image": "images/SD2-018.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "SD2-019",
@@ -1416,8 +1557,9 @@
     "color": "Pink",
     "image": "images/SD2-019.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "SD2-020",
@@ -1426,8 +1568,9 @@
     "color": "Pink",
     "image": "images/SD2-020.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "EX1-001",
@@ -1437,7 +1580,8 @@
     "image": "images/EX1-001.jpg",
     "deckZone": "Main",
     "cardType": "Leader",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-002",
@@ -1446,8 +1590,9 @@
     "color": "Red",
     "image": "images/EX1-002.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-003",
@@ -1456,8 +1601,9 @@
     "color": "Red",
     "image": "images/EX1-003.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-004",
@@ -1466,8 +1612,9 @@
     "color": "Red",
     "image": "images/EX1-004.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-005",
@@ -1476,8 +1623,9 @@
     "color": "Red",
     "image": "images/EX1-005.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-006",
@@ -1486,8 +1634,9 @@
     "color": "Red",
     "image": "images/EX1-006.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-007",
@@ -1496,8 +1645,9 @@
     "color": "Red",
     "image": "images/EX1-007.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-008",
@@ -1506,8 +1656,9 @@
     "color": "Red",
     "image": "images/EX1-008.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-009",
@@ -1516,8 +1667,9 @@
     "color": "Red",
     "image": "images/EX1-009.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-010",
@@ -1526,8 +1678,9 @@
     "color": "Red",
     "image": "images/EX1-010.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-011",
@@ -1536,8 +1689,9 @@
     "color": "Red",
     "image": "images/EX1-011.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-012",
@@ -1546,8 +1700,9 @@
     "color": "Red",
     "image": "images/EX1-012.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-013",
@@ -1556,8 +1711,9 @@
     "color": "Red",
     "image": "images/EX1-013.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-014",
@@ -1566,8 +1722,9 @@
     "color": "Red",
     "image": "images/EX1-014.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-015",
@@ -1576,8 +1733,9 @@
     "color": "Red",
     "image": "images/EX1-015.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-016",
@@ -1586,8 +1744,9 @@
     "color": "Red",
     "image": "images/EX1-016.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-017",
@@ -1596,8 +1755,9 @@
     "color": "Red",
     "image": "images/EX1-017.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-018",
@@ -1606,8 +1766,9 @@
     "color": "Red",
     "image": "images/EX1-018.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "EX1-019",
@@ -1616,8 +1777,9 @@
     "color": "Red",
     "image": "images/EX1-019.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "EX1-020",
@@ -1626,8 +1788,9 @@
     "color": "Red",
     "image": "images/EX1-020.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "EX1-021",
@@ -1636,8 +1799,9 @@
     "color": "Red",
     "image": "images/EX1-021.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "PUP-001",
@@ -1646,8 +1810,9 @@
     "color": "Yellow",
     "image": "images/PUP-001.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-002",
@@ -1656,8 +1821,9 @@
     "color": "Yellow",
     "image": "images/PUP-002.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-003",
@@ -1666,8 +1832,9 @@
     "color": "Yellow",
     "image": "images/PUP-003.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "PUP-004",
@@ -1676,8 +1843,9 @@
     "color": "Red",
     "image": "images/PUP-004.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-005",
@@ -1686,8 +1854,9 @@
     "color": "Red",
     "image": "images/PUP-005.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-006",
@@ -1696,8 +1865,9 @@
     "color": "Red",
     "image": "images/PUP-006.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-007",
@@ -1706,8 +1876,9 @@
     "color": "Green",
     "image": "images/PUP-007.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-008",
@@ -1716,8 +1887,9 @@
     "color": "Green",
     "image": "images/PUP-008.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-009",
@@ -1726,8 +1898,9 @@
     "color": "Green",
     "image": "images/PUP-009.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-010",
@@ -1736,8 +1909,9 @@
     "color": "Blue",
     "image": "images/PUP-010.jpg",
     "deckZone": "Main",
-    "cardType": "Normal",
-    "deckLimit": 4
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   },
   {
     "number": "PUP-011",
@@ -1746,8 +1920,9 @@
     "color": "Blue",
     "image": "images/PUP-011.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "PUP-012",
@@ -1756,8 +1931,9 @@
     "color": "Blue",
     "image": "images/PUP-012.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
   },
   {
     "number": "PUP-013",
@@ -1766,8 +1942,9 @@
     "color": "Blue",
     "image": "images/PUP-013.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   },
   {
     "number": "PUP-014",
@@ -1776,7 +1953,8 @@
     "color": "Blue",
     "image": "images/PUP-014.jpg",
     "deckZone": "JUMP",
-    "cardType": "JUMP",
-    "deckLimit": 1
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
   }
 ]

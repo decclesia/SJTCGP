@@ -450,3 +450,33 @@ button:hover { background: var(--accent-dark); color: #fff; }
     grid-template-columns: minmax(92px, 118px);
   }
 }
+
+/* Orientation-aware JUMP/layout update */
+.card.orientation-landscape img,
+.card.orientation-landscape .card-image-wrap img {
+  aspect-ratio: 7 / 5;
+  object-fit: contain;
+}
+.deck-card-tile.orientation-landscape .deck-card-image-wrap img {
+  aspect-ratio: 7 / 5;
+  object-fit: contain;
+}
+.deck-card-tile.orientation-landscape .deck-card-image-wrap {
+  background: var(--surface-2);
+}
+.image-path-button {
+  width: 100%;
+  margin: 0 0 0.7rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  border: 1px solid color-mix(in srgb, var(--border) 75%, transparent);
+  font-size: 0.8rem;
+  font-weight: 850;
+  text-align: center;
+}
+.image-path-button:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
