@@ -1,0 +1,1782 @@
+[
+  {
+    "number": "ST1-001",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1
+  },
+  {
+    "number": "ST1-002",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-003",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-004",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-005",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-006",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-007",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-008",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-009",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-010",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-011",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-012",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-013",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-014",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-015",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-016",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-017",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-017.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-018",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-019",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-019.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-020",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-020.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-021",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-021.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-022",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-022.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-023",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-023.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-024",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-024.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-025",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-025.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-026",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-026.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1
+  },
+  {
+    "number": "ST1-027",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-027.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-028",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-028.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-029",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-029.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-030",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-030.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-031",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-031.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-032",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-032.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-033",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-033.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-034",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-034.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-035",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-035.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-036",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-036.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-037",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-037.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-038",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-038.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-039",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-039.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-040",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-040.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-041",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-041.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-042",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-042.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-043",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-043.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-044",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-044.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-045",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-045.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-046",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-046.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-047",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-047.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-048",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-048.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-049",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-049.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-050",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-050.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-051",
+    "release": "ST1",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/ST1-051.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-052",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-052.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1
+  },
+  {
+    "number": "ST1-053",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-053.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-054",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-054.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-055",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-055.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-056",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-056.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "ST1-057",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-057.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-058",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-058.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-059",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-059.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-060",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-060.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-061",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-061.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-062",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-062.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-063",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-063.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-064",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-064.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-065",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-065.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-066",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-066.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-067",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-067.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "ST1-068",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-068.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-069",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-069.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-070",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-070.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-071",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-071.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-072",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-072.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-073",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-073.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-074",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-074.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-075",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-075.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-076",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-076.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-077",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-077.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1
+  },
+  {
+    "number": "ST1-078",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-078.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-079",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-079.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-080",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-080.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-081",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-081.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-082",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-082.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-083",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-083.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-084",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-084.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-085",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-085.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-086",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-086.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-087",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-087.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-088",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-088.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-089",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-089.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-090",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-090.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-091",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-091.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-092",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-092.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-093",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-093.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-094",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-094.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-095",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-095.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-096",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-096.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-097",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-097.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-098",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-098.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-099",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-099.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-100",
+    "release": "ST1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST1-100.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "ST1-101",
+    "release": "ST1",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/ST1-101.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1
+  },
+  {
+    "number": "ST1-126",
+    "release": "ST1",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/ST1-126.jpg",
+    "deckZone": "Main",
+    "cardType": "Secret Rare",
+    "deckLimit": 1
+  },
+  {
+    "number": "ST1-127",
+    "release": "ST1",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/ST1-127.jpg",
+    "deckZone": "Main",
+    "cardType": "Secret Rare",
+    "deckLimit": 1
+  },
+  {
+    "number": "SD1-001",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1
+  },
+  {
+    "number": "SD1-002",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-003",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-004",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-005",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-006",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-007",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-008",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-009",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-010",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-011",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-012",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-013",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-014",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-015",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-016",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD1-017",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-017.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "SD1-018",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-018.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "SD1-019",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-019.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "SD1-020",
+    "release": "SD1",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/SD1-020.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "SD2-001",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1
+  },
+  {
+    "number": "SD2-002",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-003",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-004",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-005",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-006",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-007",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-008",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-009",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-010",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-011",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-012",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-013",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-014",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-015",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-016",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-017",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-017.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-018",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "SD2-019",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-019.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "SD2-020",
+    "release": "SD2",
+    "set": "JBA",
+    "color": "Pink",
+    "image": "images/SD2-020.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "EX1-001",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1
+  },
+  {
+    "number": "EX1-002",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-003",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-004",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-005",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-006",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-007",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-008",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-009",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-010",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-011",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-012",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-013",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-014",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-015",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-016",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-017",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-017.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-018",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "EX1-019",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-019.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "EX1-020",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-020.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "EX1-021",
+    "release": "EX1",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/EX1-021.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-001",
+    "release": "PUP",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/PUP-001.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-002",
+    "release": "PUP",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/PUP-002.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-003",
+    "release": "PUP",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/PUP-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "PUP-004",
+    "release": "PUP",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/PUP-004.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-005",
+    "release": "PUP",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/PUP-005.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-006",
+    "release": "PUP",
+    "set": "HNI",
+    "color": "Red",
+    "image": "images/PUP-006.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-007",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/PUP-007.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-008",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/PUP-008.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-009",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Green",
+    "image": "images/PUP-009.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-010",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Normal",
+    "deckLimit": 4
+  },
+  {
+    "number": "PUP-011",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-011.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-012",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-012.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-013",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-013.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  },
+  {
+    "number": "PUP-014",
+    "release": "PUP",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/PUP-014.jpg",
+    "deckZone": "JUMP",
+    "cardType": "JUMP",
+    "deckLimit": 1
+  }
+]
