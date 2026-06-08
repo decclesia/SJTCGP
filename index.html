@@ -64,6 +64,10 @@
         </div>
 
         <div class="actions-row">
+          <label class="playable-toggle">
+            <input id="playableOnlyToggle" type="checkbox" />
+            <span>Only playable with selected Leader</span>
+          </label>
           <p id="resultCount">Loading cards...</p>
           <button id="resetButton" class="reset-button" type="button">Reset</button>
         </div>
@@ -106,6 +110,11 @@
       </section>
 
       <section id="deckStatusPill" class="deck-status-pill" aria-live="polite">No deck selected</section>
+
+      <section class="deck-list-panel leader-deck-panel">
+        <h2>Leader</h2>
+        <div id="leaderDeckList" class="deck-list leader-deck-list"></div>
+      </section>
 
       <div class="deck-columns">
         <section class="deck-list-panel">

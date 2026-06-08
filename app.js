@@ -23,6 +23,7 @@ const elements = {
   finalizeDeck: document.querySelector("#finalizeDeck"),
   exportTemplateSelect: document.querySelector("#exportTemplateSelect"),
   deckStatusPill: document.querySelector("#deckStatusPill"),
+  playableOnlyToggle: document.querySelector("#playableOnlyToggle"),
   deckSortSelect: document.querySelector("#deckSortSelect"),
   searchInput: document.querySelector("#searchInput"),
   releaseFilters: document.querySelector("#releaseFilters"),
@@ -46,6 +47,7 @@ const elements = {
   modalRemoveFromDeck: document.querySelector("#modalRemoveFromDeck"),
   modalDeckQty: document.querySelector("#modalDeckQty"),
   leaderStatus: document.querySelector("#leaderStatus"),
+  leaderDeckList: document.querySelector("#leaderDeckList"),
   mainDeckCount: document.querySelector("#mainDeckCount"),
   jumpDeckCount: document.querySelector("#jumpDeckCount"),
   mainDeckList: document.querySelector("#mainDeckList"),
@@ -105,6 +107,7 @@ function addEventListeners() {
   elements.searchInput.addEventListener("input", renderCards);
   elements.sortSelect.addEventListener("change", renderCards);
   elements.resetButton.addEventListener("click", resetFilters);
+  if (elements.playableOnlyToggle) elements.playableOnlyToggle.addEventListener("change", renderCards);
   elements.deckSortSelect.addEventListener("change", () => { deckSortMode = elements.deckSortSelect.value; renderDeck(); });
   elements.modalPrev.addEventListener("click", () => showRelativeCard(-1));
   elements.modalNext.addEventListener("click", () => showRelativeCard(1));
@@ -167,9 +170,13 @@ function uniqueValues(values) { return [...new Set(values.filter(Boolean))]; }
 
 function renderCards() {
   const searchText = elements.searchInput.value.trim().toLowerCase();
+  const leader = selectedLeader();
+  const playableOnly = Boolean(elements.playableOnlyToggle && elements.playableOnlyToggle.checked && leader);
   visibleCards = allCards.filter(card => {
     const searchableText = [card.number, card.release, card.set, card.color, card.cardType, card.deckZone, card.deckCategory, card.rarity].join(" ").toLowerCase();
-    return (!searchText || searchableText.includes(searchText)) &&
+    const isPlayableWithLeader = !playableOnly || card.number === leader.number || card.color === leader.color;
+    return isPlayableWithLeader &&
+      (!searchText || searchableText.includes(searchText)) &&
       (!activeFilters.release || card.release === activeFilters.release) &&
       (!activeFilters.set || card.set === activeFilters.set) &&
       (!activeFilters.color || card.color === activeFilters.color) &&
@@ -254,6 +261,7 @@ function saveDeck() {
   localStorage.setItem("sjtcg-deck", JSON.stringify(deck));
   renderDeck();
   updateDatabaseDeckBadges();
+  if (elements.playableOnlyToggle && elements.playableOnlyToggle.checked) renderCards();
 }
 function totalCopiesInDeck(number) {
   return Number(deck.main[number] || 0) + Number(deck.jump[number] || 0);
@@ -335,6 +343,11 @@ function renderDeck() {
   elements.leaderStatus.innerHTML = leader ? `${escapeHtml(leader.number)} ${colorBadgeHtml(leader.color)}` : "None selected";
   elements.mainDeckCount.textContent = `${mainTotal} / ${MAIN_DECK_SIZE}`;
   elements.jumpDeckCount.textContent = `${jumpTotal}`;
+  if (elements.playableOnlyToggle) {
+    elements.playableOnlyToggle.disabled = !leader;
+    elements.playableOnlyToggle.closest("label")?.classList.toggle("disabled", !leader);
+  }
+  renderLeaderDeckPanel(leader);
   renderDeckList(elements.mainDeckList, deck.main, "main");
   renderDeckList(elements.jumpDeckList, deck.jump, "jump");
   renderDeckStatusPill(leader, mainTotal);
@@ -353,8 +366,25 @@ function compareDeckRows(a, b) {
   if (deckSortMode === "type") return compareTypes(a.card.deckCategory, b.card.deckCategory) || compareDefault(a.card, b.card);
   return compareDefault(a.card, b.card);
 }
+function renderLeaderDeckPanel(leader) {
+  if (!elements.leaderDeckList) return;
+  if (!leader) { elements.leaderDeckList.innerHTML = `<p class="deck-message">No Leader selected.</p>`; return; }
+  elements.leaderDeckList.innerHTML = "";
+  const tile = document.createElement("article");
+  tile.className = "deck-card-tile leader-tile";
+  tile.tabIndex = 0;
+  tile.setAttribute("role", "button");
+  tile.setAttribute("aria-label", `Open ${leader.number} in deck viewer`);
+  tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(leader.image)}" alt="${escapeHtml(leader.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×1</strong></div><div class="deck-card-caption"><strong>${escapeHtml(leader.number)}</strong><span>${colorBadgeHtml(leader.color)} ${escapeHtml(leader.set)}</span><small>Leader · Limit ${leader.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove ${escapeHtml(leader.number)} as Leader">−</button></div>`;
+  tile.querySelector("button").addEventListener("click", (event) => { event.stopPropagation(); removeOne(leader.number, "main"); });
+  tile.addEventListener("click", () => openModal([leader], 0));
+  tile.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal([leader], 0); } });
+  elements.leaderDeckList.appendChild(tile);
+}
+
 function renderDeckList(container, entries, zone) {
-  const rows = getDeckRows(entries);
+  let rows = getDeckRows(entries);
+  if (zone === "main") rows = rows.filter(({card}) => card.cardType !== "Leader");
   if (!rows.length) { container.innerHTML = `<p class="deck-message">No cards yet.</p>`; return; }
   const cardsInThisZone = rows.map(row => row.card);
   container.innerHTML = "";
@@ -398,7 +428,7 @@ function removeCardFromDeckByCard(card) {
 
 async function finalizeDeckImage() {
   const leader = selectedLeader();
-  const mainRows = getDeckRows(deck.main);
+  const mainRows = getDeckRows(deck.main).filter(({card}) => card.cardType !== "Leader");
   const jumpRows = getDeckRows(deck.jump);
   if (!leader) { showToast("Choose a Leader before finalizing."); return; }
   if (mainDeckTotal() !== MAIN_DECK_SIZE) { showToast("Main Deck must be exactly 50 cards before finalizing."); return; }
@@ -426,12 +456,25 @@ async function buildDeckCanvasDownload(leader, mainRows, jumpRows, template = "l
     social: { cardW: 300, cols: 5, gap: 26, label: "social" }
   };
   const selected = templates[template] || templates.large;
-  const cardW = selected.cardW, cardH = Math.round(cardW * 1.4), gap = selected.gap, cols = selected.cols;
-  const headerH = 170, sectionTitleH = 56, footerH = 44;
-  const mainRowsCount = Math.ceil(mainRows.length / cols) || 1;
-  const jumpRowsCount = Math.ceil(jumpRows.length / cols) || 0;
+  const cardW = selected.cardW;
+  const cardH = Math.round(cardW * 1.4);
+  const gap = selected.gap;
+  const cols = selected.cols;
+  const headerH = 170;
+  const sectionTitleH = 56;
+  const footerH = 44;
   const width = cols * cardW + (cols + 1) * gap;
-  const height = headerH + sectionTitleH + mainRowsCount * (cardH + gap) + (jumpRows.length ? sectionTitleH + jumpRowsCount * (cardH + gap) : 0) + footerH;
+
+  const jumpCardW = Math.min(Math.round(cardW * 1.65), Math.floor((width - gap * 2) / 2));
+  const jumpCardH = Math.round(jumpCardW * 0.75);
+  const jumpCols = Math.max(1, Math.floor((width - gap) / (jumpCardW + gap)));
+
+  const mainRowsCount = Math.ceil(mainRows.length / cols) || 1;
+  const jumpRowsCount = Math.ceil(jumpRows.length / jumpCols) || 0;
+  const leaderRowsCount = 1;
+  const height = headerH + sectionTitleH + leaderRowsCount * (cardH + gap) + sectionTitleH + mainRowsCount * (cardH + gap) +
+    (jumpRows.length ? sectionTitleH + jumpRowsCount * (jumpCardH + gap) : 0) + footerH;
+
   const canvas = document.createElement("canvas");
   canvas.width = width;
   canvas.height = height;
@@ -443,9 +486,14 @@ async function buildDeckCanvasDownload(leader, mainRows, jumpRows, template = "l
   ctx.fillText("SJTCG Deck List", gap, 72);
   ctx.font = "700 30px Arial, sans-serif";
   drawExportHeaderLine(ctx, leader, gap, 122);
+
   let y = headerH;
-  y = await drawDeckSection(ctx, "Main Deck", mainRows, y, { cardW, cardH, gap, cols });
-  if (jumpRows.length) y = await drawDeckSection(ctx, "JUMP Deck", jumpRows, y, { cardW, cardH, gap, cols });
+  y = await drawDeckSection(ctx, "Leader", [{ card: leader, qty: 1 }], y, { cardW, cardH, gap, cols, fit: "cover" });
+  y = await drawDeckSection(ctx, "Main Deck", mainRows, y, { cardW, cardH, gap, cols, fit: "cover" });
+  if (jumpRows.length) {
+    y = await drawDeckSection(ctx, "JUMP Deck", jumpRows, y, { cardW: jumpCardW, cardH: jumpCardH, gap, cols: jumpCols, fit: "contain" });
+  }
+
   ctx.fillStyle = document.body.classList.contains("dark") ? "#c8b98f" : "#6d6251";
   ctx.font = "700 16px Arial, sans-serif";
   ctx.fillText("Generated locally from SJTCG Card Database", gap, height - 12);
@@ -487,7 +535,7 @@ function drawColorBadgeOnCanvas(ctx, color, x, y, size) {
 }
 
 async function drawDeckSection(ctx, title, rows, y, layout) {
-  const { cardW, cardH, gap, cols } = layout;
+  const { cardW, cardH, gap, cols, fit = "cover" } = layout;
   ctx.fillStyle = document.body.classList.contains("dark") ? "#f6efe2" : "#151515";
   ctx.font = "900 38px Arial, sans-serif";
   ctx.fillText(title, gap, y + 38);
@@ -500,17 +548,53 @@ async function drawDeckSection(ctx, title, rows, y, layout) {
     const cy = y + row * (cardH + gap);
     try {
       const img = await loadImage(card.image);
-      ctx.drawImage(img, x, cy, cardW, cardH);
+      if (fit === "contain") {
+        ctx.fillStyle = document.body.classList.contains("dark") ? "#171717" : "#fffaf0";
+        ctx.fillRect(x, cy, cardW, cardH);
+        drawImageContain(ctx, img, x, cy, cardW, cardH);
+      } else {
+        drawImageCover(ctx, img, x, cy, cardW, cardH);
+      }
     } catch {
       ctx.fillStyle = "#222"; ctx.fillRect(x, cy, cardW, cardH);
     }
-    ctx.fillStyle = "rgba(0,0,0,0.78)";
-    ctx.beginPath(); ctx.roundRect(x + cardW - 76, cy + cardH - 58, 64, 46, 14); ctx.fill();
-    ctx.fillStyle = "#fff";
-    ctx.font = "900 32px Arial, sans-serif";
-    ctx.fillText(`×${qty}`, x + cardW - 66, cy + cardH - 23);
+    drawQuantityBadge(ctx, qty, x, cy, cardW, cardH);
   }
   return y + (Math.ceil(rows.length / cols) || 1) * (cardH + gap);
+}
+function drawImageCover(ctx, img, x, y, w, h) {
+  const scale = Math.max(w / img.naturalWidth, h / img.naturalHeight);
+  const sw = w / scale;
+  const sh = h / scale;
+  const sx = (img.naturalWidth - sw) / 2;
+  const sy = (img.naturalHeight - sh) / 2;
+  ctx.drawImage(img, sx, sy, sw, sh, x, y, w, h);
+}
+function drawImageContain(ctx, img, x, y, w, h) {
+  const scale = Math.min(w / img.naturalWidth, h / img.naturalHeight);
+  const dw = img.naturalWidth * scale;
+  const dh = img.naturalHeight * scale;
+  const dx = x + (w - dw) / 2;
+  const dy = y + (h - dh) / 2;
+  ctx.drawImage(img, dx, dy, dw, dh);
+}
+function drawQuantityBadge(ctx, qty, x, y, w, h) {
+  const badgeW = Math.max(34, Math.round(w * 0.16));
+  const badgeH = Math.max(24, Math.round(badgeW * 0.58));
+  const pad = Math.max(5, Math.round(w * 0.025));
+  const bx = x + w - badgeW - pad;
+  const by = y + h - badgeH - pad;
+  ctx.fillStyle = "rgba(0,0,0,0.72)";
+  ctx.beginPath();
+  ctx.roundRect(bx, by, badgeW, badgeH, Math.round(badgeH / 2));
+  ctx.fill();
+  ctx.fillStyle = "#fff";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.font = `900 ${Math.max(16, Math.round(badgeH * 0.58))}px Arial, sans-serif`;
+  ctx.fillText(`×${qty}`, bx + badgeW / 2, by + badgeH / 2 + 1);
+  ctx.textAlign = "start";
+  ctx.textBaseline = "alphabetic";
 }
 
 function renderDeckStatusPill(leader, mainTotal) {
