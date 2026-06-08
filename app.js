@@ -2,13 +2,14 @@
 let allCards = [];
 let visibleCards = [];
 let currentModalIndex = -1;
+let modalCards = [];
 let activeFilters = { release: "", set: "", color: "", type: "" };
 let deck = { leader: "", main: {}, jump: {} };
 
 const MAIN_DECK_SIZE = 50;
 const colorLetters = { Yellow: "Y", Red: "R", Blue: "B", Green: "G", Pink: "P" };
 const colorOrder = { Yellow: 0, Red: 1, Blue: 2, Green: 3, Pink: 4 };
-const typeOrder = { Leader: 0, "Secret Rare": 1, JUMP: 2, Normal: 3 };
+const typeOrder = { Leader: 0, "Main Deck": 1, "JUMP Deck": 2 };
 
 const elements = {
   databaseTab: document.querySelector("#databaseTab"),
@@ -18,6 +19,7 @@ const elements = {
   deckView: document.querySelector("#deckView"),
   backToDatabase: document.querySelector("#backToDatabase"),
   clearDeck: document.querySelector("#clearDeck"),
+  finalizeDeck: document.querySelector("#finalizeDeck"),
   searchInput: document.querySelector("#searchInput"),
   releaseFilters: document.querySelector("#releaseFilters"),
   setFilters: document.querySelector("#setFilters"),
@@ -36,6 +38,8 @@ const elements = {
   modalPrev: document.querySelector("#modalPrev"),
   modalNext: document.querySelector("#modalNext"),
   modalAddToDeck: document.querySelector("#modalAddToDeck"),
+  modalRemoveFromDeck: document.querySelector("#modalRemoveFromDeck"),
+  modalDeckQty: document.querySelector("#modalDeckQty"),
   leaderStatus: document.querySelector("#leaderStatus"),
   mainDeckCount: document.querySelector("#mainDeckCount"),
   jumpDeckCount: document.querySelector("#jumpDeckCount"),
@@ -69,7 +73,10 @@ async function init() {
 
 function normalizeCard(card) {
   const type = card.cardType || "Normal";
-  return { ...card, cardType: type, deckZone: card.deckZone || "Main", deckLimit: Number(card.deckLimit || (type === "Leader" || type === "Secret Rare" ? 1 : 4)) };
+  const deckZone = card.deckZone || "Main";
+  const deckLimit = Number(card.deckLimit || (type === "Leader" || type === "Secret Rare" || deckZone === "JUMP" ? 1 : 4));
+  const deckCategory = type === "Leader" ? "Leader" : (deckZone === "JUMP" ? "JUMP Deck" : "Main Deck");
+  return { ...card, cardType: type, deckZone, deckLimit, deckCategory };
 }
 
 function setupTheme() {
@@ -89,14 +96,19 @@ function addEventListeners() {
   elements.deckTab.addEventListener("click", () => showView("deck"));
   elements.backToDatabase.addEventListener("click", () => showView("database"));
   elements.clearDeck.addEventListener("click", clearDeck);
+  elements.finalizeDeck.addEventListener("click", finalizeDeckImage);
   elements.searchInput.addEventListener("input", renderCards);
   elements.sortSelect.addEventListener("change", renderCards);
   elements.resetButton.addEventListener("click", resetFilters);
   elements.modalPrev.addEventListener("click", () => showRelativeCard(-1));
   elements.modalNext.addEventListener("click", () => showRelativeCard(1));
   elements.modalAddToDeck.addEventListener("click", () => {
-    const card = visibleCards[currentModalIndex];
+    const card = modalCards[currentModalIndex];
     if (card) addCardToDeck(card.number);
+  });
+  elements.modalRemoveFromDeck.addEventListener("click", () => {
+    const card = modalCards[currentModalIndex];
+    if (card) removeCardFromDeckByCard(card);
   });
   document.querySelectorAll("[data-close-modal]").forEach((element) => element.addEventListener("click", closeModal));
   document.addEventListener("keydown", (event) => {
@@ -120,7 +132,7 @@ function populateFilterButtons() {
   renderFilterGroup(elements.releaseFilters, uniqueValues(allCards.map(c => c.release)).sort(compareRelease), "release");
   renderFilterGroup(elements.setFilters, uniqueValues(allCards.map(c => c.set)).sort(compareText), "set");
   renderFilterGroup(elements.colorFilters, uniqueValues(allCards.map(c => c.color)).sort(compareColors), "color");
-  renderFilterGroup(elements.typeFilters, uniqueValues(allCards.map(c => c.cardType)).sort(compareTypes), "type");
+  renderFilterGroup(elements.typeFilters, uniqueValues(allCards.map(c => c.deckCategory)).sort(compareTypes), "type");
 }
 function renderFilterGroup(container, values, type) { container.innerHTML = ""; values.forEach(value => container.appendChild(makeFilterButton(value, type))); }
 function makeFilterButton(value, type) {
@@ -146,12 +158,12 @@ function uniqueValues(values) { return [...new Set(values.filter(Boolean))]; }
 function renderCards() {
   const searchText = elements.searchInput.value.trim().toLowerCase();
   visibleCards = allCards.filter(card => {
-    const searchableText = [card.number, card.release, card.set, card.color, card.cardType, card.deckZone].join(" ").toLowerCase();
+    const searchableText = [card.number, card.release, card.set, card.color, card.cardType, card.deckZone, card.deckCategory, card.rarity].join(" ").toLowerCase();
     return (!searchText || searchableText.includes(searchText)) &&
       (!activeFilters.release || card.release === activeFilters.release) &&
       (!activeFilters.set || card.set === activeFilters.set) &&
       (!activeFilters.color || card.color === activeFilters.color) &&
-      (!activeFilters.type || card.cardType === activeFilters.type);
+      (!activeFilters.type || card.deckCategory === activeFilters.type);
   });
   visibleCards = sortCards(visibleCards, elements.sortSelect.value);
   elements.cardGrid.innerHTML = "";
@@ -166,7 +178,7 @@ function sortCards(cards, sortBy) {
     if (sortBy === "release") return compareRelease(a.release, b.release) || compareCardNumbers(a.number, b.number);
     if (sortBy === "set") return compareText(a.set, b.set) || compareRelease(a.release, b.release) || compareCardNumbers(a.number, b.number);
     if (sortBy === "color") return compareColors(a.color, b.color) || compareDefault(a, b);
-    if (sortBy === "type") return compareTypes(a.cardType, b.cardType) || compareDefault(a, b);
+    if (sortBy === "type") return compareTypes(a.deckCategory, b.deckCategory) || compareDefault(a, b);
     if (sortBy === "number") return compareCardNumbers(a.number, b.number);
     return compareDefault(a, b);
   });
@@ -192,34 +204,34 @@ function createCardElement(card, index) {
   article.innerHTML = `<img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy"><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)} <span>${escapeHtml(card.color)}</span></p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button">Add to ${card.deckZone === "JUMP" ? "JUMP" : "Deck"}</button></div></div>`;
   const image = article.querySelector("img");
   image.addEventListener("error", () => { image.src = createPlaceholderImage(card.number); });
-  article.addEventListener("click", () => openModal(index));
+  article.addEventListener("click", () => openModal(visibleCards, index));
   article.querySelector(".add-button").addEventListener("click", (event) => { event.stopPropagation(); addCardToDeck(card.number); });
-  article.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(index); } });
+  article.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(visibleCards, index); } });
   return article;
 }
 function cardBadgesHtml(card) {
   const badges = [];
   if (card.cardType === "Leader") badges.push(`<span class="badge leader">Leader</span>`);
   if (card.cardType === "Secret Rare") badges.push(`<span class="badge secret">Secret Rare</span>`);
-  if (card.deckZone === "JUMP") badges.push(`<span class="badge jump">JUMP</span>`);
+  if (card.deckZone === "JUMP") badges.push(`<span class="badge jump">JUMP Deck</span>`);
   if (!badges.length) badges.push(`<span class="badge">Limit ${card.deckLimit}</span>`);
   else badges.push(`<span class="badge">Limit ${card.deckLimit}</span>`);
   return badges.join(" ");
 }
 function colorBadgeHtml(color) { const safeColor = escapeHtml(color || "Unknown"); const letter = escapeHtml(colorLetters[color] || "?"); return `<span class="color-badge color-${safeColor.toLowerCase()}" title="${safeColor}">${letter}</span>`; }
 
-function openModal(index) { currentModalIndex = index; showModalCard(); elements.modal.hidden = false; document.body.style.overflow = "hidden"; }
+function openModal(cards, index) { modalCards = cards || visibleCards; currentModalIndex = index; showModalCard(); elements.modal.hidden = false; document.body.style.overflow = "hidden"; }
 function showModalCard() {
-  const card = visibleCards[currentModalIndex];
+  const card = modalCards[currentModalIndex];
   if (!card) return;
   elements.modalImage.onerror = () => { elements.modalImage.src = createPlaceholderImage(card.number); };
   elements.modalImage.src = card.image;
   elements.modalImage.alt = card.number;
   elements.modalTitle.textContent = card.number;
   elements.modalMeta.innerHTML = `Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)} · Color: ${colorBadgeHtml(card.color)} ${escapeHtml(card.color)} · ${cardBadgesHtml(card)}`;
-  elements.modalAddToDeck.textContent = `Add to ${card.deckZone === "JUMP" ? "JUMP Deck" : "Deck"}`;
+  updateModalDeckControls(card);
 }
-function showRelativeCard(offset) { if (!visibleCards.length) return; currentModalIndex = (currentModalIndex + offset + visibleCards.length) % visibleCards.length; showModalCard(); }
+function showRelativeCard(offset) { if (!modalCards.length) return; currentModalIndex = (currentModalIndex + offset + modalCards.length) % modalCards.length; showModalCard(); }
 function closeModal() { elements.modal.hidden = true; document.body.style.overflow = ""; }
 function resetFilters() { elements.searchInput.value = ""; elements.sortSelect.value = "default"; activeFilters = { release: "", set: "", color: "", type: "" }; renderCards(); }
 
@@ -274,19 +286,134 @@ function renderDeck() {
   renderDeckList(elements.jumpDeckList, deck.jump, "jump");
   renderDeckMessages(leader, mainTotal);
 }
+function getDeckRows(entries) {
+  return Object.entries(entries).map(([number, qty]) => ({ card: getCard(number), qty: Number(qty || 0) })).filter(row => row.card).sort((a,b) => compareDefault(a.card,b.card));
+}
 function renderDeckList(container, entries, zone) {
-  const rows = Object.entries(entries).map(([number, qty]) => ({ card: getCard(number), qty })).filter(row => row.card).sort((a,b) => compareDefault(a.card,b.card));
+  const rows = getDeckRows(entries);
   if (!rows.length) { container.innerHTML = `<p class="deck-message">No cards yet.</p>`; return; }
+  const cardsInThisZone = rows.map(row => row.card);
   container.innerHTML = "";
-  rows.forEach(({card, qty}) => {
-    const row = document.createElement("article");
-    row.className = "deck-row";
-    row.innerHTML = `<img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}"><div><h3>${escapeHtml(card.number)} ${colorBadgeHtml(card.color)}</h3><p>${escapeHtml(card.set)} · ${escapeHtml(card.cardType)}${card.deckZone === "JUMP" ? " · JUMP" : ""}</p></div><div class="qty-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><strong>${qty}</strong><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button></div>`;
-    row.querySelectorAll("button")[0].addEventListener("click", () => removeOne(card.number, zone));
-    row.querySelectorAll("button")[1].addEventListener("click", () => addOne(card.number, zone));
-    container.appendChild(row);
+  rows.forEach(({card, qty}, index) => {
+    const tile = document.createElement("article");
+    tile.className = "deck-card-tile";
+    tile.tabIndex = 0;
+    tile.setAttribute("role", "button");
+    tile.setAttribute("aria-label", `Open ${card.number} in deck viewer`);
+    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button></div>`;
+    tile.querySelectorAll("button")[0].addEventListener("click", (event) => { event.stopPropagation(); removeOne(card.number, zone); });
+    tile.querySelectorAll("button")[1].addEventListener("click", (event) => { event.stopPropagation(); addOne(card.number, zone); });
+    tile.addEventListener("click", () => openModal(cardsInThisZone, index));
+    tile.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(cardsInThisZone, index); } });
+    container.appendChild(tile);
   });
 }
+
+function cardDeckZoneKey(card) { return card.deckZone === "JUMP" ? "jump" : "main"; }
+function getDeckQuantity(card) {
+  if (!card) return 0;
+  const zone = cardDeckZoneKey(card);
+  return Number(deck[zone][card.number] || 0);
+}
+function updateModalDeckControls(card) {
+  const zoneName = card.deckZone === "JUMP" ? "JUMP Deck" : "Main Deck";
+  const qty = getDeckQuantity(card);
+  elements.modalAddToDeck.textContent = `+ Add to ${zoneName}`;
+  elements.modalDeckQty.textContent = `${qty} in ${zoneName}`;
+  elements.modalRemoveFromDeck.disabled = qty <= 0;
+}
+function removeCardFromDeckByCard(card) {
+  const zone = cardDeckZoneKey(card);
+  removeOne(card.number, zone);
+  updateModalDeckControls(card);
+}
+
+async function finalizeDeckImage() {
+  const leader = selectedLeader();
+  const mainRows = getDeckRows(deck.main);
+  const jumpRows = getDeckRows(deck.jump);
+  if (!leader) { showToast("Choose a Leader before finalizing."); return; }
+  if (mainDeckTotal() !== MAIN_DECK_SIZE) { showToast("Main Deck must be exactly 50 cards before finalizing."); return; }
+  try {
+    showToast("Building deck image...");
+    const fileName = await buildDeckCanvasDownload(leader, mainRows, jumpRows);
+    showToast(`${fileName} downloaded.`);
+  } catch (error) {
+    console.error(error);
+    showToast("Could not create the deck image.");
+  }
+}
+function loadImage(src) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = reject;
+    img.src = src;
+  });
+}
+async function buildDeckCanvasDownload(leader, mainRows, jumpRows) {
+  const cardW = 140, cardH = 196, gap = 16, cols = 10;
+  const headerH = 128, sectionTitleH = 40, footerH = 32;
+  const mainRowsCount = Math.ceil(mainRows.length / cols) || 1;
+  const jumpRowsCount = Math.ceil(jumpRows.length / cols) || 0;
+  const width = cols * cardW + (cols + 1) * gap;
+  const height = headerH + sectionTitleH + mainRowsCount * (cardH + gap) + (jumpRows.length ? sectionTitleH + jumpRowsCount * (cardH + gap) : 0) + footerH;
+  const canvas = document.createElement("canvas");
+  canvas.width = width;
+  canvas.height = height;
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = document.body.classList.contains("dark") ? "#0d0d0f" : "#f4f1e8";
+  ctx.fillRect(0, 0, width, height);
+  ctx.fillStyle = document.body.classList.contains("dark") ? "#f6efe2" : "#151515";
+  ctx.font = "900 42px Arial, sans-serif";
+  ctx.fillText("SJTCG Deck List", gap, 54);
+  ctx.font = "700 23px Arial, sans-serif";
+  ctx.fillText(`Leader: ${leader.number}  •  Color: ${leader.color}  •  Main: ${mainDeckTotal()}/50  •  JUMP: ${jumpDeckTotal()}`, gap, 92);
+  let y = headerH;
+  y = await drawDeckSection(ctx, "Main Deck", mainRows, y, { cardW, cardH, gap, cols });
+  if (jumpRows.length) y = await drawDeckSection(ctx, "JUMP Deck", jumpRows, y, { cardW, cardH, gap, cols });
+  ctx.fillStyle = document.body.classList.contains("dark") ? "#c8b98f" : "#6d6251";
+  ctx.font = "700 16px Arial, sans-serif";
+  ctx.fillText("Generated locally from SJTCG Card Database", gap, height - 12);
+  const link = document.createElement("a");
+  const fileName = `SJTCG-deck-${leader.number}.png`;
+  link.download = fileName;
+  link.href = canvas.toDataURL("image/png");
+  link.click();
+  return fileName;
+}
+async function drawDeckSection(ctx, title, rows, y, layout) {
+  const { cardW, cardH, gap, cols } = layout;
+  ctx.fillStyle = document.body.classList.contains("dark") ? "#f6efe2" : "#151515";
+  ctx.font = "900 28px Arial, sans-serif";
+  ctx.fillText(title, gap, y + 28);
+  y += 40;
+  for (let i = 0; i < rows.length; i++) {
+    const { card, qty } = rows[i];
+    const col = i % cols;
+    const row = Math.floor(i / cols);
+    const x = gap + col * (cardW + gap);
+    const cy = y + row * (cardH + gap);
+    try {
+      const img = await loadImage(card.image);
+      ctx.drawImage(img, x, cy, cardW, cardH);
+    } catch {
+      ctx.fillStyle = "#222"; ctx.fillRect(x, cy, cardW, cardH);
+    }
+    ctx.fillStyle = "rgba(0,0,0,0.78)";
+    ctx.beginPath(); ctx.roundRect(x + cardW - 50, cy + 8, 42, 32, 10); ctx.fill();
+    ctx.fillStyle = "#fff";
+    ctx.font = "900 22px Arial, sans-serif";
+    ctx.fillText(`×${qty}`, x + cardW - 44, cy + 31);
+    ctx.fillStyle = "rgba(0,0,0,0.72)";
+    ctx.fillRect(x, cy + cardH - 26, cardW, 26);
+    ctx.fillStyle = "#fff";
+    ctx.font = "800 14px Arial, sans-serif";
+    ctx.fillText(card.number, x + 6, cy + cardH - 8);
+  }
+  return y + (Math.ceil(rows.length / cols) || 1) * (cardH + gap);
+}
+
 function renderDeckMessages(leader, mainTotal) {
   const messages = [];
   if (!leader) messages.push(["warn", "Choose one Leader to set your deck color."]);

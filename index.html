@@ -85,6 +85,7 @@
         </div>
         <div class="deck-actions">
           <button id="backToDatabase" type="button">Back to Database</button>
+          <button id="finalizeDeck" type="button">Finalize / Download Image</button>
           <button id="clearDeck" class="danger-button" type="button">Clear Deck</button>
         </div>
       </section>
@@ -131,7 +132,11 @@
       <div class="modal-info">
         <h2 id="modalTitle"></h2>
         <p id="modalMeta"></p>
-        <button id="modalAddToDeck" class="add-button" type="button">Add to Deck</button>
+        <div id="modalDeckControls" class="modal-deck-controls">
+          <button id="modalRemoveFromDeck" class="qty-button" type="button">−</button>
+          <span id="modalDeckQty" class="modal-deck-qty">0 in deck</span>
+          <button id="modalAddToDeck" class="add-button" type="button">Add to Deck</button>
+        </div>
       </div>
     </article>
   </div>

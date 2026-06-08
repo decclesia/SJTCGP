@@ -145,3 +145,87 @@ button:hover { background: var(--accent-dark); color: #fff; }
   .brand-tcg { font-size: 1.8rem; }
   .brand-subtitle { font-size: 0.52rem; }
 }
+
+/* Polished deckbuilder layout */
+.deck-list {
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  align-items: start;
+  gap: 0.8rem;
+}
+.deck-card-tile {
+  display: grid;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+.deck-card-image-wrap {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--surface-2);
+  border: 1px solid color-mix(in srgb, var(--border) 80%, transparent);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+.deck-card-image-wrap img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 7;
+  object-fit: cover;
+}
+.deck-card-qty {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.35rem;
+  min-width: 2.2rem;
+  padding: 0.22rem 0.35rem;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.78);
+  color: #fff;
+  text-align: center;
+  font-size: 0.95rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.28);
+}
+.deck-card-caption {
+  display: grid;
+  gap: 0.15rem;
+  font-size: 0.8rem;
+}
+.deck-card-caption span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--muted);
+  font-weight: 800;
+}
+.deck-tile-controls {
+  justify-content: center;
+}
+.deck-tile-controls button {
+  width: 2.15rem;
+  height: 2.15rem;
+}
+.modal-deck-controls {
+  display: grid;
+  grid-template-columns: auto 1fr 2fr;
+  align-items: center;
+  gap: 0.55rem;
+}
+.modal-deck-qty {
+  font-weight: 900;
+  color: var(--muted);
+  text-align: center;
+}
+.qty-button {
+  width: 2.65rem;
+  height: 2.65rem;
+  padding: 0;
+  font-size: 1.4rem;
+}
+.qty-button:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+@media (max-width: 760px) {
+  .deck-list { grid-template-columns: repeat(auto-fill, minmax(82px, 1fr)); }
+  .modal-deck-controls { grid-template-columns: auto 1fr; }
+  .modal-deck-controls .add-button { grid-column: 1 / -1; }
+}
