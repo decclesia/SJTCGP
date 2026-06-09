@@ -481,54 +481,83 @@ button:hover { background: var(--accent-dark); color: #fff; }
   border-color: var(--accent);
 }
 
-/* Desktop deckbuilder layout fix: compact Leader, larger Main Deck */
-@media (min-width: 980px) {
+/* Desktop deckbuilder layout fix v2 */
+.card-actions {
+  align-items: center;
+}
+.card-actions .card-add-four {
+  flex: 1 1 auto;
+  width: auto;
+  min-width: 4.2rem;
+  padding-inline: 0.65rem;
+  font-size: 0.82rem;
+}
+.deck-tile-controls {
+  flex-wrap: wrap;
+}
+.deck-tile-controls .deck-add-four {
+  width: auto;
+  min-width: 4.2rem;
+  height: 2rem;
+  padding: 0 0.55rem;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+@media (min-width: 900px) {
   #deckView {
     display: grid;
-    grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
+    grid-template-columns: minmax(190px, 230px) minmax(0, 1fr);
     gap: 1rem;
     align-items: start;
   }
-
   #deckView > .deck-header,
   #deckView > .deck-summary,
   #deckView > .deck-status-pill,
   #deckView > .deck-toolbar,
-  #deckView > .deck-checklist {
+  #deckView > .deck-messages {
     grid-column: 1 / -1;
   }
-
   #deckView > .leader-deck-panel {
     grid-column: 1;
+    margin: 0;
     align-self: start;
-    margin-bottom: 0;
     position: sticky;
     top: 1rem;
   }
-
   #deckView > .deck-columns {
     grid-column: 2;
     margin-top: 0;
-    grid-template-columns: minmax(0, 1.45fr) minmax(250px, 0.85fr);
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(250px, 0.8fr);
+    gap: 1rem;
     align-items: start;
   }
-
   .leader-deck-list {
-    grid-template-columns: minmax(105px, 145px);
+    grid-template-columns: minmax(130px, 1fr);
   }
-
-  .leader-deck-panel .deck-list-panel,
+  .leader-deck-panel .deck-list {
+    gap: 0.65rem;
+  }
   .leader-deck-panel .deck-card-tile {
-    max-width: 150px;
+    max-width: 165px;
+  }
+  .deck-columns .deck-list {
+    grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+  }
+  .deck-columns .deck-list-panel:first-child .deck-list {
+    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
   }
 }
-
-@media (min-width: 980px) and (max-width: 1180px) {
+@media (min-width: 1180px) {
   #deckView {
-    grid-template-columns: minmax(155px, 190px) minmax(0, 1fr);
+    grid-template-columns: minmax(200px, 240px) minmax(0, 1fr);
   }
-
   #deckView > .deck-columns {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1.55fr) minmax(270px, 0.75fr);
+  }
+}
+@media (max-width: 899px) {
+  #deckView {
+    display: block;
   }
 }
