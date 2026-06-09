@@ -112,6 +112,7 @@ function addEventListeners() {
   elements.resetButton.addEventListener("click", resetFilters);
   if (elements.playableOnlyToggle) elements.playableOnlyToggle.addEventListener("change", renderCards);
   elements.deckSortSelect.addEventListener("change", () => { deckSortMode = elements.deckSortSelect.value; renderDeck(); });
+  document.addEventListener("click", handleDeckActionClick, true);
   elements.modalPrev.addEventListener("click", () => showRelativeCard(-1));
   elements.modalNext.addEventListener("click", () => showRelativeCard(1));
   elements.modalAddToDeck.addEventListener("click", () => {
@@ -243,7 +244,7 @@ function createCardElement(card, index) {
   article.setAttribute("role", "button");
   article.setAttribute("aria-label", `Open ${card.number}`);
   const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong></div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-four-button card-add-four" type="button" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
+  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong></div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-four-button card-add-four" type="button" data-deck-action="add-four" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
   const image = article.querySelector("img");
   image.addEventListener("error", () => { image.src = createPlaceholderImage(card.number); });
   article.addEventListener("click", () => openModal(visibleCards, index));
@@ -343,19 +344,37 @@ function addOne(number, zone) { addCardToDeck(number); }
 function addCardCopiesToDeck(number, requestedCopies) {
   const card = getCard(number);
   if (!card) return;
-  let added = 0;
-  for (let i = 0; i < requestedCopies; i++) {
-    const before = getDeckQuantity(card);
-    addCardToDeck(number, { quiet: true });
-    const after = getDeckQuantity(card);
-    if (after <= before) break;
-    added++;
+
+  if (card.cardType === "Leader") {
+    addCardToDeck(number);
+    return;
   }
-  if (added) showToast(`${card.number}: added ${added}.`);
-  else showToast(`Could not add more copies of ${card.number}.`);
-  renderDeck();
+
+  const leader = selectedLeader();
+  if (!leader) { showToast("Choose a Leader first."); return; }
+  if (card.color !== leader.color) { showToast(`${card.number} is ${card.color}. Your Leader is ${leader.color}.`); return; }
+
+  const zone = cardDeckZoneKey(card);
+  const currentQty = Number(deck[zone][card.number] || 0);
+  const allowedByCardLimit = Math.max(0, card.deckLimit - currentQty);
+  const allowedByDeckSize = zone === "main"
+    ? Math.max(0, MAIN_DECK_SIZE - mainDeckTotal())
+    : Math.max(0, JUMP_DECK_SIZE - jumpDeckTotal());
+  const toAdd = Math.min(Number(requestedCopies || 0), allowedByCardLimit, allowedByDeckSize);
+
+  if (toAdd <= 0) {
+    if (allowedByCardLimit <= 0) showToast(`${card.number} is already at its limit of ${card.deckLimit}.`);
+    else if (zone === "main") showToast("Main Deck is already at 50 cards.");
+    else showToast(`JUMP Deck is already at ${JUMP_DECK_SIZE} cards.`);
+    return;
+  }
+
+  deck[zone][card.number] = currentQty + toAdd;
+  showToast(`${card.number}: added ${toAdd}.`);
+  saveDeck();
   updateModalDeckControls(card);
 }
+
 function clearDeck() {
   if (!confirm("Clear your saved deck? This removes the Leader, Main Deck, and JUMP Deck from this browser.")) return;
   deck = { leader: "", main: {}, jump: {} };
@@ -422,7 +441,7 @@ function renderDeckList(container, entries, zone) {
     tile.setAttribute("role", "button");
     tile.setAttribute("aria-label", `Open ${card.number} in deck viewer`);
     const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button>${canAddFour ? `<button class="deck-add-four" type="button" aria-label="Add four ${escapeHtml(card.number)}">Add 4</button>` : ""}</div>`;
+    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button>${canAddFour ? `<button class="deck-add-four" type="button" data-deck-action="add-four" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)}">Add 4</button>` : ""}</div>`;
     const tileButtons = tile.querySelectorAll("button");
     tileButtons[0].addEventListener("click", (event) => { event.stopPropagation(); removeOne(card.number, zone); });
     tileButtons[1].addEventListener("click", (event) => { event.stopPropagation(); addOne(card.number, zone); });
