@@ -248,7 +248,7 @@ function createCardElement(card, index) {
   image.addEventListener("error", () => { image.src = createPlaceholderImage(card.number); });
   article.addEventListener("click", () => openModal(visibleCards, index));
   article.querySelector(".add-button").addEventListener("click", (event) => { event.stopPropagation(); addCardToDeck(card.number); });
-  article.querySelector(".card-add-four")?.addEventListener("click", (event) => { event.stopPropagation(); addFour(card.number); });
+  article.querySelector(".card-add-four")?.addEventListener("click", (event) => { event.stopPropagation(); addCardCopiesToDeck(card.number, 4); });
   article.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(visibleCards, index); } });
   return article;
 }
@@ -426,7 +426,7 @@ function renderDeckList(container, entries, zone) {
     const tileButtons = tile.querySelectorAll("button");
     tileButtons[0].addEventListener("click", (event) => { event.stopPropagation(); removeOne(card.number, zone); });
     tileButtons[1].addEventListener("click", (event) => { event.stopPropagation(); addOne(card.number, zone); });
-    tile.querySelector(".deck-add-four")?.addEventListener("click", (event) => { event.stopPropagation(); addFour(card.number); });
+    tile.querySelector(".deck-add-four")?.addEventListener("click", (event) => { event.stopPropagation(); addCardCopiesToDeck(card.number, 4); });
     tile.addEventListener("click", () => openModal(cardsInThisZone, index));
     tile.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(cardsInThisZone, index); } });
     container.appendChild(tile);
