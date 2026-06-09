@@ -480,3 +480,55 @@ button:hover { background: var(--accent-dark); color: #fff; }
   color: var(--text);
   border-color: var(--accent);
 }
+
+/* Desktop deckbuilder layout fix: compact Leader, larger Main Deck */
+@media (min-width: 980px) {
+  #deckView {
+    display: grid;
+    grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  #deckView > .deck-header,
+  #deckView > .deck-summary,
+  #deckView > .deck-status-pill,
+  #deckView > .deck-toolbar,
+  #deckView > .deck-checklist {
+    grid-column: 1 / -1;
+  }
+
+  #deckView > .leader-deck-panel {
+    grid-column: 1;
+    align-self: start;
+    margin-bottom: 0;
+    position: sticky;
+    top: 1rem;
+  }
+
+  #deckView > .deck-columns {
+    grid-column: 2;
+    margin-top: 0;
+    grid-template-columns: minmax(0, 1.45fr) minmax(250px, 0.85fr);
+    align-items: start;
+  }
+
+  .leader-deck-list {
+    grid-template-columns: minmax(105px, 145px);
+  }
+
+  .leader-deck-panel .deck-list-panel,
+  .leader-deck-panel .deck-card-tile {
+    max-width: 150px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1180px) {
+  #deckView {
+    grid-template-columns: minmax(155px, 190px) minmax(0, 1fr);
+  }
+
+  #deckView > .deck-columns {
+    grid-template-columns: 1fr;
+  }
+}
