@@ -186,21 +186,18 @@ function addEventListeners() {
       closeModal();
     };
     on(element, "click", closeHandler);
-    on(element, "pointerup", closeHandler);
   });
 
-  on(elements.modalPrev, "pointerup", (event) => { event.preventDefault(); event.stopPropagation(); showRelativeCard(-1); });
-  on(elements.modalNext, "pointerup", (event) => { event.preventDefault(); event.stopPropagation(); showRelativeCard(1); });
-
-  // Extra mobile-safe modal controls. This keeps X/arrows working even if the tap target is nested.
+  // Mobile-safe fallback for modal controls.
+  // Important: use click only. Using both pointerup and click can advance twice on mobile/desktop browsers.
   document.addEventListener("click", (event) => {
     if (!elements.modal || elements.modal.hidden) return;
     const closeTarget = event.target.closest("[data-close-modal]");
     const prevTarget = event.target.closest("#modalPrev");
     const nextTarget = event.target.closest("#modalNext");
-    if (closeTarget) { event.preventDefault(); closeModal(); }
-    if (prevTarget) { event.preventDefault(); showRelativeCard(-1); }
-    if (nextTarget) { event.preventDefault(); showRelativeCard(1); }
+    if (closeTarget) { event.preventDefault(); event.stopPropagation(); closeModal(); }
+    else if (prevTarget) { event.preventDefault(); event.stopPropagation(); showRelativeCard(-1); }
+    else if (nextTarget) { event.preventDefault(); event.stopPropagation(); showRelativeCard(1); }
   });
 
   document.addEventListener("keydown", (event) => {
