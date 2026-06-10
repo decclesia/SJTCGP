@@ -63,21 +63,41 @@ document.addEventListener("DOMContentLoaded", init);
 async function init() {
   setupTheme();
   loadDeck();
+
+  let cardData;
   try {
-    const response = await fetch("cards.json");
-    if (!response.ok) throw new Error("Could not load cards.json");
-    allCards = await response.json();
-    allCards = allCards.map(normalizeCard);
+    const response = await fetch("cards.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`cards.json returned ${response.status}`);
+    cardData = await response.json();
+    if (!Array.isArray(cardData)) throw new Error("cards.json is not an array");
+  } catch (error) {
+    console.error("Card data load error:", error);
+    showStartupError("Could not read cards.json.", "Make sure cards.json is uploaded to the repo root next to index.html, then hard refresh the page.");
+    return;
+  }
+
+  try {
+    allCards = cardData.map(normalizeCard);
     allCards = sortCards(allCards, "default");
     populateFilterButtons();
     addEventListeners();
     renderCards();
     renderDeck();
   } catch (error) {
-    console.error(error);
-    elements.resultCount.textContent = "Could not load cards.json.";
-    elements.cardGrid.innerHTML = `<div class="empty-state"><h2>Could not load cards</h2><p>Use a local web server instead of opening index.html directly.</p></div>`;
+    console.error("Site setup error:", error);
+    showStartupError("The site files are out of sync.", "Upload index.html, app.js, styles.css, and cards.json from the same update package, then hard refresh.");
   }
+}
+
+function showStartupError(title, message) {
+  if (elements.resultCount) elements.resultCount.textContent = title;
+  if (elements.cardGrid) {
+    elements.cardGrid.innerHTML = `<div class="empty-state"><h2>${escapeHtml(title)}</h2><p>${escapeHtml(message)}</p></div>`;
+  }
+}
+
+function on(element, eventName, handler, options) {
+  if (element) element.addEventListener(eventName, handler, options);
 }
 
 function normalizeCard(card) {
@@ -93,55 +113,71 @@ function setupTheme() {
   const savedTheme = localStorage.getItem("sjtcg-theme");
   if (savedTheme === "dark") document.body.classList.add("dark");
   updateThemeButton();
-  elements.themeToggle.addEventListener("click", () => {
+  on(elements.themeToggle, "click", () => {
     document.body.classList.toggle("dark");
     localStorage.setItem("sjtcg-theme", document.body.classList.contains("dark") ? "dark" : "light");
     updateThemeButton();
   });
 }
-function updateThemeButton() { elements.themeToggle.textContent = document.body.classList.contains("dark") ? "Light" : "Dark"; }
+function updateThemeButton() { if (elements.themeToggle) elements.themeToggle.textContent = document.body.classList.contains("dark") ? "Light" : "Dark"; }
 
 function addEventListeners() {
-  elements.databaseTab.addEventListener("click", () => showView("database"));
-  elements.deckTab.addEventListener("click", () => showView("deck"));
-  elements.backToDatabase.addEventListener("click", () => showView("database"));
-  elements.clearDeck.addEventListener("click", clearDeck);
-  elements.finalizeDeck.addEventListener("click", finalizeDeckImage);
-  elements.searchInput.addEventListener("input", renderCards);
-  elements.sortSelect.addEventListener("change", renderCards);
-  elements.resetButton.addEventListener("click", resetFilters);
-  if (elements.playableOnlyToggle) elements.playableOnlyToggle.addEventListener("change", renderCards);
-  elements.deckSortSelect.addEventListener("change", () => { deckSortMode = elements.deckSortSelect.value; renderDeck(); });
+  on(elements.databaseTab, "click", () => showView("database"));
+  on(elements.deckTab, "click", () => showView("deck"));
+  on(elements.backToDatabase, "click", () => showView("database"));
+  on(elements.clearDeck, "click", clearDeck);
+  on(elements.finalizeDeck, "click", finalizeDeckImage);
+  on(elements.searchInput, "input", renderCards);
+  on(elements.sortSelect, "change", renderCards);
+  on(elements.resetButton, "click", resetFilters);
+  on(elements.playableOnlyToggle, "change", renderCards);
+  on(elements.deckSortSelect, "change", () => { deckSortMode = elements.deckSortSelect.value; renderDeck(); });
   document.addEventListener("click", handleDeckActionClick, true);
-  elements.modalPrev.addEventListener("click", () => showRelativeCard(-1));
-  elements.modalNext.addEventListener("click", () => showRelativeCard(1));
-  elements.modalAddToDeck.addEventListener("click", () => {
+
+  on(elements.modalPrev, "click", (event) => { event.preventDefault(); event.stopPropagation(); showRelativeCard(-1); });
+  on(elements.modalNext, "click", (event) => { event.preventDefault(); event.stopPropagation(); showRelativeCard(1); });
+  on(elements.modalAddToDeck, "click", () => {
     const card = modalCards[currentModalIndex];
     if (card) addCardToDeck(card.number);
   });
-  elements.modalAddFourToDeck.addEventListener("click", () => {
+  on(elements.modalAddFourToDeck, "click", () => {
     const card = modalCards[currentModalIndex];
     if (card) addCardCopiesToDeck(card.number, 4);
   });
-  if (elements.modalImagePath) {
-    elements.modalImagePath.addEventListener("click", async () => {
-      const card = modalCards[currentModalIndex];
-      if (!card) return;
-      try {
-        await navigator.clipboard.writeText(card.image);
-        showToast(`Copied ${card.image}`);
-      } catch {
-        showToast(card.image);
-      }
-    });
-  }
-  elements.modalRemoveFromDeck.addEventListener("click", () => {
+  on(elements.modalImagePath, "click", async () => {
+    const card = modalCards[currentModalIndex];
+    if (!card) return;
+    try {
+      await navigator.clipboard.writeText(card.image);
+      showToast(`Copied ${card.image}`);
+    } catch {
+      showToast(card.image);
+    }
+  });
+  on(elements.modalRemoveFromDeck, "click", () => {
     const card = modalCards[currentModalIndex];
     if (card) removeCardFromDeckByCard(card);
   });
-  document.querySelectorAll("[data-close-modal]").forEach((element) => element.addEventListener("click", closeModal));
+
+  document.querySelectorAll("[data-close-modal]").forEach((element) => on(element, "click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    closeModal();
+  }));
+
+  // Extra mobile-safe modal controls. This keeps X/arrows working even if the tap target is nested.
+  document.addEventListener("click", (event) => {
+    if (!elements.modal || elements.modal.hidden) return;
+    const closeTarget = event.target.closest("[data-close-modal]");
+    const prevTarget = event.target.closest("#modalPrev");
+    const nextTarget = event.target.closest("#modalNext");
+    if (closeTarget) { event.preventDefault(); closeModal(); }
+    if (prevTarget) { event.preventDefault(); showRelativeCard(-1); }
+    if (nextTarget) { event.preventDefault(); showRelativeCard(1); }
+  });
+
   document.addEventListener("keydown", (event) => {
-    if (elements.modal.hidden) return;
+    if (!elements.modal || elements.modal.hidden) return;
     if (event.key === "Escape") closeModal();
     if (event.key === "ArrowLeft") showRelativeCard(-1);
     if (event.key === "ArrowRight") showRelativeCard(1);
@@ -150,10 +186,10 @@ function addEventListeners() {
 
 function showView(view) {
   const deckShown = view === "deck";
-  elements.databaseView.hidden = deckShown;
-  elements.deckView.hidden = !deckShown;
-  elements.databaseTab.classList.toggle("active", !deckShown);
-  elements.deckTab.classList.toggle("active", deckShown);
+  if (elements.databaseView) elements.databaseView.hidden = deckShown;
+  if (elements.deckView) elements.deckView.hidden = !deckShown;
+  if (elements.databaseTab) elements.databaseTab.classList.toggle("active", !deckShown);
+  if (elements.deckTab) elements.deckTab.classList.toggle("active", deckShown);
   if (deckShown) renderDeck();
 }
 
@@ -163,7 +199,7 @@ function populateFilterButtons() {
   renderFilterGroup(elements.colorFilters, uniqueValues(allCards.map(c => c.color)).sort(compareColors), "color");
   renderFilterGroup(elements.typeFilters, uniqueValues(allCards.map(c => c.deckCategory)).sort(compareTypes), "type");
 }
-function renderFilterGroup(container, values, type) { container.innerHTML = ""; values.forEach(value => container.appendChild(makeFilterButton(value, type))); }
+function renderFilterGroup(container, values, type) { if (!container) return; container.innerHTML = ""; values.forEach(value => container.appendChild(makeFilterButton(value, type))); }
 function makeFilterButton(value, type) {
   const button = document.createElement("button");
   button.type = "button";
@@ -185,7 +221,7 @@ function updateFilterButtons() {
 function uniqueValues(values) { return [...new Set(values.filter(Boolean))]; }
 
 function renderCards() {
-  const searchText = elements.searchInput.value.trim().toLowerCase();
+  const searchText = elements.searchInput ? elements.searchInput.value.trim().toLowerCase() : "";
   const leader = selectedLeader();
   const playableOnly = Boolean(elements.playableOnlyToggle && elements.playableOnlyToggle.checked && leader);
   visibleCards = allCards.filter(card => {
@@ -205,11 +241,13 @@ function renderCards() {
       (!activeFilters.color || card.color === activeFilters.color) &&
       (!activeFilters.type || card.deckCategory === activeFilters.type);
   });
-  visibleCards = sortCards(visibleCards, elements.sortSelect.value);
-  elements.cardGrid.innerHTML = "";
-  visibleCards.forEach((card, index) => elements.cardGrid.appendChild(createCardElement(card, index)));
-  elements.resultCount.textContent = `${visibleCards.length} card${visibleCards.length === 1 ? "" : "s"} found`;
-  elements.emptyState.hidden = visibleCards.length !== 0;
+  visibleCards = sortCards(visibleCards, elements.sortSelect ? elements.sortSelect.value : "default");
+  if (elements.cardGrid) {
+    elements.cardGrid.innerHTML = "";
+    visibleCards.forEach((card, index) => elements.cardGrid.appendChild(createCardElement(card, index)));
+  }
+  if (elements.resultCount) elements.resultCount.textContent = `${visibleCards.length} card${visibleCards.length === 1 ? "" : "s"} found`;
+  if (elements.emptyState) elements.emptyState.hidden = visibleCards.length !== 0;
   updateFilterButtons();
 }
 
@@ -243,13 +281,11 @@ function createCardElement(card, index) {
   article.tabIndex = 0;
   article.setAttribute("role", "button");
   article.setAttribute("aria-label", `Open ${card.number}`);
-  const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong></div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-four-button card-add-four" type="button" data-deck-action="add-four" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
+  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong></div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" aria-label="Add ${escapeHtml(card.number)} to deck">+</button></div></div>`;
   const image = article.querySelector("img");
   image.addEventListener("error", () => { image.src = createPlaceholderImage(card.number); });
   article.addEventListener("click", () => openModal(visibleCards, index));
   article.querySelector(".add-button").addEventListener("click", (event) => { event.stopPropagation(); addCardToDeck(card.number); });
-  article.querySelector(".card-add-four")?.addEventListener("click", (event) => { event.stopPropagation(); addCardCopiesToDeck(card.number, 4); });
   article.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(visibleCards, index); } });
   return article;
 }
@@ -266,24 +302,43 @@ function cardBadgesHtml(card) {
 }
 function colorBadgeHtml(color) { const safeColor = escapeHtml(color || "Unknown"); const letter = escapeHtml(colorLetters[color] || "?"); return `<span class="color-badge color-${safeColor.toLowerCase()}" title="${safeColor}">${letter}</span>`; }
 
-function openModal(cards, index) { modalCards = cards || visibleCards; currentModalIndex = index; showModalCard(); elements.modal.hidden = false; document.body.style.overflow = "hidden"; }
+function openModal(cards, index) { if (!elements.modal) return; modalCards = cards || visibleCards; currentModalIndex = index; showModalCard(); elements.modal.hidden = false; document.body.style.overflow = "hidden"; }
 function showModalCard() {
   const card = modalCards[currentModalIndex];
   if (!card) return;
-  elements.modalImage.onerror = () => { elements.modalImage.src = createPlaceholderImage(card.number); };
-  elements.modalImage.src = card.image;
-  elements.modalImage.alt = card.number;
-  elements.modalTitle.textContent = card.number;
-  elements.modalMeta.innerHTML = `<span><strong>Release:</strong> ${escapeHtml(card.release)}</span><span><strong>Set:</strong> ${escapeHtml(card.set)}</span><span><strong>Color:</strong> ${colorBadgeHtml(card.color)}</span><span><strong>Type:</strong> ${escapeHtml(card.deckCategory)}</span><span><strong>Limit:</strong> ${card.deckLimit}</span><span><strong>Layout:</strong> ${escapeHtml(card.orientation)}</span><span>${cardBadgesHtml(card)}</span>`;
+  if (elements.modalImage) {
+    elements.modalImage.onerror = () => { elements.modalImage.src = createPlaceholderImage(card.number); };
+    elements.modalImage.src = card.image;
+    elements.modalImage.alt = card.number;
+  }
+  if (elements.modalTitle) elements.modalTitle.textContent = card.number;
+  if (elements.modalMeta) elements.modalMeta.innerHTML = `<span><strong>Release:</strong> ${escapeHtml(card.release)}</span><span><strong>Set:</strong> ${escapeHtml(card.set)}</span><span><strong>Color:</strong> ${colorBadgeHtml(card.color)}</span><span><strong>Type:</strong> ${escapeHtml(card.deckCategory)}</span><span><strong>Limit:</strong> ${card.deckLimit}</span><span><strong>Layout:</strong> ${escapeHtml(card.orientation)}</span><span>${cardBadgesHtml(card)}</span>`;
   if (elements.modalImagePath) elements.modalImagePath.textContent = `Copy image path: ${card.image}`;
   updateModalDeckControls(card);
 }
 function showRelativeCard(offset) { if (!modalCards.length) return; currentModalIndex = (currentModalIndex + offset + modalCards.length) % modalCards.length; showModalCard(); }
-function closeModal() { elements.modal.hidden = true; document.body.style.overflow = ""; }
-function resetFilters() { elements.searchInput.value = ""; elements.sortSelect.value = "default"; activeFilters = { release: "", set: "", color: "", type: "" }; renderCards(); }
+function closeModal() { if (elements.modal) elements.modal.hidden = true; document.body.style.overflow = ""; }
+function resetFilters() {
+  if (elements.searchInput) elements.searchInput.value = "";
+  if (elements.sortSelect) elements.sortSelect.value = "default";
+  activeFilters = { release: "", set: "", color: "", type: "" };
+  renderCards();
+}
 
 function getCard(number) { return allCards.find(card => card.number === number); }
-function loadDeck() { try { deck = JSON.parse(localStorage.getItem("sjtcg-deck") || "") || deck; } catch { deck = { leader: "", main: {}, jump: {} }; } deck.main ||= {}; deck.jump ||= {}; deck.leader ||= ""; }
+function loadDeck() {
+  const emptyDeck = { leader: "", main: {}, jump: {} };
+  try {
+    const saved = localStorage.getItem("sjtcg-deck");
+    deck = saved ? JSON.parse(saved) : emptyDeck;
+  } catch {
+    deck = emptyDeck;
+    localStorage.removeItem("sjtcg-deck");
+  }
+  deck.main ||= {};
+  deck.jump ||= {};
+  deck.leader ||= "";
+}
 function saveDeck() {
   localStorage.setItem("sjtcg-deck", JSON.stringify(deck));
   renderDeck();
@@ -366,6 +421,7 @@ function addCardCopiesToDeck(number, requestedCopies) {
     if (allowedByCardLimit <= 0) showToast(`${card.number} is already at its limit of ${card.deckLimit}.`);
     else if (zone === "main") showToast("Main Deck is already at 50 cards.");
     else showToast(`JUMP Deck is already at ${JUMP_DECK_SIZE} cards.`);
+    updateModalDeckControls(card);
     return;
   }
 
@@ -385,17 +441,17 @@ function clearDeck() {
 function renderDeck() {
   const leader = selectedLeader();
   const mainTotal = mainDeckTotal(), jumpTotal = jumpDeckTotal();
-  elements.deckTabCount.textContent = `${mainTotal}/${MAIN_DECK_SIZE}`;
-  elements.leaderStatus.innerHTML = leader ? `${escapeHtml(leader.number)} ${colorBadgeHtml(leader.color)}` : "None selected";
-  elements.mainDeckCount.textContent = `${mainTotal} / ${MAIN_DECK_SIZE}`;
-  elements.jumpDeckCount.textContent = `${jumpTotal} / ${JUMP_DECK_SIZE}`;
+  if (elements.deckTabCount) elements.deckTabCount.textContent = `${mainTotal}/${MAIN_DECK_SIZE}`;
+  if (elements.leaderStatus) elements.leaderStatus.innerHTML = leader ? `${escapeHtml(leader.number)} ${colorBadgeHtml(leader.color)}` : "None selected";
+  if (elements.mainDeckCount) elements.mainDeckCount.textContent = `${mainTotal} / ${MAIN_DECK_SIZE}`;
+  if (elements.jumpDeckCount) elements.jumpDeckCount.textContent = `${jumpTotal} / ${JUMP_DECK_SIZE}`;
   if (elements.playableOnlyToggle) {
     elements.playableOnlyToggle.disabled = !leader;
     elements.playableOnlyToggle.closest("label")?.classList.toggle("disabled", !leader);
   }
   renderLeaderDeckPanel(leader);
-  renderDeckList(elements.mainDeckList, deck.main, "main");
-  renderDeckList(elements.jumpDeckList, deck.jump, "jump");
+  if (elements.mainDeckList) renderDeckList(elements.mainDeckList, deck.main, "main");
+  if (elements.jumpDeckList) renderDeckList(elements.jumpDeckList, deck.jump, "jump");
   renderDeckStatusPill(leader, mainTotal);
   renderDeckMessages(leader, mainTotal);
 }
@@ -440,12 +496,9 @@ function renderDeckList(container, entries, zone) {
     tile.tabIndex = 0;
     tile.setAttribute("role", "button");
     tile.setAttribute("aria-label", `Open ${card.number} in deck viewer`);
-    const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button>${canAddFour ? `<button class="deck-add-four" type="button" data-deck-action="add-four" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)}">Add 4</button>` : ""}</div>`;
-    const tileButtons = tile.querySelectorAll("button");
-    tileButtons[0].addEventListener("click", (event) => { event.stopPropagation(); removeOne(card.number, zone); });
-    tileButtons[1].addEventListener("click", (event) => { event.stopPropagation(); addOne(card.number, zone); });
-    tile.querySelector(".deck-add-four")?.addEventListener("click", (event) => { event.stopPropagation(); addCardCopiesToDeck(card.number, 4); });
+    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button></div>`;
+    tile.querySelectorAll("button")[0].addEventListener("click", (event) => { event.stopPropagation(); removeOne(card.number, zone); });
+    tile.querySelectorAll("button")[1].addEventListener("click", (event) => { event.stopPropagation(); addOne(card.number, zone); });
     tile.addEventListener("click", () => openModal(cardsInThisZone, index));
     tile.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(cardsInThisZone, index); } });
     container.appendChild(tile);
@@ -459,6 +512,7 @@ function getDeckQuantity(card) {
   return Number(deck[zone][card.number] || 0);
 }
 function updateModalDeckControls(card) {
+  if (!elements.modalAddToDeck || !elements.modalDeckQty || !elements.modalRemoveFromDeck || !elements.modalAddFourToDeck) return;
   const zoneName = card.deckZone === "JUMP" ? "JUMP Deck" : "Main Deck";
   const qty = getDeckQuantity(card);
   const remaining = Math.max(0, card.deckLimit - qty);
@@ -484,7 +538,7 @@ async function finalizeDeckImage() {
   if (jumpDeckTotal() > JUMP_DECK_SIZE) { showToast(`JUMP Deck cannot exceed ${JUMP_DECK_SIZE} cards.`); return; }
   try {
     showToast("Building deck image...");
-    const fileName = await buildDeckCanvasDownload(leader, mainRows, jumpRows, elements.exportTemplateSelect.value);
+    const fileName = await buildDeckCanvasDownload(leader, mainRows, jumpRows, (elements.exportTemplateSelect ? elements.exportTemplateSelect.value : "large"));
     showToast(`${fileName} downloaded.`);
   } catch (error) {
     console.error(error);
@@ -696,7 +750,7 @@ function renderDeckMessages(leader, mainTotal) {
     [invalidLimits.length ? "error" : "good", invalidLimits.length ? `${invalidLimits.length} card limit issue${invalidLimits.length === 1 ? "" : "s"}` : "Card copy limits are valid"],
     [jumpDeckTotal() <= JUMP_DECK_SIZE ? "good" : "error", `JUMP Deck: ${jumpDeckTotal()} / ${JUMP_DECK_SIZE}`]
   ];
-  elements.deckMessages.innerHTML = checks.map(([kind, html]) => `<div class="deck-message ${kind}"><span class="check-icon">${kind === "good" ? "✓" : kind === "error" ? "!" : "•"}</span><span>${html}</span></div>`).join("");
+  if (elements.deckMessages) elements.deckMessages.innerHTML = checks.map(([kind, html]) => `<div class="deck-message ${kind}"><span class="check-icon">${kind === "good" ? "✓" : kind === "error" ? "!" : "•"}</span><span>${html}</span></div>`).join("");
 }
 function findLimitProblems() {
   const rows = [...getDeckRows(deck.main), ...getDeckRows(deck.jump)];
@@ -709,6 +763,7 @@ function findColorProblems(leader) {
 }
 
 function showToast(message) {
+  if (!elements.toast) { console.log(message); return; }
   elements.toast.textContent = message;
   elements.toast.hidden = false;
   clearTimeout(showToast.timer);

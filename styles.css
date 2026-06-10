@@ -481,83 +481,34 @@ button:hover { background: var(--accent-dark); color: #fff; }
   border-color: var(--accent);
 }
 
-/* Desktop deckbuilder layout fix v2 */
-.card-actions {
-  align-items: center;
+/* Mobile/modal stability hotfix */
+.modal-backdrop { z-index: 1; }
+.modal-panel { z-index: 2; }
+.modal-close,
+.modal-arrow {
+  z-index: 30;
+  pointer-events: auto;
+  touch-action: manipulation;
 }
-.card-actions .card-add-four {
-  flex: 1 1 auto;
-  width: auto;
-  min-width: 4.2rem;
-  padding-inline: 0.65rem;
-  font-size: 0.82rem;
-}
-.deck-tile-controls {
-  flex-wrap: wrap;
-}
-.deck-tile-controls .deck-add-four {
-  width: auto;
-  min-width: 4.2rem;
-  height: 2rem;
-  padding: 0 0.55rem;
-  font-size: 0.75rem;
-  line-height: 1;
-}
-@media (min-width: 900px) {
-  #deckView {
-    display: grid;
-    grid-template-columns: minmax(190px, 230px) minmax(0, 1fr);
-    gap: 1rem;
-    align-items: start;
+@media (max-width: 760px) {
+  .modal { padding: 0.65rem; }
+  .modal-panel { max-height: 96vh; }
+  .modal-close {
+    top: 0.45rem;
+    right: 0.45rem;
+    width: 2.9rem;
+    height: 2.9rem;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.28);
   }
-  #deckView > .deck-header,
-  #deckView > .deck-summary,
-  #deckView > .deck-status-pill,
-  #deckView > .deck-toolbar,
-  #deckView > .deck-messages {
-    grid-column: 1 / -1;
+  .modal-arrow {
+    top: 44%;
+    width: 2.95rem;
+    height: 3.8rem;
+    background: rgba(0,0,0,0.42);
+    opacity: 0.82;
   }
-  #deckView > .leader-deck-panel {
-    grid-column: 1;
-    margin: 0;
-    align-self: start;
-    position: sticky;
-    top: 1rem;
-  }
-  #deckView > .deck-columns {
-    grid-column: 2;
-    margin-top: 0;
-    display: grid;
-    grid-template-columns: minmax(0, 1.35fr) minmax(250px, 0.8fr);
-    gap: 1rem;
-    align-items: start;
-  }
-  .leader-deck-list {
-    grid-template-columns: minmax(130px, 1fr);
-  }
-  .leader-deck-panel .deck-list {
-    gap: 0.65rem;
-  }
-  .leader-deck-panel .deck-card-tile {
-    max-width: 165px;
-  }
-  .deck-columns .deck-list {
-    grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
-  }
-  .deck-columns .deck-list-panel:first-child .deck-list {
-    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
-  }
-}
-@media (min-width: 1180px) {
-  #deckView {
-    grid-template-columns: minmax(200px, 240px) minmax(0, 1fr);
-  }
-  #deckView > .deck-columns {
-    grid-template-columns: minmax(0, 1.55fr) minmax(270px, 0.75fr);
-  }
-}
-@media (max-width: 899px) {
-  #deckView {
-    display: block;
-  }
+  .modal-prev { left: 0.25rem; }
+  .modal-next { right: 0.25rem; }
 }
