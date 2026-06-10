@@ -66,13 +66,10 @@ async function init() {
 
   let cardData;
   try {
-    const response = await fetch("cards.json", { cache: "no-store" });
-    if (!response.ok) throw new Error(`cards.json returned ${response.status}`);
-    cardData = await response.json();
-    if (!Array.isArray(cardData)) throw new Error("cards.json is not an array");
+    cardData = await loadCardData();
   } catch (error) {
     console.error("Card data load error:", error);
-    showStartupError("Could not read cards.json.", "Make sure cards.json is uploaded to the repo root next to index.html, then hard refresh the page.");
+    showStartupError("Could not load card data.", "Upload index.html, app.js, cards.json, and cards-data.js from the same update package, then hard refresh the page.");
     return;
   }
 
@@ -87,6 +84,29 @@ async function init() {
     console.error("Site setup error:", error);
     showStartupError("The site files are out of sync.", "Upload index.html, app.js, styles.css, and cards.json from the same update package, then hard refresh.");
   }
+}
+
+async function loadCardData() {
+  const urls = ["cards.json", "./cards.json", "/SJTCGP/cards.json"];
+  let lastError = null;
+
+  for (const url of urls) {
+    try {
+      const response = await fetch(`${url}?v=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+      const data = await response.json();
+      if (!Array.isArray(data)) throw new Error(`${url} is not an array`);
+      return data;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  if (Array.isArray(window.SJTCG_CARD_DATA)) {
+    return window.SJTCG_CARD_DATA;
+  }
+
+  throw lastError || new Error("No card data source available");
 }
 
 function showStartupError(title, message) {
@@ -159,11 +179,18 @@ function addEventListeners() {
     if (card) removeCardFromDeckByCard(card);
   });
 
-  document.querySelectorAll("[data-close-modal]").forEach((element) => on(element, "click", (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    closeModal();
-  }));
+  document.querySelectorAll("[data-close-modal]").forEach((element) => {
+    const closeHandler = (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      closeModal();
+    };
+    on(element, "click", closeHandler);
+    on(element, "pointerup", closeHandler);
+  });
+
+  on(elements.modalPrev, "pointerup", (event) => { event.preventDefault(); event.stopPropagation(); showRelativeCard(-1); });
+  on(elements.modalNext, "pointerup", (event) => { event.preventDefault(); event.stopPropagation(); showRelativeCard(1); });
 
   // Extra mobile-safe modal controls. This keeps X/arrows working even if the tap target is nested.
   document.addEventListener("click", (event) => {
@@ -182,6 +209,23 @@ function addEventListeners() {
     if (event.key === "ArrowLeft") showRelativeCard(-1);
     if (event.key === "ArrowRight") showRelativeCard(1);
   });
+}
+
+function handleDeckActionClick(event) {
+  const button = event.target.closest("[data-deck-action]");
+  if (!button) return;
+
+  const number = button.dataset.cardNumber;
+  const action = button.dataset.deckAction;
+  const zone = button.dataset.deckZone;
+  if (!number || !action) return;
+
+  event.preventDefault();
+  event.stopPropagation();
+
+  if (action === "add") addCardToDeck(number);
+  if (action === "add4") addCardCopiesToDeck(number, 4);
+  if (action === "remove") removeOne(number, zone || "main");
 }
 
 function showView(view) {
