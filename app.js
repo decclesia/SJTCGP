@@ -152,6 +152,7 @@ function addEventListeners() {
   on(elements.resetButton, "click", resetFilters);
   on(elements.playableOnlyToggle, "change", renderCards);
   on(elements.deckSortSelect, "change", () => { deckSortMode = elements.deckSortSelect.value; renderDeck(); });
+  document.addEventListener("click", handleAddFourClick, true);
   document.addEventListener("click", handleDeckActionClick, true);
 
   on(elements.modalPrev, "click", (event) => { event.preventDefault(); event.stopPropagation(); showRelativeCard(-1); });
@@ -206,6 +207,27 @@ function addEventListeners() {
     if (event.key === "ArrowLeft") showRelativeCard(-1);
     if (event.key === "ArrowRight") showRelativeCard(1);
   });
+}
+
+function handleAddFourClick(event) {
+  const button = event.target.closest(".card-add-four, .deck-add-four, #modalAddFourToDeck, [data-deck-action='add4']");
+  if (!button) return;
+
+  let number = button.dataset.cardNumber || "";
+  if (!number && button.id === "modalAddFourToDeck") {
+    const modalCard = modalCards[currentModalIndex];
+    number = modalCard ? modalCard.number : "";
+  }
+  if (!number) {
+    const cardTile = button.closest("[data-card-number]");
+    number = cardTile ? cardTile.dataset.cardNumber : "";
+  }
+  if (!number) return;
+
+  event.preventDefault();
+  event.stopPropagation();
+  if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
+  addCardCopiesToDeck(number, 4);
 }
 
 function handleDeckActionClick(event) {
@@ -323,7 +345,7 @@ function createCardElement(card, index) {
   article.setAttribute("role", "button");
   article.setAttribute("aria-label", `Open ${card.number}`);
   const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong></div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-button add-four-button card-add-four" type="button" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
+  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong></div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" data-deck-action="add" data-card-number="${escapeHtml(card.number)}" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-button add-four-button card-add-four" type="button" data-deck-action="add4" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
   const image = article.querySelector("img");
   image.addEventListener("error", () => { image.src = createPlaceholderImage(card.number); });
   article.addEventListener("click", () => openModal(visibleCards, index));
@@ -538,9 +560,10 @@ function renderDeckList(container, entries, zone) {
     tile.className = `deck-card-tile orientation-${String(card.orientation || "Portrait").toLowerCase()}`;
     tile.tabIndex = 0;
     tile.setAttribute("role", "button");
+    tile.dataset.cardNumber = card.number;
     tile.setAttribute("aria-label", `Open ${card.number} in deck viewer`);
     const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" aria-label="Add one ${escapeHtml(card.number)}">+</button>${canAddFour ? `<button class="add-four-button deck-add-four" type="button" aria-label="Add four ${escapeHtml(card.number)}">Add 4</button>` : ""}</div>`;
+    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" data-deck-action="remove" data-deck-zone="${zone}" data-card-number="${escapeHtml(card.number)}" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" data-deck-action="add" data-card-number="${escapeHtml(card.number)}" aria-label="Add one ${escapeHtml(card.number)}">+</button>${canAddFour ? `<button class="add-four-button deck-add-four" type="button" data-deck-action="add4" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)}">Add 4</button>` : ""}</div>`;
     tile.querySelectorAll("button")[0].addEventListener("click", (event) => { event.stopPropagation(); removeOne(card.number, zone); });
     tile.querySelectorAll("button")[1].addEventListener("click", (event) => { event.stopPropagation(); addOne(card.number, zone); });
     tile.querySelector(".deck-add-four")?.addEventListener("click", (event) => { event.preventDefault(); event.stopPropagation(); addCardCopiesToDeck(card.number, 4); });
