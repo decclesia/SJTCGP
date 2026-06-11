@@ -530,3 +530,77 @@ button:hover { background: var(--accent-dark); color: #fff; }
   font-size: 0.78rem;
   white-space: nowrap;
 }
+
+/* Desktop deckbuilder layout fix - keep Leader compact and give Main Deck room */
+@media (min-width: 900px) {
+  #deckView {
+    display: grid;
+    grid-template-columns: minmax(190px, 235px) minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  #deckView > .deck-header,
+  #deckView > .deck-summary,
+  #deckView > .deck-status-pill,
+  #deckView > .deck-toolbar,
+  #deckView > .deck-messages {
+    grid-column: 1 / -1;
+  }
+
+  #deckView > .leader-deck-panel {
+    grid-column: 1;
+    margin: 0;
+    align-self: start;
+    position: sticky;
+    top: 1rem;
+  }
+
+  #deckView > .deck-columns {
+    grid-column: 2;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(250px, 0.72fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .leader-deck-panel .deck-list-panel,
+  .leader-deck-panel.deck-list-panel {
+    padding: 1rem;
+  }
+
+  .leader-deck-list,
+  .leader-deck-panel .deck-list {
+    grid-template-columns: minmax(130px, 165px);
+    justify-content: start;
+  }
+
+  .leader-deck-panel .deck-card-tile {
+    max-width: 165px;
+  }
+
+  .deck-columns .deck-list {
+    grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+  }
+
+  .deck-columns .deck-list-panel:first-child .deck-list {
+    grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  }
+}
+
+@media (min-width: 1180px) {
+  #deckView {
+    grid-template-columns: minmax(200px, 245px) minmax(0, 1fr);
+  }
+
+  #deckView > .deck-columns {
+    grid-template-columns: minmax(0, 1.65fr) minmax(270px, 0.7fr);
+  }
+}
+
+@media (max-width: 899px) {
+  #deckView {
+    display: block;
+  }
+}
