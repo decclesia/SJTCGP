@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SJTCG Card Database</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=sd10-layout-real-2" />
 </head>
 <body>
   <header class="site-header">
@@ -111,21 +111,23 @@
 
       <section id="deckStatusPill" class="deck-status-pill" aria-live="polite">No deck selected</section>
 
-      <section class="deck-list-panel leader-deck-panel">
-        <h2>Leader</h2>
-        <div id="leaderDeckList" class="deck-list leader-deck-list"></div>
-      </section>
+      <section class="deck-board" aria-label="Current deck cards">
+        <section class="deck-list-panel leader-deck-panel">
+          <h2>Leader</h2>
+          <div id="leaderDeckList" class="deck-list leader-deck-list"></div>
+        </section>
 
-      <div class="deck-columns">
-        <section class="deck-list-panel">
-          <h2>Main Deck</h2>
-          <div id="mainDeckList" class="deck-list"></div>
-        </section>
-        <section class="deck-list-panel">
-          <h2>JUMP Deck</h2>
-          <div id="jumpDeckList" class="deck-list"></div>
-        </section>
-      </div>
+        <div class="deck-columns">
+          <section class="deck-list-panel main-deck-panel">
+            <h2>Main Deck</h2>
+            <div id="mainDeckList" class="deck-list"></div>
+          </section>
+          <section class="deck-list-panel jump-deck-panel">
+            <h2>JUMP Deck</h2>
+            <div id="jumpDeckList" class="deck-list"></div>
+          </section>
+        </div>
+      </section>
 
       <section class="deck-toolbar controls" aria-label="Deck viewer options">
         <div class="control-group sort-group">

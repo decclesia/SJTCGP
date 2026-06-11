@@ -604,3 +604,86 @@ button:hover { background: var(--accent-dark); color: #fff; }
     display: block;
   }
 }
+
+
+/* REAL desktop deck layout fix - uses a dedicated deck-board wrapper.
+   This avoids the Leader panel becoming a full-width row on desktop. */
+.deck-board {
+  display: block;
+  margin-top: 1rem;
+}
+
+@media (min-width: 900px) {
+  #deckView:not([hidden]) {
+    display: block !important;
+  }
+
+  #deckView .deck-board {
+    display: grid !important;
+    grid-template-columns: minmax(180px, 220px) minmax(0, 1fr) !important;
+    gap: 1rem !important;
+    align-items: start !important;
+  }
+
+  #deckView .deck-board > .leader-deck-panel {
+    grid-column: 1 !important;
+    margin: 0 !important;
+    align-self: start !important;
+    position: sticky;
+    top: 1rem;
+  }
+
+  #deckView .deck-board > .deck-columns {
+    grid-column: 2 !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.65fr) minmax(250px, 0.72fr) !important;
+    gap: 1rem !important;
+    margin: 0 !important;
+    align-items: start !important;
+  }
+
+  #deckView .leader-deck-list {
+    grid-template-columns: minmax(128px, 160px) !important;
+    justify-content: start !important;
+  }
+
+  #deckView .leader-deck-panel .deck-card-tile {
+    max-width: 160px !important;
+  }
+
+  #deckView .main-deck-panel .deck-list {
+    grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)) !important;
+  }
+
+  #deckView .jump-deck-panel .deck-list {
+    grid-template-columns: repeat(auto-fill, minmax(95px, 1fr)) !important;
+  }
+}
+
+@media (min-width: 1180px) {
+  #deckView .deck-board {
+    grid-template-columns: minmax(190px, 230px) minmax(0, 1fr) !important;
+  }
+
+  #deckView .deck-board > .deck-columns {
+    grid-template-columns: minmax(0, 1.8fr) minmax(270px, 0.72fr) !important;
+  }
+}
+
+@media (max-width: 899px) {
+  #deckView .deck-board {
+    display: block !important;
+  }
+
+  #deckView .deck-board > .leader-deck-panel {
+    margin-bottom: 1rem !important;
+    position: static !important;
+  }
+
+  #deckView .deck-board > .deck-columns {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    margin-top: 1rem !important;
+  }
+}
