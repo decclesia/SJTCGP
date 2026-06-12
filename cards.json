@@ -217,7 +217,13 @@
     "deckZone": "Main",
     "cardType": "Main Deck",
     "deckLimit": 4,
-    "orientation": "Portrait"
+    "orientation": "Portrait",
+    "altImages": [
+      {
+        "label": "Alt Art",
+        "image": "images/ST1-020-alt1.jpg"
+      }
+    ]
   },
   {
     "number": "ST1-021",

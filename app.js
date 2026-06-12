@@ -5,6 +5,7 @@ let currentModalIndex = -1;
 let modalCards = [];
 let activeFilters = { release: "", set: "", color: "", type: "" };
 let deck = { leader: "", main: {}, jump: {} };
+let artChoices = {};
 let deckSortMode = "number";
 
 const MAIN_DECK_SIZE = 50;
@@ -39,6 +40,7 @@ const elements = {
   themeToggle: document.querySelector("#themeToggle"),
   modal: document.querySelector("#cardModal"),
   modalImage: document.querySelector("#modalImage"),
+  modalArtToggle: document.querySelector("#modalArtToggle"),
   modalTitle: document.querySelector("#modalTitle"),
   modalMeta: document.querySelector("#modalMeta"),
   modalPrev: document.querySelector("#modalPrev"),
@@ -63,6 +65,7 @@ document.addEventListener("DOMContentLoaded", init);
 async function init() {
   setupTheme();
   loadDeck();
+  loadArtChoices();
 
   let cardData;
   try {
@@ -126,7 +129,17 @@ function normalizeCard(card) {
   const deckLimit = Number(card.deckLimit || (type === "Leader" || type === "Secret Rare" || deckZone === "JUMP" ? 1 : 4));
   const deckCategory = type === "Leader" ? "Leader" : (deckZone === "JUMP" ? "JUMP Deck" : "Main Deck");
   const orientation = card.orientation || "Portrait";
-  return { ...card, cardType: type, deckZone, deckLimit, deckCategory, orientation };
+  const altImages = normalizeAltImages(card.altImages);
+  return { ...card, cardType: type, deckZone, deckLimit, deckCategory, orientation, altImages };
+}
+function normalizeAltImages(altImages) {
+  if (!Array.isArray(altImages)) return [];
+  return altImages
+    .map((entry, index) => {
+      if (typeof entry === "string") return { label: `Alt Art ${index + 1}`, image: entry };
+      return { label: entry.label || `Alt Art ${index + 1}`, image: entry.image || "" };
+    })
+    .filter(entry => entry.image);
 }
 
 function setupTheme() {
@@ -168,12 +181,19 @@ function addEventListeners() {
   on(elements.modalImagePath, "click", async () => {
     const card = modalCards[currentModalIndex];
     if (!card) return;
+    const imagePath = currentCardImage(card);
     try {
-      await navigator.clipboard.writeText(card.image);
-      showToast(`Copied ${card.image}`);
+      await navigator.clipboard.writeText(imagePath);
+      showToast(`Copied ${imagePath}`);
     } catch {
-      showToast(card.image);
+      showToast(imagePath);
     }
+  });
+  on(elements.modalArtToggle, "click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    const card = modalCards[currentModalIndex];
+    if (card) toggleCardArt(card.number);
   });
   on(elements.modalRemoveFromDeck, "click", () => {
     const card = modalCards[currentModalIndex];
@@ -289,7 +309,7 @@ function renderCards() {
   const playableOnly = Boolean(elements.playableOnlyToggle && elements.playableOnlyToggle.checked && leader);
   visibleCards = allCards.filter(card => {
     const searchAliases = [
-      card.number, card.release, card.set, card.color, card.cardType, card.deckZone, card.deckCategory, card.rarity, card.orientation, card.image,
+      card.number, card.release, card.set, card.color, card.cardType, card.deckZone, card.deckCategory, card.rarity, card.image,
       card.cardType === "Leader" ? "leader" : "",
       card.cardType === "Secret Rare" ? "secret secret rare sr" : "",
       card.deckZone === "JUMP" ? "jump jump deck j deck" : "main main deck",
@@ -345,14 +365,74 @@ function createCardElement(card, index) {
   article.setAttribute("role", "button");
   article.setAttribute("aria-label", `Open ${card.number}`);
   const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong></div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" data-deck-action="add" data-card-number="${escapeHtml(card.number)}" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-button add-four-button card-add-four" type="button" data-deck-action="add4" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
+  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(currentCardImage(card))}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong>${artToggleHtml(card, "database")}</div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" data-deck-action="add" data-card-number="${escapeHtml(card.number)}" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-button add-four-button card-add-four" type="button" data-deck-action="add4" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
   const image = article.querySelector("img");
   image.addEventListener("error", () => { image.src = createPlaceholderImage(card.number); });
   article.addEventListener("click", () => openModal(visibleCards, index));
   article.querySelector(".add-button").addEventListener("click", (event) => { event.stopPropagation(); addCardToDeck(card.number); });
   article.querySelector(".card-add-four")?.addEventListener("click", (event) => { event.preventDefault(); event.stopPropagation(); addCardCopiesToDeck(card.number, 4); });
+  article.querySelector(".art-toggle-button")?.addEventListener("click", (event) => { event.preventDefault(); event.stopPropagation(); toggleCardArt(card.number); });
   article.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(visibleCards, index); } });
   return article;
+}
+
+function cardVariantImages(card) {
+  return [{ label: "Default", image: card.image }, ...(card.altImages || [])].filter(entry => entry.image);
+}
+function hasAltArt(card) {
+  return cardVariantImages(card).length > 1;
+}
+function currentArtIndex(card) {
+  const variants = cardVariantImages(card);
+  const rawIndex = Number(artChoices[card.number] || 0);
+  if (!Number.isInteger(rawIndex) || rawIndex < 0 || rawIndex >= variants.length) return 0;
+  return rawIndex;
+}
+function currentCardImage(card) {
+  const variants = cardVariantImages(card);
+  return (variants[currentArtIndex(card)] || variants[0] || { image: card.image }).image;
+}
+function artToggleHtml(card, context = "database") {
+  if (!hasAltArt(card)) return "";
+  const active = currentArtIndex(card) > 0 ? " active" : "";
+  const label = currentArtIndex(card) > 0 ? "Using alternate artwork. Switch artwork" : "Switch artwork";
+  return `<button class="art-toggle-button art-toggle-${escapeHtml(context)}${active}" type="button" data-card-number="${escapeHtml(card.number)}" aria-label="${escapeHtml(label)}" title="Switch artwork">★</button>`;
+}
+function toggleCardArt(number) {
+  const card = getCard(number);
+  if (!card || !hasAltArt(card)) return;
+  const variants = cardVariantImages(card);
+  const nextIndex = (currentArtIndex(card) + 1) % variants.length;
+  if (nextIndex === 0) delete artChoices[card.number];
+  else artChoices[card.number] = nextIndex;
+  saveArtChoices();
+  renderCards();
+  renderDeck();
+  if (modalCards[currentModalIndex] && modalCards[currentModalIndex].number === card.number) showModalCard();
+  const label = nextIndex === 0 ? "default art" : (variants[nextIndex].label || "alternate art");
+  showToast(`${card.number}: ${label}`);
+}
+function loadArtChoices() {
+  try {
+    const saved = localStorage.getItem("sjtcg-art-choices");
+    artChoices = saved ? JSON.parse(saved) : {};
+    if (!artChoices || typeof artChoices !== "object" || Array.isArray(artChoices)) artChoices = {};
+  } catch {
+    artChoices = {};
+    localStorage.removeItem("sjtcg-art-choices");
+  }
+}
+function saveArtChoices() {
+  localStorage.setItem("sjtcg-art-choices", JSON.stringify(artChoices));
+}
+function updateModalArtToggle(card) {
+  if (!elements.modalArtToggle) return;
+  const show = hasAltArt(card);
+  elements.modalArtToggle.hidden = !show;
+  if (!show) return;
+  elements.modalArtToggle.classList.toggle("active", currentArtIndex(card) > 0);
+  elements.modalArtToggle.title = currentArtIndex(card) > 0 ? "Using alternate artwork. Switch artwork" : "Switch artwork";
+  elements.modalArtToggle.setAttribute("aria-label", elements.modalArtToggle.title);
 }
 
 function cardBadgesHtml(card) {
@@ -360,7 +440,6 @@ function cardBadgesHtml(card) {
   if (card.cardType === "Leader") badges.push(`<span class="badge leader">Leader</span>`);
   if (card.cardType === "Secret Rare") badges.push(`<span class="badge secret">Secret Rare</span>`);
   if (card.deckZone === "JUMP") badges.push(`<span class="badge jump">JUMP Deck</span>`);
-  if (card.orientation === "Landscape") badges.push(`<span class="badge">Landscape</span>`);
   if (!badges.length) badges.push(`<span class="badge">Limit ${card.deckLimit}</span>`);
   else badges.push(`<span class="badge">Limit ${card.deckLimit}</span>`);
   return badges.join(" ");
@@ -371,14 +450,16 @@ function openModal(cards, index) { if (!elements.modal) return; modalCards = car
 function showModalCard() {
   const card = modalCards[currentModalIndex];
   if (!card) return;
+  const imagePath = currentCardImage(card);
   if (elements.modalImage) {
     elements.modalImage.onerror = () => { elements.modalImage.src = createPlaceholderImage(card.number); };
-    elements.modalImage.src = card.image;
+    elements.modalImage.src = imagePath;
     elements.modalImage.alt = card.number;
   }
+  updateModalArtToggle(card);
   if (elements.modalTitle) elements.modalTitle.textContent = card.number;
-  if (elements.modalMeta) elements.modalMeta.innerHTML = `<span><strong>Release:</strong> ${escapeHtml(card.release)}</span><span><strong>Set:</strong> ${escapeHtml(card.set)}</span><span><strong>Color:</strong> ${colorBadgeHtml(card.color)}</span><span><strong>Type:</strong> ${escapeHtml(card.deckCategory)}</span><span><strong>Limit:</strong> ${card.deckLimit}</span><span><strong>Layout:</strong> ${escapeHtml(card.orientation)}</span><span>${cardBadgesHtml(card)}</span>`;
-  if (elements.modalImagePath) elements.modalImagePath.textContent = `Copy image path: ${card.image}`;
+  if (elements.modalMeta) elements.modalMeta.innerHTML = `<span><strong>Release:</strong> ${escapeHtml(card.release)}</span><span><strong>Set:</strong> ${escapeHtml(card.set)}</span><span><strong>Color:</strong> ${colorBadgeHtml(card.color)}</span><span><strong>Type:</strong> ${escapeHtml(card.deckCategory)}</span><span><strong>Limit:</strong> ${card.deckLimit}</span><span>${cardBadgesHtml(card)}</span>`;
+  if (elements.modalImagePath) elements.modalImagePath.textContent = `Copy image path: ${imagePath}`;
   updateModalDeckControls(card);
 }
 function showRelativeCard(offset) { if (!modalCards.length) return; currentModalIndex = (currentModalIndex + offset + modalCards.length) % modalCards.length; showModalCard(); }
@@ -542,8 +623,9 @@ function renderLeaderDeckPanel(leader) {
   tile.tabIndex = 0;
   tile.setAttribute("role", "button");
   tile.setAttribute("aria-label", `Open ${leader.number} in deck viewer`);
-  tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(leader.image)}" alt="${escapeHtml(leader.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×1</strong></div><div class="deck-card-caption"><strong>${escapeHtml(leader.number)}</strong><span>${colorBadgeHtml(leader.color)} ${escapeHtml(leader.set)}</span><small>Leader · Limit ${leader.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove ${escapeHtml(leader.number)} as Leader">−</button></div>`;
-  tile.querySelector("button").addEventListener("click", (event) => { event.stopPropagation(); removeOne(leader.number, "main"); });
+  tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(currentCardImage(leader))}" alt="${escapeHtml(leader.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×1</strong>${artToggleHtml(leader, "deck")}</div><div class="deck-card-caption"><strong>${escapeHtml(leader.number)}</strong><span>${colorBadgeHtml(leader.color)} ${escapeHtml(leader.set)}</span><small>Leader · Limit ${leader.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" aria-label="Remove ${escapeHtml(leader.number)} as Leader">−</button></div>`;
+  tile.querySelector(".qty-controls button")?.addEventListener("click", (event) => { event.stopPropagation(); removeOne(leader.number, "main"); });
+  tile.querySelector(".art-toggle-button")?.addEventListener("click", (event) => { event.preventDefault(); event.stopPropagation(); toggleCardArt(leader.number); });
   tile.addEventListener("click", () => openModal([leader], 0));
   tile.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal([leader], 0); } });
   elements.leaderDeckList.appendChild(tile);
@@ -563,10 +645,11 @@ function renderDeckList(container, entries, zone) {
     tile.dataset.cardNumber = card.number;
     tile.setAttribute("aria-label", `Open ${card.number} in deck viewer`);
     const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×${qty}</strong></div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" data-deck-action="remove" data-deck-zone="${zone}" data-card-number="${escapeHtml(card.number)}" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" data-deck-action="add" data-card-number="${escapeHtml(card.number)}" aria-label="Add one ${escapeHtml(card.number)}">+</button>${canAddFour ? `<button class="add-four-button deck-add-four" type="button" data-deck-action="add4" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)}">Add 4</button>` : ""}</div>`;
+    tile.innerHTML = `<div class="deck-card-image-wrap"><img src="${escapeHtml(currentCardImage(card))}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="deck-card-qty">×${qty}</strong>${artToggleHtml(card, "deck")}</div><div class="deck-card-caption"><strong>${escapeHtml(card.number)}</strong><span>${colorBadgeHtml(card.color)} ${escapeHtml(card.set)}</span><small>${escapeHtml(card.deckCategory)} · Limit ${card.deckLimit}</small></div><div class="qty-controls deck-tile-controls"><button type="button" data-deck-action="remove" data-deck-zone="${zone}" data-card-number="${escapeHtml(card.number)}" aria-label="Remove one ${escapeHtml(card.number)}">−</button><button type="button" data-deck-action="add" data-card-number="${escapeHtml(card.number)}" aria-label="Add one ${escapeHtml(card.number)}">+</button>${canAddFour ? `<button class="add-four-button deck-add-four" type="button" data-deck-action="add4" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)}">Add 4</button>` : ""}</div>`;
     tile.querySelectorAll("button")[0].addEventListener("click", (event) => { event.stopPropagation(); removeOne(card.number, zone); });
     tile.querySelectorAll("button")[1].addEventListener("click", (event) => { event.stopPropagation(); addOne(card.number, zone); });
     tile.querySelector(".deck-add-four")?.addEventListener("click", (event) => { event.preventDefault(); event.stopPropagation(); addCardCopiesToDeck(card.number, 4); });
+    tile.querySelector(".art-toggle-button")?.addEventListener("click", (event) => { event.preventDefault(); event.stopPropagation(); toggleCardArt(card.number); });
     tile.addEventListener("click", () => openModal(cardsInThisZone, index));
     tile.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openModal(cardsInThisZone, index); } });
     container.appendChild(tile);
@@ -745,7 +828,7 @@ async function drawDeckGrid(ctx, rows, y, layout) {
     const x = gap + col * (cardW + gap);
     const cy = y + row * (cardH + gap);
     try {
-      const img = await loadImage(card.image);
+      const img = await loadImage(currentCardImage(card));
       if (fit === "contain") {
         ctx.fillStyle = document.body.classList.contains("dark") ? "#171717" : "#fffaf0";
         ctx.fillRect(x, cy, cardW, cardH);

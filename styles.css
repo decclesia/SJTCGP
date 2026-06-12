@@ -687,3 +687,54 @@ button:hover { background: var(--accent-dark); color: #fff; }
     margin-top: 1rem !important;
   }
 }
+
+/* Alt-art star toggle. Orientation metadata stays internal and is never shown as text. */
+.art-toggle-button {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  padding: 0;
+  border: 0;
+  background: var(--accent);
+  color: #111;
+  font-size: 1.05rem;
+  font-weight: 950;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 6;
+  clip-path: polygon(50% 0%, 61% 34%, 98% 35%, 68% 56%, 79% 91%, 50% 70%, 21% 91%, 32% 56%, 2% 35%, 39% 34%);
+  filter: drop-shadow(0 3px 8px rgba(0,0,0,0.45));
+  transition: transform 120ms ease, filter 120ms ease, opacity 120ms ease;
+}
+.art-toggle-button:hover,
+.art-toggle-button:focus-visible {
+  transform: scale(1.08) rotate(-7deg);
+  filter: drop-shadow(0 5px 12px rgba(0,0,0,0.55));
+}
+.art-toggle-button.active {
+  background: #fff2a8;
+  color: #111;
+}
+.art-toggle-database,
+.art-toggle-deck {
+  top: 0.45rem;
+  left: 0.45rem;
+}
+.modal-art-toggle {
+  top: 1.35rem;
+  left: 1.35rem;
+}
+.modal-art-toggle[hidden] { display: none; }
+@media (max-width: 760px) {
+  .art-toggle-button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.95rem;
+  }
+  .modal-art-toggle {
+    top: 0.95rem;
+    left: 0.95rem;
+  }
+}
