@@ -2479,5 +2479,27 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape"
+  },
+  {
+    "number": "PUP-018",
+    "release": "PUP",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/PUP-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "PUP-019",
+    "release": "PUP",
+    "set": "GKA",
+    "color": "Red",
+    "image": "images/PUP-019.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
   }
 ]

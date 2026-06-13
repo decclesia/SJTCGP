@@ -162,6 +162,8 @@ function addEventListeners() {
   on(elements.finalizeDeck, "click", finalizeDeckImage);
   on(elements.searchInput, "input", renderCards);
   on(elements.sortSelect, "change", renderCards);
+  on(elements.releaseFilters, "change", () => { activeFilters.release = elements.releaseFilters.value; renderCards(); });
+  on(elements.setFilters, "change", () => { activeFilters.set = elements.setFilters.value; renderCards(); });
   on(elements.resetButton, "click", resetFilters);
   on(elements.playableOnlyToggle, "change", renderCards);
   on(elements.deckSortSelect, "change", () => { deckSortMode = elements.deckSortSelect.value; renderDeck(); });
@@ -277,10 +279,20 @@ function showView(view) {
 }
 
 function populateFilterButtons() {
-  renderFilterGroup(elements.releaseFilters, uniqueValues(allCards.map(c => c.release)).sort(compareRelease), "release");
-  renderFilterGroup(elements.setFilters, uniqueValues(allCards.map(c => c.set)).sort(compareText), "set");
+  renderFilterSelect(elements.releaseFilters, uniqueValues(allCards.map(c => c.release)).sort(compareRelease), "All releases");
+  renderFilterSelect(elements.setFilters, uniqueValues(allCards.map(c => c.set)).sort(compareText), "All sets");
   renderFilterGroup(elements.colorFilters, uniqueValues(allCards.map(c => c.color)).sort(compareColors), "color");
   renderFilterGroup(elements.typeFilters, uniqueValues(allCards.map(c => c.deckCategory)).sort(compareTypes), "type");
+}
+function renderFilterSelect(select, values, allLabel) {
+  if (!select) return;
+  select.innerHTML = `<option value="">${escapeHtml(allLabel)}</option>`;
+  values.forEach(value => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = value;
+    select.appendChild(option);
+  });
 }
 function renderFilterGroup(container, values, type) { if (!container) return; container.innerHTML = ""; values.forEach(value => container.appendChild(makeFilterButton(value, type))); }
 function makeFilterButton(value, type) {
@@ -295,6 +307,8 @@ function makeFilterButton(value, type) {
   return button;
 }
 function updateFilterButtons() {
+  if (elements.releaseFilters) elements.releaseFilters.value = activeFilters.release || "";
+  if (elements.setFilters) elements.setFilters.value = activeFilters.set || "";
   document.querySelectorAll(".filter-button").forEach(button => {
     const type = button.dataset.filterType, value = button.dataset.filterValue;
     button.classList.toggle("active", activeFilters[type] === value);

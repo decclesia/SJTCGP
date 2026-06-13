@@ -51,6 +51,26 @@ input:focus, select:focus, button:focus-visible { outline: 3px solid color-mix(i
 .filter-stack { display: grid; gap: 0.75rem; margin-top: 0.9rem; }
 .filter-section { display: grid; grid-template-columns: 5.2rem 1fr; gap: 0.65rem; align-items: center; }
 .filter-buttons { display: flex; flex-wrap: wrap; gap: 0.42rem; }
+.filter-select {
+  width: min(100%, 16rem);
+  padding: 0.58rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--gold);
+  color: #16120a;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+}
+body.dark .filter-select {
+  background: var(--gold);
+  color: #16120a;
+}
+.filter-select:focus {
+  outline: 2px solid color-mix(in srgb, var(--gold) 55%, white);
+  outline-offset: 2px;
+}
+
 button { border: 0; border-radius: 999px; padding: 0.62rem 0.88rem; color: #111; background: var(--accent); cursor: pointer; font-weight: 900; box-shadow: 0 7px 15px rgba(0,0,0,0.12); }
 button:hover { background: var(--accent-dark); color: #fff; }
 .filter-button { min-width: 3.8rem; padding: 0.55rem 0.78rem; line-height: 1; }
