@@ -56,15 +56,26 @@ input:focus, select:focus, button:focus-visible { outline: 3px solid color-mix(i
   padding: 0.58rem 0.8rem;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: var(--gold);
-  color: #16120a;
+  background-color: #d8ad32;
+  color: #120f08;
+  color-scheme: light;
   font-weight: 900;
   letter-spacing: 0.02em;
   box-shadow: 0 8px 22px rgba(0,0,0,0.12);
 }
 body.dark .filter-select {
-  background: var(--gold);
-  color: #16120a;
+  background-color: #f0c64a;
+  color: #070604;
+  border-color: rgba(240, 198, 74, 0.65);
+}
+.filter-select option {
+  background-color: #111;
+  color: #f7f0df;
+  font-weight: 800;
+}
+body:not(.dark) .filter-select option {
+  background-color: #fffaf0;
+  color: #14100a;
 }
 .filter-select:focus {
   outline: 2px solid color-mix(in srgb, var(--gold) 55%, white);
