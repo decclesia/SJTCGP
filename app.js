@@ -79,6 +79,7 @@ async function init() {
   try {
     allCards = cardData.map(normalizeCard);
     allCards = sortCards(allCards, "default");
+    sanitizeDeckData();
     populateFilterButtons();
     addEventListeners();
     renderCards();
@@ -505,8 +506,21 @@ function saveDeck() {
   updateDatabaseDeckBadges();
   if (elements.playableOnlyToggle && elements.playableOnlyToggle.checked) renderCards();
 }
+function sanitizeDeckData() {
+  deck.main ||= {};
+  deck.jump ||= {};
+  deck.leader ||= "";
+
+  Object.keys(deck.main).forEach(number => {
+    const card = getCard(number);
+    if (card && card.cardType === "Leader") {
+      if (!deck.leader) deck.leader = number;
+      delete deck.main[number];
+    }
+  });
+}
 function totalCopiesInDeck(number) {
-  return Number(deck.main[number] || 0) + Number(deck.jump[number] || 0);
+  return (number === deck.leader ? 1 : 0) + Number(deck.main[number] || 0) + Number(deck.jump[number] || 0);
 }
 function updateDatabaseDeckBadges() {
   document.querySelectorAll(".card").forEach(cardElement => {
@@ -530,9 +544,7 @@ function addCardToDeck(number, options = {}) {
   const leader = selectedLeader();
   if (card.cardType === "Leader") {
     deck.leader = card.number;
-    deck.main = { ...deck.main, [card.number]: 1 };
-    // Remove other leaders from main deck.
-    Object.keys(deck.main).forEach(n => { const c = getCard(n); if (c && c.cardType === "Leader" && n !== card.number) delete deck.main[n]; });
+    Object.keys(deck.main).forEach(n => { const c = getCard(n); if (c && c.cardType === "Leader") delete deck.main[n]; });
     if (!quiet) showToast(`${card.number} selected as your Leader.`);
     saveDeck();
     return;
@@ -549,10 +561,15 @@ function addCardToDeck(number, options = {}) {
   saveDeck();
 }
 function removeOne(number, zone) {
-  if (!deck[zone][number]) return;
+  if (number === deck.leader) {
+    deck.leader = "";
+    Object.keys(deck.main).forEach(n => { const c = getCard(n); if (c && c.cardType === "Leader") delete deck.main[n]; });
+    saveDeck();
+    return;
+  }
+  if (!deck[zone] || !deck[zone][number]) return;
   deck[zone][number] -= 1;
   if (deck[zone][number] <= 0) delete deck[zone][number];
-  if (number === deck.leader) deck.leader = "";
   saveDeck();
 }
 function addOne(number, zone) { addCardToDeck(number); }
@@ -670,15 +687,19 @@ function renderDeckList(container, entries, zone) {
   });
 }
 
-function cardDeckZoneKey(card) { return card.deckZone === "JUMP" ? "jump" : "main"; }
+function cardDeckZoneKey(card) {
+  if (card && card.cardType === "Leader") return "leader";
+  return card.deckZone === "JUMP" ? "jump" : "main";
+}
 function getDeckQuantity(card) {
   if (!card) return 0;
+  if (card.cardType === "Leader") return deck.leader === card.number ? 1 : 0;
   const zone = cardDeckZoneKey(card);
   return Number(deck[zone][card.number] || 0);
 }
 function updateModalDeckControls(card) {
   if (!elements.modalAddToDeck || !elements.modalDeckQty || !elements.modalRemoveFromDeck || !elements.modalAddFourToDeck) return;
-  const zoneName = card.deckZone === "JUMP" ? "JUMP Deck" : "Main Deck";
+  const zoneName = card.cardType === "Leader" ? "Leader" : (card.deckZone === "JUMP" ? "JUMP Deck" : "Main Deck");
   const qty = getDeckQuantity(card);
   const remaining = Math.max(0, card.deckLimit - qty);
   elements.modalAddToDeck.textContent = `+`;
