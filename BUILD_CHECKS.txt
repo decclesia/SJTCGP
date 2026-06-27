@@ -1,0 +1,16 @@
+SJTCGP GitHub Pages card-text update
+
+Website cards: 510
+Transcribed cards: 510
+Missing text matches: 0
+Orphaned text records: 0
+Missing image paths: 0
+Duplicate card numbers: 0
+PUP-060 Traits: blank (JUMP Action correction)
+PUP card rarity: P supported
+app.js syntax: OK
+cards.json parses: OK
+card-text.json parses: OK
+Local HTTP asset smoke test: OK
+
+Upload the complete contents of this folder to the GitHub Pages repository root.

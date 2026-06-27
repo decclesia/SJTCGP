@@ -33,16 +33,25 @@ const elements = {
   colorFilters: document.querySelector("#colorFilters"),
   typeFilters: document.querySelector("#typeFilters"),
   sortSelect: document.querySelector("#sortSelect"),
+  gridDensitySelect: document.querySelector("#gridDensitySelect"),
   resetButton: document.querySelector("#resetButton"),
   resultCount: document.querySelector("#resultCount"),
+  activeFilterSummary: document.querySelector("#activeFilterSummary"),
   cardGrid: document.querySelector("#cardGrid"),
   emptyState: document.querySelector("#emptyState"),
   themeToggle: document.querySelector("#themeToggle"),
   modal: document.querySelector("#cardModal"),
   modalImage: document.querySelector("#modalImage"),
   modalArtToggle: document.querySelector("#modalArtToggle"),
+  modalCardNumber: document.querySelector("#modalCardNumber"),
   modalTitle: document.querySelector("#modalTitle"),
   modalMeta: document.querySelector("#modalMeta"),
+  modalStats: document.querySelector("#modalStats"),
+  modalTraits: document.querySelector("#modalTraits"),
+  modalEffectSection: document.querySelector("#modalEffectSection"),
+  modalEffect: document.querySelector("#modalEffect"),
+  modalNotes: document.querySelector("#modalNotes"),
+  modalCopyText: document.querySelector("#modalCopyText"),
   modalPrev: document.querySelector("#modalPrev"),
   modalNext: document.querySelector("#modalNext"),
   modalAddToDeck: document.querySelector("#modalAddToDeck"),
@@ -64,6 +73,7 @@ document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
   setupTheme();
+  setupGridDensity();
   loadDeck();
   loadArtChoices();
 
@@ -131,7 +141,8 @@ function normalizeCard(card) {
   const deckCategory = type === "Leader" ? "Leader" : (deckZone === "JUMP" ? "JUMP Deck" : "Main Deck");
   const orientation = card.orientation || "Portrait";
   const altImages = normalizeAltImages(card.altImages);
-  return { ...card, cardType: type, deckZone, deckLimit, deckCategory, orientation, altImages };
+  const text = (window.SJTCG_CARD_TEXT && window.SJTCG_CARD_TEXT[card.number]) || {};
+  return { ...card, cardType: type, deckZone, deckLimit, deckCategory, orientation, altImages, text };
 }
 function normalizeAltImages(altImages) {
   if (!Array.isArray(altImages)) return [];
@@ -155,6 +166,15 @@ function setupTheme() {
 }
 function updateThemeButton() { if (elements.themeToggle) elements.themeToggle.textContent = document.body.classList.contains("dark") ? "Light" : "Dark"; }
 
+function setupGridDensity() {
+  const savedDensity = localStorage.getItem("sjtcg-grid-density") === "compact" ? "compact" : "comfortable";
+  if (elements.gridDensitySelect) elements.gridDensitySelect.value = savedDensity;
+  applyGridDensity(savedDensity);
+}
+function applyGridDensity(density) {
+  document.body.classList.toggle("compact-grid", density === "compact");
+}
+
 function addEventListeners() {
   on(elements.databaseTab, "click", () => showView("database"));
   on(elements.deckTab, "click", () => showView("deck"));
@@ -163,6 +183,11 @@ function addEventListeners() {
   on(elements.finalizeDeck, "click", finalizeDeckImage);
   on(elements.searchInput, "input", renderCards);
   on(elements.sortSelect, "change", renderCards);
+  on(elements.gridDensitySelect, "change", () => {
+    const density = elements.gridDensitySelect.value === "compact" ? "compact" : "comfortable";
+    localStorage.setItem("sjtcg-grid-density", density);
+    applyGridDensity(density);
+  });
   on(elements.releaseFilters, "change", () => { activeFilters.release = elements.releaseFilters.value; renderCards(); });
   on(elements.setFilters, "change", () => { activeFilters.set = elements.setFilters.value; renderCards(); });
   on(elements.resetButton, "click", resetFilters);
@@ -190,6 +215,17 @@ function addEventListeners() {
       showToast(`Copied ${imagePath}`);
     } catch {
       showToast(imagePath);
+    }
+  });
+  on(elements.modalCopyText, "click", async () => {
+    const card = modalCards[currentModalIndex];
+    if (!card) return;
+    const cardText = buildClipboardCardText(card);
+    try {
+      await navigator.clipboard.writeText(cardText);
+      showToast(`Copied ${card.number} card text`);
+    } catch {
+      showToast("Card text is ready to copy from the details panel.");
     }
   });
   on(elements.modalArtToggle, "click", (event) => {
@@ -225,10 +261,23 @@ function addEventListeners() {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (!elements.modal || elements.modal.hidden) return;
-    if (event.key === "Escape") closeModal();
-    if (event.key === "ArrowLeft") showRelativeCard(-1);
-    if (event.key === "ArrowRight") showRelativeCard(1);
+    const modalOpen = Boolean(elements.modal && !elements.modal.hidden);
+    if (modalOpen) {
+      if (event.key === "Escape") closeModal();
+      if (event.key === "ArrowLeft") showRelativeCard(-1);
+      if (event.key === "ArrowRight") showRelativeCard(1);
+      return;
+    }
+    const target = event.target;
+    const isTyping = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement;
+    if (event.key === "/" && !isTyping && elements.searchInput) {
+      event.preventDefault();
+      elements.searchInput.focus();
+    }
+    if (event.key === "Escape" && document.activeElement === elements.searchInput && elements.searchInput.value) {
+      elements.searchInput.value = "";
+      renderCards();
+    }
   });
 }
 
@@ -320,11 +369,14 @@ function uniqueValues(values) { return [...new Set(values.filter(Boolean))]; }
 
 function renderCards() {
   const searchText = elements.searchInput ? elements.searchInput.value.trim().toLowerCase() : "";
+  const searchTerms = searchText.split(/\s+/).filter(Boolean);
   const leader = selectedLeader();
   const playableOnly = Boolean(elements.playableOnlyToggle && elements.playableOnlyToggle.checked && leader);
   visibleCards = allCards.filter(card => {
     const searchAliases = [
       card.number, card.release, card.set, card.color, card.cardType, card.deckZone, card.deckCategory, card.rarity, card.image,
+      card.text.name, card.text.traits, card.text.effect, card.text.rarity, card.text.cost, card.text.sj_cost,
+      card.text.life, card.text.power, card.text.counter, card.text.bottom_right_circle,
       card.cardType === "Leader" ? "leader" : "",
       card.cardType === "Secret Rare" ? "secret secret rare sr" : "",
       card.deckZone === "JUMP" ? "jump jump deck j deck" : "main main deck",
@@ -333,7 +385,7 @@ function renderCards() {
     const searchableText = searchAliases.join(" ").toLowerCase();
     const isPlayableWithLeader = !playableOnly || card.number === leader.number || card.color === leader.color;
     return isPlayableWithLeader &&
-      (!searchText || searchableText.includes(searchText)) &&
+      (!searchTerms.length || searchTerms.every(term => searchableText.includes(term))) &&
       (!activeFilters.release || card.release === activeFilters.release) &&
       (!activeFilters.set || card.set === activeFilters.set) &&
       (!activeFilters.color || card.color === activeFilters.color) &&
@@ -347,6 +399,21 @@ function renderCards() {
   if (elements.resultCount) elements.resultCount.textContent = `${visibleCards.length} card${visibleCards.length === 1 ? "" : "s"} found`;
   if (elements.emptyState) elements.emptyState.hidden = visibleCards.length !== 0;
   updateFilterButtons();
+  updateActiveFilterSummary(searchText, playableOnly, leader);
+}
+
+function updateActiveFilterSummary(searchText, playableOnly, leader) {
+  if (!elements.activeFilterSummary) return;
+  const parts = [];
+  if (searchText) parts.push(`Search: “${searchText}”`);
+  if (activeFilters.release) parts.push(`Release: ${activeFilters.release}`);
+  if (activeFilters.set) parts.push(`Set: ${activeFilters.set}`);
+  if (activeFilters.color) parts.push(`Color: ${activeFilters.color}`);
+  if (activeFilters.type) parts.push(`Type: ${activeFilters.type}`);
+  if (playableOnly && leader) parts.push(`Playable with ${leader.number}`);
+  elements.activeFilterSummary.textContent = parts.length
+    ? `${parts.join(" · ")} — click a card for its full text.`
+    : "Showing all cards. Click a card for its full text. Press / to search.";
 }
 
 function sortCards(cards, sortBy) {
@@ -378,9 +445,10 @@ function createCardElement(card, index) {
   article.dataset.cardNumber = card.number;
   article.tabIndex = 0;
   article.setAttribute("role", "button");
-  article.setAttribute("aria-label", `Open ${card.number}`);
+  const cardName = card.text.name || "";
+  article.setAttribute("aria-label", `Open ${card.number}${cardName ? `, ${cardName}` : ""}`);
   const canAddFour = card.deckLimit > 1 && card.deckZone !== "JUMP" && card.cardType !== "Leader";
-  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(currentCardImage(card))}" alt="${escapeHtml(card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong>${artToggleHtml(card, "database")}</div><div><h2>${escapeHtml(card.number)}</h2><p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" data-deck-action="add" data-card-number="${escapeHtml(card.number)}" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-button add-four-button card-add-four" type="button" data-deck-action="add4" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
+  article.innerHTML = `<div class="card-image-wrap"><img src="${escapeHtml(currentCardImage(card))}" alt="${escapeHtml(cardName ? `${card.number} ${cardName}` : card.number)}" loading="lazy" decoding="async"><strong class="database-deck-qty" ${deckQty ? "" : "hidden"}>×${deckQty}</strong>${artToggleHtml(card, "database")}</div><div><h2>${escapeHtml(card.number)}</h2>${cardName ? `<p class="card-name">${escapeHtml(cardName)}</p>` : ""}<p>Release: ${escapeHtml(card.release)} · Set: ${escapeHtml(card.set)}</p><p class="card-color-line">${colorBadgeHtml(card.color)}</p><p class="card-meta-line">${cardBadgesHtml(card)}</p><div class="card-actions"><button class="add-button" type="button" data-deck-action="add" data-card-number="${escapeHtml(card.number)}" aria-label="Add ${escapeHtml(card.number)} to deck">+</button>${canAddFour ? `<button class="add-button add-four-button card-add-four" type="button" data-deck-action="add4" data-card-number="${escapeHtml(card.number)}" aria-label="Add four ${escapeHtml(card.number)} to deck">Add 4</button>` : ""}</div></div>`;
   const image = article.querySelector("img");
   image.addEventListener("error", () => { image.src = createPlaceholderImage(card.number); });
   article.addEventListener("click", () => openModal(visibleCards, index));
@@ -472,10 +540,41 @@ function showModalCard() {
     elements.modalImage.alt = card.number;
   }
   updateModalArtToggle(card);
-  if (elements.modalTitle) elements.modalTitle.textContent = card.number;
-  if (elements.modalMeta) elements.modalMeta.innerHTML = `<span><strong>Release:</strong> ${escapeHtml(card.release)}</span><span><strong>Set:</strong> ${escapeHtml(card.set)}</span><span><strong>Color:</strong> ${colorBadgeHtml(card.color)}</span><span><strong>Type:</strong> ${escapeHtml(card.deckCategory)}</span><span><strong>Limit:</strong> ${card.deckLimit}</span><span>${cardBadgesHtml(card)}</span>`;
-  if (elements.modalImagePath) elements.modalImagePath.textContent = `Copy image path: ${imagePath}`;
+  const text = card.text || {};
+  if (elements.modalCardNumber) elements.modalCardNumber.textContent = card.number;
+  if (elements.modalTitle) elements.modalTitle.textContent = text.name || card.number;
+  if (elements.modalMeta) elements.modalMeta.innerHTML = `<span><strong>Release:</strong> ${escapeHtml(card.release)}</span><span><strong>Set:</strong> ${escapeHtml(text.set || card.set)}</span><span><strong>Color:</strong> ${colorBadgeHtml(text.color || card.color)}</span><span><strong>Deck:</strong> ${escapeHtml(card.deckCategory)}</span><span><strong>Limit:</strong> ${card.deckLimit}</span>`;
+  if (elements.modalStats) {
+    const stats = [
+      ["Cost", text.cost], ["SJ Cost", text.sj_cost], ["Life", text.life], ["Power", text.power],
+      ["Counter", text.counter], ["Rarity", text.rarity || card.rarity], ["Circle", text.bottom_right_circle]
+    ].filter(([, value]) => value !== "" && value !== null && value !== undefined);
+    elements.modalStats.innerHTML = stats.map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("");
+  }
+  if (elements.modalTraits) {
+    elements.modalTraits.hidden = !text.traits;
+    elements.modalTraits.innerHTML = text.traits ? `<strong>Traits</strong><span>${escapeHtml(text.traits)}</span>` : "";
+  }
+  if (elements.modalEffectSection) elements.modalEffectSection.hidden = !text.effect;
+  if (elements.modalEffect) elements.modalEffect.innerHTML = text.effect_html || escapeHtml(text.effect || "").replaceAll("\n", "<br>");
+  if (elements.modalNotes) {
+    elements.modalNotes.hidden = !text.notes;
+    elements.modalNotes.innerHTML = text.notes ? `<strong>Transcription note:</strong> ${escapeHtml(text.notes)}` : "";
+  }
+  if (elements.modalCopyText) elements.modalCopyText.hidden = !text.name && !text.effect;
+  if (elements.modalImagePath) elements.modalImagePath.textContent = "Copy image path";
   updateModalDeckControls(card);
+}
+
+function buildClipboardCardText(card) {
+  const text = card.text || {};
+  const rows = [
+    ["Name", text.name], ["Color", text.color || card.color], ["Cost", text.cost], ["SJ Cost", text.sj_cost],
+    ["Life", text.life], ["Power", text.power], ["Counter", text.counter], ["Traits", text.traits],
+    ["Card No", card.number], ["Set", text.set || card.set], ["Rarity", text.rarity || card.rarity],
+    ["Bottom right circle", text.bottom_right_circle], ["Effect", text.effect]
+  ];
+  return rows.filter(([, value]) => value !== "" && value !== null && value !== undefined).map(([label, value]) => `${label}: ${value}`).join("\n");
 }
 function showRelativeCard(offset) { if (!modalCards.length) return; currentModalIndex = (currentModalIndex + offset + modalCards.length) % modalCards.length; showModalCard(); }
 function closeModal() { if (elements.modal) elements.modal.hidden = true; document.body.style.overflow = ""; }
