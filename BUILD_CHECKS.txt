@@ -12,5 +12,7 @@ app.js syntax: OK
 cards.json parses: OK
 card-text.json parses: OK
 Local HTTP asset smoke test: OK
+URL filter parameters: release / set / color / type / q / cards / card supported
+Planner deep-link audit: 20 live products and 3 cross-set support cards matched
 
 Upload the complete contents of this folder to the GitHub Pages repository root.

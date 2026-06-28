@@ -4,6 +4,8 @@ let visibleCards = [];
 let currentModalIndex = -1;
 let modalCards = [];
 let activeFilters = { release: "", set: "", color: "", type: "" };
+let initialCardNumber = "";
+let linkedCardNumbers = new Set();
 let deck = { leader: "", main: {}, jump: {} };
 let artChoices = {};
 let deckSortMode = "number";
@@ -91,9 +93,11 @@ async function init() {
     allCards = sortCards(allCards, "default");
     sanitizeDeckData();
     populateFilterButtons();
+    applyUrlState();
     addEventListeners();
     renderCards();
     renderDeck();
+    openCardFromUrl();
   } catch (error) {
     console.error("Site setup error:", error);
     showStartupError("The site files are out of sync.", "Upload index.html, app.js, styles.css, and cards.json from the same update package, then hard refresh.");
@@ -367,6 +371,59 @@ function updateFilterButtons() {
 }
 function uniqueValues(values) { return [...new Set(values.filter(Boolean))]; }
 
+function applyUrlState() {
+  const params = new URLSearchParams(window.location.search);
+  initialCardNumber = params.get("card") || "";
+  linkedCardNumbers = new Set((params.get("cards") || "").split(",").map(value => value.trim()).filter(Boolean));
+  const allowed = {
+    release: new Set(allCards.map(card => card.release)),
+    set: new Set(allCards.map(card => card.set)),
+    color: new Set(allCards.map(card => card.color)),
+    type: new Set(allCards.map(card => card.deckCategory))
+  };
+  Object.keys(activeFilters).forEach(key => {
+    const value = params.get(key) || "";
+    activeFilters[key] = allowed[key].has(value) ? value : "";
+  });
+  if (elements.searchInput) elements.searchInput.value = params.get("q") || "";
+  if (elements.sortSelect) {
+    const requestedSort = params.get("sort") || "default";
+    const validSort = [...elements.sortSelect.options].some(option => option.value === requestedSort);
+    elements.sortSelect.value = validSort ? requestedSort : "default";
+  }
+}
+
+function syncUrlState(cardNumber = "") {
+  try {
+    const url = new URL(window.location.href);
+    const values = {
+      release: activeFilters.release,
+      set: activeFilters.set,
+      color: activeFilters.color,
+      type: activeFilters.type,
+      q: elements.searchInput ? elements.searchInput.value.trim() : "",
+      sort: elements.sortSelect && elements.sortSelect.value !== "default" ? elements.sortSelect.value : "",
+      cards: linkedCardNumbers.size ? [...linkedCardNumbers].join(",") : "",
+      card: cardNumber
+    };
+    Object.entries(values).forEach(([key, value]) => {
+      if (value) url.searchParams.set(key, value);
+      else url.searchParams.delete(key);
+    });
+    window.history.replaceState(null, "", url);
+  } catch {
+    // Filtering still works when URL history is unavailable (for example, some local file previews).
+  }
+}
+
+function openCardFromUrl() {
+  const number = initialCardNumber;
+  if (!number) return;
+  const index = visibleCards.findIndex(card => card.number === number);
+  initialCardNumber = "";
+  if (index >= 0) openModal(visibleCards, index);
+}
+
 function renderCards() {
   const searchText = elements.searchInput ? elements.searchInput.value.trim().toLowerCase() : "";
   const searchTerms = searchText.split(/\s+/).filter(Boolean);
@@ -385,6 +442,7 @@ function renderCards() {
     const searchableText = searchAliases.join(" ").toLowerCase();
     const isPlayableWithLeader = !playableOnly || card.number === leader.number || card.color === leader.color;
     return isPlayableWithLeader &&
+      (!linkedCardNumbers.size || linkedCardNumbers.has(card.number)) &&
       (!searchTerms.length || searchTerms.every(term => searchableText.includes(term))) &&
       (!activeFilters.release || card.release === activeFilters.release) &&
       (!activeFilters.set || card.set === activeFilters.set) &&
@@ -400,6 +458,8 @@ function renderCards() {
   if (elements.emptyState) elements.emptyState.hidden = visibleCards.length !== 0;
   updateFilterButtons();
   updateActiveFilterSummary(searchText, playableOnly, leader);
+  const modalCard = elements.modal && !elements.modal.hidden ? modalCards[currentModalIndex] : null;
+  syncUrlState(modalCard ? modalCard.number : initialCardNumber);
 }
 
 function updateActiveFilterSummary(searchText, playableOnly, leader) {
@@ -410,6 +470,7 @@ function updateActiveFilterSummary(searchText, playableOnly, leader) {
   if (activeFilters.set) parts.push(`Set: ${activeFilters.set}`);
   if (activeFilters.color) parts.push(`Color: ${activeFilters.color}`);
   if (activeFilters.type) parts.push(`Type: ${activeFilters.type}`);
+  if (linkedCardNumbers.size) parts.push(`Linked selection: ${linkedCardNumbers.size} cards`);
   if (playableOnly && leader) parts.push(`Playable with ${leader.number}`);
   elements.activeFilterSummary.textContent = parts.length
     ? `${parts.join(" · ")} — click a card for its full text.`
@@ -529,7 +590,15 @@ function cardBadgesHtml(card) {
 }
 function colorBadgeHtml(color) { const safeColor = escapeHtml(color || "Unknown"); const letter = escapeHtml(colorLetters[color] || "?"); return `<span class="color-badge color-${safeColor.toLowerCase()}" title="${safeColor}">${letter}</span>`; }
 
-function openModal(cards, index) { if (!elements.modal) return; modalCards = cards || visibleCards; currentModalIndex = index; showModalCard(); elements.modal.hidden = false; document.body.style.overflow = "hidden"; }
+function openModal(cards, index, updateUrl = true) {
+  if (!elements.modal) return;
+  modalCards = cards || visibleCards;
+  currentModalIndex = index;
+  showModalCard();
+  elements.modal.hidden = false;
+  document.body.style.overflow = "hidden";
+  if (updateUrl && modalCards[currentModalIndex]) syncUrlState(modalCards[currentModalIndex].number);
+}
 function showModalCard() {
   const card = modalCards[currentModalIndex];
   if (!card) return;
@@ -576,12 +645,22 @@ function buildClipboardCardText(card) {
   ];
   return rows.filter(([, value]) => value !== "" && value !== null && value !== undefined).map(([label, value]) => `${label}: ${value}`).join("\n");
 }
-function showRelativeCard(offset) { if (!modalCards.length) return; currentModalIndex = (currentModalIndex + offset + modalCards.length) % modalCards.length; showModalCard(); }
-function closeModal() { if (elements.modal) elements.modal.hidden = true; document.body.style.overflow = ""; }
+function showRelativeCard(offset) {
+  if (!modalCards.length) return;
+  currentModalIndex = (currentModalIndex + offset + modalCards.length) % modalCards.length;
+  showModalCard();
+  syncUrlState(modalCards[currentModalIndex].number);
+}
+function closeModal() {
+  if (elements.modal) elements.modal.hidden = true;
+  document.body.style.overflow = "";
+  syncUrlState();
+}
 function resetFilters() {
   if (elements.searchInput) elements.searchInput.value = "";
   if (elements.sortSelect) elements.sortSelect.value = "default";
   activeFilters = { release: "", set: "", color: "", type: "" };
+  linkedCardNumbers = new Set();
   renderCards();
 }
 
