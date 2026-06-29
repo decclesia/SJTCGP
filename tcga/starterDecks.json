@@ -6,7 +6,7 @@
     "format": [
       "Standard"
     ],
-    "cardCount": 97,
+    "cardCount": 87,
     "createdAt": "2026-06-29T15:27:55.996038Z",
     "lastModifiedAt": "2026-06-29T15:27:55.996038Z",
     "deckList": {
@@ -135,7 +135,7 @@
       ],
       "Energy_Stack": [
         {
-          "count": 20,
+          "count": 10,
           "id": "TOKEN-JBA"
         }
       ],
