@@ -18,12 +18,14 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(r"C:\Users\User\Documents\Codex\2026-06-20\ta")
 ARCHIVE_PATH = ROOT / "outputs" / "SJTCGP_Card_Text_Archive" / "cards-text-archive.json"
 SOURCE_CARDS_PATH = ROOT / "outputs" / "SJTCGP_GitHub_Pages_Text_Update" / "cards.json"
+CARD_IMAGE_DIR = ROOT / "outputs" / "SJTCGP_GitHub_Pages_Text_Update" / "images"
 LOGO_PATH = ROOT / "outputs" / "SJTCGP_GitHub_Pages_Text_Update" / "assets" / "sjtcg-logo.svg"
 TOKEN_SOURCE = ROOT / "work" / "tcg-arena-assets-20260629"
 TORU_DECK_PATH = ROOT / "outputs" / "Toru_Sample_Deck_Deckbuilder.json"
 OUTPUT_ROOT = ROOT / "outputs" / "SJTCGP_TCG_Arena_GitHub_Update"
 TCGA_DIR = OUTPUT_ROOT / "tcga"
 ASSET_DIR = TCGA_DIR / "assets"
+LANDSCAPE_CARD_DIR = ASSET_DIR / "landscape-cards"
 BASE_URL = "https://decclesia.github.io/SJTCGP/"
 GAME_NAME = "SJTCGP - Shonen Jump Trading Card Game"
 
@@ -135,7 +137,10 @@ def keyword_list(effect: str) -> list[str]:
 def make_card_entry(card: dict) -> dict:
     card_type = classify_card(card)
     number = card["card_no"]
-    image_url = BASE_URL + card["image_url"].replace("\\", "/")
+    if card.get("orientation") == "Landscape":
+        image_url = BASE_URL + f"tcga/assets/landscape-cards/{number}.jpg"
+    else:
+        image_url = BASE_URL + card["image_url"].replace("\\", "/")
     cost = to_number(card.get("cost"))
     sj_cost = to_number(card.get("sj_cost"))
     life = to_number(card.get("life"))
@@ -176,6 +181,27 @@ def make_card_entry(card: dict) -> dict:
         "Orientation": card.get("orientation", "Portrait"),
         "image": image_url,
     }
+
+
+def build_landscape_card_assets(archive_cards: list[dict]) -> None:
+    """Prepare counter-rotated faces for TCG Arena's horizontal-card renderer."""
+    LANDSCAPE_CARD_DIR.mkdir(parents=True, exist_ok=True)
+    for card in archive_cards:
+        if card.get("orientation") != "Landscape":
+            continue
+        number = card["card_no"]
+        source = CARD_IMAGE_DIR / f"{number}.jpg"
+        destination = LANDSCAPE_CARD_DIR / f"{number}.jpg"
+        with Image.open(source) as image:
+            prepared = image.convert("RGB").transpose(Image.Transpose.ROTATE_90)
+            prepared.save(
+                destination,
+                "JPEG",
+                quality=92,
+                optimize=True,
+                progressive=True,
+                subsampling=1,
+            )
 
 
 def get_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
@@ -439,7 +465,7 @@ def build_sections() -> dict:
         "SJ_Marker_Area": section("SJ_Marker_Area", "SJ Marker Area", height="8", horizontal=True, enter_tapped=True, keep_tapped=True),
         "Energy_Stack": section("Energy_Stack", "Energy Stack", height="11", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, keep_tapped=True),
         "Guard_Token_Pile": section("Guard_Token_Pile", "Guard Token", height="8", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, keep_tapped=True),
-        "JUMP_Deck": section("JUMP_Deck", "JUMP Deck", hidden="yes", height="18", alignment="DECK", horizontal=True, group_forbidden=True, no_auto_pay_to=False, keep_tapped=True, quick_actions=True),
+        "JUMP_Deck": section("JUMP_Deck", "JUMP Deck", hidden="yes", height="18", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, keep_tapped=True, quick_actions=True),
         "Leader": section("Leader", "Leader Area", height="18", horizontal=True),
         "Life": section("Life", "Life Area", hidden="yes", height="18", alignment="DECK", group_forbidden=True, quick_actions=True, keep_tapped=True),
         "Field": section("Field", "Field", height="18", horizontal=True),
@@ -491,6 +517,21 @@ def build_layout() -> dict:
                         "content": [
                             {"section": "Energy_Area", "style": {"flex": 3}},
                             {"section": "Overcharge_Area", "style": {"flex": 1}},
+                        ],
+                    },
+                ],
+            },
+            {
+                "direction": "column",
+                "style": {"width": "20vh"},
+                "content": [
+                    {"section": "Deck", "style": {"height": "19vh"}},
+                    {
+                        "direction": "row",
+                        "style": {"height": "16vh"},
+                        "content": [
+                            {"section": "Discard", "style": {"flex": 1}},
+                            {"section": "Exile", "style": {"flex": 1}},
                         ],
                     },
                 ],
@@ -548,8 +589,8 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
                         {"category": "Leader", "min": 1, "max": 1, "maxPerCard": 1},
                         {"category": "Main_Deck", "min": 50, "max": 50},
                         {"category": "JUMP_Deck", "min": 0, "max": 10, "maxPerCard": 1},
-                        {"category": "Energy_Stack", "min": 10, "max": 10, "maxPerCard": 10},
-                        {"category": "SJ_Marker_Pile", "min": 4, "max": 20, "maxPerCard": 20},
+                        {"category": "Energy_Stack", "min": 20, "max": 20, "maxPerCard": 20},
+                        {"category": "SJ_Marker_Pile", "min": 20, "max": 20, "maxPerCard": 20},
                         {"category": "Guard_Token_Pile", "min": 1, "max": 1, "maxPerCard": 1},
                     ],
                 }
@@ -558,8 +599,8 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
         "gameplay": {
             "Classic": {
                 "mulligan": {
-                    "info": "Opening hand: 6 cards. You may redraw once during setup.",
-                    "startingHandSize": 6,
+                    "info": "Opening hand: 5 cards. You may redraw once during setup.",
+                    "startingHandSize": 5,
                     "drawNewHand": True,
                     "putSelectionAtBottom": False,
                     "drawNewSelectedCards": False,
@@ -679,7 +720,7 @@ def make_tcga_deck(source: dict, cards: dict, marker_map: dict, title: str | Non
         "Main_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("main", {}).items()],
         "Leader": [{"count": 1, "id": leader}],
         "JUMP_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("jump", {}).items()],
-        "Energy_Stack": [{"count": 10, "id": energy_id}],
+        "Energy_Stack": [{"count": 20, "id": energy_id}],
         "SJ_Marker_Pile": sj_entries,
         "Guard_Token_Pile": ([{"count": 1, "id": guard_id}] if guard_id else []),
     }
@@ -731,7 +772,7 @@ TEMPORARY CARD BACK
 Replace tcga/assets/card-back.jpg whenever you design the final card back. Replace tcga/assets/jump-card-back.jpg separately if you want a distinct JUMP Deck back. The JSON does not need to change if the filenames stay the same.
 
 CURRENT SETUP ASSUMPTION
-The game file uses a 6-card opening hand and lets players redraw once. Life is deliberately manual because Life totals vary by Leader. If the opening-hand rule differs, edit gameplay > Classic > mulligan > startingHandSize in Game_SJTCGP.json.
+The game file uses a 5-card opening hand and lets players redraw once. Life is deliberately manual because Life totals vary by Leader. If the opening-hand rule differs, edit gameplay > Classic > mulligan > startingHandSize in Game_SJTCGP.json.
 """
 
 
@@ -761,6 +802,7 @@ def main() -> None:
     ASSET_DIR.mkdir(parents=True, exist_ok=True)
 
     archive_cards = load_json(ARCHIVE_PATH)
+    build_landscape_card_assets(archive_cards)
     cards = {card["card_no"]: make_card_entry(card) for card in archive_cards}
 
     marker_map, token_ids = build_markers(cards)
