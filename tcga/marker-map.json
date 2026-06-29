@@ -1,0 +1,364 @@
+{
+  "bySeries": {
+    "ANE": {
+      "energy": "TOKEN-ANE",
+      "sjMarkers": [],
+      "guardToken": null
+    },
+    "CSM": {
+      "energy": "TOKEN-CSM",
+      "sjMarkers": [
+        "TOKEN-SJM-CSM1",
+        "TOKEN-SJM-CSM2"
+      ],
+      "guardToken": "TOKEN-GT-CSM"
+    },
+    "ENS": {
+      "energy": "TOKEN-ENS",
+      "sjMarkers": [
+        "TOKEN-SJM-ENS1",
+        "TOKEN-SJM-ENS2",
+        "TOKEN-SJM-ENS3"
+      ],
+      "guardToken": "TOKEN-GT-ENS"
+    },
+    "FMA": {
+      "energy": "TOKEN-FMA",
+      "sjMarkers": [
+        "TOKEN-SJM-FMA1",
+        "TOKEN-SJM-FMA2"
+      ],
+      "guardToken": "TOKEN-GT-FMA"
+    },
+    "FOR": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-FOR1",
+        "TOKEN-SJM-FOR2"
+      ],
+      "guardToken": "TOKEN-GT-FOR"
+    },
+    "GENERIC": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [],
+      "guardToken": null
+    },
+    "GKA": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-GKA1"
+      ],
+      "guardToken": "TOKEN-GT-GKA"
+    },
+    "GMC": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-GMC1"
+      ],
+      "guardToken": "TOKEN-GT-GMC"
+    },
+    "HNI": {
+      "energy": "TOKEN-HNI",
+      "sjMarkers": [
+        "TOKEN-SJM-HNI1",
+        "TOKEN-SJM-HNI2"
+      ],
+      "guardToken": "TOKEN-GT-HNI"
+    },
+    "JBA": {
+      "energy": "TOKEN-JBA",
+      "sjMarkers": [
+        "TOKEN-SJM-JBA1",
+        "TOKEN-SJM-JBA2",
+        "TOKEN-SJM-JBA3"
+      ],
+      "guardToken": "TOKEN-GT-JBA"
+    },
+    "MGD": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-MGD1",
+        "TOKEN-SJM-MGD2"
+      ],
+      "guardToken": "TOKEN-GT-MGD"
+    },
+    "MLM": {
+      "energy": "TOKEN-MLM",
+      "sjMarkers": [
+        "TOKEN-SJM-MLM1",
+        "TOKEN-SJM-MLM2"
+      ],
+      "guardToken": "TOKEN-GT-MLM"
+    },
+    "NRT": {
+      "energy": "TOKEN-NRT",
+      "sjMarkers": [
+        "TOKEN-SJM-NRT1",
+        "TOKEN-SJM-NRT2"
+      ],
+      "guardToken": "TOKEN-GT-NRT"
+    },
+    "PRO": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-PRO"
+      ],
+      "guardToken": "TOKEN-GT-PRO"
+    },
+    "SAF": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-SAF1"
+      ],
+      "guardToken": "TOKEN-GT-SAF"
+    },
+    "SLM": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-SLM1",
+        "TOKEN-SJM-SLM2"
+      ],
+      "guardToken": "TOKEN-GT-SLM"
+    },
+    "SMK": {
+      "energy": "TOKEN-SMK",
+      "sjMarkers": [
+        "TOKEN-SJM-SMK1",
+        "TOKEN-SJM-SMK2",
+        "TOKEN-SJM-SMK3"
+      ],
+      "guardToken": "TOKEN-GT-SMK"
+    },
+    "WHA": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-WHA1",
+        "TOKEN-SJM-WHA2"
+      ],
+      "guardToken": "TOKEN-GT-WHA"
+    },
+    "WTW": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-WTW1",
+        "TOKEN-SJM-WTW2"
+      ],
+      "guardToken": "TOKEN-GT-WTW"
+    },
+    "YYH": {
+      "energy": "TOKEN-YYH",
+      "sjMarkers": [
+        "TOKEN-SJM-YYH1",
+        "TOKEN-SJM-YYH2"
+      ],
+      "guardToken": "TOKEN-GT-YYH"
+    }
+  },
+  "notes": {
+    "energyFallback": "TOKEN-ENERGY-GENERIC",
+    "automaticAssignment": "The included deck converter assigns exact Set art when available and uses the generic Energy Marker otherwise.",
+    "arenaLimitation": "TCG Arena itself cannot dynamically change accessory art after a Leader is selected."
+  },
+  "byLeader": {
+    "ST1-001": {
+      "set": "CSM",
+      "energy": "TOKEN-CSM",
+      "sjMarkers": [
+        "TOKEN-SJM-CSM1",
+        "TOKEN-SJM-CSM2"
+      ],
+      "guardToken": "TOKEN-GT-CSM"
+    },
+    "ST1-026": {
+      "set": "HNI",
+      "energy": "TOKEN-HNI",
+      "sjMarkers": [
+        "TOKEN-SJM-HNI1",
+        "TOKEN-SJM-HNI2"
+      ],
+      "guardToken": "TOKEN-GT-HNI"
+    },
+    "ST1-052": {
+      "set": "NRT",
+      "energy": "TOKEN-NRT",
+      "sjMarkers": [
+        "TOKEN-SJM-NRT1",
+        "TOKEN-SJM-NRT2"
+      ],
+      "guardToken": "TOKEN-GT-NRT"
+    },
+    "ST1-077": {
+      "set": "SMK",
+      "energy": "TOKEN-SMK",
+      "sjMarkers": [
+        "TOKEN-SJM-SMK1",
+        "TOKEN-SJM-SMK2",
+        "TOKEN-SJM-SMK3"
+      ],
+      "guardToken": "TOKEN-GT-SMK"
+    },
+    "ST1-101": {
+      "set": "JBA",
+      "energy": "TOKEN-JBA",
+      "sjMarkers": [
+        "TOKEN-SJM-JBA1",
+        "TOKEN-SJM-JBA2",
+        "TOKEN-SJM-JBA3"
+      ],
+      "guardToken": "TOKEN-GT-JBA"
+    },
+    "ST2-001": {
+      "set": "YYH",
+      "energy": "TOKEN-YYH",
+      "sjMarkers": [
+        "TOKEN-SJM-YYH1",
+        "TOKEN-SJM-YYH2"
+      ],
+      "guardToken": "TOKEN-GT-YYH"
+    },
+    "ST2-026": {
+      "set": "ENS",
+      "energy": "TOKEN-ENS",
+      "sjMarkers": [
+        "TOKEN-SJM-ENS1",
+        "TOKEN-SJM-ENS2",
+        "TOKEN-SJM-ENS3"
+      ],
+      "guardToken": "TOKEN-GT-ENS"
+    },
+    "ST2-051": {
+      "set": "FMA",
+      "energy": "TOKEN-FMA",
+      "sjMarkers": [
+        "TOKEN-SJM-FMA1",
+        "TOKEN-SJM-FMA2"
+      ],
+      "guardToken": "TOKEN-GT-FMA"
+    },
+    "ST2-076": {
+      "set": "FOR",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-FOR1",
+        "TOKEN-SJM-FOR2"
+      ],
+      "guardToken": "TOKEN-GT-FOR"
+    },
+    "ST2-101": {
+      "set": "MLM",
+      "energy": "TOKEN-MLM",
+      "sjMarkers": [
+        "TOKEN-SJM-MLM1",
+        "TOKEN-SJM-MLM2"
+      ],
+      "guardToken": "TOKEN-GT-MLM"
+    },
+    "ST3-001": {
+      "set": "MGD",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-MGD1",
+        "TOKEN-SJM-MGD2"
+      ],
+      "guardToken": "TOKEN-GT-MGD"
+    },
+    "ST3-021": {
+      "set": "SLM",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-SLM1",
+        "TOKEN-SJM-SLM2"
+      ],
+      "guardToken": "TOKEN-GT-SLM"
+    },
+    "ST3-041": {
+      "set": "WHA",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-WHA1",
+        "TOKEN-SJM-WHA2"
+      ],
+      "guardToken": "TOKEN-GT-WHA"
+    },
+    "SD1-001": {
+      "set": "SMK",
+      "energy": "TOKEN-SMK",
+      "sjMarkers": [
+        "TOKEN-SJM-SMK1",
+        "TOKEN-SJM-SMK2",
+        "TOKEN-SJM-SMK3"
+      ],
+      "guardToken": "TOKEN-GT-SMK"
+    },
+    "SD2-001": {
+      "set": "JBA",
+      "energy": "TOKEN-JBA",
+      "sjMarkers": [
+        "TOKEN-SJM-JBA1",
+        "TOKEN-SJM-JBA2",
+        "TOKEN-SJM-JBA3"
+      ],
+      "guardToken": "TOKEN-GT-JBA"
+    },
+    "SD3-001": {
+      "set": "ENS",
+      "energy": "TOKEN-ENS",
+      "sjMarkers": [
+        "TOKEN-SJM-ENS1",
+        "TOKEN-SJM-ENS2",
+        "TOKEN-SJM-ENS3"
+      ],
+      "guardToken": "TOKEN-GT-ENS"
+    },
+    "SD4-001": {
+      "set": "FMA",
+      "energy": "TOKEN-FMA",
+      "sjMarkers": [
+        "TOKEN-SJM-FMA1",
+        "TOKEN-SJM-FMA2"
+      ],
+      "guardToken": "TOKEN-GT-FMA"
+    },
+    "SD10-001": {
+      "set": "CSM",
+      "energy": "TOKEN-CSM",
+      "sjMarkers": [
+        "TOKEN-SJM-CSM1",
+        "TOKEN-SJM-CSM2"
+      ],
+      "guardToken": "TOKEN-GT-CSM"
+    },
+    "EX1-001": {
+      "set": "GKA",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-GKA1"
+      ],
+      "guardToken": "TOKEN-GT-GKA"
+    },
+    "EX2-001": {
+      "set": "PRO",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-PRO"
+      ],
+      "guardToken": "TOKEN-GT-PRO"
+    },
+    "EX3-001": {
+      "set": "GMC",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-GMC1"
+      ],
+      "guardToken": "TOKEN-GT-GMC"
+    },
+    "EX4-001": {
+      "set": "SAF",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-SAF1"
+      ],
+      "guardToken": "TOKEN-GT-SAF"
+    }
+  }
+}

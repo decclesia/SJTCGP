@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Toru — Calamity Life Loop (Sample)",
+    "id": "sjtcgp-sd2-001-sample",
+    "game": "SJTCGP - Shonen Jump Trading Card Game",
+    "format": [
+      "Standard"
+    ],
+    "cardCount": 97,
+    "createdAt": "2026-06-29T15:27:55.996038Z",
+    "lastModifiedAt": "2026-06-29T15:27:55.996038Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Main_Deck",
+        "Leader",
+        "JUMP_Deck",
+        "Energy_Stack",
+        "SJ_Marker_Pile",
+        "Guard_Token_Pile"
+      ],
+      "Sideboard": [],
+      "Main_Deck": [
+        {
+          "count": 3,
+          "id": "SD2-002"
+        },
+        {
+          "count": 2,
+          "id": "SD2-003"
+        },
+        {
+          "count": 4,
+          "id": "SD2-004"
+        },
+        {
+          "count": 4,
+          "id": "SD2-005"
+        },
+        {
+          "count": 3,
+          "id": "SD2-006"
+        },
+        {
+          "count": 3,
+          "id": "SD2-007"
+        },
+        {
+          "count": 4,
+          "id": "SD2-008"
+        },
+        {
+          "count": 2,
+          "id": "SD2-009"
+        },
+        {
+          "count": 1,
+          "id": "SD2-010"
+        },
+        {
+          "count": 3,
+          "id": "SD2-011"
+        },
+        {
+          "count": 2,
+          "id": "SD2-012"
+        },
+        {
+          "count": 3,
+          "id": "SD2-013"
+        },
+        {
+          "count": 1,
+          "id": "SD2-014"
+        },
+        {
+          "count": 2,
+          "id": "SD2-015"
+        },
+        {
+          "count": 2,
+          "id": "SD2-016"
+        },
+        {
+          "count": 4,
+          "id": "SD2-017"
+        },
+        {
+          "count": 2,
+          "id": "SD2-018"
+        },
+        {
+          "count": 1,
+          "id": "ST1-106"
+        },
+        {
+          "count": 2,
+          "id": "ST1-107"
+        },
+        {
+          "count": 1,
+          "id": "ST1-121"
+        },
+        {
+          "count": 1,
+          "id": "PUP-021"
+        }
+      ],
+      "Leader": [
+        {
+          "count": 1,
+          "id": "SD2-001"
+        }
+      ],
+      "JUMP_Deck": [
+        {
+          "count": 1,
+          "id": "SD2-019"
+        },
+        {
+          "count": 1,
+          "id": "SD2-020"
+        },
+        {
+          "count": 1,
+          "id": "ST2-125"
+        },
+        {
+          "count": 1,
+          "id": "PUP-015"
+        },
+        {
+          "count": 1,
+          "id": "PUP-016"
+        }
+      ],
+      "Energy_Stack": [
+        {
+          "count": 20,
+          "id": "TOKEN-JBA"
+        }
+      ],
+      "SJ_Marker_Pile": [
+        {
+          "count": 7,
+          "id": "TOKEN-SJM-JBA1"
+        },
+        {
+          "count": 7,
+          "id": "TOKEN-SJM-JBA2"
+        },
+        {
+          "count": 6,
+          "id": "TOKEN-SJM-JBA3"
+        }
+      ],
+      "Guard_Token_Pile": [
+        {
+          "count": 1,
+          "id": "TOKEN-GT-JBA"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,23489 @@
+{
+  "ST1-001": {
+    "id": "ST1-001",
+    "face": {
+      "front": {
+        "name": "Control Devil",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Control Devil [ST1-001]",
+    "type": "Leader",
+    "Number": "ST1-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "End of Opponent's Turn",
+      "Opponent's Attack",
+      "Opponent's Turn",
+      "Threshold"
+    ],
+    "Effect": "[Opponent's Attack] Switch the attack target to 1 of your Units, then negate this skill for the turn.\n[End of Opponent's Turn] Add up to 1 \"Nayuta\" from your Drop to your hand.\nThreshold 4 Remove 1 \"Nayuta\" in your Drop from the game; shuffle up to 3 cards with \"Control Devil\" in their traits into their owner's Deck(s), then draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-001.jpg"
+  },
+  "ST1-002": {
+    "id": "ST1-002",
+    "face": {
+      "front": {
+        "name": "Public Safety Bureau Arrival",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-002.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Public Safety Bureau Arrival [ST1-002]",
+    "type": "Main_Deck",
+    "Number": "ST1-002",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Public Safety Bureau",
+      "Devil"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Look up to 5 cards from the top of your Deck; add up to 1 Action with \"Control Devil\" in its traits to your hand, then you may trash any other Action cards among them and place any remaining cards at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-002.jpg"
+  },
+  "ST1-003": {
+    "id": "ST1-003",
+    "face": {
+      "front": {
+        "name": "Nayuta",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-003.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Nayuta [ST1-003]",
+    "type": "Main_Deck",
+    "Number": "ST1-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 0,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On K.O.",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Opponent has no Units in play or has only Rested Units in play: Play this card from your hand.\n[On K.O.] Look at 3 cards from the top of your Deck; add up to 1 card with \"Control Devil\" in its Traits or up to 1 \"Makima\" to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-003.jpg"
+  },
+  "ST1-004": {
+    "id": "ST1-004",
+    "face": {
+      "front": {
+        "name": "A corpse is talking",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-004.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "A corpse is talking [ST1-004]",
+    "type": "Main_Deck",
+    "Number": "ST1-004",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Control Devil"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Choose up to 1 of your opponent's Units and Rest it. Additionally, if your Leader is \"Control Devil\", draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-004.jpg"
+  },
+  "ST1-005": {
+    "id": "ST1-005",
+    "face": {
+      "front": {
+        "name": "Makima",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-005.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Makima [ST1-005]",
+    "type": "Main_Deck",
+    "Number": "ST1-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Overcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "Limit 1 If your Leader is \"Control Devil\" and this card would be K.O.ed by an Opponent's skill, you may K.O. 1 of your other Units instead.\n[Activate: Main] Rest this card: <Overcharge> 1 for each of your Opponent's Rested Units and you can't <Overcharge> for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-005.jpg"
+  },
+  "ST1-006": {
+    "id": "ST1-006",
+    "face": {
+      "front": {
+        "name": "Makima",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-006.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Makima [ST1-006]",
+    "type": "Main_Deck",
+    "Number": "ST1-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 If your Leader is \"Control Devil\": Choose up to 1 of your Opponent's Rested Units with 5000 Power or less and set its Power to 0 for as long as it's Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-006.jpg"
+  },
+  "ST1-007": {
+    "id": "ST1-007",
+    "face": {
+      "front": {
+        "name": "Makima",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-007.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Makima [ST1-007]",
+    "type": "Main_Deck",
+    "Number": "ST1-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On K.O.",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your opponent has no Units in play or has only Rested Units in play: Play this card from your hand.\n[On K.O.] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-007.jpg"
+  },
+  "ST1-008": {
+    "id": "ST1-008",
+    "face": {
+      "front": {
+        "name": "Fiend",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-008.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Fiend [ST1-008]",
+    "type": "Main_Deck",
+    "Number": "ST1-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Fiend"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-008.jpg"
+  },
+  "ST1-009": {
+    "id": "ST1-009",
+    "face": {
+      "front": {
+        "name": "Save me, Chainsaw Man",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-009.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Save me, Chainsaw Man [ST1-009]",
+    "type": "Main_Deck",
+    "Number": "ST1-009",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Control Devil"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Leader is \"Control Devil\": Choose 1 of your Units; choose all of your Opponent's Units with Power less than the chosen card's Power, Rest them and they can't be switched to Active mode for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-009.jpg"
+  },
+  "ST1-010": {
+    "id": "ST1-010",
+    "face": {
+      "front": {
+        "name": "Wretched Fate",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-010.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wretched Fate [ST1-010]",
+    "type": "Main_Deck",
+    "Number": "ST1-010",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Control Devil"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Barrier",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Choose the Unit played, ignoring Barrier, and Rest it. Then, choose all of your Opponent's other Rested Units and reduce their Power by that card's Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-010.jpg"
+  },
+  "ST1-011": {
+    "id": "ST1-011",
+    "face": {
+      "front": {
+        "name": "Makima",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-011.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Makima [ST1-011]",
+    "type": "Main_Deck",
+    "Number": "ST1-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Permanent",
+      "Limit 1",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "<Permanent> Your Opponent's Rested Units with 7000 Power or less cannot be switched to Active mode during your Opponent's Charge Phase.\nClash [Opponent's Attack] Limit 1 (1) If your Leader is \"Control Devil\", switch the attack target to your Leader.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-011.jpg"
+  },
+  "ST1-012": {
+    "id": "ST1-012",
+    "face": {
+      "front": {
+        "name": "Tokyo Special Division 4",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-012.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Tokyo Special Division 4 [ST1-012]",
+    "type": "Main_Deck",
+    "Number": "ST1-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Fiend",
+      "Devil Hunter",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On K.O."
+    ],
+    "Effect": "[On K.O.] Choose up to 1 of your Opponent's Units and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-012.jpg"
+  },
+  "ST1-013": {
+    "id": "ST1-013",
+    "face": {
+      "front": {
+        "name": "Bang",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-013.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bang [ST1-013]",
+    "type": "Main_Deck",
+    "Number": "ST1-013",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Control Devil"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units for each Action card in your Drop and Rest them. Then, choose up to 1 of your opponent's Rested Units, ignoring Barrier, and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-013.jpg"
+  },
+  "ST1-014": {
+    "id": "ST1-014",
+    "face": {
+      "front": {
+        "name": "Makima",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-014.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Makima [ST1-014]",
+    "type": "Main_Deck",
+    "Number": "ST1-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Limit 1 Play up to 1 Unit with a Cost of 1 from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-014.jpg"
+  },
+  "ST1-015": {
+    "id": "ST1-015",
+    "face": {
+      "front": {
+        "name": "Makima’s Dogpack",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-015.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Makima’s Dogpack [ST1-015]",
+    "type": "Main_Deck",
+    "Number": "ST1-015",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Animal"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] If your Leader is \"Control Devil\", draw 1 card.\nClash (1) [Activate: Battle] This card gains +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-015.jpg"
+  },
+  "ST1-016": {
+    "id": "ST1-016",
+    "face": {
+      "front": {
+        "name": "Nayuta’s Dogpack",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-016.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Nayuta’s Dogpack [ST1-016]",
+    "type": "Main_Deck",
+    "Number": "ST1-016",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Animal"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Deflect",
+      "Unique"
+    ],
+    "Effect": "Unique Deflect\nIf you have \"Nayuta\" in play, reduce this card's Cost in your hand by 2.\n[On K.O.] Add up to 1 Unit card with a Cost of 1 from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-016.jpg"
+  },
+  "ST1-017": {
+    "id": "ST1-017",
+    "face": {
+      "front": {
+        "name": "Thief",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Thief [ST1-017]",
+    "type": "Main_Deck",
+    "Number": "ST1-017",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Control Devil"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] K.O. 1 of your Units; give up to 1 of your Opponent's Rested Units -2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-017.jpg"
+  },
+  "ST1-018": {
+    "id": "ST1-018",
+    "face": {
+      "front": {
+        "name": "Katana Man",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-018.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Katana Man [ST1-018]",
+    "type": "Main_Deck",
+    "Number": "ST1-018",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Devil",
+      "Human",
+      "Devil Hunter"
+    ],
+    "Keywords": [
+      "On Attack"
+    ],
+    "Effect": "[On Attack] (1) Rest up to 1 of your opponent's Units and give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-018.jpg"
+  },
+  "ST1-019": {
+    "id": "ST1-019",
+    "face": {
+      "front": {
+        "name": "Angel",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-019.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Angel [ST1-019]",
+    "type": "Main_Deck",
+    "Number": "ST1-019",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Devil",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Attack"
+    ],
+    "Effect": "[On Attack] <Once per Turn> Rest 1 of your Units; switch this card to Active Mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-019.jpg"
+  },
+  "ST1-020": {
+    "id": "ST1-020",
+    "face": {
+      "front": {
+        "name": "Beam",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-020.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Beam [ST1-020]",
+    "type": "Main_Deck",
+    "Number": "ST1-020",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Fiend",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-020.jpg"
+  },
+  "ST1-021": {
+    "id": "ST1-021",
+    "face": {
+      "front": {
+        "name": "Galgali",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-021.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Galgali [ST1-021]",
+    "type": "Main_Deck",
+    "Number": "ST1-021",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Fiend",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Permanent"
+    ],
+    "Effect": "Permanent During your turn, this card gains +1000 Power for each of your Opponent's Rested Units.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-021.jpg"
+  },
+  "ST1-022": {
+    "id": "ST1-022",
+    "face": {
+      "front": {
+        "name": "Princi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-022.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Princi [ST1-022]",
+    "type": "Main_Deck",
+    "Number": "ST1-022",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Devil",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On K.O."
+    ],
+    "Effect": "[On K.O.] Add up to 1 \"Makima\" from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-022.jpg"
+  },
+  "ST1-023": {
+    "id": "ST1-023",
+    "face": {
+      "front": {
+        "name": "Hirokazu Arai",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-023.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Hirokazu Arai [ST1-023]",
+    "type": "Main_Deck",
+    "Number": "ST1-023",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "Blocker"
+    ],
+    "Effect": "<Blocker>",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-023.jpg"
+  },
+  "ST1-024": {
+    "id": "ST1-024",
+    "face": {
+      "front": {
+        "name": "Madoka",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-024.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Madoka [ST1-024]",
+    "type": "Main_Deck",
+    "Number": "ST1-024",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On K.O."
+    ],
+    "Effect": "[On K.O.] Add up to 1 yellow Action card with a cost of 2 or less from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-024.jpg"
+  },
+  "ST1-025": {
+    "id": "ST1-025",
+    "face": {
+      "front": {
+        "name": "Fushi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-025.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Fushi [ST1-025]",
+    "type": "Main_Deck",
+    "Number": "ST1-025",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Human",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, choose up to 1 of your Opponent's Rested Units with 1000 Power or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-025.jpg"
+  },
+  "ST1-026": {
+    "id": "ST1-026",
+    "face": {
+      "front": {
+        "name": "Makunouchi Ippo",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-026.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Makunouchi Ippo [ST1-026]",
+    "type": "Leader",
+    "Number": "ST1-026",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Once per Turn",
+      "Double Damage",
+      "Your Turn",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Add up to 1 card from your Life to your hand: Look at up to 5 cards from the top of your Deck, add up to 1 card with <<Boxing>> in its Traits to your hand, then place the rest at the bottom of your Deck in any order.\n[Activate: Battle] Once per Turn If you have 2 or more cards in your Combo area: Switch this card to Active Mode.\nThreshold 2 [Your Turn] This card gains Double Damage and +1000 Power.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-026.jpg"
+  },
+  "ST1-027": {
+    "id": "ST1-027",
+    "face": {
+      "front": {
+        "name": "Liver Blow",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-027.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Liver Blow [ST1-027]",
+    "type": "Main_Deck",
+    "Number": "ST1-027",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] (3) If your Leader has \"Boxer\" in their Traits: Draw 1 card; choose up to 1 of your Opponent's Units with 5000 Power or less, ignoring Barrier, and K.O. it.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-027.jpg"
+  },
+  "ST1-028": {
+    "id": "ST1-028",
+    "face": {
+      "front": {
+        "name": "Gazelle Punch",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-028.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gazelle Punch [ST1-028]",
+    "type": "Main_Deck",
+    "Number": "ST1-028",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] (1) If your Leader has \"Boxer\" in their Traits: Draw 1 card. Then, give up to 1 of your Opponent's Units -2000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-028.jpg"
+  },
+  "ST1-029": {
+    "id": "ST1-029",
+    "face": {
+      "front": {
+        "name": "Momentum Stop",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-029.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Momentum Stop [ST1-029]",
+    "type": "Main_Deck",
+    "Number": "ST1-029",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] (3) Play up to 1 Unit card with a Cost of 4 or less and \"Boxer\" in its Traits from your hand and, if you played a card, it gains +1000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-029.jpg"
+  },
+  "ST1-030": {
+    "id": "ST1-030",
+    "face": {
+      "front": {
+        "name": "Dempsey Roll",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-030.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dempsey Roll [ST1-030]",
+    "type": "Main_Deck",
+    "Number": "ST1-030",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] (3) If your Leader has \"Boxer\" in their Traits: Draw 1 card; choose up to 2 of your Opponent's Units and give them -3000 Power for the turn. Then, choose up to 1 of your Opponent's Units with 3000 Power or less and K.O. it.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-030.jpg"
+  },
+  "ST1-031": {
+    "id": "ST1-031",
+    "face": {
+      "front": {
+        "name": "Dash",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-031.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dash [ST1-031]",
+    "type": "Main_Deck",
+    "Number": "ST1-031",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Action"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Blocker"
+    ],
+    "Effect": "[Activate: Main] (2) If your Leader has \"Boxer\" in their Traits: Your Leader gains +1000 Power for the turn and your Opponent cannot activate Blocker when they attack during this turn.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-031.jpg"
+  },
+  "ST1-032": {
+    "id": "ST1-032",
+    "face": {
+      "front": {
+        "name": "Mitt Training",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-032.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mitt Training [ST1-032]",
+    "type": "Main_Deck",
+    "Number": "ST1-032",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] (2) If your Leader has \"Boxer\" in their Traits: Your Leader gains +2000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-032.jpg"
+  },
+  "ST1-033": {
+    "id": "ST1-033",
+    "face": {
+      "front": {
+        "name": "Makunouchi Ippo",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-033.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Makunouchi Ippo [ST1-033]",
+    "type": "Main_Deck",
+    "Number": "ST1-033",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Once per Turn",
+      "On Attack",
+      "Your Turn",
+      "Blocker",
+      "Revenge"
+    ],
+    "Effect": "Blocker Revenge\n[On Attack] <Once per Turn> Place 1 card with \"Boxing\" in its Traits from your hand in your Drop: At the end of your turn, set this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-033.jpg"
+  },
+  "ST1-034": {
+    "id": "ST1-034",
+    "face": {
+      "front": {
+        "name": "Mashiba Kumi",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-034.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Mashiba Kumi [ST1-034]",
+    "type": "Main_Deck",
+    "Number": "ST1-034",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Blocker",
+      "Clash",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\nClash (2) [Activate: Battle] Place up to 2 cards with \"Boxing\" in their Traits from your Drop in your Combo area with their skills negated for the turn. Then, if you placed a card, play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-034.jpg"
+  },
+  "ST1-035": {
+    "id": "ST1-035",
+    "face": {
+      "front": {
+        "name": "Wanpo",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-035.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Wanpo [ST1-035]",
+    "type": "Main_Deck",
+    "Number": "ST1-035",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Animal"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-035.jpg"
+  },
+  "ST1-036": {
+    "id": "ST1-036",
+    "face": {
+      "front": {
+        "name": "Kamogawa Genji",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-036.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kamogawa Genji [ST1-036]",
+    "type": "Main_Deck",
+    "Number": "ST1-036",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Trainer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] (1) Look at 5 cards from the top of your Deck; add up to 1 card with \"Boxing\" or \"Kamogawa Gym\" in its Traits to your hand, then place the rest at the bottom of your Deck in any order.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-036.jpg"
+  },
+  "ST1-037": {
+    "id": "ST1-037",
+    "face": {
+      "front": {
+        "name": "Haruhiko Yagi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-037.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Haruhiko Yagi [ST1-037]",
+    "type": "Main_Deck",
+    "Number": "ST1-037",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Manager",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] (1) Add up to 1 card from your Life to your hand. Then, if you added a card, draw 1 card.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-037.jpg"
+  },
+  "ST1-038": {
+    "id": "ST1-038",
+    "face": {
+      "front": {
+        "name": "Shinoda",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-038.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Shinoda [ST1-038]",
+    "type": "Main_Deck",
+    "Number": "ST1-038",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Trainer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] (1) If your Life is at 2 or less: Give your Red Leader +1000 Power for the turn.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-038.jpg"
+  },
+  "ST1-039": {
+    "id": "ST1-039",
+    "face": {
+      "front": {
+        "name": "Nekota Ginpachi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-039.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Nekota Ginpachi [ST1-039]",
+    "type": "Main_Deck",
+    "Number": "ST1-039",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Trainer"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] (1) Look at up to 3 cards from the top of your Deck; add up to 1 card with \"Trainer\" or \"Boxer\" in its Traits to your hand, then place the rest in your Drop.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-039.jpg"
+  },
+  "ST1-040": {
+    "id": "ST1-040",
+    "face": {
+      "front": {
+        "name": "Makunouchi Ippo",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-040.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Makunouchi Ippo [ST1-040]",
+    "type": "Main_Deck",
+    "Number": "ST1-040",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Trainer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] (1) Give all of your Opponent's Units with 5000 Power or less -1000 Power for the turn.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-040.jpg"
+  },
+  "ST1-041": {
+    "id": "ST1-041",
+    "face": {
+      "front": {
+        "name": "Aoki Taihei",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-041.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Aoki Taihei [ST1-041]",
+    "type": "Main_Deck",
+    "Number": "ST1-041",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] (1) Choose 1 of your other Units with \"Boxer\" in its Traits and give it +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-041.jpg"
+  },
+  "ST1-042": {
+    "id": "ST1-042",
+    "face": {
+      "front": {
+        "name": "Kaneda Kintaro",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-042.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kaneda Kintaro [ST1-042]",
+    "type": "Main_Deck",
+    "Number": "ST1-042",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] (1) Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-042.jpg"
+  },
+  "ST1-043": {
+    "id": "ST1-043",
+    "face": {
+      "front": {
+        "name": "Aoki Masaru",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-043.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Aoki Masaru [ST1-043]",
+    "type": "Main_Deck",
+    "Number": "ST1-043",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] (1) Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with \"Boxing\" in its Traits from your Drop in your Combo area with its skills negated for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-043.jpg"
+  },
+  "ST1-044": {
+    "id": "ST1-044",
+    "face": {
+      "front": {
+        "name": "Kimura Tatsuya",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-044.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kimura Tatsuya [ST1-044]",
+    "type": "Main_Deck",
+    "Number": "ST1-044",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] (1) Add up to 1 card from your Life to your hand; K.O. up to 1 of your Opponent's Units with 2000 Power or less.\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with \"Boxing\" in its Traits from your Drop in your Combo area with its skills negated for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-044.jpg"
+  },
+  "ST1-045": {
+    "id": "ST1-045",
+    "face": {
+      "front": {
+        "name": "Itagaki Manabu",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-045.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Itagaki Manabu [ST1-045]",
+    "type": "Main_Deck",
+    "Number": "ST1-045",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Add 1 card from your Life to your hand; reduce the [Activate: Main] Cost of the next Action with \"Boxing\" in its Traits you play this turn by (1).\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with \"Boxing\" in its Traits from your Drop in your Combo area with its skills negated for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-045.jpg"
+  },
+  "ST1-046": {
+    "id": "ST1-046",
+    "face": {
+      "front": {
+        "name": "Makunouchi Ippo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-046.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Makunouchi Ippo [ST1-046]",
+    "type": "Main_Deck",
+    "Number": "ST1-046",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Attack",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "[Activate: Battle] Limit 1 Place up to 2 cards with \"Boxing\" in their Traits from your Drop in your Combo area with their skills negated for the turn.\nClash (1) [Opponent's Attack] Use this card in a combo.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-046.jpg"
+  },
+  "ST1-047": {
+    "id": "ST1-047",
+    "face": {
+      "front": {
+        "name": "Takamura Mamoru",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-047.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Takamura Mamoru [ST1-047]",
+    "type": "Main_Deck",
+    "Number": "ST1-047",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash",
+      "Critical"
+    ],
+    "Effect": "[On Play] Place 1 card with \"Boxing\" in its Traits from your hand in your Drop: Choose up to 1 of your Opponent's Units and K.O. it. Then, if you have 6 or less cards in your hand, this card gains Critical for the turn.\nClash (1) [Opponent's Attack] Use this card in a combo.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-047.jpg"
+  },
+  "ST1-048": {
+    "id": "ST1-048",
+    "face": {
+      "front": {
+        "name": "Mad Grit",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-048.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mad Grit [ST1-048]",
+    "type": "Main_Deck",
+    "Number": "ST1-048",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Limit 1 If your Leader has \"Boxer\" in its Traits: Give up to 1 of your Leader or Units +2000 Power for the battle. Then, you may pay (1) and, if you do, when your Opponent uses a card in a combo for the turn, give it -1000 Counter.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-048.jpg"
+  },
+  "ST1-049": {
+    "id": "ST1-049",
+    "face": {
+      "front": {
+        "name": "Wind God's Descent",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-049.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wind God's Descent [ST1-049]",
+    "type": "Main_Deck",
+    "Number": "ST1-049",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] When your Opponent plays a Unit: Give the Unit being played -2000 Power for the turn. Then, choose up to 1 of your Units and switch it to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-049.jpg"
+  },
+  "ST1-050": {
+    "id": "ST1-050",
+    "face": {
+      "front": {
+        "name": "Counter",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-050.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Counter [ST1-050]",
+    "type": "Main_Deck",
+    "Number": "ST1-050",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Give your card that's in a battle +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-050.jpg"
+  },
+  "ST1-051": {
+    "id": "ST1-051",
+    "face": {
+      "front": {
+        "name": "Dual Exchange",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-051.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dual Exchange [ST1-051]",
+    "type": "Main_Deck",
+    "Number": "ST1-051",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Boxing"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Choose 1 of your Units and up to 1 of your Opponent's Units with the equal Power: K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-051.jpg"
+  },
+  "ST1-052": {
+    "id": "ST1-052",
+    "face": {
+      "front": {
+        "name": "Gaara",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-052.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Gaara [ST1-052]",
+    "type": "Leader",
+    "Number": "ST1-052",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Shinobi",
+      "Jinchuriki",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Permanent",
+      "Threshold",
+      "Critical"
+    ],
+    "Effect": "[Activate: Main] Draw 2 cards; place 1 card from your hand in your Drop.\n[Activate: Main] Add 1 card from your Life to your hand: Add up to 1 \"Sand Gourd\" from your Deck to your hand. Then, shuffle your Deck and negate this skill for the game.\nThreshold 3 <Permanent> This card gains Critical",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-052.jpg"
+  },
+  "ST1-053": {
+    "id": "ST1-053",
+    "face": {
+      "front": {
+        "name": "Sand Gourd",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-053.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sand Gourd [ST1-053]",
+    "type": "Main_Deck",
+    "Number": "ST1-053",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kekkei Genkai",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Permanent",
+      "Limit 1",
+      "Critical"
+    ],
+    "Effect": "<Permanent> When a card is placed from your hand in your Drop by a skill: You may pay (1) to add this card from your Drop to your hand.\n[Activate: Main] Limit 1 Choose 1 of your Units with \"Gaara\" in its name and give it Critical and +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-053.jpg"
+  },
+  "ST1-054": {
+    "id": "ST1-054",
+    "face": {
+      "front": {
+        "name": "Temari",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-054.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Temari [ST1-054]",
+    "type": "Main_Deck",
+    "Number": "ST1-054",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Turn",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\n[Activate: Main] (1) Place 1 card from your hand in your Drop: Play this card from your Drop.\n[Opponent's Turn] If your Opponent has 5 or more cards in their hand: When this card is removed from the field by an Opponent's skill, your Opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-054.jpg"
+  },
+  "ST1-055": {
+    "id": "ST1-055",
+    "face": {
+      "front": {
+        "name": "Kankuro",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-055.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kankuro [ST1-055]",
+    "type": "Main_Deck",
+    "Number": "ST1-055",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[Your Turn] (1) If this card in your hand is placed in your Drop by a skill: Play this card from your Drop.\n[On Play] Limit 1 Play up to 1 \"Karasu\" from your SJ Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-055.jpg"
+  },
+  "ST1-056": {
+    "id": "ST1-056",
+    "face": {
+      "front": {
+        "name": "Karasu",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-056.jpg",
+        "isHorizontal": false,
+        "power": 0,
+        "sjCost": 1
+      }
+    },
+    "name": "Karasu [ST1-056]",
+    "type": "JUMP_Deck",
+    "Number": "ST1-056",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 0,
+    "Counter": null,
+    "Traits": [
+      "Puppet",
+      "Ninja Tool"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[Your Turn] When your Opponent uses a card in a combo: Return this card to your SJ Deck and place up to 1 card from your Opponent's combo area in their Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-056.jpg"
+  },
+  "ST1-057": {
+    "id": "ST1-057",
+    "face": {
+      "front": {
+        "name": "Temari",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-057.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Temari [ST1-057]",
+    "type": "Main_Deck",
+    "Number": "ST1-057",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] <Once per Turn> When your opponent activates an Action card, your opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-057.jpg"
+  },
+  "ST1-058": {
+    "id": "ST1-058",
+    "face": {
+      "front": {
+        "name": "Kankuro",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-058.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kankuro [ST1-058]",
+    "type": "Main_Deck",
+    "Number": "ST1-058",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest this card: if your Opponent has 10 or more cards in their hand, your Opponent places 2 cards from their hand in their Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-058.jpg"
+  },
+  "ST1-059": {
+    "id": "ST1-059",
+    "face": {
+      "front": {
+        "name": "Karura",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-059.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Karura [ST1-059]",
+    "type": "Main_Deck",
+    "Number": "ST1-059",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at 3 cards from the top of your Deck; add up to 1 card with <Sunagakure> in its traits to your hand, then shuffle your Deck.\n[Activate: Battle] (1) Remove this card in your Drop from the game: Choose 1 of your \"Gaara\" and it gets +2000 power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-059.jpg"
+  },
+  "ST1-060": {
+    "id": "ST1-060",
+    "face": {
+      "front": {
+        "name": "Yasamaru",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-060.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Yasamaru [ST1-060]",
+    "type": "Main_Deck",
+    "Number": "ST1-060",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Limit 1 (1) Place this card in your Drop: Choose 1 of your \"Gaara\" Units and it gets +1000 power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-060.jpg"
+  },
+  "ST1-061": {
+    "id": "ST1-061",
+    "face": {
+      "front": {
+        "name": "Baki",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-061.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Baki [ST1-061]",
+    "type": "Main_Deck",
+    "Number": "ST1-061",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] Limit 1\n(1) When this card is placed from your hand in your Drop by a skill: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-061.jpg"
+  },
+  "ST1-062": {
+    "id": "ST1-062",
+    "face": {
+      "front": {
+        "name": "Gaara",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-062.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Gaara [ST1-062]",
+    "type": "Main_Deck",
+    "Number": "ST1-062",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinobi",
+      "Jinchuriki",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at 7 cards from the top of your Deck: Add up to 2 cards with \"Sand Release\" in their Traits to your hand, then shuffle your Deck and, if you added 2 cards, place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-062.jpg"
+  },
+  "ST1-063": {
+    "id": "ST1-063",
+    "face": {
+      "front": {
+        "name": "Gaara",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-063.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Gaara [ST1-063]",
+    "type": "Main_Deck",
+    "Number": "ST1-063",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinobi",
+      "Jinchuriki",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] <Once per Turn> When a card(s) is placed from your Opponent's Life in their Drop: If your Opponent has 5 or more cards in their hand, they place 1 card from their hand in their Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-063.jpg"
+  },
+  "ST1-064": {
+    "id": "ST1-064",
+    "face": {
+      "front": {
+        "name": "Chakra Infused Sand",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-064.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Chakra Infused Sand [ST1-064]",
+    "type": "Main_Deck",
+    "Number": "ST1-064",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sand Release",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Your Turn",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] Add up to 1 card from your Life to your hand. Then, <Overcharge> 2 and you can't <Overcharge> for the turn.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Look at up to 3 cards from the top of your Deck; add up to 1 card with \"Sand Release\" in its Traits to your hand and place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-064.jpg"
+  },
+  "ST1-065": {
+    "id": "ST1-065",
+    "face": {
+      "front": {
+        "name": "Armour of Sand",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-065.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Armour of Sand [ST1-065]",
+    "type": "Main_Deck",
+    "Number": "ST1-065",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sand Release",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Your Turn",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Choose up to 1 of your \"Gaara\" Units with a cost of 4 or less and it cannot be K.O.ed by this battle.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Choose up to 1 of your \"Gaara\" Units and give it +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-065.jpg"
+  },
+  "ST1-066": {
+    "id": "ST1-066",
+    "face": {
+      "front": {
+        "name": "Gaara",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-066.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Gaara [ST1-066]",
+    "type": "Main_Deck",
+    "Number": "ST1-066",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Shinobi",
+      "Jinchuriki",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play] Place 1 card from your hand in your Drop: Draw 1 card and give this card +1000 Power for the turn.\n[On K.O.] Your Opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-066.jpg"
+  },
+  "ST1-067": {
+    "id": "ST1-067",
+    "face": {
+      "front": {
+        "name": "Shukaku",
+        "type": "JUMP UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-067.jpg",
+        "isHorizontal": false,
+        "power": 8000,
+        "sjCost": 3
+      }
+    },
+    "name": "Shukaku [ST1-067]",
+    "type": "JUMP_Deck",
+    "Number": "ST1-067",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 6,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 8000,
+    "Counter": null,
+    "Traits": [
+      "Tailed Beast"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] Place 1 \"Gaara\" with a Cost of 3 or more under this card. At the end of this turn, place 1 card from under this card in your Drop and switch this card to Active mode.\n[On K.O.] Your Opponent places 3 cards from their hand in their Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-067.jpg"
+  },
+  "ST1-068": {
+    "id": "ST1-068",
+    "face": {
+      "front": {
+        "name": "Sand Clone",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-068.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sand Clone [ST1-068]",
+    "type": "Main_Deck",
+    "Number": "ST1-068",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sand Release",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Blocker",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Negate the attack. Then, you may place 1 card from your hand in your Drop and, if you do, play 1 \"Sand Clone\" Token (0 Power, +0 Counter) and it gains Blocker for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-068.jpg"
+  },
+  "ST1-069": {
+    "id": "ST1-069",
+    "face": {
+      "front": {
+        "name": "Gaara",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-069.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Gaara [ST1-069]",
+    "type": "Main_Deck",
+    "Number": "ST1-069",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Shinobi",
+      "Jinchuriki",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Your Turn",
+      "Limit 1",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\n[On Attack] Limit 1 When this card attacks your Opponent's Leader, your Opponent chooses 1 card from their hand and places it in their Drop.\n[Your Turn] Limit 1 If this card is placed from your hand in your Drop by a skill: Give your Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-069.jpg"
+  },
+  "ST1-070": {
+    "id": "ST1-070",
+    "face": {
+      "front": {
+        "name": "Gaara / Rock Lee",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-070.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Gaara / Rock Lee [ST1-070]",
+    "type": "Main_Deck",
+    "Number": "ST1-070",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinobi",
+      "Jinchuriki",
+      "Sunagakure",
+      "Konohagakure"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Permanent",
+      "Limit 1"
+    ],
+    "Effect": "<Permanent> If you have \"Gaara\" or \"Rock Lee\" in play, reduce the cost of this card in your hand by 2.\n[On Play] K.O. 1 of your \"Gaara\" or \"Rock Lee\" Units: Draw 2 cards and place 1 card from your hand in your Drop.\n[On Attack] Limit 1 If this card attacks an Opponent's Unit: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-070.jpg"
+  },
+  "ST1-071": {
+    "id": "ST1-071",
+    "face": {
+      "front": {
+        "name": "Kankuro",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-071.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kankuro [ST1-071]",
+    "type": "Main_Deck",
+    "Number": "ST1-071",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a cost of 1 and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-071.jpg"
+  },
+  "ST1-072": {
+    "id": "ST1-072",
+    "face": {
+      "front": {
+        "name": "Temari",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-072.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Temari [ST1-072]",
+    "type": "Main_Deck",
+    "Number": "ST1-072",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinobi",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-072.jpg"
+  },
+  "ST1-073": {
+    "id": "ST1-073",
+    "face": {
+      "front": {
+        "name": "Sand Shield",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-073.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sand Shield [ST1-073]",
+    "type": "Main_Deck",
+    "Number": "ST1-073",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sand Release",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Your Turn",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Give up to 1 of your \"Gaara\" +3000 Power for the battle.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Choose up to 1 of your \"Gaara\" Units and give it +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-073.jpg"
+  },
+  "ST1-074": {
+    "id": "ST1-074",
+    "face": {
+      "front": {
+        "name": "Sand Tsunami",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-074.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sand Tsunami [ST1-074]",
+    "type": "Main_Deck",
+    "Number": "ST1-074",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sand Release",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Your Turn",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] When your Opponent plays a Unit with a Cost of 3 or less: Your Opponent may place 1 card from their hand in their Drop; if they don't, the Unit is placed in their Drop instead of being played.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-074.jpg"
+  },
+  "ST1-075": {
+    "id": "ST1-075",
+    "face": {
+      "front": {
+        "name": "Shield of Shukaku",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-075.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shield of Shukaku [ST1-075]",
+    "type": "Main_Deck",
+    "Number": "ST1-075",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sand Release",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Your Turn",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Negate the attack. Then, choose any number of your Opponent's Units that add up to a total Cost of 2 or less and K.O. them.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-075.jpg"
+  },
+  "ST1-076": {
+    "id": "ST1-076",
+    "face": {
+      "front": {
+        "name": "Possession",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-076.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Possession [ST1-076]",
+    "type": "Main_Deck",
+    "Number": "ST1-076",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sand Release",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Permanent",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Choose 1 of your \"Gaara\" Units and it gains the following effect for the turn:\n\"<Permanent> At the end of a battle during which this card attacked your Opponent's Leader and dealt no damage: Place 1 card from your Opponent's hand in their Drop\"",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-076.jpg"
+  },
+  "ST1-077": {
+    "id": "ST1-077",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-077.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Asakura Yoh [ST1-077]",
+    "type": "Leader",
+    "Number": "ST1-077",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Threshold",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] Place 1 \"Amidamaru\" from your hand under this card: Draw 2 cards.\n[Activate: Main] (2) Place 2 cards from under this card at the bottom of your Deck in any order: Choose up to 1 of your Opponent's Units and return it to its owner's hand.\nThreshold 2 [Activate: Main] Limit 1 Add 1 card from under this card to your hand: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and place it at the bottom of the owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-077.jpg"
+  },
+  "ST1-078": {
+    "id": "ST1-078",
+    "face": {
+      "front": {
+        "name": "Amidamaru",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-078.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Amidamaru [ST1-078]",
+    "type": "Main_Deck",
+    "Number": "ST1-078",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Guardian Ghost",
+      "Seirei"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 Draw 1 card.\n[Activate: Main] Place this card from your Field under your Leader or 1 of your Units.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-078.jpg"
+  },
+  "ST1-079": {
+    "id": "ST1-079",
+    "face": {
+      "front": {
+        "name": "Amidamaru",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-079.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Amidamaru [ST1-079]",
+    "type": "Main_Deck",
+    "Number": "ST1-079",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Guardian Ghost",
+      "Seirei"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 Look at up to 5 cards from the top of your Deck, add up to 1 \"Asakura Yoh\" among them to your hand, then place the rest at the bottom your Deck in any order.\n[Activate: Main] Place this card from your Field under your Leader or 1 of your Units.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-079.jpg"
+  },
+  "ST1-080": {
+    "id": "ST1-080",
+    "face": {
+      "front": {
+        "name": "Amidamaru",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-080.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Amidamaru [ST1-080]",
+    "type": "Main_Deck",
+    "Number": "ST1-080",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Guardian Ghost",
+      "Seirei"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Shaman\" Trait: Give up to 1 of your Opponent's Units -1 Cost for the turn.\n[Activate: Main] Place this card from your Field under your Leader or 1 of your Units.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-080.jpg"
+  },
+  "ST1-081": {
+    "id": "ST1-081",
+    "face": {
+      "front": {
+        "name": "Oyamada Manta",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-081.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Oyamada Manta [ST1-081]",
+    "type": "Main_Deck",
+    "Number": "ST1-081",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 2000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-081.jpg"
+  },
+  "ST1-082": {
+    "id": "ST1-082",
+    "face": {
+      "front": {
+        "name": "Umemiya Ryunosuke",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-082.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Umemiya Ryunosuke [ST1-082]",
+    "type": "Main_Deck",
+    "Number": "ST1-082",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Battle] <Once per Turn>\n(1) If this card is used in a combo from your Field: Your Opponent places 1 card from their hand at the bottom of their Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-082.jpg"
+  },
+  "ST1-083": {
+    "id": "ST1-083",
+    "face": {
+      "front": {
+        "name": "Johann Faust VIII",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-083.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Johann Faust VIII [ST1-083]",
+    "type": "Main_Deck",
+    "Number": "ST1-083",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] Rest this card. Then, switch this card to Active mode at the end of the turn.\n[Your Turn] Limit 1 When your Unit is removed from your Field: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-083.jpg"
+  },
+  "ST1-084": {
+    "id": "ST1-084",
+    "face": {
+      "front": {
+        "name": "Kyoyama Anna",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-084.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kyoyama Anna [ST1-084]",
+    "type": "Main_Deck",
+    "Number": "ST1-084",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Itako"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 Unit with a Cost of 1 and \"Shaman\" or \"Guardian Ghost\" in its Traits from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-084.jpg"
+  },
+  "ST1-085": {
+    "id": "ST1-085",
+    "face": {
+      "front": {
+        "name": "Kyoyama Anna",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-085.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kyoyama Anna [ST1-085]",
+    "type": "Main_Deck",
+    "Number": "ST1-085",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Itako"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Your Turn] Limit 1 When a card is placed from your hand or Field under your Leader or 1 of your Units: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-085.jpg"
+  },
+  "ST1-086": {
+    "id": "ST1-086",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-086.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Asakura Yoh [ST1-086]",
+    "type": "Main_Deck",
+    "Number": "ST1-086",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Permanent"
+    ],
+    "Effect": "[Your Turn] <Permanent> This card gains +1 Cost and +1000 Counter for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 2 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-086.jpg"
+  },
+  "ST1-087": {
+    "id": "ST1-087",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-087.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Asakura Yoh [ST1-087]",
+    "type": "Main_Deck",
+    "Number": "ST1-087",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Permanent"
+    ],
+    "Effect": "[Your Turn] <Permanent> This card gains +1 Cost and +1000 Counter for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-087.jpg"
+  },
+  "ST1-088": {
+    "id": "ST1-088",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-088.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Asakura Yoh [ST1-088]",
+    "type": "Main_Deck",
+    "Number": "ST1-088",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "[Opponent's Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Main] <Once per Turn> Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-088.jpg"
+  },
+  "ST1-089": {
+    "id": "ST1-089",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-089.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Asakura Yoh [ST1-089]",
+    "type": "Main_Deck",
+    "Number": "ST1-089",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Your Turn",
+      "Permanent"
+    ],
+    "Effect": "[Your Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[Activate: Main] <Once per Turn> Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units and give it Cost -1 for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-089.jpg"
+  },
+  "ST1-090": {
+    "id": "ST1-090",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-090.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Asakura Yoh [ST1-090]",
+    "type": "Main_Deck",
+    "Number": "ST1-090",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "[Opponent's Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units and place it at the bottom of its owner's Deck. Then, play up to 2 \"Amidamaru\" from under your Leader.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-090.jpg"
+  },
+  "ST1-091": {
+    "id": "ST1-091",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-091.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Asakura Yoh [ST1-091]",
+    "type": "Main_Deck",
+    "Number": "ST1-091",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Your Turn",
+      "Permanent"
+    ],
+    "Effect": "[Your Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[Activate: Main] <Once per Turn> Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-091.jpg"
+  },
+  "ST1-092": {
+    "id": "ST1-092",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-092.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Asakura Yoh [ST1-092]",
+    "type": "Main_Deck",
+    "Number": "ST1-092",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "End of your Turn",
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Attack",
+      "Your Turn",
+      "Permanent",
+      "Blocker"
+    ],
+    "Effect": "[Opponent's Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[On Attack] If there is a card under your Leader and this card: Choose all of your Opponent's Units and give them Cost -1 for the turn.\n[Activate: Main] <Once per Turn> Play 1 \"Amidamaru\" from under this card: At the end of your turn, switch this card to Active mode and it gains Blocker until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-092.jpg"
+  },
+  "ST1-093": {
+    "id": "ST1-093",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-093.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Asakura Yoh [ST1-093]",
+    "type": "Main_Deck",
+    "Number": "ST1-093",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Add 1 card from under one of your other Units to your hand: Draw 1 card and place 1 card from your hand on the top or bottom of your Deck.\n[Activate: Main] Limit 1 Play 1 \"Amidamaru\" from under one of your other Units: Return 1 of your Units to your hand. Then, return up to 1 Unit with a Cost of 2 or less to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-093.jpg"
+  },
+  "ST1-094": {
+    "id": "ST1-094",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-094.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Asakura Yoh [ST1-094]",
+    "type": "Main_Deck",
+    "Number": "ST1-094",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Add 1 card from under one of your other Units to your hand: Draw 1 card and place 1 card from your hand on the top or bottom of your Deck.\n[Activate: Main] Limit 1 Play 1 \"Amidamaru\" from under one of your other Units: Place it at the bottom of your Deck. Then, choose up to 1 of your Opponent's Units with a cost of 2 or less and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-094.jpg"
+  },
+  "ST1-095": {
+    "id": "ST1-095",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-095.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Asakura Yoh [ST1-095]",
+    "type": "Main_Deck",
+    "Number": "ST1-095",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "On Play",
+      "Overcharge",
+      "Barrier",
+      "Blocker",
+      "Charge"
+    ],
+    "Effect": "Barrier Blocker\n[On Play] Place 1 card from your hand at the bottom of your Deck: <Overcharge> 2, then you can't <Overcharge> for the turn.\n[On Attack / On K.O.] (1) Draw 2 cards, then place 2 cards from your hand on the top or bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-095.jpg"
+  },
+  "ST1-096": {
+    "id": "ST1-096",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-096.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Asakura Yoh [ST1-096]",
+    "type": "Main_Deck",
+    "Number": "ST1-096",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Permanent",
+      "Clash",
+      "Deflect",
+      "Elusive"
+    ],
+    "Effect": "Deflect Elusive\n<Permanent> Reduce the Cost of your Opponent's Units by 1.\n[On Play] Choose up to 2 of your Opponent's Units with a Cost of 2 or less and place them at the bottom of its owner's Deck.\nClash [Opponent's Attack] (1) Place 1 card from under your Leader or one of your Units at the bottom of your Deck: Give your card that's in a battle +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-096.jpg"
+  },
+  "ST1-097": {
+    "id": "ST1-097",
+    "face": {
+      "front": {
+        "name": "Team Funbari Onsen",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-097.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Team Funbari Onsen [ST1-097]",
+    "type": "Main_Deck",
+    "Number": "ST1-097",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Look at 7 cards from the top of your Deck; add up to 2 Unit cards with a Cost of 4 or less to your hand. Then, shuffle your Deck and if you added a card, place 2 cards from your hand at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-097.jpg"
+  },
+  "ST1-098": {
+    "id": "ST1-098",
+    "face": {
+      "front": {
+        "name": "Spirit Integration",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-098.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spirit Integration [ST1-098]",
+    "type": "Main_Deck",
+    "Number": "ST1-098",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shaman",
+      "Furyoku"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Asakura Yoh\": Place 1 \"Amidamaru\" from under your Leader in your Drop; play up to 1 \"Asakura Yoh\" with a Cost of 4 or less from your hand, then place up to 1 \"Amidamaru\" from under your Leader under it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-098.jpg"
+  },
+  "ST1-099": {
+    "id": "ST1-099",
+    "face": {
+      "front": {
+        "name": "Sanki Raimon",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-099.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sanki Raimon [ST1-099]",
+    "type": "Main_Deck",
+    "Number": "ST1-099",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Itako",
+      "Furyoku"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Overcharge",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Negate the attack and <Overcharge> 1. Then, you may place 1 card from your hand at the bottom of your Deck: <Overcharge> 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-099.jpg"
+  },
+  "ST1-100": {
+    "id": "ST1-100",
+    "face": {
+      "front": {
+        "name": "Budding Jubilation",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-100.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Budding Jubilation [ST1-100]",
+    "type": "Main_Deck",
+    "Number": "ST1-100",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shaman",
+      "Furyoku"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash",
+      "Revenge"
+    ],
+    "Effect": "Clash [Activate: Battle] Your card that's in a battle gains Revenge for the battle; if your Unit is removed from your Field at the end of the battle, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-100.jpg"
+  },
+  "ST1-101": {
+    "id": "ST1-101",
+    "face": {
+      "front": {
+        "name": "Higashikata Josuke",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-101.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Higashikata Josuke [ST1-101]",
+    "type": "Leader",
+    "Number": "ST1-101",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "JoJo",
+      "Stand User"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Permanent",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] (X) For each (X) used, give this card or 1 of your Units +2000 Power for the battle.\nThreshold 1 Permanent Give this card +2000 Power.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-101.jpg"
+  },
+  "ST1-102": {
+    "id": "ST1-102",
+    "face": {
+      "front": {
+        "name": "Hirose Yasuho",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-102.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Hirose Yasuho [ST1-102]",
+    "type": "Main_Deck",
+    "Number": "ST1-102",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at 4 cards from the top of your Deck; reveal up to 1 card, excluding \"Hirose Yasuho\", with \"Stand User\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-102.jpg"
+  },
+  "ST1-103": {
+    "id": "ST1-103",
+    "face": {
+      "front": {
+        "name": "Sakunami Karera",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-103.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Sakunami Karera [ST1-103]",
+    "type": "Main_Deck",
+    "Number": "ST1-103",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader has the \"JoJo\" Trait: Look at 4 cards from the top of your deck; reveal up to 1 card with a Cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-103.jpg"
+  },
+  "ST1-104": {
+    "id": "ST1-104",
+    "face": {
+      "front": {
+        "name": "Iwasuke",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-104.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Iwasuke [ST1-104]",
+    "type": "Main_Deck",
+    "Number": "ST1-104",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Rock Animal"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-104.jpg"
+  },
+  "ST1-105": {
+    "id": "ST1-105",
+    "face": {
+      "front": {
+        "name": "Doremifasolati Do",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-105.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Doremifasolati Do [ST1-105]",
+    "type": "Main_Deck",
+    "Number": "ST1-105",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Rock Animal"
+    ],
+    "Keywords": [
+      "On Play",
+      "Elusive"
+    ],
+    "Effect": "[On Play] Place this card under one of your Units with \"Rock Human\" in their Traits. During your Opponent's next turn, the card on top of this card gains Elusive.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-105.jpg"
+  },
+  "ST1-106": {
+    "id": "ST1-106",
+    "face": {
+      "front": {
+        "name": "DoDoDo, DeDaDaDa",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-106.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "DoDoDo, DeDaDaDa [ST1-106]",
+    "type": "Main_Deck",
+    "Number": "ST1-106",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Rock Insect"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have a face-up Life card, K.O. up to 1 of your Opponent's Units with a Cost of 2 or less. Then, turn all of your Life cards face-down.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-106.jpg"
+  },
+  "ST1-107": {
+    "id": "ST1-107",
+    "face": {
+      "front": {
+        "name": "Ob-La-Di, Ob-La-Da",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-107.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Ob-La-Di, Ob-La-Da [ST1-107]",
+    "type": "Main_Deck",
+    "Number": "ST1-107",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 2000,
+    "Traits": [
+      "Rock Insect"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Toru\", you may turn 1 card from the top of your Life cards face-down: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-107.jpg"
+  },
+  "ST1-108": {
+    "id": "ST1-108",
+    "face": {
+      "front": {
+        "name": "Higashikata Josuke",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-108.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Higashikata Josuke [ST1-108]",
+    "type": "Main_Deck",
+    "Number": "ST1-108",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "JoJo",
+      "Stand User"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] If your Leader has \"JoJo\" in their Traits, <Charge> 2.\n[End of your Turn] If you <Overcharged> 2 or more this turn, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-108.jpg"
+  },
+  "ST1-109": {
+    "id": "ST1-109",
+    "face": {
+      "front": {
+        "name": "Hirose Yasuho",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-109.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Hirose Yasuho [ST1-109]",
+    "type": "Main_Deck",
+    "Number": "ST1-109",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Turn",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] If you have no Energy, <Charge> 1. Then, Rest up to 1 of your Opponent's Units with a Cost of 4 or less.\n[Start of Opponent's Turn] Rest 1 of your Units: <Overcharge> 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-109.jpg"
+  },
+  "ST1-110": {
+    "id": "ST1-110",
+    "face": {
+      "front": {
+        "name": "Higashikata Norisuke IV",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-110.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Higashikata Norisuke IV [ST1-110]",
+    "type": "Main_Deck",
+    "Number": "ST1-110",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 2000,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "On Play",
+      "Charge"
+    ],
+    "Effect": "[On Play] If your Leader has \"Higashikata\" in their name and you place this card in your Drop: <Charge> 2.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-110.jpg"
+  },
+  "ST1-111": {
+    "id": "ST1-111",
+    "face": {
+      "front": {
+        "name": "Higashikata Joshu",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-111.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Higashikata Joshu [ST1-111]",
+    "type": "Main_Deck",
+    "Number": "ST1-111",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] (1) You may Rest this card: K.O. up to 1 of your Opponent's Rested Units with 8000 Power or less.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-111.jpg"
+  },
+  "ST1-112": {
+    "id": "ST1-112",
+    "face": {
+      "front": {
+        "name": "Mamezuku Rai",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-112.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mamezuku Rai [ST1-112]",
+    "type": "Main_Deck",
+    "Number": "ST1-112",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Overcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] If you have no Energy, <Charge> 2.\n[Start of Opponent's Turn] Limit 1 You may place this Unit in your Drop: <Overcharge> 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-112.jpg"
+  },
+  "ST1-113": {
+    "id": "ST1-113",
+    "face": {
+      "front": {
+        "name": "Higashikata Josuke",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-113.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Higashikata Josuke [ST1-113]",
+    "type": "Main_Deck",
+    "Number": "ST1-113",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "JoJo",
+      "Stand User"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Overcharge",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "[On Play] If you have no Energy, <Charge> 4. Then, you cannot play Units with a Cost of 5 or more for the turn.\nClash [Opponent's Play] (1) <Overcharge> 2 and you can't <Overcharge> for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-113.jpg"
+  },
+  "ST1-114": {
+    "id": "ST1-114",
+    "face": {
+      "front": {
+        "name": "Higashikata Hato",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-114.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Higashikata Hato [ST1-114]",
+    "type": "Main_Deck",
+    "Number": "ST1-114",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "Once per Turn"
+    ],
+    "Effect": "<Once per Turn> If your Unit(s) with the \"Stand User\" Trait would be K.O.ed by your Opponent's effects, you may pay (1) instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-114.jpg"
+  },
+  "ST1-115": {
+    "id": "ST1-115",
+    "face": {
+      "front": {
+        "name": "Higashikata Daiya",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-115.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Higashikata Daiya [ST1-115]",
+    "type": "Main_Deck",
+    "Number": "ST1-115",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Once per Turn",
+      "On Attack"
+    ],
+    "Effect": "[On Attack / On Opponent's Attack] (2) <Once per Turn> Give this card +2000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-115.jpg"
+  },
+  "ST1-116": {
+    "id": "ST1-116",
+    "face": {
+      "front": {
+        "name": "Hirose Yasuho",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-116.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hirose Yasuho [ST1-116]",
+    "type": "Main_Deck",
+    "Number": "ST1-116",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Blocker",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] (1) This card cannot be K.O.ed by your Opponent's effects and gains Blocker for the turn.\n[Activate: Main] If you have no Energy: Switch this card to Active mode and <Charge> 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-116.jpg"
+  },
+  "ST1-117": {
+    "id": "ST1-117",
+    "face": {
+      "front": {
+        "name": "Higashikata Josuke",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-117.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Higashikata Josuke [ST1-117]",
+    "type": "Main_Deck",
+    "Number": "ST1-117",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "JoJo",
+      "Stand User"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Overcharge",
+      "Limit 1",
+      "Barrier",
+      "Charge"
+    ],
+    "Effect": "[On Play] If you have no Energy: <Charge> 2 and remove 1 Energy from your Opponent's Overcharge Zone.\n[Activate: Main] (1) Limit 1 Choose up to 1 of your Opponent's Units with a Cost of 5 or more, ignoring Barrier, Rest it and it cannot attack or activate its Skills until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-117.jpg"
+  },
+  "ST1-118": {
+    "id": "ST1-118",
+    "face": {
+      "front": {
+        "name": "Higashikata Josuke & Hirose Yasuho",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-118.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Higashikata Josuke & Hirose Yasuho [ST1-118]",
+    "type": "Main_Deck",
+    "Number": "ST1-118",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "JoJo",
+      "Stand User"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Charge"
+    ],
+    "Effect": "[On Play] <Charge> 2 and you can't play Units with a Cost of 5 or more for the turn.\n[On K.O.] Add up to 1 \"Higashikata Josuke\" or \"Hirose Yasuho\" from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-118.jpg"
+  },
+  "ST1-119": {
+    "id": "ST1-119",
+    "face": {
+      "front": {
+        "name": "Higashikata Josuke",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-119.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Higashikata Josuke [ST1-119]",
+    "type": "Main_Deck",
+    "Number": "ST1-119",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "JoJo",
+      "Stand User"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Charge"
+    ],
+    "Effect": "[On Play] Rest up to 1 of your Opponent's Units with a Cost of 2 or less.\n[Activate: Main] If your Leader is \"Higashikata Josuke\": Place this Unit in your Drop, <Charge> 1 and draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-119.jpg"
+  },
+  "ST1-120": {
+    "id": "ST1-120",
+    "face": {
+      "front": {
+        "name": "Higashikata Josuke",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-120.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Higashikata Josuke [ST1-120]",
+    "type": "Main_Deck",
+    "Number": "ST1-120",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "JoJo",
+      "Stand User"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Charge"
+    ],
+    "Effect": "[On Play] K.O. up to 1 of your Opponent's Units with 3000 Power or less.\n[Activate: Main] If your Leader is \"Higashikata Josuke\": Place this Unit in your Drop, <Charge> 1 and draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-120.jpg"
+  },
+  "ST1-121": {
+    "id": "ST1-121",
+    "face": {
+      "front": {
+        "name": "Locacaca Fruit",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-121.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Locacaca Fruit [ST1-121]",
+    "type": "Main_Deck",
+    "Number": "ST1-121",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Locacaca"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Overcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If you have no Energy, <Charge> 2 and your Opponent <Overcharges> 2.\n[Activate: Battle] Limit 1 Add 1 card from your Life to your hand and place this card from your Drop on top of your Life cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-121.jpg"
+  },
+  "ST1-122": {
+    "id": "ST1-122",
+    "face": {
+      "front": {
+        "name": "Paisley Park",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-122.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Paisley Park [ST1-122]",
+    "type": "Main_Deck",
+    "Number": "ST1-122",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Stand"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Give your Leader +1000 Power for the battle; look at the top 3 cards of your Deck and add up to 1 card with \"Stand User\" in its Traits to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-122.jpg"
+  },
+  "ST1-123": {
+    "id": "ST1-123",
+    "face": {
+      "front": {
+        "name": "Desperate Gambit",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-123.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Desperate Gambit [ST1-123]",
+    "type": "Main_Deck",
+    "Number": "ST1-123",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Locacaca"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] Add 1 card from your Life to your hand. Choose one:\n• Place the top card of your Life cards in your Drop; at the end of the turn, place up to 1 card from the top of your Deck to your Life.\n• Place 1 of your Units in your Drop; <Charge> X, where X is equal to that card's Cost, and you can't <Charge> for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-123.jpg"
+  },
+  "ST1-124": {
+    "id": "ST1-124",
+    "face": {
+      "front": {
+        "name": "Equivalent Exchange",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-124.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Equivalent Exchange [ST1-124]",
+    "type": "Main_Deck",
+    "Number": "ST1-124",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Locacaca"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Overcharge",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Place 1 card from your hand in your Drop, <Overcharge> 2 and you can't <Overcharge> or activate Actions with Clash for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-124.jpg"
+  },
+  "ST1-125": {
+    "id": "ST1-125",
+    "face": {
+      "front": {
+        "name": "Dark Determination",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-125.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dark Determination [ST1-125]",
+    "type": "Main_Deck",
+    "Number": "ST1-125",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST1",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "JoJo"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] K.O. up to 1 of your Opponent's Rested Units with a Cost of 4 or less.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-125.jpg"
+  },
+  "ST1-126": {
+    "id": "ST1-126",
+    "face": {
+      "front": {
+        "name": "Makima",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-126.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Makima [ST1-126]",
+    "type": "Main_Deck",
+    "Number": "ST1-126",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "SEC",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[Opponent’s Turn] Your Opponent's Units with a Cost of 5 or more are played Rested.\n[On Play] Rest up to 1 of your Opponent's Units; it cannot switch to Active mode during your Opponent's next Refresh Phase.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-126.jpg"
+  },
+  "ST1-127": {
+    "id": "ST1-127",
+    "face": {
+      "front": {
+        "name": "Gaara",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-127.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Gaara [ST1-127]",
+    "type": "Main_Deck",
+    "Number": "ST1-127",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST1",
+    "Rarity": "SEC",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinobi",
+      "Jinchuriki",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Turn",
+      "Once per Turn",
+      "Dual Attack",
+      "Deflect",
+      "Elusive"
+    ],
+    "Effect": "Deflect Elusive\n[Opponent's Turn] <Once per Turn> If this card would be removed from the field by an Opponent's effect, you may trash 1 card from your Opponent's Life instead.\n[Activate: Main] Place 1 card from your hand in your Drop: This card gains Dual Attack for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-127.jpg"
+  },
+  "ST2-001": {
+    "id": "ST2-001",
+    "face": {
+      "front": {
+        "name": "Hiei",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hiei [ST2-001]",
+    "type": "Leader",
+    "Number": "ST2-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Evil Eye",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "Your Turn",
+      "Threshold"
+    ],
+    "Effect": "[Your Turn] During the turn they are played, your Units with \"Demon\" or \"Urameshi\" in their Traits can attack your Opponent's Units in Active mode.\nThreshold 2 [Opponent's Turn] Once per Turn When your Opponent plays a Unit, choose up to 1 of your Opponent's Units and it cannot be Rested for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-001.jpg"
+  },
+  "ST2-002": {
+    "id": "ST2-002",
+    "face": {
+      "front": {
+        "name": "Hiei",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-002.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hiei [ST2-002]",
+    "type": "Main_Deck",
+    "Number": "ST2-002",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Evil Eye",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Draw 1 card. Then, choose up to 1 of your Opponent's Units with an original cost of 5 or less and it cannot be Rested or used in a Combo until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-002.jpg"
+  },
+  "ST2-003": {
+    "id": "ST2-003",
+    "face": {
+      "front": {
+        "name": "Kurama",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-003.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Kurama [ST2-003]",
+    "type": "Main_Deck",
+    "Number": "ST2-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] Give up to 1 of your Opponent's Units -2000 Power for the turn.\n[On Attack] Remove 1 SJ Marker: Your Leader with the \"Urameshi\" Trait can attack your Opponent's Units in Active mode during this turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-003.jpg"
+  },
+  "ST2-004": {
+    "id": "ST2-004",
+    "face": {
+      "front": {
+        "name": "Kurama",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-004.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kurama [ST2-004]",
+    "type": "Main_Deck",
+    "Number": "ST2-004",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Remove 1 SJ Marker: Choose up to 1 of your Opponent's Rested Units with an original Cost of 3 or less and switch it to Active mode. Then, give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-004.jpg"
+  },
+  "ST2-005": {
+    "id": "ST2-005",
+    "face": {
+      "front": {
+        "name": "Kuwabara Kazuma",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-005.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kuwabara Kazuma [ST2-005]",
+    "type": "Main_Deck",
+    "Number": "ST2-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "On Block",
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Block] If your Leader is \"Hiei\", give this card +2000 Power for the battle.\n[On Play] Remove 2 SJ Markers: Choose up to 1 of your Opponent's Units in Active mode with an original Cost of 4 or less and give it -4000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-005.jpg"
+  },
+  "ST2-006": {
+    "id": "ST2-006",
+    "face": {
+      "front": {
+        "name": "Hiei",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-006.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hiei [ST2-006]",
+    "type": "Main_Deck",
+    "Number": "ST2-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Evil Eye",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Hiei\", give this card +1000 Power until the end of your Opponent's next turn.\n[On Attack] Remove 1 SJ Marker: If this card is in a battle with an Opponent's Unit in Active mode, your Opponent cannot use cards with 2000 Counter value in a Combo for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-006.jpg"
+  },
+  "ST2-007": {
+    "id": "ST2-007",
+    "face": {
+      "front": {
+        "name": "Botan",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-007.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Botan [ST2-007]",
+    "type": "Main_Deck",
+    "Number": "ST2-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Spirit",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play / On Attack] Remove 1 SJ Marker: Your Leader or up to 1 of your other Units with the \"Urameshi\" Trait can attack your Opponent's Units in Active mode for the turn.\n[Activate: Battle] Once per Turn Choose up to 1 of your Opponent's Rested Units and switch it to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-007.jpg"
+  },
+  "ST2-008": {
+    "id": "ST2-008",
+    "face": {
+      "front": {
+        "name": "Yukina",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-008.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Yukina [ST2-008]",
+    "type": "Main_Deck",
+    "Number": "ST2-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 2000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "On Play",
+      "Accelcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Limit 1 If your Leader is \"Hiei\", Rest this card and Accelcharge 2.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-008.jpg"
+  },
+  "ST2-009": {
+    "id": "ST2-009",
+    "face": {
+      "front": {
+        "name": "Koenma",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-009.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Koenma [ST2-009]",
+    "type": "Main_Deck",
+    "Number": "ST2-009",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Spirit"
+    ],
+    "Keywords": [
+      "On Play",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] Remove 2 SJ Markers: Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-009.jpg"
+  },
+  "ST2-010": {
+    "id": "ST2-010",
+    "face": {
+      "front": {
+        "name": "Hiei",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-010.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hiei [ST2-010]",
+    "type": "Main_Deck",
+    "Number": "ST2-010",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Evil Eye",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Attack"
+    ],
+    "Effect": "[Opponent's Turn] If your Opponent has a Unit in Active mode, give this card +2000 Power.\n[On Attack] Remove 1 SJ Marker: Choose up to 1 of your Opponent's Units in Active mode with 1000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-010.jpg"
+  },
+  "ST2-011": {
+    "id": "ST2-011",
+    "face": {
+      "front": {
+        "name": "Mukuro",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-011.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Mukuro [ST2-011]",
+    "type": "Main_Deck",
+    "Number": "ST2-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Three Kings"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Remove 1 SJ Marker: If your Leader is \"Hiei\", give your Leader +1000 Power for the turn. Then, choose up to 1 of your Opponent's Units with a cost of 2 or less and it cannot be Rested or used in a Combo until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-011.jpg"
+  },
+  "ST2-012": {
+    "id": "ST2-012",
+    "face": {
+      "front": {
+        "name": "Kurama",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-012.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kurama [ST2-012]",
+    "type": "Main_Deck",
+    "Number": "ST2-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play"
+    ],
+    "Effect": "[Opponent's Turn] If this card is Rested: Give all of your other Rested Units with a Cost of 3 or less and \"Demon\" or \"Urameshi\" in their Traits +2000 Power.\n[On Play] If your Leader is \"Hiei\": Place 1 card with \"Demon\" in its Traits in your Drop; draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-012.jpg"
+  },
+  "ST2-013": {
+    "id": "ST2-013",
+    "face": {
+      "front": {
+        "name": "Kurama",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-013.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kurama [ST2-013]",
+    "type": "Main_Deck",
+    "Number": "ST2-013",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[On Play] Remove 3 SJ Markers: Play up to 1 Unit card with a Cost of 3 and \"Demon\" or \"Urameshi\" in its Traits from your hand.\n[Your Turn] Once per Turn When an Opponent's Unit in Active mode is K.O.'d by battle, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-013.jpg"
+  },
+  "ST2-014": {
+    "id": "ST2-014",
+    "face": {
+      "front": {
+        "name": "Kuwabara Kazuma",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-014.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kuwabara Kazuma [ST2-014]",
+    "type": "Main_Deck",
+    "Number": "ST2-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[Activate: Main] Rest this card: Your Leader with the \"Urameshi\" Trait can attack your Opponent's Units in Active mode for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-014.jpg"
+  },
+  "ST2-015": {
+    "id": "ST2-015",
+    "face": {
+      "front": {
+        "name": "Mukuro",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-015.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Mukuro [ST2-015]",
+    "type": "Main_Deck",
+    "Number": "ST2-015",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Three Kings"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 3 cards of your Deck; reveal up to 1 card with \"Demon\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-015.jpg"
+  },
+  "ST2-016": {
+    "id": "ST2-016",
+    "face": {
+      "front": {
+        "name": "Koenma",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-016.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Koenma [ST2-016]",
+    "type": "Main_Deck",
+    "Number": "ST2-016",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Spirit"
+    ],
+    "Keywords": [
+      "On Play",
+      "Accelcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Limit 1 Add up to 1 card from your Life to your hand. Then, if you have less Life cards than your Opponent, Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-016.jpg"
+  },
+  "ST2-017": {
+    "id": "ST2-017",
+    "face": {
+      "front": {
+        "name": "Genkai",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-017.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Genkai [ST2-017]",
+    "type": "Main_Deck",
+    "Number": "ST2-017",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Human",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 Give your Leader with the \"Urameshi\" Trait +1000 Power for the turn. Then, if it battles an Opponent's Unit this turn, give it +1000 Power for that battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-017.jpg"
+  },
+  "ST2-018": {
+    "id": "ST2-018",
+    "face": {
+      "front": {
+        "name": "Genkai",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-018.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Genkai [ST2-018]",
+    "type": "Main_Deck",
+    "Number": "ST2-018",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Accelcharge",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Urameshi\" Trait, Overcharge 1 and Accelcharge 1.\n[On Attack] Remove 1 of your Opponent's Overcharged Energy for each of their Units in Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-018.jpg"
+  },
+  "ST2-019": {
+    "id": "ST2-019",
+    "face": {
+      "front": {
+        "name": "Kurama",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-019.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kurama [ST2-019]",
+    "type": "Main_Deck",
+    "Number": "ST2-019",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O."
+    ],
+    "Effect": "[On Attack] If this card is in a battle with an Opponent's Unit in Active mode: Give this card +2000 Power for the battle.\n[On K.O.] Remove 1 SJ Marker: Add up to 1 \"Kurama\", excluding this card, from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-019.jpg"
+  },
+  "ST2-020": {
+    "id": "ST2-020",
+    "face": {
+      "front": {
+        "name": "Yukimura Keiko",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-020.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Yukimura Keiko [ST2-020]",
+    "type": "Main_Deck",
+    "Number": "ST2-020",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-020.jpg"
+  },
+  "ST2-021": {
+    "id": "ST2-021",
+    "face": {
+      "front": {
+        "name": "Dragon of the Darkness Flame",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-021.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dragon of the Darkness Flame [ST2-021]",
+    "type": "Main_Deck",
+    "Number": "ST2-021",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Technique"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Hiei\" and you add 1 card from your Life to your hand: Choose up to 2 of your Opponent's Units in Active mode, ignoring Barrier, and they cannot be Rested or used in a Combo until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-021.jpg"
+  },
+  "ST2-022": {
+    "id": "ST2-022",
+    "face": {
+      "front": {
+        "name": "Rose Thorn Whip Blade",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-022.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rose Thorn Whip Blade [ST2-022]",
+    "type": "Main_Deck",
+    "Number": "ST2-022",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Technique"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Your Leader or 1 of your Units can attack your Opponent's Units in Active mode for the turn.\nClash [Activate: Battle] Give your Leader with the \"Urameshi\" Trait +4000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-022.jpg"
+  },
+  "ST2-023": {
+    "id": "ST2-023",
+    "face": {
+      "front": {
+        "name": "Urameshi Yusuke",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-023.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Urameshi Yusuke [ST2-023]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-023",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Human",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Once per Turn",
+      "On Play",
+      "Barrier",
+      "Clash",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] If your Leader has the \"Urameshi\" Trait, draw 2 cards.\nClash [Opponent's Attack] Once per Turn Place 1 card from your hand in your Drop: Give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-023.jpg"
+  },
+  "ST2-024": {
+    "id": "ST2-024",
+    "face": {
+      "front": {
+        "name": "Hiei",
+        "type": "JUMP UNIT",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-024.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Hiei [ST2-024]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-024",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": null,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Evil Eye",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Attack",
+      "Your Turn",
+      "Permanent",
+      "V Jump",
+      "Barrier"
+    ],
+    "Effect": "V JUMP If your Leader is \"Hiei\", your Life is at 2 or less, and one of your Units with \"Demon\" or \"Urameshi\" in its Traits K.O.'d an Opponent's Unit by battle this turn.\nPermanent This card can attack your Opponent's Units in Active mode.\n[On Attack] Draw 1 card. Then, choose all of your Opponent's Units in Active mode, ignoring Barrier, and they cannot be Rested or used in a Combo until the end of your Opponent's next turn.\n[End of your Turn] If this card did not attack an Active Unit this turn, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-024.jpg"
+  },
+  "ST2-025": {
+    "id": "ST2-025",
+    "face": {
+      "front": {
+        "name": "Evil Eye Activation",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-025.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Evil Eye Activation [ST2-025]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-025",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Your Turn",
+      "Accelcharge",
+      "Charge"
+    ],
+    "Effect": "[Your Turn] When an Opponent's Unit in Active mode is K.O.'d by battle, Accelcharge 1.\n[Activate: Main] Remove this card from the game: Accelcharge 3.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-025.jpg"
+  },
+  "ST2-026": {
+    "id": "ST2-026",
+    "face": {
+      "front": {
+        "name": "Oze Maki",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-026.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Oze Maki [ST2-026]",
+    "type": "Leader",
+    "Number": "ST2-026",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] Draw 1 card.\n[Activate: Main] Once per Turn Give 1 of your Units +2000 Power for the turn. Then, choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.\nThreshold 3 [Activate: Battle] Once per Turn Give your Unit that's in a battle +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-026.jpg"
+  },
+  "ST2-027": {
+    "id": "ST2-027",
+    "face": {
+      "front": {
+        "name": "Oze Maki",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-027.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Oze Maki [ST2-027]",
+    "type": "Main_Deck",
+    "Number": "ST2-027",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Your Turn",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[Your Turn] Give this card +3000 Power.\n[On K.O.] Draw 1 card; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-027.jpg"
+  },
+  "ST2-028": {
+    "id": "ST2-028",
+    "face": {
+      "front": {
+        "name": "Takehisa Hinawa",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-028.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Takehisa Hinawa [ST2-028]",
+    "type": "Main_Deck",
+    "Number": "ST2-028",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Look at the 5 top cards of your Deck; reveal up to 1 Unit card with \"Company 8\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.\n[Activate: Main] Limit 1 Place this card in your Drop: Give up to 2 of your Units with \"Company 8\" in their Traits +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-028.jpg"
+  },
+  "ST2-029": {
+    "id": "ST2-029",
+    "face": {
+      "front": {
+        "name": "Kusakabe Shinra",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-029.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kusakabe Shinra [ST2-029]",
+    "type": "Main_Deck",
+    "Number": "ST2-029",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Limit 1 Place 1 card from your hand in your Drop: Play up to 1 Unit card with 3000 or less Power and \"Company 8\" in its Traits from your hand. Then, give this card +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-029.jpg"
+  },
+  "ST2-030": {
+    "id": "ST2-030",
+    "face": {
+      "front": {
+        "name": "Arthur Boyle",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-030.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Arthur Boyle [ST2-030]",
+    "type": "Main_Deck",
+    "Number": "ST2-030",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] Add up to 1 card from your Life to your hand. Then, if either Leader's Threshold skill is active, give this card +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-030.jpg"
+  },
+  "ST2-031": {
+    "id": "ST2-031",
+    "face": {
+      "front": {
+        "name": "Obi Akitaru",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-031.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Obi Akitaru [ST2-031]",
+    "type": "Main_Deck",
+    "Number": "ST2-031",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] (1) Look at the top 5 cards of your Deck; add up to 1 Unit card with 3000 Power to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-031.jpg"
+  },
+  "ST2-032": {
+    "id": "ST2-032",
+    "face": {
+      "front": {
+        "name": "Kotatsu Tamaki",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-032.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kotatsu Tamaki [ST2-032]",
+    "type": "Main_Deck",
+    "Number": "ST2-032",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Elusive",
+      "Raid"
+    ],
+    "Effect": "Elusive\n[On Play] Limit 1 Raid {1} Play up to 1 Unit card with 3000 Power and \"Company 8\" in its Traits from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-032.jpg"
+  },
+  "ST2-033": {
+    "id": "ST2-033",
+    "face": {
+      "front": {
+        "name": "Sputter & Flare",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-033.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Sputter & Flare [ST2-033]",
+    "type": "Main_Deck",
+    "Number": "ST2-033",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Pyrokinesis"
+    ],
+    "Keywords": [
+      "On Play",
+      "Raid"
+    ],
+    "Effect": "[On Play] Raid {1} Give 1 of your \"Oze Maki\" +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-033.jpg"
+  },
+  "ST2-034": {
+    "id": "ST2-034",
+    "face": {
+      "front": {
+        "name": "Takehisa Hinawa",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-034.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Takehisa Hinawa [ST2-034]",
+    "type": "Main_Deck",
+    "Number": "ST2-034",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play",
+      "Accelcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] Place 1 card from your hand in the Drop: Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-034.jpg"
+  },
+  "ST2-035": {
+    "id": "ST2-035",
+    "face": {
+      "front": {
+        "name": "Iris",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-035.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Iris [ST2-035]",
+    "type": "Main_Deck",
+    "Number": "ST2-035",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 0,
+    "Traits": [
+      "Sister",
+      "Company 8"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Permanent",
+      "Blocker"
+    ],
+    "Effect": "Blocker\nPermanent Once per turn, If your Leader has \"Company 8\" in their Traits, this card can't be Rested or removed from the field by your Opponent's skills.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-035.jpg"
+  },
+  "ST2-036": {
+    "id": "ST2-036",
+    "face": {
+      "front": {
+        "name": "Arthur Boyle",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-036.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Arthur Boyle [ST2-036]",
+    "type": "Main_Deck",
+    "Number": "ST2-036",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Threshold",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] Limit 1 Place 1 card from your hand in your Drop: If either Leader's Threshold skill is active, switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-036.jpg"
+  },
+  "ST2-037": {
+    "id": "ST2-037",
+    "face": {
+      "front": {
+        "name": "Kotatsu Tamaki",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-037.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kotatsu Tamaki [ST2-037]",
+    "type": "Main_Deck",
+    "Number": "ST2-037",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Your Turn",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n[Your Turn] <Once per Turn> When this card's Power is increased by your skill: Choose up to 1 of your Opponent's Units with 1000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-037.jpg"
+  },
+  "ST2-038": {
+    "id": "ST2-038",
+    "face": {
+      "front": {
+        "name": "Iron Owls",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-038.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Iron Owls [ST2-038]",
+    "type": "Main_Deck",
+    "Number": "ST2-038",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Equipment",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 Place 2 cards from your hand in your Drop: Switch your \"Oze Maki\" Leader to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-038.jpg"
+  },
+  "ST2-039": {
+    "id": "ST2-039",
+    "face": {
+      "front": {
+        "name": "Shinmon Benimaru",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-039.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Shinmon Benimaru [ST2-039]",
+    "type": "Main_Deck",
+    "Number": "ST2-039",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Play",
+      "Limit 1",
+      "Barrier",
+      "Clash",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader has \"Company 7\" in their Traits: Rest this card; choose up to 1 of your Opponent's Units with Power equal to or greater than this card's Power and K.O. it.\nClash [Opponent's Play] Raid {2} Switch this card to Active mode and give it Barrier for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-039.jpg"
+  },
+  "ST2-040": {
+    "id": "ST2-040",
+    "face": {
+      "front": {
+        "name": "Shinmon Benimaru",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-040.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shinmon Benimaru [ST2-040]",
+    "type": "Main_Deck",
+    "Number": "ST2-040",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "[On Play] Place 1 Action card from your hand in your Drop: Choose up to 1 of your Opponent's Units with 5000 or less Power and up to 1 of your Opponent's Units with 4000 or less Power, ignoring Barrier, and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-040.jpg"
+  },
+  "ST2-041": {
+    "id": "ST2-041",
+    "face": {
+      "front": {
+        "name": "Oze Maki",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-041.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Oze Maki [ST2-041]",
+    "type": "Main_Deck",
+    "Number": "ST2-041",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Threshold"
+    ],
+    "Effect": "Permanent If your Leader's Threshold skill is active, give this card +2000 Power.\n[On Play] Add up to 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-041.jpg"
+  },
+  "ST2-042": {
+    "id": "ST2-042",
+    "face": {
+      "front": {
+        "name": "Kusakabe Shinra",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-042.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Kusakabe Shinra [ST2-042]",
+    "type": "Main_Deck",
+    "Number": "ST2-042",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with 5000 or less Power and K.O. it.\n[Activate: Main] If this card was played this turn and its Power has been increased this turn: Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-042.jpg"
+  },
+  "ST2-043": {
+    "id": "ST2-043",
+    "face": {
+      "front": {
+        "name": "Iris",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-043.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Iris [ST2-043]",
+    "type": "Main_Deck",
+    "Number": "ST2-043",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 0,
+    "Traits": [
+      "Sister",
+      "Company 8"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Your Turn",
+      "Permanent",
+      "Limit 1"
+    ],
+    "Effect": "Permanent Once per turn, if your Leader has \"Company 8\" in their Traits, this card can't be Rested or removed from the field by your Opponent's skills.\n[Your Turn] Limit 1 When your Unit with 6000 or more Power attacks, choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-043.jpg"
+  },
+  "ST2-044": {
+    "id": "ST2-044",
+    "face": {
+      "front": {
+        "name": "Vulcan Joseph",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-044.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Vulcan Joseph [ST2-044]",
+    "type": "Main_Deck",
+    "Number": "ST2-044",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play",
+      "Accelcharge",
+      "Charge",
+      "Raid"
+    ],
+    "Effect": "[On Play] Raid {1} Accelcharge 1 and give your Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-044.jpg"
+  },
+  "ST2-045": {
+    "id": "ST2-045",
+    "face": {
+      "front": {
+        "name": "Lisa Isaribi",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-045.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Lisa Isaribi [ST2-045]",
+    "type": "Main_Deck",
+    "Number": "ST2-045",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[On K.O.] Draw 1 card; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-045.jpg"
+  },
+  "ST2-046": {
+    "id": "ST2-046",
+    "face": {
+      "front": {
+        "name": "Viktor Licht",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-046.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Viktor Licht [ST2-046]",
+    "type": "Main_Deck",
+    "Number": "ST2-046",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Scientist",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-046.jpg"
+  },
+  "ST2-047": {
+    "id": "ST2-047",
+    "face": {
+      "front": {
+        "name": "Company 8 Deployment",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-047.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Company 8 Deployment [ST2-047]",
+    "type": "Main_Deck",
+    "Number": "ST2-047",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Company 8"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} Look at the top 3 cards of your Deck; play up to 1 Unit card with a Cost of 2 or less and \"Company 8\" in its Traits from among them. Then, place the rest at the bottom of your Deck in a random order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-047.jpg"
+  },
+  "ST2-048": {
+    "id": "ST2-048",
+    "face": {
+      "front": {
+        "name": "Sputter Comet☆",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-048.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sputter Comet☆ [ST2-048]",
+    "type": "Main_Deck",
+    "Number": "ST2-048",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Pyrokinesis"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Unit with the \"Company 8\" Trait is in a battle, switch the attack target to your Leader.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-048.jpg"
+  },
+  "ST2-049": {
+    "id": "ST2-049",
+    "face": {
+      "front": {
+        "name": "Firestorm",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-049.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Firestorm [ST2-049]",
+    "type": "Main_Deck",
+    "Number": "ST2-049",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Pyrokinesis"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Place 1 card from your hand in your Drop: Choose up to 1 of your Opponent's Units and give it -4000 Power for the turn. Then, if you have a Leader or Unit with 6000 or more Power, choose up to 1 of your Opponent's Units with 0 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-049.jpg"
+  },
+  "ST2-050": {
+    "id": "ST2-050",
+    "face": {
+      "front": {
+        "name": "Witch Queen's Flame",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-050.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Witch Queen's Flame [ST2-050]",
+    "type": "Main_Deck",
+    "Number": "ST2-050",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Pyrokinesis"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] If your Leader is \"Oze Maki\", place 1 card from your hand in your Drop: Give your Unit that's in a battle +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-050.jpg"
+  },
+  "ST2-051": {
+    "id": "ST2-051",
+    "face": {
+      "front": {
+        "name": "Roy Mustang",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-051.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Roy Mustang [ST2-051]",
+    "type": "Leader",
+    "Number": "ST2-051",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Alchemist",
+      "State Military"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Threshold",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Draw 1 card and, if your Opponent has more cards in their Life than you or has no cards in their Life, give this card +1000 Power for the turn.\nThreshold 1 [Activate: Main] Once per Turn Raid {1} Choose up to 1 of your Opponent's Units with a Cost of 5 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-051.jpg"
+  },
+  "ST2-052": {
+    "id": "ST2-052",
+    "face": {
+      "front": {
+        "name": "Riza Hawkeye",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-052.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Riza Hawkeye [ST2-052]",
+    "type": "Main_Deck",
+    "Number": "ST2-052",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Attack",
+      "On Play",
+      "Accelcharge",
+      "Barrier",
+      "Blocker",
+      "Charge"
+    ],
+    "Effect": "Barrier\n[Opponent's Turn] Give this card Blocker and +1000 Power.\n[On Play / On Attack] Once per Turn If your Leader is \"Roy Mustang\", Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-052.jpg"
+  },
+  "ST2-053": {
+    "id": "ST2-053",
+    "face": {
+      "front": {
+        "name": "Maes Hughes",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-053.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Maes Hughes [ST2-053]",
+    "type": "Main_Deck",
+    "Number": "ST2-053",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Accelcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; reveal up to 1 card with \"State Military\" and up to 1 card with \"Flame Alchemy\" in their Traits and add them to your hand. Then, place the rest at the bottom of your Deck in any order.\n[On K.O.] Shuffle 1 card with the \"Flame Alchemy\" Trait from your Drop into your Deck: Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-053.jpg"
+  },
+  "ST2-054": {
+    "id": "ST2-054",
+    "face": {
+      "front": {
+        "name": "Jean Havoc",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-054.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Jean Havoc [ST2-054]",
+    "type": "Main_Deck",
+    "Number": "ST2-054",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On Play",
+      "Accelcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] If your Leader is \"Roy Mustang\" and you have 2 or less Life, add 1 card from your Life to your hand and Accelcharge 1. Then, shuffle up to 1 card with the \"Flame Alchemy\" Trait from your Drop into your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-054.jpg"
+  },
+  "ST2-055": {
+    "id": "ST2-055",
+    "face": {
+      "front": {
+        "name": "Alex Louis Armstrong",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-055.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Alex Louis Armstrong [ST2-055]",
+    "type": "Main_Deck",
+    "Number": "ST2-055",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Alchemist",
+      "State Military"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier",
+      "Deflect",
+      "Revenge"
+    ],
+    "Effect": "Deflect\n[On Play] If your Opponent has a Unit with a Cost of 5, give this card Barrier and Revenge until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-055.jpg"
+  },
+  "ST2-056": {
+    "id": "ST2-056",
+    "face": {
+      "front": {
+        "name": "Roy Mustang",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-056.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Roy Mustang [ST2-056]",
+    "type": "Main_Deck",
+    "Number": "ST2-056",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 2000,
+    "Traits": [
+      "Alchemist",
+      "State Military"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Barrier"
+    ],
+    "Effect": "[Your Turn] If your Opponent has more cards in their Life than you or has no cards in their Life, give this card +2000 Power.\n[On Play] Shuffle 3 cards with the \"Flame Alchemy\" Trait from your Drop into your Deck: Choose up to 1 of your Opponent's Units with a Cost of 5 or less, ignoring Barrier, and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-056.jpg"
+  },
+  "ST2-057": {
+    "id": "ST2-057",
+    "face": {
+      "front": {
+        "name": "Vato Falman",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-057.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Vato Falman [ST2-057]",
+    "type": "Main_Deck",
+    "Number": "ST2-057",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Limit 1",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On K.O.] Limit 1 If your Opponent has more cards in their Life than you, give up to 1 of your Units with the \"State Military\" Trait Blocker for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-057.jpg"
+  },
+  "ST2-058": {
+    "id": "ST2-058",
+    "face": {
+      "front": {
+        "name": "Heymans Breda",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-058.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Heymans Breda [ST2-058]",
+    "type": "Main_Deck",
+    "Number": "ST2-058",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Shuffle 2 cards with the \"Flame Alchemy\" Trait from your Drop into your Deck: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-058.jpg"
+  },
+  "ST2-059": {
+    "id": "ST2-059",
+    "face": {
+      "front": {
+        "name": "Kain Fuery",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-059.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kain Fuery [ST2-059]",
+    "type": "Main_Deck",
+    "Number": "ST2-059",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 2000,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Shuffle 1 card with the \"Flame Alchemy\" Trait from your Drop into your Deck: Choose up to 1 of your Opponent's Units with a Cost of 2 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-059.jpg"
+  },
+  "ST2-060": {
+    "id": "ST2-060",
+    "face": {
+      "front": {
+        "name": "Maria Ross",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-060.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Maria Ross [ST2-060]",
+    "type": "Main_Deck",
+    "Number": "ST2-060",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] Shuffle 2 cards with the \"Flame Alchemy\" Trait from your Drop into your Deck: Choose up to 2 of your Opponent's Units with a Cost of 1 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-060.jpg"
+  },
+  "ST2-061": {
+    "id": "ST2-061",
+    "face": {
+      "front": {
+        "name": "Maes Hughes",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-061.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Maes Hughes [ST2-061]",
+    "type": "Main_Deck",
+    "Number": "ST2-061",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Place 1 Action card from your hand in your Drop; draw 1 card.\n[Activate: Main] Once per Turn If your Leader is \"Roy Mustang\", choose up to 2 of your Opponent's Units with a Cost of 3 or less and set their Costs to 5 for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-061.jpg"
+  },
+  "ST2-062": {
+    "id": "ST2-062",
+    "face": {
+      "front": {
+        "name": "Olivier Mira Armstrong",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-062.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Olivier Mira Armstrong [ST2-062]",
+    "type": "Main_Deck",
+    "Number": "ST2-062",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Block",
+      "On Play",
+      "Blocker",
+      "Revenge"
+    ],
+    "Effect": "Blocker\n[On Block] If this card is in a battle with a Unit with a Cost of 5, give this card Revenge for the battle.\n[On Play] You may activate 1 Action card with a Cost of 1 and the \"Alchemy\" Trait, that has an [Activate: Main] skill, from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-062.jpg"
+  },
+  "ST2-063": {
+    "id": "ST2-063",
+    "face": {
+      "front": {
+        "name": "Riza Hawkeye",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-063.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Riza Hawkeye [ST2-063]",
+    "type": "Main_Deck",
+    "Number": "ST2-063",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Limit 1 Add 1 card from your Life to your hand: Choose up to 1 of your Opponent's Units with a Cost of 2 or less and up to 1 of your Opponent's Units with a Cost of 1 or less and K.O. them.\n[On K.O.] Add up to 1 card with the \"Flame Alchemy\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-063.jpg"
+  },
+  "ST2-064": {
+    "id": "ST2-064",
+    "face": {
+      "front": {
+        "name": "Roy Mustang",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-064.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Roy Mustang [ST2-064]",
+    "type": "Main_Deck",
+    "Number": "ST2-064",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Place 1 Action card from your hand in your Drop: Choose up to 1 of your Opponent's Units and set its Cost to 5. Then, choose up to 1 of your Opponent's Units with a Cost of 5 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-064.jpg"
+  },
+  "ST2-065": {
+    "id": "ST2-065",
+    "face": {
+      "front": {
+        "name": "Alex Louis Armstrong",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-065.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Alex Louis Armstrong [ST2-065]",
+    "type": "Main_Deck",
+    "Number": "ST2-065",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On K.O.",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[Activate: Main] (1) Choose all of your Opponent's Units; set their Cost to 5 for the turn.\n[On K.O.] Add up to 1 card with the \"Flame Alchemy\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-065.jpg"
+  },
+  "ST2-066": {
+    "id": "ST2-066",
+    "face": {
+      "front": {
+        "name": "Catherine Elle Armstrong",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-066.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Catherine Elle Armstrong [ST2-066]",
+    "type": "Main_Deck",
+    "Number": "ST2-066",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-066.jpg"
+  },
+  "ST2-067": {
+    "id": "ST2-067",
+    "face": {
+      "front": {
+        "name": "Flame Alchemy",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-067.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flame Alchemy [ST2-067]",
+    "type": "Main_Deck",
+    "Number": "ST2-067",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Alchemy",
+      "Flame Alchemy"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Accelcharge",
+      "Threshold",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader is \"Roy Mustang\", choose up to 1 of your Opponent's Units and set its Cost to 5. Then, if your Leader's Threshold skill is active, Charge 1 and Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-067.jpg"
+  },
+  "ST2-068": {
+    "id": "ST2-068",
+    "face": {
+      "front": {
+        "name": "Controlled Ignition",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-068.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Controlled Ignition [ST2-068]",
+    "type": "Main_Deck",
+    "Number": "ST2-068",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Alchemy",
+      "Flame Alchemy"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] (1) Choose up to 1 of your Opponent's Units with a Cost of 2 or less and K.O. it.\nIf your Leader is \"Roy Mustang\", you may instead Raid {1} to choose a Unit with a Cost of 4 or less instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-068.jpg"
+  },
+  "ST2-069": {
+    "id": "ST2-069",
+    "face": {
+      "front": {
+        "name": "Flame Trail",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-069.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flame Trail [ST2-069]",
+    "type": "Main_Deck",
+    "Number": "ST2-069",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Alchemy",
+      "Flame Alchemy"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Limit 1 Set the Cost of the Unit being played to 5. Then, if your Leader is \"Roy Mustang\", you may remove 1 SJ Marker. If you do, your Opponent's Units with a Cost of 5 cannot attack for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-069.jpg"
+  },
+  "ST2-070": {
+    "id": "ST2-070",
+    "face": {
+      "front": {
+        "name": "Fort Briggs Reinforcements",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-070.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fort Briggs Reinforcements [ST2-070]",
+    "type": "Main_Deck",
+    "Number": "ST2-070",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Look at the top 7 cards of your Deck; reveal up to 1 \"State Military\" Unit card and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-070.jpg"
+  },
+  "ST2-071": {
+    "id": "ST2-071",
+    "face": {
+      "front": {
+        "name": "Snap Combustion",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-071.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Snap Combustion [ST2-071]",
+    "type": "Main_Deck",
+    "Number": "ST2-071",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Alchemy",
+      "Flame Alchemy"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main / Battle] Limit 1 Place 1 card with the \"Flame Alchemy\" Trait from your hand in your Drop: Draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-071.jpg"
+  },
+  "ST2-072": {
+    "id": "ST2-072",
+    "face": {
+      "front": {
+        "name": "Hateful Combustion",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-072.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hateful Combustion [ST2-072]",
+    "type": "Main_Deck",
+    "Number": "ST2-072",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Alchemy",
+      "Flame Alchemy"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Accelcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Give your Leader or up to 1 of your Units with the \"Alchemist\" Trait +1000 Power for the turn. Then, if its Power is 7000 or more, draw 1 card and Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-072.jpg"
+  },
+  "ST2-073": {
+    "id": "ST2-073",
+    "face": {
+      "front": {
+        "name": "Roy Mustang",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-073.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 3
+      }
+    },
+    "name": "Roy Mustang [ST2-073]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-073",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Alchemist",
+      "State Military"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Deflect",
+      "Revenge"
+    ],
+    "Effect": "Deflect Revenge\n[On Play] If your Leader is \"Roy Mustang\", choose up to 1 of your Opponent's Units and K.O. it.\n[On Attack] If your Opponent has no cards in their Life, give this card +2000 Power for the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-073.jpg"
+  },
+  "ST2-074": {
+    "id": "ST2-074",
+    "face": {
+      "front": {
+        "name": "The ones important to me",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-074.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "The ones important to me [ST2-074]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-074",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] (1) Give your Leader or up to 1 of your Units +3000 Power for the battle. Then, return this card to your JUMP Deck at the end of the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-074.jpg"
+  },
+  "ST2-075": {
+    "id": "ST2-075",
+    "face": {
+      "front": {
+        "name": "It's not checkmate, just yet!",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-075.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "It's not checkmate, just yet! [ST2-075]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-075",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {2} Choose up to 1 of your Opponent's Units with a Cost of 5 or more and K.O. it.\nIf your Opponent has no cards in their Life, return this card to your JUMP Deck. Otherwise, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-075.jpg"
+  },
+  "ST2-076": {
+    "id": "ST2-076",
+    "face": {
+      "front": {
+        "name": "Mori Kurei",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-076.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mori Kurei [ST2-076]",
+    "type": "Leader",
+    "Number": "ST2-076",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Hokage",
+      "Uruha"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Threshold"
+    ],
+    "Effect": "When this card is placed in your Leader area, place 1 \"Accursed Phoenix Flame\" from your Deck on your field.\n[On Attack] Place up to 1 Unit card from your Drop under \"Accursed Phoenix Flame\" on your field; choose up to 1 of your Opponent's Units and give it -1 Cost for the turn.\nThreshold 3 [Activate: Main] <Once per Turn> (1) Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-076.jpg"
+  },
+  "ST2-077": {
+    "id": "ST2-077",
+    "face": {
+      "front": {
+        "name": "Accursed Phoenix Flame",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-077.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Accursed Phoenix Flame [ST2-077]",
+    "type": "Main_Deck",
+    "Number": "ST2-077",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Soul Flame"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Once per Turn",
+      "Your Turn",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "Scene\nIf your Leader is \"Mori Kurei\" this card gains the following effects for the game:\n[Your Turn] <Once per Turn> When a Unit is removed from the field by your effect, draw 1 card.\n[End of your Turn] Remove 1 card from under this card from the game: <Overcharge> 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-077.jpg"
+  },
+  "ST2-078": {
+    "id": "ST2-078",
+    "face": {
+      "front": {
+        "name": "Mori Kurei",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-078.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mori Kurei [ST2-078]",
+    "type": "Main_Deck",
+    "Number": "ST2-078",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Hokage",
+      "Uruha"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[On Attack] Choose up to 1 of your Opponent's Units and give it -2 Cost until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-078.jpg"
+  },
+  "ST2-079": {
+    "id": "ST2-079",
+    "face": {
+      "front": {
+        "name": "Raiha",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-079.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Raiha [ST2-079]",
+    "type": "Main_Deck",
+    "Number": "ST2-079",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Uruha",
+      "Jyushinshuu"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Deflect",
+      "Elusive"
+    ],
+    "Effect": "Deflect Elusive\n[Activate: Main] Rest this card: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-079.jpg"
+  },
+  "ST2-080": {
+    "id": "ST2-080",
+    "face": {
+      "front": {
+        "name": "Joker",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-080.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Joker [ST2-080]",
+    "type": "Main_Deck",
+    "Number": "ST2-080",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Uruha",
+      "Jyushinshuu"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Overcharge",
+      "Limit 1",
+      "Charge",
+      "Elusive",
+      "Revenge"
+    ],
+    "Effect": "Elusive Revenge\n[On Play / On Attack] Limit 1 Remove 1 card from under \"Accursed Phoenix Flame\" on your field from the game; Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-080.jpg"
+  },
+  "ST2-081": {
+    "id": "ST2-081",
+    "face": {
+      "front": {
+        "name": "Morikawa Ganko",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-081.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Morikawa Ganko [ST2-081]",
+    "type": "Main_Deck",
+    "Number": "ST2-081",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Hokage",
+      "Madogu"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Your Turn",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[Your Turn] If there are 3 or more cards under \"Accursed Phoenix Flame\" on your field, give this card in your hand -3 Cost.\n[Opponent's Turn] Give this card +3000 Power.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-081.jpg"
+  },
+  "ST2-082": {
+    "id": "ST2-082",
+    "face": {
+      "front": {
+        "name": "Sakoshita Yanagi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-082.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Sakoshita Yanagi [ST2-082]",
+    "type": "Main_Deck",
+    "Number": "ST2-082",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-082.jpg"
+  },
+  "ST2-083": {
+    "id": "ST2-083",
+    "face": {
+      "front": {
+        "name": "Uruha Oto",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-083.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Uruha Oto [ST2-083]",
+    "type": "Main_Deck",
+    "Number": "ST2-083",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Uruha"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] If there are 3 or more cards under \"Accursed Phoenix Flame\" on your field: Draw 2 cards; place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-083.jpg"
+  },
+  "ST2-084": {
+    "id": "ST2-084",
+    "face": {
+      "front": {
+        "name": "Jisho",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-084.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Jisho [ST2-084]",
+    "type": "Main_Deck",
+    "Number": "ST2-084",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Soul Flame"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] If your Leader is \"Mori Kurei\" and there are 1 or less cards under \"Accursed Phoenix Flame\" on your field, place up to 1 Unit card from your Drop under \"Accursed Phoenix Flame\" on your field.\n[Activate: Main] Once per Turn Place 1 card from under \"Accursed Phoenix Flame\" on your field in your Drop: Draw 1 card; place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-084.jpg"
+  },
+  "ST2-085": {
+    "id": "ST2-085",
+    "face": {
+      "front": {
+        "name": "Kurenai",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-085.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kurenai [ST2-085]",
+    "type": "Main_Deck",
+    "Number": "ST2-085",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Soul Flame"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On K.O.",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[Activate: Main] Rest this card: Choose up to 1 of your Opponent's Units and give it -2 Cost for the turn.\n[On K.O.] Place this card under \"Accursed Phoenix Flame\" on your field.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-085.jpg"
+  },
+  "ST2-086": {
+    "id": "ST2-086",
+    "face": {
+      "front": {
+        "name": "Magensha",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-086.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Magensha [ST2-086]",
+    "type": "Main_Deck",
+    "Number": "ST2-086",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Uruha",
+      "Madogu"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "[On Play] Remove 1 card from under \"Accursed Phoenix Flame\" on your field from the game: Choose up to 1 of your Opponent's Units with a Cost of 2 or less, ignoring Barrier, and return it to the owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-086.jpg"
+  },
+  "ST2-087": {
+    "id": "ST2-087",
+    "face": {
+      "front": {
+        "name": "Gashakura",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-087.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Gashakura [ST2-087]",
+    "type": "Main_Deck",
+    "Number": "ST2-087",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Uruha",
+      "Madogu"
+    ],
+    "Keywords": [
+      "On Attack"
+    ],
+    "Effect": "[On Attack] Remove 1 card from under \"Accursed Phoenix Flame\" on your field from the game: Give this card +1000 Power for the battle. Then, if this card is in a battle with a Unit with a Cost of 0 or less, give it +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-087.jpg"
+  },
+  "ST2-088": {
+    "id": "ST2-088",
+    "face": {
+      "front": {
+        "name": "Aki",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-088.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Aki [ST2-088]",
+    "type": "Main_Deck",
+    "Number": "ST2-088",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Uruha",
+      "Madogu"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Mori Kurei\": Add up to 1 card from your Life to your hand. Then, choose up to 1 of your Opponent's Units with a Cost of 0 and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-088.jpg"
+  },
+  "ST2-089": {
+    "id": "ST2-089",
+    "face": {
+      "front": {
+        "name": "Miki",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-089.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Miki [ST2-089]",
+    "type": "Main_Deck",
+    "Number": "ST2-089",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Uruha",
+      "Madogu"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Place 2 cards with \"Uruha\" in their Traits from your hand in your Drop: If your Leader is \"Mori Kurei\", draw 3 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-089.jpg"
+  },
+  "ST2-090": {
+    "id": "ST2-090",
+    "face": {
+      "front": {
+        "name": "Neon",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-090.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Neon [ST2-090]",
+    "type": "Main_Deck",
+    "Number": "ST2-090",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Uruha",
+      "Jyushinshuu"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; reveal up to 1 card with \"Uruha\" or \"Soul Flame\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-090.jpg"
+  },
+  "ST2-091": {
+    "id": "ST2-091",
+    "face": {
+      "front": {
+        "name": "Kagerou",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-091.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kagerou [ST2-091]",
+    "type": "Main_Deck",
+    "Number": "ST2-091",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Hokage"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a Cost of 4 or less and place it at the bottom of its owner's Deck. Then, give this card Blocker until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-091.jpg"
+  },
+  "ST2-092": {
+    "id": "ST2-092",
+    "face": {
+      "front": {
+        "name": "Mori Kurei",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-092.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Mori Kurei [ST2-092]",
+    "type": "Main_Deck",
+    "Number": "ST2-092",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 1000,
+    "Traits": [
+      "Hokage",
+      "Uruha"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "[On Play] Remove 2 cards from under \"Accursed Phoenix Flame\" on your field from the game: Choose up to 2 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and return them to the owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-092.jpg"
+  },
+  "ST2-093": {
+    "id": "ST2-093",
+    "face": {
+      "front": {
+        "name": "Flame Rend",
+        "type": "ACTION",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-093.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flame Rend [ST2-093]",
+    "type": "Main_Deck",
+    "Number": "ST2-093",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Soul Flame"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units with a Cost of 6 or more, ignoring Barrier, and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-093.jpg"
+  },
+  "ST2-094": {
+    "id": "ST2-094",
+    "face": {
+      "front": {
+        "name": "Flame Manifestation",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-094.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flame Manifestation [ST2-094]",
+    "type": "Main_Deck",
+    "Number": "ST2-094",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Soul Flame"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Double Damage"
+    ],
+    "Effect": "[Activate: Main] Place all cards from under \"Accursed Phoenix Flame\" on your field in your Drop and, if you placed 3 or more cards, give your Leader +3000 Power and Double Damage for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-094.jpg"
+  },
+  "ST2-095": {
+    "id": "ST2-095",
+    "face": {
+      "front": {
+        "name": "Haen",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-095.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Haen [ST2-095]",
+    "type": "Main_Deck",
+    "Number": "ST2-095",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Soul Flame"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Remove all cards from under \"Accursed Phoenix Flame\" on your field from the game; if you removed at least 1 card: Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -1 Cost for each card removed from the game by this card's skill for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-095.jpg"
+  },
+  "ST2-096": {
+    "id": "ST2-096",
+    "face": {
+      "front": {
+        "name": "Accursed Binding",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-096.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Accursed Binding [ST2-096]",
+    "type": "Main_Deck",
+    "Number": "ST2-096",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Soul Flame"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units and give it -1 Cost for the turn. Then, if there are 3 or more cards under \"Accursed Phoenix Flame\" on your field, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-096.jpg"
+  },
+  "ST2-097": {
+    "id": "ST2-097",
+    "face": {
+      "front": {
+        "name": "Jikuryuri",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-097.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jikuryuri [ST2-097]",
+    "type": "Main_Deck",
+    "Number": "ST2-097",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Uruha",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "You can activate this card's Clash skill by removing 2 cards from under \"Accursed Phoenix Flame\" on your field instead of paying its energy cost.\nClash [Opponent's Attack] Negate the attack. Then, return up to 1 of your Units to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-097.jpg"
+  },
+  "ST2-098": {
+    "id": "ST2-098",
+    "face": {
+      "front": {
+        "name": "Wakemi",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-098.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wakemi [ST2-098]",
+    "type": "Main_Deck",
+    "Number": "ST2-098",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Uruha",
+      "Ninjutsu"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Opponent's Turn",
+      "Clash"
+    ],
+    "Effect": "[Opponent's Turn] If there are 3 or more cards under \"Accursed Phoenix Flame\" on your field, give this card in your hand -2 Cost.\nClash [Opponent's Attack] Give your Leader +2000 Power for the battle. Then, place this card from your Drop under \"Accursed Phoenix Flame\" on your field.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-098.jpg"
+  },
+  "ST2-099": {
+    "id": "ST2-099",
+    "face": {
+      "front": {
+        "name": "Mori Kurei",
+        "type": "JUMP UNIT",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-099.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Mori Kurei [ST2-099]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-099",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": null,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Hokage",
+      "Uruha"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Attack",
+      "On Play",
+      "Your Turn",
+      "V Jump",
+      "Barrier"
+    ],
+    "Effect": "V JUMP If your Leader is \"Mori Kurei\", your Life is at 1 or less and you remove 3 cards from under \"Accursed Phoenix Flame\" on your field from the game.\n[On Play] Choose all of your Opponent's Units with a Cost of 0 or less, ignoring Barrier, and place them at the bottom of their owner's Decks.\n[On Attack] Draw 1 card. Then, choose up to 1 of your Opponent's Units with a Cost of 2 or less and place it under \"Accursed Phoenix Flame\" on your field.\n[End of your Turn] Remove 1 card from under \"Accursed Phoenix Flame\" on your field from the game or remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-099.jpg"
+  },
+  "ST2-100": {
+    "id": "ST2-100",
+    "face": {
+      "front": {
+        "name": "Hanabishi Recca",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-100.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Hanabishi Recca [ST2-100]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-100",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Hokage",
+      "Flame Master"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.\n[On Attack] Draw 1 card; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-100.jpg"
+  },
+  "ST2-101": {
+    "id": "ST2-101",
+    "face": {
+      "front": {
+        "name": "Alibaba Saluja",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-101.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Alibaba Saluja [ST2-101]",
+    "type": "Leader",
+    "Number": "ST2-101",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 8,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "End of your Turn",
+      "Once per Turn",
+      "Your Turn",
+      "Accelcharge",
+      "Threshold",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Remove 1 SJ Marker: Charge 1.\n[End of your Turn] Add 1 card from your Life to your hand and, if you do, Accelcharge 1.\nThreshold 1 [Activate: Main] Remove 2 SJ Markers: Until the end of your Opponent's next turn, negate the next damage you take.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-101.jpg"
+  },
+  "ST2-102": {
+    "id": "ST2-102",
+    "face": {
+      "front": {
+        "name": "Alibaba Saluja",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-102.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Alibaba Saluja [ST2-102]",
+    "type": "Main_Deck",
+    "Number": "ST2-102",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Blocker"
+    ],
+    "Effect": "[On Play] Remove 1 SJ Marker: Play up to 1 \"Amon\" from your Drop Rested.\n[End of your Turn] If a card was added from your Life to your hand by your skill this turn, switch this card to Active mode and give it Blocker until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-102.jpg"
+  },
+  "ST2-103": {
+    "id": "ST2-103",
+    "face": {
+      "front": {
+        "name": "Morgiana",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-103.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Morgiana [ST2-103]",
+    "type": "Main_Deck",
+    "Number": "ST2-103",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Fanalis",
+      "Household Vessel"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Blocker"
+    ],
+    "Effect": "[On Play] Limit 1 Add up to 1 Unit card with a Cost of 2 or less and the \"King Vessel\" or \"Magi\" Trait from your Drop to your hand. Then, play up to 1 Unit card with a Cost of 2 or less from your hand Rested.\n[End of your Turn] If a card was added from your Life to your hand by your skill this turn, give this card +2000 Power and Blocker until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-103.jpg"
+  },
+  "ST2-104": {
+    "id": "ST2-104",
+    "face": {
+      "front": {
+        "name": "Aladdin",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-104.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Aladdin [ST2-104]",
+    "type": "Main_Deck",
+    "Number": "ST2-104",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Magi",
+      "Magician"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Overcharge",
+      "Permanent",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "Permanent This card cannot attack.\n[On Play] If your Leader is \"Alibaba Saluja\": Look at the top 2 cards of your Deck; add up to 1 card to your hand. Then, place the rest at the bottom of your Deck in any order.\n[Activate: Main] Limit 1 Remove 1 SJ Marker and return 1 of your Units with a Cost of 2 to its owner's hand: Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-104.jpg"
+  },
+  "ST2-105": {
+    "id": "ST2-105",
+    "face": {
+      "front": {
+        "name": "Amon",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-105.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Amon [ST2-105]",
+    "type": "Main_Deck",
+    "Number": "ST2-105",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 0,
+    "Traits": [
+      "Djinn"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Charge",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] If your Leader is \"Alibaba Saluja\" and you Charged by a skill this turn, give up to 1 of your \"Alibaba Saluja\" +2000 Power until the end of your Opponent's next turn.\n[Opponent's Turn] If this card would be removed from the field: You may remove 2 SJ Markers and add this card to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-105.jpg"
+  },
+  "ST2-106": {
+    "id": "ST2-106",
+    "face": {
+      "front": {
+        "name": "Alibaba Saluja",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-106.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Alibaba Saluja [ST2-106]",
+    "type": "Main_Deck",
+    "Number": "ST2-106",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "End of Opponent's Turn",
+      "Opponent's Turn",
+      "On Attack"
+    ],
+    "Effect": "[On Attack] Shuffle 1 \"Amon\" from your Drop in your Deck: Give your Units with a Cost of 2 or less +1000 Power for the turn.\n[End of Opponent's Turn] If your Leader is \"Alibaba Saluja\" and you were dealt no damage this turn: You may remove 1 SJ Marker and add this card to your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-106.jpg"
+  },
+  "ST2-107": {
+    "id": "ST2-107",
+    "face": {
+      "front": {
+        "name": "Morgiana",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-107.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Morgiana [ST2-107]",
+    "type": "Main_Deck",
+    "Number": "ST2-107",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Fanalis"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Accelcharge",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] (2) Accelcharge 2.\n[End of your Turn] If you have no cards in your Life and you place this card in your Drop: Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-107.jpg"
+  },
+  "ST2-108": {
+    "id": "ST2-108",
+    "face": {
+      "front": {
+        "name": "Aladdin",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-108.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Aladdin [ST2-108]",
+    "type": "Main_Deck",
+    "Number": "ST2-108",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Magi",
+      "Magician"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Remove 1 SJ Marker: Place 1 card with the \"Djinn\" Trait from your Deck in your Drop; add up to 1 card with the \"King Vessel\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-108.jpg"
+  },
+  "ST2-109": {
+    "id": "ST2-109",
+    "face": {
+      "front": {
+        "name": "Amon",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-109.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Amon [ST2-109]",
+    "type": "Main_Deck",
+    "Number": "ST2-109",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 0,
+    "Traits": [
+      "Djinn"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Opponent's Turn",
+      "Your Turn",
+      "Overcharge",
+      "Charge",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[End of your Turn] If your Leader is \"Alibaba Saluja\" and you have no cards in your Life: Add this card to your Life and you can't Overcharge for the turn.\n[Opponent's Turn] If this card would be removed from the field: You may remove 2 SJ Markers and add this card to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-109.jpg"
+  },
+  "ST2-110": {
+    "id": "ST2-110",
+    "face": {
+      "front": {
+        "name": "Cassim",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-110.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Cassim [ST2-110]",
+    "type": "Main_Deck",
+    "Number": "ST2-110",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Balbadd",
+      "Fog Troupe"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Your Turn",
+      "Elusive",
+      "Revenge"
+    ],
+    "Effect": "[End of your Turn] If a card was added from your Life to your hand by your skill this turn, give this card Elusive and Revenge until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-110.jpg"
+  },
+  "ST2-111": {
+    "id": "ST2-111",
+    "face": {
+      "front": {
+        "name": "Ren Kouha",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-111.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ren Kouha [ST2-111]",
+    "type": "Main_Deck",
+    "Number": "ST2-111",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Clash"
+    ],
+    "Effect": "[On Play] During this turn, when your Opponent activates a Clash skill, give all of your Units with a Cost of 2 +1000 Power for the turn.\n[End of your Turn] If a card was added from your Life to your hand by your skill this turn, return this card to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-111.jpg"
+  },
+  "ST2-112": {
+    "id": "ST2-112",
+    "face": {
+      "front": {
+        "name": "Ren Hakuryuu",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-112.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ren Hakuryuu [ST2-112]",
+    "type": "Main_Deck",
+    "Number": "ST2-112",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Once per Turn",
+      "On Attack",
+      "Your Turn",
+      "Overcharge",
+      "Limit 1",
+      "Charge",
+      "Raid"
+    ],
+    "Effect": "[On Attack] Once per Turn Raid {1} Switch this card to Active mode.\n[End of your Turn] Limit 1 If a card was added from your Life to your hand by your skill this turn, place this card in your Drop and Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-112.jpg"
+  },
+  "ST2-113": {
+    "id": "ST2-113",
+    "face": {
+      "front": {
+        "name": "Ren Kougyoku",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-113.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ren Kougyoku [ST2-113]",
+    "type": "Main_Deck",
+    "Number": "ST2-113",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 (1) Play up to 1 Unit card with a Cost of 2 and the \"King Vessel\" Trait from your hand Rested.\n[End of your Turn] Limit 1 If you have no cards in your Life, give your Leader with the \"King Vessel\" Trait +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-113.jpg"
+  },
+  "ST2-114": {
+    "id": "ST2-114",
+    "face": {
+      "front": {
+        "name": "Ugo",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-114.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Ugo [ST2-114]",
+    "type": "Main_Deck",
+    "Number": "ST2-114",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Djinn"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-114.jpg"
+  },
+  "ST2-115": {
+    "id": "ST2-115",
+    "face": {
+      "front": {
+        "name": "Ren Koumei",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-115.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ren Koumei [ST2-115]",
+    "type": "Main_Deck",
+    "Number": "ST2-115",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Barrier",
+      "Blocker"
+    ],
+    "Effect": "[On Play] Limit 1 (1) Switch this card to Active mode and give it +1000 Power for the turn.\n[End of your Turn] Limit 1 If you have no cards in your Life, choose up to 1 of your Units with Blocker and give it Barrier until the end of your Opponent's next turn. Then, place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-115.jpg"
+  },
+  "ST2-116": {
+    "id": "ST2-116",
+    "face": {
+      "front": {
+        "name": "Ren Kouen",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-116.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ren Kouen [ST2-116]",
+    "type": "Main_Deck",
+    "Number": "ST2-116",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Remove 1 SJ Marker: Play this card from your hand and it becomes the new attack target. If this card is K.O.'d by that battle, remove it from the game.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-116.jpg"
+  },
+  "ST2-117": {
+    "id": "ST2-117",
+    "face": {
+      "front": {
+        "name": "Alibaba Saluja",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-117.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Alibaba Saluja [ST2-117]",
+    "type": "Main_Deck",
+    "Number": "ST2-117",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Limit 1",
+      "Barrier",
+      "Clash"
+    ],
+    "Effect": "[On Play] Remove 1 SJ Marker: For each \"Amon\" in your Drop, give up to 1 of your Units with the \"King Vessel\" Trait Barrier until the end of your Opponent's next turn.\nClash [Opponent's Attack] Limit 1 (1) Add 1 card from your Life to your hand; add the top card of your Deck to your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-117.jpg"
+  },
+  "ST2-118": {
+    "id": "ST2-118",
+    "face": {
+      "front": {
+        "name": "Ren Hakuei",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-118.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ren Hakuei [ST2-118]",
+    "type": "Main_Deck",
+    "Number": "ST2-118",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Dungeon Capturer",
+      "King Vessel"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Remove 1 SJ Marker: If the Unit being played has a Cost of 4 or more, it cannot be Rested until the end of your next turn. Then, remove this card in your hand from the game.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-118.jpg"
+  },
+  "ST2-119": {
+    "id": "ST2-119",
+    "face": {
+      "front": {
+        "name": "Magoi Infusion",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-119.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Magoi Infusion [ST2-119]",
+    "type": "Main_Deck",
+    "Number": "ST2-119",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Magoi",
+      "Metal Vessel"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] Remove 1 SJ Marker: If your Leader is \"Alibaba Saluja\", give your Leader +2000 Power for the battle. Then, return up to 1 of your \"Amon\" from your field to your hand at the end of the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-119.jpg"
+  },
+  "ST2-120": {
+    "id": "ST2-120",
+    "face": {
+      "front": {
+        "name": "Djinn Weapon Equip",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-120.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Djinn Weapon Equip [ST2-120]",
+    "type": "Main_Deck",
+    "Number": "ST2-120",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Magoi",
+      "Metal Vessel"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Place 1 Unit card with the \"Djinn\" Trait from your hand in your Drop: Play 1 Unit card with the \"King Vessel\" Trait from your hand. Then, if that card's name is the same as your Leader's, draw 1 card and give it +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-120.jpg"
+  },
+  "ST2-121": {
+    "id": "ST2-121",
+    "face": {
+      "front": {
+        "name": "Bequeath",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-121.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bequeath [ST2-121]",
+    "type": "Main_Deck",
+    "Number": "ST2-121",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Balbadd",
+      "Sindria"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Remove 1 SJ Marker: Add up to 1 card with the \"King Vessel\" Trait and up to 1 card with the \"Djinn\" Trait from your Drop to your hand. Then, if you have no cards in your Life, give your Leader +4000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-121.jpg"
+  },
+  "ST2-122": {
+    "id": "ST2-122",
+    "face": {
+      "front": {
+        "name": "Amol Dherrsaiga",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-122.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Amol Dherrsaiga [ST2-122]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-122",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Accelcharge",
+      "Overcharge",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "[On Play] Overcharge 1.\nClash [Activate: Battle] (1) Play up to 1 JUMP Action with \"Amol\" in its name from your JUMP Deck and, if you played a card, Accelcharge 1 and return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-122.jpg"
+  },
+  "ST2-123": {
+    "id": "ST2-123",
+    "face": {
+      "front": {
+        "name": "Amol Berka",
+        "type": "JUMP ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-123.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Amol Berka [ST2-123]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-123",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have no cards in your Life, give your Leader +1000 Power for the turn.\n[Activate: Battle] Remove this card from the game: Add up to 1 \"Amon\" or \"Alibaba Saluja\" from your Drop to your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-123.jpg"
+  },
+  "ST2-124": {
+    "id": "ST2-124",
+    "face": {
+      "front": {
+        "name": "Amol Al-Bador Saiqa",
+        "type": "JUMP ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-124.jpg",
+        "isHorizontal": true,
+        "sjCost": 4
+      }
+    },
+    "name": "Amol Al-Bador Saiqa [ST2-124]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-124",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 4,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have no cards in your Life, give your Leader +1000 Power for the turn.\n[Activate: Battle] Remove this card from the game: Remove 1 \"Alibaba Saluja\" and 1 \"Amon\" in your Drop from the game. Then, choose Units on your Opponent's field whose total Cost add ups to the combined Cost, or less, of those cards and K.O. them.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-124.jpg"
+  },
+  "ST2-125": {
+    "id": "ST2-125",
+    "face": {
+      "front": {
+        "name": "Surge of Rukh",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-125.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Surge of Rukh [ST2-125]",
+    "type": "JUMP_Deck",
+    "Number": "ST2-125",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "End of your Turn",
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Activate: Battle] Once per Turn (1) Give your Unit with a Cost of 2 that's in a battle +2000 Power for the battle.\n[End of your Turn] If you have no SJ Markers, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-125.jpg"
+  },
+  "ST2-126": {
+    "id": "ST2-126",
+    "face": {
+      "front": {
+        "name": "Hanabishi Recca",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-126.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Hanabishi Recca [ST2-126]",
+    "type": "Main_Deck",
+    "Number": "ST2-126",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "ST2",
+    "Rarity": "SEC",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Hokage",
+      "Flame Master"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Once per Turn",
+      "On Attack",
+      "Barrier",
+      "Clash"
+    ],
+    "Effect": "[On Attack] (1) Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -3 Cost for the turn. Then, if its Cost is 0 or less, negate its <Keywords> for the turn.\nClash [Opponent's Attack] <Once per Turn> Place 1 card from your hand in your Drop: Choose up to 1 of your Opponent's Units and give it -3 Cost for the turn. Then, if that Unit's Cost is 0 or less, negate the attack and place that Unit at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-126.jpg"
+  },
+  "ST2-127": {
+    "id": "ST2-127",
+    "face": {
+      "front": {
+        "name": "Aladdin",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-127.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Aladdin [ST2-127]",
+    "type": "Main_Deck",
+    "Number": "ST2-127",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "ST2",
+    "Rarity": "SEC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Magi",
+      "Magician"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Accelcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] <Accelcharge> 1 and draw 1 card.\n[Activate: Main] Limit 1 <Charge> 1. Then, give your Leader or up to 1 of your Units +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-127.jpg"
+  },
+  "ST2-128": {
+    "id": "ST2-128",
+    "face": {
+      "front": {
+        "name": "Makima",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Makima [ST2-128]",
+    "type": "Main_Deck",
+    "Number": "ST2-128",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Control Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Attack",
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] Limit 1 Place 1 \"Nayuta\" or Action card with \"Control Devil\" in its Traits from your Deck in your Drop: Draw 1 card.\n[End of your Turn] Rest your Leader or 1 of your Units; switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg"
+  },
+  "ST3-001": {
+    "id": "ST3-001",
+    "face": {
+      "front": {
+        "name": "Tanpopo Ohanami",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Tanpopo Ohanami [ST3-001]",
+    "type": "Leader",
+    "Number": "ST3-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Magical Girl",
+      "Butterfly"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Once per Turn",
+      "Threshold",
+      "Blocker",
+      "Bloom",
+      "Clash"
+    ],
+    "Effect": "Once per Turn When your \"Shade\" attacks, draw 1 card.\nClash [Opponent's Play] (1) When your Opponent plays a Unit, choose up to 1 of your Rested Units with the \"Fiend\" Trait; Bloom it and give it Blocker for the turn.\nThreshold 2 Once per Turn When your Unit is Bloomed, choose your Opponent's Leader or up to 1 of their Units and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-001.jpg"
+  },
+  "ST3-002": {
+    "id": "ST3-002",
+    "face": {
+      "front": {
+        "name": "Shade",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-002.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Shade [ST3-002]",
+    "type": "Main_Deck",
+    "Number": "ST3-002",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Fiend"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "[On Play] Rest this card; draw 1 card and give this card Barrier until the end of your Opponent's next turn.\n[Opponent's Turn] Limit 1 If your \"Tanpopo Ohanami\" is removed from your field by an Opponent's skill or K.O.'d, place 1 card from your hand in your Drop and play this card from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-002.jpg"
+  },
+  "ST3-003": {
+    "id": "ST3-003",
+    "face": {
+      "front": {
+        "name": "Tanpopo Ohanami",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-003.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Tanpopo Ohanami [ST3-003]",
+    "type": "Main_Deck",
+    "Number": "ST3-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Magical Girl",
+      "Butterfly"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Overcharge",
+      "Limit 1",
+      "Barrier",
+      "Charge",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] Limit 1 Play up to 1 \"Shade\" card from your hand.\n[End of your Turn] If you have no Energy, Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-003.jpg"
+  },
+  "ST3-004": {
+    "id": "ST3-004",
+    "face": {
+      "front": {
+        "name": "Hazuki Botan",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-004.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hazuki Botan [ST3-004]",
+    "type": "Main_Deck",
+    "Number": "ST3-004",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Magical Girl",
+      "Butterfly"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Play",
+      "Blocker",
+      "Bloom"
+    ],
+    "Effect": "Blocker\n[On Play] Add up to 1 Action card with the \"Butterfly\" Trait from your Drop to your hand.\n[Opponent's Turn] Once per Turn When one of your Units is Bloomed, switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-004.jpg"
+  },
+  "ST3-005": {
+    "id": "ST3-005",
+    "face": {
+      "front": {
+        "name": "Shade",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-005.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Shade [ST3-005]",
+    "type": "Main_Deck",
+    "Number": "ST3-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Fiend"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Bloom"
+    ],
+    "Effect": "Bloom\n[On Play] Rest this card; add up to 1 card from your Life to your hand.\n[Your Turn] When this card activates Bloom, choose up to 1 of your Opponent's Rested Units with a Cost of 3 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-005.jpg"
+  },
+  "ST3-006": {
+    "id": "ST3-006",
+    "face": {
+      "front": {
+        "name": "Rurihiko Karakusa",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-006.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Rurihiko Karakusa [ST3-006]",
+    "type": "Main_Deck",
+    "Number": "ST3-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Magical Boy",
+      "Butterfly"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Overcharge",
+      "Threshold",
+      "Limit 1",
+      "Bloom",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "[On Play] Limit 1 Choose up to 1 of your Rested Units with the \"Butterfly\" Trait and give it Bloom for the turn.\nClash [Opponent's Play] If your Leader's Threshold is active, Rest this card: Overcharge 1 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-006.jpg"
+  },
+  "ST3-007": {
+    "id": "ST3-007",
+    "face": {
+      "front": {
+        "name": "Ibara",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-007.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Ibara [ST3-007]",
+    "type": "Main_Deck",
+    "Number": "ST3-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Fiend"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Clash",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n[On Play] Choose all of your Opponent's Rested Units and they cannot be Rested until the end of your Opponent's next turn.\nClash [Opponent's Play] When your Opponent plays a Unit with a Cost of 3 or more: Place this card in your Drop and the Unit being played is Rested and has its skills negated for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-007.jpg"
+  },
+  "ST3-008": {
+    "id": "ST3-008",
+    "face": {
+      "front": {
+        "name": "Alice",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-008.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Alice [ST3-008]",
+    "type": "Main_Deck",
+    "Number": "ST3-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Fiend"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Place this card from your hand in your Drop: Add up to 1 other card with the \"Fiend\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-008.jpg"
+  },
+  "ST3-009": {
+    "id": "ST3-009",
+    "face": {
+      "front": {
+        "name": "Mayuyama Kujaku",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-009.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Mayuyama Kujaku [ST3-009]",
+    "type": "Main_Deck",
+    "Number": "ST3-009",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Butterfly"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; add up to 1 card with the \"Butterfly\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-009.jpg"
+  },
+  "ST3-010": {
+    "id": "ST3-010",
+    "face": {
+      "front": {
+        "name": "Tanpopo Ohanami",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-010.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Tanpopo Ohanami [ST3-010]",
+    "type": "Main_Deck",
+    "Number": "ST3-010",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Magical Girl",
+      "Butterfly"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Overcharge",
+      "Limit 1",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "[On Play] Overcharge 1 and give up to 1 of your \"Shade\" +1000 Power for the turn.\nClash [Opponent's Attack] Limit 1 (2) Play this card Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-010.jpg"
+  },
+  "ST3-011": {
+    "id": "ST3-011",
+    "face": {
+      "front": {
+        "name": "Hazuki Botan",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-011.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Hazuki Botan [ST3-011]",
+    "type": "Main_Deck",
+    "Number": "ST3-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Magical Girl",
+      "Butterfly"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Attack",
+      "Limit 1",
+      "Barrier",
+      "Bloom",
+      "Clash"
+    ],
+    "Effect": "[On Attack] Choose up to 1 of your Opponent's Units, ignoring Barrier, and Rest it. Then, if it has a Cost of 5 or less, it cannot switch to Active mode during your Opponent's next turn.\nClash [Opponent's Attack] Limit 1 Bloom up to 1 of your other Units with the \"Butterfly\" Trait and make it the new attack target.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-011.jpg"
+  },
+  "ST3-012": {
+    "id": "ST3-012",
+    "face": {
+      "front": {
+        "name": "Shade",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-012.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Shade [ST3-012]",
+    "type": "Main_Deck",
+    "Number": "ST3-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Fiend"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "On Play",
+      "Barrier",
+      "Bloom",
+      "Clash",
+      "Elusive"
+    ],
+    "Effect": "Barrier Elusive\n[On Play] Rest this card; give up to 1 of your \"Tanpopo Ohanami\" +1000 Power for the turn.\nClash [Activate: Battle] Once per Turn If this card was Bloomed this turn, give it +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-012.jpg"
+  },
+  "ST3-013": {
+    "id": "ST3-013",
+    "face": {
+      "front": {
+        "name": "Rurihiko Karakusa",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-013.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Rurihiko Karakusa [ST3-013]",
+    "type": "Main_Deck",
+    "Number": "ST3-013",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Magical Boy",
+      "Butterfly"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 You may Rest this card: Play up to 1 \"Hazuki Botan\" with a Cost of 4 or less from your hand.\n[On K.O.] Add up to 1 \"Hazuki Botan\" or \"Tanpopo Ohanami\" from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-013.jpg"
+  },
+  "ST3-014": {
+    "id": "ST3-014",
+    "face": {
+      "front": {
+        "name": "Niwatoko Kazura",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-014.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Niwatoko Kazura [ST3-014]",
+    "type": "Main_Deck",
+    "Number": "ST3-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Butterfly"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Tanpopo Ohanami\", choose up to 2 of your Opponent's Units and Rest them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-014.jpg"
+  },
+  "ST3-015": {
+    "id": "ST3-015",
+    "face": {
+      "front": {
+        "name": "Shadow Beast - Starving Wolf",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-015.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shadow Beast - Starving Wolf [ST3-015]",
+    "type": "Main_Deck",
+    "Number": "ST3-015",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Fiend"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Overcharge",
+      "Limit 1",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Limit 1 Place 1 of your Units with the \"Butterfly\" Trait in your Drop: Play up to 1 \"Shade\" from your Drop and Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-015.jpg"
+  },
+  "ST3-016": {
+    "id": "ST3-016",
+    "face": {
+      "front": {
+        "name": "Dandelion - Sparkling Shower",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dandelion - Sparkling Shower [ST3-016]",
+    "type": "Main_Deck",
+    "Number": "ST3-016",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Butterfly"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "Bloom"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader is \"Tanpopo Ohanami\": Choose up to 1 of your Opponent's Rested Units and it cannot switch to Active mode during your Opponent's next turn. Then, you may add 1 card from your Life to your hand and, if you added a card, give 1 of your Rested Units Bloom for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-016.jpg"
+  },
+  "ST3-017": {
+    "id": "ST3-017",
+    "face": {
+      "front": {
+        "name": "Dandelion - Sparkling Shield",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dandelion - Sparkling Shield [ST3-017]",
+    "type": "Main_Deck",
+    "Number": "ST3-017",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Butterfly"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Overcharge",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Leader is \"Tanpopo Ohanami\": Give your Leader +1000 Power for the battle. Then, if you have a Rested \"Shade\", draw 1 card and Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-017.jpg"
+  },
+  "ST3-018": {
+    "id": "ST3-018",
+    "face": {
+      "front": {
+        "name": "Tanpopo Ohanami",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-018.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 3
+      }
+    },
+    "name": "Tanpopo Ohanami [ST3-018]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-018",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Magical Girl",
+      "Butterfly"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn",
+      "Bloom",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Play up to 1 \"Shade\" from your Drop.\n[Your Turn] Once per Turn When one of your Units activates Bloom, give this card +1000 Power for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-018.jpg"
+  },
+  "ST3-019": {
+    "id": "ST3-019",
+    "face": {
+      "front": {
+        "name": "Dandelion - Sparkling Meteor",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-019.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Dandelion - Sparkling Meteor [ST3-019]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-019",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Play",
+      "Bloom",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Choose up to 1 of your Rested Units with the \"Fiend\" Trait; Bloom it and give it +1000 Power for the turn. Then, remove this card from the game and draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-019.jpg"
+  },
+  "ST3-020": {
+    "id": "ST3-020",
+    "face": {
+      "front": {
+        "name": "Blue Eyes - Gatling Gun",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-020.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Blue Eyes - Gatling Gun [ST3-020]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[Activate: Battle] If your Leader has the \"Butterfly\" Trait: Choose up to 2 of your Opponent's Rested Units with a Cost of 4 or less and K.O. them. Then, remove this card from the game and Overcharge 1.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-020.jpg"
+  },
+  "ST3-021": {
+    "id": "ST3-021",
+    "face": {
+      "front": {
+        "name": "Tsukino Usagi",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-021.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Tsukino Usagi [ST3-021]",
+    "type": "Leader",
+    "Number": "ST3-021",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Permanent",
+      "Threshold"
+    ],
+    "Effect": "Permanent Give all of your Units with an original Cost of 1 and the \"Sailor Guardian\" Trait +2 Cost.\n[On Attack] (1) Play up to 1 Unit card with a Cost of 1 and the \"Sailor Guardian\" Trait from your hand.\nThreshold 3 [Activate: Main] Once per Turn (1) Give up to 2 of your Units with the \"Sailor Guardian\" Trait +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-021.jpg"
+  },
+  "ST3-022": {
+    "id": "ST3-022",
+    "face": {
+      "front": {
+        "name": "Tsukino Usagi",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-022.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Tsukino Usagi [ST3-022]",
+    "type": "Main_Deck",
+    "Number": "ST3-022",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Overcharge",
+      "Charge",
+      "Deflect",
+      "Unique"
+    ],
+    "Effect": "Unique Deflect\n[On Play] If your Leader has the \"Sailor Guardian\" Trait, Charge 1 and Overcharge 1 and you can't Overcharge for the turn.\n[On Attack] Play up to 1 Unit card with a Cost of 1 and the \"Sailor Guardian\" Trait from your Drop. Then, give your Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-022.jpg"
+  },
+  "ST3-023": {
+    "id": "ST3-023",
+    "face": {
+      "front": {
+        "name": "Tsukino Usagi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-023.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Tsukino Usagi [ST3-023]",
+    "type": "Main_Deck",
+    "Number": "ST3-023",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 Look at the top 5 cards of your Deck; play up to 1 Unit card with a Cost of 1 and the \"Sailor Guardian\" Trait. Then, place the rest at the bottom of your Deck in any order.\n[On K.O.] If your Leader has the \"Sailor Guardian\" Trait, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-023.jpg"
+  },
+  "ST3-024": {
+    "id": "ST3-024",
+    "face": {
+      "front": {
+        "name": "Chiba Mamoru",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-024.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Chiba Mamoru [ST3-024]",
+    "type": "Main_Deck",
+    "Number": "ST3-024",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Tuxedo Mask"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Play"
+    ],
+    "Effect": "[On Play] Give this card +1000 Power for each of your \"Tsukino Usagi\" until the end of your Opponent's next turn.\n[Activate: Main] Once per Turn (1) Place up to 1 Unit card with a Cost of 1 and the \"Sailor Guardian\" Trait from your Deck in your Drop. Then, shuffle your Deck and draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-024.jpg"
+  },
+  "ST3-025": {
+    "id": "ST3-025",
+    "face": {
+      "front": {
+        "name": "Mizuno Ami",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-025.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Mizuno Ami [ST3-025]",
+    "type": "Main_Deck",
+    "Number": "ST3-025",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "Permanent",
+      "Bond",
+      "Critical"
+    ],
+    "Effect": "Bond 3 Units with the \"Sailor Guardian\" Trait: Permanent Give this card +2000 Power.\n[On Attack] Give this card Critical for the battle.\n[On K.O.] If your Leader has the \"Sailor Guardian\" Trait, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-025.jpg"
+  },
+  "ST3-026": {
+    "id": "ST3-026",
+    "face": {
+      "front": {
+        "name": "Aino Minako",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-026.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Aino Minako [ST3-026]",
+    "type": "Main_Deck",
+    "Number": "ST3-026",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Permanent",
+      "Bond"
+    ],
+    "Effect": "Bond 3 Units with the \"Sailor Guardian\" Trait: Permanent Give this card +2000 Power.\n[On Play] Draw 1 card.\n[On K.O.] If your Leader has the \"Sailor Guardian\" Trait, add up to 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-026.jpg"
+  },
+  "ST3-027": {
+    "id": "ST3-027",
+    "face": {
+      "front": {
+        "name": "Kino Makoto",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-027.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kino Makoto [ST3-027]",
+    "type": "Main_Deck",
+    "Number": "ST3-027",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "On Block",
+      "On K.O.",
+      "Permanent",
+      "Limit 1",
+      "Blocker",
+      "Bond"
+    ],
+    "Effect": "Bond 3 Units with the \"Sailor Guardian\" Trait: Permanent Give this card Blocker.\n[On Block] Limit 1 Give your Leader +1000 Power for the turn.\n[On K.O.] If your Leader has the \"Sailor Guardian\" Trait, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-027.jpg"
+  },
+  "ST3-028": {
+    "id": "ST3-028",
+    "face": {
+      "front": {
+        "name": "Hino Rei",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-028.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Hino Rei [ST3-028]",
+    "type": "Main_Deck",
+    "Number": "ST3-028",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "Permanent",
+      "Bond"
+    ],
+    "Effect": "Bond 3 Units with the \"Sailor Guardian\" Trait: Permanent Give this card +2000 Power.\n[On Attack] Look at the top 5 cards of your Deck; add up to 1 card with a Cost of 2 or more and the \"Sailor Guardian\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.\n[On K.O.] If your Leader has the \"Sailor Guardian\" Trait, add up to 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-028.jpg"
+  },
+  "ST3-029": {
+    "id": "ST3-029",
+    "face": {
+      "front": {
+        "name": "Tomoe Hotaru",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-029.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Tomoe Hotaru [ST3-029]",
+    "type": "Main_Deck",
+    "Number": "ST3-029",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Give up to 1 of your Units with an original Cost of 1 and the \"Sailor Guardian\" Trait +2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-029.jpg"
+  },
+  "ST3-030": {
+    "id": "ST3-030",
+    "face": {
+      "front": {
+        "name": "Kaiou Michiru",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-030.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kaiou Michiru [ST3-030]",
+    "type": "Main_Deck",
+    "Number": "ST3-030",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Give up to 1 of your Units with the \"Sailor Guardian\" Trait Unblockable for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-030.jpg"
+  },
+  "ST3-031": {
+    "id": "ST3-031",
+    "face": {
+      "front": {
+        "name": "Tenou Haruka",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-031.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Tenou Haruka [ST3-031]",
+    "type": "Main_Deck",
+    "Number": "ST3-031",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Return 1 of your other Units with an original Cost of 2 or more and the \"Sailor Guardian\" Trait to your hand; play 1 Unit card with a Cost of 1 and the \"Sailor Guardian\" Trait from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-031.jpg"
+  },
+  "ST3-032": {
+    "id": "ST3-032",
+    "face": {
+      "front": {
+        "name": "Meiou Setsuna",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-032.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Meiou Setsuna [ST3-032]",
+    "type": "Main_Deck",
+    "Number": "ST3-032",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Tsukino Usagi\" and you rest this card: Add 1 card from your Life to your hand; choose up to 1 of your Opponent's Units with 3000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-032.jpg"
+  },
+  "ST3-033": {
+    "id": "ST3-033",
+    "face": {
+      "front": {
+        "name": "Luna",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-033.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Luna [ST3-033]",
+    "type": "Main_Deck",
+    "Number": "ST3-033",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Advisor"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Tsukino Usagi\", draw 3 cards; place 3 cards from your hand at the top of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-033.jpg"
+  },
+  "ST3-034": {
+    "id": "ST3-034",
+    "face": {
+      "front": {
+        "name": "Tsukino Chibiusa",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-034.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Tsukino Chibiusa [ST3-034]",
+    "type": "Main_Deck",
+    "Number": "ST3-034",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Attack",
+      "Once per Turn",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "[Activate: Battle] Once per Turn (1) Rest this card: Choose up to 1 of your other Units with the \"Sailor Guardian\" Trait and return it to your hand.\nClash! [Opponent's Attack] Limit 1 (1) If your Unit with the \"Sailor Guardian\" Trait is in a battle, play this card from your hand and, if you do, give your card that's in a battle +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-034.jpg"
+  },
+  "ST3-035": {
+    "id": "ST3-035",
+    "face": {
+      "front": {
+        "name": "Moon Prism Power, Make Up!",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-035.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Moon Prism Power, Make Up! [ST3-035]",
+    "type": "Main_Deck",
+    "Number": "ST3-035",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Play up to 2 Unit cards with a Cost of 1 and the \"Sailor Guardian\" Trait from your Drop with their skills negated for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-035.jpg"
+  },
+  "ST3-036": {
+    "id": "ST3-036",
+    "face": {
+      "front": {
+        "name": "Moon Healing Escalation",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-036.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Moon Healing Escalation [ST3-036]",
+    "type": "Main_Deck",
+    "Number": "ST3-036",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Give your Leader or up to 1 of your Units with the \"Sailor Guardian\" Trait +3000 Power for the battle. Then, if you have 4 or more Units in play, give up to 1 of your other cards +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-036.jpg"
+  },
+  "ST3-037": {
+    "id": "ST3-037",
+    "face": {
+      "front": {
+        "name": "Moon Princess Halation",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-037.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Moon Princess Halation [ST3-037]",
+    "type": "Main_Deck",
+    "Number": "ST3-037",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Moon Kingdom"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Negate the attack. Then, switch up to 1 of your Units with a Cost of 2 or less to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-037.jpg"
+  },
+  "ST3-038": {
+    "id": "ST3-038",
+    "face": {
+      "front": {
+        "name": "Tsukino Usagi",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-038.jpg",
+        "isHorizontal": false,
+        "power": 1000,
+        "sjCost": 1
+      }
+    },
+    "name": "Tsukino Usagi [ST3-038]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-038",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 1000,
+    "Counter": null,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "Permanent",
+      "Barrier",
+      "Bond",
+      "Charge",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\nBond 3 Units with the \"Sailor Guardian\" Trait: Permanent Give all of your Units with an original Cost of 1 and the \"Sailor Guardian\" Trait +1000 Power.\nPermanent When this card is removed from the field, Accelcharge 1.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-038.jpg"
+  },
+  "ST3-039": {
+    "id": "ST3-039",
+    "face": {
+      "front": {
+        "name": "Sailor Guardians",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-039.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Sailor Guardians [ST3-039]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-039",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} Give all of your Units with an original Cost of 1 and the \"Sailor Guardian\" Trait Barrier until the end of your Opponent's next turn. Then, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-039.jpg"
+  },
+  "ST3-040": {
+    "id": "ST3-040",
+    "face": {
+      "front": {
+        "name": "Crystal Star",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-040.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Crystal Star [ST3-040]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-040",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Raid {1} Choose up to 2 of your Units with an original Cost of 1 and the \"Sailor Guardian\" Trait and give them +1000 Power until the end of your Opponent's next turn. Then, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-040.jpg"
+  },
+  "ST3-041": {
+    "id": "ST3-041",
+    "face": {
+      "front": {
+        "name": "Coco",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-041.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Coco [ST3-041]",
+    "type": "Leader",
+    "Number": "ST3-041",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Once per Turn",
+      "Threshold",
+      "Charge"
+    ],
+    "Effect": "[Opponent's Attack] Once per Turn (1) Choose your Opponent's Leader or up to 1 of their Units and Rest them.\n[Activate: Main] Add 1 card from your Life to your hand: Place 1 \"Magic Book\" from your JUMP Deck on your field and negate this skill for the game.\nThreshold 4 [Activate: Main] Once per Turn If you have a Unit with a Cost of 4 or more and the \"Witch\" Trait: Charge 3. Then, you cannot play Unit cards for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-041.jpg"
+  },
+  "ST3-042": {
+    "id": "ST3-042",
+    "face": {
+      "front": {
+        "name": "Coco",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-042.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Coco [ST3-042]",
+    "type": "Main_Deck",
+    "Number": "ST3-042",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Limit 1 If your Leader has the \"Witch\" Trait: Look at the top 5 cards of your Deck; add up to 1 card with a Cost of 5 or less to your hand. Then, place the rest at the bottom of your Deck in any order and give your Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-042.jpg"
+  },
+  "ST3-043": {
+    "id": "ST3-043",
+    "face": {
+      "front": {
+        "name": "Qifrey",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-043.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Qifrey [ST3-043]",
+    "type": "Main_Deck",
+    "Number": "ST3-043",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[On Attack] (1) If this card is in a battle with an Opponent's Unit: Make this card's Power equal to that Unit's Power for the battle.\n[Activate: Main] Once per Turn If an Opponent's Unit was K.O.'d by battle this turn: Place 1 card from your hand in your Drop, switch this card to Active mode and it can't attack for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-043.jpg"
+  },
+  "ST3-044": {
+    "id": "ST3-044",
+    "face": {
+      "front": {
+        "name": "Beldaruit",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-044.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Beldaruit [ST3-044]",
+    "type": "Main_Deck",
+    "Number": "ST3-044",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Witch",
+      "Three Wise"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Threshold",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect\nPermanent If your Leader's Threshold skill is active, give this card Blocker.\n[On Play] Return 1 of your other Units to your hand; play up to 1 Unit with a Cost of 5 or less from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-044.jpg"
+  },
+  "ST3-045": {
+    "id": "ST3-045",
+    "face": {
+      "front": {
+        "name": "Alaira",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-045.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Alaira [ST3-045]",
+    "type": "Main_Deck",
+    "Number": "ST3-045",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Add up to 1 card from your Life to your hand.\n[On Attack] Limit 1 If this card is in a battle with an Opponent's Unit: Give this card +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-045.jpg"
+  },
+  "ST3-046": {
+    "id": "ST3-046",
+    "face": {
+      "front": {
+        "name": "Lagrah",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-046.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Lagrah [ST3-046]",
+    "type": "Main_Deck",
+    "Number": "ST3-046",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Three Wise"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] (1) If this card is in a battle with an Opponent's Unit: Look at the top 3 cards of your Deck; add up to 1 Action card to your hand. Then, place the rest at the bottom of your Deck in any order.\n[Activate: Main] Limit 1 If an Opponent's Unit was K.O.'d by battle this turn: Return this card to your hand, place 1 card from your hand in your Drop and play up to 1 Unit card with a Cost of 4 or less and the \"Witch\" Trait from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-046.jpg"
+  },
+  "ST3-047": {
+    "id": "ST3-047",
+    "face": {
+      "front": {
+        "name": "Olruggio",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-047.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Olruggio [ST3-047]",
+    "type": "Main_Deck",
+    "Number": "ST3-047",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "[On Attack] (1) If this card is in a battle with an Opponent's Unit: If your Opponent activates a Clash skill, they must place 1 card from their hand in their Drop.\n[Activate: Main] Limit 1 If an Opponent's Unit was K.O.'d by battle this turn: Return this card to your hand, place 1 card from your hand in your Drop and play up to 1 Unit card with a Cost of 3 or less and the \"Witch\" Trait from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-047.jpg"
+  },
+  "ST3-048": {
+    "id": "ST3-048",
+    "face": {
+      "front": {
+        "name": "Easthies",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-048.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Easthies [ST3-048]",
+    "type": "Main_Deck",
+    "Number": "ST3-048",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Witch",
+      "Knights Moralis"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Attack] (2) If this card is in a battle with an Opponent's Unit: Remove up to 1 of your Opponent's Overcharged Energy.\n[Activate: Main] Once per Turn If an Opponent's Unit was K.O.'d by battle this turn: Place 1 card from your hand in your Drop and switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-048.jpg"
+  },
+  "ST3-049": {
+    "id": "ST3-049",
+    "face": {
+      "front": {
+        "name": "Custas",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-049.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Custas [ST3-049]",
+    "type": "Main_Deck",
+    "Number": "ST3-049",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Witch",
+      "Brimmed Cap"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Blocker",
+      "Clash"
+    ],
+    "Effect": "Blocker\nClash [Opponent's Attack] (2) If your Leader has the \"Witch\" Trait: Draw 1 card; play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-049.jpg"
+  },
+  "ST3-050": {
+    "id": "ST3-050",
+    "face": {
+      "front": {
+        "name": "Agott",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-050.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Agott [ST3-050]",
+    "type": "Main_Deck",
+    "Number": "ST3-050",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] Limit 1 If this card is in a battle with an Opponent's Unit: Draw 1 card and give this card +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-050.jpg"
+  },
+  "ST3-051": {
+    "id": "ST3-051",
+    "face": {
+      "front": {
+        "name": "Tetia",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-051.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Tetia [ST3-051]",
+    "type": "Main_Deck",
+    "Number": "ST3-051",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n[Activate: Main] Rest this card: Give your Leader or up to 1 of your Units with the \"Witch\" Trait +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-051.jpg"
+  },
+  "ST3-052": {
+    "id": "ST3-052",
+    "face": {
+      "front": {
+        "name": "Richeh",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-052.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Richeh [ST3-052]",
+    "type": "Main_Deck",
+    "Number": "ST3-052",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] Limit 1 If this card is in a battle with an Opponent's Unit: Choose up to 1 of your Opponent's Rested Units and give it -1000 Power for the turn and give this card +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-052.jpg"
+  },
+  "ST3-053": {
+    "id": "ST3-053",
+    "face": {
+      "front": {
+        "name": "Brushbuddy",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-053.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Brushbuddy [ST3-053]",
+    "type": "Main_Deck",
+    "Number": "ST3-053",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Familiar"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] (1) Choose up to 1 of your Opponent's Units with a Cost of 2 or less and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-053.jpg"
+  },
+  "ST3-054": {
+    "id": "ST3-054",
+    "face": {
+      "front": {
+        "name": "Ininia",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-054.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Ininia [ST3-054]",
+    "type": "Main_Deck",
+    "Number": "ST3-054",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Witch",
+      "Brimmed Cap"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Place this card from your hand in your Drop: Add up to 1 card that includes \"Spell\" in its Traits from your Drop to your hand. Then, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-054.jpg"
+  },
+  "ST3-055": {
+    "id": "ST3-055",
+    "face": {
+      "front": {
+        "name": "Conjuring Ink",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-055.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Conjuring Ink [ST3-055]",
+    "type": "Main_Deck",
+    "Number": "ST3-055",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Witch Tool"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader is \"Coco\" and an Opponent's Unit was K.O.'d by battle this turn, draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-055.jpg"
+  },
+  "ST3-056": {
+    "id": "ST3-056",
+    "face": {
+      "front": {
+        "name": "Petrifaction",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-056.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Petrifaction [ST3-056]",
+    "type": "Main_Deck",
+    "Number": "ST3-056",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Forbidden Spell"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Overcharge",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Give your Leader or up to 1 of your Units +3000 Power for the battle. Then, your Opponent cannot Overcharge by skills for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-056.jpg"
+  },
+  "ST3-057": {
+    "id": "ST3-057",
+    "face": {
+      "front": {
+        "name": "Water Magic",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-057.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Water Magic [ST3-057]",
+    "type": "Main_Deck",
+    "Number": "ST3-057",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Spell"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Duel"
+    ],
+    "Effect": "[Activate: Main] Draw 1 card; the next time your Leader or 1 of your Units with the \"Witch\" Trait attacks an Opponent's Unit this turn, give that card Duel and +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-057.jpg"
+  },
+  "ST3-058": {
+    "id": "ST3-058",
+    "face": {
+      "front": {
+        "name": "Luluci",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-058.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 1
+      }
+    },
+    "name": "Luluci [ST3-058]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-058",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Witch",
+      "Knights Moralis"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Duel"
+    ],
+    "Effect": "Duel\n[Your Turn] When one of your other Units attacks an Opponent's Unit, remove 2 SJ Markers: Your Opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-058.jpg"
+  },
+  "ST3-059": {
+    "id": "ST3-059",
+    "face": {
+      "front": {
+        "name": "Vinanna",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-059.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Vinanna [ST3-059]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-059",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Witch",
+      "Three Wise"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Your Turn",
+      "Permanent",
+      "Elusive",
+      "Revenge"
+    ],
+    "Effect": "Permanent If this card is Rested, give your Leader +1000 Power.\n[End of your Turn] (2) Give this card Elusive and Revenge until the end of your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-059.jpg"
+  },
+  "ST3-060": {
+    "id": "ST3-060",
+    "face": {
+      "front": {
+        "name": "Magic Book",
+        "type": "JUMP ACTION",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-060.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Magic Book [ST3-060]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-060",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 8,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Once per Turn",
+      "Your Turn",
+      "Clash",
+      "Duel"
+    ],
+    "Effect": "Once per Turn When your Opponent activates a Clash skill, draw 1 card.\n[Your Turn] When you play a Unit with the \"Witch\" Trait from your hand, give it Duel for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-060.jpg"
+  },
+  "ST3-101": {
+    "id": "ST3-101",
+    "face": {
+      "front": {
+        "name": "Tsukino Usagi",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-101.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Tsukino Usagi [ST3-101]",
+    "type": "Main_Deck",
+    "Number": "ST3-101",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "ST3",
+    "Rarity": "SEC",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 1000,
+    "Traits": [
+      "Sailor Guardian",
+      "Moon Kingdom"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Double Damage",
+      "Your Turn",
+      "Blocker",
+      "Bond",
+      "Clash"
+    ],
+    "Effect": "Bond 5: Give this card Double Damage.\n[Your Turn] Once Per Turn When your Opponent activates a Blocker or Clash skill, choose up to 1 of your Opponent's Units with 8000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-101.jpg"
+  },
+  "ST3-102": {
+    "id": "ST3-102",
+    "face": {
+      "front": {
+        "name": "Qifrey",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-102.jpg",
+        "isHorizontal": false,
+        "power": 9000
+      }
+    },
+    "name": "Qifrey [ST3-102]",
+    "type": "Main_Deck",
+    "Number": "ST3-102",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "ST3",
+    "Rarity": "SEC",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 9000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Pointed Hat"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "On Attack",
+      "Duel"
+    ],
+    "Effect": "Duel\n[On Attack] (2) At the end of the battle, if this card K.O.'d an Opponent's Unit by battle, switch this card to Active mode and place 1 card from your Opponent's hand in their Drop.\n[Activate: Battle] Once per Turn (1) Give your Leader or up to 1 of your Units +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-102.jpg"
+  },
+  "ST3-103": {
+    "id": "ST3-103",
+    "face": {
+      "front": {
+        "name": "Gaara",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-103.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Gaara [ST3-103]",
+    "type": "Main_Deck",
+    "Number": "ST3-103",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinobi",
+      "Jinchuriki",
+      "Sunagakure"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Limit 1 Place 1 card from your hand in your Drop: Play up to 1 \"Gaara\" with a Cost of 3 or 4 from your hand, add up to 1 \"Sand Gourd\" from your Deck or Drop to your hand and Charge 1. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-103.jpg"
+  },
+  "ST4-128": {
+    "id": "ST4-128",
+    "face": {
+      "front": {
+        "name": "Higashikata Jobin",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-128.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Higashikata Jobin [ST4-128]",
+    "type": "Main_Deck",
+    "Number": "ST4-128",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Stand User"
+    ],
+    "Keywords": [
+      "On Play",
+      "Accelcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Limit 1 If your Leader is \"Higashikata Josuke\", Charge 1 and Accelcharge 1. Then, during your next Charge Phase, Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-128.jpg"
+  },
+  "SD1-001": {
+    "id": "SD1-001",
+    "face": {
+      "front": {
+        "name": "Tao Ren",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Tao Ren [SD1-001]",
+    "type": "Leader",
+    "Number": "SD1-001",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "On Attack",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] Reveal 1 card with \"Bason\" in its name from your hand: Draw 1 card and place the revealed card at the top of your Deck.\n[Activate: Battle] <Once per Turn> When you use a card in a combo: Draw 1 card. Then, place up to 1 card with \"Bason\" in its name from your combo area under your Leader or 1 of your Units.\nThreshold 4 [Activate: Battle] <Once per Turn> Look at the top card of your Deck and use up to 1 card with \"Bason\" in its name in a combo. Place the rest at the top or bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-001.jpg"
+  },
+  "SD1-002": {
+    "id": "SD1-002",
+    "face": {
+      "front": {
+        "name": "Tao Ren",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-002.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Tao Ren [SD1-002]",
+    "type": "Main_Deck",
+    "Number": "SD1-002",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Activate: Battle] [Your Turn] <Once per Turn>\nWhen you use a card in a combo while this card is in a battle, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-002.jpg"
+  },
+  "SD1-003": {
+    "id": "SD1-003",
+    "face": {
+      "front": {
+        "name": "Bason",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-003.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Bason [SD1-003]",
+    "type": "Main_Deck",
+    "Number": "SD1-003",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Guardian Ghost",
+      "Seirei"
+    ],
+    "Keywords": [
+      "Permanent",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\n<Permanent> While this card is under a \"Tao Ren\" card, the card on top of this card gains Barrier",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-003.jpg"
+  },
+  "SD1-004": {
+    "id": "SD1-004",
+    "face": {
+      "front": {
+        "name": "Bason",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-004.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Bason [SD1-004]",
+    "type": "Main_Deck",
+    "Number": "SD1-004",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Guardian Ghost",
+      "Seirei"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Limit 1",
+      "Elusive"
+    ],
+    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\n[Your Turn] When this card is placed under a \"Tao Ren\" card, the card on top of this card gains Elusive until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-004.jpg"
+  },
+  "SD1-005": {
+    "id": "SD1-005",
+    "face": {
+      "front": {
+        "name": "Bason",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-005.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Bason [SD1-005]",
+    "type": "Main_Deck",
+    "Number": "SD1-005",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Guardian Ghost",
+      "Seirei"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Limit 1",
+      "Blocker"
+    ],
+    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\n[Your Turn] When this card is placed under a \"Tao Ren\" card, the card on top of this card gains Blocker until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-005.jpg"
+  },
+  "SD1-006": {
+    "id": "SD1-006",
+    "face": {
+      "front": {
+        "name": "Tao Jun",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-006.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Tao Jun [SD1-006]",
+    "type": "Main_Deck",
+    "Number": "SD1-006",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Shaman",
+      "Daoshi"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Battle] <Once per Turn>\nWhen this card is used in a combo from your Field: Use up to 1 Unit with \"Guardian Ghost\" in its Traits in a combo from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-006.jpg"
+  },
+  "SD1-007": {
+    "id": "SD1-007",
+    "face": {
+      "front": {
+        "name": "Tao Ran",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-007.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Tao Ran [SD1-007]",
+    "type": "Main_Deck",
+    "Number": "SD1-007",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Shaman",
+      "Daoshi"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-007.jpg"
+  },
+  "SD1-008": {
+    "id": "SD1-008",
+    "face": {
+      "front": {
+        "name": "Tao En",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-008.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Tao En [SD1-008]",
+    "type": "Main_Deck",
+    "Number": "SD1-008",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman",
+      "Daoshi"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Permanent",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n<Permanent> While this card is in a battle and if you have a card in your Combo Area, this card gets +1000 power.\n[On Play / On K.O.] Add up to 1 card from your life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-008.jpg"
+  },
+  "SD1-009": {
+    "id": "SD1-009",
+    "face": {
+      "front": {
+        "name": "Tao Chin",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-009.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Tao Chin [SD1-009]",
+    "type": "Main_Deck",
+    "Number": "SD1-009",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman",
+      "Daoshi"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play / On K.O.] Look at 5 cards from the top of your Deck; add up to 1 card with \"Tao\" or \"Bason\" in their Name to your hand. Then, place the rest at the top or bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-009.jpg"
+  },
+  "SD1-010": {
+    "id": "SD1-010",
+    "face": {
+      "front": {
+        "name": "Tao Ren",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-010.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Tao Ren [SD1-010]",
+    "type": "Main_Deck",
+    "Number": "SD1-010",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] <Once per Turn> When you use a card in a combo while this card is in a battle, draw 1 card. Then, switch this card to Active Mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-010.jpg"
+  },
+  "SD1-011": {
+    "id": "SD1-011",
+    "face": {
+      "front": {
+        "name": "Tao Ren",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-011.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Tao Ren [SD1-011]",
+    "type": "Main_Deck",
+    "Number": "SD1-011",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Battle] <Once per Turn> When you use a card in a combo while this card is in a battle, add up to 1 \"Bason\" from under your Leader or your Units to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-011.jpg"
+  },
+  "SD1-012": {
+    "id": "SD1-012",
+    "face": {
+      "front": {
+        "name": "Tao Ren",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-012.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Tao Ren [SD1-012]",
+    "type": "Main_Deck",
+    "Number": "SD1-012",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "On Attack",
+      "Your Turn"
+    ],
+    "Effect": "[On Attack] Choose up to 1 of your Opponent's Unit and give it -1 Cost for the turn.\n[Activate: Battle] [Your Turn] <Once per Turn> When you use a card in a combo while this card is in a battle and you place 3 cards with \"Guardian Ghost\" in their Traits from under your Leader in your Drop: Choose up to 1 of your Opponent's Units with a Cost of 4 or less and place it at the bottom of the owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-012.jpg"
+  },
+  "SD1-013": {
+    "id": "SD1-013",
+    "face": {
+      "front": {
+        "name": "Tao Ren",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-013.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Tao Ren [SD1-013]",
+    "type": "Main_Deck",
+    "Number": "SD1-013",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Attack",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "[On Attack] Add up to 2 cards with \"Guardian Ghost\" in their Traits from under your Leader or your Units to your hand; place that many cards from your hand at the bottom of your Deck.\nClash [Opponent's Attack] Limit 1 Place 1 card from under this card in your Drop: Give your Leader or one of your Units +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-013.jpg"
+  },
+  "SD1-014": {
+    "id": "SD1-014",
+    "face": {
+      "front": {
+        "name": "Tao Ren",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-014.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Tao Ren [SD1-014]",
+    "type": "Main_Deck",
+    "Number": "SD1-014",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Limit 1",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Attack] Draw 2 cards and place 1 card from your hand on the top of your Deck.\n[Activate: Main] Limit 1 Place all cards from under your Leader in your Drop: Choose up to 1 of your Opponent's Units with a Cost equal to or less than the number of cards placed in your Drop, ignoring Barrier, and place it at the bottom of the owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-014.jpg"
+  },
+  "SD1-015": {
+    "id": "SD1-015",
+    "face": {
+      "front": {
+        "name": "100% Integration",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-015.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "100% Integration [SD1-015]",
+    "type": "Main_Deck",
+    "Number": "SD1-015",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shaman",
+      "Furyoku"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Tao Ren\": Play up to 1 \"Tao Ren\" with a cost of 5 from your hand and place up to 1 \"Bason\" from under your Leader or one of your Units under it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-015.jpg"
+  },
+  "SD1-016": {
+    "id": "SD1-016",
+    "face": {
+      "front": {
+        "name": "Spirit Fury",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spirit Fury [SD1-016]",
+    "type": "Main_Deck",
+    "Number": "SD1-016",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shaman",
+      "Furyoku"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Place 1 card from under your Leader in your Drop: If the Unit being played has a Cost of 2 or less, return it to the owner's hand instead. Then, return up to 1 of your Units with a Cost of 1 to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-016.jpg"
+  },
+  "SD1-017": {
+    "id": "SD1-017",
+    "face": {
+      "front": {
+        "name": "Path of Tao",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-017.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Path of Tao [SD1-017]",
+    "type": "JUMP_Deck",
+    "Number": "SD1-017",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Look at 2 cards from the top of your Deck and place them at the top or bottom of your Deck in any order.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-017.jpg"
+  },
+  "SD1-018": {
+    "id": "SD1-018",
+    "face": {
+      "front": {
+        "name": "Bao-Lei Heirloom",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-018.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Bao-Lei Heirloom [SD1-018]",
+    "type": "JUMP_Deck",
+    "Number": "SD1-018",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Turn",
+      "On Play"
+    ],
+    "Effect": "[On Play] During your Opponent's next turn, give all of your Units with \"Tao Ren\" in their name +1000 Power for each card with \"Bason\" in its name under them.\n[Activate: Battle] [Opponent's Turn] Return this card to your SJ Deck and place 1 card from your hand at the bottom of your Deck: Give your Leader or one of your Units +3000 Power for the battle. Then, if you have a card in your Combo area, draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-018.jpg"
+  },
+  "SD1-019": {
+    "id": "SD1-019",
+    "face": {
+      "front": {
+        "name": "Spirit of Thunder",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-019.jpg",
+        "isHorizontal": false,
+        "power": 0,
+        "sjCost": 2
+      }
+    },
+    "name": "Spirit of Thunder [SD1-019]",
+    "type": "JUMP_Deck",
+    "Number": "SD1-019",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 0,
+    "Counter": null,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "J-Layer",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\nJ-Layer 1 \"O.S. Spirit of Thunder\"\n<Permanent> If this card would be removed from the field, place 1 \"O.S. Spirit of Thunder\" from under this card on top of this card instead.\n[On Play] You may return 1 of your Units to the owner's hand: If your Leader has \"Shaman\" in their Traits, return up to 1 Unit with a Cost of 4 or less to the owner's hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-019.jpg"
+  },
+  "SD1-020": {
+    "id": "SD1-020",
+    "face": {
+      "front": {
+        "name": "O.S. Spirit of Thunder",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-020.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 5
+      }
+    },
+    "name": "O.S. Spirit of Thunder [SD1-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD1-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "SD1",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": 5,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] Choose up to 1 of your Opponent's Units and place it at the bottom of its owner's Deck.\n[Activate: Battle] Remove all cards from under this card from the game: Place all cards from your Opponent's Combo area at the bottom of their owner's Deck and give this card +1000 Power for each card in your Combo area.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-020.jpg"
+  },
+  "SD2-001": {
+    "id": "SD2-001",
+    "face": {
+      "front": {
+        "name": "Toru",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Toru [SD2-001]",
+    "type": "Leader",
+    "Number": "SD2-001",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Rock Human",
+      "Stand User"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "If your Unit(s) with the \"Calamity\" Trait would be removed from the Field by your Opponent, you may add 1 card from the top of your Life cards to your hand instead.\nThreshold 0 <Once per Turn> (1) Place 1 card from your hand in your Drop: Add the top card of your Deck to your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-001.jpg"
+  },
+  "SD2-002": {
+    "id": "SD2-002",
+    "face": {
+      "front": {
+        "name": "Rock Human",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-002.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Rock Human [SD2-002]",
+    "type": "Main_Deck",
+    "Number": "SD2-002",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Rock Human"
+    ],
+    "Keywords": [
+      "On Block",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Block] Look at 3 cards from the top of your Deck; reveal up to 1 card with \"Calamity\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-002.jpg"
+  },
+  "SD2-003": {
+    "id": "SD2-003",
+    "face": {
+      "front": {
+        "name": "Toru",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-003.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Toru [SD2-003]",
+    "type": "Main_Deck",
+    "Number": "SD2-003",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Rock Human"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] You may add 1 card from your Life to your hand: If your Leader has \"Rock Human\" or \"Calamity\" in their Traits, add the top card of your Deck to the top of your Life cards. Then, play up to 1 \"Wonder of U\" with a Cost of 5 or less from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-003.jpg"
+  },
+  "SD2-004": {
+    "id": "SD2-004",
+    "face": {
+      "front": {
+        "name": "Toru",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-004.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Toru [SD2-004]",
+    "type": "Main_Deck",
+    "Number": "SD2-004",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Rock Human"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Blocker"
+    ],
+    "Effect": "Blocker\nLimit 1 When this card is added from your Life to your hand: You may reveal this card and play it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-004.jpg"
+  },
+  "SD2-005": {
+    "id": "SD2-005",
+    "face": {
+      "front": {
+        "name": "Wu Tomoki",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-005.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Wu Tomoki [SD2-005]",
+    "type": "Main_Deck",
+    "Number": "SD2-005",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Rock Human",
+      "Stand User"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may add 1 card from your Life to your hand: Rest up to 1 of your Opponent's Units with a Cost of 5 or less.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-005.jpg"
+  },
+  "SD2-006": {
+    "id": "SD2-006",
+    "face": {
+      "front": {
+        "name": "Poor Tom",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-006.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Poor Tom [SD2-006]",
+    "type": "Main_Deck",
+    "Number": "SD2-006",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Rock Human",
+      "Stand User"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[On Play] If your Leader has \"Rock Human\" in their Traits: Look at the top card of your Deck; place it at the top or bottom of your Deck.\n[End of Your Turn] You may place this Unit in your Drop: If you have 1 or less cards in your Life, add the top of your Deck to your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-006.jpg"
+  },
+  "SD2-007": {
+    "id": "SD2-007",
+    "face": {
+      "front": {
+        "name": "Urban Guerrilla",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-007.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Urban Guerrilla [SD2-007]",
+    "type": "Main_Deck",
+    "Number": "SD2-007",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Rock Human",
+      "Stand User"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have less Life cards than your Opponent: Draw 2 cards and place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-007.jpg"
+  },
+  "SD2-008": {
+    "id": "SD2-008",
+    "face": {
+      "front": {
+        "name": "Toru",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-008.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Toru [SD2-008]",
+    "type": "Main_Deck",
+    "Number": "SD2-008",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Rock Human"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may turn 1 card from the top of your Life cards face-up: Look at up to 7 cards from the top of your Deck; add up to 2 cards with \"Rock Human\" in their Traits to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-008.jpg"
+  },
+  "SD2-009": {
+    "id": "SD2-009",
+    "face": {
+      "front": {
+        "name": "Toru",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-009.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Toru [SD2-009]",
+    "type": "Main_Deck",
+    "Number": "SD2-009",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Rock Human"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your Opponent's Units with a cost equal to or less than the number of your Life cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-009.jpg"
+  },
+  "SD2-010": {
+    "id": "SD2-010",
+    "face": {
+      "front": {
+        "name": "Wonder of U",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-010.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Wonder of U [SD2-010]",
+    "type": "Main_Deck",
+    "Number": "SD2-010",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Stand",
+      "Calamity"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker",
+      "Elusive"
+    ],
+    "Effect": "Blocker Elusive\n[On Play] If your Leader is \"Toru\" and you have 1 or less Life cards: Add up to 1 card from the top of your Deck to your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-010.jpg"
+  },
+  "SD2-011": {
+    "id": "SD2-011",
+    "face": {
+      "front": {
+        "name": "Wonder of U",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-011.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Wonder of U [SD2-011]",
+    "type": "Main_Deck",
+    "Number": "SD2-011",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Stand",
+      "Calamity"
+    ],
+    "Keywords": [
+      "On Play",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n[On Play] If your Leader is \"Toru\" and you place 1 card from your hand in your Drop: Add up to 1 card from the top of your Deck to your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-011.jpg"
+  },
+  "SD2-012": {
+    "id": "SD2-012",
+    "face": {
+      "front": {
+        "name": "Wonder of U",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-012.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Wonder of U [SD2-012]",
+    "type": "Main_Deck",
+    "Number": "SD2-012",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Stand",
+      "Calamity"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Permanent",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n<Permanent> If you have 2 or less Life cards, give this card in your hand -1 Cost.\n[Opponent's Turn] If your Leader is \"Toru\" and this card is removed from your Field: Your Opponent adds 1 card from their Life to their hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-012.jpg"
+  },
+  "SD2-013": {
+    "id": "SD2-013",
+    "face": {
+      "front": {
+        "name": "Wonder of U",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-013.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Wonder of U [SD2-013]",
+    "type": "Main_Deck",
+    "Number": "SD2-013",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Stand",
+      "Calamity"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Play",
+      "Limit 1",
+      "Blocker",
+      "Elusive"
+    ],
+    "Effect": "Blocker Elusive\n[On Play] Limit 1 If your Leader is \"Toru\": Place up to 1 card from your hand in your Life. Then, K.O. up to 1 of your Opponent's Units with a cost equal to or less than the number of your Life cards.\n[Activate: Main] (1) <Once per Turn> Give your Leader or 1 of your Units +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-013.jpg"
+  },
+  "SD2-014": {
+    "id": "SD2-014",
+    "face": {
+      "front": {
+        "name": "Wonder of U",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-014.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Wonder of U [SD2-014]",
+    "type": "Main_Deck",
+    "Number": "SD2-014",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Stand",
+      "Calamity"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Play",
+      "Barrier",
+      "Elusive"
+    ],
+    "Effect": "Barrier Elusive\n[On Play] If your Leader is \"Toru\": Place up to 1 card from your hand in your Life. Then, if you have 2 or less Life cards, draw 1 card.\n[Opponent's Turn] <Once per Turn> When a card is removed from your Life, give your Leader or 1 of your Units +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-014.jpg"
+  },
+  "SD2-015": {
+    "id": "SD2-015",
+    "face": {
+      "front": {
+        "name": "Toru",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-015.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Toru [SD2-015]",
+    "type": "Main_Deck",
+    "Number": "SD2-015",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Rock Human"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may turn 1 card from the top of your Life cards face-up: Play up to 1 Unit with a cost of 2 or less and including \"Rock\" in its Traits from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-015.jpg"
+  },
+  "SD2-016": {
+    "id": "SD2-016",
+    "face": {
+      "front": {
+        "name": "Toru",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-016.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Toru [SD2-016]",
+    "type": "Main_Deck",
+    "Number": "SD2-016",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Rock Human",
+      "Stand User"
+    ],
+    "Keywords": [
+      "Limit 1"
+    ],
+    "Effect": "Limit 1 When a card is added from your or your Opponent's Life to the owner's hand: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-016.jpg"
+  },
+  "SD2-017": {
+    "id": "SD2-017",
+    "face": {
+      "front": {
+        "name": "Locacaca 6251",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Locacaca 6251 [SD2-017]",
+    "type": "Main_Deck",
+    "Number": "SD2-017",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Locacaca"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] If your Leader has \"Rock Human\" in their Traits, place 1 card from the top of your Life cards in your Drop. Then, add up to 1 card from the top of your Deck to your Life and place 1 card from your hand in your Drop.\nClash [Opponent's Attack] Give your card that's in a battle +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-017.jpg"
+  },
+  "SD2-018": {
+    "id": "SD2-018",
+    "face": {
+      "front": {
+        "name": "Rock Organism Emergence",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rock Organism Emergence [SD2-018]",
+    "type": "Main_Deck",
+    "Number": "SD2-018",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Rock Organism"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader has the \"Rock Human\" trait: Choose 1 card in your Drop with a Cost of 3 or less and with only \"Rock Human\", \"Rock Animal\" or \"Rock Insect\" in its Traits; add it to the top of your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-018.jpg"
+  },
+  "SD2-019": {
+    "id": "SD2-019",
+    "face": {
+      "front": {
+        "name": "Only a centimeter away",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-019.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Only a centimeter away [SD2-019]",
+    "type": "JUMP_Deck",
+    "Number": "SD2-019",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] Draw 1 card. Then, give your Leader or up to 1 of your Units +1000 Power for the turn.\nClash [Activate: Battle] Return this card to your SJ Deck: Give your card that's in a battle +2000 Power for the battle. Then, if you have 0 Life cards, draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-019.jpg"
+  },
+  "SD2-020": {
+    "id": "SD2-020",
+    "face": {
+      "front": {
+        "name": "New Locacaca Fruit",
+        "type": "JUMP ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-020.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "New Locacaca Fruit [SD2-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD2-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "SD2",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "On Play"
+    ],
+    "Effect": "[On Play] You may give 1 of your Units -1000 Power for the turn: Give your Leader +1000 Power for the turn.\n[Activate: Main] If your Leader is \"Toru\" and you remove this card from the game: Add 1 card from your Life to your hand; your Opponent adds a card from their Life to their hand. Then, you may place up to 1 card from your hand in your Life and your Opponent places that many cards from their hand in their Life.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-020.jpg"
+  },
+  "SD3-001": {
+    "id": "SD3-001",
+    "face": {
+      "front": {
+        "name": "Shinmon Benimaru",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Shinmon Benimaru [SD3-001]",
+    "type": "Leader",
+    "Number": "SD3-001",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Attack",
+      "Your Turn",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] Choose up to 1 of your Opponent's Units and give it -3000 Power for the turn. Then, if its Power is 0 or less, K.O. it.\nThreshold 1 [Your Turn] <Once per Turn> When one of your Opponent's Units is K.O.ed by your skill: Switch this card to Active mode, give it +1000 Power until the end of your Opponent's next turn, and it cannot attack your Opponent's Leader for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-001.jpg"
+  },
+  "SD3-002": {
+    "id": "SD3-002",
+    "face": {
+      "front": {
+        "name": "Shinmon Benimaru",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-002.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shinmon Benimaru [SD3-002]",
+    "type": "Main_Deck",
+    "Number": "SD3-002",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[Your Turn] If this card was played this turn: When one of your Opponent's Units is K.O.'d by your skill, Overcharge 2 and you can't Overcharge for the turn.\n[On Play] If your Leader is \"Shinmon Benimaru\": Choose up to 1 of your Opponent's Units and give it -5000 Power for the turn. Then, if its Power is 0 or less, K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-002.jpg"
+  },
+  "SD3-003": {
+    "id": "SD3-003",
+    "face": {
+      "front": {
+        "name": "Sagamiya Konro",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-003.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Sagamiya Konro [SD3-003]",
+    "type": "Main_Deck",
+    "Number": "SD3-003",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; reveal up to 1 card with \"Company 7\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-003.jpg"
+  },
+  "SD3-004": {
+    "id": "SD3-004",
+    "face": {
+      "front": {
+        "name": "Oze Maki",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-004.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Oze Maki [SD3-004]",
+    "type": "Main_Deck",
+    "Number": "SD3-004",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Raid"
+    ],
+    "Effect": "[On Attack] Raid {1} Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn. Then, if there is a Unit with 0 or less Power on any field, give this card +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-004.jpg"
+  },
+  "SD3-005": {
+    "id": "SD3-005",
+    "face": {
+      "front": {
+        "name": "Kusakabe Shinra",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-005.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kusakabe Shinra [SD3-005]",
+    "type": "Main_Deck",
+    "Number": "SD3-005",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "End of your Turn",
+      "Your Turn",
+      "Limit 1",
+      "Elusive"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Rest this card: Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.\n[End of your Turn] If one of your Opponent's Units was K.O.ed by your skill this turn, give this card Elusive until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-005.jpg"
+  },
+  "SD3-006": {
+    "id": "SD3-006",
+    "face": {
+      "front": {
+        "name": "Arthur Boyle",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-006.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Arthur Boyle [SD3-006]",
+    "type": "Main_Deck",
+    "Number": "SD3-006",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Your Turn",
+      "Raid"
+    ],
+    "Effect": "[Your Turn] If one of your Opponent's Units was K.O.ed by your skill this turn, give this card in your hand -2 Cost.\n[On Attack] Raid {1} Choose up to 1 of your Opponent's Units with 2000 or less Power and K.O. it. Then, this card gains +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-006.jpg"
+  },
+  "SD3-007": {
+    "id": "SD3-007",
+    "face": {
+      "front": {
+        "name": "Hinata & Hikage",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-007.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Hinata & Hikage [SD3-007]",
+    "type": "Main_Deck",
+    "Number": "SD3-007",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; reveal up to 1 card with \"Pyrokinesis\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-007.jpg"
+  },
+  "SD3-008": {
+    "id": "SD3-008",
+    "face": {
+      "front": {
+        "name": "Shinmon Hibachi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-008.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Shinmon Hibachi [SD3-008]",
+    "type": "Main_Deck",
+    "Number": "SD3-008",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Fire Chief"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] If your Leader is \"Shinmon Benimaru\": Choose up to 2 of your Opponent's Units and give them -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-008.jpg"
+  },
+  "SD3-009": {
+    "id": "SD3-009",
+    "face": {
+      "front": {
+        "name": "Sagamiya Konro",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-009.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Sagamiya Konro [SD3-009]",
+    "type": "Main_Deck",
+    "Number": "SD3-009",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "On Block",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Block] If your Leader is \"Shinmon Benimaru\": Choose your Opponent's Leader or up to 1 of their Units and give them -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-009.jpg"
+  },
+  "SD3-010": {
+    "id": "SD3-010",
+    "face": {
+      "front": {
+        "name": "Karim Flam",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-010.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Karim Flam [SD3-010]",
+    "type": "Main_Deck",
+    "Number": "SD3-010",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "Company 1"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with 0 or less Power and it cannot be Rested until the end of your Opponent's next turn.\nClash [Activate: Battle] (1) Place this card from your field in your Drop: Choose up to 1 of your Opponent's Units that's in a battle and give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-010.jpg"
+  },
+  "SD3-011": {
+    "id": "SD3-011",
+    "face": {
+      "front": {
+        "name": "Joker",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-011.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Joker [SD3-011]",
+    "type": "Main_Deck",
+    "Number": "SD3-011",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "2nd Genreration Pyrokinetic",
+      "3rd Generation Pyrokinetic"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[Opponent's Turn] If your \"Kusakabe Shinra\" would be removed from your field by your Opponent's skill: You may remove this card in your Drop from the game instead.\n[On Play] If one of your Opponent's Units was K.O.ed by your skill this turn, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-011.jpg"
+  },
+  "SD3-012": {
+    "id": "SD3-012",
+    "face": {
+      "front": {
+        "name": "Shinmon Benimaru & Sagamiya Konro",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-012.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Shinmon Benimaru & Sagamiya Konro [SD3-012]",
+    "type": "Main_Deck",
+    "Number": "SD3-012",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "Raid"
+    ],
+    "Effect": "[On Attack] Raid 1 Choose up to 2 of your Opponent's Units and give them -2000 Power for the turn.\n[On K.O.] Remove 1 SJ Marker: Add up to 1 card with \"Company 7\" in its Traits from your Drop to your hand, other than \"Shinmon Benimaru & Sagamiya Konro\".",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-012.jpg"
+  },
+  "SD3-013": {
+    "id": "SD3-013",
+    "face": {
+      "front": {
+        "name": "Hibana",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-013.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Hibana [SD3-013]",
+    "type": "Main_Deck",
+    "Number": "SD3-013",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 5"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[On Play / On K.O.] Draw 1 card; place 1 card from your hand in your Drop.\n[On Attack] If one of your Opponent's Units was K.O.ed by your skill this turn, give this card +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-013.jpg"
+  },
+  "SD3-014": {
+    "id": "SD3-014",
+    "face": {
+      "front": {
+        "name": "Obi Akitaru",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-014.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Obi Akitaru [SD3-014]",
+    "type": "Main_Deck",
+    "Number": "SD3-014",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Company 8"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Add up to 1 card from your Life to your hand; choose up to 1 of your Opponent's Units with 2000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-014.jpg"
+  },
+  "SD3-015": {
+    "id": "SD3-015",
+    "face": {
+      "front": {
+        "name": "Child of the Heavens, Kagutsuchi",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-015.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Child of the Heavens, Kagutsuchi [SD3-015]",
+    "type": "Main_Deck",
+    "Number": "SD3-015",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Pyrokinesis",
+      "Company 7"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Clash",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} Choose all of your Opponent's Units and give them -1000 Power for the turn. Then, if your Leader is \"Shinmon Benimaru\", draw 1 card.\nClash [Activate: Battle] (1) Give your Leader +2000 Power for the battle. Then, if your Leader is \"Shinmon Benimaru\", draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-015.jpg"
+  },
+  "SD3-016": {
+    "id": "SD3-016",
+    "face": {
+      "front": {
+        "name": "Fire Moon",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fire Moon [SD3-016]",
+    "type": "Main_Deck",
+    "Number": "SD3-016",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Pyrokinesis"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "If your Leader is \"Shinmon Benimaru\", you can activate this card's [Activate: Main] skill by adding 1 card from your Life to your hand instead of paying its energy cost.\n[Activate: Main] Choose up to 2 of your Opponent's Units with 3000 Power or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-016.jpg"
+  },
+  "SD3-017": {
+    "id": "SD3-017",
+    "face": {
+      "front": {
+        "name": "4 Meter Radius",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "4 Meter Radius [SD3-017]",
+    "type": "Main_Deck",
+    "Number": "SD3-017",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Pyrokinesis"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Choose up to 1 of your Opponent's Units with 5000 base Power or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-017.jpg"
+  },
+  "SD3-018": {
+    "id": "SD3-018",
+    "face": {
+      "front": {
+        "name": "Crimson Moon's Sun Wheel",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crimson Moon's Sun Wheel [SD3-018]",
+    "type": "Main_Deck",
+    "Number": "SD3-018",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Pyrokinesis"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {2} If your Leader is \"Shinmon Benimaru\": Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -8000 Power for the turn. Then, if there is a Unit with 0 or less Power on any field, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-018.jpg"
+  },
+  "SD3-019": {
+    "id": "SD3-019",
+    "face": {
+      "front": {
+        "name": "Flaming Matoi",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-019.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Flaming Matoi [SD3-019]",
+    "type": "JUMP_Deck",
+    "Number": "SD3-019",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn",
+      "Accelcharge",
+      "Charge"
+    ],
+    "Effect": "[Your Turn] Once per Turn When one of your Opponent's Units is K.O.ed by your skill, Accelcharge 1.\n[On Play] Draw 2 cards; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-019.jpg"
+  },
+  "SD3-020": {
+    "id": "SD3-020",
+    "face": {
+      "front": {
+        "name": "Asakusa's King of Destruction",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD3-020.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Asakusa's King of Destruction [SD3-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD3-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "SD3",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Leader's Threshold skill is active and you remove this card from the game: Your opponent can't attack for the turn unless they give the attacking card -X Power, where X is equal to the attacking card's base Power.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD3-020.jpg"
+  },
+  "SD4-001": {
+    "id": "SD4-001",
+    "face": {
+      "front": {
+        "name": "Edward Elric",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Edward Elric [SD4-001]",
+    "type": "Leader",
+    "Number": "SD4-001",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Alchemist",
+      "Automail"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Turn",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Place 1 card from your hand in your Drop: Look at the top 5 cards of your Deck; reveal up to 2 cards with \"Alchemy\" in their Traits and add them to your hand. Then, place the rest at the bottom of your Deck in any order.\nThreshold 3 [Opponent's Turn] When one of your Units with \"Alchemy\" in their Traits is K.O.ed by your Opponent's skill, you may place 1 card from your hand at the bottom of your Deck: Add that Unit card from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-001.jpg"
+  },
+  "SD4-002": {
+    "id": "SD4-002",
+    "face": {
+      "front": {
+        "name": "Alphonse Elric",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-002.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Alphonse Elric [SD4-002]",
+    "type": "Main_Deck",
+    "Number": "SD4-002",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "SR",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 1000,
+    "Traits": [
+      "Alchemy",
+      "Elric"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Your Turn",
+      "Blocker",
+      "Unique"
+    ],
+    "Effect": "Unique Blocker\n[End of your Turn] Switch up to 2 of your Units with the \"Alchemy\" or \"Alchemist\" Trait to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-002.jpg"
+  },
+  "SD4-003": {
+    "id": "SD4-003",
+    "face": {
+      "front": {
+        "name": "Edward Elric",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-003.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Edward Elric [SD4-003]",
+    "type": "Main_Deck",
+    "Number": "SD4-003",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Alchemist",
+      "Automail"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On K.O.",
+      "Limit 1"
+    ],
+    "Effect": "[Opponent's Turn] Limit 1 When a card is placed from your hand in your Drop by your skill: Add up to 1 card with the \"Alchemy\" Trait from your Drop to your hand.\n[On K.O.] Add 1 card from your Life to your hand: Play up to 1 Unit card with a Cost of 8 and \"Alchemy\" in its Traits from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-003.jpg"
+  },
+  "SD4-004": {
+    "id": "SD4-004",
+    "face": {
+      "front": {
+        "name": "Lan Fan",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-004.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Lan Fan [SD4-004]",
+    "type": "Main_Deck",
+    "Number": "SD4-004",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Automail",
+      "Xing"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "[On Play] Give your Leader or up to 1 of your Units with the \"Alchemist\" Trait +1000 Power until the end of your Opponent's next turn. Then, if you placed a card from your hand in your Drop by your skill this turn, give this card Blocker until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-004.jpg"
+  },
+  "SD4-005": {
+    "id": "SD4-005",
+    "face": {
+      "front": {
+        "name": "Winry Rockbell",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-005.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Winry Rockbell [SD4-005]",
+    "type": "Main_Deck",
+    "Number": "SD4-005",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Automail"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Once per Turn",
+      "Blocker",
+      "Clash"
+    ],
+    "Effect": "Blocker\nClash [Opponent's Attack] Once Per Turn You may place 1 card from your hand in your Drop: If you have 3 or more Action cards in your Drop, give your Leader or up to 1 of your Units +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-005.jpg"
+  },
+  "SD4-006": {
+    "id": "SD4-006",
+    "face": {
+      "front": {
+        "name": "Izumi Curtis",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-006.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Izumi Curtis [SD4-006]",
+    "type": "Main_Deck",
+    "Number": "SD4-006",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Alchemist"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] If your Leader is \"Edward Elric\" and you place 1 card with the \"Alchemy\" Trait from your hand in your Drop: Play up to 1 Unit card with a Cost of 2 or less and the \"Alchemist\" or \"Automail\" Trait from your hand.\n[Your Turn] Once per Turn When you place a card from your hand in your Drop by your skill, give up to 1 of your Units with the \"Alchemist\" Trait +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-006.jpg"
+  },
+  "SD4-007": {
+    "id": "SD4-007",
+    "face": {
+      "front": {
+        "name": "Ling Yao",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-007.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Ling Yao [SD4-007]",
+    "type": "Main_Deck",
+    "Number": "SD4-007",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Xing"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, K.O. up to 1 of your Opponent's Units with a Cost of 1 or less.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-007.jpg"
+  },
+  "SD4-008": {
+    "id": "SD4-008",
+    "face": {
+      "front": {
+        "name": "May Chang",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-008.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "May Chang [SD4-008]",
+    "type": "Main_Deck",
+    "Number": "SD4-008",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Alchemist",
+      "Xing"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Main] Once per Turn If your Leader is \"Edward Elric\" and you Rest this card: Choose up to 1 of your other Units with the \"Alchemist\" Trait; it cannot be K.O.'d by battle until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-008.jpg"
+  },
+  "SD4-009": {
+    "id": "SD4-009",
+    "face": {
+      "front": {
+        "name": "Sig Curtis",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-009.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Sig Curtis [SD4-009]",
+    "type": "Main_Deck",
+    "Number": "SD4-009",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On K.O.] Add up to 1 \"Izumi Curtis\" from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-009.jpg"
+  },
+  "SD4-010": {
+    "id": "SD4-010",
+    "face": {
+      "front": {
+        "name": "Van Hohenheim",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-010.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Van Hohenheim [SD4-010]",
+    "type": "Main_Deck",
+    "Number": "SD4-010",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Alchemist",
+      "Alchemy"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[On Play] If your Leader is \"Edward Elric\" and you placed a card from your hand in your Drop by your skill this turn: Add up to 1 Unit card with the \"Alchemy\" Trait and up to 1 Action card with the \"Alchemy\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-010.jpg"
+  },
+  "SD4-011": {
+    "id": "SD4-011",
+    "face": {
+      "front": {
+        "name": "Edward Elric",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-011.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Edward Elric [SD4-011]",
+    "type": "Main_Deck",
+    "Number": "SD4-011",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Alchemist",
+      "Automail"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O."
+    ],
+    "Effect": "[On Attack] If you placed a card from your hand in your Drop by your skill this turn, give this card +1000 Power for the battle and +1 Cost for the turn.\n[On K.O.] Add up to 1 Action card with the \"Alchemy\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-011.jpg"
+  },
+  "SD4-012": {
+    "id": "SD4-012",
+    "face": {
+      "front": {
+        "name": "Scar",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-012.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Scar [SD4-012]",
+    "type": "Main_Deck",
+    "Number": "SD4-012",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Alchemist",
+      "Ishvalan"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] If you placed a card from your hand in your Drop by your skill this turn, choose up to 1 of your Opponent's Units with a Cost of 3 or more; it cannot Attack or activate its skills until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-012.jpg"
+  },
+  "SD4-013": {
+    "id": "SD4-013",
+    "face": {
+      "front": {
+        "name": "Ling Yao",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-013.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ling Yao [SD4-013]",
+    "type": "Main_Deck",
+    "Number": "SD4-013",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Xing"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n[Your Turn] Give this card +1000 Power for every 3 cards with the \"Alchemy\" Trait in your Drop.\n[On Play] If your Leader is \"Edward Elric\", place up to 3 cards with the \"Alchemy\" Trait from your Deck in your Drop and, if you placed 3 cards, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-013.jpg"
+  },
+  "SD4-014": {
+    "id": "SD4-014",
+    "face": {
+      "front": {
+        "name": "Edward Elric",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-014.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Edward Elric [SD4-014]",
+    "type": "Main_Deck",
+    "Number": "SD4-014",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Alchemist",
+      "Automail"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[On Play] Add up to 1 card from your Life to your hand. Then, give this card +1 Cost for the turn.\n[On Attack] If you placed a card from your hand in your Drop by your skill this turn, give this card and your Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-014.jpg"
+  },
+  "SD4-015": {
+    "id": "SD4-015",
+    "face": {
+      "front": {
+        "name": "Alphonse Elric",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-015.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Alphonse Elric [SD4-015]",
+    "type": "Main_Deck",
+    "Number": "SD4-015",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Alchemy",
+      "Elric"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Overcharge",
+      "Barrier",
+      "Charge",
+      "Clash",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] Draw 1 card; Overcharge 1.\nClash [Opponent's Play] (1) Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-015.jpg"
+  },
+  "SD4-016": {
+    "id": "SD4-016",
+    "face": {
+      "front": {
+        "name": "Breaking a Taboo",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Breaking a Taboo [SD4-016]",
+    "type": "Main_Deck",
+    "Number": "SD4-016",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Alchemy"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Place 1 of your Units with a Cost of 4 and the \"Alchemist\" Trait in your Drop and play up to 1 Unit with a Cost of 8 and the \"Alchemy\" Trait from your hand.\nClash [Opponent's Attack] Place 1 card from your hand in your Drop and shuffle this card from your Drop in your Deck: Give your Leader or up to 1 of your Units with the \"Alchemist\" Trait +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-016.jpg"
+  },
+  "SD4-017": {
+    "id": "SD4-017",
+    "face": {
+      "front": {
+        "name": "State Alchemists",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "State Alchemists [SD4-017]",
+    "type": "Main_Deck",
+    "Number": "SD4-017",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "State Military",
+      "Alchemist"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Look at the top 7 cards of your Deck; reveal up to 1 Unit card with the \"Alchemist\" Trait and add it to your hand; reveal up to 1 Action card with the \"Alchemy\" Trait and place it in your Drop. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-017.jpg"
+  },
+  "SD4-018": {
+    "id": "SD4-018",
+    "face": {
+      "front": {
+        "name": "Automail Arm",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Automail Arm [SD4-018]",
+    "type": "Main_Deck",
+    "Number": "SD4-018",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Alchemy",
+      "Automail"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "[Activate: Battle] Give your Leader or up to 1 of your Units +3000 Power for the battle. Then, if that card has \"Automail\" or \"Elric\" in its Traits, draw 1 card and place 1 card from your hand in your Drop.\nClash [Opponent's Attack] Place 1 card from your hand in your Drop and shuffle this card from your Drop in your Deck: Give your Leader or up to 1 of your Units with the \"Alchemist\" Trait +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-018.jpg"
+  },
+  "SD4-019": {
+    "id": "SD4-019",
+    "face": {
+      "front": {
+        "name": "Philosopher's Stone",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-019.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Philosopher's Stone [SD4-019]",
+    "type": "Main_Deck",
+    "Number": "SD4-019",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Alchemy"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Add 1 card with the \"Alchemy\" Trait from your Drop to your hand. Then, place 1 card from your hand in your Drop.\nClash [Opponent's Attack] Place 1 card from your hand in your Drop and shuffle this card from your Drop in your Deck: Give your Leader or up to 1 of your Units with the \"Alchemist\" Trait +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-019.jpg"
+  },
+  "SD4-020": {
+    "id": "SD4-020",
+    "face": {
+      "front": {
+        "name": "Edward Elric",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD4-020.jpg",
+        "isHorizontal": false,
+        "power": 2000,
+        "sjCost": 1
+      }
+    },
+    "name": "Edward Elric [SD4-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD4-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "SD4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 2000,
+    "Counter": null,
+    "Traits": [
+      "Alchemist",
+      "Automail"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Add 1 card from your Life to your hand: Add up to 1 Action card with the \"Alchemy\" Trait from your Drop to your hand.\n[Activate: Main] Limit 1 Return this card to your JUMP Deck: Play up to 1 \"Edward Elric\" with a Cost of 4 from your hand Rested.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD4-020.jpg"
+  },
+  "SD10-001": {
+    "id": "SD10-001",
+    "face": {
+      "front": {
+        "name": "Denji",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Denji [SD10-001]",
+    "type": "Leader",
+    "Number": "SD10-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Hybrid",
+      "Chainsaw Devil"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Threshold",
+      "Barrier"
+    ],
+    "Effect": "[On Attack] Draw 1 card.\n[Activate: Main] <Once per turn> You may add 1 card from your Life to your hand: Choose up to 1 of your Opponent’s Units, ignoring Barrier, and Rest it.\nThreshold 3 [Activate: Battle] <Once per Turn> If this card is in a battle with an Opponent’s Unit, give this card +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-001.jpg"
+  },
+  "SD10-002": {
+    "id": "SD10-002",
+    "face": {
+      "front": {
+        "name": "Chainsaw Man",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Chainsaw Man [SD10-002]",
+    "type": "Main_Deck",
+    "Number": "SD10-002",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Devil",
+      "Chainsaw Man"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Break",
+      "Charge",
+      "Deflect"
+    ],
+    "Effect": "Deflect Break\n[On Play] Your Opponent's Rested Units can't switch to Active mode during the next Charge Phase.\n[Your Turn] Limit 1 If this card K.O.s an Opponent's Unit by battle: Remove that card from the game.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg"
+  },
+  "SD10-003": {
+    "id": "SD10-003",
+    "face": {
+      "front": {
+        "name": "Denji",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-003.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Denji [SD10-003]",
+    "type": "Main_Deck",
+    "Number": "SD10-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Hybrid",
+      "Chainsaw Man"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units with a Cost of 3 or less and K.O. it. Then, give your \"Denji\" Leader +1000 Power for the turn.\n[End of your Turn] If your Opponent has only Rested Units or no Units in play, switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-003.jpg"
+  },
+  "SD10-004": {
+    "id": "SD10-004",
+    "face": {
+      "front": {
+        "name": "Power",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Power [SD10-004]",
+    "type": "Main_Deck",
+    "Number": "SD10-004",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Fiend",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Overcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units and it can't switch to Active mode during your Opponent's next turn.\n[On Attack] Limit 1 If your Opponent has 2 or more Rested Units or no Units in play, <Overcharge> 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg"
+  },
+  "SD10-005": {
+    "id": "SD10-005",
+    "face": {
+      "front": {
+        "name": "Denji",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-005.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Denji [SD10-005]",
+    "type": "Main_Deck",
+    "Number": "SD10-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Public Safety Bureau",
+      "Chainsaw Man"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] If you added a card from your Life to your hand this turn, give this card +2000 Power until the end of your Opponent's next turn.\n[On K.O.] Limit 1 You may rest your Opponent's Leader.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-005.jpg"
+  },
+  "SD10-006": {
+    "id": "SD10-006",
+    "face": {
+      "front": {
+        "name": "Himeno",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-006.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Himeno [SD10-006]",
+    "type": "Main_Deck",
+    "Number": "SD10-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Overcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] You may <Overcharge 1> and, if you do, you can't <Overcharge> for the turn.\n[Activate: Main] Limit 1 Add up to 1 card from your Life to your hand. Then, Rest this card and give your \"Denji\" Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-006.jpg"
+  },
+  "SD10-007": {
+    "id": "SD10-007",
+    "face": {
+      "front": {
+        "name": "Hayakawa Aki",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hayakawa Aki [SD10-007]",
+    "type": "Main_Deck",
+    "Number": "SD10-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[On Play] Choose up to 2 of your Opponent's Units with a Cost of 2 or less, Rest them and negate their skills until the end of your Opponent's next turn.\n[Your Turn] Limit 1 When this card becomes Rested: Give all of your Opponent's Rested Units -1000 Power for as long as they are Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg"
+  },
+  "SD10-008": {
+    "id": "SD10-008",
+    "face": {
+      "front": {
+        "name": "Power",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Power [SD10-008]",
+    "type": "Main_Deck",
+    "Number": "SD10-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Fiend",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Your Turn",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Attack] If this card is in a battle with an Opponent's Unit and your Opponent has 2 or more Rested Units in play, draw 1 card.\n[Your Turn] Limit 1 When this card becomes Rested: Rest up to 1 of your Opponent's Units with a Cost of 2 or less.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg"
+  },
+  "SD10-009": {
+    "id": "SD10-009",
+    "face": {
+      "front": {
+        "name": "Kishibe",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-009.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kishibe [SD10-009]",
+    "type": "Main_Deck",
+    "Number": "SD10-009",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "[On Play] Limit 1 Choose up to 1 of your Opponent's Units with 7000 Power or more, ignoring Barrier, Rest it and negate its skills for as long as it is Rested.\n[On Attack] If your Leader is \"Denji\" and this card is in a battle with an Opponent's Unit: This card's Power becomes equal to that Unit's Power for as long as this card is Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-009.jpg"
+  },
+  "SD10-010": {
+    "id": "SD10-010",
+    "face": {
+      "front": {
+        "name": "Makima",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-010.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Makima [SD10-010]",
+    "type": "Main_Deck",
+    "Number": "SD10-010",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "On K.O.",
+      "On Play",
+      "Accelcharge",
+      "Overcharge",
+      "Limit 1",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "[On Play / On K.O.] If your Leader is \"Denji\" or \"Control Devil\", <Accelcharge> 1 and add up to 1 card with \"Public Safety Bureau\" in its Traits from your Drop to your hand.\nClash [Opponent's Play] Limit 1 Place 1 card from your hand in your Drop: <Overcharge> 1 and you can't <Overcharge> for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-010.jpg"
+  },
+  "SD10-011": {
+    "id": "SD10-011",
+    "face": {
+      "front": {
+        "name": "Kobeni's Car",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kobeni's Car [SD10-011]",
+    "type": "Main_Deck",
+    "Number": "SD10-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "1965 Fiat 500"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Opponent's Turn",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "[Opponent's Turn] If your Leader is \"Denji\" and your Leader's <Threshold> skill is active, give this card in your hand -4 Cost.\nClash [Opponent's Attack] Play this card and it becomes the new attack target.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg"
+  },
+  "SD10-012": {
+    "id": "SD10-012",
+    "face": {
+      "front": {
+        "name": "Reze",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-012.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Reze [SD10-012]",
+    "type": "Main_Deck",
+    "Number": "SD10-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Hybrid"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn",
+      "Threshold"
+    ],
+    "Effect": "[On Play] If your Leader's <Threshold> skill is active: Draw 2 cards; place 1 card from your hand in your Drop.\n[Your Turn] <Once per Turn> When this card is Rested by your skill: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-012.jpg"
+  },
+  "SD10-013": {
+    "id": "SD10-013",
+    "face": {
+      "front": {
+        "name": "Higashiyama Kobeni",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-013.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Higashiyama Kobeni [SD10-013]",
+    "type": "Main_Deck",
+    "Number": "SD10-013",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Human",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Limit 1 If your Leader is \"Denji\" and you added a card from your Life to your hand this turn: Rest this card; <Charge> 1 for each of your Opponent's Rested Units.\n[On K.O.] Give your Leader or up to 1 of your Units +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-013.jpg"
+  },
+  "SD10-014": {
+    "id": "SD10-014",
+    "face": {
+      "front": {
+        "name": "Pochita",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-014.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Pochita [SD10-014]",
+    "type": "Main_Deck",
+    "Number": "SD10-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Devil"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Look at the top 3 cards of your Deck; add up to 1 card that includes \"Chainsaw\" in its Traits to your hand and place the rest at the bottom of your Deck in any order.\n[Opponent's Attack] Limit 1 If this card is in a battle: Switch this card to Active mode and give it +2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-014.jpg"
+  },
+  "SD10-015": {
+    "id": "SD10-015",
+    "face": {
+      "front": {
+        "name": "Meowy",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-015.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Meowy [SD10-015]",
+    "type": "Main_Deck",
+    "Number": "SD10-015",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 2000,
+    "Traits": [
+      "Animal"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On K.O."
+    ],
+    "Effect": "[Activate: Main] Rest this card: Give up to 1 of your \"Power\" +2000 Power for the turn.\n[On K.O.] Choose up to 1 of your Opponent's Units and give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-015.jpg"
+  },
+  "SD10-016": {
+    "id": "SD10-016",
+    "face": {
+      "front": {
+        "name": "Kon",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kon [SD10-016]",
+    "type": "Main_Deck",
+    "Number": "SD10-016",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Devil"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Overcharge",
+      "Limit 1",
+      "Barrier",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Opponent has 3 or more Energy in their Overcharge Zone, remove 1 of their Energy.\nClash [Opponent's Attack] (1) Choose your Opponent's Leader or up to 1 of their Units with a Cost of 5 or less, ignoring Barrier; Rest that card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg"
+  },
+  "SD10-017": {
+    "id": "SD10-017",
+    "face": {
+      "front": {
+        "name": "Rev Horizon",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rev Horizon [SD10-017]",
+    "type": "Main_Deck",
+    "Number": "SD10-017",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Devil",
+      "Fiend",
+      "Chainsaw Man"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] (3) You may also rest 3 of your Leader and/or Units instead of paying for this cost: Choose up to 1 of your Opponent's Rested Units with 8000 base Power or less and K.O. it.\nClash [Opponent's Attack] Give your \"Denji\" Leader +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-017.jpg"
+  },
+  "SD10-018": {
+    "id": "SD10-018",
+    "face": {
+      "front": {
+        "name": "Impromptu Breakthrough",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Impromptu Breakthrough [SD10-018]",
+    "type": "Main_Deck",
+    "Number": "SD10-018",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Devil",
+      "Fiend",
+      "Chainsaw Man"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] Give your card that's in a battle +3000 Power for the battle. Then, if there is a Rested Unit with a cost of 4 or more on any field, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-018.jpg"
+  },
+  "SD10-019": {
+    "id": "SD10-019",
+    "face": {
+      "front": {
+        "name": "Denji",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-019.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 1
+      }
+    },
+    "name": "Denji [SD10-019]",
+    "type": "JUMP_Deck",
+    "Number": "SD10-019",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Hybrid",
+      "Chainsaw Man"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Deflect",
+      "Raid"
+    ],
+    "Effect": "Deflect\n[On Play] If your Leader is \"Denji\": Negate all of your Opponent's <Keywords> for the turn.\n[Activate: Main] Raid {1} Remove this card from the game: Play up to 1 \"Chainsaw Man\" from your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-019.jpg"
+  },
+  "SD10-020": {
+    "id": "SD10-020",
+    "face": {
+      "front": {
+        "name": "That nobel prize is mine!!",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-020.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "That nobel prize is mine!! [SD10-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD10-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "SD10",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] Limit 1 When one of your Opponent's Rested Units is K.O.ed, switch your \"Denji\" Leader to Active mode and it can't attack your Opponent's Leader for the turn. Then, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-020.jpg"
+  },
+  "EX1-001": {
+    "id": "EX1-001",
+    "face": {
+      "front": {
+        "name": "Riyo Reaper",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Riyo Reaper [EX1-001]",
+    "type": "Leader",
+    "Number": "EX1-001",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] <Once per Turn> (X) Place 1 card from your hand in your Drop: Play up to 1 Unit card with a Cost equal to X and \"Cleaner\" in its Traits from your Drop.\nThreshold 2 [Activate: Battle] <Once per Turn> If this card is in a battle and you remove 1 SJ Marker: Use up to 1 Unit card with the \"Cleaner\" Trait from your Drop in a combo.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-001.jpg"
+  },
+  "EX1-002": {
+    "id": "EX1-002",
+    "face": {
+      "front": {
+        "name": "Semiu Grier",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Semiu Grier [EX1-002]",
+    "type": "Main_Deck",
+    "Number": "EX1-002",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader has \"Cleaner\" in its Traits, look at 4 cards from the top of your Deck, reveal up to 1 card with \"Cleaner\" in its Traits and add it to your hand. Place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg"
+  },
+  "EX1-003": {
+    "id": "EX1-003",
+    "face": {
+      "front": {
+        "name": "Adderoy Twins",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-003.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Adderoy Twins [EX1-003]",
+    "type": "Main_Deck",
+    "Number": "EX1-003",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If this card was played from your hand: Place 1 card with \"Cleaner\" in its Traits from your hand in your Drop and draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-003.jpg"
+  },
+  "EX1-004": {
+    "id": "EX1-004",
+    "face": {
+      "front": {
+        "name": "Gris Rubion",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-004.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Gris Rubion [EX1-004]",
+    "type": "Main_Deck",
+    "Number": "EX1-004",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Cleaner"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Accelcharge",
+      "Charge",
+      "Unique"
+    ],
+    "Effect": "Unique\n[Activate: Main] Rest this card: <Accelcharge> 1. Then, give up to 1 of your Units +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-004.jpg"
+  },
+  "EX1-005": {
+    "id": "EX1-005",
+    "face": {
+      "front": {
+        "name": "Follo Tunito",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-005.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Follo Tunito [EX1-005]",
+    "type": "Main_Deck",
+    "Number": "EX1-005",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "On Play",
+      "Accelcharge",
+      "Charge",
+      "Raid"
+    ],
+    "Effect": "[On Play] Raid {1} Choose up to 1 of your Opponent's Units and give it -3000 Power for the turn.\n[On Attack / On K.O.] <Accelcharge> 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-005.jpg"
+  },
+  "EX1-006": {
+    "id": "EX1-006",
+    "face": {
+      "front": {
+        "name": "Rudo Surebrec",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-006.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Rudo Surebrec [EX1-006]",
+    "type": "Main_Deck",
+    "Number": "EX1-006",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "On Play",
+      "Accelcharge",
+      "Permanent",
+      "Charge",
+      "Raid"
+    ],
+    "Effect": "<Permanent> Give this card in your Drop -2 Cost.\n[On Play] <Accelcharge> 1 and draw 1 card.\n[On Attack / On K.O.] Raid {2} Choose up to 2 of your Opponent's Units with a combined Power of 4000 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-006.jpg"
+  },
+  "EX1-007": {
+    "id": "EX1-007",
+    "face": {
+      "front": {
+        "name": "Rudo Surebrec",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-007.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Rudo Surebrec [EX1-007]",
+    "type": "Main_Deck",
+    "Number": "EX1-007",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Accelcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] If your Leader has \"Cleaner\" in their Traits; place the top 3 cards of your Deck in your Drop. Then, add up to 1 card, excluding \"Rudo Surebrec\", with \"Cleaner\" or \"Jinki\" in Traits from your Drop to your hand.\n[On Attack] <Accelcharge> 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-007.jpg"
+  },
+  "EX1-008": {
+    "id": "EX1-008",
+    "face": {
+      "front": {
+        "name": "Riyo Reaper",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-008.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Riyo Reaper [EX1-008]",
+    "type": "Main_Deck",
+    "Number": "EX1-008",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Accelcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] <Accelcharge> 1.\n[Activate: Main] Limit 1 Place this card in your Drop: Play up to 1 \"Riyo Reaper\" with a Cost of 8 from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-008.jpg"
+  },
+  "EX1-009": {
+    "id": "EX1-009",
+    "face": {
+      "front": {
+        "name": "Riyo Reaper",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-009.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Riyo Reaper [EX1-009]",
+    "type": "Main_Deck",
+    "Number": "EX1-009",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Your Turn",
+      "Raid"
+    ],
+    "Effect": "[Your Turn] Give this card +1000 Power for every 2 of your SJ Markers.\n[Activate: Main] Raid {1} Give this card Unblockable for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-009.jpg"
+  },
+  "EX1-010": {
+    "id": "EX1-010",
+    "face": {
+      "front": {
+        "name": "Riyo Reaper",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-010.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Riyo Reaper [EX1-010]",
+    "type": "Main_Deck",
+    "Number": "EX1-010",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash",
+      "Raid",
+      "Unique"
+    ],
+    "Effect": "Unique\n[On Play] Add up to 1 card with \"Cleaner\" in its Traits from your Drop to your hand. Then, play up to 1 Unit with a Cost of 2 or less from your hand.\nClash [Opponent's Attack] Raid {1} Choose all of your Opponent's Units and give them -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-010.jpg"
+  },
+  "EX1-011": {
+    "id": "EX1-011",
+    "face": {
+      "front": {
+        "name": "Amo Empool",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-011.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Amo Empool [EX1-011]",
+    "type": "Main_Deck",
+    "Number": "EX1-011",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Limit 1",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n<Permanent> If you have 3 or more SJ Markers in your JUMP Zone: Give this card in your Drop -3 Cost.\n[On Play] Limit 1 Remove 1 SJ Marker: Play up to 1 Unit with a Cost of 3 or less and \"Cleaner\" in its Traits from your Drop, Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-011.jpg"
+  },
+  "EX1-012": {
+    "id": "EX1-012",
+    "face": {
+      "front": {
+        "name": "Enjin",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-012.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Enjin [EX1-012]",
+    "type": "Main_Deck",
+    "Number": "EX1-012",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Limit 1"
+    ],
+    "Effect": "<Permanent> If you have 3 or more SJ Markers in your JUMP Zone: Give this card in your Drop -1 Cost.\n[On Play] Limit 1 Draw 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-012.jpg"
+  },
+  "EX1-013": {
+    "id": "EX1-013",
+    "face": {
+      "front": {
+        "name": "August Stiltza",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-013.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "August Stiltza [EX1-013]",
+    "type": "Main_Deck",
+    "Number": "EX1-013",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Cleaner"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Battle] Limit 1 When this card is used in a combo from your Drop: Give your card that's in a battle +1000 Power for the battle. Then, place this card at the bottom of your Deck at the end of the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-013.jpg"
+  },
+  "EX1-014": {
+    "id": "EX1-014",
+    "face": {
+      "front": {
+        "name": "Zanka Nijiku",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-014.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Zanka Nijiku [EX1-014]",
+    "type": "Main_Deck",
+    "Number": "EX1-014",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "Permanent",
+      "Limit 1",
+      "Raid"
+    ],
+    "Effect": "<Permanent> Give this card in your Drop -2 Cost.\n[On Attack] Choose up to 1 of your Opponent's Units with 3000 Power or less and K.O. it.\n[On K.O.] Limit 1 Raid {2} If you have 3 or more SJ Markers in your JUMP Zone: Play this card from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-014.jpg"
+  },
+  "EX1-015": {
+    "id": "EX1-015",
+    "face": {
+      "front": {
+        "name": "Eishia Stiltza",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-015.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Eishia Stiltza [EX1-015]",
+    "type": "Main_Deck",
+    "Number": "EX1-015",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Cleaner"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, if your Leader has \"Cleaner\" in their Traits, you may place 3 cards from the top of your Deck in your Drop and draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-015.jpg"
+  },
+  "EX1-016": {
+    "id": "EX1-016",
+    "face": {
+      "front": {
+        "name": "The Ripper",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Ripper [EX1-016]",
+    "type": "Main_Deck",
+    "Number": "EX1-016",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Jinki"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] Give your card that's in a battle +1000 Power for each SJ Marker you have in your JUMP Zone.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-016.jpg"
+  },
+  "EX1-017": {
+    "id": "EX1-017",
+    "face": {
+      "front": {
+        "name": "Scissor Dance",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Scissor Dance [EX1-017]",
+    "type": "Main_Deck",
+    "Number": "EX1-017",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Giver",
+      "Jinki"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Remove 1 SJ Marker: Give all Unit cards with the \"Cleaner\" Trait in your Drop -1 Cost for the turn.\nClash [Opponent's Attack] (1) Give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-017.jpg"
+  },
+  "EX1-018": {
+    "id": "EX1-018",
+    "face": {
+      "front": {
+        "name": "Last Resort",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Last Resort [EX1-018]",
+    "type": "Main_Deck",
+    "Number": "EX1-018",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Cleaner"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If you have 3 or more SJ Markers in your JUMP Zone: Choose up to 1 of your Opponent's Units, ignoring Barrier, and its Power becomes 0 for the turn.\n[Activate: Main] Remove 1 SJ Marker: Remove this card in your Drop from the game; draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-018.jpg"
+  },
+  "EX1-019": {
+    "id": "EX1-019",
+    "face": {
+      "front": {
+        "name": "The Abyss",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-019.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "The Abyss [EX1-019]",
+    "type": "JUMP_Deck",
+    "Number": "EX1-019",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] <Once per Turn> When you play a Unit card from your Drop: Draw 1 card.\n[End of Turn] If you have no SJ Markers in your JUMP Zone: Remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-019.jpg"
+  },
+  "EX1-020": {
+    "id": "EX1-020",
+    "face": {
+      "front": {
+        "name": "Cleaners Headquarters",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-020.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Cleaners Headquarters [EX1-020]",
+    "type": "JUMP_Deck",
+    "Number": "EX1-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Cleaner\" Trait, give all of your Opponent's Units -1000 Power until the end of your Opponent's next turn.\nClash [Opponent's Attack] (1) If you have 3 or more SJ Markers in your JUMP Zone and you return this card to your JUMP Deck: Negate the attack, then shuffle up to 5 Unit cards with \"Cleaner\" in their Traits from your Drop into your Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-020.jpg"
+  },
+  "EX1-021": {
+    "id": "EX1-021",
+    "face": {
+      "front": {
+        "name": "Amo Empool",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-021.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Amo Empool [EX1-021]",
+    "type": "JUMP_Deck",
+    "Number": "EX1-021",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "EX1",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Overcharge",
+      "Permanent",
+      "Blocker",
+      "Charge"
+    ],
+    "Effect": "<Permanent> If this card would be removed from the field by your Opponent: Shuffle 3 cards with \"Cleaner\" in their Traits from your Drop into your Deck and return this card to your JUMP Deck instead.\n[On Play] Remove 1 SJ Marker: <Overcharge> 2 and you can't <Overcharge> for the turn.\n[Opponent's Turn] If you have 3 or more SJ Markers in your JUMP Zone: Give this card +1000 Power and Blocker.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-021.jpg"
+  },
+  "EX2-001": {
+    "id": "EX2-001",
+    "face": {
+      "front": {
+        "name": "Lio Fotia",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Lio Fotia [EX2-001]",
+    "type": "Leader",
+    "Number": "EX2-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "End of your Turn",
+      "Opponent's Turn",
+      "Once per Turn",
+      "Your Turn",
+      "Overcharge",
+      "Threshold",
+      "Charge"
+    ],
+    "Effect": "[End of your Turn] Switch up to 1 of your Rested Units with the “Burnish” Trait, which attacked this turn, to Active mode.\n[Opponent's Turn] Once per Turn When one of your Units is Rested by a skill, give that Unit +1000 Power for the turn and Overcharge 1.\nThreshold 1 [Activate: Main] Once per Turn Rest 1 of your Units with the “Burnish” or “Burning Rescue” Trait: Choose up to 1 of your other Rested Units with the “Burnish” Trait and switch it to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-001.jpg"
+  },
+  "EX2-002": {
+    "id": "EX2-002",
+    "face": {
+      "front": {
+        "name": "Lio Fotia",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-002.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Lio Fotia [EX2-002]",
+    "type": "Main_Deck",
+    "Number": "EX2-002",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Limit 1",
+      "Barrier",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] Limit 1 Switch up to 1 of your Units with the “Burning Rescue” Trait to Active mode.\n[Opponent’s Turn] Once per Turn When this card is Rested by a skill, draw 1 card and give it Barrier for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-002.jpg"
+  },
+  "EX2-003": {
+    "id": "EX2-003",
+    "face": {
+      "front": {
+        "name": "Galo Thymos",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-003.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Galo Thymos [EX2-003]",
+    "type": "Main_Deck",
+    "Number": "EX2-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "[On Play] Rest your Leader or up to 1 of your Units with the “Burnish” Trait: Choose up to 1 of your Opponent’s Units, ignoring Barrier, and it cannot be Rested until the end of your Opponent’s next turn.\n[Your Turn] Limit 1 When this card is Rested by your skill: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-003.jpg"
+  },
+  "EX2-004": {
+    "id": "EX2-004",
+    "face": {
+      "front": {
+        "name": "Lio Fotia",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-004.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Lio Fotia [EX2-004]",
+    "type": "Main_Deck",
+    "Number": "EX2-004",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Double Damage",
+      "On Attack",
+      "Overcharge",
+      "Charge",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Attack] Once per Turn If this card was switched to Active mode by your skill this turn, give it Double Damage for the battle.\n[Activate: Main] If this card was played this turn: Overcharge 1 for each of your Rested Units with the “Burning Rescue” Trait and you can’t Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-004.jpg"
+  },
+  "EX2-005": {
+    "id": "EX2-005",
+    "face": {
+      "front": {
+        "name": "Meis",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-005.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Meis [EX2-005]",
+    "type": "Main_Deck",
+    "Number": "EX2-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill: Look at the top 5 cards of your Deck; reveal up to 1 “Burning Rescue” card and add it to your hand. Then, shuffle your Deck and place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-005.jpg"
+  },
+  "EX2-006": {
+    "id": "EX2-006",
+    "face": {
+      "front": {
+        "name": "Gueira",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-006.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Gueira [EX2-006]",
+    "type": "Main_Deck",
+    "Number": "EX2-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Block",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Block] Once per Turn If your Leader is “Lio Fotia”, give this card +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-006.jpg"
+  },
+  "EX2-007": {
+    "id": "EX2-007",
+    "face": {
+      "front": {
+        "name": "Aina Ardebit",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-007.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Aina Ardebit [EX2-007]",
+    "type": "Main_Deck",
+    "Number": "EX2-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill and you have a Rested Unit with the “Burnish” Trait: Choose up to 1 of your Opponent’s Units and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-007.jpg"
+  },
+  "EX2-008": {
+    "id": "EX2-008",
+    "face": {
+      "front": {
+        "name": "Heris Ardebit",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-008.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Heris Ardebit [EX2-008]",
+    "type": "Main_Deck",
+    "Number": "EX2-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill and you have a Rested Unit with the “Burnish” Trait: Add up to 1 Unit card with “Burnish” in its Traits from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-008.jpg"
+  },
+  "EX2-009": {
+    "id": "EX2-009",
+    "face": {
+      "front": {
+        "name": "Thyma",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-009.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Thyma [EX2-009]",
+    "type": "Main_Deck",
+    "Number": "EX2-009",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Burnish"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play / On K.O.] If your Leader is “Lio Fotia”, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-009.jpg"
+  },
+  "EX2-010": {
+    "id": "EX2-010",
+    "face": {
+      "front": {
+        "name": "Remi Puguna",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-010.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Remi Puguna [EX2-010]",
+    "type": "Main_Deck",
+    "Number": "EX2-010",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "On Play",
+      "Overcharge",
+      "Blocker",
+      "Charge"
+    ],
+    "Effect": "Blocker\n[Opponent’s Turn] If you have 1 or more Overcharged Energy, give this card +1000 Power.\n[On Play] Add up to 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-010.jpg"
+  },
+  "EX2-011": {
+    "id": "EX2-011",
+    "face": {
+      "front": {
+        "name": "Ignis Ex",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-011.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Ignis Ex [EX2-011]",
+    "type": "Main_Deck",
+    "Number": "EX2-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Attack",
+      "Clash"
+    ],
+    "Effect": "[On Attack] If your Leader is “Lio Fotia”, switch this card to Active mode and it can’t attack for the turn.\nClash [Activate: Battle] (1) Rest this card: Give your Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-011.jpg"
+  },
+  "EX2-012": {
+    "id": "EX2-012",
+    "face": {
+      "front": {
+        "name": "Varis Truss",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-012.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Varis Truss [EX2-012]",
+    "type": "Main_Deck",
+    "Number": "EX2-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Your Turn",
+      "Overcharge",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent’s Play] If your Leader is “Lio Fotia”, you may Rest this card: Overcharge 1.\n[End of your Turn] Add 1 card from your Life to your hand: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-012.jpg"
+  },
+  "EX2-013": {
+    "id": "EX2-013",
+    "face": {
+      "front": {
+        "name": "Lucia Fex",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-013.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Lucia Fex [EX2-013]",
+    "type": "Main_Deck",
+    "Number": "EX2-013",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Your Turn",
+      "Barrier",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent’s Play] If your Leader is “Lio Fotia”, you may Rest this card: Give 1 of your Units with the “Burnish” Trait Barrier for the turn.\n[End of your Turn] Add 1 card from your Life to your hand: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-013.jpg"
+  },
+  "EX2-014": {
+    "id": "EX2-014",
+    "face": {
+      "front": {
+        "name": "Vinny",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-014.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Vinny [EX2-014]",
+    "type": "Main_Deck",
+    "Number": "EX2-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 0,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Blocker",
+      "Clash"
+    ],
+    "Effect": "Blocker\nClash [On K.O.] (1) If this card was Rested by a skill this turn, choose up to 1 of your Units with the “Burnish” or “Burning Rescue” Trait and give it +1000 Power until the end of your next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-014.jpg"
+  },
+  "EX2-015": {
+    "id": "EX2-015",
+    "face": {
+      "front": {
+        "name": "Deus Prometh",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-015.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Deus Prometh [EX2-015]",
+    "type": "Main_Deck",
+    "Number": "EX2-015",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "Permanent",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Permanent Limit 1 (1) Rest 1 of your Units with the “Burnish” Trait: Play this card from your hand.\nClash [Opponent’s Attack] (1) Rest this card: Give your Leader or up to 1 of your Units with the “Burnish” Trait +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-015.jpg"
+  },
+  "EX2-016": {
+    "id": "EX2-016",
+    "face": {
+      "front": {
+        "name": "Biar Colossus",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-016.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Biar Colossus [EX2-016]",
+    "type": "Main_Deck",
+    "Number": "EX2-016",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "Permanent",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Permanent Limit 1 (1) Rest 1 of your Units with the “Burnish” Trait: Play this card from your hand.\nClash [Opponent’s Attack] (1) Rest this card: Draw 2 cards; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-016.jpg"
+  },
+  "EX2-017": {
+    "id": "EX2-017",
+    "face": {
+      "front": {
+        "name": "Galo Thymos",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-017.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Galo Thymos [EX2-017]",
+    "type": "Main_Deck",
+    "Number": "EX2-017",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "End of your Turn",
+      "Once per Turn",
+      "Your Turn",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[Activate: Battle] Once per Turn (1) Rest this card: Give up to 1 of your “Lio Fotia” +2000 Power for the battle.\n[End of your Turn] If your Unit with the “Burnish” Trait is switched to Active mode by your skill and you place 1 card from your hand in your Drop: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-017.jpg"
+  },
+  "EX2-018": {
+    "id": "EX2-018",
+    "face": {
+      "front": {
+        "name": "Mad Burnish",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mad Burnish [EX2-018]",
+    "type": "Main_Deck",
+    "Number": "EX2-018",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Give 1 of your Units with the “Burnish” Trait +4000 Power for the battle. Then, if that Unit is Rested, switch it to Active mode at the end of the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-018.jpg"
+  },
+  "EX2-019": {
+    "id": "EX2-019",
+    "face": {
+      "front": {
+        "name": "Unkempt Combustion",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-019.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Unkempt Combustion [EX2-019]",
+    "type": "Main_Deck",
+    "Number": "EX2-019",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest 1 of your Units with the “Burning Rescue” Trait: Look at the top 3 cards of your Deck; add up to 1 Unit card with “Burnish” in its Traits to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-019.jpg"
+  },
+  "EX2-020": {
+    "id": "EX2-020",
+    "face": {
+      "front": {
+        "name": "Lio Fotia",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-020.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 3
+      }
+    },
+    "name": "Lio Fotia [EX2-020]",
+    "type": "JUMP_Deck",
+    "Number": "EX2-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[Activate: Main] Once per Turn Switch up to 1 of your Rested Units with the “Burning Rescue” Trait to Active mode. Then, give this card +2000 Power for the turn.\n[End of Opponent’s Turn] Return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-020.jpg"
+  },
+  "EX2-021": {
+    "id": "EX2-021",
+    "face": {
+      "front": {
+        "name": "Ignition",
+        "type": "JUMP ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-021.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Ignition [EX2-021]",
+    "type": "JUMP_Deck",
+    "Number": "EX2-021",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "EX2",
+    "Rarity": "R",
+    "Cost": 0,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Overcharge",
+      "Limit 1",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Limit 1 (1) Remove this card from the game: Give your Leader or up to 1 of your Units +3000 Power for the battle. Then, if you have 1 or more Overcharged Energy, switch up to 1 of your Rested Units with the “Burnish” or “Burning Rescue” Trait to Active mode.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-021.jpg"
+  },
+  "EX3-001": {
+    "id": "EX3-001",
+    "face": {
+      "front": {
+        "name": "Hajime Ichinose",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hajime Ichinose [EX3-001]",
+    "type": "Leader",
+    "Number": "EX3-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Your Turn",
+      "Threshold",
+      "Break"
+    ],
+    "Effect": "[On Attack] Draw 1 card. Then, place 1 card from your hand at the bottom of your Deck.\n[Your Turn] Once per Turn (1) When one of your Units with Break attacks, give that Unit +1000 Power for the battle.\nThreshold 2 [Activate: Main] Once per Turn Remove 2 SJ Markers: Place 1 of your Units with a Cost of 2 or more in your Drop; switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-001.jpg"
+  },
+  "EX3-002": {
+    "id": "EX3-002",
+    "face": {
+      "front": {
+        "name": "Hajime Ichinose",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-002.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Hajime Ichinose [EX3-002]",
+    "type": "Main_Deck",
+    "Number": "EX3-002",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Attack",
+      "On Play",
+      "Break",
+      "Raid"
+    ],
+    "Effect": "Break\n[Opponent's Turn] Once per Turn If this Rested card would be removed from the field by an Opponent's skill or K.O.'d, you may Raid {1} and place 1 of your other Units in your Drop instead.\n[On Play / On Attack] Once per Turn Play up to 1 Unit card with a Cost of 2 or less from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-002.jpg"
+  },
+  "EX3-003": {
+    "id": "EX3-003",
+    "face": {
+      "front": {
+        "name": "Sugane Tachibana",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-003.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Sugane Tachibana [EX3-003]",
+    "type": "Main_Deck",
+    "Number": "EX3-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Accelcharge",
+      "Break",
+      "Charge"
+    ],
+    "Effect": "Break\n[Your Turn] When this card is placed in your Drop by your skill: Draw 2 cards.\n[On Play] Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-003.jpg"
+  },
+  "EX3-004": {
+    "id": "EX3-004",
+    "face": {
+      "front": {
+        "name": "Joe Hibiki",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-004.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Joe Hibiki [EX3-004]",
+    "type": "Main_Deck",
+    "Number": "EX3-004",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Your Turn",
+      "Accelcharge",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[Your Turn] When this card is placed in your Drop by your skill: Place 1 card from your hand in your Drop and play this card from your Drop. Then, you can't play \"Joe Hibiki\" for the turn.\n[On Attack] Limit 1 Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-004.jpg"
+  },
+  "EX3-005": {
+    "id": "EX3-005",
+    "face": {
+      "front": {
+        "name": "Hajime Ichinose",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-005.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hajime Ichinose [EX3-005]",
+    "type": "Main_Deck",
+    "Number": "EX3-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Accelcharge",
+      "Limit 1",
+      "Break",
+      "Charge",
+      "Raid"
+    ],
+    "Effect": "Break\n[On Attack] Draw 1 card and Accelcharge 1.\n[Activate: Main] Limit 1 Raid {1} If your Leader has the \"Gatchaman\" Trait: Place this card in your Drop and play up to 1 \"Hajime Ichinose\" with 7000 Power from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-005.jpg"
+  },
+  "EX3-006": {
+    "id": "EX3-006",
+    "face": {
+      "front": {
+        "name": "Utsutsu",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-006.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Utsutsu [EX3-006]",
+    "type": "Main_Deck",
+    "Number": "EX3-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] Remove 1 SJ Marker: Give your Leader or up to 1 of your Units with the \"Gatchaman\" Trait +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-006.jpg"
+  },
+  "EX3-007": {
+    "id": "EX3-007",
+    "face": {
+      "front": {
+        "name": "Rui Ninomiya",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-007.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Rui Ninomiya [EX3-007]",
+    "type": "Main_Deck",
+    "Number": "EX3-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Gatchaman",
+      "GALAX"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Accelcharge",
+      "Charge"
+    ],
+    "Effect": "[Your Turn] When this card is placed in your Drop by your skill: Accelcharge 2.\n[On Play] Remove 1 SJ Marker: Add up to 1 Action card with the \"GALAX\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-007.jpg"
+  },
+  "EX3-008": {
+    "id": "EX3-008",
+    "face": {
+      "front": {
+        "name": "O.D.",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-008.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "O.D. [EX3-008]",
+    "type": "Main_Deck",
+    "Number": "EX3-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Gatchaman",
+      "Alien"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Break",
+      "Raid"
+    ],
+    "Effect": "Break\n[On Play] Limit 1 Raid {1} Play up to 1 Unit with a Cost of 2 and the \"Gatchaman\" Trait from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-008.jpg"
+  },
+  "EX3-009": {
+    "id": "EX3-009",
+    "face": {
+      "front": {
+        "name": "Paiman",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-009.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Paiman [EX3-009]",
+    "type": "Main_Deck",
+    "Number": "EX3-009",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Gatchaman",
+      "CAGE"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] When this card is placed in your Drop by your skill: Draw 1 card.\n[On Play] Rest this card: Play up to 1 Unit card with a Cost of 1 and the \"Gatchaman\" Trait from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-009.jpg"
+  },
+  "EX3-010": {
+    "id": "EX3-010",
+    "face": {
+      "front": {
+        "name": "Tsubasa Misudachi",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-010.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Tsubasa Misudachi [EX3-010]",
+    "type": "Main_Deck",
+    "Number": "EX3-010",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Your Turn",
+      "Break"
+    ],
+    "Effect": "Break\n[Your Turn] When this card is placed in your Drop by your skill: Look at the top 3 cards of your Deck; add up to 1 Unit card with the \"NOTE\" Trait to your hand. Then, place the rest at the bottom of your Deck.\n[On Attack] Remove 1 SJ Marker: Choose up to 1 of your Opponent's Units with a Cost of 4 or less and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-010.jpg"
+  },
+  "EX3-011": {
+    "id": "EX3-011",
+    "face": {
+      "front": {
+        "name": "Hajime Ichinose",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-011.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Hajime Ichinose [EX3-011]",
+    "type": "Main_Deck",
+    "Number": "EX3-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Permanent",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "Permanent Give this Rested card +1 Cost.\n[Activate: Main] Limit 1 Remove 1 SJ Marker and Rest this card: Choose up to 1 of your Opponent's Rested Units, ignoring Barrier, and it cannot attack until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-011.jpg"
+  },
+  "EX3-012": {
+    "id": "EX3-012",
+    "face": {
+      "front": {
+        "name": "Sugane Tachibana",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-012.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Sugane Tachibana [EX3-012]",
+    "type": "Main_Deck",
+    "Number": "EX3-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Accelcharge",
+      "Break",
+      "Charge"
+    ],
+    "Effect": "Break\n[Your Turn] When this card is placed in your Drop by your skill: Give your Leader +1000 Power for the turn.\n[On Play] Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-012.jpg"
+  },
+  "EX3-013": {
+    "id": "EX3-013",
+    "face": {
+      "front": {
+        "name": "Joe Hibiki",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-013.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Joe Hibiki [EX3-013]",
+    "type": "Main_Deck",
+    "Number": "EX3-013",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Accelcharge",
+      "Limit 1",
+      "Charge",
+      "Deflect",
+      "Raid"
+    ],
+    "Effect": "Deflect\n[On Play] If your Leader has the \"Gatchaman\" Trait, Accelcharge 1 and give this card +1000 Power for the turn.\n[Activate: Main] Limit 1 Raid {1} Place this card in your Drop: Play up to 1 \"Joe Hibiki\" with a Cost of 3 from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-013.jpg"
+  },
+  "EX3-014": {
+    "id": "EX3-014",
+    "face": {
+      "front": {
+        "name": "Berg Katze",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-014.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Berg Katze [EX3-014]",
+    "type": "Main_Deck",
+    "Number": "EX3-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Alien",
+      "NOTE"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Blocker",
+      "Break",
+      "Raid"
+    ],
+    "Effect": "Break Blocker\n[On Play / On Attack] Raid {2} Until the end of your Opponent's next turn, their Units with a Cost of 2 or less are played Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-014.jpg"
+  },
+  "EX3-015": {
+    "id": "EX3-015",
+    "face": {
+      "front": {
+        "name": "Gel Sadra",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-015.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Gel Sadra [EX3-015]",
+    "type": "Main_Deck",
+    "Number": "EX3-015",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Alien"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Permanent",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "Permanent Give this Rested card +1 Cost.\n[Activate: Main] Limit 1 Remove 1 SJ Marker and Rest this card: Choose up to 1 of your Opponent's Units, ignoring Barrier, and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-015.jpg"
+  },
+  "EX3-016": {
+    "id": "EX3-016",
+    "face": {
+      "front": {
+        "name": "J. J. Robinson",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-016.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "J. J. Robinson [EX3-016]",
+    "type": "Main_Deck",
+    "Number": "EX3-016",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 2000,
+    "Traits": [
+      "G-Crew"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; add up to 1 card with the \"NOTE\" Trait to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-016.jpg"
+  },
+  "EX3-017": {
+    "id": "EX3-017",
+    "face": {
+      "front": {
+        "name": "Conceptual Cutting",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Conceptual Cutting [EX3-017]",
+    "type": "Main_Deck",
+    "Number": "EX3-017",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "Break"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Add up to 1 card from your Life to your hand; place 1 of your Units in your Drop. Then, choose up to 1 of your Units with the \"Gatchaman\" Trait and give it Break and +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-017.jpg"
+  },
+  "EX3-018": {
+    "id": "EX3-018",
+    "face": {
+      "front": {
+        "name": "GALAX",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "GALAX [EX3-018]",
+    "type": "Main_Deck",
+    "Number": "EX3-018",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "GALAX"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {2} Draw 1 card. Then, choose up to 2 of your Opponent's Rested Units and they cannot switch to Active mode during your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-018.jpg"
+  },
+  "EX3-019": {
+    "id": "EX3-019",
+    "face": {
+      "front": {
+        "name": "Hajime Ichinose",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-019.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 1
+      }
+    },
+    "name": "Hajime Ichinose [EX3-019]",
+    "type": "JUMP_Deck",
+    "Number": "EX3-019",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Charge"
+    ],
+    "Effect": "[On Play / On Attack] Remove 1 SJ Marker: Choose up to 1 of your Opponent's Rested Units and it cannot switch to Active mode during your Opponent's next Charge Phase.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-019.jpg"
+  },
+  "EX3-020": {
+    "id": "EX3-020",
+    "face": {
+      "front": {
+        "name": "Rui Ninomiya",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-020.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 1
+      }
+    },
+    "name": "Rui Ninomiya [EX3-020]",
+    "type": "JUMP_Deck",
+    "Number": "EX3-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Gatchaman",
+      "GALAX"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Barrier",
+      "Break",
+      "Clash",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier Break\nClash [Opponent's Attack] Remove 1 SJ Marker and this card from the game: Negate the attack.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-020.jpg"
+  },
+  "EX3-021": {
+    "id": "EX3-021",
+    "face": {
+      "front": {
+        "name": "X",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX3-021.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "X [EX3-021]",
+    "type": "JUMP_Deck",
+    "Number": "EX3-021",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "EX3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Your Turn] Once per Turn When your Unit is placed in your Drop by your skill: You may Overcharge 1 and, if you do, you can't Overcharge for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX3-021.jpg"
+  },
+  "EX4-001": {
+    "id": "EX4-001",
+    "face": {
+      "front": {
+        "name": "Anne Halford",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-001.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Anne Halford [EX4-001]",
+    "type": "Leader",
+    "Number": "EX4-001",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Silver Sugar Master",
+      "Artisan"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "End of your Turn",
+      "Your Turn",
+      "Threshold",
+      "Blocker",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Draw 1 card; add up to 1 card from your Life to your hand.\n[End of your Turn] Switch up to 1 of your \"Challe Fen Challe\" to Active mode and give it Blocker until the end of your Opponent's next turn.\nThreshold 3 Clash [Activate: Battle] (1) If your Leader is in a battle and you place 1 Action card from your hand at the bottom of your Deck: Give your Leader +2000 Power for the battle. Then, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-001.jpg"
+  },
+  "EX4-002": {
+    "id": "EX4-002",
+    "face": {
+      "front": {
+        "name": "Challe Fen Challe",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-002.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Challe Fen Challe [EX4-002]",
+    "type": "Main_Deck",
+    "Number": "EX4-002",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Warrior Fairy"
+    ],
+    "Keywords": [
+      "On Block",
+      "On Play"
+    ],
+    "Effect": "[On Play] Play up to 1 \"Anne Halford\" with a Cost of 1 from your hand or Drop.\n[On Block] Give this card +2000 Power until the end of your next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-002.jpg"
+  },
+  "EX4-003": {
+    "id": "EX4-003",
+    "face": {
+      "front": {
+        "name": "Anne Halford",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-003.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Anne Halford [EX4-003]",
+    "type": "Main_Deck",
+    "Number": "EX4-003",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "SR",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Silver Sugar Master",
+      "Artisan"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Barrier",
+      "Blocker"
+    ],
+    "Effect": "[Opponent's Turn] (1) At the start of your Opponent's Main Phase, give this card Blocker for the turn.\n[On Play] Give 1 of your \"Challe Fen Challe\" Barrier until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-003.jpg"
+  },
+  "EX4-004": {
+    "id": "EX4-004",
+    "face": {
+      "front": {
+        "name": "Challe Fen Challe",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-004.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Challe Fen Challe [EX4-004]",
+    "type": "Main_Deck",
+    "Number": "EX4-004",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Warrior Fairy"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Activate up to 1 Action card with a Cost of 3 or less and the \"Silver Sugar\" or \"Fairy\" Trait from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-004.jpg"
+  },
+  "EX4-005": {
+    "id": "EX4-005",
+    "face": {
+      "front": {
+        "name": "Anne Halford",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-005.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Anne Halford [EX4-005]",
+    "type": "Main_Deck",
+    "Number": "EX4-005",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Artisan"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; add up to 1 \"Challe Fen Challe\" or Action card with the \"Silver Sugar\" or \"Fairy\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-005.jpg"
+  },
+  "EX4-006": {
+    "id": "EX4-006",
+    "face": {
+      "front": {
+        "name": "Mithril Lid Pod",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-006.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Mithril Lid Pod [EX4-006]",
+    "type": "Main_Deck",
+    "Number": "EX4-006",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Water Fairy"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Add up to 1 \"Anne Halford\" from your Drop to your hand. Then, place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-006.jpg"
+  },
+  "EX4-007": {
+    "id": "EX4-007",
+    "face": {
+      "front": {
+        "name": "Hugh Mercury",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-007.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Hugh Mercury [EX4-007]",
+    "type": "Main_Deck",
+    "Number": "EX4-007",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Artisan"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[On Play] Add 1 card from your Life to your hand.\n[Your Turn] Once per Turn When you activate an Action card with the \"Silver Sugar\" Trait, draw 1 card and place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-007.jpg"
+  },
+  "EX4-008": {
+    "id": "EX4-008",
+    "face": {
+      "front": {
+        "name": "Alph Hingley",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-008.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Alph Hingley [EX4-008]",
+    "type": "Main_Deck",
+    "Number": "EX4-008",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Artisan"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Anne Halford\", look at the top 3 cards of your Deck; add 1 Action card to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-008.jpg"
+  },
+  "EX4-009": {
+    "id": "EX4-009",
+    "face": {
+      "front": {
+        "name": "Keith Powell",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-009.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Keith Powell [EX4-009]",
+    "type": "Main_Deck",
+    "Number": "EX4-009",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 3000,
+    "Traits": [
+      "Artisan"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Permanent",
+      "Limit 1"
+    ],
+    "Effect": "Permanent If you have 4 or more Action cards in your Drop, give this card in your hand -2 Cost.\n[Opponent's Turn] Limit 1 If your Unit with a base Power of 7000 or less would be removed from the field by your Opponent's skill, you may place this Unit at the bottom of its owner's Deck instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-009.jpg"
+  },
+  "EX4-010": {
+    "id": "EX4-010",
+    "face": {
+      "front": {
+        "name": "Jonas Anders",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-010.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Jonas Anders [EX4-010]",
+    "type": "Main_Deck",
+    "Number": "EX4-010",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Artisan"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have 4 or more Action cards in your Drop, choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-010.jpg"
+  },
+  "EX4-011": {
+    "id": "EX4-011",
+    "face": {
+      "front": {
+        "name": "Challe Fen Challe",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-011.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Challe Fen Challe [EX4-011]",
+    "type": "Main_Deck",
+    "Number": "EX4-011",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Warrior Fairy"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Limit 1",
+      "Charge",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Attack] Limit 1 Place 1 Action card from your hand in your Drop; draw 1 card and Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-011.jpg"
+  },
+  "EX4-012": {
+    "id": "EX4-012",
+    "face": {
+      "front": {
+        "name": "Eril Fen Eril",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-012.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Eril Fen Eril [EX4-012]",
+    "type": "Main_Deck",
+    "Number": "EX4-012",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Warrior Fairy"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] Limit 1 Place 1 Action card from your hand in your Drop: Choose up to 1 of your Opponent's Units with 5000 or less Power and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-012.jpg"
+  },
+  "EX4-013": {
+    "id": "EX4-013",
+    "face": {
+      "front": {
+        "name": "Lafalle Fen Lafalle",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-013.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Lafalle Fen Lafalle [EX4-013]",
+    "type": "Main_Deck",
+    "Number": "EX4-013",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 1000,
+    "Traits": [
+      "Warrior Fairy"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Return 1 of your Units to its owner's hand: Choose up to 1 of your Opponent's Units with 7000 or less Power and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-013.jpg"
+  },
+  "EX4-014": {
+    "id": "EX4-014",
+    "face": {
+      "front": {
+        "name": "Forever Entwined",
+        "type": "ACTION",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-014.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Forever Entwined [EX4-014]",
+    "type": "Main_Deck",
+    "Number": "EX4-014",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Silver Sugar",
+      "Fairy"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Anne Halford\": Play up to 1 \"Challe Fen Challe\" with a Cost of 7 or less from your hand. Then, Overcharge 2.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-014.jpg"
+  },
+  "EX4-015": {
+    "id": "EX4-015",
+    "face": {
+      "front": {
+        "name": "Silver Sugar Apple",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-015.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Silver Sugar Apple [EX4-015]",
+    "type": "Main_Deck",
+    "Number": "EX4-015",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Silver Sugar"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Choose one:\n• Draw 2 cards.\n• Give 1 of your \"Challe Fen Challe\" Barrier until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-015.jpg"
+  },
+  "EX4-016": {
+    "id": "EX4-016",
+    "face": {
+      "front": {
+        "name": "A Sugar Sculpture for You",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "A Sugar Sculpture for You [EX4-016]",
+    "type": "Main_Deck",
+    "Number": "EX4-016",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Silver Sugar"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Turn",
+      "Permanent"
+    ],
+    "Effect": "Permanent If you have 4 or more Action cards in your Drop, give this card in your hand -2 Cost.\n[Activate: Battle] Give your card that's in a battle +2000 Power for the battle. Then, if it's your Opponent's turn, choose your Opponent's Leader or up to 1 of their Units and give them -1000 Power until the end of your next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-016.jpg"
+  },
+  "EX4-017": {
+    "id": "EX4-017",
+    "face": {
+      "front": {
+        "name": "Warrior Fairy March",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Warrior Fairy March [EX4-017]",
+    "type": "Main_Deck",
+    "Number": "EX4-017",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Fairy"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units with 6000 or less Power and return it to its owner's hand. Then, if your Leader is \"Anne Halford\", you may shuffle this card from your Drop into your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-017.jpg"
+  },
+  "EX4-018": {
+    "id": "EX4-018",
+    "face": {
+      "front": {
+        "name": "Fairy Wing",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fairy Wing [EX4-018]",
+    "type": "Main_Deck",
+    "Number": "EX4-018",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Fairy"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Choose up to 2 of your Opponent's Units with 4000 or less Power and place them at the bottom of their owner's Deck. Then, if your Leader is \"Anne Halford\", you may shuffle this card from your Drop into your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-018.jpg"
+  },
+  "EX4-019": {
+    "id": "EX4-019",
+    "face": {
+      "front": {
+        "name": "Fae Touch",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-019.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fae Touch [EX4-019]",
+    "type": "Main_Deck",
+    "Number": "EX4-019",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Fairy"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Draw 1 card; during your Opponent's next turn, give any Unit that is played from the hand -1000 Power until the end of your following turn. Then, if your Leader is \"Anne Halford\", you may shuffle this card from your Drop into your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-019.jpg"
+  },
+  "EX4-020": {
+    "id": "EX4-020",
+    "face": {
+      "front": {
+        "name": "Challe Fen Challe",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-020.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 1
+      }
+    },
+    "name": "Challe Fen Challe [EX4-020]",
+    "type": "JUMP_Deck",
+    "Number": "EX4-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Warrior Fairy"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Clash",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Draw 3 cards; place 2 cards from your hand at the bottom of your Deck in any order.\nClash [Opponent's Play] Remove this card from the game: Choose up to 1 of your Opponent's Units and return it to its owner's hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-020.jpg"
+  },
+  "EX4-021": {
+    "id": "EX4-021",
+    "face": {
+      "front": {
+        "name": "Sugar Confections",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX4-021.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Sugar Confections [EX4-021]",
+    "type": "JUMP_Deck",
+    "Number": "EX4-021",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "EX4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Leader is \"Anne Halford\": Return this card to your JUMP Deck and give your Leader +1000 Power for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX4-021.jpg"
+  },
+  "PUP-001": {
+    "id": "PUP-001",
+    "face": {
+      "front": {
+        "name": "Pain Resonance",
+        "type": "JUMP ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-001.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Pain Resonance [PUP-001]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-001",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 0,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash (1) [Opponent's Attack] If your Leader is Yellow and you remove this card from the game: Your Opponent can only attack with Units one more time for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-001.jpg"
+  },
+  "PUP-002": {
+    "id": "PUP-002",
+    "face": {
+      "front": {
+        "name": "Shoulder the Burden",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-002.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Shoulder the Burden [PUP-002]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-002",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Turn"
+    ],
+    "Effect": "[Opponent's Turn] [Activate: Battle] Remove this card from the game: Rest 1 of your Units; switch up to 1 of your other Units to Active mode. Then, give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-002.jpg"
+  },
+  "PUP-003": {
+    "id": "PUP-003",
+    "face": {
+      "front": {
+        "name": "Control Devil",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-003.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Control Devil [PUP-003]",
+    "type": "Main_Deck",
+    "Number": "PUP-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Devil",
+      "Four Horsemen"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Opponent has no Units in play or has only Rested Units in play: Play this card from your hand.\n[Activate: Battle] Limit 1 Rest this Unit: Choose up to 1 of your Opponent's Rested Units and give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-003.jpg"
+  },
+  "PUP-004": {
+    "id": "PUP-004",
+    "face": {
+      "front": {
+        "name": "Peak-a-Boo",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-004.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Peak-a-Boo [PUP-004]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-004",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Battle] <Once per Turn> If your Leader has \"Boxer\" in their Traits and you place 1 card from your hand at the bottom of your Deck: When you use a card in a combo, draw 2 cards.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-004.jpg"
+  },
+  "PUP-005": {
+    "id": "PUP-005",
+    "face": {
+      "front": {
+        "name": "High and Low",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-005.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "High and Low [PUP-005]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-005",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Turn",
+      "Clash"
+    ],
+    "Effect": "Clash (1) [Opponent's Turn] [Activate: Battle] Limit 3 If your Leader is Red: Reveal 1 card from the top of your Deck; if it's a Unit Card, give your card that's in a battle Power equal to the revealed card's Power for the battle and place the revealed card at the bottom of your Deck. Remove this card from the game at the end of the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-005.jpg"
+  },
+  "PUP-006": {
+    "id": "PUP-006",
+    "face": {
+      "front": {
+        "name": "Unnerving Presence",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-006.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Unnerving Presence [PUP-006]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-006",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Up to 1 of your cards with \"Boxer\" in their Traits gains +1000 Power for the turn.\n[Activate: Main] Limit 1 Return this card to your JUMP Deck: Choose up to 1 of your Opponent's Units and give it -5000 Power for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-006.jpg"
+  },
+  "PUP-007": {
+    "id": "PUP-007",
+    "face": {
+      "front": {
+        "name": "Bloodlust",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-007.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Bloodlust [PUP-007]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-007",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Until the end of this turn, the next time an Opponent's Unit is K.O.ed or your Opponent's Life is placed in their Drop: Place 1 card from your Opponent's hand in their Drop. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-007.jpg"
+  },
+  "PUP-008": {
+    "id": "PUP-008",
+    "face": {
+      "front": {
+        "name": "Absolute Defense",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-008.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Absolute Defense [PUP-008]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-008",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Place 1 card from your hand in your Drop and remove this card from the game: Negate the attack. Then, your Opponent can only attack once more for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-008.jpg"
+  },
+  "PUP-009": {
+    "id": "PUP-009",
+    "face": {
+      "front": {
+        "name": "Sand Burial",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-009.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Sand Burial [PUP-009]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-009",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "NRT",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main / Battle] Limit 1 Rest 1 of your \"Gaara\" and return this card to your SJ Deck: Choose up to 1 of your Opponent's Units with a Cost of 4 or less and K.O. it",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-009.jpg"
+  },
+  "PUP-010": {
+    "id": "PUP-010",
+    "face": {
+      "front": {
+        "name": "Harusame & Futunomitamama no Tsurugi",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-010.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Harusame & Futunomitamama no Tsurugi [PUP-010]",
+    "type": "Main_Deck",
+    "Number": "PUP-010",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Weapon",
+      "Antiquity"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader that has the \"Shaman\" Trait attacked during this turn and dealt no damage: Add up to 1 SJ Marker to your JUMP Zone. Then, switch your Leader to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-010.jpg"
+  },
+  "PUP-011": {
+    "id": "PUP-011",
+    "face": {
+      "front": {
+        "name": "Spirit of Earth",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-011.jpg",
+        "isHorizontal": false,
+        "power": 0,
+        "sjCost": 1
+      }
+    },
+    "name": "Spirit of Earth [PUP-011]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-011",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 0,
+    "Counter": null,
+    "Traits": [
+      "Kami",
+      "Elemental Spirit"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "J-Layer",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\nJ-Layer 1 \"O.S. Spirit of Earth\"\n<Permanent> If this card would be removed from the field, place 1 \"O.S. Spirit of Earth\" from under this card on top of this card instead.\n[On Play] Return 1 of your Units to the owner's hand: Give your Leader +1000 Power for the turn. Then, add up to 1 card from your Life to your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-011.jpg"
+  },
+  "PUP-012": {
+    "id": "PUP-012",
+    "face": {
+      "front": {
+        "name": "O.S. Spirit of Earth",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-012.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 5
+      }
+    },
+    "name": "O.S. Spirit of Earth [PUP-012]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-012",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 5,
+    "SJ_Cost": 5,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Block",
+      "On Play",
+      "Barrier",
+      "Blocker"
+    ],
+    "Effect": "Barrier Blocker\n[On Play / On Block] You may place 1 card from under your Leader in your Drop: Give up to 1 of your \"Asakura Yoh\" +1000 Power for the turn.\n[Activate: Battle] Remove all cards from under this card from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-012.jpg"
+  },
+  "PUP-013": {
+    "id": "PUP-013",
+    "face": {
+      "front": {
+        "name": "Converging Fates",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-013.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Converging Fates [PUP-013]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-013",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Add 1 \"Amidamaru\" from under your Leader to your hand; place 1 card from your hand at the top or bottom of your Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-013.jpg"
+  },
+  "PUP-014": {
+    "id": "PUP-014",
+    "face": {
+      "front": {
+        "name": "Look Beyond",
+        "type": "JUMP ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-014.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Look Beyond [PUP-014]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-014",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Play",
+      "Once per Turn",
+      "Barrier",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] (1) <Once per Turn> If your Opponent plays a Unit: Give the Unit being played -1 Cost. Then, if it has a Cost of 1 or less, place it at the bottom of its owner's Deck instead.\n[Activate: Main] Return this card to your JUMP Deck: Choose up to 1 of your Opponent's Units, ignoring Barrier, and its Cost becomes 0 for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-014.jpg"
+  },
+  "PUP-015": {
+    "id": "PUP-015",
+    "face": {
+      "front": {
+        "name": "Proof of Existence",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-015.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Proof of Existence [PUP-015]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-015",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn",
+      "Charge"
+    ],
+    "Effect": "[On Play] You may add 1 card from your Life to your hand: <Charge> 2.\n[Your Turn] <Once per Turn> When you <Charge> by a Unit's skill, <Charge> 1 and draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-015.jpg"
+  },
+  "PUP-016": {
+    "id": "PUP-016",
+    "face": {
+      "front": {
+        "name": "Morioh",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-016.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Morioh [PUP-016]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-016",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] If your Leader is \"Higashikata Josuke\": Draw cards equal to the number of your current Energy. Then, shuffle cards from your hand into your Deck equal to the number of cards drawn by this effect.\n[Activate: Main] Add 1 card from your Life to your hand and remove this card from the game: <Overcharge> 5 and you can't <Overcharge> until the start of your next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-016.jpg"
+  },
+  "PUP-017": {
+    "id": "PUP-017",
+    "face": {
+      "front": {
+        "name": "Go Beyond",
+        "type": "JUMP ACTION",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-017.jpg",
+        "isHorizontal": true,
+        "sjCost": 5
+      }
+    },
+    "name": "Go Beyond [PUP-017]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-017",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 5,
+    "SJ_Cost": 5,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Permanent",
+      "Barrier",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "<Permanent> If your Leader is \"Higashikata Josuke\", reduce the Cost and SJ Cost of this card in your JUMP Deck by 3.\n[Activate: Main] If there are no cards in your Life and you remove this card from the game: Choose up to 1 of your Opponent's Rested Units, ignoring Barrier, and remove it from the game.\nClash [Opponent's Attack] (1) Remove 1 of your Opponent's Energy; during your next Charge Phase, you will <Charge> 1 less Energy.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-017.jpg"
+  },
+  "PUP-018": {
+    "id": "PUP-018",
+    "face": {
+      "front": {
+        "name": "Enjin",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-018.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Enjin [PUP-018]",
+    "type": "Main_Deck",
+    "Number": "PUP-018",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "<Permanent> Give this card in your Drop -1 Cost.\n[On Play] Place up to 1 card with the \"Cleaner\" Trait from your Deck in your Drop.\n[On K.O.] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-018.jpg"
+  },
+  "PUP-019": {
+    "id": "PUP-019",
+    "face": {
+      "front": {
+        "name": "Fu Ororstor",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-019.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Fu Ororstor [PUP-019]",
+    "type": "Main_Deck",
+    "Number": "PUP-019",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "GKA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Cleaner",
+      "Giver"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Permanent",
+      "Limit 1",
+      "Raid"
+    ],
+    "Effect": "<Permanent> Give this card in your Drop -2 Cost.\n[On Play] Limit 1 Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.\n[On K.O.] Raid {1} Add this card from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-019.jpg"
+  },
+  "PUP-020": {
+    "id": "PUP-020",
+    "face": {
+      "front": {
+        "name": "Tao Ren",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 2
+      }
+    },
+    "name": "Tao Ren [PUP-020]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Place up to 3 \"Bason\" cards from your Drop under your Leader with their skills negated for the turn.\n[Activate: Battle] Once per Turn Use up to 1 \"Bason\" card from under your Leader or 1 of your Units in a combo.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg"
+  },
+  "PUP-021": {
+    "id": "PUP-021",
+    "face": {
+      "front": {
+        "name": "Yagiyama Yotsuyu",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-021.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Yagiyama Yotsuyu [PUP-021]",
+    "type": "Main_Deck",
+    "Number": "PUP-021",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "JBA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Rock Human",
+      "Stand User"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Barrier",
+      "Unique"
+    ],
+    "Effect": "Unique Barrier\n[On Play] If your Leader is \"Toru\", look at the top 3 cards of your Deck; place up to 1 card at the top of your Deck. Then, place the rest at the bottom of your Deck in any order.\n[Opponent's Turn] If one of your Units with the \"Rock Human\" or \"Calamity\" Trait would be removed from your field by your Opponent's skill, you may place this card in your Drop instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-021.jpg"
+  },
+  "PUP-022": {
+    "id": "PUP-022",
+    "face": {
+      "front": {
+        "name": "Trap Door",
+        "type": "JUMP ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-022.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Trap Door [PUP-022]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-022",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 0,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] (1) Choose up to 1 of your Opponent's Units and give it -1 Cost for the turn. Then, if its Cost is 0 or less, negate the attack. At the end of the battle, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-022.jpg"
+  },
+  "PUP-023": {
+    "id": "PUP-023",
+    "face": {
+      "front": {
+        "name": "Towards Battle",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-023.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Towards Battle [PUP-023]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-023",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] Look at the top 3 cards of your Deck; add 1 card to your hand and place the rest in your Drop.\n!Clash! [Activate: Battle] (1) Remove this card from the game: Return your Unit that's in a battle to the owner's hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-023.jpg"
+  },
+  "PUP-024": {
+    "id": "PUP-024",
+    "face": {
+      "front": {
+        "name": "Flame Counter",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-024.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flame Counter [PUP-024]",
+    "type": "Main_Deck",
+    "Number": "PUP-024",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "FOR",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Soul Flame"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] If your Leader's Threshold skill is active: Give your Leader +1000 Power for the turn. Then, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-024.jpg"
+  },
+  "PUP-025": {
+    "id": "PUP-025",
+    "face": {
+      "front": {
+        "name": "Pillar & Guardian",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-025.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Pillar & Guardian [PUP-025]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-025",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Remove this card from the game: Give your Unit that's in a battle +2000 Power for the battle. Then, choose your Opponent's card that's in a battle and give it -2000 Power for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-025.jpg"
+  },
+  "PUP-026": {
+    "id": "PUP-026",
+    "face": {
+      "front": {
+        "name": "Oze Maki",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-026.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 1
+      }
+    },
+    "name": "Oze Maki [PUP-026]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-026",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Accelcharge",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] Place 1 card from your hand in your Drop: Play up to 1 Unit card with 3000 or less Power and \"Company 8\" in its Traits from your hand.\n[End of your Turn] Remove this card from the game, Overcharge 1 and Accelcharge 1.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-026.jpg"
+  },
+  "PUP-027": {
+    "id": "PUP-027",
+    "face": {
+      "front": {
+        "name": "Kusakabe Shinra",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-027.jpg",
+        "isHorizontal": false,
+        "power": 2000,
+        "sjCost": 2
+      }
+    },
+    "name": "Kusakabe Shinra [PUP-027]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-027",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 2000,
+    "Counter": null,
+    "Traits": [
+      "3rd Generation Pyrokinetic",
+      "Company 8"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "Permanent",
+      "Barrier",
+      "Bond"
+    ],
+    "Effect": "Permanent Bond 3 \"Company 8\" Units: Give this card +2000 Power and Barrier.\n[Activate: Battle] Once per Turn Choose up to 1 of your Opponent's Units Power equal to or less than this card's Power and K.O. it.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-027.jpg"
+  },
+  "PUP-028": {
+    "id": "PUP-028",
+    "face": {
+      "front": {
+        "name": "Iai",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-028.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Iai [PUP-028]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-028",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Choose your Opponent's Leader up to 1 of their Units and give them -5000 Power for the turn. Then, if that card's Power is 0 or less, negate the attack.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-028.jpg"
+  },
+  "PUP-029": {
+    "id": "PUP-029",
+    "face": {
+      "front": {
+        "name": "Shinmon Benimaru",
+        "type": "JUMP UNIT",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-029.jpg",
+        "isHorizontal": false,
+        "power": 7000,
+        "sjCost": 3
+      }
+    },
+    "name": "Shinmon Benimaru [PUP-029]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-029",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "ENS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": null,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 7000,
+    "Counter": null,
+    "Traits": [
+      "2nd Generation Pyrokinetic",
+      "3rd Generation Pyrokinetic",
+      "Company 7"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Double Damage",
+      "On Attack",
+      "Your Turn",
+      "V Jump",
+      "Barrier",
+      "Blocker",
+      "Clash"
+    ],
+    "Effect": "V JUMP If your Leader is \"Shinmon Benimaru\", your Life is at 1 or less, and 1 of your Opponent's Units was K.O.'d by your skill this turn.\nDouble Damage\n[On Attack] If your Opponent activates a Clash or Blocker skill during this battle, choose up to 1 of your Opponent's Units, ignoring Barrier, and K.O. it. Then, switch this card to Active mode.\n[End of your Turn] Remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-029.jpg"
+  },
+  "PUP-030": {
+    "id": "PUP-030",
+    "face": {
+      "front": {
+        "name": "Matoi Tech",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-030.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 1
+      }
+    },
+    "name": "Matoi Tech [PUP-030]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-030",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Burning Rescue"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Deflect"
+    ],
+    "Effect": "Deflect\nPermanent When this card leaves the field, play up to 1 Unit card from under this card.\n[On Play] Place 1 Unit card with the “Burning Rescue” Trait from your hand under this card.\n[End of Opponent’s Turn] Add 1 card from your Life to your hand and remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-030.jpg"
+  },
+  "PUP-031": {
+    "id": "PUP-031",
+    "face": {
+      "front": {
+        "name": "Lio de Galon",
+        "type": "JUMP UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-031.jpg",
+        "isHorizontal": false,
+        "power": 7000,
+        "sjCost": 5
+      }
+    },
+    "name": "Lio de Galon [PUP-031]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-031",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "PRO",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 6,
+    "SJ_Cost": 5,
+    "Life": null,
+    "Power": 7000,
+    "Counter": null,
+    "Traits": [
+      "Burning Rescue",
+      "Burnish",
+      "Mad Burnish"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Attack",
+      "Your Turn",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\nYou can play this card by removing from the game 1 “Galo Thymos” and 1 “Lio Fotia” with a Cost of 5 or more from your field instead of paying for this card’s Costs\n[On Attack] Your Opponent’s cards in Active mode cannot be Rested and your Opponent’s Rested cards cannot be switched to Active mode until the end of your Opponent’s next turn.\n[End of your Turn] Add 1 card from your Life to your hand and remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-031.jpg"
+  },
+  "PUP-032": {
+    "id": "PUP-032",
+    "face": {
+      "front": {
+        "name": "Sword of the Darkness Flame",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-032.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Sword of the Darkness Flame [PUP-032]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-032",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; add up to 1 Action card with \"Demon\" in its Traits to your hand. Then, shuffle your Deck.\n[Activate: Battle] If your card that has the \"Urameshi\" Trait is in a battle, give it +3000 Power for the battle. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-032.jpg"
+  },
+  "PUP-033": {
+    "id": "PUP-033",
+    "face": {
+      "front": {
+        "name": "Hiei",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-033.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 1
+      }
+    },
+    "name": "Hiei [PUP-033]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-033",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "YYH",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Evil Eye",
+      "Urameshi"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Deflect",
+      "Revenge"
+    ],
+    "Effect": "Deflect Revenge\n[On Play] Add 1 card from your Life to your hand: Play up to 1 Unit card with a Cost of 3 or less and the \"Urameshi\" Trait from your hand.\n[On Attack] If your Opponent has no Units in play or has only Units in Active mode in play, give this card +3000 Power for the battle. Then, remove this card from the game at the end of the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-033.jpg"
+  },
+  "PUP-034": {
+    "id": "PUP-034",
+    "face": {
+      "front": {
+        "name": "Alphonse Elric",
+        "type": "JUMP UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-034.jpg",
+        "isHorizontal": false,
+        "power": 8000,
+        "sjCost": 4
+      }
+    },
+    "name": "Alphonse Elric [PUP-034]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-034",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 8,
+    "SJ_Cost": 4,
+    "Life": null,
+    "Power": 8000,
+    "Counter": null,
+    "Traits": [
+      "Alchemy",
+      "Elric"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Permanent",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Permanent Instead of paying for this card's Costs, you can also play this card by placing 1 of your \"Edward Elric\" with a Cost of 4 from your field in your Drop and placing a card from your hand in your Drop. If you do, set this card's Power to 6000.\nClash [Opponent's Attack] (2) Limit 1 If your Leader is \"Edward Elric\": Negate the attack.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-034.jpg"
+  },
+  "PUP-035": {
+    "id": "PUP-035",
+    "face": {
+      "front": {
+        "name": "Halcyon Days",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-035.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Halcyon Days [PUP-035]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-035",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Overcharge",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "[On Play] Place up to 2 cards from your hand in your Drop: Draw that many cards.\nClash [Opponent's Play] Remove this card from the game: Overcharge 3 and you can't Overcharge for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-035.jpg"
+  },
+  "PUP-036": {
+    "id": "PUP-036",
+    "face": {
+      "front": {
+        "name": "Mutual Respect",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-036.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Mutual Respect [PUP-036]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-036",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Your Turn",
+      "Clash"
+    ],
+    "Effect": "[Your Turn] When your Opponent activates a Clash skill: Negate that skill; Then, remove this card from the game and until the end of your Opponent's next turn, you can't activate Clash skills.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-036.jpg"
+  },
+  "PUP-037": {
+    "id": "PUP-037",
+    "face": {
+      "front": {
+        "name": "Riza Hawkeye",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-037.jpg",
+        "isHorizontal": false,
+        "power": 3000,
+        "sjCost": 2
+      }
+    },
+    "name": "Riza Hawkeye [PUP-037]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-037",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 3000,
+    "Counter": null,
+    "Traits": [
+      "State Military"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Once per Turn",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "[On Play] If your Leader is \"Roy Mustang\": Add 1 card with the \"Flame Alchemy\" Trait from your Drop to your hand; place 1 card from your hand in your Drop.\nClash [Opponent's Play] Once per Turn When your Opponent plays a Unit: Shuffle 1 card with the \"Flame Alchemy\" Trait from your Drop into your Deck; set that Unit's Cost to 5.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-037.jpg"
+  },
+  "PUP-038": {
+    "id": "PUP-038",
+    "face": {
+      "front": {
+        "name": "Roy Mustang",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-038.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Roy Mustang [PUP-038]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-038",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "FMA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Alchemist",
+      "State Military"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Duel"
+    ],
+    "Effect": "[On Play] If your Leader is \"Roy Mustang\": Choose up to 1 of your Opponent's Units and set its Cost to 5 until the end of your Opponent's next turn.\n[On Attack] If this card is in battle with a Unit with a Cost of 5, give this card +2000 Power and Duel for the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-038.jpg"
+  },
+  "PUP-039": {
+    "id": "PUP-039",
+    "face": {
+      "front": {
+        "name": "Morgiana",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-039.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 2
+      }
+    },
+    "name": "Morgiana [PUP-039]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-039",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Fanalis",
+      "Household Vessel"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Attack",
+      "Charge",
+      "Clash",
+      "Deflect",
+      "Raid"
+    ],
+    "Effect": "Deflect\n[On Attack] If your Leader is \"Alibaba Saluja\" and you Charged by a skill this turn, give your Leader and this card +1000 Power for the turn.\nClash [Opponent's Attack] Raid {1} Give your Leader and this card +1000 Power for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-039.jpg"
+  },
+  "PUP-040": {
+    "id": "PUP-040",
+    "face": {
+      "front": {
+        "name": "Aladdin",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-040.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 1
+      }
+    },
+    "name": "Aladdin [PUP-040]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-040",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "MLM",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Magi",
+      "Magician"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Permanent",
+      "Threshold"
+    ],
+    "Effect": "Permanent This card cannot attack.\n[On Play] If your Leader's Threshold skill isn't active, place all cards from your Life in your Drop.\n[End of your Turn] Remove this card from the game: If your Leader is \"Alibaba Saluja\" and you have 1 or less cards in your Life, add the top 2 cards of your Deck to your Life.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-040.jpg"
+  },
+  "PUP-041": {
+    "id": "PUP-041",
+    "face": {
+      "front": {
+        "name": "Diagonal Dempsey Roll",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-041.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Diagonal Dempsey Roll [PUP-041]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-041",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] [Activate: Battle] If your \"Makunouchi Ippo\" Leader is in a battle, place this card in your Combo area; give your Leader +2000 Power for the battle. Then, remove this card from the game at the end of the battle or, if you had at least 2 cards in your Combo area during that battle, return this card to your JUMP Deck instead.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-041.jpg"
+  },
+  "PUP-042": {
+    "id": "PUP-042",
+    "face": {
+      "front": {
+        "name": "Shade",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-042.jpg",
+        "isHorizontal": false,
+        "power": 3000,
+        "sjCost": 1
+      }
+    },
+    "name": "Shade [PUP-042]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-042",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 3000,
+    "Counter": null,
+    "Traits": [
+      "Fiend"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On K.O.",
+      "Bloom"
+    ],
+    "Effect": "Bloom\nOnce per Turn When this card is Bloomed, choose up to 1 of your Opponent's Units and Rest it.\n[On K.O.] Add up to 1 \"Tanpopo Ohanami\" from your Drop to your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-042.jpg"
+  },
+  "PUP-043": {
+    "id": "PUP-043",
+    "face": {
+      "front": {
+        "name": "Dandelion Blossom",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-043.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Dandelion Blossom [PUP-043]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-043",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Overcharge",
+      "Limit 1",
+      "Bloom",
+      "Charge"
+    ],
+    "Effect": "[Activate: Battle] Limit 1 Return this card to your JUMP Deck: Bloom 1 of your \"Tanpopo Ohanami\" and Overcharge 1.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-043.jpg"
+  },
+  "PUP-044": {
+    "id": "PUP-044",
+    "face": {
+      "front": {
+        "name": "Squad Square Up",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-044.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Squad Square Up [PUP-044]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-044",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "MGD",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Charge",
+      "Clash"
+    ],
+    "Effect": "[On Play] Place 1 Unit card from your hand in your Drop: Add 1 Action card from your Drop to your hand.\nClash [Opponent's Play] (1) When your Opponent plays a Unit: Choose that card; remove Energy Markers from your Opponent's Charge Zone equal to that card's Cost.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-044.jpg"
+  },
+  "PUP-045": {
+    "id": "PUP-045",
+    "face": {
+      "front": {
+        "name": "Sailor V",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-045.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 3
+      }
+    },
+    "name": "Sailor V [PUP-045]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-045",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "On Play",
+      "Bond"
+    ],
+    "Effect": "Bond 3 \"Sailor Guardian\" Units:\n[On Play] Play up to 2 Unit cards with the \"Sailor Guardian\" Trait and a Cost of 1 from your hand Rested.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-045.jpg"
+  },
+  "PUP-046": {
+    "id": "PUP-046",
+    "face": {
+      "front": {
+        "name": "Sailor Quarter",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-046.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 4
+      }
+    },
+    "name": "Sailor Quarter [PUP-046]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-046",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": 4,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Sailor Guardian"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Permanent",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\nPermanent Reduce the SJ Cost of this card in your JUMP Deck by 1 for each of your Units with the \"Sailor Guardian\" Trait and different names on your field.\n[Opponent's Turn] Give this card +2000 Power.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-046.jpg"
+  },
+  "PUP-047": {
+    "id": "PUP-047",
+    "face": {
+      "front": {
+        "name": "Sailor Ensemble",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-047.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Sailor Ensemble [PUP-047]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-047",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "SLM",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have 5 or more Units with the \"Sailor Guardian\" Trait and different names on your field: Remove this card from the game: Play up to 1 \"Tsukino Usagi\" with a Cost of 8 from your hand or Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-047.jpg"
+  },
+  "PUP-048": {
+    "id": "PUP-048",
+    "face": {
+      "front": {
+        "name": "Euini",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-048.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 1
+      }
+    },
+    "name": "Euini [PUP-048]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-048",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Witch",
+      "Pointed Cap"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Duel"
+    ],
+    "Effect": "Duel\n[On Attack] If an Opponent's Unit was K.O.'d by battle this turn, give this card +2000 Power for the battle.\n[Activate: Main] Remove this card from the game: If an Opponent's Unit was K.O.'d by battle this turn, play up to 1 Unit with a Cost of 4 or less and the \"Witch\" Trait from your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-048.jpg"
+  },
+  "PUP-049": {
+    "id": "PUP-049",
+    "face": {
+      "front": {
+        "name": "Tartah",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-049.jpg",
+        "isHorizontal": false,
+        "power": 1000,
+        "sjCost": 1
+      }
+    },
+    "name": "Tartah [PUP-049]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-049",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 1000,
+    "Counter": null,
+    "Traits": [
+      "Witch",
+      "Brimmed Cap"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play"
+    ],
+    "Effect": "[On Play] Give up to 2 of your Units with the \"Witch\" Trait +1000 Power until the end of your Opponent's next turn.\n[Activate: Main] Remove this card from the game: If an Opponent's Unit was K.O.'d by battle this turn, play up to 1 Unit with a Cost of 3 or less and the \"Witch\" Trait from your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-049.jpg"
+  },
+  "PUP-050": {
+    "id": "PUP-050",
+    "face": {
+      "front": {
+        "name": "Iguin",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-050.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Iguin [PUP-050]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-050",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "WHA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 5,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Witch",
+      "Brimmed Cap"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] Give this card +2000 Power for the turn.\n[Activate: Main] Remove this card from the game: If an Opponent's Unit was K.O.'d by battle this turn, draw 1 card. Then, play up to 1 Unit with a Cost of 5 or less and the \"Witch\" Trait from your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-050.jpg"
+  },
+  "PUP-057": {
+    "id": "PUP-057",
+    "face": {
+      "front": {
+        "name": "Tsubasa Misudachi",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-057.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 4
+      }
+    },
+    "name": "Tsubasa Misudachi [PUP-057]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-057",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 5,
+    "SJ_Cost": 4,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Gatchaman",
+      "NOTE"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Permanent",
+      "Barrier",
+      "Break",
+      "Raid"
+    ],
+    "Effect": "Permanent If you have \"Tsubasa Misudachi\" in play, reduce this card's Cost by 3 and SJ Cost by 2.\n[On Play] Place 1 \"Tsubasa Misudachi\" in your Drop: Give this card Break and Barrier until the end of your Opponent's next turn.\n[On Attack] Raid {1}. Until the end of your Opponent's next turn, your Opponent must remove 1 SJ Marker as an additional cost to switch 1 of their cards to Active mode.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-057.jpg"
+  },
+  "PUP-058": {
+    "id": "PUP-058",
+    "face": {
+      "front": {
+        "name": "Bird, Go!",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-058.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Bird, Go! [PUP-058]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-058",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "GMC",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] (1) If your Leader's Threshold is active, give your Leader +1000 Power for the battle. Then, return this card to your JUMP Deck and choose up to 1 of your Units with a Cost of 2 or less and switch it to Active mode.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-058.jpg"
+  },
+  "PUP-059": {
+    "id": "PUP-059",
+    "face": {
+      "front": {
+        "name": "Mithril Lid Pod",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-059.jpg",
+        "isHorizontal": false,
+        "power": 0,
+        "sjCost": 2
+      }
+    },
+    "name": "Mithril Lid Pod [PUP-059]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-059",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 0,
+    "Counter": null,
+    "Traits": [
+      "Water Fairy"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Remove this card from the game: Shuffle all Action cards with the \"Silver Sugar\" or \"Fairy\" Trait from your Drop into your Deck and draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-059.jpg"
+  },
+  "PUP-060": {
+    "id": "PUP-060",
+    "face": {
+      "front": {
+        "name": "Freedom of the Wing",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-060.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Freedom of the Wing [PUP-060]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-060",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "SAF",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] (1) When your Opponent plays a Unit: Rest 1 of your \"Challe Fen Challe\" and set the played card's Power to 0 until the end of your next turn. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-060.jpg"
+  },
+  "TOKEN-ANE": {
+    "id": "TOKEN-ANE",
+    "face": {
+      "front": {
+        "name": "Energy Marker ANE",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ANE.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker ANE",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-ANE",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "ANE",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ANE.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-CSM": {
+    "id": "TOKEN-CSM",
+    "face": {
+      "front": {
+        "name": "Energy Marker CSM",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CSM.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker CSM",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-CSM",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "CSM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CSM.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-ENS": {
+    "id": "TOKEN-ENS",
+    "face": {
+      "front": {
+        "name": "Energy Marker ENS",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENS.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker ENS",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-ENS",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "ENS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENS.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-FMA": {
+    "id": "TOKEN-FMA",
+    "face": {
+      "front": {
+        "name": "Energy Marker FMA",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FMA.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker FMA",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-FMA",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "FMA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FMA.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-HNI": {
+    "id": "TOKEN-HNI",
+    "face": {
+      "front": {
+        "name": "Energy Marker HNI",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/HNI.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker HNI",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-HNI",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "HNI",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/HNI.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-JBA": {
+    "id": "TOKEN-JBA",
+    "face": {
+      "front": {
+        "name": "Energy Marker JBA",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JBA.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker JBA",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-JBA",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "JBA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JBA.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-MLM": {
+    "id": "TOKEN-MLM",
+    "face": {
+      "front": {
+        "name": "Energy Marker MLM",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MLM.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker MLM",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-MLM",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "MLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MLM.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-NRT": {
+    "id": "TOKEN-NRT",
+    "face": {
+      "front": {
+        "name": "Energy Marker NRT",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NRT.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker NRT",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-NRT",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "NRT",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NRT.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SMK": {
+    "id": "TOKEN-SMK",
+    "face": {
+      "front": {
+        "name": "Energy Marker SMK",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SMK.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker SMK",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-SMK",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "SMK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SMK.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-YYH": {
+    "id": "TOKEN-YYH",
+    "face": {
+      "front": {
+        "name": "Energy Marker YYH",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/YYH.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker YYH",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-YYH",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "YYH",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/YYH.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-CSM1": {
+    "id": "TOKEN-SJM-CSM1",
+    "face": {
+      "front": {
+        "name": "SJ Marker CSM1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-CSM1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker CSM1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-CSM1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "CSM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-CSM1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-CSM2": {
+    "id": "TOKEN-SJM-CSM2",
+    "face": {
+      "front": {
+        "name": "SJ Marker CSM2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-CSM2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker CSM2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-CSM2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "CSM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-CSM2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-ENS1": {
+    "id": "TOKEN-SJM-ENS1",
+    "face": {
+      "front": {
+        "name": "SJ Marker ENS1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ENS1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker ENS1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-ENS1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "ENS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ENS1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-ENS2": {
+    "id": "TOKEN-SJM-ENS2",
+    "face": {
+      "front": {
+        "name": "SJ Marker ENS2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ENS2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker ENS2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-ENS2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "ENS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ENS2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-ENS3": {
+    "id": "TOKEN-SJM-ENS3",
+    "face": {
+      "front": {
+        "name": "SJ Marker ENS3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ENS3.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker ENS3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-ENS3",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "ENS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ENS3.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-FMA1": {
+    "id": "TOKEN-SJM-FMA1",
+    "face": {
+      "front": {
+        "name": "SJ Marker FMA1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-FMA1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker FMA1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-FMA1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "FMA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-FMA1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-FMA2": {
+    "id": "TOKEN-SJM-FMA2",
+    "face": {
+      "front": {
+        "name": "SJ Marker FMA2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-FMA2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker FMA2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-FMA2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "FMA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-FMA2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-FOR1": {
+    "id": "TOKEN-SJM-FOR1",
+    "face": {
+      "front": {
+        "name": "SJ Marker FOR1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-FOR1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker FOR1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-FOR1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "FOR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-FOR1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-FOR2": {
+    "id": "TOKEN-SJM-FOR2",
+    "face": {
+      "front": {
+        "name": "SJ Marker FOR2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-FOR2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker FOR2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-FOR2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "FOR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-FOR2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-GKA1": {
+    "id": "TOKEN-SJM-GKA1",
+    "face": {
+      "front": {
+        "name": "SJ Marker GKA1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-GKA1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker GKA1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-GKA1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "GKA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-GKA1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-GMC1": {
+    "id": "TOKEN-SJM-GMC1",
+    "face": {
+      "front": {
+        "name": "SJ Marker GMC1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-GMC1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker GMC1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-GMC1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "GMC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-GMC1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-HNI1": {
+    "id": "TOKEN-SJM-HNI1",
+    "face": {
+      "front": {
+        "name": "SJ Marker HNI1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-HNI1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker HNI1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-HNI1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "HNI",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-HNI1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-HNI2": {
+    "id": "TOKEN-SJM-HNI2",
+    "face": {
+      "front": {
+        "name": "SJ Marker HNI2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-HNI2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker HNI2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-HNI2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "HNI",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-HNI2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-JBA1": {
+    "id": "TOKEN-SJM-JBA1",
+    "face": {
+      "front": {
+        "name": "SJ Marker JBA1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JBA1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker JBA1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-JBA1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "JBA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JBA1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-JBA2": {
+    "id": "TOKEN-SJM-JBA2",
+    "face": {
+      "front": {
+        "name": "SJ Marker JBA2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JBA2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker JBA2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-JBA2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "JBA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JBA2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-JBA3": {
+    "id": "TOKEN-SJM-JBA3",
+    "face": {
+      "front": {
+        "name": "SJ Marker JBA3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JBA3.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker JBA3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-JBA3",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "JBA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JBA3.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-MGD1": {
+    "id": "TOKEN-SJM-MGD1",
+    "face": {
+      "front": {
+        "name": "SJ Marker MGD1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MGD1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker MGD1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-MGD1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "MGD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MGD1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-MGD2": {
+    "id": "TOKEN-SJM-MGD2",
+    "face": {
+      "front": {
+        "name": "SJ Marker MGD2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MGD2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker MGD2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-MGD2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "MGD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MGD2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-MLM1": {
+    "id": "TOKEN-SJM-MLM1",
+    "face": {
+      "front": {
+        "name": "SJ Marker MLM1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MLM1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker MLM1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-MLM1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "MLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MLM1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-MLM2": {
+    "id": "TOKEN-SJM-MLM2",
+    "face": {
+      "front": {
+        "name": "SJ Marker MLM2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MLM2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker MLM2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-MLM2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "MLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MLM2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-NRT1": {
+    "id": "TOKEN-SJM-NRT1",
+    "face": {
+      "front": {
+        "name": "SJ Marker NRT1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NRT1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker NRT1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-NRT1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "NRT",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NRT1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-NRT2": {
+    "id": "TOKEN-SJM-NRT2",
+    "face": {
+      "front": {
+        "name": "SJ Marker NRT2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NRT2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker NRT2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-NRT2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "NRT",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NRT2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-PRO": {
+    "id": "TOKEN-SJM-PRO",
+    "face": {
+      "front": {
+        "name": "SJ Marker PRO",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-PRO.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker PRO",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-PRO",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "PRO",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-PRO.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-SAF1": {
+    "id": "TOKEN-SJM-SAF1",
+    "face": {
+      "front": {
+        "name": "SJ Marker SAF1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SAF1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker SAF1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-SAF1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "SAF",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SAF1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-SLM1": {
+    "id": "TOKEN-SJM-SLM1",
+    "face": {
+      "front": {
+        "name": "SJ Marker SLM1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SLM1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker SLM1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-SLM1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "SLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SLM1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-SLM2": {
+    "id": "TOKEN-SJM-SLM2",
+    "face": {
+      "front": {
+        "name": "SJ Marker SLM2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SLM2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker SLM2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-SLM2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "SLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SLM2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-SMK1": {
+    "id": "TOKEN-SJM-SMK1",
+    "face": {
+      "front": {
+        "name": "SJ Marker SMK1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SMK1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker SMK1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-SMK1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "SMK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SMK1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-SMK2": {
+    "id": "TOKEN-SJM-SMK2",
+    "face": {
+      "front": {
+        "name": "SJ Marker SMK2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SMK2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker SMK2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-SMK2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "SMK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SMK2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-SMK3": {
+    "id": "TOKEN-SJM-SMK3",
+    "face": {
+      "front": {
+        "name": "SJ Marker SMK3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SMK3.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker SMK3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-SMK3",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "SMK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SMK3.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-WHA1": {
+    "id": "TOKEN-SJM-WHA1",
+    "face": {
+      "front": {
+        "name": "SJ Marker WHA1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WHA1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker WHA1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-WHA1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "WHA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WHA1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-WHA2": {
+    "id": "TOKEN-SJM-WHA2",
+    "face": {
+      "front": {
+        "name": "SJ Marker WHA2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WHA2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker WHA2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-WHA2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "WHA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WHA2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-WTW1": {
+    "id": "TOKEN-SJM-WTW1",
+    "face": {
+      "front": {
+        "name": "SJ Marker WTW1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTW1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker WTW1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-WTW1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "WTW",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTW1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-WTW2": {
+    "id": "TOKEN-SJM-WTW2",
+    "face": {
+      "front": {
+        "name": "SJ Marker WTW2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTW2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker WTW2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-WTW2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "WTW",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTW2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-YYH1": {
+    "id": "TOKEN-SJM-YYH1",
+    "face": {
+      "front": {
+        "name": "SJ Marker YYH1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-YYH1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker YYH1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-YYH1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "YYH",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-YYH1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-YYH2": {
+    "id": "TOKEN-SJM-YYH2",
+    "face": {
+      "front": {
+        "name": "SJ Marker YYH2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-YYH2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker YYH2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-YYH2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "YYH",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-YYH2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-CSM": {
+    "id": "TOKEN-GT-CSM",
+    "face": {
+      "front": {
+        "name": "Guard Token CSM",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-CSM.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token CSM",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-CSM",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "CSM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-CSM.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-ENS": {
+    "id": "TOKEN-GT-ENS",
+    "face": {
+      "front": {
+        "name": "Guard Token ENS",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-ENS.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token ENS",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-ENS",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "ENS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-ENS.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-FMA": {
+    "id": "TOKEN-GT-FMA",
+    "face": {
+      "front": {
+        "name": "Guard Token FMA",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-FMA.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token FMA",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-FMA",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "FMA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-FMA.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-FOR": {
+    "id": "TOKEN-GT-FOR",
+    "face": {
+      "front": {
+        "name": "Guard Token FOR",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-FOR.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token FOR",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-FOR",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "FOR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-FOR.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-GKA": {
+    "id": "TOKEN-GT-GKA",
+    "face": {
+      "front": {
+        "name": "Guard Token GKA",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-GKA.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token GKA",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-GKA",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "GKA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-GKA.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-GMC": {
+    "id": "TOKEN-GT-GMC",
+    "face": {
+      "front": {
+        "name": "Guard Token GMC",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-GMC.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token GMC",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-GMC",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "GMC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-GMC.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-HNI": {
+    "id": "TOKEN-GT-HNI",
+    "face": {
+      "front": {
+        "name": "Guard Token HNI",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-HNI.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token HNI",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-HNI",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "HNI",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-HNI.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-JBA": {
+    "id": "TOKEN-GT-JBA",
+    "face": {
+      "front": {
+        "name": "Guard Token JBA",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-JBA.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token JBA",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-JBA",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "JBA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-JBA.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-MGD": {
+    "id": "TOKEN-GT-MGD",
+    "face": {
+      "front": {
+        "name": "Guard Token MGD",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-MGD.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token MGD",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-MGD",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "MGD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-MGD.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-MLM": {
+    "id": "TOKEN-GT-MLM",
+    "face": {
+      "front": {
+        "name": "Guard Token MLM",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-MLM.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token MLM",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-MLM",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "MLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-MLM.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-NRT": {
+    "id": "TOKEN-GT-NRT",
+    "face": {
+      "front": {
+        "name": "Guard Token NRT",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-NRT.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token NRT",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-NRT",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "NRT",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-NRT.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-PRO": {
+    "id": "TOKEN-GT-PRO",
+    "face": {
+      "front": {
+        "name": "Guard Token PRO",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-PRO.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token PRO",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-PRO",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "PRO",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-PRO.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-SAF": {
+    "id": "TOKEN-GT-SAF",
+    "face": {
+      "front": {
+        "name": "Guard Token SAF",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SAF.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token SAF",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-SAF",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "SAF",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SAF.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-SLM": {
+    "id": "TOKEN-GT-SLM",
+    "face": {
+      "front": {
+        "name": "Guard Token SLM",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SLM.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token SLM",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-SLM",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "SLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SLM.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-SMK": {
+    "id": "TOKEN-GT-SMK",
+    "face": {
+      "front": {
+        "name": "Guard Token SMK",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SMK.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token SMK",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-SMK",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "SMK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SMK.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-WHA": {
+    "id": "TOKEN-GT-WHA",
+    "face": {
+      "front": {
+        "name": "Guard Token WHA",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-WHA.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token WHA",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-WHA",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "WHA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-WHA.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-WTW": {
+    "id": "TOKEN-GT-WTW",
+    "face": {
+      "front": {
+        "name": "Guard Token WTW",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-WTW.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token WTW",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-WTW",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "WTW",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-WTW.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-YYH": {
+    "id": "TOKEN-GT-YYH",
+    "face": {
+      "front": {
+        "name": "Guard Token YYH",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-YYH.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token YYH",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-YYH",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "YYH",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-YYH.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-ENERGY-GENERIC": {
+    "id": "TOKEN-ENERGY-GENERIC",
+    "face": {
+      "front": {
+        "name": "Energy Marker Generic",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENERGY-GENERIC.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker Generic",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-ENERGY-GENERIC",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "GENERIC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENERGY-GENERIC.jpg",
+    "isAccessory": true
+  }
+}

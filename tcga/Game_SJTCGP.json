@@ -1,0 +1,695 @@
+{
+  "name": "SJTCGP - Shonen Jump Trading Card Game",
+  "menuBackgroundImage": "https://decclesia.github.io/SJTCGP/tcga/assets/menu-background.jpg",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://decclesia.github.io/SJTCGP/tcga/assets/menu-background.jpg"
+    ],
+    "decksUrl": "https://decclesia.github.io/SJTCGP/tcga/starterDecks.json"
+  },
+  "customHelp": "SJTCGP setup and play notes\n\nDeck: 1 Leader, exactly 50 Main Deck cards, and up to 10 JUMP Deck cards. Leaders and SECs are limited to 1; JUMP cards are limited to 1; other cards are normally limited to 4. Leader color locks both decks.\n\nAccessories: Fill Energy Stack and SJ Marker Pile with the art matching your Leader's Set. The included converter does this automatically; when building inside TCG Arena, filter accessories by Set. A generic Energy Marker is provided where no exact Energy art currently exists.\n\nLife: After the opening hand/mulligan, manually place cards from the top of your Deck face-down in Life equal to the Life printed on your Leader.\n\nEnergy: The opening charge of 2 is placed automatically at the beginning of each player's first turn. Later charges must be moved manually from Energy Stack: turn 2 charges 3, turn 3 charges 4, and so on. Spent Energy returns to Energy Stack. At end of your turn, move unused Energy to Overcharge Area. At end of the opponent's turn, return unused Overcharged Energy to Energy Stack.\n\nGuard Token: The second player's Guard Token is moved to their hand automatically. It provides +3000 Counter during a defensive Combo.\n\nSJ Markers: When you deal or take damage, you may move up to 1 marker from SJ Marker Pile to SJ Marker Area. Markers enter horizontally. Return spent markers to the pile.\n\nCards: Units play to Field. Main Deck Actions enter Action Resolution and go to Drop when resolved. JUMP Units and JUMP Actions are played from JUMP Deck to Field; JUMP Actions remain there unless removed by a skill. Removed JUMP Units go to Removed from Game unless stated otherwise.\n\nTCG Arena provides the shared board and deck handling; card skills and rules decisions remain manual.",
+  "cardRotation": "90",
+  "cards": {
+    "dataUrl": "https://decclesia.github.io/SJTCGP/tcga/cards.json",
+    "cardBack": "https://decclesia.github.io/SJTCGP/tcga/assets/card-back.jpg",
+    "extraCardBacks": {
+      "JUMP_Deck": "https://decclesia.github.io/SJTCGP/tcga/assets/jump-card-back.jpg"
+    }
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "Color",
+      "Card_Type",
+      "Set",
+      "Release"
+    ],
+    "formats": [
+      {
+        "title": "Standard",
+        "gameplay": "Classic",
+        "customCategories": [
+          "JUMP_Deck",
+          "Energy_Stack",
+          "SJ_Marker_Pile",
+          "Guard_Token_Pile"
+        ],
+        "deckRuleset": "Standard"
+      }
+    ],
+    "deckRulesets": {
+      "Standard": {
+        "general": {
+          "maxPerCard": 4
+        },
+        "categories": [
+          {
+            "category": "Leader",
+            "min": 1,
+            "max": 1,
+            "maxPerCard": 1
+          },
+          {
+            "category": "Main_Deck",
+            "min": 50,
+            "max": 50
+          },
+          {
+            "category": "JUMP_Deck",
+            "min": 0,
+            "max": 10,
+            "maxPerCard": 1
+          },
+          {
+            "category": "Energy_Stack",
+            "min": 20,
+            "max": 20,
+            "maxPerCard": 20
+          },
+          {
+            "category": "SJ_Marker_Pile",
+            "min": 20,
+            "max": 20,
+            "maxPerCard": 20
+          },
+          {
+            "category": "Guard_Token_Pile",
+            "min": 1,
+            "max": 1,
+            "maxPerCard": 1
+          }
+        ]
+      }
+    }
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Opening hand: 5 cards. You may redraw once during setup.",
+        "startingHandSize": 5,
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "beforeGameStart": {
+        "initialBoardSetup": {
+          "0": [
+            {
+              "drawFromTop": "Energy_Stack",
+              "count": 2,
+              "destination": "Energy_Area",
+              "waitForPlayerTurn": true
+            }
+          ],
+          "1": [
+            {
+              "drawFromTop": "Guard_Token_Pile",
+              "count": 1,
+              "destination": "Hand"
+            },
+            {
+              "drawFromTop": "Energy_Stack",
+              "count": 2,
+              "destination": "Energy_Area",
+              "waitForPlayerTurn": true
+            }
+          ]
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "Turn / own charge amount: 1→2, 2→3, 3→4, 4→5, 5→6. Later Energy charges are manual.",
+      "tokens": [
+        "TOKEN-ANE",
+        "TOKEN-CSM",
+        "TOKEN-ENS",
+        "TOKEN-FMA",
+        "TOKEN-HNI",
+        "TOKEN-JBA",
+        "TOKEN-MLM",
+        "TOKEN-NRT",
+        "TOKEN-SMK",
+        "TOKEN-YYH",
+        "TOKEN-SJM-CSM1",
+        "TOKEN-SJM-CSM2",
+        "TOKEN-SJM-ENS1",
+        "TOKEN-SJM-ENS2",
+        "TOKEN-SJM-ENS3",
+        "TOKEN-SJM-FMA1",
+        "TOKEN-SJM-FMA2",
+        "TOKEN-SJM-FOR1",
+        "TOKEN-SJM-FOR2",
+        "TOKEN-SJM-GKA1",
+        "TOKEN-SJM-GMC1",
+        "TOKEN-SJM-HNI1",
+        "TOKEN-SJM-HNI2",
+        "TOKEN-SJM-JBA1",
+        "TOKEN-SJM-JBA2",
+        "TOKEN-SJM-JBA3",
+        "TOKEN-SJM-MGD1",
+        "TOKEN-SJM-MGD2",
+        "TOKEN-SJM-MLM1",
+        "TOKEN-SJM-MLM2",
+        "TOKEN-SJM-NRT1",
+        "TOKEN-SJM-NRT2",
+        "TOKEN-SJM-PRO",
+        "TOKEN-SJM-SAF1",
+        "TOKEN-SJM-SLM1",
+        "TOKEN-SJM-SLM2",
+        "TOKEN-SJM-SMK1",
+        "TOKEN-SJM-SMK2",
+        "TOKEN-SJM-SMK3",
+        "TOKEN-SJM-WHA1",
+        "TOKEN-SJM-WHA2",
+        "TOKEN-SJM-WTW1",
+        "TOKEN-SJM-WTW2",
+        "TOKEN-SJM-YYH1",
+        "TOKEN-SJM-YYH2",
+        "TOKEN-GT-CSM",
+        "TOKEN-GT-ENS",
+        "TOKEN-GT-FMA",
+        "TOKEN-GT-FOR",
+        "TOKEN-GT-GKA",
+        "TOKEN-GT-GMC",
+        "TOKEN-GT-HNI",
+        "TOKEN-GT-JBA",
+        "TOKEN-GT-MGD",
+        "TOKEN-GT-MLM",
+        "TOKEN-GT-NRT",
+        "TOKEN-GT-PRO",
+        "TOKEN-GT-SAF",
+        "TOKEN-GT-SLM",
+        "TOKEN-GT-SMK",
+        "TOKEN-GT-WHA",
+        "TOKEN-GT-WTW",
+        "TOKEN-GT-YYH",
+        "TOKEN-ENERGY-GENERIC"
+      ],
+      "countersStartingValues": [
+        0,
+        0
+      ],
+      "hideFacedDownCards": false,
+      "draggableTokens": [],
+      "sections": {
+        "customSections": [
+          "SJ_Marker_Pile",
+          "SJ_Marker_Area",
+          "Energy_Stack",
+          "Guard_Token_Pile",
+          "JUMP_Deck",
+          "Leader",
+          "Life",
+          "Field",
+          "Combo",
+          "Energy_Area",
+          "Overcharge_Area"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": true,
+          "style": {
+            "marginTop": "-0.5vh",
+            "gap": "0.6vh"
+          },
+          "content": [
+            {
+              "direction": "column",
+              "style": {
+                "width": "14vh"
+              },
+              "content": [
+                {
+                  "section": "SJ_Marker_Pile",
+                  "style": {
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "SJ_Marker_Area",
+                  "style": {
+                    "height": "8vh",
+                    "minHeight": "8vh"
+                  }
+                },
+                {
+                  "section": "Energy_Stack",
+                  "style": {
+                    "height": "11vh"
+                  }
+                },
+                {
+                  "section": "Guard_Token_Pile",
+                  "style": {
+                    "height": "8vh"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "14vh"
+              },
+              "content": [
+                {
+                  "section": "JUMP_Deck",
+                  "style": {
+                    "height": "20vh"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "14vh"
+              },
+              "content": [
+                {
+                  "section": "Leader",
+                  "style": {
+                    "height": "20vh"
+                  }
+                },
+                {
+                  "section": "Life",
+                  "style": {
+                    "height": "20vh"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "flex": 1
+              },
+              "content": [
+                {
+                  "section": "Field",
+                  "style": {
+                    "flex": 1,
+                    "minHeight": "23vh"
+                  }
+                },
+                {
+                  "section": "Combo",
+                  "style": {
+                    "height": "9vh",
+                    "minHeight": "9vh"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "height": "10vh",
+                    "minHeight": "10vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Energy_Area",
+                      "style": {
+                        "flex": 3
+                      }
+                    },
+                    {
+                      "section": "Overcharge_Area",
+                      "style": {
+                        "flex": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "20vh"
+              },
+              "content": [
+                {
+                  "section": "Deck",
+                  "style": {
+                    "height": "19vh"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "height": "16vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Discard",
+                      "style": {
+                        "flex": 1
+                      }
+                    },
+                    {
+                      "section": "Exile",
+                      "style": {
+                        "flex": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Leader",
+          "JUMP_Deck",
+          "Energy_Stack",
+          "SJ_Marker_Pile",
+          "Guard_Token_Pile"
+        ],
+        "autoPlayFromHand": {
+          "LEADER": "Leader",
+          "UNIT": "Field",
+          "ACTION": "Stack",
+          "JUMP LEADER": "Leader",
+          "JUMP UNIT": "Field",
+          "JUMP ACTION": "Field",
+          "ENERGY": "Energy_Area",
+          "SJ MARKER": "SJ_Marker_Area",
+          "GUARD TOKEN": "Hand"
+        },
+        "autoPlayFromStack": {
+          "LEADER": "Leader",
+          "UNIT": "Field",
+          "ACTION": "Discard",
+          "JUMP LEADER": "Leader",
+          "JUMP UNIT": "Field",
+          "JUMP ACTION": "Field",
+          "ENERGY": "Energy_Area",
+          "SJ MARKER": "SJ_Marker_Area",
+          "GUARD TOKEN": "Hand"
+        },
+        "sectionsDict": {
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Hand",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "autoPayFrom": true
+          },
+          "Discard": {
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Drop",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Stack": {
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Action Resolution",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Exile": {
+            "title": "Exile",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Removed from Game",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "ExileHidden": {
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Removed Face-Down",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Sideboard": {
+            "title": "Sideboard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Sideboard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "SJ_Marker_Pile": {
+            "title": "SJ_Marker_Pile",
+            "isHidden": "no",
+            "height": "13",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "SJ Marker Pile",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "SJ_Marker_Area": {
+            "title": "SJ_Marker_Area",
+            "isHidden": "no",
+            "height": "8",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "SJ Marker Area",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Energy_Stack": {
+            "title": "Energy_Stack",
+            "isHidden": "no",
+            "height": "11",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Energy Stack",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Guard_Token_Pile": {
+            "title": "Guard_Token_Pile",
+            "isHidden": "no",
+            "height": "8",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Guard Token",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "JUMP_Deck": {
+            "title": "JUMP_Deck",
+            "isHidden": "yes",
+            "height": "18",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "JUMP Deck",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Leader": {
+            "title": "Leader",
+            "isHidden": "no",
+            "height": "18",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "Leader Area",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Life": {
+            "title": "Life",
+            "isHidden": "yes",
+            "height": "18",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Life Area",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Field": {
+            "title": "Field",
+            "isHidden": "no",
+            "height": "18",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "Field",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Combo": {
+            "title": "Combo",
+            "isHidden": "no",
+            "height": "8",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "Combo Area",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Energy_Area": {
+            "title": "Energy_Area",
+            "isHidden": "no",
+            "height": "8",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "Energy Area",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Overcharge_Area": {
+            "title": "Overcharge_Area",
+            "isHidden": "no",
+            "height": "8",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "Overcharge Area",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}
