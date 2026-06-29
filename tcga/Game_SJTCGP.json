@@ -61,13 +61,13 @@
           },
           {
             "category": "Energy_Stack",
-            "min": 20,
-            "max": 20,
-            "maxPerCard": 20
+            "min": 10,
+            "max": 10,
+            "maxPerCard": 10
           },
           {
             "category": "SJ_Marker_Pile",
-            "min": 20,
+            "min": 4,
             "max": 20,
             "maxPerCard": 20
           },
@@ -84,8 +84,8 @@
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Opening hand: 5 cards. You may redraw once during setup.",
-        "startingHandSize": 5,
+        "info": "Opening hand: 6 cards. You may redraw once during setup.",
+        "startingHandSize": 6,
         "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
