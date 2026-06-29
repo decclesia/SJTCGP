@@ -439,7 +439,7 @@ def build_sections() -> dict:
         "SJ_Marker_Area": section("SJ_Marker_Area", "SJ Marker Area", height="8", horizontal=True, enter_tapped=True, keep_tapped=True),
         "Energy_Stack": section("Energy_Stack", "Energy Stack", height="11", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, keep_tapped=True),
         "Guard_Token_Pile": section("Guard_Token_Pile", "Guard Token", height="8", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, keep_tapped=True),
-        "JUMP_Deck": section("JUMP_Deck", "JUMP Deck", hidden="yes", height="18", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, keep_tapped=True, quick_actions=True),
+        "JUMP_Deck": section("JUMP_Deck", "JUMP Deck", hidden="yes", height="18", alignment="DECK", horizontal=True, group_forbidden=True, no_auto_pay_to=False, keep_tapped=True, quick_actions=True),
         "Leader": section("Leader", "Leader Area", height="18", horizontal=True),
         "Life": section("Life", "Life Area", hidden="yes", height="18", alignment="DECK", group_forbidden=True, quick_actions=True, keep_tapped=True),
         "Field": section("Field", "Field", height="18", horizontal=True),
@@ -491,21 +491,6 @@ def build_layout() -> dict:
                         "content": [
                             {"section": "Energy_Area", "style": {"flex": 3}},
                             {"section": "Overcharge_Area", "style": {"flex": 1}},
-                        ],
-                    },
-                ],
-            },
-            {
-                "direction": "column",
-                "style": {"width": "20vh"},
-                "content": [
-                    {"section": "Deck", "style": {"height": "19vh"}},
-                    {
-                        "direction": "row",
-                        "style": {"height": "16vh"},
-                        "content": [
-                            {"section": "Discard", "style": {"flex": 1}},
-                            {"section": "Exile", "style": {"flex": 1}},
                         ],
                     },
                 ],
@@ -563,8 +548,8 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
                         {"category": "Leader", "min": 1, "max": 1, "maxPerCard": 1},
                         {"category": "Main_Deck", "min": 50, "max": 50},
                         {"category": "JUMP_Deck", "min": 0, "max": 10, "maxPerCard": 1},
-                        {"category": "Energy_Stack", "min": 20, "max": 20, "maxPerCard": 20},
-                        {"category": "SJ_Marker_Pile", "min": 20, "max": 20, "maxPerCard": 20},
+                        {"category": "Energy_Stack", "min": 10, "max": 10, "maxPerCard": 10},
+                        {"category": "SJ_Marker_Pile", "min": 4, "max": 20, "maxPerCard": 20},
                         {"category": "Guard_Token_Pile", "min": 1, "max": 1, "maxPerCard": 1},
                     ],
                 }
@@ -573,8 +558,8 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
         "gameplay": {
             "Classic": {
                 "mulligan": {
-                    "info": "Opening hand: 5 cards. You may redraw once during setup.",
-                    "startingHandSize": 5,
+                    "info": "Opening hand: 6 cards. You may redraw once during setup.",
+                    "startingHandSize": 6,
                     "drawNewHand": True,
                     "putSelectionAtBottom": False,
                     "drawNewSelectedCards": False,
@@ -694,7 +679,7 @@ def make_tcga_deck(source: dict, cards: dict, marker_map: dict, title: str | Non
         "Main_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("main", {}).items()],
         "Leader": [{"count": 1, "id": leader}],
         "JUMP_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("jump", {}).items()],
-        "Energy_Stack": [{"count": 20, "id": energy_id}],
+        "Energy_Stack": [{"count": 10, "id": energy_id}],
         "SJ_Marker_Pile": sj_entries,
         "Guard_Token_Pile": ([{"count": 1, "id": guard_id}] if guard_id else []),
     }
@@ -746,7 +731,7 @@ TEMPORARY CARD BACK
 Replace tcga/assets/card-back.jpg whenever you design the final card back. Replace tcga/assets/jump-card-back.jpg separately if you want a distinct JUMP Deck back. The JSON does not need to change if the filenames stay the same.
 
 CURRENT SETUP ASSUMPTION
-The game file uses a 5-card opening hand and lets players redraw once. Life is deliberately manual because Life totals vary by Leader. If the opening-hand rule differs, edit gameplay > Classic > mulligan > startingHandSize in Game_SJTCGP.json.
+The game file uses a 6-card opening hand and lets players redraw once. Life is deliberately manual because Life totals vary by Leader. If the opening-hand rule differs, edit gameplay > Classic > mulligan > startingHandSize in Game_SJTCGP.json.
 """
 
 
