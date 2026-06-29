@@ -325,40 +325,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "direction": "column",
-              "style": {
-                "width": "20vh"
-              },
-              "content": [
-                {
-                  "section": "Deck",
-                  "style": {
-                    "height": "19vh"
-                  }
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "height": "16vh"
-                  },
-                  "content": [
-                    {
-                      "section": "Discard",
-                      "style": {
-                        "flex": 1
-                      }
-                    },
-                    {
-                      "section": "Exile",
-                      "style": {
-                        "flex": 1
-                      }
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -583,7 +549,7 @@
             "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
+            "isHorizontalAllowed": true,
             "isGroupForbidden": true,
             "displayedTitle": "JUMP Deck",
             "noQuickActions": true,
