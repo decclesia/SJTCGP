@@ -57,7 +57,7 @@ def main() -> None:
         "Main_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("main", {}).items()],
         "Leader": [{"count": 1, "id": leader}],
         "JUMP_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("jump", {}).items()],
-        "Energy_Stack": [{"count": 20, "id": energy_id}],
+        "Energy_Stack": [{"count": 10, "id": energy_id}],
         "SJ_Marker_Pile": distribute(20, sj_ids),
         "Guard_Token_Pile": ([{"count": 1, "id": guard_id}] if guard_id else []),
     }
