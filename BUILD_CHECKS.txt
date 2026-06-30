@@ -10,6 +10,8 @@ PUP-060 Traits: blank (JUMP Action correction)
 PUP card rarity: P supported
 WTW cards: 23 (20 ST3 cards + 3 promos)
 Landscape WTW JUMP Actions: ST3-080, PUP-053
+TCG Arena landscape assets: 52 counter-rotated JUMP Action faces
+Revised card transcriptions: EX3-001, ST1-052, ST3-021, ST1-001, SD4-001, ST3-059, SD1-020, EX4-021, EX4-014
 WTW JUMP Units without Counter fields: ST3-078, ST3-079
 EX3 rarity distribution: 1 L, 3 SR, 17 R
 ST3-102 category: Secret Rare
