@@ -29,12 +29,14 @@
       "Four Horsemen"
     ],
     "Keywords": [
+      "Activate: Main",
       "End of Opponent's Turn",
       "Opponent's Attack",
       "Opponent's Turn",
+      "Once per Turn",
       "Threshold"
     ],
-    "Effect": "[Opponent's Attack] Switch the attack target to 1 of your Units, then negate this skill for the turn.\n[End of Opponent's Turn] Add up to 1 \"Nayuta\" from your Drop to your hand.\nThreshold 4 Remove 1 \"Nayuta\" in your Drop from the game; shuffle up to 3 cards with \"Control Devil\" in their traits into their owner's Deck(s), then draw 1 card.",
+    "Effect": "[Opponent's Attack] Once per Turn Switch the attack target to 1 of your Units.\n[End of Opponent's Turn] Add up to 1 \"Nayuta\" from your Drop to your hand.\nThreshold 4 [Activate: Main] Once per Turn Remove 1 \"Nayuta\" in your Drop from the game; shuffle up to 3 cards with the \"Control Devil\" Trait from your Drop into your Deck. Then, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST1-001.jpg"
@@ -1963,11 +1965,12 @@
     ],
     "Keywords": [
       "Activate: Main",
+      "Once per Turn",
       "Permanent",
       "Threshold",
       "Critical"
     ],
-    "Effect": "[Activate: Main] Draw 2 cards; place 1 card from your hand in your Drop.\n[Activate: Main] Add 1 card from your Life to your hand: Add up to 1 \"Sand Gourd\" from your Deck to your hand. Then, shuffle your Deck and negate this skill for the game.\nThreshold 3 <Permanent> This card gains Critical",
+    "Effect": "[Activate: Main] Once per Turn Draw 2 cards; place 1 card from your hand in your Drop.\n[Activate: Main] Add 1 card from your Life to your hand: Add up to 1 \"Sand Gourd\" from your Deck to your hand. Then, shuffle your Deck and negate this skill for the game.\nThreshold 3 Permanent Give this card Critical.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST1-052.jpg"
@@ -10600,7 +10603,7 @@
     "Rarity": "L",
     "Cost": null,
     "SJ_Cost": null,
-    "Life": 6,
+    "Life": 5,
     "Power": 5000,
     "Counter": null,
     "Traits": [
@@ -10613,7 +10616,7 @@
       "Permanent",
       "Threshold"
     ],
-    "Effect": "Permanent Give all of your Units with an original Cost of 1 and the \"Sailor Guardian\" Trait +2 Cost.\n[On Attack] (1) Play up to 1 Unit card with a Cost of 1 and the \"Sailor Guardian\" Trait from your hand.\nThreshold 3 [Activate: Main] Once per Turn (1) Give up to 2 of your Units with the \"Sailor Guardian\" Trait +1000 Power for the turn.",
+    "Effect": "Permanent Give all of your Units with an original Cost of 1 and the \"Sailor Guardian\" Trait +2 Cost.\n[On Attack] Draw 1 card; play up to 1 Unit card with a Cost of 1 and the \"Sailor Guardian\" Trait from your hand.\nThreshold 2 [Activate: Main] Once per Turn (1) Give up to 2 of your Units with the \"Sailor Guardian\" Trait +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST3-021.jpg"
@@ -13028,12 +13031,12 @@
       "Shaman"
     ],
     "Keywords": [
-      "Activate: Battle",
       "On Play",
+      "Your Turn",
       "Barrier",
       "Deflect"
     ],
-    "Effect": "Deflect Barrier\n[On Play] Choose up to 1 of your Opponent's Units and place it at the bottom of its owner's Deck.\n[Activate: Battle] Remove all cards from under this card from the game: Place all cards from your Opponent's Combo area at the bottom of their owner's Deck and give this card +1000 Power for each card in your Combo area.",
+    "Effect": "Deflect Barrier\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 3 or less and place it at the bottom of its owner's Deck.\n[Your Turn] When your Opponent uses a card in a combo: Remove all cards from under this card from the game; place up to 1 card from your Opponent's Combo area at the bottom of their owner's Deck and give this card +1000 Power for each card in your Combo area.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/SD1-020.jpg"
@@ -14589,7 +14592,7 @@
       "Once per Turn",
       "Threshold"
     ],
-    "Effect": "[Activate: Main] Once per Turn Place 1 card from your hand in your Drop: Look at the top 5 cards of your Deck; reveal up to 2 cards with \"Alchemy\" in their Traits and add them to your hand. Then, place the rest at the bottom of your Deck in any order.\nThreshold 3 [Opponent's Turn] When one of your Units with \"Alchemy\" in their Traits is K.O.ed by your Opponent's skill, you may place 1 card from your hand at the bottom of your Deck: Add that Unit card from your Drop to your hand.",
+    "Effect": "[Activate: Main] Once per Turn Place 1 card from your hand in your Drop: Look at the top 5 cards of your Deck; add up to 2 cards with the \"Alchemy\" or \"Alchemist\" Trait to your hand. Then, shuffle your Deck.\nThreshold 3 [Opponent's Turn] When 1 of your Units with the \"Alchemy\" Trait is K.O.ed by a skill, you may place 1 card from your hand at the bottom of your Deck: Add that card from your Drop to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/SD4-001.jpg"
@@ -17790,7 +17793,7 @@
       "Threshold",
       "Break"
     ],
-    "Effect": "[On Attack] Draw 1 card. Then, place 1 card from your hand at the bottom of your Deck.\n[Your Turn] Once per Turn (1) When one of your Units with Break attacks, give that Unit +1000 Power for the battle.\nThreshold 2 [Activate: Main] Once per Turn Remove 2 SJ Markers: Place 1 of your Units with a Cost of 2 or more in your Drop; switch this card to Active mode.",
+    "Effect": "[On Attack] Draw 1 card.\n[Your Turn] Once per Turn When one of your Units with Break attacks, give it +1000 Power for the battle.\nThreshold 2 [Activate: Main] Once per Turn Remove 1 SJ Marker: Place 1 of your Units with a Cost of 2 or more in your Drop; switch this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/EX3-001.jpg"
@@ -19087,7 +19090,7 @@
       "front": {
         "name": "Forever Entwined",
         "type": "ACTION",
-        "cost": 6,
+        "cost": 3,
         "image": "https://decclesia.github.io/SJTCGP/images/EX4-014.jpg",
         "isHorizontal": false
       }
@@ -19100,7 +19103,7 @@
     "Set": "SAF",
     "Release": "EX4",
     "Rarity": "R",
-    "Cost": 6,
+    "Cost": 3,
     "SJ_Cost": null,
     "Life": null,
     "Power": null,
@@ -19112,9 +19115,10 @@
     "Keywords": [
       "Activate: Main",
       "Overcharge",
+      "Limit 1",
       "Charge"
     ],
-    "Effect": "[Activate: Main] If your Leader is \"Anne Halford\": Play up to 1 \"Challe Fen Challe\" with a Cost of 7 or less from your hand. Then, Overcharge 2.",
+    "Effect": "[Activate: Main] Limit 1 If your Leader is \"Anne Halford\": Play up to 1 \"Challe Fen Challe\" with a Cost equal to your Total Energy +1 or less from your hand. Then, Overcharge 2.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/EX4-014.jpg"
@@ -19368,7 +19372,7 @@
       "Opponent's Attack",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] If your Leader is \"Anne Halford\": Return this card to your JUMP Deck and give your Leader +1000 Power for the turn.",
+    "Effect": "Clash [Opponent's Attack] If your Leader is \"Anne Halford\": Return this card to your JUMP Deck and give your Leader +2000 Power for the turn. Then, draw 1 card.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX4-021.jpg"
