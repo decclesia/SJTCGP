@@ -6,7 +6,7 @@
     "format": [
       "Standard"
     ],
-    "cardCount": 87,
+    "cardCount": 75,
     "createdAt": "2026-06-29T15:27:55.996038Z",
     "lastModifiedAt": "2026-06-29T15:27:55.996038Z",
     "deckList": {
@@ -141,15 +141,15 @@
       ],
       "SJ_Marker_Pile": [
         {
-          "count": 7,
+          "count": 3,
           "id": "TOKEN-SJM-JBA1"
         },
         {
-          "count": 7,
+          "count": 3,
           "id": "TOKEN-SJM-JBA2"
         },
         {
-          "count": 6,
+          "count": 2,
           "id": "TOKEN-SJM-JBA3"
         }
       ],
