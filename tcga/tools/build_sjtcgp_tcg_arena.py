@@ -77,6 +77,7 @@ KEYWORDS = [
     "Revenge",
     "Swap",
     "Unique",
+    "Unblockable",
 ]
 
 
