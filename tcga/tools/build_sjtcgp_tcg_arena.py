@@ -590,8 +590,8 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
                         {"category": "Leader", "min": 1, "max": 1, "maxPerCard": 1},
                         {"category": "Main_Deck", "min": 50, "max": 50},
                         {"category": "JUMP_Deck", "min": 0, "max": 10, "maxPerCard": 1},
-                        {"category": "Energy_Stack", "min": 20, "max": 20, "maxPerCard": 20},
-                        {"category": "SJ_Marker_Pile", "min": 20, "max": 20, "maxPerCard": 20},
+                        {"category": "Energy_Stack", "min": 10, "max": 10, "maxPerCard": 10},
+                        {"category": "SJ_Marker_Pile", "min": 8, "max": 8, "maxPerCard": 8},
                         {"category": "Guard_Token_Pile", "min": 1, "max": 1, "maxPerCard": 1},
                     ],
                 }
@@ -600,8 +600,8 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
         "gameplay": {
             "Classic": {
                 "mulligan": {
-                    "info": "Opening hand: 5 cards. You may redraw once during setup.",
-                    "startingHandSize": 5,
+                    "info": "Opening hand: 6 cards. You may redraw once during setup.",
+                    "startingHandSize": 6,
                     "drawNewHand": True,
                     "putSelectionAtBottom": False,
                     "drawNewSelectedCards": False,
@@ -716,12 +716,12 @@ def make_tcga_deck(source: dict, cards: dict, marker_map: dict, title: str | Non
         # No incorrect cross-series fallback: use an empty category and let the user select art.
         sj_entries = []
     else:
-        sj_entries = distribute(20, sj_ids)
+        sj_entries = distribute(8, sj_ids)
     categories = {
         "Main_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("main", {}).items()],
         "Leader": [{"count": 1, "id": leader}],
         "JUMP_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("jump", {}).items()],
-        "Energy_Stack": [{"count": 20, "id": energy_id}],
+        "Energy_Stack": [{"count": 10, "id": energy_id}],
         "SJ_Marker_Pile": sj_entries,
         "Guard_Token_Pile": ([{"count": 1, "id": guard_id}] if guard_id else []),
     }
@@ -773,7 +773,7 @@ TEMPORARY CARD BACK
 Replace tcga/assets/card-back.jpg whenever you design the final card back. Replace tcga/assets/jump-card-back.jpg separately if you want a distinct JUMP Deck back. The JSON does not need to change if the filenames stay the same.
 
 CURRENT SETUP ASSUMPTION
-The game file uses a 5-card opening hand and lets players redraw once. Life is deliberately manual because Life totals vary by Leader. If the opening-hand rule differs, edit gameplay > Classic > mulligan > startingHandSize in Game_SJTCGP.json.
+The game file uses a 6-card opening hand and lets players redraw once. Life is deliberately manual because Life totals vary by Leader. If the opening-hand rule differs, edit gameplay > Classic > mulligan > startingHandSize in Game_SJTCGP.json.
 """
 
 
