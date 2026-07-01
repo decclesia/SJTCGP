@@ -5,6 +5,14 @@
       "sjMarkers": [],
       "guardToken": null
     },
+    "CCS": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-CCS1",
+        "TOKEN-SJM-CCS2"
+      ],
+      "guardToken": "TOKEN-GT-CCS"
+    },
     "CSM": {
       "energy": "TOKEN-CSM",
       "sjMarkers": [
@@ -279,6 +287,24 @@
         "TOKEN-SJM-WHA2"
       ],
       "guardToken": "TOKEN-GT-WHA"
+    },
+    "ST3-061": {
+      "set": "WTW",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-WTW1",
+        "TOKEN-SJM-WTW2"
+      ],
+      "guardToken": "TOKEN-GT-WTW"
+    },
+    "ST3-081": {
+      "set": "CCS",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-CCS1",
+        "TOKEN-SJM-CCS2"
+      ],
+      "guardToken": "TOKEN-GT-CCS"
     },
     "SD1-001": {
       "set": "SMK",

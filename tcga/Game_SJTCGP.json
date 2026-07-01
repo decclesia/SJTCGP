@@ -61,13 +61,13 @@
           },
           {
             "category": "Energy_Stack",
-            "min": 10,
-            "max": 10,
-            "maxPerCard": 10
+            "min": 20,
+            "max": 20,
+            "maxPerCard": 20
           },
           {
             "category": "SJ_Marker_Pile",
-            "min": 4,
+            "min": 20,
             "max": 20,
             "maxPerCard": 20
           },
@@ -84,8 +84,8 @@
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Opening hand: 6 cards. You may redraw once during setup.",
-        "startingHandSize": 6,
+        "info": "Opening hand: 5 cards. You may redraw once during setup.",
+        "startingHandSize": 5,
         "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -133,6 +133,8 @@
         "TOKEN-NRT",
         "TOKEN-SMK",
         "TOKEN-YYH",
+        "TOKEN-SJM-CCS1",
+        "TOKEN-SJM-CCS2",
         "TOKEN-SJM-CSM1",
         "TOKEN-SJM-CSM2",
         "TOKEN-SJM-ENS1",
@@ -168,6 +170,7 @@
         "TOKEN-SJM-WTW2",
         "TOKEN-SJM-YYH1",
         "TOKEN-SJM-YYH2",
+        "TOKEN-GT-CCS",
         "TOKEN-GT-CSM",
         "TOKEN-GT-ENS",
         "TOKEN-GT-FMA",
@@ -318,6 +321,40 @@
                     },
                     {
                       "section": "Overcharge_Area",
+                      "style": {
+                        "flex": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "20vh"
+              },
+              "content": [
+                {
+                  "section": "Deck",
+                  "style": {
+                    "height": "19vh"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "height": "16vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Discard",
+                      "style": {
+                        "flex": 1
+                      }
+                    },
+                    {
+                      "section": "Exile",
                       "style": {
                         "flex": 1
                       }
@@ -549,7 +586,7 @@
             "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
+            "isHorizontalAllowed": false,
             "isGroupForbidden": true,
             "displayedTitle": "JUMP Deck",
             "noQuickActions": true,

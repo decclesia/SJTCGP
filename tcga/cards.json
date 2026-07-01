@@ -10962,7 +10962,8 @@
       "Sailor Guardian"
     ],
     "Keywords": [
-      "Activate: Main"
+      "Activate: Main",
+      "Unblockable"
     ],
     "Effect": "[Activate: Main] Rest this card: Give up to 1 of your Units with the \"Sailor Guardian\" Trait Unblockable for the turn.",
     "Deck_Zone": "Main",
@@ -12114,6 +12115,1565 @@
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST3-060.jpg"
+  },
+  "ST3-061": {
+    "id": "ST3-061",
+    "face": {
+      "front": {
+        "name": "Wakatsuki Nico",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-061.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Wakatsuki Nico [ST3-061]",
+    "type": "Leader",
+    "Number": "ST3-061",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Witch of Thousands"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Once per Turn",
+      "Threshold",
+      "Swap"
+    ],
+    "Effect": "Once per Turn When you activate a Swap skill, draw 1 card.\n[Activate: Main] Once per Turn Add 1 card from your Life to your hand: Reduce the Cost of the next Swap skill you activate by (1) until the end of your Opponent's next turn.\nThreshold 3 [Activate: Battle] Once per Turn Return 1 of your \"Otogi Morihito\" to your hand: Play up to 1 \"Wakatsuki Nico\" from your hand. Until the end of your Opponent's next turn, you cannot play additional copies of either of those cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-061.jpg"
+  },
+  "ST3-062": {
+    "id": "ST3-062",
+    "face": {
+      "front": {
+        "name": "Otogi Morihito",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-062.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Otogi Morihito [ST3-062]",
+    "type": "Main_Deck",
+    "Number": "ST3-062",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Ogre",
+      "Familiar"
+    ],
+    "Keywords": [
+      "Double Damage",
+      "On Attack",
+      "On Play",
+      "Barrier",
+      "Swap",
+      "Unique"
+    ],
+    "Effect": "Unique Double Damage\n[On Play] If this card was played by Swap, choose up to 1 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and return it to its owner's hand.\n[On Attack] If a Unit returned to your hand this turn, give this card +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-062.jpg"
+  },
+  "ST3-063": {
+    "id": "ST3-063",
+    "face": {
+      "front": {
+        "name": "Otogi Morihito",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-063.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Otogi Morihito [ST3-063]",
+    "type": "Main_Deck",
+    "Number": "ST3-063",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Ogre",
+      "Familiar"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Overcharge",
+      "Blocker",
+      "Charge",
+      "Swap"
+    ],
+    "Effect": "Blocker\n[On Play] If this card was played by Swap, give this card +1000 Power until the end of your Opponent's next turn.\n[End of your Turn] If you have no Energy and a Unit returned to your hand this turn, Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-063.jpg"
+  },
+  "ST3-064": {
+    "id": "ST3-064",
+    "face": {
+      "front": {
+        "name": "Wakatsuki Nico",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-064.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Wakatsuki Nico [ST3-064]",
+    "type": "Main_Deck",
+    "Number": "ST3-064",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Witch of Thousands"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Swap"
+    ],
+    "Effect": "Swap Limit 1 (2) 5 Cost \"Otogi Morihito\"\n[On Play] Look at the top 5 cards of your Deck; add up to 1 \"Otogi Morihito\" or Action card with the \"Magic\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-064.jpg"
+  },
+  "ST3-065": {
+    "id": "ST3-065",
+    "face": {
+      "front": {
+        "name": "Wakatsuki Nico",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-065.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Wakatsuki Nico [ST3-065]",
+    "type": "Main_Deck",
+    "Number": "ST3-065",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Witch of Thousands"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Swap"
+    ],
+    "Effect": "Swap Limit 1 (1) 4 Cost Unit with the \"Familiar\" Trait\n[On Play] Draw 1 card; place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-065.jpg"
+  },
+  "ST3-066": {
+    "id": "ST3-066",
+    "face": {
+      "front": {
+        "name": "Otogi Morihito",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-066.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Otogi Morihito [ST3-066]",
+    "type": "Main_Deck",
+    "Number": "ST3-066",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Ogre",
+      "Familiar"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Overcharge",
+      "Charge",
+      "Clash",
+      "Swap"
+    ],
+    "Effect": "[On Play] If this card was played by Swap, choose up to 1 of your Opponent's Units with a Cost of 2 or less and place it at the bottom of its owner's Deck.\nClash [Activate: Battle] Place 1 card from your hand at the bottom of your Deck: Overcharge 1 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-066.jpg"
+  },
+  "ST3-067": {
+    "id": "ST3-067",
+    "face": {
+      "front": {
+        "name": "Kazamatsuri Kanshi",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-067.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kazamatsuri Kanshi [ST3-067]",
+    "type": "Main_Deck",
+    "Number": "ST3-067",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Tengu",
+      "Familiar"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect",
+      "Elusive",
+      "Swap"
+    ],
+    "Effect": "Deflect Elusive\n[On Play] If this card was played by Swap, return up to 1 of your other Units to its owner's hand. Then, if you returned a card, choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-067.jpg"
+  },
+  "ST3-068": {
+    "id": "ST3-068",
+    "face": {
+      "front": {
+        "name": "Magami Keigo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-068.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Magami Keigo [ST3-068]",
+    "type": "Main_Deck",
+    "Number": "ST3-068",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Werewolf",
+      "Familiar"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Block",
+      "Blocker",
+      "Deflect",
+      "Swap"
+    ],
+    "Effect": "Deflect Blocker\n[On Attack / On Block] If this card was played by Swap this turn, give this card +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-068.jpg"
+  },
+  "ST3-069": {
+    "id": "ST3-069",
+    "face": {
+      "front": {
+        "name": "Wakatsuki Nico",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-069.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Wakatsuki Nico [ST3-069]",
+    "type": "Main_Deck",
+    "Number": "ST3-069",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Witch of Thousands"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Attack",
+      "On Play",
+      "Limit 1",
+      "Clash",
+      "Swap"
+    ],
+    "Effect": "Swap Limit 1 (1) 4 Cost Unit with the \"Familiar\" Trait\n[On Play] Draw 1 card and place 1 card from your hand at the bottom of your Deck. Then, until the end of the turn, you can activate Swap skills at Clash [Activate: Battle] timing.\nClash [Opponent's Attack] Limit 1 (2) Play this card from your hand and make it the new attack target.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-069.jpg"
+  },
+  "ST3-070": {
+    "id": "ST3-070",
+    "face": {
+      "front": {
+        "name": "Wakatsuki Nico",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-070.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Wakatsuki Nico [ST3-070]",
+    "type": "Main_Deck",
+    "Number": "ST3-070",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch of Thousands"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1",
+      "Swap"
+    ],
+    "Effect": "Swap Limit 1 (2) 7 Cost \"Otogi Morihito\"\n[On Play] Add up to 1 Unit card with the \"Familiar\" Trait from your Drop to your hand. Then, place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-070.jpg"
+  },
+  "ST3-071": {
+    "id": "ST3-071",
+    "face": {
+      "front": {
+        "name": "Kiryu Miharu",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-071.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kiryu Miharu [ST3-071]",
+    "type": "Main_Deck",
+    "Number": "ST3-071",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Vampire",
+      "Familiar"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Limit 1",
+      "Barrier",
+      "Clash"
+    ],
+    "Effect": "[On Play] Limit 1 Give up to 1 of your Units with the \"Ogre\" or \"Witch of Thousands\" Trait Barrier until the end of your Opponent's next turn.\nClash [Opponent's Attack] Place 1 card from your hand at the bottom of your Deck; return this card to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-071.jpg"
+  },
+  "ST3-072": {
+    "id": "ST3-072",
+    "face": {
+      "front": {
+        "name": "Miyao Nemu",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-072.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Miyao Nemu [ST3-072]",
+    "type": "Main_Deck",
+    "Number": "ST3-072",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Cat"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "[On Play] Limit 1 If a Unit returned to your hand this turn, play up to 1 \"Wakatsuki Nico\" with a Cost of 2 from your Drop Rested.\nClash [Opponent's Attack] Place 1 card from your hand at the bottom of your Deck; return this card to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-072.jpg"
+  },
+  "ST3-073": {
+    "id": "ST3-073",
+    "face": {
+      "front": {
+        "name": "Otogi Morihito",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-073.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Otogi Morihito [ST3-073]",
+    "type": "Main_Deck",
+    "Number": "ST3-073",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Ogre",
+      "Familiar"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Revenge",
+      "Swap"
+    ],
+    "Effect": "[Opponent's Turn] When your Unit is returned to your hand by your skill, give this card Revenge for the turn.\n[On Play] If this card was played by Swap, play up to 1 \"Wakatsuki Nico\" from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-073.jpg"
+  },
+  "ST3-074": {
+    "id": "ST3-074",
+    "face": {
+      "front": {
+        "name": "Otogi Morihito",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-074.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Otogi Morihito [ST3-074]",
+    "type": "Main_Deck",
+    "Number": "ST3-074",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Ogre",
+      "Familiar"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Play",
+      "Barrier",
+      "Critical",
+      "Swap",
+      "Unique"
+    ],
+    "Effect": "Unique Critical\n[Opponent's Turn] Once per Turn When your Unit is returned to your hand by your skill, switch this card to Active mode and give it Barrier for the turn.\n[On Play] If this card was played by Swap, choose up to 2 of your Opponent's Units with a combined Cost of 4 or less, ignoring Barrier, and place them at the bottom of their owners' Decks.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-074.jpg"
+  },
+  "ST3-075": {
+    "id": "ST3-075",
+    "face": {
+      "front": {
+        "name": "Doubleit",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-075.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Doubleit [ST3-075]",
+    "type": "Main_Deck",
+    "Number": "ST3-075",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Magic"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Look at the top 7 cards of your Deck; add up to 1 \"Wakatsuki Nico\" and up to 1 Unit card with the \"Familiar\" Trait to your hand. Then, shuffle your Deck and place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-075.jpg"
+  },
+  "ST3-076": {
+    "id": "ST3-076",
+    "face": {
+      "front": {
+        "name": "Ogre Qigong",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-076.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ogre Qigong [ST3-076]",
+    "type": "Main_Deck",
+    "Number": "ST3-076",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Ogre"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Barrier",
+      "Raid"
+    ],
+    "Effect": "[Activate: Battle] Raid {2} Choose up to 1 of your Opponent's Units, ignoring Barrier, and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-076.jpg"
+  },
+  "ST3-077": {
+    "id": "ST3-077",
+    "face": {
+      "front": {
+        "name": "Super Light",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-077.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Super Light [ST3-077]",
+    "type": "Main_Deck",
+    "Number": "ST3-077",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Magic"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main / Battle] Limit 1 Return 1 of your Units with the \"Familiar\" Trait, that is not in a battle, to its owner's hand: Play up to 1 \"Wakatsuki Nico\" from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-077.jpg"
+  },
+  "ST3-078": {
+    "id": "ST3-078",
+    "face": {
+      "front": {
+        "name": "Ban",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-078.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 2
+      }
+    },
+    "name": "Ban [ST3-078]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-078",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Dragon",
+      "Familiar"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier",
+      "Deflect",
+      "Swap"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] Play up to 1 \"Wakatsuki Nico\" from your hand or Drop Rested, with its non-Swap skills negated for the turn. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-078.jpg"
+  },
+  "ST3-079": {
+    "id": "ST3-079",
+    "face": {
+      "front": {
+        "name": "Wolf",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-079.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Wolf [ST3-079]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-079",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Werewolf",
+      "Familiar"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 6 or more, ignoring Barrier, and return it to its owner's hand.\n[End of your Turn] Return this card to your JUMP Deck and play up to 1 \"Magami Keigo\" from your Drop Rested.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-079.jpg"
+  },
+  "ST3-080": {
+    "id": "ST3-080",
+    "face": {
+      "front": {
+        "name": "Flip Flap Flat",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST3-080.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Flip Flap Flat [ST3-080]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-080",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Play",
+      "Opponent's Turn",
+      "Once per Turn",
+      "Clash",
+      "Swap"
+    ],
+    "Effect": "[Opponent's Turn] Once per Turn (1) When your Unit is returned to your hand by your skill, give all of your Units with the \"Familiar\" Trait +1000 Power for the turn.\nClash [Opponent's Play] Return this card to your JUMP Deck: Until the end of the turn, you can activate Swap skills at Clash [Activate: Battle] timing.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST3-080.jpg"
+  },
+  "ST3-081": {
+    "id": "ST3-081",
+    "face": {
+      "front": {
+        "name": "Kinomoto Sakura",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-081.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kinomoto Sakura [ST3-081]",
+    "type": "Leader",
+    "Number": "ST3-081",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Cardcaptor"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Your Turn",
+      "Threshold",
+      "Charge",
+      "Evolve"
+    ],
+    "Effect": "[Your Turn] Once per Turn When one of your Units Evolves, Charge 1 and give that Unit +1000 Power until the end of your Opponent's next turn.\nThreshold 2 [Activate: Main] Once per Turn Place 1 card from your hand under one of your Units with the \"Cardcaptor\" Trait: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-081.jpg"
+  },
+  "ST3-082": {
+    "id": "ST3-082",
+    "face": {
+      "front": {
+        "name": "Kinomoto Sakura",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-082.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kinomoto Sakura [ST3-082]",
+    "type": "Main_Deck",
+    "Number": "ST3-082",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Cardcaptor"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Attack",
+      "Evolve"
+    ],
+    "Effect": "Evolve (1) 2 Cost \"Kinomoto Sakura\"\n[Opponent's Turn] Once per Turn If this card would be removed from the field by an Opponent's skill or K.O.'d, place 1 card from under this card in your Drop instead.\n[On Attack] Add up to 1 card from under one of your Units to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-082.jpg"
+  },
+  "ST3-083": {
+    "id": "ST3-083",
+    "face": {
+      "front": {
+        "name": "Kinomoto Sakura",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-083.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Kinomoto Sakura [ST3-083]",
+    "type": "Main_Deck",
+    "Number": "ST3-083",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 2000,
+    "Traits": [
+      "Cardcaptor"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Your Turn",
+      "Limit 1",
+      "Evolve"
+    ],
+    "Effect": "Evolve (2) 4 Cost \"Kinomoto Sakura\"\n[Your Turn] Limit 1 When a card is placed under this card, draw 1 card.\n[Activate: Main] Once per Turn If your Leader is \"Kinomoto Sakura\", switch this card to Active mode. Then, place 1 card from under this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-083.jpg"
+  },
+  "ST3-084": {
+    "id": "ST3-084",
+    "face": {
+      "front": {
+        "name": "Li Syaoran",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-084.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Li Syaoran [ST3-084]",
+    "type": "Main_Deck",
+    "Number": "ST3-084",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Barrier",
+      "Blocker",
+      "Evolve"
+    ],
+    "Effect": "Barrier Blocker\n[Opponent's Turn] Your Units with Evolve and a card under them gain +1000 Power.\n[On Play] Draw 1 card; place up to 1 Unit card with the \"Clow\" Trait from your hand under one of your Units with the \"Cardcaptor\" Trait.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-084.jpg"
+  },
+  "ST3-085": {
+    "id": "ST3-085",
+    "face": {
+      "front": {
+        "name": "Kinomoto Sakura",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-085.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kinomoto Sakura [ST3-085]",
+    "type": "Main_Deck",
+    "Number": "ST3-085",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Cardcaptor"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Look at the top 5 cards of your Deck; add up to 1 \"Kinomoto Sakura\" or Unit card with the \"Clow\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-085.jpg"
+  },
+  "ST3-086": {
+    "id": "ST3-086",
+    "face": {
+      "front": {
+        "name": "Cerberus",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-086.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Cerberus [ST3-086]",
+    "type": "Main_Deck",
+    "Number": "ST3-086",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Guardian"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have no Units with the \"Cardcaptor\" Trait, play up to 1 \"Kinomoto Sakura\" with a Cost of 2 or less from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-086.jpg"
+  },
+  "ST3-087": {
+    "id": "ST3-087",
+    "face": {
+      "front": {
+        "name": "The Windy",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-087.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "The Windy [ST3-087]",
+    "type": "Main_Deck",
+    "Number": "ST3-087",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Clow"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Unblockable"
+    ],
+    "Effect": "[Your Turn] When this card is placed under a Unit with the \"Cardcaptor\" Trait: Give the card on top of this card Unblockable for the turn.\n[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-087.jpg"
+  },
+  "ST3-088": {
+    "id": "ST3-088",
+    "face": {
+      "front": {
+        "name": "The Sword",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-088.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "The Sword [ST3-088]",
+    "type": "Main_Deck",
+    "Number": "ST3-088",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Clow"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] When this card is placed under a Unit with the \"Cardcaptor\" Trait: Give the card on top of this card +1000 Power for the turn.\n[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-088.jpg"
+  },
+  "ST3-089": {
+    "id": "ST3-089",
+    "face": {
+      "front": {
+        "name": "Daidouji Tomoyo",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-089.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Daidouji Tomoyo [ST3-089]",
+    "type": "Main_Deck",
+    "Number": "ST3-089",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Artisan"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Barrier",
+      "Evolve"
+    ],
+    "Effect": "Barrier\n[On Play] If your Leader is \"Kinomoto Sakura\", add up to 2 cards from your Life to your hand.\n[Your Turn] Limit 1 When you play a Unit with Evolve, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-089.jpg"
+  },
+  "ST3-090": {
+    "id": "ST3-090",
+    "face": {
+      "front": {
+        "name": "The Fly",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-090.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "The Fly [ST3-090]",
+    "type": "Main_Deck",
+    "Number": "ST3-090",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Clow"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] When this card is placed under a Unit with the \"Cardcaptor\" Trait: Switch the card on top of this card to Active mode and it cannot attack your Opponent's Leader for the turn.\n[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-090.jpg"
+  },
+  "ST3-091": {
+    "id": "ST3-091",
+    "face": {
+      "front": {
+        "name": "The Shield",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-091.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "The Shield [ST3-091]",
+    "type": "Main_Deck",
+    "Number": "ST3-091",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Clow"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Barrier"
+    ],
+    "Effect": "[Your Turn] When this card is placed under a Unit with the \"Cardcaptor\" Trait: Give the card on top of this card Barrier until the end of your Opponent's next turn.\n[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-091.jpg"
+  },
+  "ST3-092": {
+    "id": "ST3-092",
+    "face": {
+      "front": {
+        "name": "The Jump",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-092.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "The Jump [ST3-092]",
+    "type": "Main_Deck",
+    "Number": "ST3-092",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Clow"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Elusive"
+    ],
+    "Effect": "[Your Turn] When this card is placed under a Unit with the \"Cardcaptor\" Trait: Give the card on top of this card Elusive until the end of your Opponent's next turn.\n[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-092.jpg"
+  },
+  "ST3-093": {
+    "id": "ST3-093",
+    "face": {
+      "front": {
+        "name": "Li Syaoran",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-093.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Li Syaoran [ST3-093]",
+    "type": "Main_Deck",
+    "Number": "ST3-093",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "On Play",
+      "Threshold"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, if your Leader's Threshold skill is active, give your Leader or up to 1 of your Units with the \"Cardcaptor\" Trait +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-093.jpg"
+  },
+  "ST3-094": {
+    "id": "ST3-094",
+    "face": {
+      "front": {
+        "name": "Cerberus",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-094.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Cerberus [ST3-094]",
+    "type": "Main_Deck",
+    "Number": "ST3-094",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Guardian"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Overcharge",
+      "Blocker",
+      "Charge",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[Opponent's Turn] If one of your Units has 2 or more cards under it, this card gains Blocker.\n[On Play] Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-094.jpg"
+  },
+  "ST3-095": {
+    "id": "ST3-095",
+    "face": {
+      "front": {
+        "name": "Kinomoto Sakura",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-095.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kinomoto Sakura [ST3-095]",
+    "type": "Main_Deck",
+    "Number": "ST3-095",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 2000,
+    "Traits": [
+      "Cardcaptor"
+    ],
+    "Keywords": [
+      "On Play",
+      "Evolve"
+    ],
+    "Effect": "Evolve (1) 4 or 6 Cost \"Kinomoto Sakura\"\n[On Play] If your Leader is \"Kinomoto Sakura\", draw 1 card. Then, this card can't be removed from the field by your Opponent's skills until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-095.jpg"
+  },
+  "ST3-096": {
+    "id": "ST3-096",
+    "face": {
+      "front": {
+        "name": "Release!",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-096.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Release! [ST3-096]",
+    "type": "Main_Deck",
+    "Number": "ST3-096",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Cardcaptor",
+      "Clow"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Draw 1 card. Place up to 1 of your Units with the \"Clow\" Trait under one of your Units with the \"Cardcaptor\" Trait.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-096.jpg"
+  },
+  "ST3-097": {
+    "id": "ST3-097",
+    "face": {
+      "front": {
+        "name": "Star Key",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-097.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Star Key [ST3-097]",
+    "type": "Main_Deck",
+    "Number": "ST3-097",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Cardcaptor",
+      "Clow"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Evolve"
+    ],
+    "Effect": "[Activate: Main] Draw 1 card; remove all of your SJ Marker and, if you removed at least 1 Marker, reduce the cost of the next Evolve skill you activate this turn by (1).",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-097.jpg"
+  },
+  "ST3-098": {
+    "id": "ST3-098",
+    "face": {
+      "front": {
+        "name": "The Nameless Card",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-098.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Nameless Card [ST3-098]",
+    "type": "Main_Deck",
+    "Number": "ST3-098",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Cardcaptor",
+      "Clow"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Double Damage",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] [Activate: Battle] Give up to 1 of your Units with the \"Cardcaptor\" Trait +3000 Power for the battle. Then, if that card has at least 1 card under it, give it Double Damage for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-098.jpg"
+  },
+  "ST3-099": {
+    "id": "ST3-099",
+    "face": {
+      "front": {
+        "name": "Yue",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-099.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Yue [ST3-099]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-099",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Guardian"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Kinomoto Sakura\", play up to 2 Units with a combined cost of 4 or less and the \"Cardcaptor\" or \"Clow\" Trait from your hand Rested. Then, if you played 2 cards, remove this card from the game at the end of the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-099.jpg"
+  },
+  "ST3-100": {
+    "id": "ST3-100",
+    "face": {
+      "front": {
+        "name": "The Light and The Dark",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST3-100.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "The Light and The Dark [ST3-100]",
+    "type": "JUMP_Deck",
+    "Number": "ST3-100",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "ST3",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Barrier",
+      "Clash",
+      "Evolve"
+    ],
+    "Effect": "[On Play] Give up to 1 of your Units with the \"Cardcaptor\" Trait Barrier until the end of your Opponent's next turn.\nClash [Opponent's Play] If your Leader is Kinomoto Sakura and you return this card to your JUMP Deck: Choose up to 1 of your Units with Evolve; then, choose up to 1 of your Opponent's Units with equal or less Power than your chosen Unit and place it in its owner's Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST3-100.jpg"
   },
   "ST3-101": {
     "id": "ST3-101",
@@ -16473,7 +18033,8 @@
     "Keywords": [
       "Activate: Main",
       "Your Turn",
-      "Raid"
+      "Raid",
+      "Unblockable"
     ],
     "Effect": "[Your Turn] Give this card +1000 Power for every 2 of your SJ Markers.\n[Activate: Main] Raid {1} Give this card Unblockable for the turn.",
     "Deck_Zone": "Main",
@@ -21291,6 +22852,236 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/PUP-050.jpg"
   },
+  "PUP-051": {
+    "id": "PUP-051",
+    "face": {
+      "front": {
+        "name": "Kazamatsuri Kanshi",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-051.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kazamatsuri Kanshi [PUP-051]",
+    "type": "Main_Deck",
+    "Number": "PUP-051",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Tengu",
+      "Familiar"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Swap"
+    ],
+    "Effect": "[On Play] If this card was played by Swap, place 1 card with the \"Familiar\" Trait from your hand in your Drop: Add up to 1 \"Wakatsuki Nico\" from your Drop to your hand.\n[On Attack] Choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-051.jpg"
+  },
+  "PUP-052": {
+    "id": "PUP-052",
+    "face": {
+      "front": {
+        "name": "Magami Keigo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-052.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Magami Keigo [PUP-052]",
+    "type": "Main_Deck",
+    "Number": "PUP-052",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Werewolf",
+      "Familiar"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Swap"
+    ],
+    "Effect": "[On Play] If this card was played by Swap, give your Leader +1000 Power for the turn.\n[On Attack] Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-052.jpg"
+  },
+  "PUP-053": {
+    "id": "PUP-053",
+    "face": {
+      "front": {
+        "name": "A Thousand Spells",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-053.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "A Thousand Spells [PUP-053]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-053",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "WTW",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Attack",
+      "Once per Turn",
+      "Your Turn",
+      "Charge",
+      "Clash",
+      "Swap"
+    ],
+    "Effect": "[Your Turn] Once per Turn When you play a Unit by Swap, you may remove 1 SJ Marker: Charge 1 and you can't Charge for the turn.\nClash [Opponent's Attack] Return this card to your JUMP Deck: Until the end of the turn, you can activate Swap skills at Clash [Activate: Battle] timing.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-053.jpg"
+  },
+  "PUP-054": {
+    "id": "PUP-054",
+    "face": {
+      "front": {
+        "name": "Kinomoto Sakura",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-054.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kinomoto Sakura [PUP-054]",
+    "type": "Main_Deck",
+    "Number": "PUP-054",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Cardcaptor"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Look at 5 cards from the top of your Deck; add up to 1 \"Kinomoto Sakura\" to your hand. Then, shuffle your Deck.\n[Activate: Main] Limit 1 Place 1 card from your hand in your Drop: Give this card +1 Cost for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-054.jpg"
+  },
+  "PUP-055": {
+    "id": "PUP-055",
+    "face": {
+      "front": {
+        "name": "Daidouji Tomoyo",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-055.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Daidouji Tomoyo [PUP-055]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-055",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Artisan"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Evolve"
+    ],
+    "Effect": "[On Play] Add up to 1 \"Kinomoto Sakura\" from your Drop to your hand. Then, place 1 card from your hand at the bottom of your Deck.\n[On Attack] If you have a Unit with Evolve and a card under it, draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-055.jpg"
+  },
+  "PUP-056": {
+    "id": "PUP-056",
+    "face": {
+      "front": {
+        "name": "The Hope",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-056.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "The Hope [PUP-056]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-056",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "CCS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Place all cards from under 1 of your Units in your Drop. Then, if you placed at least 1 card, negate the attack and remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-056.jpg"
+  },
   "PUP-057": {
     "id": "PUP-057",
     "face": {
@@ -21760,6 +23551,70 @@
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/YYH.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-CCS1": {
+    "id": "TOKEN-SJM-CCS1",
+    "face": {
+      "front": {
+        "name": "SJ Marker CCS1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-CCS1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker CCS1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-CCS1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "CCS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-CCS1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-CCS2": {
+    "id": "TOKEN-SJM-CCS2",
+    "face": {
+      "front": {
+        "name": "SJ Marker CCS2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-CCS2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker CCS2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-CCS2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "CCS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-CCS2.jpg",
     "isAccessory": true
   },
   "TOKEN-SJM-CSM1": {
@@ -22882,6 +24737,38 @@
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-YYH2.jpg",
     "isAccessory": true
   },
+  "TOKEN-GT-CCS": {
+    "id": "TOKEN-GT-CCS",
+    "face": {
+      "front": {
+        "name": "Guard Token CCS",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-CCS.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token CCS",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-CCS",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "CCS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-CCS.jpg",
+    "isAccessory": true
+  },
   "TOKEN-GT-CSM": {
     "id": "TOKEN-GT-CSM",
     "face": {
@@ -23489,920 +25376,5 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENERGY-GENERIC.jpg",
     "isAccessory": true
-  },
-  "ST3-061": {
-    "id": "ST3-061",
-    "face": {
-      "front": {
-        "name": "Wakatsuki Nico",
-        "type": "LEADER",
-        "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-061.jpg",
-        "isHorizontal": false,
-        "power": 5000
-      }
-    },
-    "name": "Wakatsuki Nico [ST3-061]",
-    "type": "Leader",
-    "Number": "ST3-061",
-    "Card_Type": "Leader",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "L",
-    "Cost": null,
-    "SJ_Cost": null,
-    "Life": 5,
-    "Power": 5000,
-    "Counter": null,
-    "Traits": [
-      "Witch of Thousands"
-    ],
-    "Keywords": [
-      "Activate: Battle",
-      "Activate: Main",
-      "Once per Turn",
-      "Threshold",
-      "Swap"
-    ],
-    "Effect": "Once per Turn When you activate a Swap skill, draw 1 card.\n[Activate: Main] Once per Turn Add 1 card from your Life to your hand: Reduce the Cost of the next Swap skill you activate by (1) until the end of your Opponent's next turn.\nThreshold 3 [Activate: Battle] Once per Turn Return 1 of your \"Otogi Morihito\" to your hand: Play up to 1 \"Wakatsuki Nico\" from your hand. Until the end of your Opponent's next turn, you cannot play additional copies of either of those cards.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-061.jpg"
-  },
-  "ST3-062": {
-    "id": "ST3-062",
-    "face": {
-      "front": {
-        "name": "Otogi Morihito",
-        "type": "UNIT",
-        "cost": 7,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-062.jpg",
-        "isHorizontal": false,
-        "power": 6000
-      }
-    },
-    "name": "Otogi Morihito [ST3-062]",
-    "type": "Main_Deck",
-    "Number": "ST3-062",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "SR",
-    "Cost": 7,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 6000,
-    "Counter": 0,
-    "Traits": [
-      "Ogre",
-      "Familiar"
-    ],
-    "Keywords": [
-      "Double Damage",
-      "On Attack",
-      "On Play",
-      "Barrier",
-      "Swap",
-      "Unique"
-    ],
-    "Effect": "Unique Double Damage\n[On Play] If this card was played by Swap, choose up to 1 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and return it to its owner's hand.\n[On Attack] If a Unit returned to your hand this turn, give this card +1000 Power for the battle.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-062.jpg"
-  },
-  "ST3-063": {
-    "id": "ST3-063",
-    "face": {
-      "front": {
-        "name": "Otogi Morihito",
-        "type": "UNIT",
-        "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-063.jpg",
-        "isHorizontal": false,
-        "power": 5000
-      }
-    },
-    "name": "Otogi Morihito [ST3-063]",
-    "type": "Main_Deck",
-    "Number": "ST3-063",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "SR",
-    "Cost": 5,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 5000,
-    "Counter": 1000,
-    "Traits": [
-      "Ogre",
-      "Familiar"
-    ],
-    "Keywords": [
-      "End of your Turn",
-      "On Play",
-      "Your Turn",
-      "Overcharge",
-      "Blocker",
-      "Charge",
-      "Swap"
-    ],
-    "Effect": "Blocker\n[On Play] If this card was played by Swap, give this card +1000 Power until the end of your Opponent's next turn.\n[End of your Turn] If you have no Energy and a Unit returned to your hand this turn, Overcharge 2 and you can't Overcharge for the turn.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-063.jpg"
-  },
-  "ST3-064": {
-    "id": "ST3-064",
-    "face": {
-      "front": {
-        "name": "Wakatsuki Nico",
-        "type": "UNIT",
-        "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-064.jpg",
-        "isHorizontal": false,
-        "power": 4000
-      }
-    },
-    "name": "Wakatsuki Nico [ST3-064]",
-    "type": "Main_Deck",
-    "Number": "ST3-064",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "SR",
-    "Cost": 3,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 4000,
-    "Counter": 2000,
-    "Traits": [
-      "Witch of Thousands"
-    ],
-    "Keywords": [
-      "On Play",
-      "Limit 1",
-      "Swap"
-    ],
-    "Effect": "Swap Limit 1 (2) 5 Cost \"Otogi Morihito\"\n[On Play] Look at the top 5 cards of your Deck; add up to 1 \"Otogi Morihito\" or Action card with the \"Magic\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-064.jpg"
-  },
-  "ST3-065": {
-    "id": "ST3-065",
-    "face": {
-      "front": {
-        "name": "Wakatsuki Nico",
-        "type": "UNIT",
-        "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-065.jpg",
-        "isHorizontal": false,
-        "power": 1000
-      }
-    },
-    "name": "Wakatsuki Nico [ST3-065]",
-    "type": "Main_Deck",
-    "Number": "ST3-065",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "R",
-    "Cost": 2,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 1000,
-    "Counter": 2000,
-    "Traits": [
-      "Witch of Thousands"
-    ],
-    "Keywords": [
-      "On Play",
-      "Limit 1",
-      "Swap"
-    ],
-    "Effect": "Swap Limit 1 (1) 4 Cost Unit with the \"Familiar\" Trait\n[On Play] Draw 1 card; place 1 card from your hand at the bottom of your Deck.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-065.jpg"
-  },
-  "ST3-066": {
-    "id": "ST3-066",
-    "face": {
-      "front": {
-        "name": "Otogi Morihito",
-        "type": "UNIT",
-        "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-066.jpg",
-        "isHorizontal": false,
-        "power": 5000
-      }
-    },
-    "name": "Otogi Morihito [ST3-066]",
-    "type": "Main_Deck",
-    "Number": "ST3-066",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "R",
-    "Cost": 4,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 5000,
-    "Counter": 1000,
-    "Traits": [
-      "Ogre",
-      "Familiar"
-    ],
-    "Keywords": [
-      "Activate: Battle",
-      "On Play",
-      "Overcharge",
-      "Charge",
-      "Clash",
-      "Swap"
-    ],
-    "Effect": "[On Play] If this card was played by Swap, choose up to 1 of your Opponent's Units with a Cost of 2 or less and place it at the bottom of its owner's Deck.\nClash [Activate: Battle] Place 1 card from your hand at the bottom of your Deck: Overcharge 1 and you can't Overcharge for the turn.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-066.jpg"
-  },
-  "ST3-067": {
-    "id": "ST3-067",
-    "face": {
-      "front": {
-        "name": "Kazamatsuri Kanshi",
-        "type": "UNIT",
-        "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-067.jpg",
-        "isHorizontal": false,
-        "power": 5000
-      }
-    },
-    "name": "Kazamatsuri Kanshi [ST3-067]",
-    "type": "Main_Deck",
-    "Number": "ST3-067",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "R",
-    "Cost": 4,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 5000,
-    "Counter": 1000,
-    "Traits": [
-      "Tengu",
-      "Familiar"
-    ],
-    "Keywords": [
-      "On Play",
-      "Deflect",
-      "Elusive",
-      "Swap"
-    ],
-    "Effect": "Deflect Elusive\n[On Play] If this card was played by Swap, return up to 1 of your other Units to its owner's hand. Then, if you returned a card, choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-067.jpg"
-  },
-  "ST3-068": {
-    "id": "ST3-068",
-    "face": {
-      "front": {
-        "name": "Magami Keigo",
-        "type": "UNIT",
-        "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-068.jpg",
-        "isHorizontal": false,
-        "power": 5000
-      }
-    },
-    "name": "Magami Keigo [ST3-068]",
-    "type": "Main_Deck",
-    "Number": "ST3-068",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "R",
-    "Cost": 4,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 5000,
-    "Counter": 1000,
-    "Traits": [
-      "Werewolf",
-      "Familiar"
-    ],
-    "Keywords": [
-      "On Attack",
-      "On Block",
-      "Blocker",
-      "Deflect",
-      "Swap"
-    ],
-    "Effect": "Deflect Blocker\n[On Attack / On Block] If this card was played by Swap this turn, give this card +1000 Power for the battle.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-068.jpg"
-  },
-  "ST3-069": {
-    "id": "ST3-069",
-    "face": {
-      "front": {
-        "name": "Wakatsuki Nico",
-        "type": "UNIT",
-        "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-069.jpg",
-        "isHorizontal": false,
-        "power": 2000
-      }
-    },
-    "name": "Wakatsuki Nico [ST3-069]",
-    "type": "Main_Deck",
-    "Number": "ST3-069",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "UC",
-    "Cost": 2,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 2000,
-    "Counter": 2000,
-    "Traits": [
-      "Witch of Thousands"
-    ],
-    "Keywords": [
-      "Activate: Battle",
-      "Opponent's Attack",
-      "On Play",
-      "Limit 1",
-      "Clash",
-      "Swap"
-    ],
-    "Effect": "Swap Limit 1 (1) 4 Cost Unit with the \"Familiar\" Trait\n[On Play] Draw 1 card and place 1 card from your hand at the bottom of your Deck. Then, until the end of the turn, you can activate Swap skills at Clash [Activate: Battle] timing.\nClash [Opponent's Attack] Limit 1 (2) Play this card from your hand and make it the new attack target.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-069.jpg"
-  },
-  "ST3-070": {
-    "id": "ST3-070",
-    "face": {
-      "front": {
-        "name": "Wakatsuki Nico",
-        "type": "UNIT",
-        "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-070.jpg",
-        "isHorizontal": false,
-        "power": 4000
-      }
-    },
-    "name": "Wakatsuki Nico [ST3-070]",
-    "type": "Main_Deck",
-    "Number": "ST3-070",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "UC",
-    "Cost": 3,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 4000,
-    "Counter": 1000,
-    "Traits": [
-      "Witch of Thousands"
-    ],
-    "Keywords": [
-      "On Play",
-      "Limit 1",
-      "Swap"
-    ],
-    "Effect": "Swap Limit 1 (2) 7 Cost \"Otogi Morihito\"\n[On Play] Add up to 1 Unit card with the \"Familiar\" Trait from your Drop to your hand. Then, place 1 card from your hand at the bottom of your Deck.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-070.jpg"
-  },
-  "ST3-071": {
-    "id": "ST3-071",
-    "face": {
-      "front": {
-        "name": "Kiryu Miharu",
-        "type": "UNIT",
-        "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-071.jpg",
-        "isHorizontal": false,
-        "power": 4000
-      }
-    },
-    "name": "Kiryu Miharu [ST3-071]",
-    "type": "Main_Deck",
-    "Number": "ST3-071",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "UC",
-    "Cost": 2,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 4000,
-    "Counter": 1000,
-    "Traits": [
-      "Vampire",
-      "Familiar"
-    ],
-    "Keywords": [
-      "Opponent's Attack",
-      "On Play",
-      "Limit 1",
-      "Barrier",
-      "Clash"
-    ],
-    "Effect": "[On Play] Limit 1 Give up to 1 of your Units with the \"Ogre\" or \"Witch of Thousands\" Trait Barrier until the end of your Opponent's next turn.\nClash [Opponent's Attack] Place 1 card from your hand at the bottom of your Deck; return this card to your hand.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-071.jpg"
-  },
-  "ST3-072": {
-    "id": "ST3-072",
-    "face": {
-      "front": {
-        "name": "Miyao Nemu",
-        "type": "UNIT",
-        "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-072.jpg",
-        "isHorizontal": false,
-        "power": 4000
-      }
-    },
-    "name": "Miyao Nemu [ST3-072]",
-    "type": "Main_Deck",
-    "Number": "ST3-072",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "UC",
-    "Cost": 2,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 4000,
-    "Counter": 1000,
-    "Traits": [
-      "Witch",
-      "Cat"
-    ],
-    "Keywords": [
-      "Opponent's Attack",
-      "On Play",
-      "Limit 1",
-      "Clash"
-    ],
-    "Effect": "[On Play] Limit 1 If a Unit returned to your hand this turn, play up to 1 \"Wakatsuki Nico\" with a Cost of 2 from your Drop Rested.\nClash [Opponent's Attack] Place 1 card from your hand at the bottom of your Deck; return this card to your hand.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-072.jpg"
-  },
-  "ST3-073": {
-    "id": "ST3-073",
-    "face": {
-      "front": {
-        "name": "Otogi Morihito",
-        "type": "UNIT",
-        "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-073.jpg",
-        "isHorizontal": false,
-        "power": 6000
-      }
-    },
-    "name": "Otogi Morihito [ST3-073]",
-    "type": "Main_Deck",
-    "Number": "ST3-073",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "UC",
-    "Cost": 5,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 6000,
-    "Counter": 0,
-    "Traits": [
-      "Ogre",
-      "Familiar"
-    ],
-    "Keywords": [
-      "Opponent's Turn",
-      "On Play",
-      "Revenge",
-      "Swap"
-    ],
-    "Effect": "[Opponent's Turn] When your Unit is returned to your hand by your skill, give this card Revenge for the turn.\n[On Play] If this card was played by Swap, play up to 1 \"Wakatsuki Nico\" from your hand Rested.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-073.jpg"
-  },
-  "ST3-074": {
-    "id": "ST3-074",
-    "face": {
-      "front": {
-        "name": "Otogi Morihito",
-        "type": "UNIT",
-        "cost": 7,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-074.jpg",
-        "isHorizontal": false,
-        "power": 7000
-      }
-    },
-    "name": "Otogi Morihito [ST3-074]",
-    "type": "Main_Deck",
-    "Number": "ST3-074",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "UC",
-    "Cost": 7,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 7000,
-    "Counter": 0,
-    "Traits": [
-      "Ogre",
-      "Familiar"
-    ],
-    "Keywords": [
-      "Opponent's Turn",
-      "Once per Turn",
-      "On Play",
-      "Barrier",
-      "Critical",
-      "Swap",
-      "Unique"
-    ],
-    "Effect": "Unique Critical\n[Opponent's Turn] Once per Turn When your Unit is returned to your hand by your skill, switch this card to Active mode and give it Barrier for the turn.\n[On Play] If this card was played by Swap, choose up to 2 of your Opponent's Units with a combined Cost of 4 or less, ignoring Barrier, and place them at the bottom of their owners' Decks.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-074.jpg"
-  },
-  "ST3-075": {
-    "id": "ST3-075",
-    "face": {
-      "front": {
-        "name": "Doubleit",
-        "type": "ACTION",
-        "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-075.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Doubleit [ST3-075]",
-    "type": "Main_Deck",
-    "Number": "ST3-075",
-    "Card_Type": "Action",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "R",
-    "Cost": 1,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": null,
-    "Counter": null,
-    "Traits": [
-      "Magic"
-    ],
-    "Keywords": [
-      "Activate: Main"
-    ],
-    "Effect": "[Activate: Main] Look at the top 7 cards of your Deck; add up to 1 \"Wakatsuki Nico\" and up to 1 Unit card with the \"Familiar\" Trait to your hand. Then, shuffle your Deck and place 1 card from your hand at the bottom of your Deck.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-075.jpg"
-  },
-  "ST3-076": {
-    "id": "ST3-076",
-    "face": {
-      "front": {
-        "name": "Ogre Qigong",
-        "type": "ACTION",
-        "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-076.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ogre Qigong [ST3-076]",
-    "type": "Main_Deck",
-    "Number": "ST3-076",
-    "Card_Type": "Action",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "UC",
-    "Cost": 1,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": null,
-    "Counter": null,
-    "Traits": [
-      "Ogre"
-    ],
-    "Keywords": [
-      "Activate: Battle",
-      "Barrier",
-      "Raid"
-    ],
-    "Effect": "[Activate: Battle] Raid {2} Choose up to 1 of your Opponent's Units, ignoring Barrier, and return it to its owner's hand.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-076.jpg"
-  },
-  "ST3-077": {
-    "id": "ST3-077",
-    "face": {
-      "front": {
-        "name": "Super Light",
-        "type": "ACTION",
-        "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-077.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Super Light [ST3-077]",
-    "type": "Main_Deck",
-    "Number": "ST3-077",
-    "Card_Type": "Action",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "UC",
-    "Cost": 1,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": null,
-    "Counter": null,
-    "Traits": [
-      "Magic"
-    ],
-    "Keywords": [
-      "Activate: Main",
-      "Limit 1"
-    ],
-    "Effect": "[Activate: Main / Battle] Limit 1 Return 1 of your Units with the \"Familiar\" Trait, that is not in a battle, to its owner's hand: Play up to 1 \"Wakatsuki Nico\" from your hand Rested.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-077.jpg"
-  },
-  "ST3-078": {
-    "id": "ST3-078",
-    "face": {
-      "front": {
-        "name": "Ban",
-        "type": "JUMP UNIT",
-        "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-078.jpg",
-        "isHorizontal": false,
-        "power": 4000,
-        "sjCost": 2
-      }
-    },
-    "name": "Ban [ST3-078]",
-    "type": "JUMP_Deck",
-    "Number": "ST3-078",
-    "Card_Type": "JUMP Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "R",
-    "Cost": 1,
-    "SJ_Cost": 2,
-    "Life": null,
-    "Power": 4000,
-    "Counter": null,
-    "Traits": [
-      "Dragon",
-      "Familiar"
-    ],
-    "Keywords": [
-      "On Play",
-      "Barrier",
-      "Deflect",
-      "Swap"
-    ],
-    "Effect": "Deflect Barrier\n[On Play] Play up to 1 \"Wakatsuki Nico\" from your hand or Drop Rested, with its non-Swap skills negated for the turn. Then, remove this card from the game.",
-    "Deck_Zone": "JUMP",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-078.jpg"
-  },
-  "ST3-079": {
-    "id": "ST3-079",
-    "face": {
-      "front": {
-        "name": "Wolf",
-        "type": "JUMP UNIT",
-        "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-079.jpg",
-        "isHorizontal": false,
-        "power": 6000,
-        "sjCost": 2
-      }
-    },
-    "name": "Wolf [ST3-079]",
-    "type": "JUMP_Deck",
-    "Number": "ST3-079",
-    "Card_Type": "JUMP Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "R",
-    "Cost": 3,
-    "SJ_Cost": 2,
-    "Life": null,
-    "Power": 6000,
-    "Counter": null,
-    "Traits": [
-      "Werewolf",
-      "Familiar"
-    ],
-    "Keywords": [
-      "End of your Turn",
-      "On Play",
-      "Your Turn",
-      "Barrier",
-      "Deflect"
-    ],
-    "Effect": "Deflect\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 6 or more, ignoring Barrier, and return it to its owner's hand.\n[End of your Turn] Return this card to your JUMP Deck and play up to 1 \"Magami Keigo\" from your Drop Rested.",
-    "Deck_Zone": "JUMP",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-079.jpg"
-  },
-  "ST3-080": {
-    "id": "ST3-080",
-    "face": {
-      "front": {
-        "name": "Flip Flap Flat",
-        "type": "JUMP ACTION",
-        "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST3-080.jpg",
-        "isHorizontal": true,
-        "sjCost": 2
-      }
-    },
-    "name": "Flip Flap Flat [ST3-080]",
-    "type": "JUMP_Deck",
-    "Number": "ST3-080",
-    "Card_Type": "JUMP Action",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "ST3",
-    "Rarity": "R",
-    "Cost": 1,
-    "SJ_Cost": 2,
-    "Life": null,
-    "Power": null,
-    "Counter": null,
-    "Traits": [],
-    "Keywords": [
-      "Activate: Battle",
-      "Opponent's Play",
-      "Opponent's Turn",
-      "Once per Turn",
-      "Clash",
-      "Swap"
-    ],
-    "Effect": "[Opponent's Turn] Once per Turn (1) When your Unit is returned to your hand by your skill, give all of your Units with the \"Familiar\" Trait +1000 Power for the turn.\nClash [Opponent's Play] Return this card to your JUMP Deck: Until the end of the turn, you can activate Swap skills at Clash [Activate: Battle] timing.",
-    "Deck_Zone": "JUMP",
-    "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST3-080.jpg"
-  },
-  "PUP-051": {
-    "id": "PUP-051",
-    "face": {
-      "front": {
-        "name": "Kazamatsuri Kanshi",
-        "type": "UNIT",
-        "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-051.jpg",
-        "isHorizontal": false,
-        "power": 5000
-      }
-    },
-    "name": "Kazamatsuri Kanshi [PUP-051]",
-    "type": "Main_Deck",
-    "Number": "PUP-051",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "PUP",
-    "Rarity": "P",
-    "Cost": 4,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 5000,
-    "Counter": 1000,
-    "Traits": [
-      "Tengu",
-      "Familiar"
-    ],
-    "Keywords": [
-      "On Attack",
-      "On Play",
-      "Swap"
-    ],
-    "Effect": "[On Play] If this card was played by Swap, place 1 card with the \"Familiar\" Trait from your hand in your Drop: Add up to 1 \"Wakatsuki Nico\" from your Drop to your hand.\n[On Attack] Choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-051.jpg"
-  },
-  "PUP-052": {
-    "id": "PUP-052",
-    "face": {
-      "front": {
-        "name": "Magami Keigo",
-        "type": "UNIT",
-        "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-052.jpg",
-        "isHorizontal": false,
-        "power": 5000
-      }
-    },
-    "name": "Magami Keigo [PUP-052]",
-    "type": "Main_Deck",
-    "Number": "PUP-052",
-    "Card_Type": "Unit",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "PUP",
-    "Rarity": "P",
-    "Cost": 4,
-    "SJ_Cost": null,
-    "Life": null,
-    "Power": 5000,
-    "Counter": 1000,
-    "Traits": [
-      "Werewolf",
-      "Familiar"
-    ],
-    "Keywords": [
-      "On Attack",
-      "On Play",
-      "Swap"
-    ],
-    "Effect": "[On Play] If this card was played by Swap, give your Leader +1000 Power for the turn.\n[On Attack] Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
-    "Deck_Zone": "Main",
-    "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-052.jpg"
-  },
-  "PUP-053": {
-    "id": "PUP-053",
-    "face": {
-      "front": {
-        "name": "A Thousand Spells",
-        "type": "JUMP ACTION",
-        "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-053.jpg",
-        "isHorizontal": true,
-        "sjCost": 2
-      }
-    },
-    "name": "A Thousand Spells [PUP-053]",
-    "type": "JUMP_Deck",
-    "Number": "PUP-053",
-    "Card_Type": "JUMP Action",
-    "Color": "Blue",
-    "Set": "WTW",
-    "Release": "PUP",
-    "Rarity": "P",
-    "Cost": 1,
-    "SJ_Cost": 2,
-    "Life": null,
-    "Power": null,
-    "Counter": null,
-    "Traits": [],
-    "Keywords": [
-      "Activate: Battle",
-      "Opponent's Attack",
-      "Once per Turn",
-      "Your Turn",
-      "Charge",
-      "Clash",
-      "Swap"
-    ],
-    "Effect": "[Your Turn] Once per Turn When you play a Unit by Swap, you may remove 1 SJ Marker: Charge 1 and you can't Charge for the turn.\nClash [Opponent's Attack] Return this card to your JUMP Deck: Until the end of the turn, you can activate Swap skills at Clash [Activate: Battle] timing.",
-    "Deck_Zone": "JUMP",
-    "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-053.jpg"
   }
 }
