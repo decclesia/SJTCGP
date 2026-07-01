@@ -1,4 +1,4 @@
-window.SJTCG_CARD_DATA = [
+[
   {
     "number": "ST1-001",
     "release": "ST1",
@@ -6638,4 +6638,4 @@ window.SJTCG_CARD_DATA = [
     "deckLimit": 1,
     "orientation": "Landscape"
   }
-];
+]

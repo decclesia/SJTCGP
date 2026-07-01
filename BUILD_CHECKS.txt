@@ -1,18 +1,18 @@
 SJTCGP GitHub Pages card-text update
 
-Website cards: 580
-Transcribed cards: 580
+Website cards: 603
+Transcribed cards: 603
 Missing text matches: 0
 Orphaned text records: 0
 Missing image paths: 0
 Duplicate card numbers: 0
 PUP-060 Traits: blank (JUMP Action correction)
 PUP card rarity: P supported
-WTW cards: 23 (20 ST3 cards + 3 promos)
-Landscape WTW JUMP Actions: ST3-080, PUP-053
-TCG Arena landscape assets: 52 counter-rotated JUMP Action faces
+CCS cards: 23 (20 ST3 cards + 3 promos)
+Landscape CCS JUMP Actions: ST3-100, PUP-056
+CCS JUMP Units without Counter fields: ST3-099, PUP-055
+CCS accessories: GT-CCS, SJM-CCS1, SJM-CCS2
 Revised card transcriptions: EX3-001, ST1-052, ST3-021, ST1-001, SD4-001, ST3-059, SD1-020, EX4-021, EX4-014
-WTW JUMP Units without Counter fields: ST3-078, ST3-079
 EX3 rarity distribution: 1 L, 3 SR, 17 R
 ST3-102 category: Secret Rare
 app.js syntax: OK
@@ -20,6 +20,6 @@ cards.json parses: OK
 card-text.json parses: OK
 Local HTTP asset smoke test: OK
 URL filter parameters: release / set / color / type / q / cards / card supported
-Planner status and WTW deep links updated
+Planner status and CCS deep links updated
 
-Upload the complete contents of this folder to the GitHub Pages repository root.
+Upload the complete contents of the update package to the GitHub Pages repository root.
