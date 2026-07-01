@@ -12,6 +12,7 @@ CCS cards: 23 (20 ST3 cards + 3 promos)
 Landscape CCS JUMP Actions: ST3-100, PUP-056
 CCS JUMP Units without Counter fields: ST3-099, PUP-055
 CCS accessories: GT-CCS, SJM-CCS1, SJM-CCS2
+ST3-061 replacement image and revised Clash Threshold transcription: synchronized
 Revised card transcriptions: EX3-001, ST1-052, ST3-021, ST1-001, SD4-001, ST3-059, SD1-020, EX4-021, EX4-014
 EX3 rarity distribution: 1 L, 3 SR, 17 R
 ST3-102 category: Secret Rare
