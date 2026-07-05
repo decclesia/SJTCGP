@@ -5979,6 +5979,237 @@ window.SJTCG_CARD_DATA = [
     "orientation": "Landscape"
   },
   {
+    "number": "EX5-001",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-002",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-003",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-004",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-005",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-006",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-007",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-008",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-009",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-010",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-011",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-012",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-013",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-014",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-015",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-016",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-017",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-017.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-018",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-019",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-019.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-020",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-020.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "EX5-021",
+    "release": "EX5",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/EX5-021.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape"
+  },
+  {
     "number": "PUP-001",
     "release": "PUP",
     "set": "CSM",
@@ -6637,5 +6868,27 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape"
+  },
+  {
+    "number": "PUP-061",
+    "release": "PUP",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/PUP-061.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
+  },
+  {
+    "number": "PUP-062",
+    "release": "PUP",
+    "set": "UTN",
+    "color": "Pink",
+    "image": "images/PUP-062.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait"
   }
 ];

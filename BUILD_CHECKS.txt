@@ -1,26 +1,24 @@
-SJTCGP GitHub Pages card-text update
+SJTCGP GitHub Pages EX5 UTN update
 
-Website cards: 603
-Transcribed cards: 603
+Website cards: 626
+Transcribed cards: 626
 Missing text matches: 0
 Orphaned text records: 0
 Missing image paths: 0
 Duplicate card numbers: 0
-PUP-060 Traits: blank (JUMP Action correction)
 PUP card rarity: P supported
-CCS cards: 23 (20 ST3 cards + 3 promos)
-Landscape CCS JUMP Actions: ST3-100, PUP-056
-CCS JUMP Units without Counter fields: ST3-099, PUP-055
-CCS accessories: GT-CCS, SJM-CCS1, SJM-CCS2
-ST3-061 replacement image and revised Clash Threshold transcription: synchronized
-Revised card transcriptions: EX3-001, ST1-052, ST3-021, ST1-001, SD4-001, ST3-059, SD1-020, EX4-021, EX4-014
-EX3 rarity distribution: 1 L, 3 SR, 17 R
-ST3-102 category: Secret Rare
-app.js syntax: OK
+UTN cards: 23 (21 EX5 cards + 2 promos)
+EX5 rarity distribution: 1 L, 3 SR, 17 R
+Landscape UTN JUMP Action: EX5-021
+EX5-021 Traits: blank
+UTN JUMP Units without Counter fields: EX5-019, EX5-020, PUP-061, PUP-062
+UTN accessories: GT-UTN, SJM-UTN1
+Arena Energy Stack rule: exactly 10
+Arena SJ Marker Pile rule: exactly 8
+Arena opening hand: 6
 cards.json parses: OK
 card-text.json parses: OK
-Local HTTP asset smoke test: OK
-URL filter parameters: release / set / color / type / q / cards / card supported
-Planner status and CCS deep links updated
-
-Upload the complete contents of the update package to the GitHub Pages repository root.
+tcga/cards.json parses: OK
+tcga/marker-map.json parses: OK
+tcga/Game_SJTCGP.json parses: OK
+Planner status and UTN deep links updated
