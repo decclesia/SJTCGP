@@ -160,6 +160,13 @@
         "TOKEN-SJM-YYH2"
       ],
       "guardToken": "TOKEN-GT-YYH"
+    },
+    "UTN": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-UTN1"
+      ],
+      "guardToken": "TOKEN-GT-UTN"
     }
   },
   "notes": {
@@ -385,6 +392,14 @@
         "TOKEN-SJM-SAF1"
       ],
       "guardToken": "TOKEN-GT-SAF"
+    },
+    "EX5-001": {
+      "set": "UTN",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-UTN1"
+      ],
+      "guardToken": "TOKEN-GT-UTN"
     }
   }
 }
