@@ -127,10 +127,13 @@ def deck_category(card: dict) -> str:
 
 
 def keyword_list(effect: str) -> list[str]:
-    effect_folded = (effect or "").casefold()
     found = []
     for keyword in KEYWORDS:
-        if keyword.casefold() in effect_folded:
+        if re.search(
+            rf"(?<![A-Za-z0-9_-]){re.escape(keyword)}(?![A-Za-z0-9_-])",
+            effect or "",
+            re.IGNORECASE,
+        ):
             found.append(keyword)
     return found
 
