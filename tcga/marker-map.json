@@ -167,6 +167,14 @@
         "TOKEN-SJM-UTN1"
       ],
       "guardToken": "TOKEN-GT-UTN"
+    },
+    "DBL": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-DBL1",
+        "TOKEN-SJM-DBL2"
+      ],
+      "guardToken": "TOKEN-GT-DBL"
     }
   },
   "notes": {
@@ -400,6 +408,15 @@
         "TOKEN-SJM-UTN1"
       ],
       "guardToken": "TOKEN-GT-UTN"
+    },
+    "ST4-001": {
+      "set": "DBL",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-DBL1",
+        "TOKEN-SJM-DBL2"
+      ],
+      "guardToken": "TOKEN-GT-DBL"
     }
   }
 }

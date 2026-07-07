@@ -26327,5 +26327,1189 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-UTN1.jpg",
     "isAccessory": true
+  },
+  "ST4-001": {
+    "id": "ST4-001",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Frieza [ST4-001]",
+    "type": "Leader",
+    "Number": "ST4-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "Once per Turn When you use a card in a combo from your field, draw 1 card.\n[Activate: Main] Once per Turn Add 1 card from your Life to your hand: Reduce the Cost of the next \"Frieza\" Unit card with a Cost of 4 or more you play from your hand by 2 for the turn.\nThreshold 4 [Activate: Main] Once per Turn (1) Play up to 2 Unit cards with a combined cost of 2 or less and \"Frieza\" in their Traits from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-001.jpg"
+  },
+  "ST4-002": {
+    "id": "ST4-002",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "UNIT",
+        "cost": 9,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-002.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Frieza [ST4-002]",
+    "type": "Main_Deck",
+    "Number": "ST4-002",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 9,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Limit 1",
+      "Break",
+      "Unique"
+    ],
+    "Effect": "Unique Break\n[On Play] If your Leader is \"Frieza\": Add 1 card from your Life to your hand; place 2 cards from the top of your Deck at the top of your Life cards.\n[Activate: Battle] Limit 1 Use this card in a combo from your field; give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-002.jpg"
+  },
+  "ST4-003": {
+    "id": "ST4-003",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-003.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Frieza [ST4-003]",
+    "type": "Main_Deck",
+    "Number": "ST4-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If you used a card from your field in a combo this turn, add up to 1 card with \"Frieza\" in its Traits from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-003.jpg"
+  },
+  "ST4-004": {
+    "id": "ST4-004",
+    "face": {
+      "front": {
+        "name": "Captain Ginyu",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-004.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Captain Ginyu [ST4-004]",
+    "type": "Main_Deck",
+    "Number": "ST4-004",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Frieza Force",
+      "Ginyu Force"
+    ],
+    "Keywords": [
+      "On Attack"
+    ],
+    "Effect": "[On Attack] Use 1 card with the \"Frieza Force\" Trait from your field in a combo: At the end of the battle, place this card in your Drop; reduce the cost of the next \"Frieza\" Unit card with a Cost of 5 or more you play from your hand by 1 for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-004.jpg"
+  },
+  "ST4-005": {
+    "id": "ST4-005",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-005.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Frieza [ST4-005]",
+    "type": "Main_Deck",
+    "Number": "ST4-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Main] Once per Turn If you added a card from your Life to your hand this turn, choose up to 1 of your Opponent's Units with a Cost of 3 or less and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-005.jpg"
+  },
+  "ST4-006": {
+    "id": "ST4-006",
+    "face": {
+      "front": {
+        "name": "Zarbon",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-006.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Zarbon [ST4-006]",
+    "type": "Main_Deck",
+    "Number": "ST4-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Frieza Force"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Frieza Force\" trait: Look at the top 4 cards of your Deck; reveal up to 1 card with \"Frieza\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-006.jpg"
+  },
+  "ST4-007": {
+    "id": "ST4-007",
+    "face": {
+      "front": {
+        "name": "Dodoria",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-007.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Dodoria [ST4-007]",
+    "type": "Main_Deck",
+    "Number": "ST4-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Frieza Force"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have \"Zarbon\" in play, draw 2 cards; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-007.jpg"
+  },
+  "ST4-008": {
+    "id": "ST4-008",
+    "face": {
+      "front": {
+        "name": "Guldo",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-008.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Guldo [ST4-008]",
+    "type": "Main_Deck",
+    "Number": "ST4-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Frieza Force",
+      "Ginyu Force"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 2 cards; place 2 cards from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-008.jpg"
+  },
+  "ST4-009": {
+    "id": "ST4-009",
+    "face": {
+      "front": {
+        "name": "Jeice",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-009.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Jeice [ST4-009]",
+    "type": "Main_Deck",
+    "Number": "ST4-009",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Frieza Force",
+      "Ginyu Force"
+    ],
+    "Keywords": [
+      "On Play",
+      "Charge"
+    ],
+    "Effect": "[On Play] Rest this card: Choose up to 1 of your Opponent's Rested Units and it cannot switch to Active mode during your Opponent's next Charge Phase.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-009.jpg"
+  },
+  "ST4-010": {
+    "id": "ST4-010",
+    "face": {
+      "front": {
+        "name": "Burter",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-010.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Burter [ST4-010]",
+    "type": "Main_Deck",
+    "Number": "ST4-010",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Frieza Force",
+      "Ginyu Force"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Rest this card: Choose up to 1 of your Opponent's Units in Active mode and it cannot be Rested until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-010.jpg"
+  },
+  "ST4-011": {
+    "id": "ST4-011",
+    "face": {
+      "front": {
+        "name": "Recoome",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-011.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Recoome [ST4-011]",
+    "type": "Main_Deck",
+    "Number": "ST4-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Frieza Force",
+      "Ginyu Force"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add 1 card from your Life to your hand: Play up to 1 Unit card with the \"GInyu Force\" Trait from your hand. Then, give this card +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-011.jpg"
+  },
+  "ST4-012": {
+    "id": "ST4-012",
+    "face": {
+      "front": {
+        "name": "Cui",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-012.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Cui [ST4-012]",
+    "type": "Main_Deck",
+    "Number": "ST4-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Frieza Force"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-012.jpg"
+  },
+  "ST4-013": {
+    "id": "ST4-013",
+    "face": {
+      "front": {
+        "name": "Appule",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-013.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Appule [ST4-013]",
+    "type": "Main_Deck",
+    "Number": "ST4-013",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Frieza Force"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-013.jpg"
+  },
+  "ST4-014": {
+    "id": "ST4-014",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-014.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Frieza [ST4-014]",
+    "type": "Main_Deck",
+    "Number": "ST4-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units with a Cost of 4 or less and K.O. it.\n[Activate: Battle] Limit 1 Use this card in a combo from your field; give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-014.jpg"
+  },
+  "ST4-015": {
+    "id": "ST4-015",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-015.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Frieza [ST4-015]",
+    "type": "Main_Deck",
+    "Number": "ST4-015",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Overcharge",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] If you used a card from your field in a combo this turn, Overcharge 2.\n[Activate: Battle] Limit 1 Use this card in a combo from your field; give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-015.jpg"
+  },
+  "ST4-016": {
+    "id": "ST4-016",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-016.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Frieza [ST4-016]",
+    "type": "Main_Deck",
+    "Number": "ST4-016",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Attack",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] Choose up to 2 of your Opponent's Units and Rest them. Then, use up to 2 cards from your field in a combo.\n[Activate: Battle] Limit 1 Use this card in a combo from your field; give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-016.jpg"
+  },
+  "ST4-017": {
+    "id": "ST4-017",
+    "face": {
+      "front": {
+        "name": "King Cold",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-017.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "King Cold [ST4-017]",
+    "type": "Main_Deck",
+    "Number": "ST4-017",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 1000,
+    "Traits": [
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[Activate: Main] Once per Turn If you used a card from your field in a combo this turn, switch this card to Active mode at the end of the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-017.jpg"
+  },
+  "ST4-018": {
+    "id": "ST4-018",
+    "face": {
+      "front": {
+        "name": "Tagoma",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-018.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Tagoma [ST4-018]",
+    "type": "Main_Deck",
+    "Number": "ST4-018",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Frieza Force"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Permanent"
+    ],
+    "Effect": "Permanent If your Leader is \"Frieza\", you can combo with this card even while Rested.\n[Your Turn] When this card is used in a combo from your field, reduce the cost of the next \"Frieza\" Unit card with a Cost of 5 or more you play from your hand by 1 for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-018.jpg"
+  },
+  "ST4-019": {
+    "id": "ST4-019",
+    "face": {
+      "front": {
+        "name": "Calling upon the Force",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-019.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Calling upon the Force [ST4-019]",
+    "type": "Main_Deck",
+    "Number": "ST4-019",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Frieza Force"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Look at the top 5 cards of your Deck; reveal up to 1 card with the \"Frieza Force\" Trait and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-019.jpg"
+  },
+  "ST4-020": {
+    "id": "ST4-020",
+    "face": {
+      "front": {
+        "name": "Crazy Finger Beam",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-020.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crazy Finger Beam [ST4-020]",
+    "type": "Main_Deck",
+    "Number": "ST4-020",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] If your Leader is \"Frieza\" and you have a \"Frieza\" with a Cost of 4 or more in play, draw 1 card. Then, choose all of your Opponent's Rested Units and give them -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-020.jpg"
+  },
+  "ST4-021": {
+    "id": "ST4-021",
+    "face": {
+      "front": {
+        "name": "Fighting Power: One Million??",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-021.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fighting Power: One Million?? [ST4-021]",
+    "type": "Main_Deck",
+    "Number": "ST4-021",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Raid {1} Place 1 of your \"Frieza\" in Active mode in your Drop: Play up to 1 \"Frieza\" Unit card with an original Cost exactly 2 greater than that Unit from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-021.jpg"
+  },
+  "ST4-022": {
+    "id": "ST4-022",
+    "face": {
+      "front": {
+        "name": "Death Beam",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-022.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Death Beam [ST4-022]",
+    "type": "Main_Deck",
+    "Number": "ST4-022",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] If you used a card from your field in a combo this turn, reduce the Cost of this card in your hand by 2.\n[Activate: Main] Limit 1 Choose up to 1 of your Opponent's Units with a Cost equal to or less than the combined Cost of \"Frieza\" on your field and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-022.jpg"
+  },
+  "ST4-023": {
+    "id": "ST4-023",
+    "face": {
+      "front": {
+        "name": "Imprisonment Ball",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-023.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Imprisonment Ball [ST4-023]",
+    "type": "Main_Deck",
+    "Number": "ST4-023",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Overcharge",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] If the Unit being played has a Cost of 3 or less, it is played Rested. Then, you may place 1 card from your hand in your Drop: Your Opponent cannot Overcharge by skills for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-023.jpg"
+  },
+  "ST4-024": {
+    "id": "ST4-024",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-024.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 1
+      }
+    },
+    "name": "Frieza [ST4-024]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-024",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Choose up to 2 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and Rest them.\n[On Attack] If you used a card from your field in a combo this turn, give this card +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-024.jpg"
+  },
+  "ST4-025": {
+    "id": "ST4-025",
+    "face": {
+      "front": {
+        "name": "Supernova",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-025.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Supernova [ST4-025]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-025",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Rested Units with a Cost of 7 or less, ignoring Barrier, and K.O. it. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-025.jpg"
+  },
+  "ST4-126": {
+    "id": "ST4-126",
+    "face": {
+      "front": {
+        "name": "Frieza",
+        "type": "UNIT",
+        "cost": 9,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-126.jpg",
+        "isHorizontal": false,
+        "power": 9000
+      }
+    },
+    "name": "Frieza [ST4-126]",
+    "type": "Main_Deck",
+    "Number": "ST4-126",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "ST4",
+    "Rarity": "SEC",
+    "Cost": 9,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 9000,
+    "Counter": 1000,
+    "Traits": [
+      "Frieza Force",
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Double Damage",
+      "On Attack",
+      "On Play",
+      "Barrier",
+      "Critical",
+      "Deflect"
+    ],
+    "Effect": "Deflect Critical\n[On Play] Choose any number of your Opponent's Units whose combined Cost is 10 or less and Rest them. Then, choose up to 1 of your Opponent's Units, ignoring Barrier, and K.O. it.\n[On Attack] If your Opponent has 2 or more Rested Units, give this card Double Damage for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-126.jpg"
+  },
+  "PUP-063": {
+    "id": "PUP-063",
+    "face": {
+      "front": {
+        "name": "Long awaited-for 100%",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-063.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Long awaited-for 100% [PUP-063]",
+    "type": "Main_Deck",
+    "Number": "PUP-063",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Frieza Clan"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Overcharge"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Frieza\", Overcharge 1 for each of your Opponent's Rested Units and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-063.jpg"
+  },
+  "PUP-064": {
+    "id": "PUP-064",
+    "face": {
+      "front": {
+        "name": "Sorbet",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-064.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Sorbet [PUP-064]",
+    "type": "Main_Deck",
+    "Number": "PUP-064",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Frieza Force"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Accelcharge",
+      "Clash"
+    ],
+    "Effect": "[On Play] If your Leader is \"Frieza\", Accelcharge 1.\nClash [Activate: Battle] (1) Play this card from your hand Rested and use it in a combo.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-064.jpg"
+  },
+  "PUP-065": {
+    "id": "PUP-065",
+    "face": {
+      "front": {
+        "name": "Bad Ring Laser",
+        "type": "JUMP ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-065.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Bad Ring Laser [PUP-065]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-065",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "DBL",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Remove this card from the game: If the Unit being played has a Cost of 4 or more, it is played Rested with its skills negated for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-065.jpg"
+  },
+  "TOKEN-GT-DBL": {
+    "id": "TOKEN-GT-DBL",
+    "face": {
+      "front": {
+        "name": "Guard Token DBL",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-DBL.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token DBL",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-DBL",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "DBL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-DBL.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-DBL1": {
+    "id": "TOKEN-SJM-DBL1",
+    "face": {
+      "front": {
+        "name": "SJ Marker DBL1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DBL1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker DBL1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-DBL1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "DBL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DBL1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-DBL2": {
+    "id": "TOKEN-SJM-DBL2",
+    "face": {
+      "front": {
+        "name": "SJ Marker DBL2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DBL2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker DBL2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-DBL2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "DBL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DBL2.jpg",
+    "isAccessory": true
   }
 }
