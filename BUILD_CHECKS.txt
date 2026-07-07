@@ -1,24 +1,43 @@
-SJTCGP GitHub Pages EX5 UTN update
-
-Website cards: 626
-Transcribed cards: 626
-Missing text matches: 0
-Orphaned text records: 0
-Missing image paths: 0
-Duplicate card numbers: 0
-PUP card rarity: P supported
-UTN cards: 23 (21 EX5 cards + 2 promos)
-EX5 rarity distribution: 1 L, 3 SR, 17 R
-Landscape UTN JUMP Action: EX5-021
-EX5-021 Traits: blank
-UTN JUMP Units without Counter fields: EX5-019, EX5-020, PUP-061, PUP-062
-UTN accessories: GT-UTN, SJM-UTN1
-Arena Energy Stack rule: exactly 10
-Arena SJ Marker Pile rule: exactly 8
-Arena opening hand: 6
-cards.json parses: OK
-card-text.json parses: OK
-tcga/cards.json parses: OK
-tcga/marker-map.json parses: OK
-tcga/Game_SJTCGP.json parses: OK
-Planner status and UTN deep links updated
+{
+  "website_cards": 655,
+  "card_text_records": 655,
+  "arena_entries": 727,
+  "added_cards": [
+    "ST4-001",
+    "ST4-002",
+    "ST4-003",
+    "ST4-004",
+    "ST4-005",
+    "ST4-006",
+    "ST4-007",
+    "ST4-008",
+    "ST4-009",
+    "ST4-010",
+    "ST4-011",
+    "ST4-012",
+    "ST4-013",
+    "ST4-014",
+    "ST4-015",
+    "ST4-016",
+    "ST4-017",
+    "ST4-018",
+    "ST4-019",
+    "ST4-020",
+    "ST4-021",
+    "ST4-022",
+    "ST4-023",
+    "ST4-024",
+    "ST4-025",
+    "ST4-126",
+    "PUP-063",
+    "PUP-064",
+    "PUP-065"
+  ],
+  "landscape_jump_actions": [
+    "ST4-025",
+    "PUP-065"
+  ],
+  "arena_energy_stack": 20,
+  "arena_sj_marker_pile": 20,
+  "arena_opening_hand": 6
+}
