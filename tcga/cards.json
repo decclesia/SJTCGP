@@ -27511,5 +27511,1113 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DBL2.jpg",
     "isAccessory": true
+  },
+  "ST4-026": {
+    "id": "ST4-026",
+    "face": {
+      "front": {
+        "name": "Akaza",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-026.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Akaza [ST4-026]",
+    "type": "Leader",
+    "Number": "ST4-026",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Threshold",
+      "Once per Turn"
+    ],
+    "Effect": "Once per Turn When your Unit attacks an Opponent's Unit, give your card that's in a battle +1000 Power for the battle.\nOnce per Turn When you K.O. an Opponent's Unit by battle, draw 1 card.\nThreshold 2 [Activate: Main] (1) This card can attack your Opponent's Units in Active mode for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-026.jpg"
+  },
+  "ST4-027": {
+    "id": "ST4-027",
+    "face": {
+      "front": {
+        "name": "Akaza",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-027.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Akaza [ST4-027]",
+    "type": "Main_Deck",
+    "Number": "ST4-027",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Duel"
+    ],
+    "Effect": "Duel\nOnce per Turn When this card K.O.'s an Opponent's Unit by battle, switch this card to Active mode; it cannot attack your Opponent's Leader for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-027.jpg"
+  },
+  "ST4-028": {
+    "id": "ST4-028",
+    "face": {
+      "front": {
+        "name": "Akaza",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-028.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Akaza [ST4-028]",
+    "type": "Main_Deck",
+    "Number": "ST4-028",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Overcharge",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Choose up to 1 of your Opponent's Units in Active mode: Your Units can attack it while it is in Active mode for the turn.\n[Activate: Main] If this card was played this turn and an Opponent's Unit has been K.O.'d by battle this turn: Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-028.jpg"
+  },
+  "ST4-029": {
+    "id": "ST4-029",
+    "face": {
+      "front": {
+        "name": "Doma",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-029.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Doma [ST4-029]",
+    "type": "Main_Deck",
+    "Number": "ST4-029",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "On Play",
+      "Opponent's Attack",
+      "Clash",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[On Play] / Clash [Opponent's Attack] Limit 1 Choose up to 2 of your Opponent's Units and give them -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-029.jpg"
+  },
+  "ST4-030": {
+    "id": "ST4-030",
+    "face": {
+      "front": {
+        "name": "Akaza",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-030.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Akaza [ST4-030]",
+    "type": "Main_Deck",
+    "Number": "ST4-030",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On K.O.",
+      "Limit 1",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n[On Attack] If this card is in a battle with an Opponent's Unit, give this card +2000 Power for the battle.\n[On K.O.] Limit 1 If this card was K.O.'d by battle, add this card from your Drop to your hand at the end of the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-030.jpg"
+  },
+  "ST4-031": {
+    "id": "ST4-031",
+    "face": {
+      "front": {
+        "name": "Kibutsuji Muzan",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-031.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Kibutsuji Muzan [ST4-031]",
+    "type": "Main_Deck",
+    "Number": "ST4-031",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Clash",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Choose up to 1 of your Opponent's Units with 5000 or less Power, ignoring Barrier, and K.O. it.\nClash [Opponent's Attack] (1) Place this card in your Drop: Play up to 1 Unit card with the ?Demon? Trait, excluding ?Kibutsuji Muzan?, from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-031.jpg"
+  },
+  "ST4-032": {
+    "id": "ST4-032",
+    "face": {
+      "front": {
+        "name": "Kokushibo",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-032.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Kokushibo [ST4-032]",
+    "type": "Main_Deck",
+    "Number": "ST4-032",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "Permanent",
+      "Duel"
+    ],
+    "Effect": "Duel\nPermanent If your Opponent has a Unit in play, this card can't attack your Opponent's Leader.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-032.jpg"
+  },
+  "ST4-033": {
+    "id": "ST4-033",
+    "face": {
+      "front": {
+        "name": "Nakime",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-033.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Nakime [ST4-033]",
+    "type": "Main_Deck",
+    "Number": "ST4-033",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Play up to 1 Unit card with a cost of 5 or less and the ?Upper Rank? Trait from your hand.\n[Activate: Main] Limit 1 Rest this card: Up to 1 of your Units with the ?Upper Rank? Trait, that was played this turn, can attack your Opponent's Units in Active mode for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-033.jpg"
+  },
+  "ST4-034": {
+    "id": "ST4-034",
+    "face": {
+      "front": {
+        "name": "Hakuji",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-034.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Hakuji [ST4-034]",
+    "type": "Main_Deck",
+    "Number": "ST4-034",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Martial Artist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; reveal up to 1 \"Akaza\" or Action card with the \"Kekkijutsu\" Trait and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-034.jpg"
+  },
+  "ST4-035": {
+    "id": "ST4-035",
+    "face": {
+      "front": {
+        "name": "Koyuki",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-035.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Koyuki [ST4-035]",
+    "type": "Main_Deck",
+    "Number": "ST4-035",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Rest this card: Give up to 1 of your \"Hakuji\" or \"Akaza\" Units +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-035.jpg"
+  },
+  "ST4-036": {
+    "id": "ST4-036",
+    "face": {
+      "front": {
+        "name": "Keizo",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-036.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Keizo [ST4-036]",
+    "type": "Main_Deck",
+    "Number": "ST4-036",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Martial Artist"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] Choose up to 1 of your Opponent's Units and give it -1000 Power for the turn. Then, if that card's Power is 1000 or less, Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-036.jpg"
+  },
+  "ST4-037": {
+    "id": "ST4-037",
+    "face": {
+      "front": {
+        "name": "Akaza",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-037.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Akaza [ST4-037]",
+    "type": "Main_Deck",
+    "Number": "ST4-037",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, if your Leader is ?Akaza?, the next time you use an Action card with a Cost of 3 or less and the ?Kekkijutsu? Trait, during this turn, you don't have to pay the cost.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-037.jpg"
+  },
+  "ST4-038": {
+    "id": "ST4-038",
+    "face": {
+      "front": {
+        "name": "Gyutaro",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-038.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Gyutaro [ST4-038]",
+    "type": "Main_Deck",
+    "Number": "ST4-038",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 If your Leader has the ?Upper Rank? Trait: During your Opponent's next turn, the first time your Opponent's Unit attacks your Leader, give your Leader +2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-038.jpg"
+  },
+  "ST4-039": {
+    "id": "ST4-039",
+    "face": {
+      "front": {
+        "name": "Daki",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-039.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Daki [ST4-039]",
+    "type": "Main_Deck",
+    "Number": "ST4-039",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] Play up to 1 \"Gyutaro\" with a Cost of 4 or less from your hand Rested. Then, choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-039.jpg"
+  },
+  "ST4-040": {
+    "id": "ST4-040",
+    "face": {
+      "front": {
+        "name": "Gyokko",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-040.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Gyokko [ST4-040]",
+    "type": "Main_Deck",
+    "Number": "ST4-040",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units in Active mode and give it -1000 Power for the turn. Then, if its Power is 0 or less, choose up to 1 of your Opponent's Units and give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-040.jpg"
+  },
+  "ST4-041": {
+    "id": "ST4-041",
+    "face": {
+      "front": {
+        "name": "Kamanue",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-041.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kamanue [ST4-041]",
+    "type": "Main_Deck",
+    "Number": "ST4-041",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Lower Rank"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-041.jpg"
+  },
+  "ST4-042": {
+    "id": "ST4-042",
+    "face": {
+      "front": {
+        "name": "Mukago",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-042.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Mukago [ST4-042]",
+    "type": "Main_Deck",
+    "Number": "ST4-042",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Demon",
+      "Lower Rank"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units and give it -1000 Power for the turn. Then, if that card's Power is 1000 or less, K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-042.jpg"
+  },
+  "ST4-043": {
+    "id": "ST4-043",
+    "face": {
+      "front": {
+        "name": "Kaigaku",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-043.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kaigaku [ST4-043]",
+    "type": "Main_Deck",
+    "Number": "ST4-043",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Upper Rank"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Opponent's Turn] Limit 1 When your Unit(s) with the ?Upper Rank? Trait would be removed from the field by an Opponent's skill, you may instead give your Leader -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-043.jpg"
+  },
+  "ST4-044": {
+    "id": "ST4-044",
+    "face": {
+      "front": {
+        "name": "Compass Needle",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-044.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Compass Needle [ST4-044]",
+    "type": "Main_Deck",
+    "Number": "ST4-044",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kekkijutsu"
+    ],
+    "Keywords": [
+      "Permanent"
+    ],
+    "Effect": "Scene\nPermanent Your Units with the \"Upper Rank\" Trait can attack your Opponent's Units in Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-044.jpg"
+  },
+  "ST4-045": {
+    "id": "ST4-045",
+    "face": {
+      "front": {
+        "name": "Destructive Death: Flying Planet Thousand Wheels",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-045.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Destructive Death: Flying Planet Thousand Wheels [ST4-045]",
+    "type": "Main_Deck",
+    "Number": "ST4-045",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kekkijutsu"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Give up to 1 of your Units +3000 Power for the battle. Then, choose up to 1 of your Opponent's Units with 4000 Power or less and it cannot attack for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-045.jpg"
+  },
+  "ST4-046": {
+    "id": "ST4-046",
+    "face": {
+      "front": {
+        "name": "Destructive Death: Disorder",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-046.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Destructive Death: Disorder [ST4-046]",
+    "type": "Main_Deck",
+    "Number": "ST4-046",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kekkijutsu"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Place 1 card with the ?Demon? Trait from your hand or field in your Drop: Your Opponent's Units with 5000 or less Power cannot attack for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-046.jpg"
+  },
+  "ST4-047": {
+    "id": "ST4-047",
+    "face": {
+      "front": {
+        "name": "Destructive Death: Explosive Fury",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-047.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Destructive Death: Explosive Fury [ST4-047]",
+    "type": "Main_Deck",
+    "Number": "ST4-047",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kekkijutsu"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Battle] Limit 1 Give your card that's in a battle +2000 Power and give your Opponent's card in that battle -1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-047.jpg"
+  },
+  "ST4-048": {
+    "id": "ST4-048",
+    "face": {
+      "front": {
+        "name": "Destructive Death: Annihilation Type",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-048.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Destructive Death: Annihilation Type [ST4-048]",
+    "type": "Main_Deck",
+    "Number": "ST4-048",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kekkijutsu"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge",
+      "Overcharge",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader is ?Akaza? and you have no Rested Units, Charge 1 and Overcharge 1. Then, you can't Charge or Overcharge and your Units cannot attack your Opponent's Leader for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-048.jpg"
+  },
+  "ST4-049": {
+    "id": "ST4-049",
+    "face": {
+      "front": {
+        "name": "Enmu",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-049.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 3
+      }
+    },
+    "name": "Enmu [ST4-049]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-049",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Lower Rank"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Duel",
+      "Break"
+    ],
+    "Effect": "Break Duel\n[Your Turn] When this card K.O.'s an Opponent's Unit by battle, draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-049.jpg"
+  },
+  "ST4-050": {
+    "id": "ST4-050",
+    "face": {
+      "front": {
+        "name": "Infinity Castle",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-050.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Infinity Castle [ST4-050]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-050",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Your Turn",
+      "On Play",
+      "Once per Turn",
+      "Accelcharge"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Upper Rank\" Trait: Draw 2 cards.\n[Your Turn] Once per Turn If your Leader has the \"Upper Rank\" Trait: When you K.O. an Opponent's Unit by battle, Accelcharge 1.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-050.jpg"
+  },
+  "PUP-066": {
+    "id": "PUP-066",
+    "face": {
+      "front": {
+        "name": "Destructive Death: Blue Silver Chaotic Afterglow",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-066.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Destructive Death: Blue Silver Chaotic Afterglow [PUP-066]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-066",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] If your \"Akaza\" is battling an Opponent's Unit, give it +4000 Power for the battle. At the end of the battle, if that Unit was K.O.'d, draw 1 card. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-066.jpg"
+  },
+  "PUP-067": {
+    "id": "PUP-067",
+    "face": {
+      "front": {
+        "name": "Destructive Death: Eight Layered Demon Core",
+        "type": "JUMP ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-067.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Destructive Death: Eight Layered Demon Core [PUP-067]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-067",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 0,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] During your Opponent's next turn, when your Opponent's Unit attacks: Give your card that's in a battle +1000 Power for the battle. Then, return this card to your JUMP Deck at the end of your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-067.jpg"
+  },
+  "TOKEN-GT-KNY": {
+    "id": "TOKEN-GT-KNY",
+    "face": {
+      "front": {
+        "name": "Guard Token KNY",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-KNY.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token KNY",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-KNY",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "KNY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-KNY.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-KNY1": {
+    "id": "TOKEN-SJM-KNY1",
+    "face": {
+      "front": {
+        "name": "SJ Marker KNY1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-KNY1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker KNY1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-KNY1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "KNY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-KNY1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-KNY2": {
+    "id": "TOKEN-SJM-KNY2",
+    "face": {
+      "front": {
+        "name": "SJ Marker KNY2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-KNY2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker KNY2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-KNY2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "KNY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-KNY2.jpg",
+    "isAccessory": true
   }
 }
