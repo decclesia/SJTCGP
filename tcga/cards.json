@@ -26359,8 +26359,8 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "Once per Turn",
-      "Threshold"
+      "Threshold",
+      "Once per Turn"
     ],
     "Effect": "Once per Turn When you use a card in a combo from your field, draw 1 card.\n[Activate: Main] Once per Turn Add 1 card from your Life to your hand: Reduce the Cost of the next \"Frieza\" Unit card with a Cost of 4 or more you play from your hand by 2 for the turn.\nThreshold 4 [Activate: Main] Once per Turn (1) Play up to 2 Unit cards with a combined cost of 2 or less and \"Frieza\" in their Traits from your hand.",
     "Deck_Zone": "Main",
@@ -26659,8 +26659,7 @@
       "Ginyu Force"
     ],
     "Keywords": [
-      "On Play",
-      "Charge"
+      "On Play"
     ],
     "Effect": "[On Play] Rest this card: Choose up to 1 of your Opponent's Rested Units and it cannot switch to Active mode during your Opponent's next Charge Phase.",
     "Deck_Zone": "Main",
@@ -27106,8 +27105,7 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "Limit 1",
-      "Raid"
+      "Limit 1"
     ],
     "Effect": "[Activate: Main] Limit 1 Raid {1} Place 1 of your \"Frieza\" in Active mode in your Drop: Play up to 1 \"Frieza\" Unit card with an original Cost exactly 2 greater than that Unit from your hand.",
     "Deck_Zone": "Main",
@@ -27180,8 +27178,8 @@
     ],
     "Keywords": [
       "Opponent's Play",
-      "Overcharge",
-      "Clash"
+      "Clash",
+      "Overcharge"
     ],
     "Effect": "Clash [Opponent's Play] If the Unit being played has a Cost of 3 or less, it is played Rested. Then, you may place 1 card from your hand in your Drop: Your Opponent cannot Overcharge by skills for the turn.",
     "Deck_Zone": "Main",
@@ -27294,12 +27292,12 @@
       "Frieza Clan"
     ],
     "Keywords": [
-      "Double Damage",
       "On Attack",
       "On Play",
+      "Double Damage",
       "Barrier",
-      "Critical",
-      "Deflect"
+      "Deflect",
+      "Critical"
     ],
     "Effect": "Deflect Critical\n[On Play] Choose any number of your Opponent's Units whose combined Cost is 10 or less and Rest them. Then, choose up to 1 of your Opponent's Units, ignoring Barrier, and K.O. it.\n[On Attack] If your Opponent has 2 or more Rested Units, give this card Double Damage for the battle.",
     "Deck_Zone": "Main",
@@ -27373,8 +27371,8 @@
     "Keywords": [
       "Activate: Battle",
       "On Play",
-      "Accelcharge",
-      "Clash"
+      "Clash",
+      "Accelcharge"
     ],
     "Effect": "[On Play] If your Leader is \"Frieza\", Accelcharge 1.\nClash [Activate: Battle] (1) Play this card from your hand Rested and use it in a combo.",
     "Deck_Zone": "Main",
@@ -27744,7 +27742,7 @@
       "Clash",
       "Barrier"
     ],
-    "Effect": "[Activate: Main] Rest this card: Choose up to 1 of your Opponent's Units with 5000 or less Power, ignoring Barrier, and K.O. it.\nClash [Opponent's Attack] (1) Place this card in your Drop: Play up to 1 Unit card with the ?Demon? Trait, excluding ?Kibutsuji Muzan?, from your Drop.",
+    "Effect": "[Activate: Main] Rest this card: Choose up to 1 of your Opponent's Units with 5000 or less Power, ignoring Barrier, and K.O. it.\nClash [Opponent's Attack] (1) Place this card in your Drop: Play up to 1 Unit card with the \"Demon\" Trait, excluding \"Kibutsuji Muzan\", from your Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST4-031.jpg"
@@ -27821,7 +27819,7 @@
       "On Play",
       "Limit 1"
     ],
-    "Effect": "[On Play] Play up to 1 Unit card with a cost of 5 or less and the ?Upper Rank? Trait from your hand.\n[Activate: Main] Limit 1 Rest this card: Up to 1 of your Units with the ?Upper Rank? Trait, that was played this turn, can attack your Opponent's Units in Active mode for the turn.",
+    "Effect": "[On Play] Play up to 1 Unit card with a cost of 5 or less and the \"Upper Rank\" Trait from your hand.\n[Activate: Main] Limit 1 Rest this card: Up to 1 of your Units with the \"Upper Rank\" Trait, that was played this turn, can attack your Opponent's Units in Active mode for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST4-033.jpg"
@@ -27968,7 +27966,7 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, if your Leader is ?Akaza?, the next time you use an Action card with a Cost of 3 or less and the ?Kekkijutsu? Trait, during this turn, you don't have to pay the cost.",
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, if your Leader is \"Akaza\", the next time you use an Action card with a Cost of 3 or less and the \"Kekkijutsu\" Trait, during this turn, you don't have to pay the cost.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST4-037.jpg"
@@ -28006,7 +28004,7 @@
       "On Play",
       "Limit 1"
     ],
-    "Effect": "[On Play] Limit 1 If your Leader has the ?Upper Rank? Trait: During your Opponent's next turn, the first time your Opponent's Unit attacks your Leader, give your Leader +2000 Power for the turn.",
+    "Effect": "[On Play] Limit 1 If your Leader has the \"Upper Rank\" Trait: During your Opponent's next turn, the first time your Opponent's Unit attacks your Leader, give your Leader +2000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST4-038.jpg"
@@ -28193,7 +28191,7 @@
       "Opponent's Turn",
       "Limit 1"
     ],
-    "Effect": "[Opponent's Turn] Limit 1 When your Unit(s) with the ?Upper Rank? Trait would be removed from the field by an Opponent's skill, you may instead give your Leader -1000 Power for the turn.",
+    "Effect": "[Opponent's Turn] Limit 1 When your Unit(s) with the \"Upper Rank\" Trait would be removed from the field by an Opponent's skill, you may instead give your Leader -1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST4-043.jpg"
@@ -28300,7 +28298,7 @@
       "Opponent's Play",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Play] Place 1 card with the ?Demon? Trait from your hand or field in your Drop: Your Opponent's Units with 5000 or less Power cannot attack for the turn.",
+    "Effect": "Clash [Opponent's Play] Place 1 card with the \"Demon\" Trait from your hand or field in your Drop: Your Opponent's Units with 5000 or less Power cannot attack for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST4-046.jpg"
@@ -28374,7 +28372,7 @@
       "Overcharge",
       "Limit 1"
     ],
-    "Effect": "[Activate: Main] Limit 1 If your Leader is ?Akaza? and you have no Rested Units, Charge 1 and Overcharge 1. Then, you can't Charge or Overcharge and your Units cannot attack your Opponent's Leader for the turn.",
+    "Effect": "[Activate: Main] Limit 1 If your Leader is \"Akaza\" and you have no Rested Units, Charge 1 and Overcharge 1. Then, you can't Charge or Overcharge and your Units cannot attack your Opponent's Leader for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST4-048.jpg"

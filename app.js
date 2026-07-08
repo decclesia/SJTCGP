@@ -627,8 +627,8 @@ function showModalCard() {
   if (elements.modalEffectSection) elements.modalEffectSection.hidden = !text.effect;
   if (elements.modalEffect) elements.modalEffect.innerHTML = text.effect_html || escapeHtml(text.effect || "").replaceAll("\n", "<br>");
   if (elements.modalNotes) {
-    elements.modalNotes.hidden = !text.notes;
-    elements.modalNotes.innerHTML = text.notes ? `<strong>Transcription note:</strong> ${escapeHtml(text.notes)}` : "";
+    elements.modalNotes.hidden = true;
+    elements.modalNotes.innerHTML = "";
   }
   if (elements.modalCopyText) elements.modalCopyText.hidden = !text.name && !text.effect;
   if (elements.modalImagePath) elements.modalImagePath.textContent = "Copy image path";
