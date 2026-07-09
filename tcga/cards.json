@@ -28617,5 +28617,1207 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-KNY2.jpg",
     "isAccessory": true
+  },
+  "ST4-076": {
+    "id": "ST4-076",
+    "face": {
+      "front": {
+        "name": "Griffith",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-076.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Griffith [ST4-076]",
+    "type": "Leader",
+    "Number": "ST4-076",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "Your Turn",
+      "Overcharge",
+      "Threshold",
+      "Charge"
+    ],
+    "Effect": "You can only have up to 5 Energy Markers in your Charge Zone.\nOnce per Turn When your Unit with the \"Band of Falcon\" Trait is removed from your field by K.O. or by a skill:\n[Your Turn] Charge 1.\n[Opponent's Turn] Overcharge 1.\nThreshold 4 Once per Turn (1) When your Unit is removed from your field, draw 1 card and give your Leader or up to 1 of your Units +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-076.jpg"
+  },
+  "ST4-077": {
+    "id": "ST4-077",
+    "face": {
+      "front": {
+        "name": "Griffith",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-077.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Griffith [ST4-077]",
+    "type": "Main_Deck",
+    "Number": "ST4-077",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Barrier",
+      "Blocker"
+    ],
+    "Effect": "Barrier Blocker\n[On Play] Play up to 1 Unit card with the \"Band of Falcon\" Trait and a Cost of 2 or less from your Drop Rested.\n[Activate: Main] Limit 1 Place 1 of your other Units with the \"Band of Falcon\" Trait in your Drop: Choose up to 1 of your Opponent's Units with a Cost of 4 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-077.jpg"
+  },
+  "ST4-078": {
+    "id": "ST4-078",
+    "face": {
+      "front": {
+        "name": "Guts",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-078.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Guts [ST4-078]",
+    "type": "Main_Deck",
+    "Number": "ST4-078",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] If one of your Units was removed from your field this turn, give this card +2000 Power for the battle.\n[Activate: Main] Limit 1 (1) Place 1 card from your hand in your Drop: Add this card from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-078.jpg"
+  },
+  "ST4-079": {
+    "id": "ST4-079",
+    "face": {
+      "front": {
+        "name": "Casca",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-079.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Casca [ST4-079]",
+    "type": "Main_Deck",
+    "Number": "ST4-079",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "Permanent",
+      "Limit 1",
+      "Deflect"
+    ],
+    "Effect": "Deflect\nPermanent Once per Turn, this card cannot be K.O.'d by battle.\n[Activate: Battle] Limit 1 (2) If your Leader is \"Griffith\": Draw 1 card; play this card from your hand and make it the new attack card or attack target.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-079.jpg"
+  },
+  "ST4-080": {
+    "id": "ST4-080",
+    "face": {
+      "front": {
+        "name": "Judeau",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-080.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Judeau [ST4-080]",
+    "type": "Main_Deck",
+    "Number": "ST4-080",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; add up to 1 card with the \"Band of Falcon\" Trait to your hand. Then, shuffle your Deck.\n[Activate: Main] Limit 1 If your Leader is \"Griffith\" and you place this card in your Drop: Charge 1. Then, you can't play \"Judeau\" for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-080.jpg"
+  },
+  "ST4-081": {
+    "id": "ST4-081",
+    "face": {
+      "front": {
+        "name": "Rickert",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-081.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Rickert [ST4-081]",
+    "type": "Main_Deck",
+    "Number": "ST4-081",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[Activate: Main] Limit 1 If your Leader is \"Griffith\" and you place this card in your Drop: Charge 1. Then, you can't play \"Rickert\" for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-081.jpg"
+  },
+  "ST4-082": {
+    "id": "ST4-082",
+    "face": {
+      "front": {
+        "name": "Pippin",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-082.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Pippin [ST4-082]",
+    "type": "Main_Deck",
+    "Number": "ST4-082",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "On Block",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Block] You may place 1 of your other Units with the \"Band of Falcon\" Trait in your Drop: Give this card +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-082.jpg"
+  },
+  "ST4-083": {
+    "id": "ST4-083",
+    "face": {
+      "front": {
+        "name": "Corkus",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-083.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Corkus [ST4-083]",
+    "type": "Main_Deck",
+    "Number": "ST4-083",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] If one of your Units was removed from your field this turn, choose up to 1 Unit with a Cost of 2 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-083.jpg"
+  },
+  "ST4-084": {
+    "id": "ST4-084",
+    "face": {
+      "front": {
+        "name": "Griffith",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-084.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Griffith [ST4-084]",
+    "type": "Main_Deck",
+    "Number": "ST4-084",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "On Play / On K.O.",
+      "Limit 1"
+    ],
+    "Effect": "[On Play / On K.O.] Limit 1 Add up to 1 Unit with the \"Band of Falcon\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-084.jpg"
+  },
+  "ST4-085": {
+    "id": "ST4-085",
+    "face": {
+      "front": {
+        "name": "Casca",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-085.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Casca [ST4-085]",
+    "type": "Main_Deck",
+    "Number": "ST4-085",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Limit 1",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n[On Attack] Play up to 1 Unit with a Cost of 1 and the \"Band of Falcon\" Trait from your Drop.\n[Activate: Main] Limit 1 Place 1 of your other Units with the \"Band of Falcon\" Trait in your Drop: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-085.jpg"
+  },
+  "ST4-086": {
+    "id": "ST4-086",
+    "face": {
+      "front": {
+        "name": "Griffith",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-086.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Griffith [ST4-086]",
+    "type": "Main_Deck",
+    "Number": "ST4-086",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may return 1 of your other Units to the owner's hand: If your Leader is \"Griffith\", choose up to 1 Unit with a Cost of 4 or less and return it to the owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-086.jpg"
+  },
+  "ST4-087": {
+    "id": "ST4-087",
+    "face": {
+      "front": {
+        "name": "Guts",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-087.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Guts [ST4-087]",
+    "type": "Main_Deck",
+    "Number": "ST4-087",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 2000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a Cost of 5 or less and return it to the owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-087.jpg"
+  },
+  "ST4-088": {
+    "id": "ST4-088",
+    "face": {
+      "front": {
+        "name": "Rakshas",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-088.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Rakshas [ST4-088]",
+    "type": "Main_Deck",
+    "Number": "ST4-088",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon",
+      "Apostle"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Limit 1",
+      "Clash",
+      "Revenge"
+    ],
+    "Effect": "Revenge\nClash [Opponent's Attack] Limit 1 (2) If your Leader is \"Griffith\": Play this card from your hand and make it the new attack target.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-088.jpg"
+  },
+  "ST4-089": {
+    "id": "ST4-089",
+    "face": {
+      "front": {
+        "name": "Zodd",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-089.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Zodd [ST4-089]",
+    "type": "Main_Deck",
+    "Number": "ST4-089",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon",
+      "Apostle"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Overcharge",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Overcharge 2 and you can't Overcharge for the turn.\n[Activate: Main] If your Leader is \"Griffith\", place this card in your Drop: Play up to 1 \"Griffith\" with a Cost of 5 from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-089.jpg"
+  },
+  "ST4-090": {
+    "id": "ST4-090",
+    "face": {
+      "front": {
+        "name": "Grunbeld",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-090.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Grunbeld [ST4-090]",
+    "type": "Main_Deck",
+    "Number": "ST4-090",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon",
+      "Apostle"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Break"
+    ],
+    "Effect": "Break\n[On Attack] Choose up to 1 of your Opponent's Units with a Cost of 4 or less and return it to the owner's hand.\n[Activate: Main] If your Leader is \"Griffith\", place this card in your Drop: Play up to 1 \"Griffith\" with a Cost of 5 from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-090.jpg"
+  },
+  "ST4-091": {
+    "id": "ST4-091",
+    "face": {
+      "front": {
+        "name": "Locus",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-091.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Locus [ST4-091]",
+    "type": "Main_Deck",
+    "Number": "ST4-091",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon",
+      "Apostle"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Duel"
+    ],
+    "Effect": "Duel\n[On Play] Remove 1 of your Opponent's Overcharged Energy.\n[Activate: Main] If your Leader is \"Griffith\", place this card in your Drop: Play up to 1 \"Griffith\" with a Cost of 5 from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-091.jpg"
+  },
+  "ST4-092": {
+    "id": "ST4-092",
+    "face": {
+      "front": {
+        "name": "Irvine",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-092.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Irvine [ST4-092]",
+    "type": "Main_Deck",
+    "Number": "ST4-092",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon",
+      "Apostle"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Critical"
+    ],
+    "Effect": "Critical\n[On Attack] Remove 2 of your Opponent's SJ Markers.\n[Activate: Main] If your Leader is \"Griffith\", place this card in your Drop: Play up to 1 \"Griffith\" with a Cost of 5 from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-092.jpg"
+  },
+  "ST4-093": {
+    "id": "ST4-093",
+    "face": {
+      "front": {
+        "name": "Princess Charlotte",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-093.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Princess Charlotte [ST4-093]",
+    "type": "Main_Deck",
+    "Number": "ST4-093",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Midland"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-093.jpg"
+  },
+  "ST4-094": {
+    "id": "ST4-094",
+    "face": {
+      "front": {
+        "name": "Midland Tactics",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-094.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Midland Tactics [ST4-094]",
+    "type": "Main_Deck",
+    "Number": "ST4-094",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units with a Cost of 3 or less, ignoring Barrier, and return it to its owner's hand or, if one of your Units was removed from your field this turn, place it at the bottom of its owner's Deck instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-094.jpg"
+  },
+  "ST4-095": {
+    "id": "ST4-095",
+    "face": {
+      "front": {
+        "name": "Sacrificial Advance",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-095.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sacrificial Advance [ST4-095]",
+    "type": "Main_Deck",
+    "Number": "ST4-095",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Causality"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] (3) If your Leader is \"Griffith\" and you place 1 of your Units with the \"Band of Falcon\" Trait in your Drop: Choose up to 1 of your Opponent's Units and place it at the bottom of its owner's Deck. Then, draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-095.jpg"
+  },
+  "ST4-096": {
+    "id": "ST4-096",
+    "face": {
+      "front": {
+        "name": "Ambition's Road",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-096.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ambition's Road [ST4-096]",
+    "type": "Main_Deck",
+    "Number": "ST4-096",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Causality"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Limit 1",
+      "Raid"
+    ],
+    "Effect": "[Activate: Battle] Limit 1 Raid {1} If your Leader is \"Griffith\", choose one:\n• Play up to 1 Unit card with a Cost of 1 and the \"Band of Falcon\" Trait from your Drop.\n• Add up to 1 Unit card with a Cost of 3 or more and the \"Band of Falcon\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-096.jpg"
+  },
+  "ST4-097": {
+    "id": "ST4-097",
+    "face": {
+      "front": {
+        "name": "Falcon's Retreat",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-097.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Falcon's Retreat [ST4-097]",
+    "type": "Main_Deck",
+    "Number": "ST4-097",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Overcharge",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Draw 1 card and Overcharge 1; place 1 of your Units with the \"Band of Falcon\" Trait in your Drop: Negate the attack.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-097.jpg"
+  },
+  "ST4-098": {
+    "id": "ST4-098",
+    "face": {
+      "front": {
+        "name": "Eclipse Omen",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-098.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Eclipse Omen [ST4-098]",
+    "type": "Main_Deck",
+    "Number": "ST4-098",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Causality"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] If your Leader is \"Griffith\", choose up to 1 of your Units with the \"Band of Falcon\" Trait and give it +2000 Power for the battle. At the end of the battle, place it in your Drop and draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-098.jpg"
+  },
+  "ST4-099": {
+    "id": "ST4-099",
+    "face": {
+      "front": {
+        "name": "Behelit",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-099.jpg",
+        "isHorizontal": false,
+        "power": 0,
+        "sjCost": 1
+      }
+    },
+    "name": "Behelit [ST4-099]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-099",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 0,
+    "Counter": null,
+    "Traits": [
+      "Causality"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Permanent"
+    ],
+    "Effect": "This card cannot attack and is unaffected by other cards' skills.\nPermanent When your Unit is removed from your field, place 1 \"Eclipse\" counter on this card.\n[Activate: Main] Remove this card with 15 \"Eclipse\" counters on it from the game: Play up to 1 \"Femto\" from your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-099.jpg"
+  },
+  "ST4-100": {
+    "id": "ST4-100",
+    "face": {
+      "front": {
+        "name": "Femto",
+        "type": "JUMP UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-100.jpg",
+        "isHorizontal": false,
+        "power": 8000,
+        "sjCost": 6
+      }
+    },
+    "name": "Femto [ST4-100]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-100",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": 6,
+    "Life": null,
+    "Power": 8000,
+    "Counter": null,
+    "Traits": [
+      "God Hand",
+      "Apostle"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Permanent",
+      "Barrier"
+    ],
+    "Effect": "Permanent If this card is removed from your field by your Opponent's or K.O.'d, place 1 card from your Opponent's Life at the bottom of their Deck.\n[On Play] If this card was played by the skill of \"Behelit\", choose up to 2 of your Opponent's Units with a Cost of 5 or less, ignoring Barrier, and place them at the bottom of their owners' Decks.\n[On Attack] Place 1 card from your Opponent's hand at the bottom of their Deck and remove 1 of their SJ Markers.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-100.jpg"
+  },
+  "ST4-127": {
+    "id": "ST4-127",
+    "face": {
+      "front": {
+        "name": "Griffith",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-127.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Griffith [ST4-127]",
+    "type": "Main_Deck",
+    "Number": "ST4-127",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "ST4",
+    "Rarity": "SEC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon",
+      "Causality"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Barrier",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 5 or more, ignoring Barrier, and return it to its owner's hand. If one of your Units was removed from your field this turn, place that Unit at the bottom of its owner's Deck instead.\n[On Attack] Return up to 1 of your Units with a Cost of 2 or less to its owner's hand. Then, if you returned a card, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-127.jpg"
+  },
+  "PUP-070": {
+    "id": "PUP-070",
+    "face": {
+      "front": {
+        "name": "Sonia",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-070.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Sonia [PUP-070]",
+    "type": "Main_Deck",
+    "Number": "PUP-070",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1",
+      "Blocker"
+    ],
+    "Effect": "[Your Turn] If your Leader is \"Griffith\", give this card in your hand and Drop -3 Cost.\n[On Play] Limit 1 Choose up to 2 of your other Units with the \"Band of Falcon\" Trait and give them Blocker until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-070.jpg"
+  },
+  "PUP-071": {
+    "id": "PUP-071",
+    "face": {
+      "front": {
+        "name": "Mule Wolflame",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-071.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Mule Wolflame [PUP-071]",
+    "type": "Main_Deck",
+    "Number": "PUP-071",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Band of Falcon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Activate: Main / Battle",
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] If your Leader is \"Griffith\", give this card in your hand and Drop -3 Cost.\n[Activate: Main / Battle] Limit 1 Place this card in your Drop: Add up to 1 Action card with a Cost of 0 and \"Causality\" in its Traits from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-071.jpg"
+  },
+  "PUP-072": {
+    "id": "PUP-072",
+    "face": {
+      "front": {
+        "name": "Moxie",
+        "type": "JUMP ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-072.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Moxie [PUP-072]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-072",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 0,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] During your Opponent's next turn, when your Opponent's uses a card in a combo: Place up to 1 card from your Opponent's combo area at the bottom of its owner's Deck. Then, return this card to your JUMP Deck at the end of your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-072.jpg"
+  },
+  "TOKEN-GT-BSK": {
+    "id": "TOKEN-GT-BSK",
+    "face": {
+      "front": {
+        "name": "Guard Token BSK",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-BSK.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token BSK",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-BSK",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "BSK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-BSK.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-BSK1": {
+    "id": "TOKEN-SJM-BSK1",
+    "face": {
+      "front": {
+        "name": "SJ Marker BSK1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BSK1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker BSK1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-BSK1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "BSK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BSK1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-BSK2": {
+    "id": "TOKEN-SJM-BSK2",
+    "face": {
+      "front": {
+        "name": "SJ Marker BSK2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BSK2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker BSK2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-BSK2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "BSK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BSK2.jpg",
+    "isAccessory": true
   }
 }
