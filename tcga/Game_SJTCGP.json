@@ -61,15 +61,15 @@
           },
           {
             "category": "Energy_Stack",
-            "min": 20,
-            "max": 20,
-            "maxPerCard": 20
+            "min": 10,
+            "max": 10,
+            "maxPerCard": 10
           },
           {
             "category": "SJ_Marker_Pile",
-            "min": 20,
-            "max": 20,
-            "maxPerCard": 20
+            "min": 10,
+            "max": 10,
+            "maxPerCard": 10
           },
           {
             "category": "Guard_Token_Pile",

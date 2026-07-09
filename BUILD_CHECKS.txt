@@ -41,7 +41,11 @@
     "ST4-099",
     "ST4-100"
   ],
-  "arena_energy_stack": 20,
-  "arena_sj_marker_pile": 20,
-  "arena_opening_hand": 6
+  "arena_energy_stack": 10,
+  "arena_sj_marker_pile": 10,
+  "arena_opening_hand": 6,
+  "corrected_cards": [
+    "ST4-100"
+  ],
+  "st4_100_fix": "Corrected Femto text to 'Opponent's skill or K.O.'d' and replaced the compressed image."
 }

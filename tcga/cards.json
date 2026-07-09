@@ -29566,7 +29566,7 @@
       "Permanent",
       "Barrier"
     ],
-    "Effect": "Permanent If this card is removed from your field by your Opponent's or K.O.'d, place 1 card from your Opponent's Life at the bottom of their Deck.\n[On Play] If this card was played by the skill of \"Behelit\", choose up to 2 of your Opponent's Units with a Cost of 5 or less, ignoring Barrier, and place them at the bottom of their owners' Decks.\n[On Attack] Place 1 card from your Opponent's hand at the bottom of their Deck and remove 1 of their SJ Markers.",
+    "Effect": "Permanent If this card is removed from your field by your Opponent's skill or K.O.'d, place 1 card from your Opponent's Life at the bottom of their Deck.\n[On Play] If this card was played by the skill of \"Behelit\", choose up to 2 of your Opponent's Units with a Cost of 5 or less, ignoring Barrier, and place them at the bottom of their owners' Decks.\n[On Attack] Place 1 card from your Opponent's hand at the bottom of their Deck and remove 1 of their SJ Markers.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST4-100.jpg"

@@ -594,7 +594,7 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
                         {"category": "Main_Deck", "min": 50, "max": 50},
                         {"category": "JUMP_Deck", "min": 0, "max": 10, "maxPerCard": 1},
                         {"category": "Energy_Stack", "min": 10, "max": 10, "maxPerCard": 10},
-                        {"category": "SJ_Marker_Pile", "min": 8, "max": 8, "maxPerCard": 8},
+                        {"category": "SJ_Marker_Pile", "min": 10, "max": 10, "maxPerCard": 10},
                         {"category": "Guard_Token_Pile", "min": 1, "max": 1, "maxPerCard": 1},
                     ],
                 }
@@ -719,7 +719,7 @@ def make_tcga_deck(source: dict, cards: dict, marker_map: dict, title: str | Non
         # No incorrect cross-series fallback: use an empty category and let the user select art.
         sj_entries = []
     else:
-        sj_entries = distribute(8, sj_ids)
+        sj_entries = distribute(10, sj_ids)
     categories = {
         "Main_Deck": [{"count": int(count), "id": card_id} for card_id, count in raw.get("main", {}).items()],
         "Leader": [{"count": 1, "id": leader}],
