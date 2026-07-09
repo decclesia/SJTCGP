@@ -183,6 +183,14 @@
         "TOKEN-SJM-KNY2"
       ],
       "guardToken": "TOKEN-GT-KNY"
+    },
+    "BSK": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-BSK1",
+        "TOKEN-SJM-BSK2"
+      ],
+      "guardToken": "TOKEN-GT-BSK"
     }
   },
   "notes": {
@@ -434,6 +442,15 @@
         "TOKEN-SJM-KNY2"
       ],
       "guardToken": "TOKEN-GT-KNY"
+    },
+    "ST4-076": {
+      "set": "BSK",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-BSK1",
+        "TOKEN-SJM-BSK2"
+      ],
+      "guardToken": "TOKEN-GT-BSK"
     }
   }
 }
