@@ -3786,7 +3786,7 @@
       "Charge",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] Negate the attack and <Overcharge> 1. Then, you may place 1 card from your hand at the bottom of your Deck: <Overcharge> 1.",
+    "Effect": "Clash [Opponent's Attack] If your Leader has the \"Shaman\" Trait: Negate the attack and Overcharge 1. Then, you may place 1 card from your hand at the bottom of your Deck and Overcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST1-099.jpg"
@@ -21751,10 +21751,11 @@
     "Counter": null,
     "Traits": [],
     "Keywords": [
-      "Opponent's Attack",
+      "Activate: Battle",
+      "On Play",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] (1) Choose up to 1 of your Opponent's Units and give it -1 Cost for the turn. Then, if its Cost is 0 or less, negate the attack. At the end of the battle, return this card to your JUMP Deck.",
+    "Effect": "[On Play] Look at the top 3 cards of your Deck; add 1 card to your hand and place the rest in your Drop.\nClash [Activate: Battle] (1) Remove this card from the game: Return your Unit that's in a battle to the owner's hand.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-022.jpg"
