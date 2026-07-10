@@ -45,7 +45,10 @@
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
   "corrected_cards": [
-    "ST4-100"
+    "PUP-022",
+    "PUP-032",
+    "ST1-099"
   ],
-  "st4_100_fix": "Corrected Femto text to 'Opponent's skill or K.O.'d' and replaced the compressed image."
+  "st4_100_fix": "Corrected Femto text to 'Opponent's skill or K.O.'d' and replaced the compressed image.",
+  "latest_corrections": "Refreshed images and transcriptions for PUP-022, PUP-032, and ST1-099. Arena limits remain 10 Energy / 10 SJ / 6 hand."
 }
