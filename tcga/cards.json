@@ -28455,6 +28455,953 @@
     "Orientation": "Landscape",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-050.jpg"
   },
+  "ST4-051": {
+    "id": "ST4-051",
+    "face": {
+      "front": {
+        "name": "Grimmjow Jaegerjaquez",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-051.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Grimmjow Jaegerjaquez [ST4-051]",
+    "type": "Leader",
+    "Number": "ST4-051",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] (3) Place 1 card from your hand in your Drop: Place 2 cards from the top of your Deck in your Drop and play up to 1 Unit card with a Cost of 4 or less and the \"Arrancar\" Trait from your Drop. Then, give this card +1000 Power for the battle.\nThreshold 2 [Activate: Main] Once per Turn (1) Place 1 of your Units with the \"Arrancar\" Trait in your Drop; give your Leader and all of your Units +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-051.jpg"
+  },
+  "ST4-052": {
+    "id": "ST4-052",
+    "face": {
+      "front": {
+        "name": "Grimmjow Jaegerjaquez",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-052.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Grimmjow Jaegerjaquez [ST4-052]",
+    "type": "Main_Deck",
+    "Number": "ST4-052",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Barrier",
+      "Unique"
+    ],
+    "Effect": "Unique Barrier\n[On Play] If your Leader has the \"Espada\" Trait: Choose up to 1 of your Opponent's Units with a Cost of 6 or less and K.O. it.\n[Activate: Main] (3) Place 1 of your \"Grimmjow Jaegerjaquez\" with a Cost of 4 in your Drop: Play this card from your Drop Rested. Then, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-052.jpg"
+  },
+  "ST4-053": {
+    "id": "ST4-053",
+    "face": {
+      "front": {
+        "name": "Grimmjow Jaegerjaquez",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-053.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Grimmjow Jaegerjaquez [ST4-053]",
+    "type": "Main_Deck",
+    "Number": "ST4-053",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may place 3 cards from the top of your Deck in your Drop. Then, if this card was played from your Drop, add up to 1 Action card with the \"Cero\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-053.jpg"
+  },
+  "ST4-054": {
+    "id": "ST4-054",
+    "face": {
+      "front": {
+        "name": "Nelliel Tu Odelschwanck",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-054.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Nelliel Tu Odelschwanck [ST4-054]",
+    "type": "Main_Deck",
+    "Number": "ST4-054",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Espada\" Trait, play up to 1 Unit card with a Cost of 3 or less and the \"Arrancar\" Trait from your Drop rested. Then, if there are 10 more cards in your Drop, your Opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-054.jpg"
+  },
+  "ST4-055": {
+    "id": "ST4-055",
+    "face": {
+      "front": {
+        "name": "Ulquiorra Cifer",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-055.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Ulquiorra Cifer [ST4-055]",
+    "type": "Main_Deck",
+    "Number": "ST4-055",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[On Play] Draw 1 card; if there are 10 or more cards in your Drop, you may return 2 cards with the \"Arrancar\" Trait from your Drop at the bottom of your Deck in any order: Choose Opponent's Units with a total Cost of 4 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-055.jpg"
+  },
+  "ST4-056": {
+    "id": "ST4-056",
+    "face": {
+      "front": {
+        "name": "Shawlong Koufang",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-056.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Shawlong Koufang [ST4-056]",
+    "type": "Main_Deck",
+    "Number": "ST4-056",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar",
+      "Fraccion"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If this card was played from your Drop, draw 2 cards; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-056.jpg"
+  },
+  "ST4-057": {
+    "id": "ST4-057",
+    "face": {
+      "front": {
+        "name": "Edrad Liones",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-057.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Edrad Liones [ST4-057]",
+    "type": "Main_Deck",
+    "Number": "ST4-057",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar",
+      "Fraccion"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may return 2 cards with the \"Arrancar\" Trait from your Drop at the bottom of your Deck in any order: Add up to 1 Unit card with the \"Arrancar\" Trait and a Cost of 4 or less from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-057.jpg"
+  },
+  "ST4-058": {
+    "id": "ST4-058",
+    "face": {
+      "front": {
+        "name": "Nakeem Grindina",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-058.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Nakeem Grindina [ST4-058]",
+    "type": "Main_Deck",
+    "Number": "ST4-058",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Arrancar",
+      "Fraccion"
+    ],
+    "Keywords": [
+      "On K.O."
+    ],
+    "Effect": "[On K.O.] Add up to 1 card with the \"Arrancar\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-058.jpg"
+  },
+  "ST4-059": {
+    "id": "ST4-059",
+    "face": {
+      "front": {
+        "name": "Luppi Antenor",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-059.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Luppi Antenor [ST4-059]",
+    "type": "Main_Deck",
+    "Number": "ST4-059",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "On Play",
+      "Critical"
+    ],
+    "Effect": "Critical\n[On Play] If this card was played from your Drop, your Opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-059.jpg"
+  },
+  "ST4-060": {
+    "id": "ST4-060",
+    "face": {
+      "front": {
+        "name": "D-Roy Linker",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-060.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "D-Roy Linker [ST4-060]",
+    "type": "Main_Deck",
+    "Number": "ST4-060",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Arrancar",
+      "Fraccion"
+    ],
+    "Keywords": [
+      "On K.O."
+    ],
+    "Effect": "[On K.O.] Draw 2 cards; place 2 cards from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-060.jpg"
+  },
+  "ST4-061": {
+    "id": "ST4-061",
+    "face": {
+      "front": {
+        "name": "Yylfordt Granz",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-061.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Yylfordt Granz [ST4-061]",
+    "type": "Main_Deck",
+    "Number": "ST4-061",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Arrancar",
+      "Fraccion"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Grimmjow Jaegerjaquez\", place up to 5 cards from the top of your Deck in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-061.jpg"
+  },
+  "ST4-062": {
+    "id": "ST4-062",
+    "face": {
+      "front": {
+        "name": "Nel Tu",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-062.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Nel Tu [ST4-062]",
+    "type": "Main_Deck",
+    "Number": "ST4-062",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[On K.O.] If your Leader is \"Grimmjow Jaegerjaquez\" and there are 10 or more cards in your Drop, draw 1 card and place 1 card from the top of your Deck in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-062.jpg"
+  },
+  "ST4-063": {
+    "id": "ST4-063",
+    "face": {
+      "front": {
+        "name": "Cirucci Sanderwicci",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-063.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Cirucci Sanderwicci [ST4-063]",
+    "type": "Main_Deck",
+    "Number": "ST4-063",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Turn",
+      "Once per Turn",
+      "Blocker",
+      "Clash"
+    ],
+    "Effect": "[Opponent's Turn] If there are 10 or more cards in your Drop, give this card Blocker and +1000 Power.\nClash [Activate: Battle] Once per Turn Place the top card of your Deck in your Drop: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-063.jpg"
+  },
+  "ST4-064": {
+    "id": "ST4-064",
+    "face": {
+      "front": {
+        "name": "Gantenbainne Mosqueda",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-064.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Gantenbainne Mosqueda [ST4-064]",
+    "type": "Main_Deck",
+    "Number": "ST4-064",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Your Turn",
+      "Accelcharge"
+    ],
+    "Effect": "[Your Turn] If there are 10 or more cards in your Drop, give this card +1000 Power.\n[On K.O.] Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-064.jpg"
+  },
+  "ST4-065": {
+    "id": "ST4-065",
+    "face": {
+      "front": {
+        "name": "Dordoni Alessandro Del Socaccio",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-065.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Dordoni Alessandro Del Socaccio [ST4-065]",
+    "type": "Main_Deck",
+    "Number": "ST4-065",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Soul Reaper",
+      "Human"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Overcharge"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Arrancar\" Trait, place up to 1 card from your Deck in your Drop.\n[On K.O.] Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-065.jpg"
+  },
+  "ST4-066": {
+    "id": "ST4-066",
+    "face": {
+      "front": {
+        "name": "Tier Harribel",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-066.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Tier Harribel [ST4-066]",
+    "type": "Main_Deck",
+    "Number": "ST4-066",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[On K.O.] Look at the top 3 cards of your Deck; add up to 1 card with the \"Arrancar\" Trait to your hand. Then, place the rest in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-066.jpg"
+  },
+  "ST4-067": {
+    "id": "ST4-067",
+    "face": {
+      "front": {
+        "name": "Yammy Riyalgo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-067.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Yammy Riyalgo [ST4-067]",
+    "type": "Main_Deck",
+    "Number": "ST4-067",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Give this card +1000 Power for every 2 cards in your Drop.\n[On K.O.] If your Leader is \"Grimmjow Jaegerjaquez\", you may return 3 cards from your Drop at the bottom of your Deck in any order: Play this card from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-067.jpg"
+  },
+  "ST4-068": {
+    "id": "ST4-068",
+    "face": {
+      "front": {
+        "name": "Garganta",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-068.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Garganta [ST4-068]",
+    "type": "Main_Deck",
+    "Number": "ST4-068",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Arrancar",
+      "Hueco Mundo"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Your Turn",
+      "Scene"
+    ],
+    "Effect": "Scene\n[Your Turn] If this card is placed from your Deck in your Drop by your skill: Play this card from your Drop.\n[Activate: Main] (1) Rest this card: Play up to 1 Unit card with a Cost of 2 or less and the \"Arrancar\" Trait from your Drop Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-068.jpg"
+  },
+  "ST4-069": {
+    "id": "ST4-069",
+    "face": {
+      "front": {
+        "name": "Rank Reclaimed",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-069.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rank Reclaimed [ST4-069]",
+    "type": "Main_Deck",
+    "Number": "ST4-069",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] If your Leader has the \"Espada\" Trait: Add 1 card from your Life to your hand and place the top 2 cards of your Deck in your Drop; choose up to 1 of your Opponent's Units with a Cost of 4 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-069.jpg"
+  },
+  "ST4-070": {
+    "id": "ST4-070",
+    "face": {
+      "front": {
+        "name": "Garra de la Pantera",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-070.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Garra de la Pantera [ST4-070]",
+    "type": "Main_Deck",
+    "Number": "ST4-070",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Espada"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Add 1 card from your Life to your hand: If you have a Unit with the \"Arrancar\" Trait that was played from your Drop this turn, choose up to 1 of your Opponent's Units with a Cost of 3 or less and up to 1 of your Opponent's Units with a Cost of 1 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-070.jpg"
+  },
+  "ST4-071": {
+    "id": "ST4-071",
+    "face": {
+      "front": {
+        "name": "Cero",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-071.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cero [ST4-071]",
+    "type": "Main_Deck",
+    "Number": "ST4-071",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Cero"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If you have a Unit with the \"Arrancar\" Trait that was played from your Drop this turn: Choose up to 1 of your Opponent's Units with a Cost of 2 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-071.jpg"
+  },
+  "ST4-072": {
+    "id": "ST4-072",
+    "face": {
+      "front": {
+        "name": "Gran Rey Cero",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-072.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gran Rey Cero [ST4-072]",
+    "type": "Main_Deck",
+    "Number": "ST4-072",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Cero"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Permanent",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "Permanent If there are 10 or more cards in your Drop, reduce the Cost of this card in your hand by 2.\n[Activate: Main] Limit 1 If your Leader has the \"Espada\" Trait: Choose up to 1 of your Opponent's Units with a Cost of 5 or less, ignoring Barrier, and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-072.jpg"
+  },
+  "ST4-073": {
+    "id": "ST4-073",
+    "face": {
+      "front": {
+        "name": "Grimmjow Jaegerjaquez",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-073.jpg",
+        "isHorizontal": false,
+        "power": 7000,
+        "sjCost": 2
+      }
+    },
+    "name": "Grimmjow Jaegerjaquez [ST4-073]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-073",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 7000,
+    "Counter": null,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Once per Turn",
+      "On Play"
+    ],
+    "Effect": "[On Play] If there are 10 or more cards in your Drop, play up to 1 Unit card with the \"Arrancar\" Trait and a Cost of 4 or less from your Drop Rested.\n[Activate: Battle] Once per Turn K.O. this card; choose up to 1 of your Opponent's Units and K.O. it. Then, if the chosen card has an original Cost of 2 or less, your Opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-073.jpg"
+  },
+  "ST4-074": {
+    "id": "ST4-074",
+    "face": {
+      "front": {
+        "name": "Luppi Antenor",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-074.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 2
+      }
+    },
+    "name": "Luppi Antenor [ST4-074]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-074",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Arrancar",
+      "Espada"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Critical",
+      "Deflect"
+    ],
+    "Effect": "Deflect Critical\n[On Play] K.O. 1 of your other Units: Give this card +2000 Power until the end of your Opponent's next turn.\n[On K.O.] Shuffle up to 2 Action cards from your Drop into your Deck; place 1 card from the top of your Deck in your Drop and draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-074.jpg"
+  },
+  "ST4-075": {
+    "id": "ST4-075",
+    "face": {
+      "front": {
+        "name": "Desgarron",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-075.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Desgarron [ST4-075]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-075",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Choose up to 2 of your Opponent's Units with a Cost of 3 or less, ignoring Barrier, and K.O. them. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-075.jpg"
+  },
   "PUP-066": {
     "id": "PUP-066",
     "face": {
@@ -28522,6 +29469,78 @@
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-067.jpg"
+  },
+  "PUP-068": {
+    "id": "PUP-068",
+    "face": {
+      "front": {
+        "name": "Roka Paramia",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-068.jpg",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Roka Paramia [PUP-068]",
+    "type": "Main_Deck",
+    "Number": "PUP-068",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Arrancar"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "[On Play] If this card was played from your Drop: Choose up to 1 of your Opponent's Units, ignoring Barrier, and give this card Power equal to that card's Power until the end of your Opponent's next turn. Then, this card's skills become the same the same as that card's for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-068.jpg"
+  },
+  "PUP-069": {
+    "id": "PUP-069",
+    "face": {
+      "front": {
+        "name": "King's Instinct",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-069.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "King's Instinct [PUP-069]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-069",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Once per Turn When your Unit with the \"Arrancar\" Trait is played from your Drop: Choose up to 1 of your Opponent's Units with a Cost of 4 or less; shuffle 2 cards with the \"Arrancar\" Trait from your Drop into your Deck and reduce its Cost by 2 for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-069.jpg"
   },
   "TOKEN-GT-KNY": {
     "id": "TOKEN-GT-KNY",
@@ -29819,6 +30838,102 @@
     "Deck_Zone": "SJ_Marker_Pile",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BSK2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-GT-BLC": {
+    "id": "TOKEN-GT-BLC",
+    "face": {
+      "front": {
+        "name": "Guard Token BLC",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-BLC.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token BLC",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-BLC",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "BLC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-BLC.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-BLC1": {
+    "id": "TOKEN-SJM-BLC1",
+    "face": {
+      "front": {
+        "name": "SJ Marker BLC1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BLC1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker BLC1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-BLC1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "BLC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BLC1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-BLC2": {
+    "id": "TOKEN-SJM-BLC2",
+    "face": {
+      "front": {
+        "name": "SJ Marker BLC2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BLC2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker BLC2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-BLC2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "BLC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BLC2.jpg",
     "isAccessory": true
   }
 }
