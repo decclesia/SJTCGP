@@ -30935,5 +30935,1125 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BLC2.jpg",
     "isAccessory": true
+  },
+  "ST4-101": {
+    "id": "ST4-101",
+    "face": {
+      "front": {
+        "name": "Shishio Makoto",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-101.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Shishio Makoto [ST4-101]",
+    "type": "Leader",
+    "Number": "ST4-101",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Juppongatana",
+      "Swordsman"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "End of your Turn",
+      "Once per Turn",
+      "Threshold",
+      "Your Turn"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Add 1 card from your Life to your hand: Give up to 1 of your Units with the \"Juppongatana\" Trait +1000 Power for the turn.\nThreshold 1 [Activate: Main] Once per Turn (2) Place 1 card from your hand at the bottom of your Deck: Look at the top 4 cards of your Deck; place 1 card in your Life face-up. Then, place the rest at the bottom of your Deck and, at the end of your turn, place all of your face-up Life cards in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-101.jpg"
+  },
+  "ST4-102": {
+    "id": "ST4-102",
+    "face": {
+      "front": {
+        "name": "Shishio Makoto",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-102.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Shishio Makoto [ST4-102]",
+    "type": "Main_Deck",
+    "Number": "ST4-102",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "End of Opponent's Turn",
+      "End of your Turn",
+      "On Play",
+      "Opponent's Turn",
+      "Your Turn"
+    ],
+    "Effect": "[On Play] If you have a face-up Life card, give your Leader +1000 Power until the end of your Opponent's next turn and your face-up Life cards can't be placed in your Drop at the end of your turn.\n[End of Opponent's Turn] Place 1 of your face-up Life cards at the bottom of your Deck: Add 1 card from the top of your Deck to the top of your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-102.jpg"
+  },
+  "ST4-103": {
+    "id": "ST4-103",
+    "face": {
+      "front": {
+        "name": "Seta Sojiro",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-103.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Seta Sojiro [ST4-103]",
+    "type": "Main_Deck",
+    "Number": "ST4-103",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Blocker",
+      "On Block",
+      "On Play",
+      "Overcharge"
+    ],
+    "Effect": "Blocker\n[On Play] Place 1 of your face-up Life cards at the bottom of your Deck: Place the top 2 cards of your Deck at the top of your Life.\n[On Block] Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-103.jpg"
+  },
+  "ST4-104": {
+    "id": "ST4-104",
+    "face": {
+      "front": {
+        "name": "Komagata Yumi",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-104.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Komagata Yumi [ST4-104]",
+    "type": "Main_Deck",
+    "Number": "ST4-104",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Elusive",
+      "On Play",
+      "Opponent's Turn",
+      "Revenge"
+    ],
+    "Effect": "Elusive Revenge\n[Opponent's Turn] If your Leader is \"Shishio Makoto\" and you have a face-up Life card, give this card Blocker.\n[On Play] Look at the top 4 cards of your Deck; add up to 1 card with the \"Juppongatana\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-104.jpg"
+  },
+  "ST4-105": {
+    "id": "ST4-105",
+    "face": {
+      "front": {
+        "name": "Shishio Makoto",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-105.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shishio Makoto [ST4-105]",
+    "type": "Main_Deck",
+    "Number": "ST4-105",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Deflect",
+      "Limit 1",
+      "On Play",
+      "Overcharge"
+    ],
+    "Effect": "Deflect\n[On Play] If your Opponent Leader's Threshold skill isn't active, your Opponent adds 1 card from their Life to their hand.\n[Activate: Main] Limit 1 If this card was played this turn and you added a card from your Life to your hand this turn: Overcharge 1 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-105.jpg"
+  },
+  "ST4-106": {
+    "id": "ST4-106",
+    "face": {
+      "front": {
+        "name": "Sadojima Hoji",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-106.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Sadojima Hoji [ST4-106]",
+    "type": "Main_Deck",
+    "Number": "ST4-106",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Blocker",
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "Permanent If you have no Life cards and your Leader is \"Shishio Makoto\", give this card Blocker.\n[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-106.jpg"
+  },
+  "ST4-107": {
+    "id": "ST4-107",
+    "face": {
+      "front": {
+        "name": "Yukyuzan Anji",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-107.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Yukyuzan Anji [ST4-107]",
+    "type": "Main_Deck",
+    "Number": "ST4-107",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Break",
+      "Your Turn"
+    ],
+    "Effect": "Break\n[Your Turn] If this face-up card would be removed from your Life, you may place 1 card from your hand in your Drop and, if you do, play this card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-107.jpg"
+  },
+  "ST4-108": {
+    "id": "ST4-108",
+    "face": {
+      "front": {
+        "name": "Uonuma Usui",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-108.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Uonuma Usui [ST4-108]",
+    "type": "Main_Deck",
+    "Number": "ST4-108",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Duel",
+      "Limit 1"
+    ],
+    "Effect": "Duel\n[Activate: Main] Limit 1 Place 1 card from your hand in your Drop: Add 1 face-up card from the top of your Life to your hand and place this card in your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-108.jpg"
+  },
+  "ST4-109": {
+    "id": "ST4-109",
+    "face": {
+      "front": {
+        "name": "Seta Sojiro",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-109.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Seta Sojiro [ST4-109]",
+    "type": "Main_Deck",
+    "Number": "ST4-109",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Deflect",
+      "On Attack"
+    ],
+    "Effect": "Deflect Barrier\n[On Attack] If your Leader is \"Shishio Makoto\": You may turn 1 card from the top of your Life cards face-up and, if you do, give this card +1000 per 1 cost on the face-up Life card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-109.jpg"
+  },
+  "ST4-110": {
+    "id": "ST4-110",
+    "face": {
+      "front": {
+        "name": "Honjo Kamatari",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-110.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Honjo Kamatari [ST4-110]",
+    "type": "Main_Deck",
+    "Number": "ST4-110",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Blocker",
+      "On Play"
+    ],
+    "Effect": "Blocker\n[On Play] You may turn the top of your Life cards face-up: Play up to 1 Unit card with a Cost of 4 or less and the \"Juppongatana\" Trait from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-110.jpg"
+  },
+  "ST4-111": {
+    "id": "ST4-111",
+    "face": {
+      "front": {
+        "name": "Sawagejo Cho",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-111.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Sawagejo Cho [ST4-111]",
+    "type": "Main_Deck",
+    "Number": "ST4-111",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Dual Attack",
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "Dual Attack\n[On Play / On Attack] You may turn the top of your Life cards face-up: Choose up to 1 of your Opponent's Units and give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-111.jpg"
+  },
+  "ST4-112": {
+    "id": "ST4-112",
+    "face": {
+      "front": {
+        "name": "Fuji",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-112.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Fuji [ST4-112]",
+    "type": "Main_Deck",
+    "Number": "ST4-112",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Barrier",
+      "End of your Turn",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "Barrier\n[On Play] Add up to 1 \"Saizuchi\" from your hand at the top of your Life cards face-up.\n[End of your Turn] If you have no Life cards, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-112.jpg"
+  },
+  "ST4-113": {
+    "id": "ST4-113",
+    "face": {
+      "front": {
+        "name": "Saizuchi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-113.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Saizuchi [ST4-113]",
+    "type": "Main_Deck",
+    "Number": "ST4-113",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] If this face-up card would be removed from your Life, remove it from the game instead and draw 1 card. Then, choose up to 1 of your Opponent's Units and it cannot attack until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-113.jpg"
+  },
+  "ST4-114": {
+    "id": "ST4-114",
+    "face": {
+      "front": {
+        "name": "Kariwa Henya",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-114.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kariwa Henya [ST4-114]",
+    "type": "Main_Deck",
+    "Number": "ST4-114",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Overcharge",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] If this face-up card would be removed from your Life, remove it from the game instead and Overcharge 1. Then, you can't Overcharge by skills for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-114.jpg"
+  },
+  "ST4-115": {
+    "id": "ST4-115",
+    "face": {
+      "front": {
+        "name": "Iwanbo",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-115.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Iwanbo [ST4-115]",
+    "type": "Main_Deck",
+    "Number": "ST4-115",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Blocker",
+      "On Block"
+    ],
+    "Effect": "Blocker\n[On Block] If your Leader's Threshold skill is active, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-115.jpg"
+  },
+  "ST4-116": {
+    "id": "ST4-116",
+    "face": {
+      "front": {
+        "name": "Seta Sojiro",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-116.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Seta Sojiro [ST4-116]",
+    "type": "Main_Deck",
+    "Number": "ST4-116",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play",
+      "Opponent's Turn"
+    ],
+    "Effect": "[Opponent's Turn] When this card is removed from the field by an Opponent's skill or K.O.'d, place 1 card from the top of your Deck at the top of your Life.\n[On Play] Limit 1 Add up to 1 card with the \"Juppongatana\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-116.jpg"
+  },
+  "ST4-117": {
+    "id": "ST4-117",
+    "face": {
+      "front": {
+        "name": "Komagata Yumi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-117.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Komagata Yumi [ST4-117]",
+    "type": "Main_Deck",
+    "Number": "ST4-117",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] If this face-up card would be removed from your Life, remove it from the game instead and draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-117.jpg"
+  },
+  "ST4-118": {
+    "id": "ST4-118",
+    "face": {
+      "front": {
+        "name": "Shishio Makoto",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-118.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Shishio Makoto [ST4-118]",
+    "type": "Main_Deck",
+    "Number": "ST4-118",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play / On Attack] Limit 1 Choose up to 1 of your Opponent's Units with a Cost equal to or less than the number of your Opponent's Life cards and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-118.jpg"
+  },
+  "ST4-119": {
+    "id": "ST4-119",
+    "face": {
+      "front": {
+        "name": "Iron-Clad Rengoku",
+        "type": "ACTION",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-119.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Iron-Clad Rengoku [ST4-119]",
+    "type": "Main_Deck",
+    "Number": "ST4-119",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Battleship"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] If you have a face-up Life card, give this card in your hand -3 Cost.\n[On Play] Give your Units with the \"Juppongatana\" Trait +1000 Power for the turn.\n[End of your Turn] If you have no face-up Life cards, give your Leader +1000 Power until the end of your Opponent's next turn. Then, place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-119.jpg"
+  },
+  "ST4-120": {
+    "id": "ST4-120",
+    "face": {
+      "front": {
+        "name": "Homura Dama",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-120.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Homura Dama [ST4-120]",
+    "type": "Main_Deck",
+    "Number": "ST4-120",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Mugenjin",
+      "Hiken"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If you have a face-up Life card: Look at the top 5 cards of your Deck; add up to 2 cards with the \"Hiken\" Trait to your hand. Then, shuffle your Deck and Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-120.jpg"
+  },
+  "ST4-121": {
+    "id": "ST4-121",
+    "face": {
+      "front": {
+        "name": "Guren Kaina",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-121.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guren Kaina [ST4-121]",
+    "type": "Main_Deck",
+    "Number": "ST4-121",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Mugenjin",
+      "Hiken"
+    ],
+    "Keywords": [
+      "Clash",
+      "Opponent's Attack"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Leader's Threshold skill is active: Draw 1 card; choose your Opponent's Leader or up to 1 of their Rested Units and negate their skills for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-121.jpg"
+  },
+  "ST4-122": {
+    "id": "ST4-122",
+    "face": {
+      "front": {
+        "name": "Kaguzuchi",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-122.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kaguzuchi [ST4-122]",
+    "type": "Main_Deck",
+    "Number": "ST4-122",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Mugenjin",
+      "Hiken"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Clash",
+      "Opponent's Attack"
+    ],
+    "Effect": "Clash [Opponent's Attack] Give your Leader or up to 1 of your Units +1000 Power for the battle. Then, if your Leader's Threshold skill is active, choose your opponent's Leader or up to 1 of their Units, ignoring Barrier, and give them -2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-122.jpg"
+  },
+  "ST4-123": {
+    "id": "ST4-123",
+    "face": {
+      "front": {
+        "name": "It all... comes down to my strength!!",
+        "type": "ACTION",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-123.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "It all... comes down to my strength!! [ST4-123]",
+    "type": "Main_Deck",
+    "Number": "ST4-123",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] You may turn 1 card from the top of your Life cards face-up: Choose up to 1 of your Opponent's Units with an original Cost of 6 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-123.jpg"
+  },
+  "ST4-124": {
+    "id": "ST4-124",
+    "face": {
+      "front": {
+        "name": "Shishio Makoto",
+        "type": "JUMP UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-124.jpg",
+        "isHorizontal": false,
+        "power": 8000,
+        "sjCost": 1
+      }
+    },
+    "name": "Shishio Makoto [ST4-124]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-124",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 8,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 8000,
+    "Counter": null,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Blocker",
+      "Charge",
+      "Clash",
+      "On Play",
+      "Once per Turn",
+      "Opponent's Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Shishio Makoto\" and their Threshold skill is active: Charge 2 and give this card Barrier and Blocker until the end of your Opponent's next turn.\nClash [Opponent's Play] Once per Turn (1) Place 1 card from your hand at the bottom of your Deck: Switch this card to Active mode.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-124.jpg"
+  },
+  "ST4-125": {
+    "id": "ST4-125",
+    "face": {
+      "front": {
+        "name": "This battle is not yet over",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-125.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "This battle is not yet over [ST4-125]",
+    "type": "JUMP_Deck",
+    "Number": "ST4-125",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "ST4",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 Unit with a Cost of 6 or less on either field, ignoring Barrier, and place it at the top of its owner's Life cards face-up. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST4-125.jpg"
+  },
+  "PUP-073": {
+    "id": "PUP-073",
+    "face": {
+      "front": {
+        "name": "Seta Sojiro",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-073.jpg",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 2
+      }
+    },
+    "name": "Seta Sojiro [PUP-073]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-073",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Juppongatana"
+    ],
+    "Keywords": [
+      "Deflect",
+      "Dual Attack",
+      "On Play"
+    ],
+    "Effect": "Deflect Dual Attack\n[On Play] If your Leader is \"Shishio Makoto\": Add cards from your Life to your hand until you have 1 Life card. Then, place cards from your hand at the bottom of your Deck equal to the number of cards added and draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-073.jpg"
+  },
+  "PUP-074": {
+    "id": "PUP-074",
+    "face": {
+      "front": {
+        "name": "Conflagration",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-074.jpg",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Conflagration [PUP-074]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-074",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "On Play",
+      "Overcharge"
+    ],
+    "Effect": "[On Play] During your Opponent's next turn, when your Opponent adds a SJ Marker: Overcharge 1. Then, return this card to your JUMP Deck at the end of your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-074.jpg"
+  },
+  "TOKEN-GT-RKN": {
+    "id": "TOKEN-GT-RKN",
+    "face": {
+      "front": {
+        "name": "Guard Token RKN",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-RKN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token RKN",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-RKN",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "RKN",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-RKN.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-RKN1": {
+    "id": "TOKEN-SJM-RKN1",
+    "face": {
+      "front": {
+        "name": "SJ Marker RKN1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-RKN1.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker RKN1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-RKN1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "RKN",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-RKN1.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-RKN2": {
+    "id": "TOKEN-SJM-RKN2",
+    "face": {
+      "front": {
+        "name": "SJ Marker RKN2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-RKN2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker RKN2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-RKN2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "RKN",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-RKN2.jpg",
+    "isAccessory": true
   }
 }

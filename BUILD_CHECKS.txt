@@ -1,54 +1,53 @@
 {
-  "website_cards": 711,
-  "card_text_records": 711,
-  "arena_entries": 789,
-  "added_cards": [
-    "ST4-076",
-    "ST4-077",
-    "ST4-078",
-    "ST4-079",
-    "ST4-080",
-    "ST4-081",
-    "ST4-082",
-    "ST4-083",
-    "ST4-084",
-    "ST4-085",
-    "ST4-086",
-    "ST4-087",
-    "ST4-088",
-    "ST4-089",
-    "ST4-090",
-    "ST4-091",
-    "ST4-092",
-    "ST4-093",
-    "ST4-094",
-    "ST4-095",
-    "ST4-096",
-    "ST4-097",
-    "ST4-098",
-    "ST4-099",
-    "ST4-100",
-    "ST4-127",
-    "PUP-070",
-    "PUP-071",
-    "PUP-072"
-  ],
-  "excluded_typo_file": "PUP-093.png was ingested as images/ST4-093.jpg only.",
-  "landscape_jump_actions": [
-    "PUP-072"
-  ],
-  "jump_units": [
-    "ST4-099",
-    "ST4-100"
-  ],
+  "website_cards": 765,
+  "card_text_records": 765,
+  "arena_entries": 849,
+  "rkn_rarity_counts": {
+    "L": 1,
+    "SR": 3,
+    "R": 5,
+    "UC": 8,
+    "C": 8
+  },
+  "latest_promo": "PUP-074",
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "corrected_cards": [
-    "PUP-022",
-    "PUP-032",
-    "ST1-099"
+  "rkn_cards": [
+    "ST4-101",
+    "ST4-102",
+    "ST4-103",
+    "ST4-104",
+    "ST4-105",
+    "ST4-106",
+    "ST4-107",
+    "ST4-108",
+    "ST4-109",
+    "ST4-110",
+    "ST4-111",
+    "ST4-112",
+    "ST4-113",
+    "ST4-114",
+    "ST4-115",
+    "ST4-116",
+    "ST4-117",
+    "ST4-118",
+    "ST4-119",
+    "ST4-120",
+    "ST4-121",
+    "ST4-122",
+    "ST4-123",
+    "ST4-124",
+    "ST4-125",
+    "PUP-073",
+    "PUP-074"
   ],
-  "st4_100_fix": "Corrected Femto text to 'Opponent's skill or K.O.'d' and replaced the compressed image.",
-  "latest_corrections": "Refreshed images and transcriptions for PUP-022, PUP-032, and ST1-099. Arena limits remain 10 Energy / 10 SJ / 6 hand."
+  "rkn_jump_actions": [
+    "ST4-125",
+    "PUP-074"
+  ],
+  "rkn_jump_units": [
+    "ST4-124",
+    "PUP-073"
+  ]
 }
