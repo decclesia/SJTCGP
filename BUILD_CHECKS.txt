@@ -1,53 +1,49 @@
 {
-  "website_cards": 765,
-  "card_text_records": 765,
-  "arena_entries": 849,
-  "rkn_rarity_counts": {
+  "website_cards": 787,
+  "card_text_records": 787,
+  "arena_entries": 873,
+  "sd5_rarity_counts": {
     "L": 1,
     "SR": 3,
-    "R": 5,
-    "UC": 8,
-    "C": 8
+    "C": 16
   },
-  "latest_promo": "PUP-074",
+  "latest_promo": "PUP-076",
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "rkn_cards": [
-    "ST4-101",
-    "ST4-102",
-    "ST4-103",
-    "ST4-104",
-    "ST4-105",
-    "ST4-106",
-    "ST4-107",
-    "ST4-108",
-    "ST4-109",
-    "ST4-110",
-    "ST4-111",
-    "ST4-112",
-    "ST4-113",
-    "ST4-114",
-    "ST4-115",
-    "ST4-116",
-    "ST4-117",
-    "ST4-118",
-    "ST4-119",
-    "ST4-120",
-    "ST4-121",
-    "ST4-122",
-    "ST4-123",
-    "ST4-124",
-    "ST4-125",
-    "PUP-073",
-    "PUP-074"
+  "sd5_cards": [
+    "SD5-001",
+    "SD5-002",
+    "SD5-003",
+    "SD5-004",
+    "SD5-005",
+    "SD5-006",
+    "SD5-007",
+    "SD5-008",
+    "SD5-009",
+    "SD5-010",
+    "SD5-011",
+    "SD5-012",
+    "SD5-013",
+    "SD5-014",
+    "SD5-015",
+    "SD5-016",
+    "SD5-017",
+    "SD5-018",
+    "SD5-019",
+    "SD5-020",
+    "PUP-075",
+    "PUP-076"
   ],
-  "rkn_jump_actions": [
-    "ST4-125",
-    "PUP-074"
+  "sd5_jump_units": [
+    "SD5-020",
+    "PUP-075"
   ],
-  "rkn_jump_units": [
-    "ST4-124",
-    "PUP-073"
+  "sd5_jump_actions": [
+    "PUP-076"
+  ],
+  "sd5_accessories": [
+    "TOKEN-GT-KNY2",
+    "TOKEN-SJM-KNY3"
   ]
 }

@@ -32055,5 +32055,896 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-RKN2.jpg",
     "isAccessory": true
+  },
+  "SD5-001": {
+    "id": "SD5-001",
+    "face": {
+      "front": {
+        "name": "Rengoku Kyojuro",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Rengoku Kyojuro [SD5-001]",
+    "type": "Leader",
+    "Number": "SD5-001",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash",
+      "On Attack",
+      "Once per Turn",
+      "Opponent's Attack",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] Draw 1 card.\nClash [Opponent's Attack] Once per Turn (1) If 1 of your Units with the \"Demon Slayer\" Trait is in a battle, switch the attack target to this card and give it +1000 Power for the battle.\nThreshold 3 Clash [Activate: Battle] Once per Turn (1) Give your Leader or up to 1 of your Units with the \"Demon Slayer\" Trait +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-001.jpg"
+  },
+  "SD5-002": {
+    "id": "SD5-002",
+    "face": {
+      "front": {
+        "name": "Rengoku Kyojuro",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-002.jpg",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Rengoku Kyojuro [SD5-002]",
+    "type": "Main_Deck",
+    "Number": "SD5-002",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Barrier",
+      "Clash",
+      "Once per Turn"
+    ],
+    "Effect": "Clash [Activate: Battle] Once per Turn If your \"Rengoku Kyojuro\" Leader is in a battle: Draw 1 card.\n[Activate: Main] Once per Turn Rest this card: Choose up to 1 of your Opponent's Units with 5000 or less Power, ignoring Barrier, and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-002.jpg",
+    "Counter": 0
+  },
+  "SD5-003": {
+    "id": "SD5-003",
+    "face": {
+      "front": {
+        "name": "Kanroji Mitsuri",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-003.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kanroji Mitsuri [SD5-003]",
+    "type": "Main_Deck",
+    "Number": "SD5-003",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand; look at the top 5 cards of your Deck, add up to 1 card with the \"Hashira\" Trait and up to 1 card with the \"Flame Breathing\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-003.jpg",
+    "Counter": 0
+  },
+  "SD5-004": {
+    "id": "SD5-004",
+    "face": {
+      "front": {
+        "name": "Rengoku Kyojuro",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-004.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Rengoku Kyojuro [SD5-004]",
+    "type": "Main_Deck",
+    "Number": "SD5-004",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "Clash",
+      "Limit 1",
+      "Opponent's Play",
+      "Overcharge",
+      "Permanent"
+    ],
+    "Effect": "Permanent If this card would be removed from the field by an Opponent's skill, you may give this card -2000 Power for the turn instead.\nClash [Opponent's Play] Limit 1 Place 1 card from your hand in your Drop: Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-004.jpg",
+    "Counter": 1000
+  },
+  "SD5-005": {
+    "id": "SD5-005",
+    "face": {
+      "front": {
+        "name": "Rengoku Senjuro",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-005.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Rengoku Senjuro [SD5-005]",
+    "type": "Main_Deck",
+    "Number": "SD5-005",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Traits": [
+      "Rengoku Family"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; reveal up to 1 \"Rengoku Kyojuro\" or up to 1 card with the \"Flame Breathing\" Trait and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-005.jpg",
+    "Counter": 2000
+  },
+  "SD5-006": {
+    "id": "SD5-006",
+    "face": {
+      "front": {
+        "name": "Kamado Tanjiro",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-006.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Kamado Tanjiro [SD5-006]",
+    "type": "Main_Deck",
+    "Number": "SD5-006",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Demon Slayer"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Attack"
+    ],
+    "Effect": "Barrier\n[On Attack] Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-006.jpg",
+    "Counter": 0
+  },
+  "SD5-007": {
+    "id": "SD5-007",
+    "face": {
+      "front": {
+        "name": "Rengoku Shinjuro",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-007.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Rengoku Shinjuro [SD5-007]",
+    "type": "Main_Deck",
+    "Number": "SD5-007",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Traits": [
+      "Rengoku Family"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader's Threshold skill is active: Choose up to 1 of your Opponent's Units with 2000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-007.jpg",
+    "Counter": 2000
+  },
+  "SD5-008": {
+    "id": "SD5-008",
+    "face": {
+      "front": {
+        "name": "Kamado Tanjiro",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-008.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kamado Tanjiro [SD5-008]",
+    "type": "Main_Deck",
+    "Number": "SD5-008",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Traits": [
+      "Demon Slayer"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[Activate: Main] Rest this card: If your Leader has the \"Demon Slayer\" Trait or is \"Kamado Nezuko\", choose up to 2 of your Opponent's Units and give them -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-008.jpg",
+    "Counter": 1000
+  },
+  "SD5-009": {
+    "id": "SD5-009",
+    "face": {
+      "front": {
+        "name": "Kamado Nezuko",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-009.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kamado Nezuko [SD5-009]",
+    "type": "Main_Deck",
+    "Number": "SD5-009",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Clash",
+      "Limit 1",
+      "Opponent's Turn"
+    ],
+    "Effect": "[Opponent's Turn] Limit 1 When you activate a Clash skill, switch this card to Active mode and give it Blocker for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-009.jpg",
+    "Counter": 1000
+  },
+  "SD5-010": {
+    "id": "SD5-010",
+    "face": {
+      "front": {
+        "name": "Agatsuma Zenitsu",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-010.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Agatsuma Zenitsu [SD5-010]",
+    "type": "Main_Deck",
+    "Number": "SD5-010",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Traits": [
+      "Demon Slayer"
+    ],
+    "Keywords": [
+      "Clash",
+      "Limit 1",
+      "Opponent's Attack",
+      "Raid"
+    ],
+    "Effect": "Clash [Opponent's Attack] Limit 1 Raid {2} If your Leader has the \"Demon Slayer\" Trait or is \"Kamado Nezuko\": Play this card from your hand; give your card that's in a battle +1000 Power for the turn. Then, make this card the new attack target.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-010.jpg",
+    "Counter": 1000
+  },
+  "SD5-011": {
+    "id": "SD5-011",
+    "face": {
+      "front": {
+        "name": "Hashibira Inosuke",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-011.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Hashibira Inosuke [SD5-011]",
+    "type": "Main_Deck",
+    "Number": "SD5-011",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Traits": [
+      "Demon Slayer"
+    ],
+    "Keywords": [
+      "Opponent's Turn"
+    ],
+    "Effect": "[Opponent's Turn] If this card is Rested: Your Opponent can't attack your Leader with the \"Demon Slayer\" Trait.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-011.jpg",
+    "Counter": 1000
+  },
+  "SD5-012": {
+    "id": "SD5-012",
+    "face": {
+      "front": {
+        "name": "Kanroji Mitsuri",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-012.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kanroji Mitsuri [SD5-012]",
+    "type": "Main_Deck",
+    "Number": "SD5-012",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "Permanent"
+    ],
+    "Effect": "Permanent If your Unit with an original Power of 6000 or less would be removed from your field by an Opponent's skill, you may add 1 card from your Life to your hand and place this card in your Drop instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-012.jpg",
+    "Counter": 1000
+  },
+  "SD5-013": {
+    "id": "SD5-013",
+    "face": {
+      "front": {
+        "name": "Uzui Tengen",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-013.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Uzui Tengen [SD5-013]",
+    "type": "Main_Deck",
+    "Number": "SD5-013",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "Deflect",
+      "Duel",
+      "On Play"
+    ],
+    "Effect": "Deflect Duel\n[On Play] Play up to 1 Unit card with a Cost of 2 or less and the \"Demon Slayer\" Trait from your hand or Drop Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-013.jpg",
+    "Counter": 0
+  },
+  "SD5-014": {
+    "id": "SD5-014",
+    "face": {
+      "front": {
+        "name": "Rengoku Kyojuro",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-014.jpg",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Rengoku Kyojuro [SD5-014]",
+    "type": "Main_Deck",
+    "Number": "SD5-014",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[On Attack] (1) If your Leader is \"Rengoku Kyojuro\": Choose up to 1 of your Opponent's Units with 4000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-014.jpg",
+    "Counter": 0
+  },
+  "SD5-015": {
+    "id": "SD5-015",
+    "face": {
+      "front": {
+        "name": "Iguro Obanai",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-015.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Iguro Obanai [SD5-015]",
+    "type": "Main_Deck",
+    "Number": "SD5-015",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Traits": [
+      "Kasugai Crow"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Revenge"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[On Attack] Place 1 card from your hand in your Drop: Give this card +2000 Power and Revenge until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-015.jpg",
+    "Counter": 1000
+  },
+  "SD5-016": {
+    "id": "SD5-016",
+    "face": {
+      "front": {
+        "name": "First Form: Unknowing Fire",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "First Form: Unknowing Fire [SD5-016]",
+    "type": "Main_Deck",
+    "Number": "SD5-016",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Flame Breathing"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] (1) Draw 1 card.\n[Activate: Battle] Place 1 card from your hand at the bottom of your Deck: Give your Leader +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-016.jpg"
+  },
+  "SD5-017": {
+    "id": "SD5-017",
+    "face": {
+      "front": {
+        "name": "Second Form: Rising Scorching Sun",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Second Form: Rising Scorching Sun [SD5-017]",
+    "type": "Main_Deck",
+    "Number": "SD5-017",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Flame Breathing"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] (1) If your Leader is \"Rengoku Kyojuro\": Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn. Then, choose up to 1 of your Opponent's Units with 3000 or less Power and K.O. it.\nClash [Activate: Battle] Give your Leader or up to 1 of your Units +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-017.jpg"
+  },
+  "SD5-018": {
+    "id": "SD5-018",
+    "face": {
+      "front": {
+        "name": "Fourth Form: Blooming Flame Undulation",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fourth Form: Blooming Flame Undulation [SD5-018]",
+    "type": "Main_Deck",
+    "Number": "SD5-018",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Flame Breathing"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Clash",
+      "Unblockable"
+    ],
+    "Effect": "[Activate: Main] (1) If you have 1 or less Life cards, give your \"Rengoku Kyojuro\" Leader Unblockable for the turn.\nClash [Activate: Battle] Give your Leader or up to 1 of your Units +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-018.jpg"
+  },
+  "SD5-019": {
+    "id": "SD5-019",
+    "face": {
+      "front": {
+        "name": "Fifth Form: Flame Tiger",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-019.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fifth Form: Flame Tiger [SD5-019]",
+    "type": "Main_Deck",
+    "Number": "SD5-019",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Flame Breathing"
+    ],
+    "Keywords": [
+      "Clash",
+      "Opponent's Attack"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Leader is \"Rengoku Kyojuro\": Give your Leader +3000 Power for the battle. Then, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-019.jpg"
+  },
+  "SD5-020": {
+    "id": "SD5-020",
+    "face": {
+      "front": {
+        "name": "Rengoku Kyojuro",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD5-020.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Rengoku Kyojuro [SD5-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD5-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "SD5",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "Deflect",
+      "On Play"
+    ],
+    "Effect": "Deflect\n[On Play] Place any number of cards with the \"Flame Breathing\" Trait and different names from your Drop under this card. Then, when this card is removed from the field, add all cards from under this card to your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD5-020.jpg"
+  },
+  "PUP-075": {
+    "id": "PUP-075",
+    "face": {
+      "front": {
+        "name": "Tomioka Giyu",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-075.jpg",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Tomioka Giyu [PUP-075]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-075",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Traits": [
+      "Demon Slayer",
+      "Hashira"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "Activate: Main",
+      "Double Damage",
+      "On Attack",
+      "Once per Turn"
+    ],
+    "Effect": "[On Attack] Accelcharge 1, then choose up to 1 of your Opponent's Units and give it -1000 Power for the turn.\n[Activate: Main] Once per Turn Remove 2 SJ Markers: Switch this card to Active mode and give it +1000 Power and Double Damage for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-075.jpg"
+  },
+  "PUP-076": {
+    "id": "PUP-076",
+    "face": {
+      "front": {
+        "name": "Ninth Form: Purgatory",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-076.jpg",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Ninth Form: Purgatory [PUP-076]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-076",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "KNY",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Place 1 of your \"Rengoku Kyojuro\" in your Drop: Choose up to 1 of your Opponent's Units with 8000 or less Power and K.O. it. Then, return this card to your JUMP Deck and draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-076.jpg"
+  },
+  "TOKEN-GT-KNY2": {
+    "id": "TOKEN-GT-KNY2",
+    "face": {
+      "front": {
+        "name": "Guard Token KNY2",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-KNY2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token KNY2",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-KNY2",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "KNY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-KNY2.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-KNY3": {
+    "id": "TOKEN-SJM-KNY3",
+    "face": {
+      "front": {
+        "name": "SJ Marker KNY3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-KNY3.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker KNY3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-KNY3",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "KNY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-KNY3.jpg",
+    "isAccessory": true
   }
 }

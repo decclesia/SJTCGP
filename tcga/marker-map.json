@@ -485,6 +485,14 @@
         "TOKEN-SJM-RKN2"
       ],
       "guardToken": "TOKEN-GT-RKN"
+    },
+    "SD5-001": {
+      "set": "KNY",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-KNY3"
+      ],
+      "guardToken": "TOKEN-GT-KNY2"
     }
   }
 }
