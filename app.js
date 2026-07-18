@@ -520,8 +520,18 @@ function createCardElement(card, index) {
   return article;
 }
 
+function versionedImagePath(imagePath, version) {
+  if (!imagePath || !version) return imagePath;
+  const separator = imagePath.includes("?") ? "&" : "?";
+  return `${imagePath}${separator}v=${encodeURIComponent(version)}`;
+}
 function cardVariantImages(card) {
-  return [{ label: "Default", image: card.image }, ...(card.altImages || [])].filter(entry => entry.image);
+  const defaultImage = versionedImagePath(card.image, card.imageVersion);
+  const alternateImages = (card.altImages || []).map(entry => ({
+    ...entry,
+    image: versionedImagePath(entry.image, entry.imageVersion),
+  }));
+  return [{ label: "Default", image: defaultImage }, ...alternateImages].filter(entry => entry.image);
 }
 function hasAltArt(card) {
   return cardVariantImages(card).length > 1;

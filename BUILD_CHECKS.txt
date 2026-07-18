@@ -55,5 +55,27 @@
     "PUP-032",
     "PUP-077",
     "PUP-078"
-  ]
+  ],
+  "visual_sync": {
+    "database_cards_audited": 809,
+    "portrait_cards_direct_from_database": 741,
+    "landscape_cards_derived_from_database": 68,
+    "arena_entries_with_content_versioned_images": 897,
+    "database_entries_with_content_versioned_images": 809,
+    "landscape_assets_regenerated": [
+      "ST4-075",
+      "PUP-015",
+      "PUP-069",
+      "PUP-074"
+    ],
+    "landscape_assets_checked": 68,
+    "corrected_card": "PUP-074",
+    "corrected_cost": 0,
+    "cache_refresh_examples": [
+      "PUP-022",
+      "PUP-032",
+      "ST1-099",
+      "PUP-074"
+    ]
+  }
 }

@@ -18482,7 +18482,7 @@ window.SJTCG_CARD_TEXT = {
     "card_no": "PUP-074",
     "name": "Conflagration",
     "color": "Pink",
-    "cost": "2",
+    "cost": "0",
     "sj_cost": "3",
     "life": "",
     "power": "",
@@ -18498,8 +18498,7 @@ window.SJTCG_CARD_TEXT = {
     "deck_zone": "JUMP",
     "card_category": "Main Deck",
     "deck_limit": 1,
-    "orientation": "Landscape",
-    "counter": ""
+    "orientation": "Landscape"
   },
   "PUP-075": {
     "card_no": "PUP-075",
