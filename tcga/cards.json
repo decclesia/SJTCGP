@@ -33852,5 +33852,940 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BLC3.jpg?v=bc720aa16649",
     "isAccessory": true
+  },
+  "SD7-001": {
+    "id": "SD7-001",
+    "face": {
+      "front": {
+        "name": "Himura Kenshin",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-001.jpg?v=0ab2a2f0398f",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Himura Kenshin [SD7-001]",
+    "type": "Leader",
+    "Number": "SD7-001",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Traits": [
+      "Swordsman",
+      "Rurouni"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Clash",
+      "Once per Turn",
+      "Opponent's Attack",
+      "Raid",
+      "Threshold"
+    ],
+    "Effect": "Clash [Opponent's Attack] Once per Turn Choose your Opponent's Leader or up to 1 of their Units, ignoring Barrier, and give them -1000 Power for the turn.\nThreshold 2 [Activate: Main] Raid {1} Choose all of your Opponent's Units with 0 or less Power: They cannot be Rested or used in a Combo until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-001.jpg?v=0ab2a2f0398f"
+  },
+  "SD7-002": {
+    "id": "SD7-002",
+    "face": {
+      "front": {
+        "name": "Himura Kenshin",
+        "type": "UNIT",
+        "cost": 9,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-002.jpg?v=029228a91e83",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Himura Kenshin [SD7-002]",
+    "type": "Main_Deck",
+    "Number": "SD7-002",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "SR",
+    "Cost": 9,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Traits": [
+      "Swordsman",
+      "Rurouni"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "Permanent If your Opponent has a Unit with 7000 or more original Power, give this card in your hand -3 Cost.\n[On Play] Give your Leader +1000 Power until the end of your Opponent's next turn. Then, choose up to 1 of your Opponent's Units and set its Power to 0 until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-002.jpg?v=029228a91e83",
+    "Counter": 0
+  },
+  "SD7-003": {
+    "id": "SD7-003",
+    "face": {
+      "front": {
+        "name": "Saito Hajime",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-003.jpg?v=c036d2052516",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Saito Hajime [SD7-003]",
+    "type": "Main_Deck",
+    "Number": "SD7-003",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Swordsman",
+      "Shinsengumi"
+    ],
+    "Keywords": [
+      "Deflect",
+      "On Play",
+      "Raid",
+      "Unique"
+    ],
+    "Effect": "Unique Deflect\n[On Play] Raid {1} If your Leader is \"Himura Kenshin\": Add 1 card from your Life to your hand; play up to 1 \"Himura Kenshin\" from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-003.jpg?v=c036d2052516",
+    "Counter": 0
+  },
+  "SD7-004": {
+    "id": "SD7-004",
+    "face": {
+      "front": {
+        "name": "Himura Kenshin",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-004.jpg?v=46fc025ea39a",
+        "isHorizontal": false,
+        "power": 10000
+      }
+    },
+    "name": "Himura Kenshin [SD7-004]",
+    "type": "Main_Deck",
+    "Number": "SD7-004",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 10000,
+    "Traits": [
+      "Swordsman",
+      "Rurouni"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Clash",
+      "Once per Turn",
+      "Opponent's Attack",
+      "Raid"
+    ],
+    "Effect": "Once per Turn When a Unit's Power becomes 0 or less, draw 1 card.\nClash [Opponent's Attack] Raid {1} When your Opponent's Unit attacks: Choose that card, ignoring Barrier, and give it -10000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-004.jpg?v=46fc025ea39a",
+    "Counter": 0
+  },
+  "SD7-005": {
+    "id": "SD7-005",
+    "face": {
+      "front": {
+        "name": "Kamiya Kaoru",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-005.jpg?v=7e475c1b2ec5",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kamiya Kaoru [SD7-005]",
+    "type": "Main_Deck",
+    "Number": "SD7-005",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Traits": [
+      "Swordsman",
+      "Kamiya Dojo"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; add up to 1 card with the \"Rurouni\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-005.jpg?v=7e475c1b2ec5",
+    "Counter": 2000
+  },
+  "SD7-006": {
+    "id": "SD7-006",
+    "face": {
+      "front": {
+        "name": "Sagara Sanosuke",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-006.jpg?v=be3755f87a94",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Sagara Sanosuke [SD7-006]",
+    "type": "Main_Deck",
+    "Number": "SD7-006",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Kamiya Dojo"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Clash",
+      "Deflect",
+      "On K.O.",
+      "Opponent's Attack",
+      "Overcharge",
+      "Raid"
+    ],
+    "Effect": "Deflect Blocker\n[On K.O.] If your Leader is \"Himura Kenshin\": Overcharge 2.\nClash [Opponent's Attack] Raid {1} Choose up to 1 of your Opponent's Units and give it -2000 Power until the end of your next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-006.jpg?v=be3755f87a94",
+    "Counter": 0
+  },
+  "SD7-007": {
+    "id": "SD7-007",
+    "face": {
+      "front": {
+        "name": "Myojin Yahiko",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-007.jpg?v=74ecdee4c2ca",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Myojin Yahiko [SD7-007]",
+    "type": "Main_Deck",
+    "Number": "SD7-007",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Traits": [
+      "Swordsman",
+      "Kamiya Dojo"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} Choose all of your Opponent's Units in Active mode and give them -3000 Power for the turn. Then, place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-007.jpg?v=74ecdee4c2ca",
+    "Counter": 2000
+  },
+  "SD7-008": {
+    "id": "SD7-008",
+    "face": {
+      "front": {
+        "name": "Shinomori Aoshi",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-008.jpg?v=26d1358700cd",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shinomori Aoshi [SD7-008]",
+    "type": "Main_Deck",
+    "Number": "SD7-008",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Swordsman",
+      "Oniwabanshu"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Elusive",
+      "On Play"
+    ],
+    "Effect": "Elusive\n[On Play] If your Leader is \"Himura Kenshin\": Rest this card; choose up to 1 of your Opponent's Units with an original Power of 5000 or less, ignoring Barrier, and set its Power to 0 until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-008.jpg?v=26d1358700cd",
+    "Counter": 1000
+  },
+  "SD7-009": {
+    "id": "SD7-009",
+    "face": {
+      "front": {
+        "name": "Makimachi Misao",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-009.jpg?v=cb9d108de524",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Makimachi Misao [SD7-009]",
+    "type": "Main_Deck",
+    "Number": "SD7-009",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Traits": [
+      "Oniwabanshu"
+    ],
+    "Keywords": [
+      "Once per Turn"
+    ],
+    "Effect": "Once per Turn If your Unit with the \"Swordsman\" Trait would leave the field by your Opponent's skill, you may add 1 card from your Life to your hand instead. Then, place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-009.jpg?v=cb9d108de524",
+    "Counter": 2000
+  },
+  "SD7-010": {
+    "id": "SD7-010",
+    "face": {
+      "front": {
+        "name": "Takani Megumi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-010.jpg?v=9e73980d5091",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Takani Megumi [SD7-010]",
+    "type": "Main_Deck",
+    "Number": "SD7-010",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Traits": [
+      "Kamiya Dojo"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} Give your Leader +1000 Power for the turn; choose up to 1 of your Opponent's Units and give it -2000 Power for the turn. Then, place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-010.jpg?v=9e73980d5091",
+    "Counter": 2000
+  },
+  "SD7-011": {
+    "id": "SD7-011",
+    "face": {
+      "front": {
+        "name": "Hiko Seijuro",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-011.jpg?v=6ed7a5bd1e50",
+        "isHorizontal": false,
+        "power": 9000
+      }
+    },
+    "name": "Hiko Seijuro [SD7-011]",
+    "type": "Main_Deck",
+    "Number": "SD7-011",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 9000,
+    "Traits": [
+      "Swordsman"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Himura Kenshin\": At the start of your Opponent's next turn, give your Leader +2000 Power for the turn.\n[On Attack] If your Leader's Threshold skill is active, choose up to 1 of your Opponent's Units with 7000 or more Power and set its Power to 0 until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-011.jpg?v=6ed7a5bd1e50",
+    "Counter": 0
+  },
+  "SD7-012": {
+    "id": "SD7-012",
+    "face": {
+      "front": {
+        "name": "Himura Kenshin",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-012.jpg?v=330ab9be9e31",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Himura Kenshin [SD7-012]",
+    "type": "Main_Deck",
+    "Number": "SD7-012",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Traits": [
+      "Swordsman",
+      "Rurouni"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Blocker",
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "Barrier Blocker\n[On Play] Limit 1 Place 1 Unit card with 6000 or more Power from your hand in your Drop: Draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-012.jpg?v=330ab9be9e31",
+    "Counter": 1000
+  },
+  "SD7-013": {
+    "id": "SD7-013",
+    "face": {
+      "front": {
+        "name": "Saito Hajime",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-013.jpg?v=5b3dfe448f3b",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Saito Hajime [SD7-013]",
+    "type": "Main_Deck",
+    "Number": "SD7-013",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Traits": [
+      "Swordsman",
+      "Shinsengumi"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "On Attack",
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand; Accelcharge 1.\n[On Attack / On K.O.] If your Leader's Threshold skill is active, choose up to 1 of your Opponent's Units and give it -3000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-013.jpg?v=5b3dfe448f3b",
+    "Counter": 1000
+  },
+  "SD7-014": {
+    "id": "SD7-014",
+    "face": {
+      "front": {
+        "name": "Sagara Sanosuke",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-014.jpg?v=9f4b253881b0",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Sagara Sanosuke [SD7-014]",
+    "type": "Main_Deck",
+    "Number": "SD7-014",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Traits": [
+      "Kamiya Dojo"
+    ],
+    "Keywords": [
+      "Charge",
+      "On Attack",
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand; Charge 1.\n[On Attack / On K.O.] If your Leader's Threshold skill is active, choose all of your Opponent's Units with 2000 or less Power and give them -2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-014.jpg?v=9f4b253881b0",
+    "Counter": 1000
+  },
+  "SD7-015": {
+    "id": "SD7-015",
+    "face": {
+      "front": {
+        "name": "Kamiya Kaoru",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-015.jpg?v=83d2a8e9098d",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kamiya Kaoru [SD7-015]",
+    "type": "Main_Deck",
+    "Number": "SD7-015",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Traits": [
+      "Swordsman",
+      "Kamiya Dojo"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} Choose all of your Opponent's Rested Units and give them -2000 Power for the turn. Then, place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-015.jpg?v=83d2a8e9098d",
+    "Counter": 2000
+  },
+  "SD7-016": {
+    "id": "SD7-016",
+    "face": {
+      "front": {
+        "name": "Kuzuryusen",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-016.jpg?v=c50e515744df",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kuzuryusen [SD7-016]",
+    "type": "Main_Deck",
+    "Number": "SD7-016",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Hiten Mitsurugi-ryu"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -6000 Power for the turn. Then, if its Power becomes 0 or less and you have no cards in your Life, add the top card of your Deck to your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-016.jpg?v=c50e515744df"
+  },
+  "SD7-017": {
+    "id": "SD7-017",
+    "face": {
+      "front": {
+        "name": "Ryusosen",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-017.jpg?v=4d7b69ec7357",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ryusosen [SD7-017]",
+    "type": "Main_Deck",
+    "Number": "SD7-017",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Hiten Mitsurugi-ryu"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} If your Leader is \"Himura Kenshin\" and you have 1 card in your Life: Place 1 card from your Life in your Drop; place the top 2 cards of your Deck in your Life. Then, you can't place cards from any area in your Life during your next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-017.jpg?v=4d7b69ec7357"
+  },
+  "SD7-018": {
+    "id": "SD7-018",
+    "face": {
+      "front": {
+        "name": "Ryukansen",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-018.jpg?v=842f1e4ed32a",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ryukansen [SD7-018]",
+    "type": "Main_Deck",
+    "Number": "SD7-018",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Hiten Mitsurugi-ryu"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} Choose up to 3 of your Opponent's Units and give them -4000 Power for the turn. Then, if your Leader is \"Himura Kenshin\", draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-018.jpg?v=842f1e4ed32a"
+  },
+  "SD7-019": {
+    "id": "SD7-019",
+    "face": {
+      "front": {
+        "name": "Hiryusen",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-019.jpg?v=5d05841080b1",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hiryusen [SD7-019]",
+    "type": "Main_Deck",
+    "Number": "SD7-019",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Hiten Mitsurugi-ryu"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Give your card that's in a battle +2000 Power for the battle. Then, if there is a Unit with 0 Power on any field, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-019.jpg?v=5d05841080b1"
+  },
+  "SD7-020": {
+    "id": "SD7-020",
+    "face": {
+      "front": {
+        "name": "Himura Kenshin",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD7-020.jpg?v=d59d3ee90d17",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Himura Kenshin [SD7-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD7-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "SD7",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Traits": [
+      "Swordsman",
+      "Rurouni"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Deflect",
+      "On Play"
+    ],
+    "Effect": "Deflect Blocker\n[On Play] Add the top card of your Deck to your Life.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD7-020.jpg?v=d59d3ee90d17"
+  },
+  "PUP-079": {
+    "id": "PUP-079",
+    "face": {
+      "front": {
+        "name": "Himura Kenshin",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-079.jpg?v=87c4d98e157a",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Himura Kenshin [PUP-079]",
+    "type": "Main_Deck",
+    "Number": "PUP-079",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Traits": [
+      "Swordsman",
+      "Rurouni"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Play",
+      "Unique"
+    ],
+    "Effect": "Unique Barrier\n[On Play] Choose up to 1 of your Opponent's Units with 8000 or more Power; set its Power to 0 until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-079.jpg?v=87c4d98e157a",
+    "Counter": 2000
+  },
+  "PUP-080": {
+    "id": "PUP-080",
+    "face": {
+      "front": {
+        "name": "Sakabato",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-080.jpg?v=ee0d855453ab",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Sakabato [PUP-080]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-080",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Traits": [],
+    "Keywords": [
+      "Accelcharge",
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Once per Turn If your Leader is \"Himura Kenshin\": When you play a Unit card from your hand, Accelcharge 1.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-080.jpg?v=ee0d855453ab"
+  },
+  "PUP-081": {
+    "id": "PUP-081",
+    "face": {
+      "front": {
+        "name": "Amakakeru Ryu No Hirameki",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-081.jpg?v=0265538c91ab",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Amakakeru Ryu No Hirameki [PUP-081]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-081",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] If your \"Himura Kenshin\" is in a battle: Choose up to 1 of your Opponent's Units and set its Power to 0 until the end of your next turn. Then, return this card to your JUMP Deck at the end of the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-081.jpg?v=0265538c91ab"
+  },
+  "TOKEN-GT-SD7": {
+    "id": "TOKEN-GT-SD7",
+    "face": {
+      "front": {
+        "name": "Guard Token SD7 RKN",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SD7.jpg?v=5ae8d8e4ba77",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token SD7 RKN",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-SD7",
+    "Card_Type": "Guard Token",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SD7.jpg?v=5ae8d8e4ba77",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-RKN3": {
+    "id": "TOKEN-SJM-RKN3",
+    "face": {
+      "front": {
+        "name": "SJ Marker RKN3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-RKN3.jpg?v=c2111fced180",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker RKN3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-RKN3",
+    "Card_Type": "SJ Marker",
+    "Color": "Pink",
+    "Set": "RKN",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-RKN3.jpg?v=c2111fced180",
+    "isAccessory": true
   }
 }

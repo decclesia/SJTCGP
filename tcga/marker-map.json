@@ -501,6 +501,14 @@
         "TOKEN-SJM-BLC3"
       ],
       "guardToken": "TOKEN-GT-SD6"
+    },
+    "SD7-001": {
+      "set": "RKN",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-RKN3"
+      ],
+      "guardToken": "TOKEN-GT-SD7"
     }
   }
 }
