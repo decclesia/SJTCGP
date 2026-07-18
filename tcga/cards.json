@@ -32946,5 +32946,912 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-KNY3.jpg",
     "isAccessory": true
+  },
+  "SD6-001": {
+    "id": "SD6-001",
+    "face": {
+      "front": {
+        "name": "Shihouin Yoruichi",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-001.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Shihouin Yoruichi [SD6-001]",
+    "type": "Leader",
+    "Number": "SD6-001",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Traits": [
+      "Shinigami"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge",
+      "Evolve",
+      "Once per Turn",
+      "Opponent's Turn",
+      "Threshold",
+      "Your Turn"
+    ],
+    "Effect": "[Opponent's Turn] Give all of your \"Shihouin Yoruichi\" Units with an original Power of 6000 +2000 Power.\n[Your Turn] Once per Turn When you play a Unit with Evolve and an original Power of 6000, Charge 2.\nThreshold 3 [Activate: Main] Once per Turn Add 1 card from under 1 of your \"Shihouin Yoruichi\" Units to your hand. Then, place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-001.jpg"
+  },
+  "SD6-002": {
+    "id": "SD6-002",
+    "face": {
+      "front": {
+        "name": "Shihouin Yoruichi",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-002.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shihouin Yoruichi [SD6-002]",
+    "type": "Main_Deck",
+    "Number": "SD6-002",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Shinigami"
+    ],
+    "Keywords": [
+      "Clash",
+      "Dual Attack",
+      "Evolve",
+      "On Play",
+      "Opponent's Attack",
+      "Unique"
+    ],
+    "Effect": "Unique Evolve (2) 5 Cost \"Shihouin Yoruichi\"\n[On Play] If this card was played by Evolve and has 2 or more cards under it, give this card Dual Attack for the turn.\nClash [Opponent's Attack] If your Leader is in a battle, you may place 1 card from under this card in your Drop: Give your Leader +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-002.jpg",
+    "Counter": 0
+  },
+  "SD6-003": {
+    "id": "SD6-003",
+    "face": {
+      "front": {
+        "name": "Shihouin Yoruichi",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-003.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shihouin Yoruichi [SD6-003]",
+    "type": "Main_Deck",
+    "Number": "SD6-003",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Shinigami"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Evolve",
+      "On Play",
+      "Once per Turn",
+      "Overcharge"
+    ],
+    "Effect": "Evolve (3) If you have 4 or more Energy, \"Shihouin Yoruichi\"\n[On Play] If this card was played by Evolve, choose up to 1 of your Opponent's Rested Units with 6000 or less Power and K.O. it.\n[Activate: Main] Once per Turn If your Leader is \"Shihouin Yoruichi\", place 1 card from under this card in your Drop; Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-003.jpg",
+    "Counter": 1000
+  },
+  "SD6-004": {
+    "id": "SD6-004",
+    "face": {
+      "front": {
+        "name": "Soi Fon",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-004.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Soi Fon [SD6-004]",
+    "type": "Main_Deck",
+    "Number": "SD6-004",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Traits": [
+      "Shinigami",
+      "Onmitsukido"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[Activate: Main] Place 1 Unit card with 6000 Power from your hand in your Drop: Give this card +2 Cost for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-004.jpg",
+    "Counter": 2000
+  },
+  "SD6-005": {
+    "id": "SD6-005",
+    "face": {
+      "front": {
+        "name": "Shihouin Yoruichi",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-005.jpg",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Shihouin Yoruichi [SD6-005]",
+    "type": "Main_Deck",
+    "Number": "SD6-005",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Traits": [
+      "Shinigami"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Play"
+    ],
+    "Effect": "Barrier\n[On Play] Look at the top 5 cards of your Deck; add up to 1 Unit card with 6000 Power to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-005.jpg",
+    "Counter": 2000
+  },
+  "SD6-006": {
+    "id": "SD6-006",
+    "face": {
+      "front": {
+        "name": "Shihouin Yoruichi",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-006.jpg",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Shihouin Yoruichi [SD6-006]",
+    "type": "Main_Deck",
+    "Number": "SD6-006",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Traits": [
+      "Shinigami"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Main] Limit 1 (2) Return this card to your hand: Play up to 1 \"Shihouin Yoruichi\" Unit card with a Cost of 5 and 6000 Power from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-006.jpg",
+    "Counter": 1000
+  },
+  "SD6-007": {
+    "id": "SD6-007",
+    "face": {
+      "front": {
+        "name": "Shihouin Yoruichi",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-007.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shihouin Yoruichi [SD6-007]",
+    "type": "Main_Deck",
+    "Number": "SD6-007",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Shinigami"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Evolve",
+      "On Play",
+      "Once per Turn",
+      "Unique"
+    ],
+    "Effect": "Unique Evolve (4) \"Shihouin Yoruichi\"\n[On Play] If this card was played by Evolve, draw 2 cards.\n[Activate: Main] Once per Turn Place 1 card from under this card in your Drop: Choose up to 1 of your Opponent's Units with 6000 or more Power, ignoring Barrier, and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-007.jpg",
+    "Counter": 0
+  },
+  "SD6-008": {
+    "id": "SD6-008",
+    "face": {
+      "front": {
+        "name": "Soi Fon",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-008.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Soi Fon [SD6-008]",
+    "type": "Main_Deck",
+    "Number": "SD6-008",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Shinigami",
+      "Onmitsukido"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Evolve"
+    ],
+    "Effect": "Evolve (1) 3 Cost \"Soi Fon\"\n[Activate: Main] Place this card with at least 1 card under it in your Drop: Draw 1 card; choose up to 1 of your Opponent's Units with 7000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-008.jpg",
+    "Counter": 0
+  },
+  "SD6-009": {
+    "id": "SD6-009",
+    "face": {
+      "front": {
+        "name": "Soi Fon",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-009.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Soi Fon [SD6-009]",
+    "type": "Main_Deck",
+    "Number": "SD6-009",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Traits": [
+      "Shinigami",
+      "Onmitsukido"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Charge",
+      "On Play",
+      "Once per Turn"
+    ],
+    "Effect": "Barrier\n[On Play] Add up to 1 card from your Life to your hand. Then, if your Leader is \"Shihouin Yoruichi\", Charge 1.\n[Activate: Main] Once per Turn (1) Switch this card to Active mode and it cannot attack for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-009.jpg",
+    "Counter": 0
+  },
+  "SD6-010": {
+    "id": "SD6-010",
+    "face": {
+      "front": {
+        "name": "Urahara Kisuke",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-010.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Urahara Kisuke [SD6-010]",
+    "type": "Main_Deck",
+    "Number": "SD6-010",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Shinigami",
+      "Scientist"
+    ],
+    "Keywords": [
+      "Evolve",
+      "On Play"
+    ],
+    "Effect": "Evolve (2) \"Urahara Kisuke\"\n[On Play] If your Leader is \"Shihouin Yoruichi\", add up to 1 card from your Life to your hand. Then, look at the top 3 cards of your Deck; add up to 1 card with a Cost of 5 or more and Evolve to your hand and place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-010.jpg",
+    "Counter": 0
+  },
+  "SD6-011": {
+    "id": "SD6-011",
+    "face": {
+      "front": {
+        "name": "Shihouin Yushiro",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-011.jpg",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Shihouin Yushiro [SD6-011]",
+    "type": "Main_Deck",
+    "Number": "SD6-011",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Traits": [
+      "Shinigami"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may reveal 2 Unit cards with 6000 Power from your hand: Draw 3 cards; place 2 cards from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-011.jpg",
+    "Counter": 1000
+  },
+  "SD6-012": {
+    "id": "SD6-012",
+    "face": {
+      "front": {
+        "name": "Soi Fon",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-012.jpg",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Soi Fon [SD6-012]",
+    "type": "Main_Deck",
+    "Number": "SD6-012",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Shinigami",
+      "Onmitsukido"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Elusive",
+      "Evolve",
+      "On Play",
+      "Once per Turn",
+      "Overcharge"
+    ],
+    "Effect": "Elusive Evolve (1) 3 Cost \"Soi Fon\"\n[On Play] Choose up to 1 of your Opponent's Units with 5000 or less Power and K.O. it.\n[Activate: Main] Once per Turn If your Leader is \"Shihouin Yoruichi\", place 1 card from under this card in your Drop; Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-012.jpg",
+    "Counter": 1000
+  },
+  "SD6-013": {
+    "id": "SD6-013",
+    "face": {
+      "front": {
+        "name": "Urahara Kisuke",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-013.jpg",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Urahara Kisuke [SD6-013]",
+    "type": "Main_Deck",
+    "Number": "SD6-013",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Traits": [
+      "Shinigami",
+      "Gotei 13"
+    ],
+    "Keywords": [
+      "Evolve",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] If you have a \"Shihouin Yoruichi\" with Evolve in play, give this card in your hand -2 Cost.\n[On Play] Choose up to 2 of your Opponent's Units with a Cost of 2 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-013.jpg",
+    "Counter": 2000
+  },
+  "SD6-014": {
+    "id": "SD6-014",
+    "face": {
+      "front": {
+        "name": "Shiba Kukaku",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-014.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Shiba Kukaku [SD6-014]",
+    "type": "Main_Deck",
+    "Number": "SD6-014",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Traits": [
+      "Rukongai",
+      "Shiba Clan"
+    ],
+    "Keywords": [
+      "Clash",
+      "Opponent's Attack"
+    ],
+    "Effect": "Clash [Opponent's Attack] (1) Play this card and give it +1000 Counter for the turn. Then, if your Leader is \"Shihouin Yoruichi\", choose up to 1 of your Opponent's Units with 3000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-014.jpg",
+    "Counter": 1000
+  },
+  "SD6-015": {
+    "id": "SD6-015",
+    "face": {
+      "front": {
+        "name": "Shiba Ganju",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-015.jpg",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Shiba Ganju [SD6-015]",
+    "type": "Main_Deck",
+    "Number": "SD6-015",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Traits": [
+      "Rukongai",
+      "Shiba Clan"
+    ],
+    "Keywords": [
+      "Evolve",
+      "On Play"
+    ],
+    "Effect": "[On Play] Place up to 1 card from your Drop under 1 of your Units with Evolve. Then, give this card +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-015.jpg",
+    "Counter": 1000
+  },
+  "SD6-016": {
+    "id": "SD6-016",
+    "face": {
+      "front": {
+        "name": "Shunko",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-016.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shunko [SD6-016]",
+    "type": "Main_Deck",
+    "Number": "SD6-016",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Hakuda",
+      "Kido"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] Give your card that's in a battle +1000 Power for the battle for each card under it. Then, if you have a Unit with an original Power of 6000, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-016.jpg"
+  },
+  "SD6-017": {
+    "id": "SD6-017",
+    "face": {
+      "front": {
+        "name": "Raijin Senkei",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-017.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Raijin Senkei [SD6-017]",
+    "type": "Main_Deck",
+    "Number": "SD6-017",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Hakuda",
+      "Kido"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash",
+      "Evolve"
+    ],
+    "Effect": "Clash [Activate: Battle] Place 1 card from under your \"Shihouin Yoruichi\" with Evolve in your Drop: Give your card that's in a battle +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-017.jpg"
+  },
+  "SD6-018": {
+    "id": "SD6-018",
+    "face": {
+      "front": {
+        "name": "Shunryu Kokubyo Senki",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-018.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shunryu Kokubyo Senki [SD6-018]",
+    "type": "Main_Deck",
+    "Number": "SD6-018",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Hakuda",
+      "Kido"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Evolve"
+    ],
+    "Effect": "[Activate: Main] Place up to 1 \"Shihouin Yoruichi\" from your Drop under 1 of your \"Shihouin Yoruichi\" with Evolve. Then, if that card was played this turn by Evolve, give it +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-018.jpg"
+  },
+  "SD6-019": {
+    "id": "SD6-019",
+    "face": {
+      "front": {
+        "name": "Utsusemi",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-019.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Utsusemi [SD6-019]",
+    "type": "Main_Deck",
+    "Number": "SD6-019",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Traits": [
+      "Hoho"
+    ],
+    "Keywords": [
+      "Clash",
+      "Evolve",
+      "Limit 1",
+      "Opponent's Attack"
+    ],
+    "Effect": "Clash [Opponent's Attack] Limit 1 Place all cards from under 1 of your \"Shihouin Yoruichi\" or \"Soi Fon\" with Evolve in your Drop. Then, if you placed at least 1 card, negate the attack.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-019.jpg"
+  },
+  "SD6-020": {
+    "id": "SD6-020",
+    "face": {
+      "front": {
+        "name": "Shihouin Yoruichi",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD6-020.jpg",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Shihouin Yoruichi [SD6-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD6-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "SD6",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Traits": [
+      "Shinigami",
+      "Gotei 13"
+    ],
+    "Keywords": [
+      "Deflect",
+      "Dual Attack",
+      "Evolve",
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "Deflect Dual Attack\n[On Play] Place up to 1 \"Shihouin Yoruichi\" or \"Soi Fon\" from your Deck under this card. Then, shuffle your Deck.\n[On K.O.] Add up to 1 \"Shihouin Yoruichi\" or \"Soi Fon\" without Evolve from your Drop to your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD6-020.jpg"
+  },
+  "PUP-077": {
+    "id": "PUP-077",
+    "face": {
+      "front": {
+        "name": "Speed Blitz",
+        "type": "JUMP ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-077.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Speed Blitz [PUP-077]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-077",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 0,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Traits": [],
+    "Keywords": [
+      "End of your Turn",
+      "Evolve",
+      "Opponent's Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Opponent's Turn] If your Unit with Evolve is removed from your field by an Opponent's skill or K.O.'d, return this card to your JUMP Deck.\n[End of your Turn] If you played a Unit with Evolve this turn, draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-077.jpg"
+  },
+  "PUP-078": {
+    "id": "PUP-078",
+    "face": {
+      "front": {
+        "name": "Mukyu Shunko",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-078.jpg",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Mukyu Shunko [PUP-078]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-078",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "BLC",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Double Damage",
+      "Evolve"
+    ],
+    "Effect": "[Activate: Battle] Give up to 1 of your \"Soi Fon\" with Evolve Double Damage and +2000 Power for each card under it for the battle. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-078.jpg"
+  },
+  "TOKEN-GT-SD6": {
+    "id": "TOKEN-GT-SD6",
+    "face": {
+      "front": {
+        "name": "Guard Token SD6 BLC",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SD6.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token SD6 BLC",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-SD6",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "BLC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SD6.jpg",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-BLC3": {
+    "id": "TOKEN-SJM-BLC3",
+    "face": {
+      "front": {
+        "name": "SJ Marker BLC3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BLC3.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker BLC3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-BLC3",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "BLC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BLC3.jpg",
+    "isAccessory": true
   }
 }

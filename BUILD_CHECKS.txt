@@ -1,49 +1,59 @@
 {
-  "website_cards": 787,
-  "card_text_records": 787,
-  "arena_entries": 873,
-  "sd5_rarity_counts": {
+  "website_cards": 809,
+  "card_text_records": 809,
+  "arena_entries": 897,
+  "sd6_rarity_counts": {
     "L": 1,
     "SR": 3,
     "C": 16
   },
-  "latest_promo": "PUP-076",
+  "latest_promo": "PUP-078",
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "sd5_cards": [
-    "SD5-001",
-    "SD5-002",
-    "SD5-003",
-    "SD5-004",
-    "SD5-005",
-    "SD5-006",
-    "SD5-007",
-    "SD5-008",
-    "SD5-009",
-    "SD5-010",
-    "SD5-011",
-    "SD5-012",
-    "SD5-013",
-    "SD5-014",
-    "SD5-015",
-    "SD5-016",
-    "SD5-017",
-    "SD5-018",
-    "SD5-019",
-    "SD5-020",
-    "PUP-075",
-    "PUP-076"
+  "sd6_cards": [
+    "SD6-001",
+    "SD6-002",
+    "SD6-003",
+    "SD6-004",
+    "SD6-005",
+    "SD6-006",
+    "SD6-007",
+    "SD6-008",
+    "SD6-009",
+    "SD6-010",
+    "SD6-011",
+    "SD6-012",
+    "SD6-013",
+    "SD6-014",
+    "SD6-015",
+    "SD6-016",
+    "SD6-017",
+    "SD6-018",
+    "SD6-019",
+    "SD6-020",
+    "PUP-077",
+    "PUP-078"
   ],
-  "sd5_jump_units": [
-    "SD5-020",
-    "PUP-075"
+  "sd6_jump_units": [
+    "SD6-020"
   ],
-  "sd5_jump_actions": [
-    "PUP-076"
+  "sd6_jump_actions": [
+    "PUP-077",
+    "PUP-078"
   ],
-  "sd5_accessories": [
-    "TOKEN-GT-KNY2",
-    "TOKEN-SJM-KNY3"
+  "sd6_accessories": [
+    "TOKEN-GT-SD6",
+    "TOKEN-SJM-BLC3"
+  ],
+  "arena_landscape_fixes": [
+    "PUP-067",
+    "PUP-066",
+    "PUP-022",
+    "ST4-050",
+    "EX5-021",
+    "PUP-032",
+    "PUP-077",
+    "PUP-078"
   ]
 }

@@ -493,6 +493,14 @@
         "TOKEN-SJM-KNY3"
       ],
       "guardToken": "TOKEN-GT-KNY2"
+    },
+    "SD6-001": {
+      "set": "BLC",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-BLC3"
+      ],
+      "guardToken": "TOKEN-GT-SD6"
     }
   }
 }
