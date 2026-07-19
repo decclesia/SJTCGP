@@ -3471,7 +3471,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "682868e49daf"
+    "imageVersion": "24c68716daee"
   },
   {
     "number": "ST3-035",
@@ -3483,7 +3483,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "ceb015ecd3d5"
+    "imageVersion": "d81b31427f36"
   },
   {
     "number": "ST3-036",
@@ -3507,7 +3507,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "98a8ec677bee"
+    "imageVersion": "5d99388cea71"
   },
   {
     "number": "ST3-038",
@@ -5607,7 +5607,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "33c74776d7d0"
+    "imageVersion": "09b0f5e87963"
   },
   {
     "number": "ST4-110",

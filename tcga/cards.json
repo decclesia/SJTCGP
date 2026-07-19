@@ -11085,7 +11085,7 @@
         "name": "Tsukino Chibiusa",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-034.jpg?v=682868e49daf",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-034.jpg?v=24c68716daee",
         "isHorizontal": false,
         "power": 2000
       }
@@ -11108,15 +11108,14 @@
     ],
     "Keywords": [
       "Activate: Battle",
-      "Opponent's Attack",
-      "Once per Turn",
+      "Clash",
       "Limit 1",
-      "Clash"
+      "Opponent's Attack"
     ],
-    "Effect": "[Activate: Battle] Once per Turn (1) Rest this card: Choose up to 1 of your other Units with the \"Sailor Guardian\" Trait and return it to your hand.\nClash! [Opponent's Attack] Limit 1 (1) If your Unit with the \"Sailor Guardian\" Trait is in a battle, play this card from your hand and, if you do, give your card that's in a battle +1000 Power for the battle.",
+    "Effect": "Clash [Activate: Battle] (1) Rest this card: Choose up to 1 of your other Units with the \"Sailor Guardian\" Trait and return it to your hand.\nClash [Opponent's Attack] Limit 1 (1) Play this card from your hand and, if you do, give your card that's in a battle +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-034.jpg?v=682868e49daf"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-034.jpg?v=24c68716daee"
   },
   "ST3-035": {
     "id": "ST3-035",
@@ -11125,7 +11124,7 @@
         "name": "Moon Prism Power, Make Up!",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-035.jpg?v=ceb015ecd3d5",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-035.jpg?v=d81b31427f36",
         "isHorizontal": false
       }
     },
@@ -11149,10 +11148,10 @@
       "Activate: Main",
       "Limit 1"
     ],
-    "Effect": "[Activate: Main] Limit 1 Play up to 2 Unit cards with a Cost of 1 and the \"Sailor Guardian\" Trait from your Drop with their skills negated for the turn.",
+    "Effect": "[Activate: Main] Limit 1 Play up to 2 Unit cards with a Cost of 1 and the \"Sailor Guardian\" Trait from your Drop Rested with their skills negated for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-035.jpg?v=ceb015ecd3d5"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-035.jpg?v=d81b31427f36"
   },
   "ST3-036": {
     "id": "ST3-036",
@@ -11197,7 +11196,7 @@
         "name": "Moon Princess Halation",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST3-037.jpg?v=98a8ec677bee",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST3-037.jpg?v=5d99388cea71",
         "isHorizontal": false
       }
     },
@@ -11218,13 +11217,13 @@
       "Moon Kingdom"
     ],
     "Keywords": [
-      "Opponent's Attack",
-      "Clash"
+      "Clash",
+      "Opponent's Attack"
     ],
-    "Effect": "Clash [Opponent's Attack] Negate the attack. Then, switch up to 1 of your Units with a Cost of 2 or less to Active mode.",
+    "Effect": "Clash [Opponent's Attack] Negate the attack. Then, switch up to 1 of your Units with an original Cost of 2 or less to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST3-037.jpg?v=98a8ec677bee"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST3-037.jpg?v=5d99388cea71"
   },
   "ST3-038": {
     "id": "ST3-038",
@@ -31256,7 +31255,7 @@
         "name": "Seta Sojiro",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST4-109.jpg?v=33c74776d7d0",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST4-109.jpg?v=09b0f5e87963",
         "isHorizontal": false,
         "power": 5000
       }
@@ -31282,10 +31281,10 @@
       "Deflect",
       "On Attack"
     ],
-    "Effect": "Deflect Barrier\n[On Attack] If your Leader is \"Shishio Makoto\": You may turn 1 card from the top of your Life cards face-up and, if you do, give this card +1000 per 1 cost on the face-up Life card.",
+    "Effect": "Deflect Barrier\n[On Attack] If your Leader is \"Shishio Makoto\": You may turn 1 card from the top of your Life cards face-up and give this card +1000 Power per 1 cost on the face-up Life card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST4-109.jpg?v=33c74776d7d0"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST4-109.jpg?v=09b0f5e87963"
   },
   "ST4-110": {
     "id": "ST4-110",

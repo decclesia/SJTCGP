@@ -46,5 +46,12 @@
   "sd7_accessories": [
     "TOKEN-GT-SD7",
     "TOKEN-SJM-RKN3"
-  ]
+  ],
+  "revised_cards_2026_07_19": [
+    "ST3-034",
+    "ST3-035",
+    "ST3-037",
+    "ST4-109"
+  ],
+  "revision_scope": "Compressed images, verified transcriptions, keyword formatting, and synchronized Arena image versions."
 }
