@@ -473,6 +473,7 @@ def build_sections() -> dict:
         "Leader": section("Leader", "Leader Area", height="18", horizontal=True),
         "Life": section("Life", "Life Area", hidden="yes", height="18", alignment="DECK", group_forbidden=True, quick_actions=True, keep_tapped=True),
         "Field": section("Field", "Field", height="18", horizontal=True),
+        "JUMP_Action_Area": section("JUMP_Action_Area", "JUMP Action Area", height="18", horizontal=True, keep_tapped=True),
         "Combo": section("Combo", "Combo Area", height="8", horizontal=True),
         "Energy_Area": section("Energy_Area", "Energy Area", height="8", horizontal=True, keep_tapped=True),
         "Overcharge_Area": section("Overcharge_Area", "Overcharge Area", height="8", horizontal=True, enter_tapped=True, keep_tapped=True),
@@ -529,15 +530,7 @@ def build_layout() -> dict:
                 "direction": "column",
                 "style": {"width": "20vh"},
                 "content": [
-                    {"section": "Deck", "style": {"height": "19vh"}},
-                    {
-                        "direction": "row",
-                        "style": {"height": "16vh"},
-                        "content": [
-                            {"section": "Discard", "style": {"flex": 1}},
-                            {"section": "Exile", "style": {"flex": 1}},
-                        ],
-                    },
+                    {"section": "JUMP_Action_Area", "style": {"height": "40vh", "minHeight": "40vh"}},
                 ],
             },
         ],
@@ -551,7 +544,7 @@ Deck: 1 Leader, exactly 50 Main Deck cards, and up to 10 JUMP Deck cards. Leader
 
 Accessories: Fill Energy Stack and SJ Marker Pile with the art matching your Leader's Set. The included converter does this automatically; when building inside TCG Arena, filter accessories by Set. A generic Energy Marker is provided where no exact Energy art currently exists.
 
-Life: After the opening hand/mulligan, manually place cards from the top of your Deck face-down in Life equal to the Life printed on your Leader.
+Life: After the opening hand/mulligan, manually place cards from the top of your Deck face-down in Life equal to the Life printed on your Leader. To turn an individual Life card face-up without moving it, select Hide/Reveal (the eye icon, or press Z) and select that card; repeat to turn it face-down again.
 
 Energy: The opening charge of 2 is placed automatically at the beginning of each player's first turn. Later charges must be moved manually from Energy Stack: turn 2 charges 3, turn 3 charges 4, and so on. Spent Energy returns to Energy Stack. At end of your turn, move unused Energy to Overcharge Area. At end of the opponent's turn, return unused Overcharged Energy to Energy Stack.
 
@@ -559,7 +552,7 @@ Guard Token: The second player's Guard Token is moved to their hand automaticall
 
 SJ Markers: When you deal or take damage, you may move up to 1 marker from SJ Marker Pile to SJ Marker Area. Markers enter horizontally. Return spent markers to the pile.
 
-Cards: Units play to Field. Main Deck Actions enter Action Resolution and go to Drop when resolved. JUMP Units and JUMP Actions are played from JUMP Deck to Field; JUMP Actions remain there unless removed by a skill. Removed JUMP Units go to Removed from Game unless stated otherwise.
+Cards: Units and JUMP Units play to Field. Main Deck Actions enter Action Resolution and go to Drop when resolved. JUMP Actions play from the JUMP Deck to the dedicated JUMP Action Area and remain there unless removed by a skill. Removed JUMP Units go to Removed from Game unless stated otherwise.
 
 TCG Arena provides the shared board and deck handling; card skills and rules decisions remain manual."""
     return {
@@ -655,6 +648,7 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
                         "Leader",
                         "Life",
                         "Field",
+                        "JUMP_Action_Area",
                         "Combo",
                         "Energy_Area",
                         "Overcharge_Area",
@@ -673,7 +667,7 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
                         "ACTION": "Stack",
                         "JUMP LEADER": "Leader",
                         "JUMP UNIT": "Field",
-                        "JUMP ACTION": "Field",
+                        "JUMP ACTION": "JUMP_Action_Area",
                         "ENERGY": "Energy_Area",
                         "SJ MARKER": "SJ_Marker_Area",
                         "GUARD TOKEN": "Hand",
@@ -684,7 +678,7 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
                         "ACTION": "Discard",
                         "JUMP LEADER": "Leader",
                         "JUMP UNIT": "Field",
-                        "JUMP ACTION": "Field",
+                        "JUMP ACTION": "JUMP_Action_Area",
                         "ENERGY": "Energy_Area",
                         "SJ MARKER": "SJ_Marker_Area",
                         "GUARD TOKEN": "Hand",
