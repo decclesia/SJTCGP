@@ -640,7 +640,7 @@ TCG Arena provides the shared board and deck handling; card skills and rules dec
                 "defaultNotes": "Turn / own charge amount: 1→2, 2→3, 3→4, 4→5, 5→6. Later Energy charges are manual.",
                 "tokens": token_ids,
                 "countersStartingValues": [0, 0],
-                "hideFacedDownCards": False,
+                "hideFacedDownCards": True,
                 "draggableTokens": [],
                 "sections": {
                     "customSections": [
