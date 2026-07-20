@@ -293,7 +293,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "14vh"
+                "width": "22vh"
               },
               "content": [
                 {
@@ -619,7 +619,7 @@
           "Life": {
             "title": "Life",
             "isHidden": "yes",
-            "height": "18",
+            "height": "11",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,

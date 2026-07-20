@@ -475,7 +475,7 @@ def build_sections() -> dict:
         # individual cards. TCG Arena's DECK alignment intercepts card clicks as
         # "play from pile", which prevents its Hide/Reveal action from flipping
         # a single Life card in place.
-        "Life": section("Life", "Life Area", hidden="yes", height="18", alignment="CENTER", group_forbidden=True, quick_actions=True, keep_tapped=True),
+        "Life": section("Life", "Life Area", hidden="yes", height="11", alignment="CENTER", group_forbidden=True, quick_actions=True, keep_tapped=True),
         "Field": section("Field", "Field", height="18", horizontal=True),
         "JUMP_Action_Area": section("JUMP_Action_Area", "JUMP Action Area", height="18", horizontal=True, keep_tapped=True),
         "Combo": section("Combo", "Combo Area", height="8", horizontal=True),
@@ -508,7 +508,7 @@ def build_layout() -> dict:
             },
             {
                 "direction": "column",
-                "style": {"width": "14vh"},
+                "style": {"width": "22vh"},
                 "content": [
                     {"section": "Leader", "style": {"height": "20vh"}},
                     {"section": "Life", "style": {"height": "20vh"}},
