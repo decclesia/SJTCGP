@@ -471,7 +471,11 @@ def build_sections() -> dict:
         "Guard_Token_Pile": section("Guard_Token_Pile", "Guard Token", height="8", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, keep_tapped=True),
         "JUMP_Deck": section("JUMP_Deck", "JUMP Deck", hidden="yes", height="18", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, keep_tapped=True, quick_actions=True),
         "Leader": section("Leader", "Leader Area", height="18", horizontal=True),
-        "Life": section("Life", "Life Area", hidden="yes", height="18", alignment="DECK", group_forbidden=True, quick_actions=True, keep_tapped=True),
+        # Keep Life in one compact board area while treating its contents as
+        # individual cards. TCG Arena's DECK alignment intercepts card clicks as
+        # "play from pile", which prevents its Hide/Reveal action from flipping
+        # a single Life card in place.
+        "Life": section("Life", "Life Area", hidden="yes", height="18", alignment="CENTER", group_forbidden=True, quick_actions=True, keep_tapped=True),
         "Field": section("Field", "Field", height="18", horizontal=True),
         "JUMP_Action_Area": section("JUMP_Action_Area", "JUMP Action Area", height="18", horizontal=True, keep_tapped=True),
         "Combo": section("Combo", "Combo Area", height="8", horizontal=True),
