@@ -34786,5 +34786,1206 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-RKN3.jpg?v=c2111fced180",
     "isAccessory": true
+  },
+  "ST5-101": {
+    "id": "ST5-101",
+    "face": {
+      "front": {
+        "name": "Ayase Momo",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-101.jpg?v=08fff630cc5e",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Ayase Momo [ST5-101]",
+    "type": "Leader",
+    "Number": "ST5-101",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "Once per Turn If your Unit with an original Cost of 4 or more would be K.O.'d, you may add the top of your Life cards to your hand: Place that Unit at the top of your Life cards face-up instead.\nThreshold 3 [Activate: Main] Once per Turn (1) Draw 1 card and Rest this card: Play up to 1 Unit card with a Cost equal to or less than your Energy and the \"Kumamori Shrine\" Trait from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-101.jpg?v=08fff630cc5e"
+  },
+  "ST5-102": {
+    "id": "ST5-102",
+    "face": {
+      "front": {
+        "name": "Ayase Momo",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-102.jpg?v=af19927f9b89",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Ayase Momo [ST5-102]",
+    "type": "Main_Deck",
+    "Number": "ST5-102",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Play",
+      "Unique"
+    ],
+    "Effect": "Unique\n[On Play] Remove 1 SJ Marker: Add the top card of your Deck at the top of your Life cards. Then, if your Leader has the \"Kumamori Shrine\" Trait, choose up to 1 of your Opponent's Units with a Cost of 6 or less, ignoring Barrier, and add it at the top of your Opponent's Life cards face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-102.jpg?v=af19927f9b89"
+  },
+  "ST5-103": {
+    "id": "ST5-103",
+    "face": {
+      "front": {
+        "name": "Takakura Ken",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-103.jpg?v=9ce380f8b8fc",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Takakura Ken [ST5-103]",
+    "type": "Main_Deck",
+    "Number": "ST5-103",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge",
+      "On Play",
+      "Once per Turn",
+      "Unique"
+    ],
+    "Effect": "Unique\n[On Play] If you have 5 or more Energy, Charge 2 and you can't Charge for the turn.\n[Activate: Main] Once per Turn Remove 1 SJ Marker: Turn the top of your Life cards face-up or face-down.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-103.jpg?v=9ce380f8b8fc"
+  },
+  "ST5-104": {
+    "id": "ST5-104",
+    "face": {
+      "front": {
+        "name": "Ayase Seiko",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-104.jpg?v=57dda03c45d9",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Ayase Seiko [ST5-104]",
+    "type": "Main_Deck",
+    "Number": "ST5-104",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Limit 1",
+      "On Block",
+      "On Play",
+      "Revenge",
+      "Unique"
+    ],
+    "Effect": "Unique Blocker\n[On Play] Turn the top of your Life cards face-down: Draw 2 cards; place 1 card from your hand in your Drop.\n[On Block] Limit 1 Remove 1 SJ Marker: If this card is in a battle with a Unit with an original Power of 5000 or less, give this card Revenge for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-104.jpg?v=57dda03c45d9"
+  },
+  "ST5-105": {
+    "id": "ST5-105",
+    "face": {
+      "front": {
+        "name": "Vamola",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-105.jpg?v=4000faa72c82",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Vamola [ST5-105]",
+    "type": "Main_Deck",
+    "Number": "ST5-105",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge",
+      "Deflect",
+      "Once per Turn",
+      "Unique",
+      "Your Turn"
+    ],
+    "Effect": "Unique Deflect\n[Your Turn] Once per Turn When you remove an Energy Marker to pay the Cost of your card's [Activate: Main] skill: Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-105.jpg?v=4000faa72c82"
+  },
+  "ST5-106": {
+    "id": "ST5-106",
+    "face": {
+      "front": {
+        "name": "Shiratori Aira",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-106.jpg?v=62e4f7624dc3",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Shiratori Aira [ST5-106]",
+    "type": "Main_Deck",
+    "Number": "ST5-106",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Break",
+      "Limit 1",
+      "On Play",
+      "Once per Turn"
+    ],
+    "Effect": "[On Play] Limit 1 Add the top of your Life cards to your hand: Choose up to 1 of your Opponent's Units with a Cost of 4 or less and K.O. it.\n[Activate: Main] Once per Turn Remove 1 SJ Marker: Give this card Break for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-106.jpg?v=62e4f7624dc3"
+  },
+  "ST5-107": {
+    "id": "ST5-107",
+    "face": {
+      "front": {
+        "name": "Enjoji Jiji",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-107.jpg?v=212558782fe7",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Enjoji Jiji [ST5-107]",
+    "type": "Main_Deck",
+    "Number": "ST5-107",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Attack"
+    ],
+    "Effect": "[On Attack] Limit 1 (1) You may add 1 card from the top of your Life cards to your hand: Add up to 1 card from the top of your Deck to the top of your Life cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-107.jpg?v=212558782fe7"
+  },
+  "ST5-108": {
+    "id": "ST5-108",
+    "face": {
+      "front": {
+        "name": "Takakura Ken",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-108.jpg?v=0ac7c4c6f23c",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Takakura Ken [ST5-108]",
+    "type": "Main_Deck",
+    "Number": "ST5-108",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Limit 1 Look at the top 5 cards of your Deck; add up to 1 card with the \"Kumamori Shrine\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-108.jpg?v=0ac7c4c6f23c"
+  },
+  "ST5-109": {
+    "id": "ST5-109",
+    "face": {
+      "front": {
+        "name": "Ayase Momo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-109.jpg?v=4b2123b81c85",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Ayase Momo [ST5-109]",
+    "type": "Main_Deck",
+    "Number": "ST5-109",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Duel",
+      "Limit 1",
+      "On Attack",
+      "Once per Turn"
+    ],
+    "Effect": "[On Attack] Limit 1 Add the top of your Life cards to your hand: Give this card +2000 Power for the battle.\n[Activate: Main] Once per Turn Remove 1 SJ Marker: Give this card Duel for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-109.jpg?v=4b2123b81c85"
+  },
+  "ST5-110": {
+    "id": "ST5-110",
+    "face": {
+      "front": {
+        "name": "Turbo Granny",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-110.jpg?v=d9dac3ab0a4d",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Turbo Granny [ST5-110]",
+    "type": "Main_Deck",
+    "Number": "ST5-110",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Opponent's Turn",
+      "Overcharge"
+    ],
+    "Effect": "Blocker\n[Opponent's Turn] If your Leader has the \"Kumamori Shrine\" Trait: When this card is removed from the field by a skill or K.O.'d, Overcharge 1 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-110.jpg?v=d9dac3ab0a4d"
+  },
+  "ST5-111": {
+    "id": "ST5-111",
+    "face": {
+      "front": {
+        "name": "Sakata Kinta",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-111.jpg?v=40cc99b63e7d",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Sakata Kinta [ST5-111]",
+    "type": "Main_Deck",
+    "Number": "ST5-111",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Deflect",
+      "On Play"
+    ],
+    "Effect": "Deflect\n[On Play] If you have a face-up Life card, choose up to 1 of your Opponent's Units with a Cost of 2 or less and K.O. it. Then, turn all of your Life cards face-down.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-111.jpg?v=40cc99b63e7d"
+  },
+  "ST5-112": {
+    "id": "ST5-112",
+    "face": {
+      "front": {
+        "name": "Rokuro Serpo",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-112.jpg?v=6afc5d8b1716",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Rokuro Serpo [ST5-112]",
+    "type": "Main_Deck",
+    "Number": "ST5-112",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Blocker",
+      "Limit 1",
+      "On Play",
+      "Once per Turn"
+    ],
+    "Effect": "Blocker\n[On Play] Limit 1 Place 2 cards with the \"Kumamori Shrine\" Trait from your hand in your Drop: Draw 3 cards.\n[Activate: Main] Once per Turn Remove 1 SJ Marker: Give your Leader or this card +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-112.jpg?v=6afc5d8b1716"
+  },
+  "ST5-113": {
+    "id": "ST5-113",
+    "face": {
+      "front": {
+        "name": "Zuma Unji",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-113.jpg?v=43a4e943e19f",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Zuma Unji [ST5-113]",
+    "type": "Main_Deck",
+    "Number": "ST5-113",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Play"
+    ],
+    "Effect": "[On Play] (4) Add the top card of your Deck at the top of your Life cards. Then, give this card Barrier until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-113.jpg?v=43a4e943e19f"
+  },
+  "ST5-114": {
+    "id": "ST5-114",
+    "face": {
+      "front": {
+        "name": "Sawaki Rin",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-114.jpg?v=24cb7619bdfc",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Sawaki Rin [ST5-114]",
+    "type": "Main_Deck",
+    "Number": "ST5-114",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Charge",
+      "On Play"
+    ],
+    "Effect": "Blocker\n[On Play] If your Energy is equal to or less than your Opponent's Overcharged Energy: Draw 1 card; Charge 1 and you can't Charge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-114.jpg?v=24cb7619bdfc"
+  },
+  "ST5-115": {
+    "id": "ST5-115",
+    "face": {
+      "front": {
+        "name": "Ayase Seiko",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-115.jpg?v=c731911f37a1",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ayase Seiko [ST5-115]",
+    "type": "Main_Deck",
+    "Number": "ST5-115",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Clash",
+      "Deflect",
+      "Opponent's Attack",
+      "Threshold"
+    ],
+    "Effect": "Deflect\nClash [Opponent's Attack] (2) If your Leader is \"Ayase Momo\": Play this card from your hand and, if your Leader's Threshold skill is active, negate the attack.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-115.jpg?v=c731911f37a1"
+  },
+  "ST5-116": {
+    "id": "ST5-116",
+    "face": {
+      "front": {
+        "name": "Mr. Mantis Shrimp",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-116.jpg?v=8ecfc47996f8",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Mr. Mantis Shrimp [ST5-116]",
+    "type": "Main_Deck",
+    "Number": "ST5-116",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Bond",
+      "Limit 1",
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "Bond 3 Units with the \"Kumamori Shrine\" Trait: Permanent Give this card +1000 Power and Barrier.\n[On Play] Limit 1 If you have a Unit with an original Cost of 4 or more, draw 1 card. Then, place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-116.jpg?v=8ecfc47996f8"
+  },
+  "ST5-117": {
+    "id": "ST5-117",
+    "face": {
+      "front": {
+        "name": "Turbo Granny",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-117.jpg?v=611a40abf44d",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Turbo Granny [ST5-117]",
+    "type": "Main_Deck",
+    "Number": "ST5-117",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 \"Takakura Ken\" from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-117.jpg?v=611a40abf44d"
+  },
+  "ST5-118": {
+    "id": "ST5-118",
+    "face": {
+      "front": {
+        "name": "Yukishiro Koki",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-118.jpg?v=5285da43bc15",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Yukishiro Koki [ST5-118]",
+    "type": "Main_Deck",
+    "Number": "ST5-118",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add 1 card from your Life to your hand: draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-118.jpg?v=5285da43bc15"
+  },
+  "ST5-119": {
+    "id": "ST5-119",
+    "face": {
+      "front": {
+        "name": "Okarun & Momo",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-119.jpg?v=d3f6e5f47706",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Okarun & Momo [ST5-119]",
+    "type": "Main_Deck",
+    "Number": "ST5-119",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Once per Turn",
+      "Unique"
+    ],
+    "Effect": "Unique\n[On Play] Draw 1 card; choose up to 1 Unit with a Cost of 8 or less and add it at the top of its owner's Life cards face-up.\n[Activate: Main] Once per Turn Remove 1 SJ Marker: K.O. 1 of your other Units with the \"Kumamori Shrine\" Trait and give your Leader with the \"Kumamori Shrine\" Trait +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-119.jpg?v=d3f6e5f47706"
+  },
+  "ST5-120": {
+    "id": "ST5-120",
+    "face": {
+      "front": {
+        "name": "Psychokinesis",
+        "type": "ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-120.jpg?v=da5709c82eee",
+        "isHorizontal": false
+      }
+    },
+    "name": "Psychokinesis [ST5-120]",
+    "type": "Main_Deck",
+    "Number": "ST5-120",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "Activate: Battle",
+      "Activate: Main",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] (2) Charge 1 and Accelcharge 1. Then, if your Opponent has a Unit with 5000 or more Power, during your next Charge Phase, Charge 1.\n[Activate: Battle] Turn the top of your Life cards face-down: Give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-120.jpg?v=da5709c82eee"
+  },
+  "ST5-121": {
+    "id": "ST5-121",
+    "face": {
+      "front": {
+        "name": "Evil Gun",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-121.jpg?v=8a2599d73969",
+        "isHorizontal": false
+      }
+    },
+    "name": "Evil Gun [ST5-121]",
+    "type": "Main_Deck",
+    "Number": "ST5-121",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Clash",
+      "Opponent's Play"
+    ],
+    "Effect": "Clash [Opponent's Play] Add 1 card from your Life to your hand: If the Unit being played has a Cost of 4 or less, it is placed in its owner's Drop instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-121.jpg?v=8a2599d73969"
+  },
+  "ST5-122": {
+    "id": "ST5-122",
+    "face": {
+      "front": {
+        "name": "Moe Moe Tri-Beam",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-122.jpg?v=f575a9c484d4",
+        "isHorizontal": false
+      }
+    },
+    "name": "Moe Moe Tri-Beam [ST5-122]",
+    "type": "Main_Deck",
+    "Number": "ST5-122",
+    "Card_Type": "Action",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units with a Cost of 3 or less and add it to the top or bottom of your Opponent's Life cards face-up. Then, if your Leader is \"Ayase Momo\", Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-122.jpg?v=f575a9c484d4"
+  },
+  "ST5-123": {
+    "id": "ST5-123",
+    "face": {
+      "front": {
+        "name": "Takakura Ken",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-123.jpg?v=6e93ac169631",
+        "isHorizontal": false,
+        "sjCost": 1,
+        "power": 4000
+      }
+    },
+    "name": "Takakura Ken [ST5-123]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-123",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Deflect",
+      "Dual Attack",
+      "On Play"
+    ],
+    "Effect": "Deflect Dual Attack\n[On Play] Look at the top 3 cards of your Deck; add up to 1 Action card to your hand. Then, shuffle your Deck and give this card +1000 Power for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-123.jpg?v=6e93ac169631"
+  },
+  "ST5-124": {
+    "id": "ST5-124",
+    "face": {
+      "front": {
+        "name": "Enjoji Jiji",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-124.jpg?v=176ae700afb6",
+        "isHorizontal": false,
+        "sjCost": 2,
+        "power": 7000
+      }
+    },
+    "name": "Enjoji Jiji [ST5-124]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-124",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 7000,
+    "Counter": null,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Deflect",
+      "On Play",
+      "Revenge"
+    ],
+    "Effect": "Deflect Revenge\n[On Play] You may turn the top of your Life cards face-down: Give your Leader +2000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-124.jpg?v=176ae700afb6"
+  },
+  "ST5-125": {
+    "id": "ST5-125",
+    "face": {
+      "front": {
+        "name": "Full Throttle",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-125.jpg?v=8adb23dccfc8",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Full Throttle [ST5-125]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-125",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Charge",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Main] Once per Turn If your Leader has the \"Kumamori Shrine\" Trait: Turn the top of your Life cards face-up: During your next Charge Phase, Charge 1.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-125.jpg?v=8adb23dccfc8"
+  },
+  "ST5-127": {
+    "id": "ST5-127",
+    "face": {
+      "front": {
+        "name": "Ayase Momo",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-127.jpg?v=7fbf7d6a66da",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Ayase Momo [ST5-127]",
+    "type": "Main_Deck",
+    "Number": "ST5-127",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "ST5",
+    "Rarity": "SEC",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Deflect",
+      "On Play"
+    ],
+    "Effect": "Deflect\n[On Play] Play up to 1 Unit card with a Cost of 7 or less from your hand and you can't play Unit cards by skills for the turn. Then, remove all of your SJ Markers and, if you removed at least 1 SJ Marker, choose one:\n• Add the top card of your Deck at the top of your Life.\n• Your opponent adds the top of their Life cards to their hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-127.jpg?v=7fbf7d6a66da"
+  },
+  "PUP-094": {
+    "id": "PUP-094",
+    "face": {
+      "front": {
+        "name": "Okarun & Momo",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-094.jpg?v=1cc2eba9764c",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Okarun & Momo [PUP-094]",
+    "type": "Main_Deck",
+    "Number": "PUP-094",
+    "Card_Type": "Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Turn the top of your Life cards face-up or face-down; draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-094.jpg?v=1cc2eba9764c"
+  },
+  "PUP-095": {
+    "id": "PUP-095",
+    "face": {
+      "front": {
+        "name": "Shiratori Aira",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-095.jpg?v=88c7f1afb6f9",
+        "isHorizontal": false,
+        "sjCost": 2,
+        "power": 4000
+      }
+    },
+    "name": "Shiratori Aira [PUP-095]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-095",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "PUP",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Kumamori Shrine"
+    ],
+    "Keywords": [
+      "Critical",
+      "Deflect",
+      "On Play",
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "Deflect Critical\n[On Play] You may add the top of your Life cards to your hand; add 1 card from your hand at the top of your Life.\n[Your Turn] Once per Turn When you play your second Unit for the turn, give this card +2000 Power for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-095.jpg?v=88c7f1afb6f9"
+  },
+  "PUP-096": {
+    "id": "PUP-096",
+    "face": {
+      "front": {
+        "name": "No Quarter",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-096.jpg?v=4ca85494a228",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "No Quarter [PUP-096]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-096",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Clash",
+      "Opponent's Play"
+    ],
+    "Effect": "Clash [Opponent's Play] Remove this card from the game: Add the top card of your Deck at the top of your Life cards. Then, at the end of the turn, place the top of your Life cards at the top of your Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-096.jpg?v=4ca85494a228"
+  },
+  "TOKEN-GT-DDD": {
+    "id": "TOKEN-GT-DDD",
+    "face": {
+      "front": {
+        "name": "Guard Token ST5 DDD",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-DDD.jpg?v=c995a09e7331",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token ST5 DDD",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-DDD",
+    "Card_Type": "Guard Token",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-DDD.jpg?v=c995a09e7331",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-DDD1": {
+    "id": "TOKEN-SJM-DDD1",
+    "face": {
+      "front": {
+        "name": "SJ Marker DDD1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DDD1.jpg?v=3502d24130a0",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker DDD1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-DDD1",
+    "Card_Type": "SJ Marker",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DDD1.jpg?v=3502d24130a0",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-DDD2": {
+    "id": "TOKEN-SJM-DDD2",
+    "face": {
+      "front": {
+        "name": "SJ Marker DDD2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DDD2.jpg?v=945420fad320",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker DDD2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-DDD2",
+    "Card_Type": "SJ Marker",
+    "Color": "Pink",
+    "Set": "DDD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DDD2.jpg?v=945420fad320",
+    "isAccessory": true
   }
 }
