@@ -215,7 +215,10 @@
         "TOKEN-YYH",
         "TOKEN-GT-DDD",
         "TOKEN-SJM-DDD1",
-        "TOKEN-SJM-DDD2"
+        "TOKEN-SJM-DDD2",
+        "TOKEN-GT-NOG",
+        "TOKEN-SJM-NOG1",
+        "TOKEN-SJM-NOG2"
       ],
       "countersStartingValues": [
         0,

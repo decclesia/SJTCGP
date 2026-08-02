@@ -35987,5 +35987,1147 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-DDD2.jpg?v=945420fad320",
     "isAccessory": true
+  },
+  "ST5-001": {
+    "id": "ST5-001",
+    "face": {
+      "front": {
+        "name": "Bishamon",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-001.jpg?v=8559380d82d6",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Bishamon [ST5-001]",
+    "type": "Leader",
+    "Number": "ST5-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Attack",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] Look at the top 3 cards of your Deck; add up to 1 card with the \"Shinki\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.\n[Activate: Battle] Once per Turn If your \"Bishamon\" is in a battle: Use up to 1 of your Rested Units with the \"Shinki\" Trait in a combo.\nThreshold 3 Once per Turn When you use a Unit with the \"Shinki\" Trait in a combo from your field, give your card that's in a battle +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-001.jpg?v=8559380d82d6"
+  },
+  "ST5-002": {
+    "id": "ST5-002",
+    "face": {
+      "front": {
+        "name": "Bishamon",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-002.jpg?v=93852fbbadb7",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Bishamon [ST5-002]",
+    "type": "Main_Deck",
+    "Number": "ST5-002",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Break",
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "Break\n[On Play] Play up to 1 Unit card with a Cost of 2 or less and the \"Shinki\" Trait from your hand Rested.\n[On Attack] Choose up to 1 Unit with a Cost of 3 or less and place it in its owner's combo area.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-002.jpg?v=93852fbbadb7"
+  },
+  "ST5-003": {
+    "id": "ST5-003",
+    "face": {
+      "front": {
+        "name": "Kazuma",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-003.jpg?v=86681cc4dbc5",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kazuma [ST5-003]",
+    "type": "Main_Deck",
+    "Number": "ST5-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On K.O.",
+      "Once per Turn",
+      "Unique",
+      "Your Turn"
+    ],
+    "Effect": "Unique Barrier\n[Your Turn] Once per Turn If your \"Bishamon\" is in a battle and you use a Unit with the \"Shinki\" Trait in a combo from your field: Draw 1 card.\n[On K.O.] Add up to 1 \"Bishamon\" from your Deck or Drop to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-003.jpg?v=86681cc4dbc5"
+  },
+  "ST5-004": {
+    "id": "ST5-004",
+    "face": {
+      "front": {
+        "name": "Bishamon",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-004.jpg?v=c33d4ebb1ada",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Bishamon [ST5-004]",
+    "type": "Main_Deck",
+    "Number": "ST5-004",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Bloom",
+      "On Attack"
+    ],
+    "Effect": "Bloom (1)\n[On Attack] Play up to 1 Unit card with a Cost of 1 and the \"Shinki\" Trait from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-004.jpg?v=c33d4ebb1ada"
+  },
+  "ST5-005": {
+    "id": "ST5-005",
+    "face": {
+      "front": {
+        "name": "Nana",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-005.jpg?v=010da23ba45b",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Nana [ST5-005]",
+    "type": "Main_Deck",
+    "Number": "ST5-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Attack",
+      "Your Turn"
+    ],
+    "Effect": "Barrier\n[On Attack] Choose up to 1 of your Opponent's Units and Rest it.\n[Your Turn] If your \"Bishamon\" is in a battle and this card is used in a combo from your field: Choose up to 1 of your Opponent's Rested Units and it cannot switch to Active mode during your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-005.jpg?v=010da23ba45b"
+  },
+  "ST5-006": {
+    "id": "ST5-006",
+    "face": {
+      "front": {
+        "name": "Kazuma",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-006.jpg?v=8c71c2358ede",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kazuma [ST5-006]",
+    "type": "Main_Deck",
+    "Number": "ST5-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; add up to 1 \"Bishamon\" or Action card with the \"Shinki\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-006.jpg?v=8c71c2358ede"
+  },
+  "ST5-007": {
+    "id": "ST5-007",
+    "face": {
+      "front": {
+        "name": "Kuraha",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-007.jpg?v=c2fb79949479",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kuraha [ST5-007]",
+    "type": "Main_Deck",
+    "Number": "ST5-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, you may Rest 1 of your other Units with the \"Shinki\" Trait: Draw 2 cards; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-007.jpg?v=c2fb79949479"
+  },
+  "ST5-008": {
+    "id": "ST5-008",
+    "face": {
+      "front": {
+        "name": "Tsuguha",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-008.jpg?v=d035261fe7a8",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Tsuguha [ST5-008]",
+    "type": "Main_Deck",
+    "Number": "ST5-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Critical"
+    ],
+    "Effect": "[Activate: Battle] Rest this card: Give your \"Bishamon\" that's in a battle Critical for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-008.jpg?v=d035261fe7a8"
+  },
+  "ST5-009": {
+    "id": "ST5-009",
+    "face": {
+      "front": {
+        "name": "Aiha",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-009.jpg?v=7da066d7807b",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Aiha [ST5-009]",
+    "type": "Main_Deck",
+    "Number": "ST5-009",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] Rest this card: Give your \"Bishamon\" that's in a battle +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-009.jpg?v=7da066d7807b"
+  },
+  "ST5-010": {
+    "id": "ST5-010",
+    "face": {
+      "front": {
+        "name": "Yugiha",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-010.jpg?v=1a12ba4fb4fc",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Yugiha [ST5-010]",
+    "type": "Main_Deck",
+    "Number": "ST5-010",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Place 1 card from your hand in your Drop; add up to 1 Unit card with the \"Shinki\" Trait from your Deck to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-010.jpg?v=1a12ba4fb4fc"
+  },
+  "ST5-011": {
+    "id": "ST5-011",
+    "face": {
+      "front": {
+        "name": "Kinuha",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-011.jpg?v=e69ca66d746c",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kinuha [ST5-011]",
+    "type": "Main_Deck",
+    "Number": "ST5-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Draw 1 card; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-011.jpg?v=e69ca66d746c"
+  },
+  "ST5-012": {
+    "id": "ST5-012",
+    "face": {
+      "front": {
+        "name": "Kazuha & Karuha",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-012.jpg?v=b047c8eb2b9a",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kazuha & Karuha [ST5-012]",
+    "type": "Main_Deck",
+    "Number": "ST5-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Charge",
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, you may Rest 1 of your other Units with the \"Shinki\" Trait: choose up to 1 of your Opponent's Rested Units and it cannot switch to Active mode during your Opponent's next Charge phase.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-012.jpg?v=b047c8eb2b9a"
+  },
+  "ST5-013": {
+    "id": "ST5-013",
+    "face": {
+      "front": {
+        "name": "Bishamon",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-013.jpg?v=52486d6bf65f",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Bishamon [ST5-013]",
+    "type": "Main_Deck",
+    "Number": "ST5-013",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-013.jpg?v=52486d6bf65f"
+  },
+  "ST5-014": {
+    "id": "ST5-014",
+    "face": {
+      "front": {
+        "name": "Akiha",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-014.jpg?v=0f40af2044de",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Akiha [ST5-014]",
+    "type": "Main_Deck",
+    "Number": "ST5-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Limit 1 Place 1 card from your hand in your Drop: Give your \"Bishamon\" Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-014.jpg?v=0f40af2044de"
+  },
+  "ST5-015": {
+    "id": "ST5-015",
+    "face": {
+      "front": {
+        "name": "Mineha",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-015.jpg?v=f2bfffaea1a3",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Mineha [ST5-015]",
+    "type": "Main_Deck",
+    "Number": "ST5-015",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Limit 1 Place 1 card from your hand in your Drop: Add up to 1 card with the \"Shinki\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-015.jpg?v=f2bfffaea1a3"
+  },
+  "ST5-016": {
+    "id": "ST5-016",
+    "face": {
+      "front": {
+        "name": "Suzuha",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-016.jpg?v=c740a67fe201",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Suzuha [ST5-016]",
+    "type": "Main_Deck",
+    "Number": "ST5-016",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Limit 1 Add up to 1 card from your Life to your hand. Then, if your Leader is \"Bishamon\", choose up to 2 of your Opponent's Units and Rest them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-016.jpg?v=c740a67fe201"
+  },
+  "ST5-017": {
+    "id": "ST5-017",
+    "face": {
+      "front": {
+        "name": "Kugaha",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-017.jpg?v=f0f35f722338",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kugaha [ST5-017]",
+    "type": "Main_Deck",
+    "Number": "ST5-017",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Limit 1 Add 1 card from your Life to your hand: Play up to 1 Unit card with a Cost of 2 or less and the \"Shinki\" Trait from your hand or Drop Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-017.jpg?v=f0f35f722338"
+  },
+  "ST5-018": {
+    "id": "ST5-018",
+    "face": {
+      "front": {
+        "name": "Touma",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-018.jpg?v=de1a5997d2d6",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Touma [ST5-018]",
+    "type": "Main_Deck",
+    "Number": "ST5-018",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Blocker",
+      "Limit 1",
+      "On K.O."
+    ],
+    "Effect": "Barrier Blocker\n[On K.O.] Limit 1 Rest 1 of your \"Bishamon\": Play this card from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-018.jpg?v=de1a5997d2d6"
+  },
+  "ST5-019": {
+    "id": "ST5-019",
+    "face": {
+      "front": {
+        "name": "You can never go home again",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-019.jpg?v=247276bd8e52",
+        "isHorizontal": false
+      }
+    },
+    "name": "You can never go home again [ST5-019]",
+    "type": "Main_Deck",
+    "Number": "ST5-019",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader has the \"Deity\" Trait: Choose all of your Opponent's Rested Units, ignoring Barrier, and, during your Opponent's next turn, give them -1000 Power when they switch to Active mode for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-019.jpg?v=247276bd8e52"
+  },
+  "ST5-020": {
+    "id": "ST5-020",
+    "face": {
+      "front": {
+        "name": "Ablution",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-020.jpg?v=e128a380e062",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ablution [ST5-020]",
+    "type": "Main_Deck",
+    "Number": "ST5-020",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Clash",
+      "Opponent's Attack"
+    ],
+    "Effect": "You can activate this card's Clash skill by placing 1 of your Units with the \"Shinki\" Trait in your Drop instead of paying its energy cost.\nClash [Opponent's Attack] Negate the attack. Then, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-020.jpg?v=e128a380e062"
+  },
+  "ST5-021": {
+    "id": "ST5-021",
+    "face": {
+      "front": {
+        "name": "Rurou",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-021.jpg?v=257e00663e15",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rurou [ST5-021]",
+    "type": "Main_Deck",
+    "Number": "ST5-021",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Main / Battle",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main / Battle] If your Leader has the \"Deity\" Trait: Draw 1 card; choose up to 1 of your Opponent's Rested Units, ignoring Barrier, and it cannot switch to Active mode until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-021.jpg?v=257e00663e15"
+  },
+  "ST5-022": {
+    "id": "ST5-022",
+    "face": {
+      "front": {
+        "name": "Bakufu",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-022.jpg?v=77338307fb0f",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bakufu [ST5-022]",
+    "type": "Main_Deck",
+    "Number": "ST5-022",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] If your Leader has the \"Deity\" Trait: Draw 1 card; choose up to 1 of your Opponent's Units, ignoring Barrier, and Rest it. Then, if it has a Cost of 2 or less K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-022.jpg?v=77338307fb0f"
+  },
+  "ST5-023": {
+    "id": "ST5-023",
+    "face": {
+      "front": {
+        "name": "Bishamon",
+        "type": "JUMP LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-023.jpg?v=d355f9360409",
+        "isHorizontal": false,
+        "sjCost": 2,
+        "power": 5000
+      }
+    },
+    "name": "Bishamon [ST5-023]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-023",
+    "Card_Type": "JUMP Leader",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": null,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "On Attack",
+      "V JUMP"
+    ],
+    "Effect": "V JUMP If your Leader is \"Bishamon\" and your Life is at 2 or less.\n[On Attack] Choose up to 1 of your Opponent's Units and Rest it. Then, draw 1 card.\n[Activate: Main] Limit 1 Add up to 3 cards with the \"Shinki\" Trait from your Drop to your hand; place that many cards from your hand at the bottom of your Deck. Then, return this card to your JUMP Deck at the end of the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-023.jpg?v=d355f9360409"
+  },
+  "ST5-024": {
+    "id": "ST5-024",
+    "face": {
+      "front": {
+        "name": "Nana",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-024.jpg?v=0eac535070e7",
+        "isHorizontal": false,
+        "sjCost": 2,
+        "power": 6000
+      }
+    },
+    "name": "Nana [ST5-024]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-024",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Blocker",
+      "Deflect",
+      "On Play / On Block"
+    ],
+    "Effect": "Deflect Barrier Blocker\n[On Play / On Block] Play up to 1 Unit card with a Cost of 2 or less and the \"Shinki\" Trait from your Drop Rested with its skills negated for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-024.jpg?v=0eac535070e7"
+  },
+  "ST5-025": {
+    "id": "ST5-025",
+    "face": {
+      "front": {
+        "name": "Kazuma's Guidance",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-025.jpg?v=2d82a99b066a",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Kazuma's Guidance [ST5-025]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-025",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Look at the top 4 cards of your Deck; add up to 1 Unit card with the \"Deity\" Trait to your hand. Then, shuffle your Deck and, if you added a card, place 1 card from your hand in your Drop.\n[Activate: Battle] Once per Turn Remove this card from the game: Give your \"Bishamon\" or \"Yato\" that's in a battle +3000 Power for the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-025.jpg?v=2d82a99b066a"
+  },
+  "PUP-082": {
+    "id": "PUP-082",
+    "face": {
+      "front": {
+        "name": "Kazuma",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-082.jpg?v=097f7252a2a2",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kazuma [PUP-082]",
+    "type": "Main_Deck",
+    "Number": "PUP-082",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Opponent's Turn"
+    ],
+    "Effect": "[Opponent's Turn] Limit 1 When this card is used in a combo from your field while your \"Bishamon\" is in a battle: Play up to 1 Unit card with a Cost of 2 or less and the \"Shinki\" Trait from your Drop Rested, excluding \"Kazuma\".",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-082.jpg?v=097f7252a2a2"
+  },
+  "PUP-083": {
+    "id": "PUP-083",
+    "face": {
+      "front": {
+        "name": "Aiha",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-083.jpg?v=cdf75c517bf0",
+        "isHorizontal": false,
+        "sjCost": 1,
+        "power": 4000
+      }
+    },
+    "name": "Aiha [PUP-083]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-083",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Bloom"
+    ],
+    "Effect": "Bloom\n[Activate: Main] If your Leader is \"Bishamon\" and you Rest this card: Draw 1 card; place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-083.jpg?v=cdf75c517bf0"
+  },
+  "PUP-084": {
+    "id": "PUP-084",
+    "face": {
+      "front": {
+        "name": "Boundary",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-084.jpg?v=991a8e5d812e",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Boundary [PUP-084]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-084",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Barrier",
+      "Clash",
+      "Opponent's Play"
+    ],
+    "Effect": "Clash [Opponent's Play] Remove this card from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, and Rest it.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-084.jpg?v=991a8e5d812e"
+  },
+  "TOKEN-GT-NOG": {
+    "id": "TOKEN-GT-NOG",
+    "face": {
+      "front": {
+        "name": "Guard Token ST5 NOG",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-NOG.jpg?v=169015438eb2",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token ST5 NOG",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-NOG",
+    "Card_Type": "Guard Token",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-NOG.jpg?v=169015438eb2",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-NOG1": {
+    "id": "TOKEN-SJM-NOG1",
+    "face": {
+      "front": {
+        "name": "SJ Marker NOG1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NOG1.jpg?v=51eef5c0940b",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker NOG1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-NOG1",
+    "Card_Type": "SJ Marker",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NOG1.jpg?v=51eef5c0940b",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-NOG2": {
+    "id": "TOKEN-SJM-NOG2",
+    "face": {
+      "front": {
+        "name": "SJ Marker NOG2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NOG2.jpg?v=c986fadd72e9",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker NOG2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-NOG2",
+    "Card_Type": "SJ Marker",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NOG2.jpg?v=c986fadd72e9",
+    "isAccessory": true
   }
 }

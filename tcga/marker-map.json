@@ -215,6 +215,14 @@
         "TOKEN-SJM-DDD2"
       ],
       "guardToken": "TOKEN-GT-DDD"
+    },
+    "NOG": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-NOG1",
+        "TOKEN-SJM-NOG2"
+      ],
+      "guardToken": "TOKEN-GT-NOG"
     }
   },
   "notes": {
@@ -526,6 +534,15 @@
         "TOKEN-SJM-DDD2"
       ],
       "guardToken": "TOKEN-GT-DDD"
+    },
+    "ST5-001": {
+      "set": "NOG",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-NOG1",
+        "TOKEN-SJM-NOG2"
+      ],
+      "guardToken": "TOKEN-GT-NOG"
     }
   }
 }
