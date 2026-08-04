@@ -543,6 +543,14 @@
         "TOKEN-SJM-NOG2"
       ],
       "guardToken": "TOKEN-GT-NOG"
+    },
+    "SD8-001": {
+      "set": "NOG",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-NOG3"
+      ],
+      "guardToken": "TOKEN-GT-NOG2"
     }
   }
 }

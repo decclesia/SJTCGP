@@ -218,7 +218,9 @@
         "TOKEN-SJM-DDD2",
         "TOKEN-GT-NOG",
         "TOKEN-SJM-NOG1",
-        "TOKEN-SJM-NOG2"
+        "TOKEN-SJM-NOG2",
+        "TOKEN-GT-NOG2",
+        "TOKEN-SJM-NOG3"
       ],
       "countersStartingValues": [
         0,

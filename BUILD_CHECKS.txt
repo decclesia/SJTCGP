@@ -1,57 +1,19 @@
 {
-  "website_cards": 832,
-  "card_text_records": 832,
-  "arena_entries": 922,
-  "sd7_rarity_counts": {
+  "website_cards": 911,
+  "card_text_records": 911,
+  "arena_entries": 1009,
+  "sd8_rarity_counts": {
     "L": 1,
     "SR": 3,
     "C": 16
   },
-  "latest_promo": "PUP-081",
+  "latest_promo": "PUP-098",
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "sd7_cards": [
-    "SD7-001",
-    "SD7-002",
-    "SD7-003",
-    "SD7-004",
-    "SD7-005",
-    "SD7-006",
-    "SD7-007",
-    "SD7-008",
-    "SD7-009",
-    "SD7-010",
-    "SD7-011",
-    "SD7-012",
-    "SD7-013",
-    "SD7-014",
-    "SD7-015",
-    "SD7-016",
-    "SD7-017",
-    "SD7-018",
-    "SD7-019",
-    "SD7-020",
-    "PUP-079",
-    "PUP-080",
-    "PUP-081"
-  ],
-  "sd7_jump_units": [
-    "SD7-020"
-  ],
-  "sd7_jump_actions": [
-    "PUP-080",
-    "PUP-081"
-  ],
-  "sd7_accessories": [
-    "TOKEN-GT-SD7",
-    "TOKEN-SJM-RKN3"
-  ],
-  "revised_cards_2026_07_19": [
-    "ST3-034",
-    "ST3-035",
-    "ST3-037",
-    "ST4-109"
-  ],
-  "revision_scope": "Compressed images, verified transcriptions, keyword formatting, and synchronized Arena image versions."
+  "sd8_cards": ["SD8-001 through SD8-020", "PUP-097", "PUP-098"],
+  "sd8_jump_units": ["PUP-097"],
+  "sd8_jump_actions": ["SD8-020", "PUP-098"],
+  "sd8_accessories": ["TOKEN-GT-NOG2", "TOKEN-SJM-NOG3"],
+  "verification": "Printed-image transcription, database/Arena parity, landscape flags, local planner version 55 and mobile database layout verified."
 }

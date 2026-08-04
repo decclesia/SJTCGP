@@ -37129,5 +37129,910 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NOG2.jpg?v=c986fadd72e9",
     "isAccessory": true
+  },
+  "SD8-001": {
+    "id": "SD8-001",
+    "face": {
+      "front": {
+        "name": "Yato",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-001.jpg?v=a1cecae02ceb",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Yato [SD8-001]",
+    "type": "Leader",
+    "Number": "SD8-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "On Attack",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Place the top 2 cards of your Deck in your Drop: Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Once per Turn Use up to 1 card with the \"Shinki\" Trait from your Drop in a combo. Then, at the end of the battle, place that card at the bottom of your Deck.\nThreshold 3 [On Attack] Place 1 card from your Drop at the bottom of your Deck: Add up to 1 Unit card with the \"Deity\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-001.jpg?v=a1cecae02ceb"
+  },
+  "SD8-002": {
+    "id": "SD8-002",
+    "face": {
+      "front": {
+        "name": "Yato",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-002.jpg?v=118ec44b8462",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Yato [SD8-002]",
+    "type": "Main_Deck",
+    "Number": "SD8-002",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "SR",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Blocker",
+      "End of your Turn",
+      "On Play"
+    ],
+    "Effect": "Blocker\n[On Play] If your Leader is \"Yato\", place the top 5 cards of your Deck in your Drop: Switch your Leader and up to 2 of your Units with the \"Deity\" Trait to Active mode.\n[End of your Turn] {1} Place the top 2 cards of your Deck in your Drop: Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-002.jpg?v=118ec44b8462"
+  },
+  "SD8-003": {
+    "id": "SD8-003",
+    "face": {
+      "front": {
+        "name": "Yukine",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-003.jpg?v=27e2b5873582",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Yukine [SD8-003]",
+    "type": "Main_Deck",
+    "Number": "SD8-003",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Limit 1",
+      "On Play",
+      "Unique"
+    ],
+    "Effect": "Unique Barrier\n[On Play] Choose up to 1 of your Opponent's Rested Units with a Cost of 4 or less and K.O. it. Then, if you K.O.'d a card, place this card in your Drop at the end of the turn.\n[Activate: Main] Limit 1 {2} Place 1 card from your hand in your Drop: If your Leader is \"Yato\", play this card from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-003.jpg?v=27e2b5873582"
+  },
+  "SD8-004": {
+    "id": "SD8-004",
+    "face": {
+      "front": {
+        "name": "Yato",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-004.jpg?v=38cc2dc1d84e",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Yato [SD8-004]",
+    "type": "Main_Deck",
+    "Number": "SD8-004",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "On Play / On Attack",
+      "Overcharge"
+    ],
+    "Effect": "[On Play / On Attack] Limit 1 Choose up to 1 of your Opponent's Rested Units with a Cost of 7 or less and it cannot switch to Active mode during your Opponent's next turn.\n[Activate: Main] If this card was played this turn and your Leader has the \"Deity\" Trait: Place the top card of your Deck in your Drop; Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-004.jpg?v=38cc2dc1d84e"
+  },
+  "SD8-005": {
+    "id": "SD8-005",
+    "face": {
+      "front": {
+        "name": "Yukine",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-005.jpg?v=84ff2022a531",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Yukine [SD8-005]",
+    "type": "Main_Deck",
+    "Number": "SD8-005",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 3 cards of your Deck; add up to 1 Unit card with the \"Deity\" Trait to your hand. Then, place the rest in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-005.jpg?v=84ff2022a531"
+  },
+  "SD8-006": {
+    "id": "SD8-006",
+    "face": {
+      "front": {
+        "name": "Iki Hiyori",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-006.jpg?v=8330779ce0cf",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Iki Hiyori [SD8-006]",
+    "type": "Main_Deck",
+    "Number": "SD8-006",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Human",
+      "Ayakashi"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Deflect",
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "Deflect\n[On Play] Draw 1 card.\n[Activate: Battle] Limit 1 Place this card at the bottom of your Deck: Use up to 2 Unit cards with 1000 Counter and the \"Shinki\" Trait from your Drop in a combo.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-006.jpg?v=8330779ce0cf"
+  },
+  "SD8-007": {
+    "id": "SD8-007",
+    "face": {
+      "front": {
+        "name": "Kofuku",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-007.jpg?v=d3d2b31995c1",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kofuku [SD8-007]",
+    "type": "Main_Deck",
+    "Number": "SD8-007",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Elusive"
+    ],
+    "Effect": "Elusive\n[Activate: Main] Rest this card: If your Leader has the \"Deity\" Trait, choose up to 1 of your Opponent's Rested Units with a Cost of 5 or less, ignoring Barrier, and it cannot switch to Active mode during your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-007.jpg?v=d3d2b31995c1"
+  },
+  "SD8-008": {
+    "id": "SD8-008",
+    "face": {
+      "front": {
+        "name": "Daikoku",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-008.jpg?v=aba388c5daa6",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Daikoku [SD8-008]",
+    "type": "Main_Deck",
+    "Number": "SD8-008",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Limit 1 Add up to 1 card from your Life to your hand; play up to 1 Unit card with a Cost of 3 or less and the \"Shinki\" Trait from your hand or Drop Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-008.jpg?v=aba388c5daa6"
+  },
+  "SD8-009": {
+    "id": "SD8-009",
+    "face": {
+      "front": {
+        "name": "Yukine",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-009.jpg?v=16bae5d15c9a",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Yukine [SD8-009]",
+    "type": "Main_Deck",
+    "Number": "SD8-009",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Deflect",
+      "Limit 1",
+      "On Play",
+      "Unique"
+    ],
+    "Effect": "Unique Deflect\n[On Play] Choose all of your Opponent's Units with a Cost of 4 or less and Rest them. Then, if you Rested a card, place this card in your Drop at the end of the turn.\n[Activate: Main] Limit 1 {2} Place 1 card from your hand in your Drop: If your Leader is \"Yato\", play this card from your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-009.jpg?v=16bae5d15c9a"
+  },
+  "SD8-010": {
+    "id": "SD8-010",
+    "face": {
+      "front": {
+        "name": "Mayu",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-010.jpg?v=4186cad84dc6",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Mayu [SD8-010]",
+    "type": "Main_Deck",
+    "Number": "SD8-010",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] When this card is used in a combo from your Drop: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-010.jpg?v=4186cad84dc6"
+  },
+  "SD8-011": {
+    "id": "SD8-011",
+    "face": {
+      "front": {
+        "name": "Sakura",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-011.jpg?v=894dcfd829cc",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Sakura [SD8-011]",
+    "type": "Main_Deck",
+    "Number": "SD8-011",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] When this card is used in a combo from your Drop: Give your card that's in a battle +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-011.jpg?v=894dcfd829cc"
+  },
+  "SD8-012": {
+    "id": "SD8-012",
+    "face": {
+      "front": {
+        "name": "Hiiro",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-012.jpg?v=cbfef6b9f6cb",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Hiiro [SD8-012]",
+    "type": "Main_Deck",
+    "Number": "SD8-012",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Blocker",
+      "On Play"
+    ],
+    "Effect": "Blocker\n[On Play] Place the top card of your Deck in your Drop: If that card has the \"Deity\" Trait, draw 2 cards; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-012.jpg?v=cbfef6b9f6cb"
+  },
+  "SD8-013": {
+    "id": "SD8-013",
+    "face": {
+      "front": {
+        "name": "Bishamon",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-013.jpg?v=5bd432e44a1e",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Bishamon [SD8-013]",
+    "type": "Main_Deck",
+    "Number": "SD8-013",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Clash",
+      "Limit 1",
+      "Opponent's Attack",
+      "Threshold"
+    ],
+    "Effect": "Clash [Opponent's Attack] Limit 1 {2} If your Leader has the \"Deity\" Trait and their Threshold skill is active: Play this card from your hand Rested and switch the attack target to it. Then, place this card at the bottom of your Deck at the end of your next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-013.jpg?v=5bd432e44a1e"
+  },
+  "SD8-014": {
+    "id": "SD8-014",
+    "face": {
+      "front": {
+        "name": "Kazune",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-014.jpg?v=709d1d27bd12",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kazune [SD8-014]",
+    "type": "Main_Deck",
+    "Number": "SD8-014",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki",
+      "Blessed Vessel"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Charge",
+      "Limit 1",
+      "Unique",
+      "Your Turn"
+    ],
+    "Effect": "Unique Barrier\n[Your Turn] If you have \"Yato\" or \"Bishamon\" on your field, give this card in your hand -2 Cost.\n[Activate: Main] Limit 1 Remove this card in your Drop from the game: Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-014.jpg?v=709d1d27bd12"
+  },
+  "SD8-015": {
+    "id": "SD8-015",
+    "face": {
+      "front": {
+        "name": "Ebisu",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-015.jpg?v=8870e76cceca",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Ebisu [SD8-015]",
+    "type": "Main_Deck",
+    "Number": "SD8-015",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "End of your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[End of your Turn] If you used a Unit card with the \"Shinki\" Trait in a combo from your field or Drop this turn: Place this card in your Drop; play up to 1 Unit card with a Cost of 8 or less and the \"Deity\" Trait from your hand.\n[Activate: Main] Limit 1 Remove this card in your Drop from the game: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-015.jpg?v=8870e76cceca"
+  },
+  "SD8-016": {
+    "id": "SD8-016",
+    "face": {
+      "front": {
+        "name": "Nora",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-016.jpg?v=93e1ae0ede35",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Nora [SD8-016]",
+    "type": "Main_Deck",
+    "Number": "SD8-016",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Shinki"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Elusive",
+      "On Play"
+    ],
+    "Effect": "Elusive\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 6 or less and it cannot be Rested or used in a combo until the end of your Opponent's next turn.\n[Activate: Main] {2} Rest this card: Choose up to 1 of your Opponent's Units with a Cost of 6 or less and it cannot be Rested or used in a combo until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-016.jpg?v=93e1ae0ede35"
+  },
+  "SD8-017": {
+    "id": "SD8-017",
+    "face": {
+      "front": {
+        "name": "Ebisu",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-017.jpg?v=bc561d2d833d",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Ebisu [SD8-017]",
+    "type": "Main_Deck",
+    "Number": "SD8-017",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Deity"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Place up to 5 cards from your Drop at the bottom of your Deck in any order. Then, if your Leader has the \"Deity\" Trait, draw 2 cards; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-017.jpg?v=bc561d2d833d"
+  },
+  "SD8-018": {
+    "id": "SD8-018",
+    "face": {
+      "front": {
+        "name": "Zan",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-018.jpg?v=70ca1001155a",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zan [SD8-018]",
+    "type": "Main_Deck",
+    "Number": "SD8-018",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shinki",
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Choose all of your Opponent's Units with a Cost of 7 or less, ignoring Barrier, and they cannot switch to Active mode during your Opponent's next turn.\n[Activate: Battle] Choose up to 1 of your Opponent's Units, ignoring Barrier, and Rest it. Then, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-018.jpg?v=70ca1001155a"
+  },
+  "SD8-019": {
+    "id": "SD8-019",
+    "face": {
+      "front": {
+        "name": "Borderline",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD8-019.jpg?v=69bdf641bd68",
+        "isHorizontal": false
+      }
+    },
+    "name": "Borderline [SD8-019]",
+    "type": "Main_Deck",
+    "Number": "SD8-019",
+    "Card_Type": "Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shinki",
+      "Deity"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Clash",
+      "Opponent's Attack"
+    ],
+    "Effect": "[Activate: Main] Rest 2 of your Units with the \"Shinki\" and/or \"Deity\" Trait: Negate the Keyword skills of your Opponent's Units until the end of your Opponent's next turn.\nClash [Opponent's Attack] Give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD8-019.jpg?v=69bdf641bd68"
+  },
+  "SD8-020": {
+    "id": "SD8-020",
+    "face": {
+      "front": {
+        "name": "Blessed Vessel Ascension",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD8-020.jpg?v=db592993b65f",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Blessed Vessel Ascension [SD8-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD8-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "SD8",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Charge",
+      "End of your Turn"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Yato\": Remove 2 cards in your Drop from the game, Charge 1 and you can't Charge for the turn.\n[End of your Turn] Place 1 card from the top of your Deck in your Drop or return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD8-020.jpg?v=db592993b65f"
+  },
+  "PUP-097": {
+    "id": "PUP-097",
+    "face": {
+      "front": {
+        "name": "Iki Hiyori",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-097.jpg?v=2ceef072112b",
+        "isHorizontal": false,
+        "sjCost": 2,
+        "power": 3000
+      }
+    },
+    "name": "Iki Hiyori [PUP-097]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-097",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 3000,
+    "Counter": null,
+    "Traits": [
+      "Human",
+      "Ayakashi"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[Activate: Main] Remove this card from the game: Shuffle up to 3 cards from your Drop into your Deck. Then, if your Leader is \"Yato\", place that many cards from the top of your Deck in your Drop and give your Leader +1000 Power during your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-097.jpg?v=2ceef072112b"
+  },
+  "PUP-098": {
+    "id": "PUP-098",
+    "face": {
+      "front": {
+        "name": "Severance",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-098.jpg?v=26dce5aaaef9",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Severance [PUP-098]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-098",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Yato\" and their Threshold skill is active: Place 1 \"Yato\" and 1 Unit card with the \"Shinki\" Trait from your Drop at the bottom of your Deck: Play up to 1 \"Yato\" from your Drop Rested. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-098.jpg?v=26dce5aaaef9"
+  },
+  "TOKEN-GT-NOG2": {
+    "id": "TOKEN-GT-NOG2",
+    "face": {
+      "front": {
+        "name": "Guard Token SD8 NOG",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-NOG2.jpg?v=1a4f2f8196e4",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token SD8 NOG",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-NOG2",
+    "Card_Type": "Guard Token",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-NOG2.jpg?v=1a4f2f8196e4",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-NOG3": {
+    "id": "TOKEN-SJM-NOG3",
+    "face": {
+      "front": {
+        "name": "SJ Marker NOG3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NOG3.jpg?v=d1e92a41bb15",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker NOG3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-NOG3",
+    "Card_Type": "SJ Marker",
+    "Color": "Yellow",
+    "Set": "NOG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NOG3.jpg?v=d1e92a41bb15",
+    "isAccessory": true
   }
 }
