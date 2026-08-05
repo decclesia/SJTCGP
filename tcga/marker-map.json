@@ -551,6 +551,12 @@
         "TOKEN-SJM-NOG3"
       ],
       "guardToken": "TOKEN-GT-NOG2"
+    },
+    "SD9-001": {
+      "set": "ANE",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [],
+      "guardToken": null
     }
   }
 }

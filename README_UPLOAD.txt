@@ -1,3 +1,3 @@
-SJTCGP SD8 Yellow NOG / Yato update applied on 2026-08-04.
+SJTCGP SD9 Blue ANE / Mephisto Pheles update applied on 2026-08-06.
 
-Adds SD8-001 through SD8-020, PUP-097 through PUP-098, GT-NOG2 and SJM-NOG3 with optimized images, printed-image transcriptions, synchronized database/Arena records, Yato-specific accessory mapping, landscape JUMP Actions, and canonical 10/10/6 Arena rules.
+Adds SD9-001 through SD9-020 and PUP-099 through PUP-100 with optimized images, printed-image transcriptions, synchronized database/Arena records, and canonical 10/10/6 Arena rules. Guard Token and SJ Marker remain pending for the later ST5 Blue ANE package, as directed by the user.

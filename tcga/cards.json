@@ -38034,5 +38034,841 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NOG3.jpg?v=d1e92a41bb15",
     "isAccessory": true
+  },
+  "SD9-001": {
+    "id": "SD9-001",
+    "face": {
+      "front": {
+        "name": "Mephisto Pheles",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-001.jpg?v=1af793162d20",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mephisto Pheles [SD9-001]",
+    "type": "Leader",
+    "Number": "SD9-001",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Blocker",
+      "Charge",
+      "Clash",
+      "Once per Turn",
+      "Opponent's Attack",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] Once per Turn If you have no Energy, Charge 2 and you can't Charge for the turn.\nThreshold 4 Clash [Opponent's Attack] (1) Place 1 card from your hand at the bottom of your Deck: Give up to 1 of your Units with the \"Demon\" Trait Blocker for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-001.jpg?v=1af793162d20"
+  },
+  "SD9-002": {
+    "id": "SD9-002",
+    "face": {
+      "front": {
+        "name": "Mephisto Pheles",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-002.jpg?v=5c17e90e0210",
+        "isHorizontal": false,
+        "power": 9000
+      }
+    },
+    "name": "Mephisto Pheles [SD9-002]",
+    "type": "Main_Deck",
+    "Number": "SD9-002",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 9000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play"
+    ],
+    "Effect": "Unblockable\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 7 or less and it cannot be Rested or used in a combo until the end of your Opponent's next turn.\n[End of your Turn] (1) If your Leader is \"Mephisto Pheles\", switch up to 1 of your other Units with the \"Demon\" Trait to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-002.jpg?v=5c17e90e0210"
+  },
+  "SD9-003": {
+    "id": "SD9-003",
+    "face": {
+      "front": {
+        "name": "Amaimon",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-003.jpg?v=29895ade17c2",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Amaimon [SD9-003]",
+    "type": "Main_Deck",
+    "Number": "SD9-003",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Deflect",
+      "On Play"
+    ],
+    "Effect": "Deflect\n[On Play] Draw 1 card; if you have no Energy, play up to 1 Unit card with the \"Demon\" Trait and a Cost of 4 or less from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-003.jpg?v=29895ade17c2"
+  },
+  "SD9-004": {
+    "id": "SD9-004",
+    "face": {
+      "front": {
+        "name": "Okumura Rin",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-004.jpg?v=5867edd038c4",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Okumura Rin [SD9-004]",
+    "type": "Main_Deck",
+    "Number": "SD9-004",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist",
+      "Demon"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[On Attack] If your Leader has the \"Demon\" Trait and you have fewer cards in your hand than your Opponent, give this card +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-004.jpg?v=5867edd038c4"
+  },
+  "SD9-005": {
+    "id": "SD9-005",
+    "face": {
+      "front": {
+        "name": "Mephisto Pheles",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-005.jpg?v=115d46eef042",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mephisto Pheles [SD9-005]",
+    "type": "Main_Deck",
+    "Number": "SD9-005",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Attack"
+    ],
+    "Effect": "[On Attack] If your Leader has the \"Demon\" Trait and you have fewer cards in your hand than your Opponent, draw 1 card.\n[End of your Turn] (1) Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-005.jpg?v=115d46eef042"
+  },
+  "SD9-006": {
+    "id": "SD9-006",
+    "face": {
+      "front": {
+        "name": "Satan",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-006.jpg?v=6f5e1a1ec8f5",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Satan [SD9-006]",
+    "type": "Main_Deck",
+    "Number": "SD9-006",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Revenge"
+    ],
+    "Effect": "Revenge\n[On K.O.] If your Leader has the \"Demon\" Trait, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-006.jpg?v=6f5e1a1ec8f5"
+  },
+  "SD9-007": {
+    "id": "SD9-007",
+    "face": {
+      "front": {
+        "name": "Okumura Yukio",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-007.jpg?v=42a7c0ba7ac2",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Okumura Yukio [SD9-007]",
+    "type": "Main_Deck",
+    "Number": "SD9-007",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 3 cards of your Deck; reveal up to 1 Unit card with the \"Demon\" Trait and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-007.jpg?v=42a7c0ba7ac2"
+  },
+  "SD9-008": {
+    "id": "SD9-008",
+    "face": {
+      "front": {
+        "name": "Moriyama Shiemi",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-008.jpg?v=c750ceda4522",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Moriyama Shiemi [SD9-008]",
+    "type": "Main_Deck",
+    "Number": "SD9-008",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, choose up to 1 of your Units with the \"Demon\" Trait and give it +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-008.jpg?v=c750ceda4522"
+  },
+  "SD9-009": {
+    "id": "SD9-009",
+    "face": {
+      "front": {
+        "name": "Beelzebub",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-009.jpg?v=f91f03c55c3e",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Beelzebub [SD9-009]",
+    "type": "Main_Deck",
+    "Number": "SD9-009",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "On Block",
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[On Block] If you have fewer cards in your hand than your Opponent, give this card +5000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-009.jpg?v=f91f03c55c3e"
+  },
+  "SD9-010": {
+    "id": "SD9-010",
+    "face": {
+      "front": {
+        "name": "Kuro",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-010.jpg?v=210000c202f5",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kuro [SD9-010]",
+    "type": "Main_Deck",
+    "Number": "SD9-010",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Familiar"
+    ],
+    "Keywords": [
+      "Clash",
+      "Opponent's Attack"
+    ],
+    "Effect": "Clash [Opponent's Attack] (1) If your Leader has the \"Demon\" Trait, play this card from your hand and give your Leader +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-010.jpg?v=210000c202f5"
+  },
+  "SD9-011": {
+    "id": "SD9-011",
+    "face": {
+      "front": {
+        "name": "Behemoth",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-011.jpg?v=b363bfd9f8c2",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Behemoth [SD9-011]",
+    "type": "Main_Deck",
+    "Number": "SD9-011",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Familiar"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On K.O.",
+      "Overcharge"
+    ],
+    "Effect": "Barrier\n[On K.O.] If your Leader is \"Mephisto Pheles\", Overcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-011.jpg?v=b363bfd9f8c2"
+  },
+  "SD9-012": {
+    "id": "SD9-012",
+    "face": {
+      "front": {
+        "name": "Igor Neuhaus",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-012.jpg?v=91dc98785623",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Igor Neuhaus [SD9-012]",
+    "type": "Main_Deck",
+    "Number": "SD9-012",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Limit 1 If your Leader is \"Mephisto Pheles\" and you have no Energy: Rest this card; play up to 1 Unit card with a Cost of 3 or less from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-012.jpg?v=91dc98785623"
+  },
+  "SD9-013": {
+    "id": "SD9-013",
+    "face": {
+      "front": {
+        "name": "Lewin Light",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-013.jpg?v=f78eff492d52",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Lewin Light [SD9-013]",
+    "type": "Main_Deck",
+    "Number": "SD9-013",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] If you have fewer cards in your hand than your Opponent, give this card +2000 Power.\n[End of your Turn] (1) If your Leader is \"Mephisto Pheles\", play up to 1 Unit card with a Cost of 2 or less and the \"Demon\" Trait from your Drop. Then, place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-013.jpg?v=f78eff492d52"
+  },
+  "SD9-014": {
+    "id": "SD9-014",
+    "face": {
+      "front": {
+        "name": "Satan",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-014.jpg?v=aa8c905bfc7c",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Satan [SD9-014]",
+    "type": "Main_Deck",
+    "Number": "SD9-014",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Deflect",
+      "On Play"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] If you have no Energy: Look at the top 3 cards of your Deck; add up to 1 Unit card with the \"Demon\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order and play up to 1 Unit card with a Cost of 3 or less and the \"Demon\" Trait from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-014.jpg?v=aa8c905bfc7c"
+  },
+  "SD9-015": {
+    "id": "SD9-015",
+    "face": {
+      "front": {
+        "name": "Amaimon",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-015.jpg?v=8d48bd9117b6",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Amaimon [SD9-015]",
+    "type": "Main_Deck",
+    "Number": "SD9-015",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Bloom",
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have fewer cards in your hand than your Opponent, draw 1 card; play up to 1 \"Behemoth\" from your hand.\n[Activate: Main] Limit 1 (2) If your Leader is \"Mephisto Pheles\", Bloom this card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-015.jpg?v=8d48bd9117b6"
+  },
+  "SD9-016": {
+    "id": "SD9-016",
+    "face": {
+      "front": {
+        "name": "Morinath Contract",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-016.jpg?v=d320c6875c42",
+        "isHorizontal": false
+      }
+    },
+    "name": "Morinath Contract [SD9-016]",
+    "type": "Main_Deck",
+    "Number": "SD9-016",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] Add 1 card from your Life to your hand: If your Leader's Threshold skill is active, add up to 1 Unit card with a Cost of 2 or less from your Deck to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-016.jpg?v=d320c6875c42"
+  },
+  "SD9-017": {
+    "id": "SD9-017",
+    "face": {
+      "front": {
+        "name": "Er Stopfen",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-017.jpg?v=ed2b2b3e8c7d",
+        "isHorizontal": false
+      }
+    },
+    "name": "Er Stopfen [SD9-017]",
+    "type": "Main_Deck",
+    "Number": "SD9-017",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Place up to 1 card from your hand at the bottom of your Deck: If your Leader is \"Mephisto Pheles\" and you have fewer cards in your hand than your Opponent, choose your Opponent's Leader or up to 1 of their Units and they cannot be Rested for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-017.jpg?v=ed2b2b3e8c7d"
+  },
+  "SD9-018": {
+    "id": "SD9-018",
+    "face": {
+      "front": {
+        "name": "A Demon's Prank",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-018.jpg?v=bc4eceda8410",
+        "isHorizontal": false
+      }
+    },
+    "name": "A Demon's Prank [SD9-018]",
+    "type": "Main_Deck",
+    "Number": "SD9-018",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Bloom",
+      "Clash",
+      "Opponent's Attack"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Leader is \"Mephisto Pheles\", Bloom up to 1 of your Units with the \"Demon\" or \"Exorcist\" Trait.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-018.jpg?v=bc4eceda8410"
+  },
+  "SD9-019": {
+    "id": "SD9-019",
+    "face": {
+      "front": {
+        "name": "Blue Flame Meister",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-019.jpg?v=a8c1c264185c",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blue Flame Meister [SD9-019]",
+    "type": "Main_Deck",
+    "Number": "SD9-019",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Clash",
+      "Opponent's Play"
+    ],
+    "Effect": "Clash [Opponent's Play] Place up to 1 card from your hand at the bottom of your Deck: If your Leader is \"Mephisto Pheles\" and you have fewer cards in your hand than your Opponent: If the Unit being played has a Cost of 4 or less, return it to the owner's hand instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-019.jpg?v=a8c1c264185c"
+  },
+  "SD9-020": {
+    "id": "SD9-020",
+    "face": {
+      "front": {
+        "name": "Mephisto Pheles",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD9-020.jpg?v=2453d690ecfb",
+        "isHorizontal": false,
+        "sjCost": 2,
+        "power": 5000
+      }
+    },
+    "name": "Mephisto Pheles [SD9-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD9-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "SD9",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Break",
+      "Charge",
+      "On Attack",
+      "On Play",
+      "Overcharge"
+    ],
+    "Effect": "Break\n[On Play] Charge 2 and you can't Charge or Overcharge for the turn.\n[On Attack] (2) Choose up to 1 of your Opponent's Units with a Cost of 4 or less and return it to its owner's hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD9-020.jpg?v=2453d690ecfb"
+  },
+  "PUP-099": {
+    "id": "PUP-099",
+    "face": {
+      "front": {
+        "name": "Amaimon",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-099.jpg?v=b17ca65acfdc",
+        "isHorizontal": false,
+        "sjCost": 3,
+        "power": 6000
+      }
+    },
+    "name": "Amaimon [PUP-099]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-099",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Charge",
+      "Deflect",
+      "On Block",
+      "On Play",
+      "Revenge"
+    ],
+    "Effect": "Deflect Revenge\n[On Play] Charge 1. Then, if you have fewer cards in your hand than your Opponent, draw 1 card.\n[On Block] (1) Switch this card to Active mode and give it -1000 Power for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-099.jpg?v=b17ca65acfdc"
+  },
+  "PUP-100": {
+    "id": "PUP-100",
+    "face": {
+      "front": {
+        "name": "Kuchens Kuckucksuhr",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-100.jpg?v=f0abe18835ad",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Kuchens Kuckucksuhr [PUP-100]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-100",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Overcharge"
+    ],
+    "Effect": "[Activate: Main] Once per Turn (X) If your Leader is \"Mephisto Pheles\": Overcharge X and you can't Overcharge until the start of your next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-100.jpg?v=f0abe18835ad"
   }
 }
