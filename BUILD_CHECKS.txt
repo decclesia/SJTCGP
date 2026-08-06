@@ -1,30 +1,33 @@
 {
-  "website_cards": 933,
-  "card_text_records": 933,
-  "arena_entries": 1031,
-  "sd9_rarity_counts": {
+  "website_cards": 961,
+  "card_text_records": 961,
+  "arena_entries": 1064,
+  "st5_blue_rarities": {
     "L": 1,
     "SR": 3,
-    "C": 16
+    "R": 5,
+    "UC": 8,
+    "C": 8
   },
-  "latest_promo": "PUP-100",
+  "promos": [
+    "PUP-091",
+    "PUP-092",
+    "PUP-093"
+  ],
+  "landscape_jump_actions": [
+    "ST5-100",
+    "PUP-093"
+  ],
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "sd9_cards": [
-    "SD9-001 through SD9-020",
-    "PUP-099",
-    "PUP-100"
+  "st5_blue_accessories": [
+    "GT-ANE",
+    "SJM-ANE1",
+    "SJM-ANE2"
   ],
-  "sd9_jump_units": [
-    "SD9-020",
-    "PUP-099"
-  ],
-  "sd9_jump_actions": [
-    "PUP-100"
-  ],
-  "sd9_accessories": {
-    "guardToken": "pending ST5 Blue ANE",
-    "sjMarker": "pending ST5 Blue ANE"
-  }
+  "sd9_accessories": [
+    "GT-SD9",
+    "SJM-ANE3"
+  ]
 }

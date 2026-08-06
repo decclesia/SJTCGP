@@ -38870,5 +38870,1214 @@
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-100.jpg?v=f0abe18835ad"
+  },
+  "ST5-076": {
+    "id": "ST5-076",
+    "face": {
+      "front": {
+        "name": "Okumura Rin",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-076.jpg?v=7db9222ab16a",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Okumura Rin [ST5-076]",
+    "type": "Leader",
+    "Number": "ST5-076",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Exorcist",
+      "Demon"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] (1) Return 1 of your Units with a Cost of 2 or more and the \"Exorcist\" Trait to your hand: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and place it at the bottom of its owner's Deck.\nThreshold 4 Once per Turn When your Unit(s) with the \"Exorcist\" Trait is removed from your field by your Opponent's skill or K.O.'d, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-076.jpg?v=7db9222ab16a"
+  },
+  "ST5-077": {
+    "id": "ST5-077",
+    "face": {
+      "front": {
+        "name": "Okumura Rin",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-077.jpg?v=1f3c09fcbeb2",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Okumura Rin [ST5-077]",
+    "type": "Main_Deck",
+    "Number": "ST5-077",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist",
+      "Demon"
+    ],
+    "Keywords": [
+      "Dual Attack",
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "Dual Attack\n[On Play] You may return 1 of your other Units with the \"Exorcist\" Trait to your hand: Give this card +1000 Power for the turn.\n[On Attack] Choose up to 1 of your Opponent's Units and give it -2 Cost for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-077.jpg?v=1f3c09fcbeb2"
+  },
+  "ST5-078": {
+    "id": "ST5-078",
+    "face": {
+      "front": {
+        "name": "Okumura Yukio",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-078.jpg?v=b52d90229467",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Okumura Yukio [ST5-078]",
+    "type": "Main_Deck",
+    "Number": "ST5-078",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Charge 1 and you can't Charge for the turn. Then, choose up to 1 of your Opponent's Units and give it -1 Cost for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-078.jpg?v=b52d90229467"
+  },
+  "ST5-079": {
+    "id": "ST5-079",
+    "face": {
+      "front": {
+        "name": "Kirishigakure Shura",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-079.jpg?v=4aebd5de1b5b",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kirishigakure Shura [ST5-079]",
+    "type": "Main_Deck",
+    "Number": "ST5-079",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "On Play / On K.O.",
+      "Once per Turn"
+    ],
+    "Effect": "[On Play / On K.O.] Limit 1 If your Leader has the \"Exorcist\" Trait, give your Leader +1000 Power for the turn.\n[Activate: Main] Once per Turn Choose up to 1 of your Opponent's Units and give it -1 Cost for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-079.jpg?v=4aebd5de1b5b"
+  },
+  "ST5-080": {
+    "id": "ST5-080",
+    "face": {
+      "front": {
+        "name": "Miwa Konekomaru",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-080.jpg?v=0b052e6d3c81",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Miwa Konekomaru [ST5-080]",
+    "type": "Main_Deck",
+    "Number": "ST5-080",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units and give it -2 Cost for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-080.jpg?v=0b052e6d3c81"
+  },
+  "ST5-081": {
+    "id": "ST5-081",
+    "face": {
+      "front": {
+        "name": "Moriyama Shiemi",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-081.jpg?v=0e3ae5343a7e",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Moriyama Shiemi [ST5-081]",
+    "type": "Main_Deck",
+    "Number": "ST5-081",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If a Unit(s) was removed from your field by your skill this turn: Draw 2 cards; place 1 card from your hand at the top or bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-081.jpg?v=0e3ae5343a7e"
+  },
+  "ST5-082": {
+    "id": "ST5-082",
+    "face": {
+      "front": {
+        "name": "Suguro Ryuji",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-082.jpg?v=d4723219382e",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Suguro Ryuji [ST5-082]",
+    "type": "Main_Deck",
+    "Number": "ST5-082",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units and give it -1 Cost for the turn. Then, choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-082.jpg?v=d4723219382e"
+  },
+  "ST5-083": {
+    "id": "ST5-083",
+    "face": {
+      "front": {
+        "name": "Shima Renzo",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-083.jpg?v=de1543f6ce91",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Shima Renzo [ST5-083]",
+    "type": "Main_Deck",
+    "Number": "ST5-083",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may add 1 card from your Life to your hand: Give this card +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-083.jpg?v=de1543f6ce91"
+  },
+  "ST5-084": {
+    "id": "ST5-084",
+    "face": {
+      "front": {
+        "name": "Okumura Yukio",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-084.jpg?v=c5fce6d32530",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Okumura Yukio [ST5-084]",
+    "type": "Main_Deck",
+    "Number": "ST5-084",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Blocker",
+      "On Play"
+    ],
+    "Effect": "Blocker\n[On Play] If your Leader is \"Okumura Rin\", choose up to 1 of your Opponent's Units and give it -2 Cost for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-084.jpg?v=c5fce6d32530"
+  },
+  "ST5-085": {
+    "id": "ST5-085",
+    "face": {
+      "front": {
+        "name": "Kamiki Izumo",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-085.jpg?v=1f479a636bf9",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kamiki Izumo [ST5-085]",
+    "type": "Main_Deck",
+    "Number": "ST5-085",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 3 cards of your Deck; place them at the top or bottom of your Deck in any order.\n[Activate: Main] Limit 1 Return this card to your hand: Draw 1 card; place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-085.jpg?v=1f479a636bf9"
+  },
+  "ST5-086": {
+    "id": "ST5-086",
+    "face": {
+      "front": {
+        "name": "Okumura Rin",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-086.jpg?v=e92eff689d8a",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Okumura Rin [ST5-086]",
+    "type": "Main_Deck",
+    "Number": "ST5-086",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist",
+      "Demon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Clash",
+      "Limit 1",
+      "Opponent's Attack",
+      "Overcharge"
+    ],
+    "Effect": "Clash [Opponent's Attack] (2) Play this card from your hand Rested: If your Leader is \"Okumura Rin\", negate the attack.\n[Activate: Main] Limit 1 Return this card to your hand: Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-086.jpg?v=e92eff689d8a"
+  },
+  "ST5-087": {
+    "id": "ST5-087",
+    "face": {
+      "front": {
+        "name": "Fujimoto Shiro",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-087.jpg?v=62dac9a3642f",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Fujimoto Shiro [ST5-087]",
+    "type": "Main_Deck",
+    "Number": "ST5-087",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Play"
+    ],
+    "Effect": "Barrier\n[On Play] Add up to 1 card from your Life to your hand; play up to 1 Unit card with a Cost of 2 and the \"Exorcist\" Trait from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-087.jpg?v=62dac9a3642f"
+  },
+  "ST5-088": {
+    "id": "ST5-088",
+    "face": {
+      "front": {
+        "name": "Takara Nemu",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-088.jpg?v=811d9706b66c",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Takara Nemu [ST5-088]",
+    "type": "Main_Deck",
+    "Number": "ST5-088",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; add up to 1 Unit card with a Cost of 2 and the \"Exorcist\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-088.jpg?v=811d9706b66c"
+  },
+  "ST5-089": {
+    "id": "ST5-089",
+    "face": {
+      "front": {
+        "name": "Moriyama Shiemi",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-089.jpg?v=1d6a989b67a8",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Moriyama Shiemi [ST5-089]",
+    "type": "Main_Deck",
+    "Number": "ST5-089",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Add up to 1 Unit card with the \"Exorcist\" Trait from your Drop to your hand; place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-089.jpg?v=1d6a989b67a8"
+  },
+  "ST5-090": {
+    "id": "ST5-090",
+    "face": {
+      "front": {
+        "name": "Shima Renzo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-090.jpg?v=303724dd2e09",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shima Renzo [ST5-090]",
+    "type": "Main_Deck",
+    "Number": "ST5-090",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "Deflect",
+      "On Play"
+    ],
+    "Effect": "Deflect\n[On Play] Add 1 card from your Life to your hand; Accelcharge 2 and you can't Accelcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-090.jpg?v=303724dd2e09"
+  },
+  "ST5-091": {
+    "id": "ST5-091",
+    "face": {
+      "front": {
+        "name": "Arthur A. Angel",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-091.jpg?v=7f20d8d61272",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Arthur A. Angel [ST5-091]",
+    "type": "Main_Deck",
+    "Number": "ST5-091",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Critical",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] If there is a Unit with a Cost of 0 on any field, give this card Critical.\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 6 or more and set its Cost to 0 for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-091.jpg?v=7f20d8d61272"
+  },
+  "ST5-092": {
+    "id": "ST5-092",
+    "face": {
+      "front": {
+        "name": "Cheng-Long Liu",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-092.jpg?v=074a479fc14f",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Cheng-Long Liu [ST5-092]",
+    "type": "Main_Deck",
+    "Number": "ST5-092",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Attack",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Limit 1 When a Unit(s) with the \"Exorcist\" Trait is removed from your field by your skill: Draw 1 card.\n[On Attack] Choose up to 2 of your Opponent's Units with a Cost of 1 or less and return them to the owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-092.jpg?v=074a479fc14f"
+  },
+  "ST5-093": {
+    "id": "ST5-093",
+    "face": {
+      "front": {
+        "name": "Kuro",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-093.jpg?v=a16f0bc3511e",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kuro [ST5-093]",
+    "type": "Main_Deck",
+    "Number": "ST5-093",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Familiar"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Limit 1 If this card is returned to your hand by your skill: Place this card from your hand at the bottom of your Deck; play up to 1 Unit card with a Cost of 3 or less and the \"Exorcist\" Trait from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-093.jpg?v=a16f0bc3511e"
+  },
+  "ST5-094": {
+    "id": "ST5-094",
+    "face": {
+      "front": {
+        "name": "Satan Campfire",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-094.jpg?v=1a90bd8d519a",
+        "isHorizontal": false
+      }
+    },
+    "name": "Satan Campfire [ST5-094]",
+    "type": "Main_Deck",
+    "Number": "ST5-094",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] Draw 1 card; choose up to 1 of your Opponent's Units whose Cost is lower than its original Cost and give it -1 Cost. Then, if its Cost is 0 or less, Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-094.jpg?v=1a90bd8d519a"
+  },
+  "ST5-095": {
+    "id": "ST5-095",
+    "face": {
+      "front": {
+        "name": "Satan Bomb",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-095.jpg?v=321db4d43b73",
+        "isHorizontal": false
+      }
+    },
+    "name": "Satan Bomb [ST5-095]",
+    "type": "Main_Deck",
+    "Number": "ST5-095",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Clash",
+      "Opponent's Attack",
+      "Overcharge"
+    ],
+    "Effect": "Clash [Opponent's Attack] Return 1 of your Units with a Cost of 2 or more and the \"Exorcist\" Trait to its owner's hand: Negate the attack. Then, Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-095.jpg?v=321db4d43b73"
+  },
+  "ST5-096": {
+    "id": "ST5-096",
+    "face": {
+      "front": {
+        "name": "The Blue Night",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-096.jpg?v=46f0600dc54e",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Blue Night [ST5-096]",
+    "type": "Main_Deck",
+    "Number": "ST5-096",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Return 1 of your Units to your hand; choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -3 Cost for the turn. Then, if its Cost is 3 or less, negate its skills for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-096.jpg?v=46f0600dc54e"
+  },
+  "ST5-097": {
+    "id": "ST5-097",
+    "face": {
+      "front": {
+        "name": "Satan Slash",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-097.jpg?v=5ac3f6aadc3c",
+        "isHorizontal": false
+      }
+    },
+    "name": "Satan Slash [ST5-097]",
+    "type": "Main_Deck",
+    "Number": "ST5-097",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main / Battle"
+    ],
+    "Effect": "[Activate: Main / Battle] Play up to 1 Unit card with a Cost of 2 and the \"Exorcist\" Trait from your hand Rested. At the end of the turn, return that card to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-097.jpg?v=5ac3f6aadc3c"
+  },
+  "ST5-098": {
+    "id": "ST5-098",
+    "face": {
+      "front": {
+        "name": "Flames of Satan",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-098.jpg?v=444b1d5a171f",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flames of Satan [ST5-098]",
+    "type": "Main_Deck",
+    "Number": "ST5-098",
+    "Card_Type": "Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Charge"
+    ],
+    "Effect": "[Activate: Main] If your Leader has the \"Exorcist\" Trait: Charge 1 and you can't Charge for the turn. Then, choose up to 1 of your Opponent's Units and give it -5 Cost for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-098.jpg?v=444b1d5a171f"
+  },
+  "ST5-099": {
+    "id": "ST5-099",
+    "face": {
+      "front": {
+        "name": "Okumura Rin",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-099.jpg?v=a289f2dcfac0",
+        "isHorizontal": false,
+        "sjCost": 1,
+        "power": 6000
+      }
+    },
+    "name": "Okumura Rin [ST5-099]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-099",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Exorcist",
+      "Demon"
+    ],
+    "Keywords": [
+      "Critical",
+      "Deflect",
+      "End of your Turn",
+      "On Play"
+    ],
+    "Effect": "Deflect Critical\n[On Play] Choose up to 1 of your Opponent's Units and give it -2 Cost for the turn.\n[End of your Turn] Return this card to your JUMP Deck and play up to 1 \"Okumura Rin\" with a Cost of 6 from your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-099.jpg?v=a289f2dcfac0"
+  },
+  "ST5-100": {
+    "id": "ST5-100",
+    "face": {
+      "front": {
+        "name": "Kurikara Unsheathed",
+        "type": "JUMP ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-100.jpg?v=79fa22e2a305",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Kurikara Unsheathed [ST5-100]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-100",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 0,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Clash",
+      "Limit 1",
+      "Opponent's Play"
+    ],
+    "Effect": "Clash [Opponent's Play] Limit 1 Choose up to 1 Keyword skill on the Unit being played and negate it until the end of your next turn. Then, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-100.jpg?v=79fa22e2a305"
+  },
+  "PUP-091": {
+    "id": "PUP-091",
+    "face": {
+      "front": {
+        "name": "Okumura Yukio",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-091.jpg?v=a3107e8822e9",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Okumura Yukio [PUP-091]",
+    "type": "Main_Deck",
+    "Number": "PUP-091",
+    "Card_Type": "Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Limit 1 If this card is returned to your hand by your skill: Choose all of your Opponent's Units and give them -1 Cost for the turn.\n[On Play] Add up to 1 card from your Life to your hand; choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-091.jpg?v=a3107e8822e9"
+  },
+  "PUP-092": {
+    "id": "PUP-092",
+    "face": {
+      "front": {
+        "name": "Kirishigakure Shura",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-092.jpg?v=953c50281223",
+        "isHorizontal": false,
+        "sjCost": 1,
+        "power": 5000
+      }
+    },
+    "name": "Kirishigakure Shura [PUP-092]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-092",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Deflect",
+      "On Attack",
+      "Opponent's Turn"
+    ],
+    "Effect": "Deflect Barrier\n[Opponent's Turn] Give this card +1000 Power.\n[On Attack] (1) Draw 1 card; choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-092.jpg?v=953c50281223"
+  },
+  "PUP-093": {
+    "id": "PUP-093",
+    "face": {
+      "front": {
+        "name": "True Cross Academy",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-093.jpg?v=f6be03e0ccd0",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "True Cross Academy [PUP-093]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-093",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Barrier",
+      "Clash",
+      "Opponent's Play"
+    ],
+    "Effect": "Clash [Opponent's Play] Remove this card from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, give it -3 Cost and negate up to 1 of its Keyword skills until the end of your next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-093.jpg?v=f6be03e0ccd0"
+  },
+  "TOKEN-GT-ANE": {
+    "id": "TOKEN-GT-ANE",
+    "face": {
+      "front": {
+        "name": "Guard Token ANE",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-ANE.jpg?v=2d193598ab97",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token ANE",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-ANE",
+    "Card_Type": "Guard Token",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-ANE.jpg?v=2d193598ab97",
+    "isAccessory": true
+  },
+  "TOKEN-GT-SD9": {
+    "id": "TOKEN-GT-SD9",
+    "face": {
+      "front": {
+        "name": "Guard Token SD9",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SD9.jpg?v=89553e34f68f",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token SD9",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-SD9",
+    "Card_Type": "Guard Token",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SD9.jpg?v=89553e34f68f",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-ANE1": {
+    "id": "TOKEN-SJM-ANE1",
+    "face": {
+      "front": {
+        "name": "SJ Marker ANE1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ANE1.jpg?v=57ee1c5ac815",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker ANE1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-ANE1",
+    "Card_Type": "SJ Marker",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ANE1.jpg?v=57ee1c5ac815",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-ANE2": {
+    "id": "TOKEN-SJM-ANE2",
+    "face": {
+      "front": {
+        "name": "SJ Marker ANE2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ANE2.jpg?v=fe3c6e37f7e2",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker ANE2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-ANE2",
+    "Card_Type": "SJ Marker",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ANE2.jpg?v=fe3c6e37f7e2",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-ANE3": {
+    "id": "TOKEN-SJM-ANE3",
+    "face": {
+      "front": {
+        "name": "SJ Marker ANE3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ANE3.jpg?v=ea2864f9dc67",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker ANE3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-ANE3",
+    "Card_Type": "SJ Marker",
+    "Color": "Blue",
+    "Set": "ANE",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ANE3.jpg?v=ea2864f9dc67",
+    "isAccessory": true
   }
 }

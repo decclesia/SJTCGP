@@ -1,3 +1,3 @@
-SJTCGP SD9 Blue ANE / Mephisto Pheles update applied on 2026-08-06.
+SJTCGP ST5 Blue ANE / Okumura Rin update applied on 2026-08-07.
 
-Adds SD9-001 through SD9-020 and PUP-099 through PUP-100 with optimized images, printed-image transcriptions, synchronized database/Arena records, and canonical 10/10/6 Arena rules. Guard Token and SJ Marker remain pending for the later ST5 Blue ANE package, as directed by the user.
+Adds ST5-076 through ST5-100 and PUP-091 through PUP-093 with optimized printed images and transcriptions, plus GT-ANE/SJM-ANE1/SJM-ANE2 and the missing SD9 GT-SD9/SJM-ANE3 assets. Database and Arena remain synchronized with canonical 10/10/6 rules.

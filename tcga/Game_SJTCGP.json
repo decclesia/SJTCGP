@@ -220,7 +220,12 @@
         "TOKEN-SJM-NOG1",
         "TOKEN-SJM-NOG2",
         "TOKEN-GT-NOG2",
-        "TOKEN-SJM-NOG3"
+        "TOKEN-SJM-NOG3",
+        "TOKEN-GT-ANE",
+        "TOKEN-GT-SD9",
+        "TOKEN-SJM-ANE1",
+        "TOKEN-SJM-ANE2",
+        "TOKEN-SJM-ANE3"
       ],
       "countersStartingValues": [
         0,
