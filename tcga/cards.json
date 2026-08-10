@@ -40079,5 +40079,1195 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ANE3.jpg?v=ea2864f9dc67",
     "isAccessory": true
+  },
+  "ST5-026": {
+    "id": "ST5-026",
+    "face": {
+      "front": {
+        "name": "Sesshomaru",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-026.jpg?v=a408d74f0aa7",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Sesshomaru [ST5-026]",
+    "type": "Leader",
+    "Number": "ST5-026",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Demon",
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "[On Attack] If you have a JUMP Action on your field, draw 1 card.\nThreshold 4 [Activate: Main] Once per Turn Raid {1}: Return 1 \"Tenseiga\", \"Tokijin\", or \"Bakusaiga\" to your JUMP Deck; place up to 1 \"Tenseiga\", \"Tokijin\", or \"Bakusaiga\", with a different name, from your JUMP Deck on your field.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-026.jpg?v=a408d74f0aa7"
+  },
+  "ST5-027": {
+    "id": "ST5-027",
+    "face": {
+      "front": {
+        "name": "Sesshomaru",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-027.jpg?v=d3505dbac69c",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Sesshomaru [ST5-027]",
+    "type": "Main_Deck",
+    "Number": "ST5-027",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Double Damage",
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units and give it -4000 Power for the turn; choose up to 1 of your Opponent's Units with 1000 or less Power and K.O. it. Then, you may place 1 \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" from your JUMP Deck on your field.\n[On Attack] If your Opponent's Unit(s) was K.O.'d by your skill this turn, give this card Double Damage for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-027.jpg?v=d3505dbac69c"
+  },
+  "ST5-028": {
+    "id": "ST5-028",
+    "face": {
+      "front": {
+        "name": "Sesshomaru",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-028.jpg?v=c1539cb5d3d4",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Sesshomaru [ST5-028]",
+    "type": "Main_Deck",
+    "Number": "ST5-028",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "Activate: Main",
+      "Dual Attack",
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "Dual Attack\n[On Play] Accelcharge 1. Then, choose up to 1 of your Opponent's Units and give it -1000 Power for the turn.\n[Activate: Main] Limit 1 Rest this card: Choose up to 2 of your Opponent's Units with 2000 or less Power and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-028.jpg?v=c1539cb5d3d4"
+  },
+  "ST5-029": {
+    "id": "ST5-029",
+    "face": {
+      "front": {
+        "name": "Kagura",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-029.jpg?v=ead2e4049f62",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Kagura [ST5-029]",
+    "type": "Main_Deck",
+    "Number": "ST5-029",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Deflect",
+      "Limit 1",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "Deflect\n[Your Turn] If you have \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\", give this card in your hand -1 Cost.\n[On Play] Limit 1 Look at the top 5 cards of your Deck; add up to 1 card with the \"Demon\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-029.jpg?v=ead2e4049f62"
+  },
+  "ST5-030": {
+    "id": "ST5-030",
+    "face": {
+      "front": {
+        "name": "Sesshomaru",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-030.jpg?v=3aed4da57e6d",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Sesshomaru [ST5-030]",
+    "type": "Main_Deck",
+    "Number": "ST5-030",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play"
+    ],
+    "Effect": "[On Play] If you have \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\": Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.\n[Activate: Main] Raid {1} If a JUMP Unit was returned from your field to your JUMP Deck this turn, give this card +2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-030.jpg?v=3aed4da57e6d"
+  },
+  "ST5-031": {
+    "id": "ST5-031",
+    "face": {
+      "front": {
+        "name": "Rin",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-031.jpg?v=1ceede741890",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Rin [ST5-031]",
+    "type": "Main_Deck",
+    "Number": "ST5-031",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "Limit 1",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Limit 1 When a \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" is placed on your field: Place this card from your hand in your Drop; Accelcharge 1 and give your Leader +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-031.jpg?v=1ceede741890"
+  },
+  "ST5-032": {
+    "id": "ST5-032",
+    "face": {
+      "front": {
+        "name": "Jaken",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-032.jpg?v=e5dbc0d825f4",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Jaken [ST5-032]",
+    "type": "Main_Deck",
+    "Number": "ST5-032",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest this card: If your Leader is \"Sesshomaru\", Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-032.jpg?v=e5dbc0d825f4"
+  },
+  "ST5-033": {
+    "id": "ST5-033",
+    "face": {
+      "front": {
+        "name": "A-Un",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-033.jpg?v=6af611e9a99f",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "A-Un [ST5-033]",
+    "type": "Main_Deck",
+    "Number": "ST5-033",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Animal"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Blocker",
+      "On K.O.",
+      "Unique"
+    ],
+    "Effect": "Unique Blocker\n[Activate: Main] If you have a JUMP Action on your field, play this card from your hand.\n[On K.O.] Choose up to 1 of your Opponent's Units with 5000 Power or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-033.jpg?v=6af611e9a99f"
+  },
+  "ST5-034": {
+    "id": "ST5-034",
+    "face": {
+      "front": {
+        "name": "Kohaku",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-034.jpg?v=be6d2acc621f",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kohaku [ST5-034]",
+    "type": "Main_Deck",
+    "Number": "ST5-034",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Limit 1 When a \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" is placed on your field: Place this card from your hand in your Drop; choose up to 2 of your Opponent's Units and give them -2000 Power.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-034.jpg?v=be6d2acc621f"
+  },
+  "ST5-035": {
+    "id": "ST5-035",
+    "face": {
+      "front": {
+        "name": "Totosai",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-035.jpg?v=9ee33ca4ae4b",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Totosai [ST5-035]",
+    "type": "Main_Deck",
+    "Number": "ST5-035",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Remove 1 SJ Marker: Add up to 1 \"Sesshomaru\" from your Deck to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-035.jpg?v=9ee33ca4ae4b"
+  },
+  "ST5-036": {
+    "id": "ST5-036",
+    "face": {
+      "front": {
+        "name": "Sesshomaru",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-036.jpg?v=0ca8f118ee73",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Sesshomaru [ST5-036]",
+    "type": "Main_Deck",
+    "Number": "ST5-036",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Deflect",
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "Deflect Barrier\n[Your Turn] Once per Turn When a JUMP Action is placed on or removed from your field, choose up to 1 of your Opponent's Units with 3000 or less Power and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-036.jpg?v=0ca8f118ee73"
+  },
+  "ST5-037": {
+    "id": "ST5-037",
+    "face": {
+      "front": {
+        "name": "Bokuseno",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-037.jpg?v=50c61da27bcd",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Bokuseno [ST5-037]",
+    "type": "Main_Deck",
+    "Number": "ST5-037",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Daiyokai\" Trait: Remove SJ Markers equal to the number of JUMP Actions on your field; draw that many cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-037.jpg?v=50c61da27bcd"
+  },
+  "ST5-038": {
+    "id": "ST5-038",
+    "face": {
+      "front": {
+        "name": "Rin",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-038.jpg?v=1db405d2d71d",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Rin [ST5-038]",
+    "type": "Main_Deck",
+    "Number": "ST5-038",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Human"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Sesshomaru\", give your Leader +1000 Power for each JUMP Action on your field for the turn. Then, choose that many of your Opponent's Units and give them -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-038.jpg?v=1db405d2d71d"
+  },
+  "ST5-039": {
+    "id": "ST5-039",
+    "face": {
+      "front": {
+        "name": "Kaijinbo",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-039.jpg?v=d84683dd6085",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kaijinbo [ST5-039]",
+    "type": "Main_Deck",
+    "Number": "ST5-039",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "On Attack"
+    ],
+    "Effect": "[On Attack] Remove 1 SJ Marker: If you have a \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" on your field, choose up to 1 of your Opponent's Units and give it -1000 Power for the turn. Then, choose up to 1 of your Opponent's Units with 3000 Power or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-039.jpg?v=d84683dd6085"
+  },
+  "ST5-040": {
+    "id": "ST5-040",
+    "face": {
+      "front": {
+        "name": "Kanna",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-040.jpg?v=d7ed7c5680f5",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kanna [ST5-040]",
+    "type": "Main_Deck",
+    "Number": "ST5-040",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Blocker",
+      "On Block"
+    ],
+    "Effect": "Barrier Blocker\n[On Block] Choose all of your Opponent's Units and give them -1000 Power for each JUMP Action on your field until the end of your next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-040.jpg?v=d7ed7c5680f5"
+  },
+  "ST5-041": {
+    "id": "ST5-041",
+    "face": {
+      "front": {
+        "name": "Goshinki",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-041.jpg?v=c4bc1548eae1",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Goshinki [ST5-041]",
+    "type": "Main_Deck",
+    "Number": "ST5-041",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Clash",
+      "On Play",
+      "Opponent's Attack",
+      "Revenge"
+    ],
+    "Effect": "Revenge\nClash [Opponent's Attack] Return 1 \"Tenseiga\" or \"Bakusaiga\" from your field to your JUMP Deck: Play this card from your hand and give it Blocker for the turn.\n[On Play] Raid {1} Place up to 1 \"Tokijin\" from your JUMP Deck on your field.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-041.jpg?v=c4bc1548eae1"
+  },
+  "ST5-042": {
+    "id": "ST5-042",
+    "face": {
+      "front": {
+        "name": "Hakudoshi",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-042.jpg?v=694b11687b14",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Hakudoshi [ST5-042]",
+    "type": "Main_Deck",
+    "Number": "ST5-042",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Accelcharge",
+      "On Attack",
+      "On K.O."
+    ],
+    "Effect": "[On Attack] Remove 1 SJ Marker: Give your Leader or up to 1 of your Units +1000 Power for the turn.\n[On K.O.] Draw 1 card; Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-042.jpg?v=694b11687b14"
+  },
+  "ST5-043": {
+    "id": "ST5-043",
+    "face": {
+      "front": {
+        "name": "Moryomaru",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-043.jpg?v=b6494c5d181e",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Moryomaru [ST5-043]",
+    "type": "Main_Deck",
+    "Number": "ST5-043",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Raid {1} If your Leader has the \"Demon\" Trait: Play up to 1 Unit card with a Cost of 5 or less from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-043.jpg?v=b6494c5d181e"
+  },
+  "ST5-044": {
+    "id": "ST5-044",
+    "face": {
+      "front": {
+        "name": "Inuyasha",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-044.jpg?v=4cd9af06fee1",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Inuyasha [ST5-044]",
+    "type": "Main_Deck",
+    "Number": "ST5-044",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Demon",
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -1000 Power for every card in your JUMP Zone. Then, if its Power is 3000 or less, remove 1 SJ Marker and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-044.jpg?v=4cd9af06fee1"
+  },
+  "ST5-045": {
+    "id": "ST5-045",
+    "face": {
+      "front": {
+        "name": "Meido Revival",
+        "type": "ACTION",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-045.jpg?v=5612c46d6bbb",
+        "isHorizontal": false
+      }
+    },
+    "name": "Meido Revival [ST5-045]",
+    "type": "Main_Deck",
+    "Number": "ST5-045",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Sesshomaru\" and you have no JUMP Actions on your field: Play up to 1 \"Sesshomaru\" from your Drop and place up to 1 of each \"Tenseiga\", \"Tokijin\" and \"Bakusaiga\" on your field. Then, at the end of the turn, return all JUMP Actions from your field to your JUMP Deck and add 1 card from your Life to your hand for each card returned.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-045.jpg?v=5612c46d6bbb"
+  },
+  "ST5-046": {
+    "id": "ST5-046",
+    "face": {
+      "front": {
+        "name": "Forever with Lord Sesshomaru",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-046.jpg?v=4798e19df290",
+        "isHorizontal": false
+      }
+    },
+    "name": "Forever with Lord Sesshomaru [ST5-046]",
+    "type": "Main_Deck",
+    "Number": "ST5-046",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Clash",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Raid {1} Choose all of your Opponent's Units and give them -2000 Power for the turn.\nClash [Activate: Battle] If your \"Sesshomaru\" is in a battle, give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-046.jpg?v=4798e19df290"
+  },
+  "ST5-047": {
+    "id": "ST5-047",
+    "face": {
+      "front": {
+        "name": "True Daiyokai Form",
+        "type": "ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-047.jpg?v=b4ade387885f",
+        "isHorizontal": false
+      }
+    },
+    "name": "True Daiyokai Form [ST5-047]",
+    "type": "Main_Deck",
+    "Number": "ST5-047",
+    "Card_Type": "Action",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Raid {1} Return 1 \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" to your JUMP Deck: Play up to 1 \"Sesshomaru\" from your hand. Then, at the end of the turn, return that card to your hand and place up to 1 \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" from your JUMP Deck on your field.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-047.jpg?v=b4ade387885f"
+  },
+  "ST5-048": {
+    "id": "ST5-048",
+    "face": {
+      "front": {
+        "name": "Tenseiga",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-048.jpg?v=0a10db8b2b43",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Tenseiga [ST5-048]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-048",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Accelcharge",
+      "Activate: Battle",
+      "Clash",
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Limit 1 Give your Leader or up to 1 of your Units with the \"Daiyokai\" Trait +1000 Power during your Opponent's next turn.\nClash [Activate: Battle] Return this card to your JUMP Deck: Accelcharge 1.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-048.jpg?v=0a10db8b2b43"
+  },
+  "ST5-049": {
+    "id": "ST5-049",
+    "face": {
+      "front": {
+        "name": "Tokijin",
+        "type": "JUMP ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-049.jpg?v=4cae3d3b7ada",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Tokijin [ST5-049]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-049",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Limit 1",
+      "On Play",
+      "Once per Turn"
+    ],
+    "Effect": "[On Play] Limit 1 Choose up to 1 of your Opponent's Units and give it -3000 Power for the turn.\n[Activate: Battle] Once per Turn If your \"Sesshomaru\" is in a battle: Give your card that's in a battle +1000 Power for the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-049.jpg?v=4cae3d3b7ada"
+  },
+  "ST5-050": {
+    "id": "ST5-050",
+    "face": {
+      "front": {
+        "name": "Bakusaiga",
+        "type": "JUMP ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-050.jpg?v=be81ef14f5e5",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Bakusaiga [ST5-050]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-050",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "On Play",
+      "Once per Turn"
+    ],
+    "Effect": "[On Play] Limit 1 Choose all of your Opponent's Units and give them -1000 Power for the turn.\n[Activate: Main] Once per Turn Remove 1 SJ Marker: Choose up to 1 of your Opponent's Units with 0 or less Power and K.O. it.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-050.jpg?v=be81ef14f5e5"
+  },
+  "ST5-126": {
+    "id": "ST5-126",
+    "face": {
+      "front": {
+        "name": "Sesshomaru",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-126.jpg?v=e8d25a98f316",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Sesshomaru [ST5-126]",
+    "type": "Main_Deck",
+    "Number": "ST5-126",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "ST5",
+    "Rarity": "SEC",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon",
+      "Daiyokai"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -5000 Power.\n[Activate: Main] Rest this card and remove 1 SJ Marker: Choose up to 1 of your Opponent's Units with 3000 or less Power and K.O. it. Then, draw 1 card; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-126.jpg?v=e8d25a98f316"
+  },
+  "PUP-085": {
+    "id": "PUP-085",
+    "face": {
+      "front": {
+        "name": "Kagura",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-085.jpg?v=b5ea0668b8c7",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kagura [PUP-085]",
+    "type": "Main_Deck",
+    "Number": "PUP-085",
+    "Card_Type": "Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card; place 1 card from your hand in your Drop. Then, if you have \"Tokijin\" or \"Bakusaiga\" on your field, choose up to 1 of your Opponent's Units and give it -1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-085.jpg?v=b5ea0668b8c7"
+  },
+  "PUP-086": {
+    "id": "PUP-086",
+    "face": {
+      "front": {
+        "name": "Naraku",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-086.jpg?v=4b1b02effb07",
+        "isHorizontal": false,
+        "sjCost": 2,
+        "power": 5000
+      }
+    },
+    "name": "Naraku [PUP-086]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-086",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Blocker",
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "Blocker\nPermanent When an Opponent's Unit is played or attacks, give your Leader and this card +1000 power for the turn.\n[On Play] Return 1 of your JUMP Actions to your JUMP Deck; Play up to 1 JUMP Action from your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-086.jpg?v=4b1b02effb07"
+  },
+  "PUP-087": {
+    "id": "PUP-087",
+    "face": {
+      "front": {
+        "name": "Meido Zangetsuha",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-087.jpg?v=d31e76220515",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Meido Zangetsuha [PUP-087]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-087",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Barrier",
+      "Clash",
+      "Opponent's Play"
+    ],
+    "Effect": "Clash [Opponent's Play] Remove this card from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -3000 Power and negate up to 1 of its Keyword skills until the end of your next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-087.jpg?v=d31e76220515"
+  },
+  "TOKEN-GT-INY": {
+    "id": "TOKEN-GT-INY",
+    "face": {
+      "front": {
+        "name": "Guard Token INY",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-INY.jpg?v=51aa6206aff4",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token INY",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-INY",
+    "Card_Type": "Guard Token",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-INY.jpg?v=51aa6206aff4",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-INY1": {
+    "id": "TOKEN-SJM-INY1",
+    "face": {
+      "front": {
+        "name": "SJ Marker INY1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-INY1.jpg?v=bb28f7f05afd",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker INY1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-INY1",
+    "Card_Type": "SJ Marker",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-INY1.jpg?v=bb28f7f05afd",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-INY2": {
+    "id": "TOKEN-SJM-INY2",
+    "face": {
+      "front": {
+        "name": "SJ Marker INY2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-INY2.jpg?v=11752208637f",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker INY2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-INY2",
+    "Card_Type": "SJ Marker",
+    "Color": "Red",
+    "Set": "INY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-INY2.jpg?v=11752208637f",
+    "isAccessory": true
   }
 }

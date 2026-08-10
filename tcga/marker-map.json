@@ -226,6 +226,14 @@
         "TOKEN-SJM-NOG2"
       ],
       "guardToken": "TOKEN-GT-NOG"
+    },
+    "INY": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-INY1",
+        "TOKEN-SJM-INY2"
+      ],
+      "guardToken": "TOKEN-GT-INY"
     }
   },
   "notes": {
@@ -571,6 +579,15 @@
         "TOKEN-SJM-ANE2"
       ],
       "guardToken": "TOKEN-GT-ANE"
+    },
+    "ST5-026": {
+      "set": "INY",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-INY1",
+        "TOKEN-SJM-INY2"
+      ],
+      "guardToken": "TOKEN-GT-INY"
     }
   }
 }
