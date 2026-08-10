@@ -41106,7 +41106,7 @@
         "name": "Naraku",
         "type": "JUMP UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-086.jpg?v=4b1b02effb07",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-086.jpg?v=b793ee945865",
         "isHorizontal": false,
         "sjCost": 2,
         "power": 5000
@@ -41133,10 +41133,10 @@
       "On Play",
       "Permanent"
     ],
-    "Effect": "Blocker\nPermanent When an Opponent's Unit is played or attacks, give your Leader and this card +1000 power for the turn.\n[On Play] Return 1 of your JUMP Actions to your JUMP Deck; Play up to 1 JUMP Action from your JUMP Deck.",
+    "Effect": "Blocker\nPermanent When an Opponent's Unit is played or attacks, give your Leader and this card +1000 power for the turn.\n[On Play] Return 1 of your JUMP Actions to your JUMP Deck: Play up to 1 JUMP Action from your JUMP Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-086.jpg?v=4b1b02effb07"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-086.jpg?v=b793ee945865"
   },
   "PUP-087": {
     "id": "PUP-087",
