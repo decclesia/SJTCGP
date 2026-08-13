@@ -228,7 +228,10 @@
         "TOKEN-SJM-ANE3",
         "TOKEN-GT-INY",
         "TOKEN-SJM-INY1",
-        "TOKEN-SJM-INY2"
+        "TOKEN-SJM-INY2",
+        "TOKEN-GT-NUR",
+        "TOKEN-SJM-NUR1",
+        "TOKEN-SJM-NUR2"
       ],
       "countersStartingValues": [
         0,

@@ -1,8 +1,8 @@
 {
-  "website_cards": 990,
-  "card_text_records": 990,
-  "arena_entries": 1096,
-  "st5_red_rarities": {
+  "website_cards": 1018,
+  "card_text_records": 1018,
+  "arena_entries": 1127,
+  "st5_green_rarities": {
     "L": 1,
     "SR": 3,
     "R": 5,
@@ -10,22 +10,20 @@
     "C": 8
   },
   "promos": [
-    "PUP-085",
-    "PUP-086",
-    "PUP-087"
+    "PUP-088",
+    "PUP-089",
+    "PUP-090"
   ],
   "landscape_jump_actions": [
-    "ST5-048",
-    "ST5-049",
-    "ST5-050",
-    "PUP-087"
+    "ST5-075",
+    "PUP-090"
   ],
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "st5_red_accessories": [
-    "GT-INY",
-    "SJM-INY1",
-    "SJM-INY2"
+  "st5_green_accessories": [
+    "GT-NUR",
+    "SJM-NUR1",
+    "SJM-NUR2"
   ]
 }

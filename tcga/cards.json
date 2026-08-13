@@ -41269,5 +41269,1175 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-INY2.jpg?v=11752208637f",
     "isAccessory": true
+  },
+  "ST5-051": {
+    "id": "ST5-051",
+    "face": {
+      "front": {
+        "name": "Nura Rikuo",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-051.jpg?v=45d91eadfd1b",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Nura Rikuo [ST5-051]",
+    "type": "Leader",
+    "Number": "ST5-051",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Opponent's Turn",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Draw 1 card; the next Unit with an original Cost of 3 or more and the \"Nura Clan\" Trait you play from your hand this turn costs 1 less.\nThreshold 3 [Opponent's Turn] If this card is Rested, your Units with an original Cost of 4 or more and the \"Nura Clan\" Trait gain +1000 Power.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-051.jpg?v=45d91eadfd1b"
+  },
+  "ST5-052": {
+    "id": "ST5-052",
+    "face": {
+      "front": {
+        "name": "Nura Rihan",
+        "type": "UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-052.jpg?v=7a5aa44585f2",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Nura Rihan [ST5-052]",
+    "type": "Main_Deck",
+    "Number": "ST5-052",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Barrier",
+      "Critical",
+      "On Play",
+      "Once per Turn"
+    ],
+    "Effect": "Critical\n[On Play] Give this card Barrier until the end of your Opponent's next turn.\n[Activate: Main] Once per Turn (3) Switch this card to Active mode. Then, add up to 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-052.jpg?v=7a5aa44585f2"
+  },
+  "ST5-053": {
+    "id": "ST5-053",
+    "face": {
+      "front": {
+        "name": "Nurarihyon",
+        "type": "UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-053.jpg?v=88929c6ac197",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Nurarihyon [ST5-053]",
+    "type": "Main_Deck",
+    "Number": "ST5-053",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Blocker",
+      "Elusive",
+      "Once per Turn"
+    ],
+    "Effect": "Elusive Blocker\n[Activate: Main] Once per Turn If this card was played this turn, switch your \"Nura Rikuo\" Leader to Active mode. Then, add up to 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-053.jpg?v=88929c6ac197"
+  },
+  "ST5-054": {
+    "id": "ST5-054",
+    "face": {
+      "front": {
+        "name": "Nura Rikuo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-054.jpg?v=c430bbadcf9a",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Nura Rikuo [ST5-054]",
+    "type": "Main_Deck",
+    "Number": "ST5-054",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Barrier",
+      "On Play"
+    ],
+    "Effect": "[On Play] (1) Draw 1 card; play up to 1 Unit card with a Cost of 3 and the \"Nura Clan\" Trait from your hand. Then, give up to 2 of your Units Barrier until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-054.jpg?v=c430bbadcf9a"
+  },
+  "ST5-055": {
+    "id": "ST5-055",
+    "face": {
+      "front": {
+        "name": "Oikawa Tsurara",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-055.jpg?v=9a2465043784",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Oikawa Tsurara [ST5-055]",
+    "type": "Main_Deck",
+    "Number": "ST5-055",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Nura Clan\" Trait: Rest your Leader or (1): Draw 3 cards; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-055.jpg?v=9a2465043784"
+  },
+  "ST5-056": {
+    "id": "ST5-056",
+    "face": {
+      "front": {
+        "name": "Gyuki",
+        "type": "UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-056.jpg?v=c1c4c254ac4c",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Gyuki [ST5-056]",
+    "type": "Main_Deck",
+    "Number": "ST5-056",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Blocker",
+      "On Block",
+      "Permanent"
+    ],
+    "Effect": "Blocker\nPermanent This card in Active mode cannot be K.O.'d by your Opponent's skills.\n[On Block] (1) If your Leader has the \"Nura Clan\" Trait: Choose up to 2 of your Opponent's Units with a Cost of 3 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-056.jpg?v=c1c4c254ac4c"
+  },
+  "ST5-057": {
+    "id": "ST5-057",
+    "face": {
+      "front": {
+        "name": "Aotabo",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-057.jpg?v=8d0938d3aa0a",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Aotabo [ST5-057]",
+    "type": "Main_Deck",
+    "Number": "ST5-057",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Duel",
+      "On Attack",
+      "Once per Turn"
+    ],
+    "Effect": "Duel\n[On Attack] Once per Turn If you have 3 or more Rested Units, draw 1 card; add up to 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-057.jpg?v=8d0938d3aa0a"
+  },
+  "ST5-058": {
+    "id": "ST5-058",
+    "face": {
+      "front": {
+        "name": "Kurotabo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-058.jpg?v=4b2f41725b10",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kurotabo [ST5-058]",
+    "type": "Main_Deck",
+    "Number": "ST5-058",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 2000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "Opponent's Turn"
+    ],
+    "Effect": "[Opponent's Turn] Give this Rested card +1000 Power.\n[On K.O.] Add 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-058.jpg?v=4b2f41725b10"
+  },
+  "ST5-059": {
+    "id": "ST5-059",
+    "face": {
+      "front": {
+        "name": "Kubinashi",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-059.jpg?v=c035f3fb4a94",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kubinashi [ST5-059]",
+    "type": "Main_Deck",
+    "Number": "ST5-059",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Elusive",
+      "Limit 1",
+      "On Play / On Attack"
+    ],
+    "Effect": "Elusive\n[On Play / On Attack] Limit 1 Choose up to 2 of your Opponent's Units with a Cost of 1 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-059.jpg?v=c035f3fb4a94"
+  },
+  "ST5-060": {
+    "id": "ST5-060",
+    "face": {
+      "front": {
+        "name": "Kejoro",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-060.jpg?v=11fbbf6a2cb9",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kejoro [ST5-060]",
+    "type": "Main_Deck",
+    "Number": "ST5-060",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Charge",
+      "Elusive",
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "Elusive\n[On Play] If your Leader has the \"Nura Clan\" Trait, Charge 3. Then, you cannot Charge or play Unit cards for the turn.\n[On K.O.] Remove 1 of your Opponent's Energy Markers.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-060.jpg?v=11fbbf6a2cb9"
+  },
+  "ST5-061": {
+    "id": "ST5-061",
+    "face": {
+      "front": {
+        "name": "Zen",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-061.jpg?v=e2ead928f5c0",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Zen [ST5-061]",
+    "type": "Main_Deck",
+    "Number": "ST5-061",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Permanent"
+    ],
+    "Effect": "Permanent If you have a \"Nura Rikuo\" Unit with a Cost of 4 or more, give this card Blocker.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-061.jpg?v=e2ead928f5c0"
+  },
+  "ST5-062": {
+    "id": "ST5-062",
+    "face": {
+      "front": {
+        "name": "Sasami",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-062.jpg?v=a845387840d8",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Sasami [ST5-062]",
+    "type": "Main_Deck",
+    "Number": "ST5-062",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "On Play"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[Activate: Main] Limit 1 Place this card in your Drop: Give your \"Nura Rikuo\" Leader +2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-062.jpg?v=a845387840d8"
+  },
+  "ST5-063": {
+    "id": "ST5-063",
+    "face": {
+      "front": {
+        "name": "Nura Rikuo",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-063.jpg?v=a4dd456dcdbc",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Nura Rikuo [ST5-063]",
+    "type": "Main_Deck",
+    "Number": "ST5-063",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Draw 1 card; place this card in your Drop. Then, play up to 1 Unit card with a Cost of 5 or less and the \"Nura Clan\" Trait from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-063.jpg?v=a4dd456dcdbc"
+  },
+  "ST5-064": {
+    "id": "ST5-064",
+    "face": {
+      "front": {
+        "name": "Kappa",
+        "type": "UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-064.jpg?v=4b7049eb4891",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kappa [ST5-064]",
+    "type": "Main_Deck",
+    "Number": "ST5-064",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; place up to 1 Unit card with the \"Nura Clan\" Trait in your Drop and add up to 1 card with the \"Nura Clan\" Trait to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-064.jpg?v=4b7049eb4891"
+  },
+  "ST5-065": {
+    "id": "ST5-065",
+    "face": {
+      "front": {
+        "name": "Jami",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-065.jpg?v=8ac72402dd2c",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Jami [ST5-065]",
+    "type": "Main_Deck",
+    "Number": "ST5-065",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "Permanent If there are 2 or more cards with the \"Nura Clan\" Trait in your Drop, give this card +1000 Power.\n[On Play] Choose up to 2 of your Opponent's Units with a Cost of 2 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-065.jpg?v=8ac72402dd2c"
+  },
+  "ST5-066": {
+    "id": "ST5-066",
+    "face": {
+      "front": {
+        "name": "Nura Wakana",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-066.jpg?v=5dbc783361c2",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Nura Wakana [ST5-066]",
+    "type": "Main_Deck",
+    "Number": "ST5-066",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Look at the top 5 cards of your Deck; add up to 1 card with the \"Nura Clan\" Trait to your hand. Then, shuffle your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-066.jpg?v=5dbc783361c2"
+  },
+  "ST5-067": {
+    "id": "ST5-067",
+    "face": {
+      "front": {
+        "name": "Gozumaru",
+        "type": "UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-067.jpg?v=88fed1e8bea3",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Gozumaru [ST5-067]",
+    "type": "Main_Deck",
+    "Number": "ST5-067",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Elusive",
+      "Limit 1",
+      "On Play / On Attack"
+    ],
+    "Effect": "Elusive\n[On Play / On Attack] Limit 1 Choose up to 2 of your Opponent's Units with a combined Cost of 5 or less and K.O. them.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-067.jpg?v=88fed1e8bea3"
+  },
+  "ST5-068": {
+    "id": "ST5-068",
+    "face": {
+      "front": {
+        "name": "Mezumaru",
+        "type": "UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-068.jpg?v=a08217b3212b",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Mezumaru [ST5-068]",
+    "type": "Main_Deck",
+    "Number": "ST5-068",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Duel",
+      "On Attack",
+      "Overcharge"
+    ],
+    "Effect": "Duel\n[On Attack] If you have 3 or more Rested Units, Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-068.jpg?v=a08217b3212b"
+  },
+  "ST5-069": {
+    "id": "ST5-069",
+    "face": {
+      "front": {
+        "name": "Hyakki Yako",
+        "type": "ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-069.jpg?v=64a093e13fa2",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hyakki Yako [ST5-069]",
+    "type": "Main_Deck",
+    "Number": "ST5-069",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Nura Clan",
+      "Fear"
+    ],
+    "Keywords": [
+      "Activate: Main / Battle",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main / Battle] Limit 1 Add 1 card from your Life to your hand: Play up to 2 Unit cards with a Cost of 5 or less and the \"Nura Clan\" Trait from your Drop Rested. Then, if it's your Opponent's turn, give your Leader +4000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-069.jpg?v=64a093e13fa2"
+  },
+  "ST5-070": {
+    "id": "ST5-070",
+    "face": {
+      "front": {
+        "name": "Matoi",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-070.jpg?v=d39b1a6811b7",
+        "isHorizontal": false
+      }
+    },
+    "name": "Matoi [ST5-070]",
+    "type": "Main_Deck",
+    "Number": "ST5-070",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Nura Clan",
+      "Fear"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Barrier",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and Rest it.\nClash [Activate: Battle] Raid {1} Choose up to 1 of your Opponent's Rested Units with a Cost of 4 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-070.jpg?v=d39b1a6811b7"
+  },
+  "ST5-071": {
+    "id": "ST5-071",
+    "face": {
+      "front": {
+        "name": "Nura Clan Main House",
+        "type": "ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-071.jpg?v=6be82c70dbd6",
+        "isHorizontal": false
+      }
+    },
+    "name": "Nura Clan Main House [ST5-071]",
+    "type": "Main_Deck",
+    "Number": "ST5-071",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Nura Clan"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "Overcharge"
+    ],
+    "Effect": "Scene\n[Activate: Main] Limit 1 Rest this card and place 1 Unit card with the \"Nura Clan\" Trait from your hand in your Drop: Overcharge 1. Then, give the next Unit card with an original Cost of 4 or more and the \"Nura Clan\" Trait you play from your hand this turn +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-071.jpg?v=6be82c70dbd6"
+  },
+  "ST5-072": {
+    "id": "ST5-072",
+    "face": {
+      "front": {
+        "name": "Nenekirimaru",
+        "type": "ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-072.jpg?v=82b4e064ccb7",
+        "isHorizontal": false
+      }
+    },
+    "name": "Nenekirimaru [ST5-072]",
+    "type": "Main_Deck",
+    "Number": "ST5-072",
+    "Card_Type": "Action",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Weapon"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Give your Leader or up to 1 of your Units +2000 Power for the battle. Then, switch up to 1 of your Units with the \"Nura Clan\" Trait to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-072.jpg?v=82b4e064ccb7"
+  },
+  "ST5-073": {
+    "id": "ST5-073",
+    "face": {
+      "front": {
+        "name": "Shoei",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-073.jpg?v=6d87fdd792be",
+        "isHorizontal": false,
+        "sjCost": 2,
+        "power": 7000
+      }
+    },
+    "name": "Shoei [ST5-073]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-073",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 7000,
+    "Counter": null,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Charge",
+      "On Attack",
+      "On Play"
+    ],
+    "Effect": "[On Play] Play up to 1 Unit card with a Cost of 3 and the \"Nura Clan\" Trait from your Drop Rested.\n[On Attack] (1) Charge 2 and you can't Charge for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-073.jpg?v=6d87fdd792be"
+  },
+  "ST5-074": {
+    "id": "ST5-074",
+    "face": {
+      "front": {
+        "name": "Oikawa Tsurara",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-074.jpg?v=47b57229e20d",
+        "isHorizontal": false,
+        "sjCost": 1,
+        "power": 5000
+      }
+    },
+    "name": "Oikawa Tsurara [ST5-074]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-074",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Blocker",
+      "Deflect",
+      "On Play"
+    ],
+    "Effect": "Deflect Blocker\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and K.O. it.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-074.jpg?v=47b57229e20d"
+  },
+  "ST5-075": {
+    "id": "ST5-075",
+    "face": {
+      "front": {
+        "name": "Kyoka Suigetsu",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-075.jpg?v=0fcf509372c9",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Kyoka Suigetsu [ST5-075]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-075",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "ST5",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Clash",
+      "Deflect",
+      "Opponent's Attack",
+      "Permanent"
+    ],
+    "Effect": "Permanent Your \"Nura Rikuo\" Units are played having gained Deflect.\nClash [Opponent's Attack] (1) Remove this card from the game: If your \"Nura Rikuo\" is in a battle, negate the attack.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-075.jpg?v=0fcf509372c9"
+  },
+  "PUP-088": {
+    "id": "PUP-088",
+    "face": {
+      "front": {
+        "name": "Yohime",
+        "type": "UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-088.jpg?v=5bff90f46025",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Yohime [PUP-088]",
+    "type": "Main_Deck",
+    "Number": "PUP-088",
+    "Card_Type": "Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play"
+    ],
+    "Effect": "[On Play] Rest this card: Choose up to 1 of your Units with a Cost of 3 or less and the \"Nura Clan\" Trait and switch it to Active mode.\n[On K.O.] Your Opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-088.jpg?v=5bff90f46025"
+  },
+  "PUP-089": {
+    "id": "PUP-089",
+    "face": {
+      "front": {
+        "name": "Nura Rikuo",
+        "type": "JUMP UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-089.jpg?v=8d1bd9159ecd",
+        "isHorizontal": false,
+        "sjCost": 3,
+        "power": 8000
+      }
+    },
+    "name": "Nura Rikuo [PUP-089]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-089",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 6,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 8000,
+    "Counter": null,
+    "Traits": [
+      "Nura Clan",
+      "Yokai"
+    ],
+    "Keywords": [
+      "Clash",
+      "On Attack",
+      "Opponent's Attack"
+    ],
+    "Effect": "[On Attack] Add up to 1 Unit card with the \"Nura Clan\" Trait from your Drop to your hand.\nClash [Opponent's Attack] Remove 1 SJ Marker: If your \"Nura Rikuo\" is in a battle, give this card -1000 Power for the turn and give that card +1000 Power for the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-089.jpg?v=8d1bd9159ecd"
+  },
+  "PUP-090": {
+    "id": "PUP-090",
+    "face": {
+      "front": {
+        "name": "Osore",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-090.jpg?v=b8d4f2d110c4",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Osore [PUP-090]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-090",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Clash",
+      "Opponent's Play"
+    ],
+    "Effect": "Clash [Opponent's Play] Remove this card from the game: Place 1 card from your Opponent's hand in their Drop and remove 1 of their SJ Markers.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-090.jpg?v=b8d4f2d110c4"
+  },
+  "TOKEN-GT-NUR": {
+    "id": "TOKEN-GT-NUR",
+    "face": {
+      "front": {
+        "name": "Guard Token NUR",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-NUR.jpg?v=4b72d6786025",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token NUR",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-NUR",
+    "Card_Type": "Guard Token",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-NUR.jpg?v=4b72d6786025",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-NUR1": {
+    "id": "TOKEN-SJM-NUR1",
+    "face": {
+      "front": {
+        "name": "SJ Marker NUR1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NUR1.jpg?v=44c330433693",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker NUR1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-NUR1",
+    "Card_Type": "SJ Marker",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NUR1.jpg?v=44c330433693",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-NUR2": {
+    "id": "TOKEN-SJM-NUR2",
+    "face": {
+      "front": {
+        "name": "SJ Marker NUR2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NUR2.jpg?v=bd4bfaac291f",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker NUR2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-NUR2",
+    "Card_Type": "SJ Marker",
+    "Color": "Green",
+    "Set": "NUR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NUR2.jpg?v=bd4bfaac291f",
+    "isAccessory": true
   }
 }
