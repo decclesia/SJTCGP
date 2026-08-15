@@ -21650,7 +21650,7 @@
         "name": "Tao Ren",
         "type": "JUMP UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg?v=b0df2799df0c",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg?v=a6f66b29af36",
         "isHorizontal": false,
         "power": 4000,
         "sjCost": 2
@@ -21681,7 +21681,7 @@
     "Effect": "Deflect\n[On Play] Place up to 3 \"Bason\" cards from your Drop under your Leader with their skills negated for the turn.\n[Activate: Battle] Once per Turn Use up to 1 \"Bason\" card from under your Leader or 1 of your Units in a combo.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg?v=b0df2799df0c"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg?v=a6f66b29af36"
   },
   "PUP-021": {
     "id": "PUP-021",
@@ -43420,5 +43420,44 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-XHL2.jpg?v=b8a409ba1faa",
     "isAccessory": true
+  },
+  "ST5-128": {
+    "id": "ST5-128",
+    "face": {
+      "front": {
+        "name": "Asakura Yoh",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-128.jpg?v=db96a57dc358",
+        "isHorizontal": false,
+        "power": 3000,
+        "sjCost": 1
+      }
+    },
+    "name": "Asakura Yoh [ST5-128]",
+    "type": "JUMP_Deck",
+    "Number": "ST5-128",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "SMK",
+    "Release": "ST5",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 3000,
+    "Counter": null,
+    "Traits": [
+      "Shaman"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[Opponent's Turn] If 1 of your Units would be removed from your field by an Opponent's skill: You may instead return all cards from under it to your hand instead. Then, remove this card from the game.\n[On Play] Add up to 1 card from under your Leader or 1 of your Units to your hand; place up to 1 card from your hand under your Leader or 1 of your Units.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-128.jpg?v=db96a57dc358"
   }
 }

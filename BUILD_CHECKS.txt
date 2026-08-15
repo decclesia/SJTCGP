@@ -1,26 +1,19 @@
 {
-  "website_cards": 1041,
-  "card_text_records": 1041,
-  "arena_entries": 1153,
-  "ex6_green_rarities": {
-    "L": 1,
-    "SR": 3,
-    "R": 17
+  "website_cards": 1042,
+  "card_text_records": 1042,
+  "arena_entries": 1154,
+  "new_card": "ST5-128",
+  "visual_refresh": "PUP-020",
+  "st5_128": {
+    "name": "Asakura Yoh",
+    "set": "SMK",
+    "color": "Blue",
+    "type": "JUMP Unit",
+    "rarity": "R",
+    "orientation": "Portrait",
+    "deck_limit": 1
   },
-  "promos": [
-    "PUP-101",
-    "PUP-102"
-  ],
-  "landscape_jump_actions": [
-    "EX6-021",
-    "PUP-102"
-  ],
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
-  "arena_opening_hand": 6,
-  "ex6_green_accessories": [
-    "GT-XHL",
-    "SJM-XHL1",
-    "SJM-XHL2"
-  ]
+  "arena_opening_hand": 6
 }

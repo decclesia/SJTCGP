@@ -7362,6 +7362,18 @@
     "imageVersion": "7fbf7d6a66da"
   },
   {
+    "number": "ST5-128",
+    "release": "ST5",
+    "set": "SMK",
+    "color": "Blue",
+    "image": "images/ST5-128.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "db96a57dc358"
+  },
+  {
     "number": "EX1-001",
     "release": "EX1",
     "set": "GKA",
@@ -11511,7 +11523,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "b0df2799df0c"
+    "imageVersion": "a6f66b29af36"
   },
   {
     "number": "PUP-021",
