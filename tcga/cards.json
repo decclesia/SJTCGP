@@ -42439,5 +42439,986 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-NUR2.jpg?v=bd4bfaac291f",
     "isAccessory": true
+  },
+  "EX6-001": {
+    "id": "EX6-001",
+    "face": {
+      "front": {
+        "name": "Yuko Ichihara",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-001.jpg?v=a6f163c615e6",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Yuko Ichihara [EX6-001]",
+    "type": "Leader",
+    "Number": "EX6-001",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Witch"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Turn",
+      "Once per Turn",
+      "Permanent",
+      "Threshold",
+      "Blocker"
+    ],
+    "Effect": "Permanent Face-up cards in a player's JUMP Zone are treated as SJ Markers.\nPermanent This card can't attack.\n[Activate: Main] Once per Turn Place 1 card from your hand in your JUMP Zone face-up: Draw 1 card.\nThreshold 2 [Opponent's Turn] Give this card +1000 Power and Blocker.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-001.jpg?v=a6f163c615e6"
+  },
+  "EX6-002": {
+    "id": "EX6-002",
+    "face": {
+      "front": {
+        "name": "Yuko Ichihara",
+        "type": "MAIN DECK",
+        "cost": 10,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-002.jpg?v=c0f64ab31dcc",
+        "isHorizontal": false,
+        "power": 9000
+      }
+    },
+    "name": "Yuko Ichihara [EX6-002]",
+    "type": "Main_Deck",
+    "Number": "EX6-002",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "SR",
+    "Cost": 10,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 9000,
+    "Counter": 0,
+    "Traits": [
+      "Witch"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Clash",
+      "Deflect",
+      "Unique"
+    ],
+    "Effect": "Deflect Unique\n[Your Turn] If your Leader is \"Yuko Ichihara\", give this card in your hand -2 Cost (max. -8) for each card in your Opponent's JUMP Zone.\n[On Play] Choose up to a total of 3 Unit cards in your Opponent's Drop or field and add them to their owner's JUMP Zone face-up. Then, during this turn, if your Opponent activates a Clash skill, they must add 1 card from their hand to its owner's JUMP Zone face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-002.jpg?v=c0f64ab31dcc"
+  },
+  "EX6-003": {
+    "id": "EX6-003",
+    "face": {
+      "front": {
+        "name": "Kimihiro Watanuki",
+        "type": "MAIN DECK",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-003.jpg?v=67fd5f6d67d0",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kimihiro Watanuki [EX6-003]",
+    "type": "Main_Deck",
+    "Number": "EX6-003",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Spirit Medium"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "Limit 1",
+      "Barrier",
+      "Deflect",
+      "Raid"
+    ],
+    "Effect": "Deflect Barrier\n[On Attack] Limit 1 Draw 1 card. Then, if this card is in a battle with your Opponent's Leader and there are no cards in your Opponent's Combo Area at the beginning of that battle's Damage Step, draw 1 card.\n[Activate: Main] Raid {2} If your Leader is \"Yuko Ichihara\": Play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-003.jpg?v=67fd5f6d67d0"
+  },
+  "EX6-004": {
+    "id": "EX6-004",
+    "face": {
+      "front": {
+        "name": "Shizuka Doumeki",
+        "type": "MAIN DECK",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-004.jpg?v=e58877b36292",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Shizuka Doumeki [EX6-004]",
+    "type": "Main_Deck",
+    "Number": "EX6-004",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "On Attack",
+      "Unique"
+    ],
+    "Effect": "Unique\n[On Attack] Choose up to 1 of your Opponent's Units with no keyword skills: Add it to its owner's JUMP Zone face-up.\n[Activate: Main] Once per Turn Remove 2 SJ Markers: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-004.jpg?v=e58877b36292"
+  },
+  "EX6-005": {
+    "id": "EX6-005",
+    "face": {
+      "front": {
+        "name": "Mokona Modoki",
+        "type": "MAIN DECK",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-005.jpg?v=f0039bcfdd02",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Mokona Modoki [EX6-005]",
+    "type": "Main_Deck",
+    "Number": "EX6-005",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Familiar"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Look at 3 cards from the top of your Deck; place them at the top or bottom of your Deck in any order. Then, draw 1 card.\n[Activate: Main] Limit 1 If your Leader is \"Yuko Ichihara\": Add this card to your JUMP Zone face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-005.jpg?v=f0039bcfdd02"
+  },
+  "EX6-006": {
+    "id": "EX6-006",
+    "face": {
+      "front": {
+        "name": "Maru & Moro",
+        "type": "MAIN DECK",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-006.jpg?v=59c6185ff14f",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Maru & Moro [EX6-006]",
+    "type": "Main_Deck",
+    "Number": "EX6-006",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Familiar"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On K.O.",
+      "Limit 1",
+      "Barrier",
+      "Blocker",
+      "Clash"
+    ],
+    "Effect": "Barrier Blocker\nClash [Activate: Battle] Limit 1 If your Leader is \"Yuko Ichihara\" and your Opponent has 4 or more cards in their JUMP Zone: Play this card from your hand; draw 1 card.\n[On K.O.] Add this card to your JUMP Zone face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-006.jpg?v=59c6185ff14f"
+  },
+  "EX6-007": {
+    "id": "EX6-007",
+    "face": {
+      "front": {
+        "name": "Himawari Kunogi",
+        "type": "MAIN DECK",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-007.jpg?v=87d1cb7b383c",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Himawari Kunogi [EX6-007]",
+    "type": "Main_Deck",
+    "Number": "EX6-007",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Accursed"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Draw 2 cards; add 1 card from your hand in your JUMP Zone face-up.\n[Activate: Battle] Limit 1 If your Leader is \"Yuko Ichihara\" and your opponent has 3 or less cards in their JUMP Zone: When you combo with this card, your Opponent draws 1 card. Then, your Opponent adds 1 card from their hand in their JUMP Zone face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-007.jpg?v=87d1cb7b383c"
+  },
+  "EX6-008": {
+    "id": "EX6-008",
+    "face": {
+      "front": {
+        "name": "Kohane Tsuyuri",
+        "type": "MAIN DECK",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-008.jpg?v=b1e0ba540294",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kohane Tsuyuri [EX6-008]",
+    "type": "Main_Deck",
+    "Number": "EX6-008",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Spirit Medium"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Clash",
+      "Raid"
+    ],
+    "Effect": "Clash [Opponent's Play] Raid {2} If your Leader is \"Yuko Ichihara\": Play this card from your hand Rested. Then, if the Unit being played has a Cost of 3 or less, it is placed in its owner's Drop instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-008.jpg?v=b1e0ba540294"
+  },
+  "EX6-009": {
+    "id": "EX6-009",
+    "face": {
+      "front": {
+        "name": "Mugetsu",
+        "type": "MAIN DECK",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-009.jpg?v=1a5894711885",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Mugetsu [EX6-009]",
+    "type": "Main_Deck",
+    "Number": "EX6-009",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Familiar"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[Activate: Battle] Limit 1 If your Leader is \"Yuko Ichihara\" and your opponent has 3 or less cards in their JUMP Zone: When you combo with this card, your Opponent draws 1 card. Then, your Opponent adds 1 card from their hand in their JUMP Zone face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-009.jpg?v=1a5894711885"
+  },
+  "EX6-010": {
+    "id": "EX6-010",
+    "face": {
+      "front": {
+        "name": "Ame-warashi",
+        "type": "MAIN DECK",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-010.jpg?v=0589085938ab",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Ame-warashi [EX6-010]",
+    "type": "Main_Deck",
+    "Number": "EX6-010",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Spirit"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Raid"
+    ],
+    "Effect": "[On Play] Draw 1 card; your Opponent draws 1 card. Then, your Opponent adds 1 card from their hand in their JUMP Zone face-up.\n[Activate: Main] Limit 1 Raid {1} If your Leader is \"Yuko Ichihara\": Play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-010.jpg?v=0589085938ab"
+  },
+  "EX6-011": {
+    "id": "EX6-011",
+    "face": {
+      "front": {
+        "name": "Zashiki-warashi",
+        "type": "MAIN DECK",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-011.jpg?v=b5ccc79e1295",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Zashiki-warashi [EX6-011]",
+    "type": "Main_Deck",
+    "Number": "EX6-011",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Spirit"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Your Opponent draws 1 card. Then, your Opponent adds 1 card from their hand in their JUMP Zone face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-011.jpg?v=b5ccc79e1295"
+  },
+  "EX6-012": {
+    "id": "EX6-012",
+    "face": {
+      "front": {
+        "name": "Haruka Doumeki",
+        "type": "MAIN DECK",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-012.jpg?v=43771802fc26",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Haruka Doumeki [EX6-012]",
+    "type": "Main_Deck",
+    "Number": "EX6-012",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Barrier",
+      "Raid"
+    ],
+    "Effect": "[On Play] When this card is played from your hand: Add this card to your JUMP Zone face-up; choose up to 1 of your Opponent's Units with a Cost of 5 or less, ignoring Barrier, and add it in its owner's JUMP Zone face-up. Then, at the start of your next turn, play this face-up card from your JUMP Zone.\n[Activate: Main] Limit 1 Raid {2} If your Leader is \"Yuko Ichihara\": Play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-012.jpg?v=43771802fc26"
+  },
+  "EX6-013": {
+    "id": "EX6-013",
+    "face": {
+      "front": {
+        "name": "Jorogumo",
+        "type": "MAIN DECK",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-013.jpg?v=ee9d6d4b244e",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Jorogumo [EX6-013]",
+    "type": "Main_Deck",
+    "Number": "EX6-013",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Yokai"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Limit 1",
+      "Raid"
+    ],
+    "Effect": "[Activate: Battle] Raid {1} If your Opponent has 6 or more cards in their JUMP Zone: Add this card to your JUMP Zone face-up; your Opponent adds 2 cards from their hand in their JUMP Zone face-up.\n[Activate: Main] Limit 1 Raid {1} If your Leader is \"Yuko Ichihara\": Play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-013.jpg?v=ee9d6d4b244e"
+  },
+  "EX6-014": {
+    "id": "EX6-014",
+    "face": {
+      "front": {
+        "name": "Yuko Ichihara",
+        "type": "MAIN DECK",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-014.jpg?v=106f975840c1",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Yuko Ichihara [EX6-014]",
+    "type": "Main_Deck",
+    "Number": "EX6-014",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Double Damage",
+      "On Attack",
+      "Limit 1",
+      "Unique"
+    ],
+    "Effect": "Unique\n[On Attack] Choose up to 1 of your Opponent's Units with a Cost equal to or less than the number of face-up cards in both players' JUMP Zones: Add it in your Opponent's JUMP Zone face-up. Then, add up to 1 card from your Opponent's Drop in their JUMP Zone face-up.\n[Activate: Battle] Limit 1 If there are 4 or more face-up cards in your Opponent's JUMP Zone, give this card Double Damage for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-014.jpg?v=106f975840c1"
+  },
+  "EX6-015": {
+    "id": "EX6-015",
+    "face": {
+      "front": {
+        "name": "Kimihiro Watanuki",
+        "type": "MAIN DECK",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-015.jpg?v=7fcd618ef748",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kimihiro Watanuki [EX6-015]",
+    "type": "Main_Deck",
+    "Number": "EX6-015",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Spirit Medium"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Turn",
+      "Permanent",
+      "Limit 1",
+      "Raid"
+    ],
+    "Effect": "Permanent If this card is removed from your field by an Opponent's skill or K.O.'d, your Opponent adds 1 card from their hand in their JUMP Zone face-up.\n[Opponent's Turn] If you have 2 or more face-up cards in your JUMP Zone, give this card +2000 Power.\n[Activate: Main] Limit 1 Raid {1} If your Leader is \"Yuko Ichihara\": Play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-015.jpg?v=7fcd618ef748"
+  },
+  "EX6-016": {
+    "id": "EX6-016",
+    "face": {
+      "front": {
+        "name": "Hitsuzen",
+        "type": "MAIN DECK",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-016.jpg?v=9d12c523151e",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hitsuzen [EX6-016]",
+    "type": "Main_Deck",
+    "Number": "EX6-016",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Wish Shop"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Yuko Ichihara\" and you add 1 card from your Life to your hand: If your Opponent's Leader Threshold skill isn't active and they have 3 or less cards in their JUMP Zone, add 1 card from your Opponent's Life in their JUMP Zone face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-016.jpg?v=9d12c523151e"
+  },
+  "EX6-017": {
+    "id": "EX6-017",
+    "face": {
+      "front": {
+        "name": "Consultation",
+        "type": "MAIN DECK",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-017.jpg?v=23c6ab791edd",
+        "isHorizontal": false
+      }
+    },
+    "name": "Consultation [EX6-017]",
+    "type": "Main_Deck",
+    "Number": "EX6-017",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Wish Shop"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] Limit 1 When a card is removed from your JUMP Zone: Place this face-up card from your JUMP Zone in your Drop; give your \"Yuko Ichihara\" Leader +1000 Power until the end of your Opponent's next turn.\n[Activate: Main] Limit 1 Add 1 Action card with the \"Wish Shop\" Trait from your hand in your JUMP Zone face-up: Draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-017.jpg?v=23c6ab791edd"
+  },
+  "EX6-018": {
+    "id": "EX6-018",
+    "face": {
+      "front": {
+        "name": "Monkey's Paw",
+        "type": "MAIN DECK",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-018.jpg?v=3e5942c13353",
+        "isHorizontal": false
+      }
+    },
+    "name": "Monkey's Paw [EX6-018]",
+    "type": "Main_Deck",
+    "Number": "EX6-018",
+    "Card_Type": "Main Deck",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Wish Shop"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 If your Leader is \"Yuko Ichihara\": Remove 2 SJ Markers; play up to 1 Unit card with a Cost of 5 or less from your hand or Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-018.jpg?v=3e5942c13353"
+  },
+  "EX6-019": {
+    "id": "EX6-019",
+    "face": {
+      "front": {
+        "name": "Kimihiro Watanuki",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-019.jpg?v=6b764334fd02",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Kimihiro Watanuki [EX6-019]",
+    "type": "JUMP_Deck",
+    "Number": "EX6-019",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Spirit Medium"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Add 1 face-up card from your JUMP Zone to your hand.\n[Activate: Main] Limit 1 Return this card to your JUMP Deck: Add up to 1 Action card with the \"Wish Shop\" Trait from your Drop to your hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-019.jpg?v=6b764334fd02"
+  },
+  "EX6-020": {
+    "id": "EX6-020",
+    "face": {
+      "front": {
+        "name": "Shizuka Doumeki",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX6-020.jpg?v=383a2edea3a5",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Shizuka Doumeki [EX6-020]",
+    "type": "JUMP_Deck",
+    "Number": "EX6-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Exorcist"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Duel"
+    ],
+    "Effect": "Duel\n[Your Turn] If this card K.O.'s an Opponent's Unit by battle, add that card to its owner's JUMP Zone face-up.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX6-020.jpg?v=383a2edea3a5"
+  },
+  "EX6-021": {
+    "id": "EX6-021",
+    "face": {
+      "front": {
+        "name": "Yuko's Wish Shop",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX6-021.jpg?v=309482616410",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Yuko's Wish Shop [EX6-021]",
+    "type": "JUMP_Deck",
+    "Number": "EX6-021",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "EX6",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Your Turn",
+      "Overcharge"
+    ],
+    "Effect": "[Your Turn] Once per Turn If your Leader is \"Yuko Ichihara\": When you add a card in your JUMP Zone, Overcharge 1.\n[Activate: Main] Once per Turn Remove 2 SJ Markers: Add up to 1 card from your Opponent's Drop in their JUMP Zone face-up and it can't be removed from your Opponent's JUMP Zone until the end of your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX6-021.jpg?v=309482616410"
+  },
+  "PUP-101": {
+    "id": "PUP-101",
+    "face": {
+      "front": {
+        "name": "Yuko Ichihara",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-101.jpg?v=21848ca14b09",
+        "isHorizontal": false,
+        "power": 1000,
+        "sjCost": 3
+      }
+    },
+    "name": "Yuko Ichihara [PUP-101]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-101",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 5,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 1000,
+    "Counter": null,
+    "Traits": [
+      "Witch"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Permanent"
+    ],
+    "Effect": "Permanent Give this card +1000 Power for each face-up card in both players' JUMP Zones.\n[On Attack] At the end of the Damage Step, if this card dealt damage to your Opponent: Instead of adding a card from their Life to their hand, your Opponent adds that card to their JUMP Zone face-up instead.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-101.jpg?v=21848ca14b09"
+  },
+  "PUP-102": {
+    "id": "PUP-102",
+    "face": {
+      "front": {
+        "name": "Inheritance",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-102.jpg?v=b476455a1ee1",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Inheritance [PUP-102]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-102",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] (1) If your Leader is \"Yuko Ichihara\" and their Threshold skill is active: Return this card to your JUMP Deck; if your card is in a battle with your Opponent's Leader, negate the attack. Then, if your Opponent has 4 or more cards in their JUMP Zone, draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-102.jpg?v=b476455a1ee1"
+  },
+  "TOKEN-GT-XHL": {
+    "id": "TOKEN-GT-XHL",
+    "face": {
+      "front": {
+        "name": "Guard Token XHL",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-XHL.jpg?v=f044b5e20ee6",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token XHL",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-XHL",
+    "Card_Type": "Guard Token",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-XHL.jpg?v=f044b5e20ee6",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-XHL1": {
+    "id": "TOKEN-SJM-XHL1",
+    "face": {
+      "front": {
+        "name": "SJ Marker XHL1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-XHL1.jpg?v=f5de93f9eff8",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker XHL1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-XHL1",
+    "Card_Type": "SJ Marker",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-XHL1.jpg?v=f5de93f9eff8",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-XHL2": {
+    "id": "TOKEN-SJM-XHL2",
+    "face": {
+      "front": {
+        "name": "SJ Marker XHL2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-XHL2.jpg?v=b8a409ba1faa",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker XHL2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-XHL2",
+    "Card_Type": "SJ Marker",
+    "Color": "Green",
+    "Set": "XHL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-XHL2.jpg?v=b8a409ba1faa",
+    "isAccessory": true
   }
 }

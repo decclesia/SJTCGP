@@ -242,6 +242,14 @@
         "TOKEN-SJM-NUR2"
       ],
       "guardToken": "TOKEN-GT-NUR"
+    },
+    "XHL": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-XHL1",
+        "TOKEN-SJM-XHL2"
+      ],
+      "guardToken": "TOKEN-GT-XHL"
     }
   },
   "notes": {
@@ -605,6 +613,15 @@
         "TOKEN-SJM-NUR2"
       ],
       "guardToken": "TOKEN-GT-NUR"
+    },
+    "EX6-001": {
+      "set": "XHL",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-XHL1",
+        "TOKEN-SJM-XHL2"
+      ],
+      "guardToken": "TOKEN-GT-XHL"
     }
   }
 }
