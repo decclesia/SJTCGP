@@ -43459,5 +43459,973 @@
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST5-128.jpg?v=db96a57dc358"
+  },
+  "ST6-021": {
+    "id": "ST6-021",
+    "face": {
+      "front": {
+        "name": "Mereoleona Vermillion",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-021.jpg?v=6d3f511283ed",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mereoleona Vermillion [ST6-021]",
+    "type": "Leader",
+    "Number": "ST6-021",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "On Attack",
+      "Permanent",
+      "Threshold"
+    ],
+    "Effect": "Permanent When your \"Mereoleona Vermillion\" would be removed from your field by a skill or K.O.'d, you may instead add all cards from under that card to your hand.\n[On Attack] Draw 1 card.\nThreshold 3 [Activate: Battle] Add 1 card from under your \"Mereoleona Vermillion\" to your hand: Give this card +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-021.jpg?v=6d3f511283ed"
+  },
+  "ST6-022": {
+    "id": "ST6-022",
+    "face": {
+      "front": {
+        "name": "Mereoleona Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-022.jpg?v=20870a95dc7a",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Mereoleona Vermillion [ST6-022]",
+    "type": "Main_Deck",
+    "Number": "ST6-022",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Overcharge",
+      "Evolve"
+    ],
+    "Effect": "Evolve (2) 5 Cost \"Mereoleona Vermillion\"\n[On Play] Choose all of your Opponent's Units with 2000 or less Power and K.O. them.\nOnce per Turn When a card under this card is added to its owner's hand, Overcharge 1 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-022.jpg?v=20870a95dc7a"
+  },
+  "ST6-023": {
+    "id": "ST6-023",
+    "face": {
+      "front": {
+        "name": "Mereoleona Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-023.jpg?v=7974c5004f1c",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mereoleona Vermillion [ST6-023]",
+    "type": "Main_Deck",
+    "Number": "ST6-023",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Barrier",
+      "Evolve"
+    ],
+    "Effect": "Evolve (2) \"Mereoleona Vermillion\"\n[On Play] If this card was played by its Evolve skill: Choose all of your Opponent's Units, ignoring Barrier, and give them -1000 Power until the end of your Opponent's next turn.\nOnce per Turn When a card under this card is added to its owner's hand, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-023.jpg?v=7974c5004f1c"
+  },
+  "ST6-024": {
+    "id": "ST6-024",
+    "face": {
+      "front": {
+        "name": "Mereoleona Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-024.jpg?v=3880a2bb2b30",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mereoleona Vermillion [ST6-024]",
+    "type": "Main_Deck",
+    "Number": "ST6-024",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Evolve"
+    ],
+    "Effect": "Evolve (2) 2 or greater Cost Unit with the \"Vermillion Clan\" Trait\n[On Play] Switch this card to Active Mode. Then, choose up to 1 of your opponent's Units with 4000 or less Power and K.O. it.\nOnce per Turn When a card under this card is added to its owner's hand, give up to 1 of your \"Mereoleona Vermillion\" +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-024.jpg?v=3880a2bb2b30"
+  },
+  "ST6-025": {
+    "id": "ST6-025",
+    "face": {
+      "front": {
+        "name": "Mereoleona Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-025.jpg?v=e960b1fc7656",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Mereoleona Vermillion [ST6-025]",
+    "type": "Main_Deck",
+    "Number": "ST6-025",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect",
+      "Duel"
+    ],
+    "Effect": "Deflect Duel\n[On Play] Place up to 1 card with the \"Vermillion Clan\" Trait from your hand under this card. Then, if you placed a \"Mereoleona Vermillion\", choose up to 2 of your Opponent's Units and give them -2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-025.jpg?v=e960b1fc7656"
+  },
+  "ST6-026": {
+    "id": "ST6-026",
+    "face": {
+      "front": {
+        "name": "Mereoleona Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-026.jpg?v=fe0c93c56aba",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Mereoleona Vermillion [ST6-026]",
+    "type": "Main_Deck",
+    "Number": "ST6-026",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect",
+      "Duel"
+    ],
+    "Effect": "Deflect Duel\n[On Play] Place up to 1 Unit card with the \"Vermillion Clan\" Trait from your Drop under this card. Then, if you placed a \"Mereoleona Vermillion\", choose up to 1 of your Opponent's Units and give it -3000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-026.jpg?v=fe0c93c56aba"
+  },
+  "ST6-027": {
+    "id": "ST6-027",
+    "face": {
+      "front": {
+        "name": "Fuegoleon Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-027.jpg?v=dcd4c6b2b180",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Fuegoleon Vermillion [ST6-027]",
+    "type": "Main_Deck",
+    "Number": "ST6-027",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] If your Leader is \"Mereoleona Vermillion\": Place 1 card from your hand in your Drop; play up to 1 \"Mereoleona Vermillion\" with a Cost of 5 or less from your hand and place up to 1 Unit card from your Drop under it. Then, place up to 1 Unit card from your Drop under this card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-027.jpg?v=dcd4c6b2b180"
+  },
+  "ST6-028": {
+    "id": "ST6-028",
+    "face": {
+      "front": {
+        "name": "Kirsch Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-028.jpg?v=75cc55ac2afe",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Kirsch Vermillion [ST6-028]",
+    "type": "Main_Deck",
+    "Number": "ST6-028",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] (1) Look at the top 7 cards of your Deck; add up to 1 \"Mereoleona Vermillion\" and up to 1 Action card with the \"Fire Magic\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-028.jpg?v=75cc55ac2afe"
+  },
+  "ST6-029": {
+    "id": "ST6-029",
+    "face": {
+      "front": {
+        "name": "Asta",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-029.jpg?v=0b8ac04e6d16",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Asta [ST6-029]",
+    "type": "Main_Deck",
+    "Number": "ST6-029",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Magic Knight"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Accelcharge",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] If you don't have \"Yuno\" in play, play up to 1 \"Yuno\" with a Cost of 2 from your hand or Drop Rested.\n[Activate: Main] Limit 1 Place this card in your Drop: If your Leader has the \"Magic Knight\" Trait, Accelcharge 2.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-029.jpg?v=0b8ac04e6d16"
+  },
+  "ST6-030": {
+    "id": "ST6-030",
+    "face": {
+      "front": {
+        "name": "Yami Sukehiro",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-030.jpg?v=c8565ba1fe69",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Yami Sukehiro [ST6-030]",
+    "type": "Main_Deck",
+    "Number": "ST6-030",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Magic Knight",
+      "Captain"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Break"
+    ],
+    "Effect": "Break\n[On Attack] You may add 1 card from your Life to your hand: Give this card +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-030.jpg?v=c8565ba1fe69"
+  },
+  "ST6-031": {
+    "id": "ST6-031",
+    "face": {
+      "front": {
+        "name": "Noelle Silva",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-031.jpg?v=d430f218bab3",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Noelle Silva [ST6-031]",
+    "type": "Main_Deck",
+    "Number": "ST6-031",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Magic Knight",
+      "Royal"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Limit 1",
+      "Evolve"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Place this card from your hand in your Drop: Reduce the Cost of the next Evolve skill you activate this turn by (1).\n[Activate: Main] Limit 1 When you play a Unit by Evolve, place this card from your Drop under it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-031.jpg?v=d430f218bab3"
+  },
+  "ST6-032": {
+    "id": "ST6-032",
+    "face": {
+      "front": {
+        "name": "Mimosa Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-032.jpg?v=3cfc5613cfae",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Mimosa Vermillion [ST6-032]",
+    "type": "Main_Deck",
+    "Number": "ST6-032",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Magic Knight\" Trait: Place 1 card with the \"Vermillion Clan\" Trait from your hand in your Drop; draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-032.jpg?v=3cfc5613cfae"
+  },
+  "ST6-033": {
+    "id": "ST6-033",
+    "face": {
+      "front": {
+        "name": "Zora Ideale",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-033.jpg?v=e5e6654a0ef3",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Zora Ideale [ST6-033]",
+    "type": "Main_Deck",
+    "Number": "ST6-033",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 2000,
+    "Traits": [
+      "Magic Knight"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Limit 1 (1) Place this card from your hand in your Drop: If your Leader has the \"Magic Knight\" Trait, give the Unit being played -3000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-033.jpg?v=e5e6654a0ef3"
+  },
+  "ST6-034": {
+    "id": "ST6-034",
+    "face": {
+      "front": {
+        "name": "Yuno",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-034.jpg?v=d81fe9150c2f",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Yuno [ST6-034]",
+    "type": "Main_Deck",
+    "Number": "ST6-034",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Magic Knight"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] If you don't have \"Asta\" in play, play up to 1 \"Asta\" with a Cost of 2 from your hand or Drop Rested.\n[Activate: Main] Limit 1 Place this card in your Drop: If your Leader has the \"Magic Knight\" Trait, Charge 2.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-034.jpg?v=d81fe9150c2f"
+  },
+  "ST6-035": {
+    "id": "ST6-035",
+    "face": {
+      "front": {
+        "name": "Leopold Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-035.jpg?v=a973b30b5648",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Leopold Vermillion [ST6-035]",
+    "type": "Main_Deck",
+    "Number": "ST6-035",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "Activate: Main / Battle",
+      "Activate: Main",
+      "On Play",
+      "Blocker",
+      "Deflect",
+      "Unique"
+    ],
+    "Effect": "Deflect Unique Blocker\n[On Play] Place up to 1 card from your hand under this card. Then, if you placed a \"Mereoleona Vermillion\", draw 1 card.\n[Activate: Main / Battle] If you have a \"Mereoleona Vermillion\" in play: Play this card from your hand. Then, add 1 card from your Life to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-035.jpg?v=a973b30b5648"
+  },
+  "ST6-036": {
+    "id": "ST6-036",
+    "face": {
+      "front": {
+        "name": "Calidus Brachium",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-036.jpg?v=aa9a7756a883",
+        "isHorizontal": false
+      }
+    },
+    "name": "Calidus Brachium [ST6-036]",
+    "type": "Main_Deck",
+    "Number": "ST6-036",
+    "Card_Type": "Main Action",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Fire Magic"
+    ],
+    "Keywords": [
+      "Activate: Battle"
+    ],
+    "Effect": "[Activate: Battle] Add 1 card from under 1 of your \"Mereoleona Vermillion\" to your hand: Give your card that's in a battle +3000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-036.jpg?v=aa9a7756a883"
+  },
+  "ST6-037": {
+    "id": "ST6-037",
+    "face": {
+      "front": {
+        "name": "Hellfire Incarnate",
+        "type": "MAIN ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-037.jpg?v=1e3c97cb5857",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hellfire Incarnate [ST6-037]",
+    "type": "Main_Deck",
+    "Number": "ST6-037",
+    "Card_Type": "Main Action",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Fire Magic"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Place all cards from under your \"Mereoleona Vermillion\" with 1 or more cards under it in your Drop: Negate the attack. Then, choose your Opponent's Leader or up to 1 of their Units and give it -1000 Power for each card placed in your Drop by this skill for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-037.jpg?v=1e3c97cb5857"
+  },
+  "ST6-038": {
+    "id": "ST6-038",
+    "face": {
+      "front": {
+        "name": "Mereoleona's Grimoire",
+        "type": "MAIN ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-038.jpg?v=a120fb46dde7",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mereoleona's Grimoire [ST6-038]",
+    "type": "Main_Deck",
+    "Number": "ST6-038",
+    "Card_Type": "Main Action",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Fire Magic"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] (1) Look at the top 5 cards of your deck; add up to 2 cards with the \"Fire Magic\" Trait to your hand. Then, shuffle your deck.\n[Activate: Battle] Limit 1 (3) Add up to 1 card from under 1 of your \"Mereoleona Vermillion\" to its owner's hand; give your card that's in a battle Power equal to the original Power of the card that was added to its owner's hand by this skill for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-038.jpg?v=a120fb46dde7"
+  },
+  "ST6-039": {
+    "id": "ST6-039",
+    "face": {
+      "front": {
+        "name": "Hot Spring Training Camp",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-039.jpg?v=d70d04f8a8d4",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Hot Spring Training Camp [ST6-039]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-039",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "On Play",
+      "Permanent"
+    ],
+    "Effect": "Permanent If your Leader is \"Mereoleona Vermillion\", give your Units with a card under them +1000 Power.\n[On Play] Place up to 1 \"Mereoleona Vermillion\" from your Deck under 1 of your Units with the \"Vermillion Clan\" Trait. Then, shuffle your Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-039.jpg?v=d70d04f8a8d4"
+  },
+  "ST6-040": {
+    "id": "ST6-040",
+    "face": {
+      "front": {
+        "name": "Calidus Brachium Barrage",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-040.jpg?v=d32aec66e672",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Calidus Brachium Barrage [ST6-040]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-040",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Dual Attack"
+    ],
+    "Effect": "[Activate: Main] Remove this card from the game: Choose 1 of your \"Mereoleona Vermillion\" with 1 or more cards under it; add all cards from under it to your hand. Then, give that Unit +1000 Power for each card added to your hand by this skill and Dual Attack for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-040.jpg?v=d32aec66e672"
+  },
+  "PUP-106": {
+    "id": "PUP-106",
+    "face": {
+      "front": {
+        "name": "Mereoleona Vermillion",
+        "type": "MAIN UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-106.jpg?v=36b1e2623550",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Mereoleona Vermillion [PUP-106]",
+    "type": "Main_Deck",
+    "Number": "PUP-106",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Magic Knight",
+      "Vermillion Clan"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Evolve"
+    ],
+    "Effect": "Evolve (2) 5 Cost \"Mereoleona Vermillion\"\n[On Play] Choose up to 1 of your Opponent's Units with 6000 or less Power and K.O. it.\nOnce per Turn When a card under this card is added to its owner's hand, switch your Leader to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-106.jpg?v=36b1e2623550"
+  },
+  "PUP-107": {
+    "id": "PUP-107",
+    "face": {
+      "front": {
+        "name": "Fire Ultimate Magic: Exercitus Leonum",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-107.jpg?v=1b0bf302a1f0",
+        "isHorizontal": true,
+        "sjCost": 5
+      }
+    },
+    "name": "Fire Ultimate Magic: Exercitus Leonum [PUP-107]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-107",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 5,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Clash"
+    ],
+    "Effect": "[Your Turn] If your Leader is \"Mereoleona Vermillion\" and you have 0 Life: When your Opponent activates a Clash skill, place this card in your Life face-up.\n[On Play] Choose 1 of your \"Mereoleona Vermillion\": Place all of your Life cards under that card and give it +2000 Power for each card under it until the end of your Opponent's next turn. Then, at the end of your turn, place all cards from under that card in your Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-107.jpg?v=1b0bf302a1f0"
+  },
+  "PUP-108": {
+    "id": "PUP-108",
+    "face": {
+      "front": {
+        "name": "Calidus Brachium Purgatory",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-108.jpg?v=6206a672062b",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Calidus Brachium Purgatory [PUP-108]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-108",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] Remove this card from the game: Play up to 1 Unit card with a Cost of 5 or less and the \"Vermillion Clan\" Trait from your Drop with its skills negated for the turn. Then, place up to 2 cards from your Drop under the card played by this card's skill.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-108.jpg?v=6206a672062b"
+  },
+  "TOKEN-GT-BCL": {
+    "id": "TOKEN-GT-BCL",
+    "face": {
+      "front": {
+        "name": "Guard Token BCL",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-BCL.jpg?v=ecc6885a4ef3",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token BCL",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-BCL",
+    "Card_Type": "Guard Token",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-BCL.jpg?v=ecc6885a4ef3",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-BCL1": {
+    "id": "TOKEN-SJM-BCL1",
+    "face": {
+      "front": {
+        "name": "SJ Marker BCL1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BCL1.jpg?v=29e71d72db0e",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker BCL1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-BCL1",
+    "Card_Type": "SJ Marker",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BCL1.jpg?v=29e71d72db0e",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-BCL2": {
+    "id": "TOKEN-SJM-BCL2",
+    "face": {
+      "front": {
+        "name": "SJ Marker BCL2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BCL2.jpg?v=679f7b50c4a9",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker BCL2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-BCL2",
+    "Card_Type": "SJ Marker",
+    "Color": "Red",
+    "Set": "BCL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BCL2.jpg?v=679f7b50c4a9",
+    "isAccessory": true
   }
 }

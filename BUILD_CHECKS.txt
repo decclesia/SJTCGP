@@ -1,19 +1,31 @@
 {
-  "website_cards": 1042,
-  "card_text_records": 1042,
-  "arena_entries": 1154,
-  "new_card": "ST5-128",
-  "visual_refresh": "PUP-020",
-  "st5_128": {
-    "name": "Asakura Yoh",
-    "set": "SMK",
-    "color": "Blue",
-    "type": "JUMP Unit",
-    "rarity": "R",
-    "orientation": "Portrait",
-    "deck_limit": 1
+  "website_cards": 1065,
+  "card_text_records": 1065,
+  "arena_entries": 1180,
+  "st6_red_printed_rarities": {
+    "L": 1,
+    "SR": 3,
+    "R": 6,
+    "UC": 10
   },
+  "promos": [
+    "PUP-106",
+    "PUP-107",
+    "PUP-108"
+  ],
+  "landscape_jump_actions": [
+    "ST6-039",
+    "ST6-040",
+    "PUP-107",
+    "PUP-108"
+  ],
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
-  "arena_opening_hand": 6
+  "arena_opening_hand": 6,
+  "st6_red_accessories": [
+    "GT-BCL",
+    "SJM-BCL1",
+    "SJM-BCL2"
+  ],
+  "dedicated_energy_asset": "Deferred to the future Energy-marker-only bundle; generic Arena fallback remains active."
 }
