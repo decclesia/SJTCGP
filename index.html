@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SJTCG Card Database</title>
-  <link rel="stylesheet" href="styles.css?v=card-text-1" />
+  <link rel="stylesheet" href="styles.css?v=78a33b8858ec" />
 </head>
 <body>
   <header class="site-header">
@@ -202,8 +202,19 @@
     </article>
   </div>
 
-  <script src="cards-data.js?v=6f3dcb01d224"></script>
-  <script src="card-text-data.js?v=3bca6d850861"></script>
-  <script src="app.js?v=478c9c2d7b66"></script>
+  <div id="keywordPopover" class="keyword-popover" hidden>
+    <div class="keyword-popover-backdrop" data-close-keyword></div>
+    <section class="keyword-popover-panel" role="dialog" aria-modal="true" aria-labelledby="keywordTitle">
+      <button class="keyword-popover-close" type="button" aria-label="Close keyword description" data-close-keyword>&times;</button>
+      <p class="keyword-popover-kicker">Keyword glossary</p>
+      <h2 id="keywordTitle"></h2>
+      <p id="keywordDefinition" class="keyword-definition"></p>
+      <ul id="keywordNotes" class="keyword-notes"></ul>
+    </section>
+  </div>
+
+  <script src="cards-data.js?v=3a6bd299dbda"></script>
+  <script src="card-text-data.js?v=0367d8fcd20e"></script>
+  <script src="app.js?v=99a7f934f7d1"></script>
 </body>
 </html>

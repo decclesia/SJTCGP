@@ -15,6 +15,35 @@ const JUMP_DECK_SIZE = 10;
 const colorLetters = { Yellow: "Y", Red: "R", Blue: "B", Green: "G", Pink: "P" };
 const colorOrder = { Yellow: 0, Red: 1, Blue: 2, Green: 3, Pink: 4 };
 const typeOrder = { Leader: 0, "Main Deck": 1, "JUMP Deck": 2 };
+const RED_KEYWORD_GLOSSARY = {
+  "Blocker": { definition: "When your opponent attacks, Rest this Unit and make it the new attack target.", notes: ["Blocker itself Rests the Unit by a skill, so it can trigger effects that care about a Unit being Rested by a skill."] },
+  "Barrier": { definition: "This card cannot be chosen by your opponent's skills.", notes: [] },
+  "Deflect": { definition: "When played, this card is unaffected by opponent skills that activate when a Unit is played.", notes: [] },
+  "Revenge": { definition: "At the end of a battle this Unit was attacked by an opponent's Unit, K.O. that opponent's Unit.", notes: ["Revenge bypasses Barrier because it does not choose the opponent's Unit after the battle is set; it applies through battle resolution."] },
+  "Critical": { definition: "When this card deals damage to your opponent's Leader, that Life card is placed in Drop instead of added to hand.", notes: ["Critical applies only to Leader damage.", "If paired with Double Damage, both Life cards go to Drop instead of hand."] },
+  "Elusive": { definition: "This card cannot be chosen as an attack target by your opponent's Leader.", notes: ["Opponent Units may still attack a Rested Elusive Unit.", "An Elusive Blocker may still activate Blocker."] },
+  "Dual Attack": { definition: "The first time this card attacks each turn, switch it to Active mode.", notes: [] },
+  "Unblockable": { definition: "Your opponent cannot activate Blocker when this card attacks.", notes: [] },
+  "Double Damage": { definition: "If this card deals damage to your opponent's Leader, your opponent adds 2 cards from their Life to their hand instead of 1.", notes: ["At 1 Life, Double Damage does not win by itself; a player loses when they take damage while at 0 Life."] },
+  "Break": { definition: "The first time this card attacks each turn, your opponent cannot activate Clash skills on attack declaration timing.", notes: ["Break prevents Clash [Opponent's Attack] for that attack, but not Clash [Activate: Battle] during the later Combo step."] },
+  "Impact": { definition: "If this card deals damage while your opponent's Life is at 1, deal 1 more damage to them.", notes: ["Impact can win after the opponent reaches 0 Life because its extra damage is dealt afterward."] },
+  "Duel": { definition: "On attack, if the original attack target is a Unit, both players skip the Combo step for that battle.", notes: ["Duel checks the original attack target.", "It does not stop On Attack or On Opponent's Attack skills before battle."] },
+  "Bloom": { definition: "Pay the cost, if any. Switch a Rested Unit to Active mode and give it +1000 Power for the turn.", notes: [] },
+  "Bond": { definition: "The card with Bond gains the effect following Bond when you control X or more Units matching the specified condition.", notes: ["The Unit with Bond counts itself if it satisfies the condition, unless the effect says otherwise."] },
+  "Swap": { definition: "Pay X Cost, if any. Return this card to your hand, then play up to 1 specified card from your hand matching the listed exact Cost and condition.", notes: ["The target Cost must match exactly, not 'or less.'"] },
+  "Evolve": { definition: "Pay X Cost, if any. Play this card from your hand on top of the specified card on your field.", notes: ["The Evolved card keeps the previous Unit's Active or Rested mode unless stated otherwise.", "If the top Evolve card leaves the field, cards underneath go to Drop."] },
+  "Deluge": { definition: "Pay X Cost, if any. Look at cards from the top of your Deck equal to this card's Cost; choose up to 1 card with a Cost lower than this card's Cost and you may play it with its skills negated for the turn.", notes: [] },
+  "Sub": { definition: "When this card is played, you may place any number of your Units whose total Costs equal X in your Drop; reduce this card's Cost by X.", notes: ["Any remaining Cost must still be paid normally."] },
+  "Endure": { definition: "Once per turn, if this card would be removed from the field, you may remove exactly X SJ Markers and exactly X Energy Markers instead.", notes: [] },
+  "Crossover": { definition: "Place X cards from your Drop in your Archive, using at least 1 card, and/or remove X SJ Markers; play this card from your hand. At the end of your turn, place it in your Archive.", notes: ["Only 1 card can be played by Crossover per turn."] },
+  "Gambit": { definition: "At the start of your first turn, roll 1 four-sided die. Add the result to your Stratagem Count.", notes: [] },
+  "Scheme": { definition: "Roll X six-sided dice; add the result or results to your Stratagem Count.", notes: [] },
+  "Conduit": { definition: "When playing a card from your hand and paying its Cost, you may Rest this card instead of removing 1 Energy.", notes: ["Any remaining Cost must still be paid normally."] },
+  "Scene": { definition: "An Action subtype that remains on the field when played.", notes: ["Scene cards can have ongoing or triggered effects while on the field."] },
+  "J-Layer": { definition: "Place X specified cards from the mentioned area under this card at no extra cost unless specified.", notes: ["Under-cards are public, cannot be chosen, do not count toward the field, and go to Drop if the top card leaves the field unless another rule or effect says otherwise."] }
+};
+const RED_GLOSSARY_TERMS = Object.keys(RED_KEYWORD_GLOSSARY).sort((a, b) => b.length - a.length);
+let lastKeywordTrigger = null;
 
 const elements = {
   databaseTab: document.querySelector("#databaseTab"),
@@ -61,6 +90,10 @@ const elements = {
   modalRemoveFromDeck: document.querySelector("#modalRemoveFromDeck"),
   modalDeckQty: document.querySelector("#modalDeckQty"),
   modalImagePath: document.querySelector("#modalImagePath"),
+  keywordPopover: document.querySelector("#keywordPopover"),
+  keywordTitle: document.querySelector("#keywordTitle"),
+  keywordDefinition: document.querySelector("#keywordDefinition"),
+  keywordNotes: document.querySelector("#keywordNotes"),
   leaderStatus: document.querySelector("#leaderStatus"),
   leaderDeckList: document.querySelector("#leaderDeckList"),
   mainDeckCount: document.querySelector("#mainDeckCount"),
@@ -242,6 +275,20 @@ function addEventListeners() {
     const card = modalCards[currentModalIndex];
     if (card) removeCardFromDeckByCard(card);
   });
+  on(elements.modalEffect, "click", (event) => {
+    const trigger = event.target.closest(".keyword-trigger");
+    if (!trigger) return;
+    event.preventDefault();
+    event.stopPropagation();
+    openKeywordPopover(trigger.dataset.keyword, trigger);
+  });
+  on(elements.modalEffect, "keydown", (event) => {
+    const trigger = event.target.closest(".keyword-trigger");
+    if (!trigger || !["Enter", " "].includes(event.key)) return;
+    event.preventDefault();
+    openKeywordPopover(trigger.dataset.keyword, trigger);
+  });
+  document.querySelectorAll("[data-close-keyword]").forEach(element => on(element, "click", closeKeywordPopover));
 
   document.querySelectorAll("[data-close-modal]").forEach((element) => {
     const closeHandler = (event) => {
@@ -265,6 +312,10 @@ function addEventListeners() {
   });
 
   document.addEventListener("keydown", (event) => {
+    if (elements.keywordPopover && !elements.keywordPopover.hidden) {
+      if (event.key === "Escape") closeKeywordPopover();
+      return;
+    }
     const modalOpen = Boolean(elements.modal && !elements.modal.hidden);
     if (modalOpen) {
       if (event.key === "Escape") closeModal();
@@ -635,7 +686,10 @@ function showModalCard() {
     elements.modalTraits.innerHTML = text.traits ? `<strong>Traits</strong><span>${escapeHtml(text.traits)}</span>` : "";
   }
   if (elements.modalEffectSection) elements.modalEffectSection.hidden = !text.effect;
-  if (elements.modalEffect) elements.modalEffect.innerHTML = text.effect_html || escapeHtml(text.effect || "").replaceAll("\n", "<br>");
+  if (elements.modalEffect) {
+    elements.modalEffect.innerHTML = text.effect_html || escapeHtml(text.effect || "").replaceAll("\n", "<br>");
+    enhanceRedKeywords(elements.modalEffect);
+  }
   if (elements.modalNotes) {
     elements.modalNotes.hidden = true;
     elements.modalNotes.innerHTML = "";
@@ -662,9 +716,81 @@ function showRelativeCard(offset) {
   syncUrlState(modalCards[currentModalIndex].number);
 }
 function closeModal() {
+  closeKeywordPopover(false);
   if (elements.modal) elements.modal.hidden = true;
   document.body.style.overflow = "";
   syncUrlState();
+}
+
+function keywordForText(text) {
+  const normalized = String(text || "").trim().toLowerCase();
+  return RED_GLOSSARY_TERMS.find(term => normalized === term.toLowerCase() || normalized.startsWith(`${term.toLowerCase()} `)) || "";
+}
+
+function markKeywordTrigger(element, keyword) {
+  element.classList.add("keyword-trigger");
+  element.dataset.keyword = keyword;
+  element.setAttribute("role", "button");
+  element.setAttribute("tabindex", "0");
+  element.setAttribute("aria-haspopup", "dialog");
+  element.setAttribute("aria-label", `Explain ${keyword}`);
+  element.removeAttribute("title");
+}
+
+function enhanceRedKeywords(container) {
+  if (!container) return;
+  container.querySelectorAll(".kw-red").forEach(element => {
+    const keyword = keywordForText(element.textContent);
+    if (keyword) markKeywordTrigger(element, keyword);
+  });
+  const escapedTerms = RED_GLOSSARY_TERMS.map(term => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const pattern = new RegExp(`\\b(${escapedTerms.join("|")})\\b`, "gi");
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    if (node.parentElement && !node.parentElement.closest(".kw")) textNodes.push(node);
+  }
+  textNodes.forEach(node => {
+    const text = node.nodeValue || "";
+    pattern.lastIndex = 0;
+    if (!pattern.test(text)) return;
+    pattern.lastIndex = 0;
+    const fragment = document.createDocumentFragment();
+    let lastIndex = 0;
+    for (const match of text.matchAll(pattern)) {
+      fragment.append(document.createTextNode(text.slice(lastIndex, match.index)));
+      const keyword = keywordForText(match[0]);
+      const span = document.createElement("span");
+      span.className = "kw kw-red";
+      span.textContent = match[0];
+      markKeywordTrigger(span, keyword);
+      fragment.append(span);
+      lastIndex = match.index + match[0].length;
+    }
+    fragment.append(document.createTextNode(text.slice(lastIndex)));
+    node.replaceWith(fragment);
+  });
+}
+
+function openKeywordPopover(keyword, trigger) {
+  const entry = RED_KEYWORD_GLOSSARY[keyword];
+  if (!entry || !elements.keywordPopover) return;
+  lastKeywordTrigger = trigger || null;
+  elements.keywordTitle.textContent = keyword;
+  elements.keywordDefinition.textContent = entry.definition;
+  elements.keywordNotes.innerHTML = entry.notes.map(note => `<li>${escapeHtml(note)}</li>`).join("");
+  elements.keywordNotes.hidden = entry.notes.length === 0;
+  elements.keywordPopover.hidden = false;
+  const closeButton = elements.keywordPopover.querySelector(".keyword-popover-close");
+  if (closeButton) closeButton.focus();
+}
+
+function closeKeywordPopover(restoreFocus = true) {
+  if (!elements.keywordPopover || elements.keywordPopover.hidden) return;
+  elements.keywordPopover.hidden = true;
+  if (restoreFocus && lastKeywordTrigger) lastKeywordTrigger.focus();
+  lastKeywordTrigger = null;
 }
 function resetFilters() {
   if (elements.searchInput) elements.searchInput.value = "";

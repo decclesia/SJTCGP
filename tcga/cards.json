@@ -45360,5 +45360,1003 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SKD1.jpg?v=3718e9f71278",
     "isAccessory": true
+  },
+  "ST6-081": {
+    "id": "ST6-081",
+    "face": {
+      "front": {
+        "name": "Nanachi",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-081.jpg?v=0206423b3d48",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Nanachi [ST6-081]",
+    "type": "Leader",
+    "Number": "ST6-081",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Hollow",
+      "Delver"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Once per Turn",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Look through your Life; place any number of your Life cards at the bottom of your Deck; add all remaining Life cards to your hand. Then, place that many cards from the top of your Deck in your Life.\nThreshold 0 Clash [Opponent's Attack] Once per Turn Place 1 card from your hand at the bottom of your Deck: Add the top card of your Deck to your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-081.jpg?v=0206423b3d48"
+  },
+  "ST6-082": {
+    "id": "ST6-082",
+    "face": {
+      "front": {
+        "name": "Reg",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-082.jpg?v=5cd2ceb87951",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Reg [ST6-082]",
+    "type": "Main_Deck",
+    "Number": "ST6-082",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Relic",
+      "Delver"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Limit 1",
+      "Barrier",
+      "Charge",
+      "Deflect",
+      "Deluge"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] Give this card +1 Cost for each of your Life cards. Then, if this card's Cost is 5 or more, Charge 1.\n[On Attack] Limit 1 (1) If your Leader has the \"Delver\" Trait, place 1 card from your hand in your Drop: Deluge.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-082.jpg?v=5cd2ceb87951"
+  },
+  "ST6-083": {
+    "id": "ST6-083",
+    "face": {
+      "front": {
+        "name": "Nanachi",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-083.jpg?v=0c76f79b5673",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Nanachi [ST6-083]",
+    "type": "Main_Deck",
+    "Number": "ST6-083",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Hollow",
+      "Delver"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[Opponent's Turn] If your Leader has the \"Delver\" Trait, give this card +2000 Power.\n[On Play] Add up to 1 Unit card with a Cost of 3 to 5 and the \"Hollow\" or \"Delver\" Trait from your Drop to your hand. Then, play up to 1 Unit card with a Cost of 2 or less and \"Hollow\" or \"Delver\" Trait from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-083.jpg?v=0c76f79b5673"
+  },
+  "ST6-084": {
+    "id": "ST6-084",
+    "face": {
+      "front": {
+        "name": "Riko",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-084.jpg?v=d9f2357d50be",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Riko [ST6-084]",
+    "type": "Main_Deck",
+    "Number": "ST6-084",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Delver"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Threshold",
+      "Limit 1",
+      "Clash",
+      "Deluge"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Leader's Threshold skill is active: Look at the top 2 cards of your Deck; place them at the top of your Deck in any order. Then, draw 1 card and place this card at the bottom of your Deck.\n[On Play] Limit 1 If your Leader has the \"Delver\" Trait, when this card is played from your hand: Deluge.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-084.jpg?v=d9f2357d50be"
+  },
+  "ST6-085": {
+    "id": "ST6-085",
+    "face": {
+      "front": {
+        "name": "Bondrewd",
+        "type": "MAIN UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-085.jpg?v=70e4b1c3eef5",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Bondrewd [ST6-085]",
+    "type": "Main_Deck",
+    "Number": "ST6-085",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Delver",
+      "White Whistle"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "Barrier\n[On Play] Place 1 of your Units with the \"Hollow\" Trait at the top of your Life cards face-up: Choose up to 1 of your Opponent's Units with a Cost of 6 or less, ignoring Barrier, and place it in its owner's Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-085.jpg?v=70e4b1c3eef5"
+  },
+  "ST6-086": {
+    "id": "ST6-086",
+    "face": {
+      "front": {
+        "name": "Faputa",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-086.jpg?v=8484f6ec9734",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Faputa [ST6-086]",
+    "type": "Main_Deck",
+    "Number": "ST6-086",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Hollow"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Limit 1",
+      "Bond",
+      "Deflect",
+      "Deluge"
+    ],
+    "Effect": "Deflect\nBond 3 Units with the \"Hollow\" or \"Delver\" Trait: Permanent Give this card +2000 Power.\n[On Play] Limit 1 If this card was played from your Deck: Give this card +1 Cost. Then, Deluge.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-086.jpg?v=8484f6ec9734"
+  },
+  "ST6-087": {
+    "id": "ST6-087",
+    "face": {
+      "front": {
+        "name": "Ozen",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-087.jpg?v=2bcc3a37f9ea",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Ozen [ST6-087]",
+    "type": "Main_Deck",
+    "Number": "ST6-087",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Delver",
+      "White Whistle"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Block",
+      "Blocker",
+      "Bloom"
+    ],
+    "Effect": "Blocker\n[On Block] Once per Turn Place 1 card from your Life at the bottom of your Deck: Bloom this card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-087.jpg?v=2bcc3a37f9ea"
+  },
+  "ST6-088": {
+    "id": "ST6-088",
+    "face": {
+      "front": {
+        "name": "Prushka",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-088.jpg?v=3c7e950da495",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Prushka [ST6-088]",
+    "type": "Main_Deck",
+    "Number": "ST6-088",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Delver"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Bond",
+      "Deflect"
+    ],
+    "Effect": "Deflect\nBond 3 Units with the \"Hollow\" or \"Delver\" Trait: Permanent Give this card +2000 Power.\n[On Play] Look at the top 3 cards of your Deck; place them at the top of your Deck in any order and draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-088.jpg?v=3c7e950da495"
+  },
+  "ST6-089": {
+    "id": "ST6-089",
+    "face": {
+      "front": {
+        "name": "Mitty",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-089.jpg?v=da9c9990263b",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Mitty [ST6-089]",
+    "type": "Main_Deck",
+    "Number": "ST6-089",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 2000,
+    "Traits": [
+      "Hollow"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Blocker"
+    ],
+    "Effect": "Permanent If your Leader is \"Nanachi\", give this card Blocker.\n[On Play] Add 1 card from your Life to your hand; place 1 card from your hand in your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-089.jpg?v=da9c9990263b"
+  },
+  "ST6-090": {
+    "id": "ST6-090",
+    "face": {
+      "front": {
+        "name": "Reg",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-090.jpg?v=c76b57a696b5",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Reg [ST6-090]",
+    "type": "Main_Deck",
+    "Number": "ST6-090",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Relic",
+      "Delver"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Bond"
+    ],
+    "Effect": "Bond 3 Units with the \"Hollow\" or \"Delver\" Trait: Permanent Give this card +1000 Power.\n[On Play] Add 1 card from your Life to your hand: Draw 1 card; place 1 card from your hand in your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-090.jpg?v=c76b57a696b5"
+  },
+  "ST6-091": {
+    "id": "ST6-091",
+    "face": {
+      "front": {
+        "name": "Riko",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-091.jpg?v=375bf3abcaa0",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Riko [ST6-091]",
+    "type": "Main_Deck",
+    "Number": "ST6-091",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Delver"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Permanent",
+      "Bond"
+    ],
+    "Effect": "Bond 3 Units with the \"Hollow\" or \"Delver\" Trait: Permanent Give this card +2000 Power.\n[Opponent's Turn] If your Unit(s) with the \"Hollow\" or \"Delver\" Trait would be removed from your field by an Opponent's skill: You may place 1 of your Life cards at the bottom of your Deck instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-091.jpg?v=375bf3abcaa0"
+  },
+  "ST6-092": {
+    "id": "ST6-092",
+    "face": {
+      "front": {
+        "name": "Nanachi",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-092.jpg?v=dbc5442235f9",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Nanachi [ST6-092]",
+    "type": "Main_Deck",
+    "Number": "ST6-092",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Hollow",
+      "Delver"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Bond"
+    ],
+    "Effect": "Bond 3 Units with the \"Hollow\" or \"Delver\" Trait: Permanent Give this card +1000 Power.\n[On Play] Place 1 of your Life cards at the bottom of your Deck: Look at the top 5 cards of your Deck; add up to 1 card at the top of your Life cards. Then, place the rest at the top of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-092.jpg?v=dbc5442235f9"
+  },
+  "ST6-093": {
+    "id": "ST6-093",
+    "face": {
+      "front": {
+        "name": "Meinya",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-093.jpg?v=c581c4a67675",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Meinya [ST6-093]",
+    "type": "Main_Deck",
+    "Number": "ST6-093",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Creature",
+      "Delver"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top card of your Deck; place it at the top or bottom of your Deck. Then, if you placed it at the bottom, give up to 1 of your Units with the \"Hollow\" or \"Delver\" Trait +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-093.jpg?v=c581c4a67675"
+  },
+  "ST6-094": {
+    "id": "ST6-094",
+    "face": {
+      "front": {
+        "name": "Marulk",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-094.jpg?v=8ece722109f1",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Marulk [ST6-094]",
+    "type": "Main_Deck",
+    "Number": "ST6-094",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Delver"
+    ],
+    "Keywords": [
+      "On Play",
+      "Permanent",
+      "Limit 1",
+      "Bond",
+      "Charge"
+    ],
+    "Effect": "Bond 3 Units with the \"Hollow\" or \"Delver\" Trait: Permanent Give this card +2000 Power.\n[On Play] Limit 1 If this card was played from your Deck: Charge 2.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-094.jpg?v=8ece722109f1"
+  },
+  "ST6-095": {
+    "id": "ST6-095",
+    "face": {
+      "front": {
+        "name": "Majikaja",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-095.jpg?v=05713fd7014d",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Majikaja [ST6-095]",
+    "type": "Main_Deck",
+    "Number": "ST6-095",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Hollow"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Overcharge",
+      "Bond",
+      "Clash",
+      "Deluge"
+    ],
+    "Effect": "Bond 2 Units with the \"Hollow\" or \"Delver\" Trait:\n[On Play] Overcharge 1.\nClash [Opponent's Play] Place 1 card from your hand in your Drop: If your Leader has the \"Delver\" Trait, play this card from your hand and Deluge.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-095.jpg?v=05713fd7014d"
+  },
+  "ST6-096": {
+    "id": "ST6-096",
+    "face": {
+      "front": {
+        "name": "Nanachi's Hideout",
+        "type": "MAIN ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-096.jpg?v=600e07b0c2fb",
+        "isHorizontal": false
+      }
+    },
+    "name": "Nanachi's Hideout [ST6-096]",
+    "type": "Main_Deck",
+    "Number": "ST6-096",
+    "Card_Type": "Main Action",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Abyss"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "You can activate this card's Clash skill by placing 2 cards from your hand at the bottom of your Deck instead of paying its Energy Cost.\nClash [Opponent's Attack] If your Leader is \"Nanachi\": Negate the attack. Then, return up to 1 of your Units with the \"Hollow\" or \"Delver\" Trait to its owner's hand; draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-096.jpg?v=600e07b0c2fb"
+  },
+  "ST6-097": {
+    "id": "ST6-097",
+    "face": {
+      "front": {
+        "name": "Incinerator",
+        "type": "MAIN ACTION",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-097.jpg?v=49d51bd7d3e3",
+        "isHorizontal": false
+      }
+    },
+    "name": "Incinerator [ST6-097]",
+    "type": "Main_Deck",
+    "Number": "ST6-097",
+    "Card_Type": "Main Action",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Abyss"
+    ],
+    "Keywords": [
+      "Activate: Main / Battle",
+      "Activate: Main",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main / Battle] Rest 1 of your \"Reg\" with a Cost of 4 or more: Choose up to 1 of your Opponent's Units, ignoring Barrier, and place it in its owner's Drop. Then, place the chosen \"Reg\" at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-097.jpg?v=49d51bd7d3e3"
+  },
+  "ST6-098": {
+    "id": "ST6-098",
+    "face": {
+      "front": {
+        "name": "The Last Dive",
+        "type": "MAIN ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-098.jpg?v=7268413aa088",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Last Dive [ST6-098]",
+    "type": "Main_Deck",
+    "Number": "ST6-098",
+    "Card_Type": "Main Action",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Abyss"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Deluge"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Reveal 1 Unit card with the \"Delver\" Trait from your hand: Pay (X), where X is equal to that card's Cost, and play that card; it is played having gained the following skill: \"[On Play] Give this card +1 Cost; Deluge\".",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-098.jpg?v=7268413aa088"
+  },
+  "ST6-099": {
+    "id": "ST6-099",
+    "face": {
+      "front": {
+        "name": "Lyza",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-099.jpg?v=9d916da20ef7",
+        "isHorizontal": false,
+        "power": 8000,
+        "sjCost": 3
+      }
+    },
+    "name": "Lyza [ST6-099]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-099",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 8000,
+    "Counter": null,
+    "Traits": [
+      "Delver",
+      "White Whistle"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Barrier",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\n[Opponent's Turn] If your Leader has the \"Delver\" Trait: Give this card +3000 Power.\n[On Play] If you have no Energy, choose all of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and K.O. them.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-099.jpg?v=9d916da20ef7"
+  },
+  "ST6-100": {
+    "id": "ST6-100",
+    "face": {
+      "front": {
+        "name": "Blessing of the Abyss",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-100.jpg?v=27ab916d4862",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Blessing of the Abyss [ST6-100]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-100",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "Bloom"
+    ],
+    "Effect": "[Opponent's Turn] Once per Turn (1) If your Leader has the \"Delver\" Trait: When a card is added to your Life by your skill, Bloom 1 of your Units with the \"Hollow\" or \"Delver\" Trait.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-100.jpg?v=27ab916d4862"
+  },
+  "PUP-115": {
+    "id": "PUP-115",
+    "face": {
+      "front": {
+        "name": "Nanachi",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-115.jpg?v=3f5652bf4f54",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Nanachi [PUP-115]",
+    "type": "Main_Deck",
+    "Number": "PUP-115",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Hollow",
+      "Delver"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Opponent's Turn",
+      "On Play",
+      "Limit 1",
+      "Barrier",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[Opponent's Turn] Limit 1 When a card is removed from your Life: Choose up to 1 of your Opponent's Units, ignoring Barrier, and it cannot be Rested or used in a combo until the end of your next turn.\n[On Play] Add up to 2 cards from your Life to your hand; place that many cards from your hand in your Life.\n[Activate: Battle] Limit 1 (2) If your Leader is \"Nanachi\": Play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-115.jpg?v=3f5652bf4f54"
+  },
+  "PUP-116": {
+    "id": "PUP-116",
+    "face": {
+      "front": {
+        "name": "Bondrewd",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-116.jpg?v=4135ad225237",
+        "isHorizontal": false,
+        "power": 7000,
+        "sjCost": 3
+      }
+    },
+    "name": "Bondrewd [PUP-116]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-116",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 5,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 7000,
+    "Counter": null,
+    "Traits": [
+      "Delver",
+      "White Whistle"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Deflect",
+      "Unblockable"
+    ],
+    "Effect": "Deflect\n[On Play] Place up to 1 card from your Life at the bottom of your Deck. Then, if you placed a card, give this card +1000 Power and Unblockable for the turn.\n[On Attack] If you have less Life cards than your Opponent, your Opponent adds the top of their Life cards to their hand.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-116.jpg?v=4135ad225237"
+  },
+  "PUP-117": {
+    "id": "PUP-117",
+    "face": {
+      "front": {
+        "name": "Curse of the Abyss",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-117.jpg?v=07d374a41181",
+        "isHorizontal": true,
+        "sjCost": "X"
+      }
+    },
+    "name": "Curse of the Abyss [PUP-117]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-117",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": "X",
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "On Play",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] (1) If your Leader has the \"Delver\" Trait: Add 1 card from under this card to your hand; add the top or bottom card of your Deck at the top of your Life.\n[On Play] For each SJ Marker used to pay for the Cost of this card, add 1 card from your Life under this card face-up.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-117.jpg?v=07d374a41181"
+  },
+  "TOKEN-GT-MIA": {
+    "id": "TOKEN-GT-MIA",
+    "face": {
+      "front": {
+        "name": "Guard Token MIA",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-MIA.jpg?v=27bd5474220c",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token MIA",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-MIA",
+    "Card_Type": "Guard Token",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-MIA.jpg?v=27bd5474220c",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-MIA1": {
+    "id": "TOKEN-SJM-MIA1",
+    "face": {
+      "front": {
+        "name": "SJ Marker MIA1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MIA1.jpg?v=b378d796e7e9",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker MIA1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-MIA1",
+    "Card_Type": "SJ Marker",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MIA1.jpg?v=b378d796e7e9",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-MIA2": {
+    "id": "TOKEN-SJM-MIA2",
+    "face": {
+      "front": {
+        "name": "SJ Marker MIA2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MIA2.jpg?v=a186f8eb209c",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker MIA2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-MIA2",
+    "Card_Type": "SJ Marker",
+    "Color": "Pink",
+    "Set": "MIA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MIA2.jpg?v=a186f8eb209c",
+    "isAccessory": true
   }
 }

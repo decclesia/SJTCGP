@@ -239,7 +239,10 @@
         "TOKEN-SJM-BCL1",
         "TOKEN-SJM-BCL2",
         "TOKEN-GT-SKD",
-        "TOKEN-SJM-SKD1"
+        "TOKEN-SJM-SKD1",
+        "TOKEN-GT-MIA",
+        "TOKEN-SJM-MIA1",
+        "TOKEN-SJM-MIA2"
       ],
       "countersStartingValues": [
         0,

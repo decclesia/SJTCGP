@@ -1,27 +1,46 @@
 {
-  "website_cards": 1088,
-  "card_text_records": 1088,
-  "arena_entries": 1205,
-  "ex7_red_printed_rarities": {
+  "website_cards": 1111,
+  "card_text_records": 1111,
+  "arena_entries": 1231,
+  "st6_pink_printed_rarities": {
     "L": 1,
     "SR": 3,
-    "R": 17
+    "R": 8,
+    "UC": 8
+  },
+  "main_unit_counters": {
+    "0": 3,
+    "1000": 7,
+    "2000": 4
   },
   "promos": [
-    "PUP-118",
-    "PUP-119"
+    "PUP-115",
+    "PUP-116",
+    "PUP-117"
   ],
   "landscape_jump_actions": [
-    "EX7-020",
-    "EX7-021",
-    "PUP-119"
+    "ST6-100",
+    "PUP-117"
   ],
+  "variable_sj_cost": {
+    "PUP-117": "X"
+  },
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "ex7_red_accessories": [
-    "GT-SKD",
-    "SJM-SKD1"
+  "st6_pink_accessories": [
+    "GT-MIA",
+    "SJM-MIA1",
+    "SJM-MIA2"
   ],
-  "energy_mapping": "TOKEN-ENERGY-GENERIC; no dedicated EX Energy asset is expected."
+  "red_keyword_popups": [
+    "Deluge",
+    "Sub",
+    "Endure",
+    "Crossover",
+    "Gambit",
+    "Scheme",
+    "Conduit"
+  ],
+  "energy_mapping": "TOKEN-ENERGY-GENERIC; dedicated Energy remains pending the future Energy-only bundle."
 }

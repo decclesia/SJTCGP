@@ -962,6 +962,20 @@ body.compact-grid .card-actions {
   line-height: 1.55;
 }
 .modal-effect .kw { font-weight: 950; }
+.modal-effect .keyword-trigger {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  border-radius: 4px;
+}
+.modal-effect .keyword-trigger:hover,
+.modal-effect .keyword-trigger:focus-visible {
+  outline: 2px solid color-mix(in srgb, currentColor 45%, transparent);
+  outline-offset: 2px;
+  background: color-mix(in srgb, currentColor 10%, transparent);
+}
 .kw-green { color: #168447; }
 .kw-purple { color: #7541bb; }
 .kw-orange { color: #bd6700; }
@@ -970,6 +984,71 @@ body.dark .kw-green { color: #62d58b; }
 body.dark .kw-purple { color: #bd8cff; }
 body.dark .kw-orange { color: #ffb44d; }
 body.dark .kw-red { color: #ff7279; }
+.keyword-popover[hidden] { display: none; }
+.keyword-popover {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+.keyword-popover-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.62);
+  backdrop-filter: blur(3px);
+}
+.keyword-popover-panel {
+  position: relative;
+  width: min(520px, 100%);
+  max-height: min(80vh, 680px);
+  overflow: auto;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid color-mix(in srgb, #cc3038 42%, var(--border));
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.48);
+}
+.keyword-popover-close {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  width: 2.35rem;
+  height: 2.35rem;
+  padding: 0;
+  font-size: 1.45rem;
+  line-height: 1;
+}
+.keyword-popover-kicker {
+  margin: 0 2.8rem 0.25rem 0;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 950;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.keyword-popover-panel h2 {
+  margin: 0 2.8rem 0.7rem 0;
+  color: #cc3038;
+}
+body.dark .keyword-popover-panel h2 { color: #ff7279; }
+.keyword-definition {
+  margin: 0;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 750;
+  line-height: 1.55;
+}
+.keyword-notes {
+  margin: 0.85rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 650;
+  line-height: 1.5;
+}
+.keyword-notes[hidden] { display: none; }
 .modal-notes {
   display: block !important;
   margin: 0 0 0.75rem !important;
