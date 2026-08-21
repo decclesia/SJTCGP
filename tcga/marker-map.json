@@ -258,6 +258,13 @@
         "TOKEN-SJM-BCL2"
       ],
       "guardToken": "TOKEN-GT-BCL"
+    },
+    "SKD": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-SKD1"
+      ],
+      "guardToken": "TOKEN-GT-SKD"
     }
   },
   "notes": {
@@ -639,6 +646,14 @@
         "TOKEN-SJM-BCL2"
       ],
       "guardToken": "TOKEN-GT-BCL"
+    },
+    "EX7-001": {
+      "set": "SKD",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-SKD1"
+      ],
+      "guardToken": "TOKEN-GT-SKD"
     }
   }
 }

@@ -44427,5 +44427,938 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BCL2.jpg?v=679f7b50c4a9",
     "isAccessory": true
+  },
+  "EX7-001": {
+    "id": "EX7-001",
+    "face": {
+      "front": {
+        "name": "Taro Sakamoto",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-001.jpg?v=48573bfd1fab",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Taro Sakamoto [EX7-001]",
+    "type": "Leader",
+    "Number": "EX7-001",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Assassin",
+      "Shopkeeper"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] Rest this card: Add up to 2 \"Starting now... I'm going all out\" from your Deck and/or Life to your hand, then shuffle any areas you looked through with this skill.\nThreshold 3 [Activate: Main] Once per Turn Give 1 of your Units -5000 Power for the turn: Choose up to 1 of your Opponent's Units and give it -5000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-001.jpg?v=48573bfd1fab"
+  },
+  "EX7-002": {
+    "id": "EX7-002",
+    "face": {
+      "front": {
+        "name": "Taro Sakamoto",
+        "type": "MAIN UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-002.jpg?v=ee0286479ce9",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Taro Sakamoto [EX7-002]",
+    "type": "Main_Deck",
+    "Number": "EX7-002",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Assassin",
+      "Shopkeeper"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Permanent",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "Permanent If your Leader is \"Taro Sakamoto\", the first time this card's Power would be reduced by your skill each turn, give this card +3000 Power for the turn instead.\n[On Play] If your Leader is \"Taro Sakamoto\": Place up to 1 \"Starting now... I'm going all out\" from your Drop under your Leader. Then, choose all of your Opponent's Units and give them -1000 Power for the turn.\n[On Attack] Limit 1 Place 1 \"Starting now... I'm going all out\" from under your Leader in your Drop: Choose up to 1 of your Opponent's Units with 2000 or less Power, ignoring Barrier, and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-002.jpg?v=ee0286479ce9"
+  },
+  "EX7-003": {
+    "id": "EX7-003",
+    "face": {
+      "front": {
+        "name": "Shin Asakura",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-003.jpg?v=5355bd5be579",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Shin Asakura [EX7-003]",
+    "type": "Main_Deck",
+    "Number": "EX7-003",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Assassin",
+      "Clairvoyant"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] If your Leader is \"Taro Sakamoto\": Place 1 \"Starting now... I'm going all out\" from under your Leader in your Drop; play up to 1 Unit card with a Cost of 2 or less and the \"Assassin\" Trait from your Drop Rested.\n[Your Turn] Limit 1 When one of your other Units' Power is reduced by your skill, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-003.jpg?v=5355bd5be579"
+  },
+  "EX7-004": {
+    "id": "EX7-004",
+    "face": {
+      "front": {
+        "name": "Taro Sakamoto",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-004.jpg?v=daea66853ae4",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Taro Sakamoto [EX7-004]",
+    "type": "Main_Deck",
+    "Number": "EX7-004",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Assassin",
+      "Shopkeeper"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Attack",
+      "Deflect",
+      "Duel"
+    ],
+    "Effect": "Deflect Duel\n[On Attack] Once per Turn If your Leader is \"Taro Sakamoto\", give 1 of your other Units -3000 Power for the turn: At the end of the battle, switch this card to Active mode and it cannot attack your Opponent's Leader for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-004.jpg?v=daea66853ae4"
+  },
+  "EX7-005": {
+    "id": "EX7-005",
+    "face": {
+      "front": {
+        "name": "Lu Shaotang",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-005.jpg?v=7159fb0a5d67",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Lu Shaotang [EX7-005]",
+    "type": "Main_Deck",
+    "Number": "EX7-005",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Assassin"
+    ],
+    "Keywords": [
+      "Your Turn",
+      "Limit 1",
+      "Deflect",
+      "Elusive"
+    ],
+    "Effect": "Deflect Elusive\n[Your Turn] Limit 1 If your Leader is \"Taro Sakamoto\": When this card's Power is reduced to 0 or less by your skill, while in Active mode, look at the top 5 cards of your Deck; add up to 1 card with the \"Assassin\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order and Rest this card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-005.jpg?v=7159fb0a5d67"
+  },
+  "EX7-006": {
+    "id": "EX7-006",
+    "face": {
+      "front": {
+        "name": "Aoi Sakamoto",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-006.jpg?v=da5e2f73c9db",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Aoi Sakamoto [EX7-006]",
+    "type": "Main_Deck",
+    "Number": "EX7-006",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Shopkeeper"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Taro Sakamoto\": Add up to 1 \"Taro Sakamoto\" from your Deck to your hand. Then, shuffle your Deck and place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-006.jpg?v=da5e2f73c9db"
+  },
+  "EX7-007": {
+    "id": "EX7-007",
+    "face": {
+      "front": {
+        "name": "Hana Sakamoto",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-007.jpg?v=648654a982d4",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Hana Sakamoto [EX7-007]",
+    "type": "Main_Deck",
+    "Number": "EX7-007",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Shopkeeper"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Taro Sakamoto\": Place 1 \"Starting now... I'm going all out\" from your Drop at the bottom of your Deck and give your Leader +1000 Power until the end of your Opponent's next turn. Then, place this card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-007.jpg?v=648654a982d4"
+  },
+  "EX7-008": {
+    "id": "EX7-008",
+    "face": {
+      "front": {
+        "name": "Lu Shaotang",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-008.jpg?v=9a4507ffdefc",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Lu Shaotang [EX7-008]",
+    "type": "Main_Deck",
+    "Number": "EX7-008",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Shopkeeper"
+    ],
+    "Keywords": [
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[On Play] Draw 1 card; place 1 card from your hand in your Drop.\n[Your Turn] If your Leader is \"Taro Sakamoto\": When this card's Power is reduced to 0 or less by your skill, return this card to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-008.jpg?v=9a4507ffdefc"
+  },
+  "EX7-009": {
+    "id": "EX7-009",
+    "face": {
+      "front": {
+        "name": "Heisuke Mashimo",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-009.jpg?v=6f2c304b5d66",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Heisuke Mashimo [EX7-009]",
+    "type": "Main_Deck",
+    "Number": "EX7-009",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Assassin"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Accelcharge",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] Limit 1 If your Leader is \"Taro Sakamoto\", choose up to 1 of your Opponent's Units with 0 or less Power and K.O. it. Then, if a Unit was K.O.'d by this skill, Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-009.jpg?v=6f2c304b5d66"
+  },
+  "EX7-010": {
+    "id": "EX7-010",
+    "face": {
+      "front": {
+        "name": "Piisuke",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-010.jpg?v=1ef509b4dbcc",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Piisuke [EX7-010]",
+    "type": "Main_Deck",
+    "Number": "EX7-010",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Spotter"
+    ],
+    "Keywords": [
+      "On K.O.",
+      "On Play",
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] Add 1 card from your Life to your hand.\n[On K.O.] Place up to 1 \"Starting now... I'm going all out\" from your Drop under your Leader.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-010.jpg?v=1ef509b4dbcc"
+  },
+  "EX7-011": {
+    "id": "EX7-011",
+    "face": {
+      "front": {
+        "name": "Shishiba",
+        "type": "MAIN UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-011.jpg?v=0c177babbc4f",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Shishiba [EX7-011]",
+    "type": "Main_Deck",
+    "Number": "EX7-011",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Assassin"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Overcharge",
+      "Barrier"
+    ],
+    "Effect": "[On Play] If your Leader is \"Taro Sakamoto\": You may place 1 of your Units with 0 or less Power in your Drop. Then, if you placed a card, choose up to 1 of your Opponent's Units with 6000 or less Power, ignoring Barrier, and K.O. it.\n[End of your Turn] Place 1 of your Units with 0 or less Power in your Drop: Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-011.jpg?v=0c177babbc4f"
+  },
+  "EX7-012": {
+    "id": "EX7-012",
+    "face": {
+      "front": {
+        "name": "Osaragi",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-012.jpg?v=1814a3ca8748",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Osaragi [EX7-012]",
+    "type": "Main_Deck",
+    "Number": "EX7-012",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Assassin"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "On Play",
+      "Blocker",
+      "Clash",
+      "Revenge"
+    ],
+    "Effect": "Clash [Opponent's Play] Place 2 cards from under your Leader in your Drop: Play this card from your hand.\n[On Play] If your Leader is \"Taro Sakamoto\": Give this card Blocker and Revenge for the turn. Then, place this card in your Drop at the end of the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-012.jpg?v=1814a3ca8748"
+  },
+  "EX7-013": {
+    "id": "EX7-013",
+    "face": {
+      "front": {
+        "name": "Shin Asakura",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-013.jpg?v=74c714db5e0f",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Shin Asakura [EX7-013]",
+    "type": "Main_Deck",
+    "Number": "EX7-013",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Assassin"
+    ],
+    "Keywords": [
+      "On Attack",
+      "Critical"
+    ],
+    "Effect": "[On Attack] If your Leader is \"Taro Sakamoto\" and this card's Power is 0 or less, give this card +5000 Power and Critical for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-013.jpg?v=74c714db5e0f"
+  },
+  "EX7-014": {
+    "id": "EX7-014",
+    "face": {
+      "front": {
+        "name": "Akira Akao",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-014.jpg?v=aeb1c9f0587c",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Akira Akao [EX7-014]",
+    "type": "Main_Deck",
+    "Number": "EX7-014",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "JCC Student"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] If your Leader is \"Taro Sakamoto\": You may Rest this card and give 1 of your other Units -3000 Power for the turn. If you do, draw 1 card; place 1 card from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-014.jpg?v=aeb1c9f0587c"
+  },
+  "EX7-015": {
+    "id": "EX7-015",
+    "face": {
+      "front": {
+        "name": "Gaku",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-015.jpg?v=3a7a152aaaca",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Gaku [EX7-015]",
+    "type": "Main_Deck",
+    "Number": "EX7-015",
+    "Card_Type": "Main Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Assassin"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "Your Turn",
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] Limit 1 If your Leader is \"Taro Sakamoto\": When this card's Power is reduced by your skill, you may place this card in your Drop and, if you do, add up to 1 \"Starting now... I'm going all out\" from your Drop to your hand.\n[End of your Turn] If this card's Power is 0 or less, Rest this card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-015.jpg?v=3a7a152aaaca"
+  },
+  "EX7-016": {
+    "id": "EX7-016",
+    "face": {
+      "front": {
+        "name": "Starting now... I'm going all out",
+        "type": "MAIN ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-016.jpg?v=f12e543324ff",
+        "isHorizontal": false
+      }
+    },
+    "name": "Starting now... I'm going all out [EX7-016]",
+    "type": "Main_Deck",
+    "Number": "EX7-016",
+    "Card_Type": "Main Action",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "SR",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Assassin"
+    ],
+    "Keywords": [
+      "Activate: Main"
+    ],
+    "Effect": "[Activate: Main] If your Leader is \"Taro Sakamoto\": Draw 1 card; place this card under your Leader and give your Leader +1000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-016.jpg?v=f12e543324ff"
+  },
+  "EX7-017": {
+    "id": "EX7-017",
+    "face": {
+      "front": {
+        "name": "Sakamoto Family Rules",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-017.jpg?v=202fe082f6f4",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sakamoto Family Rules [EX7-017]",
+    "type": "Main_Deck",
+    "Number": "EX7-017",
+    "Card_Type": "Main Action",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Family"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Clash"
+    ],
+    "Effect": "Clash [Activate: Battle] Place 1 card from under your Leader in your Drop: Add 1 card from your Life to your hand and draw 1 card; choose 1 of your Units and make it the new attack target. At the end of the battle, place that card in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-017.jpg?v=202fe082f6f4"
+  },
+  "EX7-018": {
+    "id": "EX7-018",
+    "face": {
+      "front": {
+        "name": "Bike Getaway",
+        "type": "MAIN ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-018.jpg?v=cbd2a33cb25f",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bike Getaway [EX7-018]",
+    "type": "Main_Deck",
+    "Number": "EX7-018",
+    "Card_Type": "Main Action",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Shopkeeper"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] If your Life is at 1 and your Leader's Threshold skill is Active: At the end of this battle, if you added a card from your Life to your hand, place this card in your Life face-up (if it is removed from your Life, remove it from the game). Then, at the end of the turn, place this face-up card from your Life in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-018.jpg?v=cbd2a33cb25f"
+  },
+  "EX7-019": {
+    "id": "EX7-019",
+    "face": {
+      "front": {
+        "name": "Nagumo",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX7-019.jpg?v=d30d2c7dcef2",
+        "isHorizontal": false,
+        "power": 3000,
+        "sjCost": 2
+      }
+    },
+    "name": "Nagumo [EX7-019]",
+    "type": "JUMP_Deck",
+    "Number": "EX7-019",
+    "Card_Type": "JUMP Unit",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 3000,
+    "Counter": null,
+    "Traits": [
+      "Assassin"
+    ],
+    "Keywords": [
+      "End of your Turn",
+      "On Play",
+      "Your Turn",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[On Play] If your Leader is \"Taro Sakamoto\" and your Unit's Power was reduced by your skill this turn: Overcharge 2 and you can't Overcharge for the turn; Charge 2 and you can't Charge for the turn. Then, at the end of your turn, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX7-019.jpg?v=d30d2c7dcef2"
+  },
+  "EX7-020": {
+    "id": "EX7-020",
+    "face": {
+      "front": {
+        "name": "Armory",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-020.jpg?v=67a445790346",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Armory [EX7-020]",
+    "type": "JUMP_Deck",
+    "Number": "EX7-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Main",
+      "Once per Turn"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Place 1 of your Units with 0 or less Power in your Drop: Negate the Keyword skills of up to 1 of your Opponent's Units with 0 or less Power until the end of your Opponent's next turn. Then, draw 1 card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-020.jpg?v=67a445790346"
+  },
+  "EX7-021": {
+    "id": "EX7-021",
+    "face": {
+      "front": {
+        "name": "Disarm",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-021.jpg?v=d9dafddf1ebc",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Disarm [EX7-021]",
+    "type": "JUMP_Deck",
+    "Number": "EX7-021",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "EX7",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Opponent's Attack",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] (1) Remove this card from the game and place 1 \"Starting now... I'm going all out\" from under your Leader in your Drop: Negate the attack. Then, choose up to 2 of your Opponent's cards with 5000 or less Power and they cannot attack for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-021.jpg?v=d9dafddf1ebc"
+  },
+  "PUP-118": {
+    "id": "PUP-118",
+    "face": {
+      "front": {
+        "name": "Taro Sakamoto",
+        "type": "JUMP LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-118.jpg?v=045d9cfff22d",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 3
+      }
+    },
+    "name": "Taro Sakamoto [PUP-118]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-118",
+    "Card_Type": "JUMP Leader",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": null,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Assassin",
+      "Shopkeeper"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Attack",
+      "V JUMP"
+    ],
+    "Effect": "V JUMP If your Leader is \"Taro Sakamoto\", your Life is at 1 or less and you remove 4 \"Starting now... I'm going all out\" from under your Leader and Drop from the game.\n[On Attack] Draw 1 card.\n[Activate: Main] Remove this card from the game: Choose all Units on the field and give them -2000 Power and Counter for the turn. Then, play up to 1 \"Taro Sakamoto\" from your hand or Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-118.jpg?v=045d9cfff22d"
+  },
+  "PUP-119": {
+    "id": "PUP-119",
+    "face": {
+      "front": {
+        "name": "Improvised Arsenal",
+        "type": "JUMP ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-119.jpg?v=0054c923da2d",
+        "isHorizontal": true,
+        "sjCost": 2
+      }
+    },
+    "name": "Improvised Arsenal [PUP-119]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-119",
+    "Card_Type": "JUMP Action",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 0,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "End of your Turn",
+      "Once per Turn",
+      "Your Turn"
+    ],
+    "Effect": "[Your Turn] Once per Turn (1) When your Unit's Power is reduced by your skill: Give up to 1 of your Units +2000 Power for the turn.\n[End of your Turn] If you have a Unit with 0 or less Power, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-119.jpg?v=0054c923da2d"
+  },
+  "TOKEN-GT-SKD": {
+    "id": "TOKEN-GT-SKD",
+    "face": {
+      "front": {
+        "name": "Guard Token SKD",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SKD.jpg?v=f7775c427021",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token SKD",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-SKD",
+    "Card_Type": "Guard Token",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-SKD.jpg?v=f7775c427021",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-SKD1": {
+    "id": "TOKEN-SJM-SKD1",
+    "face": {
+      "front": {
+        "name": "SJ Marker SKD1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SKD1.jpg?v=3718e9f71278",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker SKD1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-SKD1",
+    "Card_Type": "SJ Marker",
+    "Color": "Red",
+    "Set": "SKD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-SKD1.jpg?v=3718e9f71278",
+    "isAccessory": true
   }
 }

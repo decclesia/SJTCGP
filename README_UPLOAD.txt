@@ -1,3 +1,3 @@
-SJTCGP ST6 Red BCL / Mereoleona Vermillion update applied on 2026-08-17.
+SJTCGP EX7 Red SKD / Taro Sakamoto update applied on 2026-08-21.
 
-Adds ST6-021 through ST6-040 and PUP-106 through PUP-108 with optimized printed images and verified transcriptions, plus GT-BCL/SJM-BCL1/SJM-BCL2. The dedicated Energy marker is intentionally deferred to the future Energy-only bundle; Arena uses the generic Energy fallback meanwhile. Database and Arena remain synchronized with canonical 10/10/6 rules.
+Adds EX7-001 through EX7-021 and PUP-118 through PUP-119 with optimized printed images and verified transcriptions, plus GT-SKD and SJM-SKD1. Arena uses the generic Energy fallback and remains synchronized with canonical 10/10/6 rules.

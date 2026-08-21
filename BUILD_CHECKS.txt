@@ -1,31 +1,27 @@
 {
-  "website_cards": 1065,
-  "card_text_records": 1065,
-  "arena_entries": 1180,
-  "st6_red_printed_rarities": {
+  "website_cards": 1088,
+  "card_text_records": 1088,
+  "arena_entries": 1205,
+  "ex7_red_printed_rarities": {
     "L": 1,
     "SR": 3,
-    "R": 6,
-    "UC": 10
+    "R": 17
   },
   "promos": [
-    "PUP-106",
-    "PUP-107",
-    "PUP-108"
+    "PUP-118",
+    "PUP-119"
   ],
   "landscape_jump_actions": [
-    "ST6-039",
-    "ST6-040",
-    "PUP-107",
-    "PUP-108"
+    "EX7-020",
+    "EX7-021",
+    "PUP-119"
   ],
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "st6_red_accessories": [
-    "GT-BCL",
-    "SJM-BCL1",
-    "SJM-BCL2"
+  "ex7_red_accessories": [
+    "GT-SKD",
+    "SJM-SKD1"
   ],
-  "dedicated_energy_asset": "Deferred to the future Energy-marker-only bundle; generic Arena fallback remains active."
+  "energy_mapping": "TOKEN-ENERGY-GENERIC; no dedicated EX Energy asset is expected."
 }
