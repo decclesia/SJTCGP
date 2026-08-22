@@ -1040,15 +1040,6 @@ body.dark .keyword-popover-panel h2 { color: #ff7279; }
   font-weight: 750;
   line-height: 1.55;
 }
-.keyword-notes {
-  margin: 0.85rem 0 0;
-  padding-left: 1.15rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-  font-weight: 650;
-  line-height: 1.5;
-}
-.keyword-notes[hidden] { display: none; }
 .modal-notes {
   display: block !important;
   margin: 0 0 0.75rem !important;

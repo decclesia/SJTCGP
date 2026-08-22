@@ -42,5 +42,6 @@
     "Scheme",
     "Conduit"
   ],
+  "red_keyword_popup_content": "definitions_only_no_notes",
   "energy_mapping": "TOKEN-ENERGY-GENERIC; dedicated Energy remains pending the future Energy-only bundle."
 }
