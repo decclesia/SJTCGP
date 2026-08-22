@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import base64
+import hashlib
 import json
 import math
 import re
@@ -16,11 +17,16 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(r"C:\Users\User\Documents\Codex\2026-06-20\ta")
-ARCHIVE_PATH = ROOT / "outputs" / "SJTCGP_Card_Text_Archive" / "cards-text-archive.json"
-SOURCE_CARDS_PATH = ROOT / "outputs" / "SJTCGP_GitHub_Pages_Text_Update" / "cards.json"
-CARD_IMAGE_DIR = ROOT / "outputs" / "SJTCGP_GitHub_Pages_Text_Update" / "images"
-LOGO_PATH = ROOT / "outputs" / "SJTCGP_GitHub_Pages_Text_Update" / "assets" / "sjtcg-logo.svg"
-TOKEN_SOURCE = ROOT / "work" / "tcg-arena-assets-20260629"
+SCRIPT_REPO_ROOT = Path(__file__).resolve().parents[2]
+PUBLISH_ROOT = (
+    SCRIPT_REPO_ROOT
+    if (SCRIPT_REPO_ROOT / "images").is_dir()
+    else ROOT / "work" / "sjtcgp-github-upload-red-kny"
+)
+ARCHIVE_PATH = PUBLISH_ROOT / "card-text.json"
+CARD_IMAGE_DIR = PUBLISH_ROOT / "images"
+LOGO_PATH = PUBLISH_ROOT / "assets" / "sjtcg-logo.svg"
+TOKEN_SOURCE = PUBLISH_ROOT / "tcga" / "assets"
 TORU_DECK_PATH = ROOT / "outputs" / "Toru_Sample_Deck_Deckbuilder.json"
 OUTPUT_ROOT = ROOT / "outputs" / "SJTCGP_TCG_Arena_GitHub_Update"
 TCGA_DIR = OUTPUT_ROOT / "tcga"
@@ -85,6 +91,11 @@ def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
+def load_archive_cards(path: Path) -> list[dict]:
+    archive = load_json(path)
+    return list(archive.values()) if isinstance(archive, dict) else archive
+
+
 def write_json(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -138,13 +149,20 @@ def keyword_list(effect: str) -> list[str]:
     return found
 
 
+def versioned_url(relative_path: str, local_path: Path) -> str:
+    digest = hashlib.sha256(local_path.read_bytes()).hexdigest()[:12]
+    return BASE_URL + relative_path.replace("\\", "/") + f"?v={digest}"
+
+
 def make_card_entry(card: dict) -> dict:
     card_type = classify_card(card)
     number = card["card_no"]
     if card.get("orientation") == "Landscape":
-        image_url = BASE_URL + f"tcga/assets/landscape-cards/{number}.jpg"
+        relative_image_path = f"tcga/assets/landscape-cards/{number}.jpg"
+        image_url = versioned_url(relative_image_path, LANDSCAPE_CARD_DIR / f"{number}.jpg")
     else:
-        image_url = BASE_URL + card["image_url"].replace("\\", "/")
+        relative_image_path = card.get("image_url", f"images/{number}.jpg").replace("\\", "/")
+        image_url = versioned_url(relative_image_path, CARD_IMAGE_DIR / f"{number}.jpg")
     cost = to_number(card.get("cost"))
     sj_cost = to_number(card.get("sj_cost"))
     life = to_number(card.get("life"))
@@ -315,7 +333,7 @@ def compress_image(source: Path, destination: Path, width: int = 620) -> None:
 
 
 def marker_entry(marker_id: str, name: str, category: str, face: str, series: str, image_rel: str, marker_type: str) -> dict:
-    image_url = BASE_URL + image_rel
+    image_url = versioned_url(image_rel, OUTPUT_ROOT / image_rel)
     return {
         "id": marker_id,
         "face": {
@@ -357,14 +375,16 @@ def build_markers(cards: dict) -> tuple[dict, list[str]]:
     token_ids: list[str] = []
 
     groups = [
-        (TOKEN_SOURCE / "energy" / "ENERGY", ASSET_DIR / "energy", "Energy_Stack", "ENERGY", "Energy Marker", energy_by_series),
-        (TOKEN_SOURCE / "sj-markers" / "SJ Markers", ASSET_DIR / "sj-markers", "SJ_Marker_Pile", "SJ MARKER", "SJ Marker", sj_by_series),
-        (TOKEN_SOURCE / "guard-tokens" / "Guard Tokens", ASSET_DIR / "guard-tokens", "Guard_Token_Pile", "GUARD TOKEN", "Guard Token", guard_by_series),
+        (TOKEN_SOURCE / "energy", ASSET_DIR / "energy", "Energy_Stack", "ENERGY", "Energy Marker", energy_by_series),
+        (TOKEN_SOURCE / "sj-markers", ASSET_DIR / "sj-markers", "SJ_Marker_Pile", "SJ MARKER", "SJ Marker", sj_by_series),
+        (TOKEN_SOURCE / "guard-tokens", ASSET_DIR / "guard-tokens", "Guard_Token_Pile", "GUARD TOKEN", "Guard Token", guard_by_series),
     ]
 
     for source_dir, destination_dir, category, face, marker_type, map_dict in groups:
-        for source in sorted(source_dir.glob("*.png")):
+        for source in sorted(source_dir.glob("*.jpg")):
             stem = source.stem.upper()
+            if stem == "ENERGY-GENERIC":
+                continue
             if stem.startswith("SJM-"):
                 series_match = re.match(r"SJM-([A-Z]+)", stem)
                 series = series_match.group(1) if series_match else "GENERIC"
@@ -373,7 +393,8 @@ def build_markers(cards: dict) -> tuple[dict, list[str]]:
             else:
                 series = stem
             destination = destination_dir / f"{stem}.jpg"
-            compress_image(source, destination)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, destination)
             marker_id = f"TOKEN-{stem}"
             rel = destination.relative_to(OUTPUT_ROOT).as_posix()
             readable = stem.replace("SJM-", "SJ Marker ").replace("GT-", "Guard Token ")
@@ -384,7 +405,12 @@ def build_markers(cards: dict) -> tuple[dict, list[str]]:
             token_ids.append(marker_id)
 
     generic_path = ASSET_DIR / "energy" / "ENERGY-GENERIC.jpg"
-    make_generic_energy(generic_path)
+    generic_source = TOKEN_SOURCE / "energy" / "ENERGY-GENERIC.jpg"
+    generic_path.parent.mkdir(parents=True, exist_ok=True)
+    if generic_source.exists():
+        shutil.copy2(generic_source, generic_path)
+    else:
+        make_generic_energy(generic_path)
     generic_id = "TOKEN-ENERGY-GENERIC"
     cards[generic_id] = marker_entry(
         generic_id,
@@ -460,7 +486,10 @@ def build_sections() -> dict:
     sections = {
         "Hand": section("Hand", "Hand", hidden="opponent-only", height="DEFAULT", group_forbidden=True, default=True, auto_pay_from=True),
         "Discard": section("Discard", "Drop", height="SMALL", group_forbidden=True, default=True),
-        "Deck": section("Deck", "Deck", hidden="yes", height="DEFAULT", alignment="DECK", group_forbidden=True, no_auto_pay_to=False, default=True),
+        # Keep the built-in Deck on TCG Arena's native NONE alignment. The
+        # current client owns its draw/menu controller; forcing DECK alignment
+        # leaves the pile visible but prevents that controller from acting.
+        "Deck": section("Deck", "Deck", hidden="yes", height="DEFAULT", alignment="NONE", group_forbidden=True, no_auto_pay_to=False, default=True),
         "Stack": section("Stack", "Action Resolution", height="HUGE", alignment="NONE", group_forbidden=True, no_auto_pay_to=False, default=True),
         "Exile": section("Exile", "Removed from Game", height="SMALL", alignment="NONE", group_forbidden=True, default=True),
         "ExileHidden": section("ExileHidden", "Removed Face-Down", hidden="yes", height="DEFAULT", alignment="NONE", group_forbidden=True, default=True),
@@ -782,6 +811,9 @@ def copy_tooling() -> None:
     tools_dir = TCGA_DIR / "tools"
     tools_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy2(Path(__file__), tools_dir / "build_sjtcgp_tcg_arena.py")
+    validator = Path(__file__).with_name("validate_sjtcgp_arena.py")
+    if validator.exists():
+        shutil.copy2(validator, tools_dir / validator.name)
     converter = ROOT / "work" / "convert_sjtcgp_deck_to_tcga.py"
     if converter.exists():
         shutil.copy2(converter, tools_dir / converter.name)
@@ -803,7 +835,7 @@ def main() -> None:
         shutil.rmtree(OUTPUT_ROOT)
     ASSET_DIR.mkdir(parents=True, exist_ok=True)
 
-    archive_cards = load_json(ARCHIVE_PATH)
+    archive_cards = load_archive_cards(ARCHIVE_PATH)
     build_landscape_card_assets(archive_cards)
     cards = {card["card_no"]: make_card_entry(card) for card in archive_cards}
 

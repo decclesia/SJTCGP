@@ -35714,7 +35714,7 @@
         "name": "Full Throttle",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-125.jpg?v=8adb23dccfc8",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-125.jpg?v=fecea139bb61",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -35741,7 +35741,7 @@
     "Effect": "[Activate: Main] Once per Turn If your Leader has the \"Kumamori Shrine\" Trait: Turn the top of your Life cards face-up: During your next Charge Phase, Charge 1.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-125.jpg?v=8adb23dccfc8"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-125.jpg?v=fecea139bb61"
   },
   "ST5-127": {
     "id": "ST5-127",
@@ -35864,7 +35864,7 @@
         "name": "No Quarter",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-096.jpg?v=4ca85494a228",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-096.jpg?v=9f78c2e0aaae",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -35890,7 +35890,7 @@
     "Effect": "Clash [Opponent's Play] Remove this card from the game: Add the top card of your Deck at the top of your Life cards. Then, at the end of the turn, place the top of your Life cards at the top of your Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-096.jpg?v=4ca85494a228"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-096.jpg?v=9f78c2e0aaae"
   },
   "TOKEN-GT-DDD": {
     "id": "TOKEN-GT-DDD",
@@ -36893,7 +36893,7 @@
         "name": "Kazuma's Guidance",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-025.jpg?v=2d82a99b066a",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-025.jpg?v=1b262fb5d47b",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -36920,7 +36920,7 @@
     "Effect": "[Activate: Main] Once per Turn Look at the top 4 cards of your Deck; add up to 1 Unit card with the \"Deity\" Trait to your hand. Then, shuffle your Deck and, if you added a card, place 1 card from your hand in your Drop.\n[Activate: Battle] Once per Turn Remove this card from the game: Give your \"Bishamon\" or \"Yato\" that's in a battle +3000 Power for the battle.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-025.jpg?v=2d82a99b066a"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-025.jpg?v=1b262fb5d47b"
   },
   "PUP-082": {
     "id": "PUP-082",
@@ -37005,7 +37005,7 @@
         "name": "Boundary",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-084.jpg?v=991a8e5d812e",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-084.jpg?v=a2b4498f8211",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -37032,7 +37032,7 @@
     "Effect": "Clash [Opponent's Play] Remove this card from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, and Rest it.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-084.jpg?v=991a8e5d812e"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-084.jpg?v=a2b4498f8211"
   },
   "TOKEN-GT-NOG": {
     "id": "TOKEN-GT-NOG",
@@ -37868,7 +37868,7 @@
         "name": "Blessed Vessel Ascension",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD8-020.jpg?v=db592993b65f",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD8-020.jpg?v=df40c626274f",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -37895,7 +37895,7 @@
     "Effect": "[Activate: Main] If your Leader is \"Yato\": Remove 2 cards in your Drop from the game, Charge 1 and you can't Charge for the turn.\n[End of your Turn] Place 1 card from the top of your Deck in your Drop or return this card to your JUMP Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD8-020.jpg?v=db592993b65f"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD8-020.jpg?v=df40c626274f"
   },
   "PUP-097": {
     "id": "PUP-097",
@@ -37943,7 +37943,7 @@
         "name": "Severance",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-098.jpg?v=26dce5aaaef9",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-098.jpg?v=9cf79c317381",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -37969,7 +37969,7 @@
     "Effect": "[Activate: Main] If your Leader is \"Yato\" and their Threshold skill is active: Place 1 \"Yato\" and 1 Unit card with the \"Shinki\" Trait from your Drop at the bottom of your Deck: Play up to 1 \"Yato\" from your Drop Rested. Then, remove this card from the game.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-098.jpg?v=26dce5aaaef9"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-098.jpg?v=9cf79c317381"
   },
   "TOKEN-GT-NOG2": {
     "id": "TOKEN-GT-NOG2",
@@ -38842,7 +38842,7 @@
         "name": "Kuchens Kuckucksuhr",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-100.jpg?v=f0abe18835ad",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-100.jpg?v=957fdade3f81",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -38869,7 +38869,7 @@
     "Effect": "[Activate: Main] Once per Turn (X) If your Leader is \"Mephisto Pheles\": Overcharge X and you can't Overcharge until the start of your next turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-100.jpg?v=f0abe18835ad"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-100.jpg?v=957fdade3f81"
   },
   "ST5-076": {
     "id": "ST5-076",
@@ -39777,7 +39777,7 @@
         "name": "Kurikara Unsheathed",
         "type": "JUMP ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-100.jpg?v=79fa22e2a305",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-100.jpg?v=e40848b68983",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -39804,7 +39804,7 @@
     "Effect": "Clash [Opponent's Play] Limit 1 Choose up to 1 Keyword skill on the Unit being played and negate it until the end of your next turn. Then, return this card to your JUMP Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-100.jpg?v=79fa22e2a305"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-100.jpg?v=e40848b68983"
   },
   "PUP-091": {
     "id": "PUP-091",
@@ -39891,7 +39891,7 @@
         "name": "True Cross Academy",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-093.jpg?v=f6be03e0ccd0",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-093.jpg?v=eba206c6acc6",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -39918,7 +39918,7 @@
     "Effect": "Clash [Opponent's Play] Remove this card from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, give it -3 Cost and negate up to 1 of its Keyword skills until the end of your next turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-093.jpg?v=f6be03e0ccd0"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-093.jpg?v=eba206c6acc6"
   },
   "TOKEN-GT-ANE": {
     "id": "TOKEN-GT-ANE",
@@ -40919,7 +40919,7 @@
         "name": "Tenseiga",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-048.jpg?v=0a10db8b2b43",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-048.jpg?v=b2cd9fefa37a",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -40948,7 +40948,7 @@
     "Effect": "[On Play] Limit 1 Give your Leader or up to 1 of your Units with the \"Daiyokai\" Trait +1000 Power during your Opponent's next turn.\nClash [Activate: Battle] Return this card to your JUMP Deck: Accelcharge 1.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-048.jpg?v=0a10db8b2b43"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-048.jpg?v=b2cd9fefa37a"
   },
   "ST5-049": {
     "id": "ST5-049",
@@ -40957,7 +40957,7 @@
         "name": "Tokijin",
         "type": "JUMP ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-049.jpg?v=4cae3d3b7ada",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-049.jpg?v=7b16303ee7d8",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -40985,7 +40985,7 @@
     "Effect": "[On Play] Limit 1 Choose up to 1 of your Opponent's Units and give it -3000 Power for the turn.\n[Activate: Battle] Once per Turn If your \"Sesshomaru\" is in a battle: Give your card that's in a battle +1000 Power for the battle.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-049.jpg?v=4cae3d3b7ada"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-049.jpg?v=7b16303ee7d8"
   },
   "ST5-050": {
     "id": "ST5-050",
@@ -40994,7 +40994,7 @@
         "name": "Bakusaiga",
         "type": "JUMP ACTION",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-050.jpg?v=be81ef14f5e5",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-050.jpg?v=401459145325",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -41022,7 +41022,7 @@
     "Effect": "[On Play] Limit 1 Choose all of your Opponent's Units and give them -1000 Power for the turn.\n[Activate: Main] Once per Turn Remove 1 SJ Marker: Choose up to 1 of your Opponent's Units with 0 or less Power and K.O. it.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-050.jpg?v=be81ef14f5e5"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-050.jpg?v=401459145325"
   },
   "ST5-126": {
     "id": "ST5-126",
@@ -41145,7 +41145,7 @@
         "name": "Meido Zangetsuha",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-087.jpg?v=d31e76220515",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-087.jpg?v=ecd5cf81b74e",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -41172,7 +41172,7 @@
     "Effect": "Clash [Opponent's Play] Remove this card from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -3000 Power and negate up to 1 of its Keyword skills until the end of your next turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-087.jpg?v=d31e76220515"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-087.jpg?v=ecd5cf81b74e"
   },
   "TOKEN-GT-INY": {
     "id": "TOKEN-GT-INY",
@@ -42201,7 +42201,7 @@
         "name": "Kyoka Suigetsu",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-075.jpg?v=0fcf509372c9",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-075.jpg?v=f5986f8972a7",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -42229,7 +42229,7 @@
     "Effect": "Permanent Your \"Nura Rikuo\" Units are played having gained Deflect.\nClash [Opponent's Attack] (1) Remove this card from the game: If your \"Nura Rikuo\" is in a battle, negate the attack.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-075.jpg?v=0fcf509372c9"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST5-075.jpg?v=f5986f8972a7"
   },
   "PUP-088": {
     "id": "PUP-088",
@@ -42316,7 +42316,7 @@
         "name": "Osore",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-090.jpg?v=b8d4f2d110c4",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-090.jpg?v=ed6aeb239a4a",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -42342,7 +42342,7 @@
     "Effect": "Clash [Opponent's Play] Remove this card from the game: Place 1 card from your Opponent's hand in their Drop and remove 1 of their SJ Markers.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-090.jpg?v=b8d4f2d110c4"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-090.jpg?v=ed6aeb239a4a"
   },
   "TOKEN-GT-NUR": {
     "id": "TOKEN-GT-NUR",
@@ -43221,7 +43221,7 @@
         "name": "Yuko's Wish Shop",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX6-021.jpg?v=309482616410",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX6-021.jpg?v=724adeb533c6",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -43249,7 +43249,7 @@
     "Effect": "[Your Turn] Once per Turn If your Leader is \"Yuko Ichihara\": When you add a card in your JUMP Zone, Overcharge 1.\n[Activate: Main] Once per Turn Remove 2 SJ Markers: Add up to 1 card from your Opponent's Drop in their JUMP Zone face-up and it can't be removed from your Opponent's JUMP Zone until the end of your Opponent's next turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX6-021.jpg?v=309482616410"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX6-021.jpg?v=724adeb533c6"
   },
   "PUP-101": {
     "id": "PUP-101",
@@ -43296,7 +43296,7 @@
         "name": "Inheritance",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-102.jpg?v=b476455a1ee1",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-102.jpg?v=19d3864a8151",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -43323,7 +43323,7 @@
     "Effect": "Clash [Opponent's Attack] (1) If your Leader is \"Yuko Ichihara\" and their Threshold skill is active: Return this card to your JUMP Deck; if your card is in a battle with your Opponent's Leader, negate the attack. Then, if your Opponent has 4 or more cards in their JUMP Zone, draw 1 card.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-102.jpg?v=b476455a1ee1"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-102.jpg?v=19d3864a8151"
   },
   "TOKEN-GT-XHL": {
     "id": "TOKEN-GT-XHL",
@@ -44159,7 +44159,7 @@
         "name": "Hot Spring Training Camp",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-039.jpg?v=d70d04f8a8d4",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-039.jpg?v=1205bcb22117",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -44185,7 +44185,7 @@
     "Effect": "Permanent If your Leader is \"Mereoleona Vermillion\", give your Units with a card under them +1000 Power.\n[On Play] Place up to 1 \"Mereoleona Vermillion\" from your Deck under 1 of your Units with the \"Vermillion Clan\" Trait. Then, shuffle your Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-039.jpg?v=d70d04f8a8d4"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-039.jpg?v=1205bcb22117"
   },
   "ST6-040": {
     "id": "ST6-040",
@@ -44194,7 +44194,7 @@
         "name": "Calidus Brachium Barrage",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-040.jpg?v=d32aec66e672",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-040.jpg?v=e4bab5423a8e",
         "isHorizontal": true,
         "sjCost": 3
       }
@@ -44220,7 +44220,7 @@
     "Effect": "[Activate: Main] Remove this card from the game: Choose 1 of your \"Mereoleona Vermillion\" with 1 or more cards under it; add all cards from under it to your hand. Then, give that Unit +1000 Power for each card added to your hand by this skill and Dual Attack for the turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-040.jpg?v=d32aec66e672"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-040.jpg?v=e4bab5423a8e"
   },
   "PUP-106": {
     "id": "PUP-106",
@@ -44268,7 +44268,7 @@
         "name": "Fire Ultimate Magic: Exercitus Leonum",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-107.jpg?v=1b0bf302a1f0",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-107.jpg?v=2f7e85b5b1ac",
         "isHorizontal": true,
         "sjCost": 5
       }
@@ -44296,7 +44296,7 @@
     "Effect": "[Your Turn] If your Leader is \"Mereoleona Vermillion\" and you have 0 Life: When your Opponent activates a Clash skill, place this card in your Life face-up.\n[On Play] Choose 1 of your \"Mereoleona Vermillion\": Place all of your Life cards under that card and give it +2000 Power for each card under it until the end of your Opponent's next turn. Then, at the end of your turn, place all cards from under that card in your Drop.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-107.jpg?v=1b0bf302a1f0"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-107.jpg?v=2f7e85b5b1ac"
   },
   "PUP-108": {
     "id": "PUP-108",
@@ -44305,7 +44305,7 @@
         "name": "Calidus Brachium Purgatory",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-108.jpg?v=6206a672062b",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-108.jpg?v=152594beb341",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -44330,7 +44330,7 @@
     "Effect": "[Activate: Main] Remove this card from the game: Play up to 1 Unit card with a Cost of 5 or less and the \"Vermillion Clan\" Trait from your Drop with its skills negated for the turn. Then, place up to 2 cards from your Drop under the card played by this card's skill.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-108.jpg?v=6206a672062b"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-108.jpg?v=152594beb341"
   },
   "TOKEN-GT-BCL": {
     "id": "TOKEN-GT-BCL",
@@ -45158,7 +45158,7 @@
         "name": "Armory",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-020.jpg?v=67a445790346",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-020.jpg?v=81bb746dfdd3",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -45184,7 +45184,7 @@
     "Effect": "[Activate: Main] Once per Turn Place 1 of your Units with 0 or less Power in your Drop: Negate the Keyword skills of up to 1 of your Opponent's Units with 0 or less Power until the end of your Opponent's next turn. Then, draw 1 card.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-020.jpg?v=67a445790346"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-020.jpg?v=81bb746dfdd3"
   },
   "EX7-021": {
     "id": "EX7-021",
@@ -45193,7 +45193,7 @@
         "name": "Disarm",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-021.jpg?v=d9dafddf1ebc",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-021.jpg?v=c738422aa187",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -45219,7 +45219,7 @@
     "Effect": "Clash [Opponent's Attack] (1) Remove this card from the game and place 1 \"Starting now... I'm going all out\" from under your Leader in your Drop: Negate the attack. Then, choose up to 2 of your Opponent's cards with 5000 or less Power and they cannot attack for the turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-021.jpg?v=d9dafddf1ebc"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX7-021.jpg?v=c738422aa187"
   },
   "PUP-118": {
     "id": "PUP-118",
@@ -45268,7 +45268,7 @@
         "name": "Improvised Arsenal",
         "type": "JUMP ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-119.jpg?v=0054c923da2d",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-119.jpg?v=fd1d75b597e5",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -45295,7 +45295,7 @@
     "Effect": "[Your Turn] Once per Turn (1) When your Unit's Power is reduced by your skill: Give up to 1 of your Units +2000 Power for the turn.\n[End of your Turn] If you have a Unit with 0 or less Power, return this card to your JUMP Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-119.jpg?v=0054c923da2d"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-119.jpg?v=fd1d75b597e5"
   },
   "TOKEN-GT-SKD": {
     "id": "TOKEN-GT-SKD",
@@ -46115,7 +46115,7 @@
         "name": "Blessing of the Abyss",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-100.jpg?v=27ab916d4862",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-100.jpg?v=c2c8e4cf1e63",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -46142,7 +46142,7 @@
     "Effect": "[Opponent's Turn] Once per Turn (1) If your Leader has the \"Delver\" Trait: When a card is added to your Life by your skill, Bloom 1 of your Units with the \"Hollow\" or \"Delver\" Trait.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-100.jpg?v=27ab916d4862"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-100.jpg?v=c2c8e4cf1e63"
   },
   "PUP-115": {
     "id": "PUP-115",
@@ -46234,7 +46234,7 @@
         "name": "Curse of the Abyss",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-117.jpg?v=07d374a41181",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-117.jpg?v=401517009874",
         "isHorizontal": true,
         "sjCost": "X"
       }
@@ -46261,7 +46261,7 @@
     "Effect": "Clash [Opponent's Attack] (1) If your Leader has the \"Delver\" Trait: Add 1 card from under this card to your hand; add the top or bottom card of your Deck at the top of your Life.\n[On Play] For each SJ Marker used to pay for the Cost of this card, add 1 card from your Life under this card face-up.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-117.jpg?v=07d374a41181"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-117.jpg?v=401517009874"
   },
   "TOKEN-GT-MIA": {
     "id": "TOKEN-GT-MIA",

@@ -469,7 +469,7 @@
             "title": "Deck",
             "isHidden": "yes",
             "height": "DEFAULT",
-            "alignment": "DECK",
+            "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
