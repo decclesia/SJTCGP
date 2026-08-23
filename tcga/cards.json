@@ -46358,5 +46358,1038 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-MIA2.jpg?v=a186f8eb209c",
     "isAccessory": true
+  },
+  "ST6-001": {
+    "id": "ST6-001",
+    "face": {
+      "front": {
+        "name": "Satoru Gojo",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-001.jpg?v=0fb2cbb8919a",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Satoru Gojo [ST6-001]",
+    "type": "Leader",
+    "Number": "ST6-001",
+    "Card_Type": "Leader",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Sorcerer",
+      "Six Eyes"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Attack",
+      "Once per Turn",
+      "On Attack",
+      "Threshold",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Once per Turn Your Opponent may remove 1 of their Energy; if they don't, give this card +1000 Power for the turn.\n[On Attack] Draw 1 card.\nThreshold 3 [Activate: Main] Once per Turn (1) Choose up to 1 of your Opponent's Units, Rest it, and it cannot switch to Active mode during your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-001.jpg?v=0fb2cbb8919a"
+  },
+  "ST6-002": {
+    "id": "ST6-002",
+    "face": {
+      "front": {
+        "name": "Satoru Gojo",
+        "type": "MAIN UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-002.jpg?v=029899ebbb96",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Satoru Gojo [ST6-002]",
+    "type": "Main_Deck",
+    "Number": "ST6-002",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Sorcerer",
+      "Six Eyes"
+    ],
+    "Keywords": [
+      "Double Damage",
+      "Dual Attack",
+      "On Play",
+      "Permanent",
+      "Blocker",
+      "Critical",
+      "Revenge"
+    ],
+    "Effect": "Permanent If your Leader has the \"Sorcerer\" Trait and you have 8 Energy, give this card in your hand -2 Cost.\n[On Play] (X) For each X paid for this skill's Cost, choose up to 1 Keyword skill from among Critical, Double Damage, Dual Attack, Blocker and Revenge, and this card gains those skills for the game.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-002.jpg?v=029899ebbb96"
+  },
+  "ST6-003": {
+    "id": "ST6-003",
+    "face": {
+      "front": {
+        "name": "Yuji Itadori",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-003.jpg?v=11f3f4bf8496",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Yuji Itadori [ST6-003]",
+    "type": "Main_Deck",
+    "Number": "ST6-003",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Sorcerer",
+      "Cursed Vessel"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "On Play",
+      "Your Turn"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Your Turn] Once per Turn (1) When an Opponent's card is Rested by your skill, choose up to 1 of your Opponent's Rested Units and K.O. it. Then, give this card +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-003.jpg?v=11f3f4bf8496"
+  },
+  "ST6-004": {
+    "id": "ST6-004",
+    "face": {
+      "front": {
+        "name": "Megumi Fushiguro",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-004.jpg?v=5b651eecaaa3",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Megumi Fushiguro [ST6-004]",
+    "type": "Main_Deck",
+    "Number": "ST6-004",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Accelcharge",
+      "Limit 1",
+      "Barrier",
+      "Raid"
+    ],
+    "Effect": "Barrier\n[On Play] If your Leader has the \"Sorcerer\" Trait, Accelcharge 1.\n[Activate: Main] Limit 1 Raid {1} Rest this card: Play up to 1 JUMP Unit with a Cost of 3 or less and the \"Shikigami\" Trait from your JUMP Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-004.jpg?v=5b651eecaaa3"
+  },
+  "ST6-005": {
+    "id": "ST6-005",
+    "face": {
+      "front": {
+        "name": "Nobara Kugisaki",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-005.jpg?v=b8ee58ae49d5",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Nobara Kugisaki [ST6-005]",
+    "type": "Main_Deck",
+    "Number": "ST6-005",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Duel"
+    ],
+    "Effect": "Duel\n[On Play] Choose up to 1 of your Opponent's Rested Units with an original Cost of 4 or less and negate its skills for as long as it is Rested.\n[On Attack] If this card is in a battle with an Opponent's JUMP Unit, give this card +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-005.jpg?v=b8ee58ae49d5"
+  },
+  "ST6-006": {
+    "id": "ST6-006",
+    "face": {
+      "front": {
+        "name": "Kento Nanami",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-006.jpg?v=4e8354db7936",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kento Nanami [ST6-006]",
+    "type": "Main_Deck",
+    "Number": "ST6-006",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[Opponent's Turn] If your Opponent has a JUMP Unit or JUMP Action on their field, give this card +2000 Power.\n[On Play] If your Leader has the \"Sorcerer\" Trait and you have no Energy, Charge 1 and Overcharge 1 and you can't Charge or Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-006.jpg?v=4e8354db7936"
+  },
+  "ST6-007": {
+    "id": "ST6-007",
+    "face": {
+      "front": {
+        "name": "Maki Zenin",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-007.jpg?v=bd58245c5761",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Maki Zenin [ST6-007]",
+    "type": "Main_Deck",
+    "Number": "ST6-007",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units and Rest it; choose up to 1 of your Opponent's Rested Units with a Cost of 1 or less and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-007.jpg?v=bd58245c5761"
+  },
+  "ST6-008": {
+    "id": "ST6-008",
+    "face": {
+      "front": {
+        "name": "Panda",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-008.jpg?v=9a3474294d7d",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Panda [ST6-008]",
+    "type": "Main_Deck",
+    "Number": "ST6-008",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Cursed Corpse",
+      "Tokyo Jujutsu High"
+    ],
+    "Keywords": [
+      "Opponent's Turn"
+    ],
+    "Effect": "[Opponent's Turn] If your Leader has the \"Sorcerer\" Trait: When this card is used in a combo from your hand and you have no Overcharged Energy, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-008.jpg?v=9a3474294d7d"
+  },
+  "ST6-009": {
+    "id": "ST6-009",
+    "face": {
+      "front": {
+        "name": "Toge Inumaki",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-009.jpg?v=0b72c2d6049e",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Toge Inumaki [ST6-009]",
+    "type": "Main_Deck",
+    "Number": "ST6-009",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] You may Rest this card: Choose up to 1 of your Opponent's Units with an original Cost of 5 or less and it cannot be Rested or used in a combo until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-009.jpg?v=0b72c2d6049e"
+  },
+  "ST6-010": {
+    "id": "ST6-010",
+    "face": {
+      "front": {
+        "name": "Satoru Gojo",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-010.jpg?v=19d8eb7f17c1",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Satoru Gojo [ST6-010]",
+    "type": "Main_Deck",
+    "Number": "ST6-010",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer",
+      "Six Eyes"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Attack",
+      "On Block",
+      "Blocker",
+      "Unique"
+    ],
+    "Effect": "Unique Blocker\n[Opponent's Turn] Once per Turn If this card would be removed from the field by an Opponent's skill, you may instead pay (1)\n[On Attack / On Block] Once per Turn Switch this card to Active mode.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-010.jpg?v=19d8eb7f17c1"
+  },
+  "ST6-011": {
+    "id": "ST6-011",
+    "face": {
+      "front": {
+        "name": "Yuta Okkotsu",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-011.jpg?v=0eb4a7a34978",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Yuta Okkotsu [ST6-011]",
+    "type": "Main_Deck",
+    "Number": "ST6-011",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Sorcerer",
+      "Cursed Vessel"
+    ],
+    "Keywords": [
+      "Opponent's Attack",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Limit 1 If your Leader is \"Satoru Gojo\" and you have no Overcharged Energy: Negate the attack; play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-011.jpg?v=0eb4a7a34978"
+  },
+  "ST6-012": {
+    "id": "ST6-012",
+    "face": {
+      "front": {
+        "name": "Megumi Fushiguro",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-012.jpg?v=c41c41f5fc69",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Megumi Fushiguro [ST6-012]",
+    "type": "Main_Deck",
+    "Number": "ST6-012",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer",
+      "Ten Shadows"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "On Play",
+      "Limit 1",
+      "Charge"
+    ],
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Main] Limit 1 (1) Place this card in your Drop: Play up to 1 \"Megumi Fushiguro\" with a Cost of 3 from your hand or Deck. Then, if your Leader has the \"Sorcerer\" Trait and you have no Energy, Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-012.jpg?v=c41c41f5fc69"
+  },
+  "ST6-013": {
+    "id": "ST6-013",
+    "face": {
+      "front": {
+        "name": "Shoko Ieiri",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-013.jpg?v=5c9676e1028f",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Shoko Ieiri [ST6-013]",
+    "type": "Main_Deck",
+    "Number": "ST6-013",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; add up to 1 card with the \"Sorcerer\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-013.jpg?v=5c9676e1028f"
+  },
+  "ST6-014": {
+    "id": "ST6-014",
+    "face": {
+      "front": {
+        "name": "Kirara Hoshi",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-014.jpg?v=194dd8a68055",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kirara Hoshi [ST6-014]",
+    "type": "Main_Deck",
+    "Number": "ST6-014",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "Opponent's Play",
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Play] Limit 1 (1) If your Leader is \"Satoru Gojo\" and you have no Overcharged Energy: If the Unit being played has an original Power of 6000 or less, it is played Rested. Then, play this card from your hand Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-014.jpg?v=194dd8a68055"
+  },
+  "ST6-015": {
+    "id": "ST6-015",
+    "face": {
+      "front": {
+        "name": "Kinji Hakari",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-015.jpg?v=36e4d3e94257",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kinji Hakari [ST6-015]",
+    "type": "Main_Deck",
+    "Number": "ST6-015",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "Once per Turn",
+      "On Play",
+      "Overcharge",
+      "Charge"
+    ],
+    "Effect": "[Opponent's Turn] Once per Turn When your Opponent's Unit is played: Switch 1 of your Units with the \"Sorcerer\" Trait to Active mode; choose up to 1 of your Opponent's Units and Rest it. Then, Rest this card.\n[On Play] Draw 2 cards; place 2 cards from your hand in your Drop. If you drew 2 copies of the same card, reveal them and draw 1 card, Charge 1 and Overcharge 1 instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-015.jpg?v=36e4d3e94257"
+  },
+  "ST6-016": {
+    "id": "ST6-016",
+    "face": {
+      "front": {
+        "name": "Miguel Oduol",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-016.jpg?v=cb69332d1820",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Miguel Oduol [ST6-016]",
+    "type": "Main_Deck",
+    "Number": "ST6-016",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Sorcerer"
+    ],
+    "Keywords": [
+      "On Attack",
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Choose up to 1 of your Opponent's Rested Units with an original Cost of 5 or less and K.O. it.\n[On Attack] (X) Draw 1 card; place 1 card from your hand in your Drop. Then, if this card is in a battle with an Opponent's Unit, give this card +1000 Power for the turn for each X paid.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-016.jpg?v=cb69332d1820"
+  },
+  "ST6-017": {
+    "id": "ST6-017",
+    "face": {
+      "front": {
+        "name": "Curtain",
+        "type": "MAIN ACTION",
+        "cost": 0,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-017.jpg?v=54d87a4cc4e6",
+        "isHorizontal": false
+      }
+    },
+    "name": "Curtain [ST6-017]",
+    "type": "Main_Deck",
+    "Number": "ST6-017",
+    "Card_Type": "Main Action",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 0,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Cursed Energy"
+    ],
+    "Keywords": [
+      "Activate: Main",
+      "Opponent's Play",
+      "Barrier",
+      "Clash"
+    ],
+    "Effect": "[Activate: Main] Give up to 1 of your Units with the \"Sorcerer\" Trait Barrier until the end of your Opponent's next turn.\nClash [Opponent's Play] (1) If your Leader has the \"Sorcerer\" Trait and the Unit being played has an original Cost of 3 or less, it is played Rested.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-017.jpg?v=54d87a4cc4e6"
+  },
+  "ST6-018": {
+    "id": "ST6-018",
+    "face": {
+      "front": {
+        "name": "Divine Dogs",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-018.jpg?v=44c45cce7dac",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Divine Dogs [ST6-018]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-018",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Shikigami",
+      "Ten Shadows"
+    ],
+    "Keywords": [
+      "On Play",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] If your Leader has the \"Sorcerer\" Trait, choose up to 1 of your Opponent's Rested Units with an original Cost of 3 or less and K.O. it.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-018.jpg?v=44c45cce7dac"
+  },
+  "ST6-019": {
+    "id": "ST6-019",
+    "face": {
+      "front": {
+        "name": "Rabbit Escape",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-019.jpg?v=9a310f500663",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Rabbit Escape [ST6-019]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-019",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Shikigami",
+      "Ten Shadows"
+    ],
+    "Keywords": [
+      "On Play",
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Switch 1 of your Rested Units with the \"Sorcerer\" Trait to Active mode: Choose up to 1 of your Opponent's Units with an original Cost of 4 or less, ignoring Barrier, Rest it and negate its skills for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-019.jpg?v=9a310f500663"
+  },
+  "ST6-020": {
+    "id": "ST6-020",
+    "face": {
+      "front": {
+        "name": "Unlimited Void",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-020.jpg?v=bb4ceffec352",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Unlimited Void [ST6-020]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "End of Opponent's Turn",
+      "Opponent's Turn",
+      "Once per Turn",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Battle] Once per Turn (1) If your Leader has the \"Six Eyes\" Trait: Choose up to 1 of your Opponent's Units, ignoring Barrier, and negate its skills for the turn. Then, your Opponent's Units with an original Cost of 3 or less cannot attack for the turn.\n[End of Opponent's Turn] Return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-020.jpg?v=bb4ceffec352"
+  },
+  "ST6-101": {
+    "id": "ST6-101",
+    "face": {
+      "front": {
+        "name": "Ryomen Sukuna",
+        "type": "MAIN UNIT",
+        "cost": 10,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-101.jpg?v=3e3c374125b7",
+        "isHorizontal": false,
+        "power": 10000
+      }
+    },
+    "name": "Ryomen Sukuna [ST6-101]",
+    "type": "Main_Deck",
+    "Number": "ST6-101",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "ST6",
+    "Rarity": "SEC",
+    "Cost": 10,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 10000,
+    "Counter": 1000,
+    "Traits": [
+      "Curse",
+      "King of Curses"
+    ],
+    "Keywords": [
+      "Opponent's Turn",
+      "On Play",
+      "Barrier"
+    ],
+    "Effect": "[Opponent's Turn] While this card is Rested, your Opponent cannot attack your Leader.\n[On Play] Choose up to 1 of your Opponent's Units, ignoring Barrier, and Rest it. Then, choose all of your Opponent's Rested Units, ignoring Barrier, and negate their skills until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-101.jpg?v=3e3c374125b7"
+  },
+  "PUP-103": {
+    "id": "PUP-103",
+    "face": {
+      "front": {
+        "name": "Toji Fushiguro",
+        "type": "MAIN UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-103.jpg?v=37f21446bf1b",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Toji Fushiguro [PUP-103]",
+    "type": "Main_Deck",
+    "Number": "PUP-103",
+    "Card_Type": "Main Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Sorcerer",
+      "Six Eyes"
+    ],
+    "Keywords": [
+      "Dual Attack",
+      "On Attack",
+      "On Play",
+      "Limit 1",
+      "Barrier",
+      "Break"
+    ],
+    "Effect": "Break Dual Attack\n[On Play] Choose up to 1 of your Opponent's Rested Units, ignoring Barrier, and set its Power to 0 until the end of your Opponent's next turn.\n[On Attack] Limit 1 If your Leader has the \"Sorcerer\" Trait and you have no Energy: Remove up to 2 of your Opponent's Overcharged Energy.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-103.jpg?v=37f21446bf1b"
+  },
+  "PUP-104": {
+    "id": "PUP-104",
+    "face": {
+      "front": {
+        "name": "Nue",
+        "type": "JUMP UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-104.jpg?v=1d53463e04cc",
+        "isHorizontal": false,
+        "power": 5000,
+        "sjCost": 2
+      }
+    },
+    "name": "Nue [PUP-104]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-104",
+    "Card_Type": "JUMP Unit",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 3,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Shikigami",
+      "Ten Shadows"
+    ],
+    "Keywords": [
+      "On Play",
+      "Blocker",
+      "Deflect"
+    ],
+    "Effect": "Deflect Blocker\n[On Play] Switch up to 1 of your Rested Units with the \"Sorcerer\" Trait to Active mode and give it Blocker until the end of your Opponent's next turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-104.jpg?v=1d53463e04cc"
+  },
+  "PUP-105": {
+    "id": "PUP-105",
+    "face": {
+      "front": {
+        "name": "Limitless",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-105.jpg?v=d33633615e0d",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Limitless [PUP-105]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-105",
+    "Card_Type": "JUMP Action",
+    "Color": "Yellow",
+    "Set": "JJK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Once per Turn",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Once per Turn (1) If your Leader is \"Satoru Gojo\": Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] (X) Choose up to 1 of your Opponent's Units with a Cost equal to X, ignoring Barrier, and Rest it.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-105.jpg?v=d33633615e0d"
+  },
+  "TOKEN-GT-JJK": {
+    "id": "TOKEN-GT-JJK",
+    "face": {
+      "front": {
+        "name": "Guard Token JJK",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-JJK.jpg?v=57aa3422c51d",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token JJK",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-JJK",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "JJK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-JJK.jpg?v=57aa3422c51d",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-JJK1": {
+    "id": "TOKEN-SJM-JJK1",
+    "face": {
+      "front": {
+        "name": "SJ Marker JJK1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JJK1.jpg?v=a3f054a15153",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker JJK1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-JJK1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "JJK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JJK1.jpg?v=a3f054a15153",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-JJK2": {
+    "id": "TOKEN-SJM-JJK2",
+    "face": {
+      "front": {
+        "name": "SJ Marker JJK2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JJK2.jpg?v=af6a79549692",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker JJK2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-JJK2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "JJK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JJK2.jpg?v=af6a79549692",
+    "isAccessory": true
   }
 }
