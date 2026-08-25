@@ -281,6 +281,14 @@
         "TOKEN-SJM-JJK2"
       ],
       "guardToken": "TOKEN-GT-JJK"
+    },
+    "JGR": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-JGR1",
+        "TOKEN-SJM-JGR2"
+      ],
+      "guardToken": "TOKEN-GT-JGR"
     }
   },
   "notes": {
@@ -688,6 +696,15 @@
         "TOKEN-SJM-JJK2"
       ],
       "guardToken": "TOKEN-GT-JJK"
+    },
+    "ST6-061": {
+      "set": "JGR",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-JGR1",
+        "TOKEN-SJM-JGR2"
+      ],
+      "guardToken": "TOKEN-GT-JGR"
     }
   }
 }

@@ -1,35 +1,46 @@
 {
-  "website_cards": 1135,
-  "card_text_records": 1135,
-  "arena_entries": 1258,
-  "st6_yellow_printed_rarities": {
+  "website_cards": 1159,
+  "card_text_records": 1159,
+  "arena_entries": 1285,
+  "st6_blue_printed_rarities": {
     "L": 1,
     "SR": 3,
     "R": 8,
     "UC": 8
   },
+  "numbered_type_split": {
+    "Leader": 1,
+    "Main Unit": 13,
+    "Main Action": 3,
+    "JUMP Unit": 1,
+    "JUMP Action": 2
+  },
   "main_unit_counters": {
-    "0": 3,
-    "1000": 8,
-    "2000": 4
+    "0": 4,
+    "1000": 6,
+    "2000": 3
   },
   "promos": [
-    "PUP-103",
-    "PUP-104",
-    "PUP-105"
+    "PUP-112",
+    "PUP-113",
+    "PUP-114"
   ],
-  "secret_rare": "ST6-101",
+  "secret_rare": {
+    "printed_number": "ST6-101",
+    "internal_id": "ST6-101-JGR"
+  },
   "landscape_jump_actions": [
-    "ST6-020",
-    "PUP-105"
+    "ST6-079",
+    "ST6-080",
+    "PUP-114"
   ],
   "arena_energy_stack": 10,
   "arena_sj_marker_pile": 10,
   "arena_opening_hand": 6,
-  "st6_yellow_accessories": [
-    "GT-JJK",
-    "SJM-JJK1",
-    "SJM-JJK2"
+  "st6_blue_accessories": [
+    "GT-JGR",
+    "SJM-JGR1",
+    "SJM-JGR2"
   ],
   "arena_regression_audit": {
     "deck_alignment": "NONE",
