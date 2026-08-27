@@ -48424,5 +48424,954 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-JGR2.jpg?v=13d8107874e8",
     "isAccessory": true
+  },
+  "ST6-041": {
+    "id": "ST6-041",
+    "face": {
+      "front": {
+        "name": "Kuga Yuma",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-041.jpg?v=dd4db53d840a",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Kuga Yuma [ST6-041]",
+    "type": "Leader",
+    "Number": "ST6-041",
+    "Card_Type": "Leader",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 4,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Border",
+      "Neighbor",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Threshold",
+      "Double Damage"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Add 1 card from your Life to your hand: Give this card +1000 Power and Double Damage for the turn.\n[On Attack] Draw 1 card.\nThreshold 2 [Activate: Main] Once per Turn Place 1 of your Units with the \"Tamakoma Second\" Trait in your Drop: Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-041.jpg?v=dd4db53d840a"
+  },
+  "ST6-042": {
+    "id": "ST6-042",
+    "face": {
+      "front": {
+        "name": "Kuga Yuma",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-042.jpg?v=7df25c7d0add",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Kuga Yuma [ST6-042]",
+    "type": "Main_Deck",
+    "Number": "ST6-042",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Border",
+      "Neighbor",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Dual Attack"
+    ],
+    "Effect": "Dual Attack\n[On Play] If your Leader has the \"Border\" Trait, play up to 1 Unit card with a Cost of 2 or less and the \"Tamakoma Second\" Trait from your Drop.\n[On Attack] If your Leader is \"Kuga Yuma\": Give this card +3000 Power and this card cannot switch to Active mode during your Charge Phases. Then, negate this skill for the game.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-042.jpg?v=7df25c7d0add"
+  },
+  "ST6-043": {
+    "id": "ST6-043",
+    "face": {
+      "front": {
+        "name": "Mikumo Osamu",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-043.jpg?v=7b1fd2c14e38",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Mikumo Osamu [ST6-043]",
+    "type": "Main_Deck",
+    "Number": "ST6-043",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Border",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Blocker",
+      "Limit 1"
+    ],
+    "Effect": "Barrier Blocker\n[On K.O.] Play up to 1 Unit card with 3000 Power and the \"Tamakoma Second\" Trait from your hand.\n[Activate: Main] Limit 1 If your Leader has the \"Border\" Trait and you have less Life cards than your Opponent: Play this card from your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-043.jpg?v=7b1fd2c14e38"
+  },
+  "ST6-044": {
+    "id": "ST6-044",
+    "face": {
+      "front": {
+        "name": "Amatori Chika",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-044.jpg?v=ad990585a9fa",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Amatori Chika [ST6-044]",
+    "type": "Main_Deck",
+    "Number": "ST6-044",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Border",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Elusive",
+      "Once per Turn"
+    ],
+    "Effect": "Barrier Elusive\n[On Play] Draw 1 card.\n[Activate: Main] Once per Turn Rest this card: Shuffle 2 cards with the \"Tamakoma Second\" Trait from your Drop into your Deck: Choose up to 1 of your Opponent's Units and K.O. it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-044.jpg?v=ad990585a9fa"
+  },
+  "ST6-045": {
+    "id": "ST6-045",
+    "face": {
+      "front": {
+        "name": "Hyuse",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-045.jpg?v=945e07d49142",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Hyuse [ST6-045]",
+    "type": "Main_Deck",
+    "Number": "ST6-045",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 0,
+    "Traits": [
+      "Border",
+      "Neighbor",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Critical",
+      "Overcharge"
+    ],
+    "Effect": "Critical\n[On Attack] If your Leader is \"Kuga Yuma\": Give this card +3000 Power and this card cannot switch to Active mode during your Charge Phases. Then, negate this skill for the game.\n[Activate: Main] Remove this card in your Drop from the game: If your Leader has the \"Border\" Trait, Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-045.jpg?v=945e07d49142"
+  },
+  "ST6-046": {
+    "id": "ST6-046",
+    "face": {
+      "front": {
+        "name": "Kuga Yuma",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-046.jpg?v=7e70fe1452ea",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Kuga Yuma [ST6-046]",
+    "type": "Main_Deck",
+    "Number": "ST6-046",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 0,
+    "Traits": [
+      "Border",
+      "Neighbor",
+      "Tamakoma Second"
+    ],
+    "Keywords": [],
+    "Effect": "[On Play] Place 1 card with the \"Tamakoma Second\" Trait from your hand in your Drop: Draw 1 card.\n[On Attack] If your Leader is \"Kuga Yuma\": Give this card +3000 Power and this card cannot switch to Active mode during your Charge Phases. Then, negate this skill for the game.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-046.jpg?v=7e70fe1452ea"
+  },
+  "ST6-047": {
+    "id": "ST6-047",
+    "face": {
+      "front": {
+        "name": "Mikumo Osamu",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-047.jpg?v=4ae43a305204",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Mikumo Osamu [ST6-047]",
+    "type": "Main_Deck",
+    "Number": "ST6-047",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Border",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On K.O.] Add up to 1 Unit card with a Cost of 2 or less and the \"Tamakoma Second\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-047.jpg?v=4ae43a305204"
+  },
+  "ST6-048": {
+    "id": "ST6-048",
+    "face": {
+      "front": {
+        "name": "Amatori Chika",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-048.jpg?v=a0dc176735f9",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Amatori Chika [ST6-048]",
+    "type": "Main_Deck",
+    "Number": "ST6-048",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Border",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Threshold"
+    ],
+    "Effect": "[On Play] If your Leader has the \"Border\" Trait and your Leader's Threshold skill is active: Rest this card; place 2 cards from your hand at the bottom of your Deck. Then, add up to 2 Unit cards with the \"Tamakoma Second\" Trait from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-048.jpg?v=a0dc176735f9"
+  },
+  "ST6-049": {
+    "id": "ST6-049",
+    "face": {
+      "front": {
+        "name": "Replica",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-049.jpg?v=4b5aa3b2052a",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Replica [ST6-049]",
+    "type": "Main_Deck",
+    "Number": "ST6-049",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Neighbor",
+      "Trion Soldier"
+    ],
+    "Keywords": [],
+    "Effect": "[On Play] Look at the top 7 cards of your Deck; add up to 1 \"Kuga Yuma\" to your hand. Then, place the rest at the bottom of your Deck in any order.\n[Activate: Battle] Rest this card: Give up to 1 of your \"Kuga Yuma\" +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-049.jpg?v=4b5aa3b2052a"
+  },
+  "ST6-050": {
+    "id": "ST6-050",
+    "face": {
+      "front": {
+        "name": "Usami Shiori",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-050.jpg?v=76ccced8c516",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Usami Shiori [ST6-050]",
+    "type": "Main_Deck",
+    "Number": "ST6-050",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Border",
+      "Tamakoma Second",
+      "Tamakoma First"
+    ],
+    "Keywords": [],
+    "Effect": "[On Play] Look at the top 3 cards of your Deck; add up to 1 card with the \"Border\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-050.jpg?v=76ccced8c516"
+  },
+  "ST6-051": {
+    "id": "ST6-051",
+    "face": {
+      "front": {
+        "name": "Yuichi Jin",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-051.jpg?v=623b3d112ce6",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Yuichi Jin [ST6-051]",
+    "type": "Main_Deck",
+    "Number": "ST6-051",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Border",
+      "Tamakoma Branch"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Limit 1 (2) If your Leader has the \"Border\" Trait: Play this card from your hand and make it the new attack target.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-051.jpg?v=623b3d112ce6"
+  },
+  "ST6-052": {
+    "id": "ST6-052",
+    "face": {
+      "front": {
+        "name": "Kuga Yuma",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-052.jpg?v=d544cd3ef9ca",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Kuga Yuma [ST6-052]",
+    "type": "Main_Deck",
+    "Number": "ST6-052",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Border",
+      "Neighbor",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Double Damage"
+    ],
+    "Effect": "[On Attack] If your Leader is \"Kuga Yuma\": Give this card +3000 Power and this card cannot switch to Active mode during your Charge Phases. Then, negate this skill for the game.\n[Activate: Main] Limit 1 Add 1 card from your Life to your hand: If your Leader has the \"Border\" Trait, give this card Double Damage for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-052.jpg?v=d544cd3ef9ca"
+  },
+  "ST6-053": {
+    "id": "ST6-053",
+    "face": {
+      "front": {
+        "name": "Hyuse",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-053.jpg?v=c349e7561eab",
+        "isHorizontal": false,
+        "power": 2000
+      }
+    },
+    "name": "Hyuse [ST6-053]",
+    "type": "Main_Deck",
+    "Number": "ST6-053",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 2000,
+    "Counter": 1000,
+    "Traits": [
+      "Border",
+      "Neighbor",
+      "Tamakoma Second"
+    ],
+    "Keywords": [
+      "Critical",
+      "Limit 1"
+    ],
+    "Effect": "[On Attack] If your Leader is \"Kuga Yuma\": Give this card +3000 Power and this card cannot switch to Active mode during your Charge Phases. Then, negate this skill for the game.\n[Activate: Main] Limit 1 Add 1 card from your Life to your hand: If your Leader has the \"Border\" Trait, give this card Critical for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-053.jpg?v=c349e7561eab"
+  },
+  "ST6-054": {
+    "id": "ST6-054",
+    "face": {
+      "front": {
+        "name": "Mikumo Osamu",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-054.jpg?v=9e789aea3d5f",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Mikumo Osamu [ST6-054]",
+    "type": "Main_Deck",
+    "Number": "ST6-054",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Border",
+      "Tamakoma Second"
+    ],
+    "Keywords": [],
+    "Effect": "[On Play] Draw 2 cards; place 2 cards from your hand in your Drop.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-054.jpg?v=9e789aea3d5f"
+  },
+  "ST6-055": {
+    "id": "ST6-055",
+    "face": {
+      "front": {
+        "name": "Amatori Chika",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-055.jpg?v=832f040ba32e",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Amatori Chika [ST6-055]",
+    "type": "Main_Deck",
+    "Number": "ST6-055",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Border",
+      "Tamakoma Second"
+    ],
+    "Keywords": [],
+    "Effect": "[Activate: Battle] Rest this card: Choose your Leader or up to 1 of your Units with the \"Border\" Trait and give them +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-055.jpg?v=832f040ba32e"
+  },
+  "ST6-056": {
+    "id": "ST6-056",
+    "face": {
+      "front": {
+        "name": "Asteroid Trigger",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-056.jpg?v=049a50f393c3",
+        "isHorizontal": false
+      }
+    },
+    "name": "Asteroid Trigger [ST6-056]",
+    "type": "Main_Deck",
+    "Number": "ST6-056",
+    "Card_Type": "Main Action",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Border",
+      "Trigger"
+    ],
+    "Keywords": [],
+    "Effect": "[Activate: Battle] If your Leader has the \"Border\" Trait, give your card that's in a battle +2000 Power for the battle. Then, if you have 3 or less cards in your hand, give it +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-056.jpg?v=049a50f393c3"
+  },
+  "ST6-057": {
+    "id": "ST6-057",
+    "face": {
+      "front": {
+        "name": "Shield Trigger",
+        "type": "MAIN ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-057.jpg?v=557d155bee39",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shield Trigger [ST6-057]",
+    "type": "Main_Deck",
+    "Number": "ST6-057",
+    "Card_Type": "Main Action",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Border",
+      "Trigger"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Limit 1 If your Leader has the \"Border\" Trait, place 1 of your Rested Units with the \"Tamakoma Second\" Trait in your Drop: Negate the attack. Then, add up to 1 Unit card with the \"Border\" Trait, excluding the card placed in your Drop by this skill, from your Drop to your hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-057.jpg?v=557d155bee39"
+  },
+  "ST6-058": {
+    "id": "ST6-058",
+    "face": {
+      "front": {
+        "name": "Karasuma Kyosuke",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-058.jpg?v=344145f23cd6",
+        "isHorizontal": false,
+        "power": 6000,
+        "sjCost": 2
+      }
+    },
+    "name": "Karasuma Kyosuke [ST6-058]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-058",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Border",
+      "Tamakoma First"
+    ],
+    "Keywords": [
+      "Deflect"
+    ],
+    "Effect": "Deflect\n[On Play] Switch up to 1 of your Rested Units with the \"Tamakoma Second\" Trait to Active mode and it cannot attack your Opponent's Leader for the turn.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-058.jpg?v=344145f23cd6"
+  },
+  "ST6-059": {
+    "id": "ST6-059",
+    "face": {
+      "front": {
+        "name": "Yuichi Jin",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-059.jpg?v=12c4674cfdae",
+        "isHorizontal": false,
+        "power": 4000,
+        "sjCost": 2
+      }
+    },
+    "name": "Yuichi Jin [ST6-059]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-059",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 4000,
+    "Counter": null,
+    "Traits": [
+      "Border",
+      "Tamakoma Branch"
+    ],
+    "Keywords": [
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[Opponent's Turn] If this card is in Active mode, give your Leader +1000 Power.\n[On Play] Place 1 card from your hand in your Drop: Your Opponent places 1 card from their hand in their Drop.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-059.jpg?v=12c4674cfdae"
+  },
+  "ST6-060": {
+    "id": "ST6-060",
+    "face": {
+      "front": {
+        "name": "Ibis Trigger",
+        "type": "JUMP ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-060.jpg?v=a20d6815ae8a",
+        "isHorizontal": true,
+        "sjCost": 3
+      }
+    },
+    "name": "Ibis Trigger [ST6-060]",
+    "type": "JUMP_Deck",
+    "Number": "ST6-060",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "ST6",
+    "Rarity": "UC",
+    "Cost": 3,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "[Activate: Battle] If your Unit with the \"Tamakoma Second\" Trait is in a battle with your Opponent's Leader and your Opponent's Life is at 2 or more: If your Opponent takes no damage from that battle, place 1 card from your Opponent's Life in their Drop. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/ST6-060.jpg?v=a20d6815ae8a"
+  },
+  "PUP-109": {
+    "id": "PUP-109",
+    "face": {
+      "front": {
+        "name": "Kizaki Reiji",
+        "type": "MAIN UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-109.jpg?v=98b23e9dacee",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Kizaki Reiji [PUP-109]",
+    "type": "Main_Deck",
+    "Number": "PUP-109",
+    "Card_Type": "Main Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Border",
+      "Tamakoma First"
+    ],
+    "Keywords": [
+      "Critical",
+      "Limit 1",
+      "Permanent",
+      "Raid"
+    ],
+    "Effect": "Critical\nPermanent This card cannot switch to Active mode during your Charge Phase.\n[Activate: Battle] Limit 1 Raid {3} If your Unit with a Cost of 5 or less is in a battle, play this card from your hand or Drop and make it the new attack card. Then, if this card would be removed from the field, remove it from the game instead.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-109.jpg?v=98b23e9dacee"
+  },
+  "PUP-110": {
+    "id": "PUP-110",
+    "face": {
+      "front": {
+        "name": "Konami Kirie",
+        "type": "JUMP UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-110.jpg?v=b9ba24ad2554",
+        "isHorizontal": false,
+        "power": 3000,
+        "sjCost": 1
+      }
+    },
+    "name": "Konami Kirie [PUP-110]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-110",
+    "Card_Type": "JUMP Unit",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 3000,
+    "Counter": null,
+    "Traits": [
+      "Border",
+      "Tamakoma First"
+    ],
+    "Keywords": [
+      "Clash"
+    ],
+    "Effect": "[On Play] Play up to 1 \"Replica\" from your Deck.\nClash [Opponent's Attack] (1) Return this card to your JUMP Deck: Give your Leader or up to 1 of your Units with the \"Border\" Trait +2000 Power for the battle.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-110.jpg?v=b9ba24ad2554"
+  },
+  "PUP-111": {
+    "id": "PUP-111",
+    "face": {
+      "front": {
+        "name": "Grasshopper Trigger",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-111.jpg?v=9e09e5c6e766",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Grasshopper Trigger [PUP-111]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-111",
+    "Card_Type": "JUMP Action",
+    "Color": "Green",
+    "Set": "WTG",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Clash"
+    ],
+    "Effect": "[Your Turn] When your Opponent activates a Clash skill while your Unit with the \"Tamakoma Second\" Trait is in a battle, choose up to 1 of your Units with the \"Tamakoma Second\" Trait and switch it to Active mode. Then, remove this card from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-111.jpg?v=9e09e5c6e766"
+  },
+  "TOKEN-GT-WTG": {
+    "id": "TOKEN-GT-WTG",
+    "face": {
+      "front": {
+        "name": "Guard Token WTG",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-WTG.jpg?v=322689857ef9",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token WTG",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-WTG",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "WTG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-WTG.jpg?v=322689857ef9",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-WTG1": {
+    "id": "TOKEN-SJM-WTG1",
+    "face": {
+      "front": {
+        "name": "SJ Marker WTG1",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTG1.jpg?v=17733285b7db",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker WTG1",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-WTG1",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "WTG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTG1.jpg?v=17733285b7db",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-WTG2": {
+    "id": "TOKEN-SJM-WTG2",
+    "face": {
+      "front": {
+        "name": "SJ Marker WTG2",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTG2.jpg?v=116daa1e03e4",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker WTG2",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-WTG2",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "WTG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTG2.jpg?v=116daa1e03e4",
+    "isAccessory": true
   }
 }
