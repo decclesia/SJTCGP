@@ -722,6 +722,14 @@
         "TOKEN-SJM-WTG2"
       ],
       "guardToken": "TOKEN-GT-WTG"
+    },
+    "SD11-001": {
+      "set": "BSK",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-BSK3"
+      ],
+      "guardToken": "TOKEN-GT-BSK"
     }
   }
 }

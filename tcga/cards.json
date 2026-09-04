@@ -49373,5 +49373,848 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-WTG2.jpg?v=116daa1e03e4",
     "isAccessory": true
+  },
+  "SD11-001": {
+    "id": "SD11-001",
+    "face": {
+      "front": {
+        "name": "Guts",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-001.jpg?v=48436fed2961",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Guts [SD11-001]",
+    "type": "Leader",
+    "Number": "SD11-001",
+    "Card_Type": "Leader",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 3,
+    "Power": 6000,
+    "Counter": null,
+    "Traits": [
+      "Black Swordsman",
+      "Brand of Sacrifice"
+    ],
+    "Keywords": [
+      "Clash",
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "Clash [Opponent's Attack] Once per Turn (1) Place 1 card from your hand at the bottom of your Deck: Give this card +2000 Power for the battle.\nThreshold 0 [Activate: Main] Once per Turn Return 1 of your Units with the \"Black Swordsman\" Trait to your hand: Look at the top 3 cards of your Deck; add up to 1 card to your hand. Then, place the rest at the bottom of your Deck and place 1 card from your hand at the top of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-001.jpg?v=48436fed2961"
+  },
+  "SD11-002": {
+    "id": "SD11-002",
+    "face": {
+      "front": {
+        "name": "Guts",
+        "type": "MAIN UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-002.jpg?v=48191059139e",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Guts [SD11-002]",
+    "type": "Main_Deck",
+    "Number": "SD11-002",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "SR",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Black Swordsman",
+      "Brand of Sacrifice"
+    ],
+    "Keywords": [
+      "Charge"
+    ],
+    "Effect": "[On Play] Draw 2 cards; place 1 card from your hand at the top or bottom of your Deck. Then, if your Leader is \"Guts\", Charge 1.\n[On K.O.] (1) If your Leader is \"Guts\": Add up to 1 card from the top of your Deck to the top of your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-002.jpg?v=48191059139e"
+  },
+  "SD11-003": {
+    "id": "SD11-003",
+    "face": {
+      "front": {
+        "name": "Guts",
+        "type": "MAIN UNIT",
+        "cost": 8,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-003.jpg?v=3057c15a384f",
+        "isHorizontal": false,
+        "power": 8000
+      }
+    },
+    "name": "Guts [SD11-003]",
+    "type": "Main_Deck",
+    "Number": "SD11-003",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "SR",
+    "Cost": 8,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 8000,
+    "Counter": 0,
+    "Traits": [
+      "Black Swordsman",
+      "Brand of Sacrifice"
+    ],
+    "Keywords": [
+      "Threshold",
+      "Unique"
+    ],
+    "Effect": "Unique\n[On Play] If your Leader is \"Guts\" and either Leader's Threshold skill is active, give your Leader +1000 Power until the end of your Opponent's next turn.\n[On Attack] (1) Choose up to 1 of your Opponent's Units with a Cost of 4 or less and return it to its owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-003.jpg?v=3057c15a384f"
+  },
+  "SD11-004": {
+    "id": "SD11-004",
+    "face": {
+      "front": {
+        "name": "Schierke",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-004.jpg?v=ef2e673589b7",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Schierke [SD11-004]",
+    "type": "Main_Deck",
+    "Number": "SD11-004",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "SR",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Witch",
+      "Black Swordsman Party"
+    ],
+    "Keywords": [
+      "Blocker",
+      "Raid"
+    ],
+    "Effect": "Blocker\n[On Play] Raid {1} Reveal 1 card from the top of your Deck and play up to 1 Unit card with the \"Black Swordsman\" Trait Rested. Then, place the rest at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-004.jpg?v=ef2e673589b7"
+  },
+  "SD11-005": {
+    "id": "SD11-005",
+    "face": {
+      "front": {
+        "name": "Guts",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-005.jpg?v=789c36fa91b8",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Guts [SD11-005]",
+    "type": "Main_Deck",
+    "Number": "SD11-005",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Black Swordsman",
+      "Brand of Sacrifice"
+    ],
+    "Keywords": [
+      "Charge",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 If you have 3 or less cards in your Life, draw 1 card; during your next Charge Phase, Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-005.jpg?v=789c36fa91b8"
+  },
+  "SD11-006": {
+    "id": "SD11-006",
+    "face": {
+      "front": {
+        "name": "Guts",
+        "type": "MAIN UNIT",
+        "cost": 7,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-006.jpg?v=a567a57f4b94",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Guts [SD11-006]",
+    "type": "Main_Deck",
+    "Number": "SD11-006",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 7,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Black Swordsman",
+      "Brand of Sacrifice"
+    ],
+    "Keywords": [
+      "Clash",
+      "Overcharge",
+      "Accelcharge",
+      "Limit 1",
+      "Barrier"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a Cost of 6 or less, ignoring Barrier, and place it at the bottom of its owner's Deck.\nClash [Opponent's Play] Limit 1 Overcharge 1 and Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-006.jpg?v=a567a57f4b94"
+  },
+  "SD11-007": {
+    "id": "SD11-007",
+    "face": {
+      "front": {
+        "name": "Puck",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-007.jpg?v=1cb41e3e047a",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Puck [SD11-007]",
+    "type": "Main_Deck",
+    "Number": "SD11-007",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Elf",
+      "Black Swordsman Party"
+    ],
+    "Keywords": [],
+    "Effect": "[On Play] If you have 3 or less Life cards, draw 2 cards; place 1 card from your hand at the bottom of your Deck.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-007.jpg?v=1cb41e3e047a"
+  },
+  "SD11-008": {
+    "id": "SD11-008",
+    "face": {
+      "front": {
+        "name": "Casca",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-008.jpg?v=5686b1c00a3b",
+        "isHorizontal": false,
+        "power": 0
+      }
+    },
+    "name": "Casca [SD11-008]",
+    "type": "Main_Deck",
+    "Number": "SD11-008",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 0,
+    "Counter": 1000,
+    "Traits": [
+      "Black Swordsman Party",
+      "Brand of Sacrifice"
+    ],
+    "Keywords": [],
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; add up to 1 card with the \"Brand of Sacrifice\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-008.jpg?v=5686b1c00a3b"
+  },
+  "SD11-009": {
+    "id": "SD11-009",
+    "face": {
+      "front": {
+        "name": "Ivalera",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-009.jpg?v=8ced08897654",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Ivalera [SD11-009]",
+    "type": "Main_Deck",
+    "Number": "SD11-009",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Elf",
+      "Black Swordsman Party"
+    ],
+    "Keywords": [
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 Look at the top 3 cads of your Deck and place them at the top or bottom of your Deck in any order. Then, if your Leader is Guts: Until the end of your Opponent's next turn, if this card is used in a combo, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-009.jpg?v=8ced08897654"
+  },
+  "SD11-010": {
+    "id": "SD11-010",
+    "face": {
+      "front": {
+        "name": "Isidro",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-010.jpg?v=919793c8b960",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Isidro [SD11-010]",
+    "type": "Main_Deck",
+    "Number": "SD11-010",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Black Swordsman Party"
+    ],
+    "Keywords": [
+      "Barrier"
+    ],
+    "Effect": "[On Play] If you have 4 or more Energy: Choose up to 1 of your Opponent's Units with an original Cost of 5 or less, ignoring Barrier, and return it to the owner's hand.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-010.jpg?v=919793c8b960"
+  },
+  "SD11-011": {
+    "id": "SD11-011",
+    "face": {
+      "front": {
+        "name": "Farnese de Vandimion",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-011.jpg?v=6b005112bf06",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Farnese de Vandimion [SD11-011]",
+    "type": "Main_Deck",
+    "Number": "SD11-011",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Black Swordsman Party"
+    ],
+    "Keywords": [
+      "Charge",
+      "Overcharge",
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Limit 1 If you have 3 or less Life cards, draw 1 card and Overcharge 1; during your next Charge Phase, Charge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-011.jpg?v=6b005112bf06"
+  },
+  "SD11-012": {
+    "id": "SD11-012",
+    "face": {
+      "front": {
+        "name": "Serpico",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-012.jpg?v=29f453f6c38c",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Serpico [SD11-012]",
+    "type": "Main_Deck",
+    "Number": "SD11-012",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 2000,
+    "Traits": [
+      "Black Swordsman Party"
+    ],
+    "Keywords": [
+      "Blocker"
+    ],
+    "Effect": "Blocker\n[On Play] If you have 3 or less Life cards, choose all of your Opponent's Units with an original Cost of 1 and place them at the bottom of their owners' Deck(s).",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-012.jpg?v=29f453f6c38c"
+  },
+  "SD11-013": {
+    "id": "SD11-013",
+    "face": {
+      "front": {
+        "name": "Roderick of Staufen",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-013.jpg?v=7aa78c1c6ea9",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Roderick of Staufen [SD11-013]",
+    "type": "Main_Deck",
+    "Number": "SD11-013",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Black Swordsman Party"
+    ],
+    "Keywords": [],
+    "Effect": "[On Play] If you have 3 or less Life cards, choose up to 1 of your Opponent's Units with an original Cost of 2 or less and up to 1 of your Opponent's Units with an original Cost of 1 or less and place them at the bottom of their owner's Deck(s).",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-013.jpg?v=7aa78c1c6ea9"
+  },
+  "SD11-014": {
+    "id": "SD11-014",
+    "face": {
+      "front": {
+        "name": "Isma",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-014.jpg?v=42837ee5c103",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Isma [SD11-014]",
+    "type": "Main_Deck",
+    "Number": "SD11-014",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 1000,
+    "Traits": [
+      "Merrow",
+      "Black Swordsman Party"
+    ],
+    "Keywords": [
+      "Limit 1"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Place this card from your field and 1 card from your hand in your Drop: Draw 2 cards; during their next turn, your Opponent cannot attack with Units with a Cost of 4 or less unless they place 1 card from their hand at the bottom of their Deck each time.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-014.jpg?v=42837ee5c103"
+  },
+  "SD11-015": {
+    "id": "SD11-015",
+    "face": {
+      "front": {
+        "name": "Beast of Darkness",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-015.jpg?v=3570eb5741df",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Beast of Darkness [SD11-015]",
+    "type": "Main_Deck",
+    "Number": "SD11-015",
+    "Card_Type": "Main Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Black Swordsman"
+    ],
+    "Keywords": [
+      "Overcharge"
+    ],
+    "Effect": "[On Play] Place 1 Action card from your hand in your Drop; draw 2 cards.\n[End of your Turn] If you have a \"Guts\" with a Cost of 7 or more in play and no Energy, Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-015.jpg?v=3570eb5741df"
+  },
+  "SD11-016": {
+    "id": "SD11-016",
+    "face": {
+      "front": {
+        "name": "Dragonslayer",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-016.jpg?v=4957d662881d",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dragonslayer [SD11-016]",
+    "type": "Main_Deck",
+    "Number": "SD11-016",
+    "Card_Type": "Main Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Black Swordsman"
+    ],
+    "Keywords": [
+      "Clash",
+      "Overcharge",
+      "Accelcharge"
+    ],
+    "Effect": "[Activate: Main] Overcharge 1 and Accelcharge 1.\nClash [Opponent's Attack] Give your Leader +2000 Power for the battle. Then, if your Leader is \"Guts\", draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-016.jpg?v=4957d662881d"
+  },
+  "SD11-017": {
+    "id": "SD11-017",
+    "face": {
+      "front": {
+        "name": "Berserker Armor",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-017.jpg?v=89fffad4639f",
+        "isHorizontal": false
+      }
+    },
+    "name": "Berserker Armor [SD11-017]",
+    "type": "Main_Deck",
+    "Number": "SD11-017",
+    "Card_Type": "Main Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Black Swordsman"
+    ],
+    "Keywords": [
+      "Clash",
+      "Threshold"
+    ],
+    "Effect": "Clash [Activate: Battle] If your Leader is \"Guts\": Remove 1 SJ Marker; give your Leader +3000 Power for the battle. Then, if your Leader's Threshold skill is active, draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-017.jpg?v=89fffad4639f"
+  },
+  "SD11-018": {
+    "id": "SD11-018",
+    "face": {
+      "front": {
+        "name": "Gunpowder Blast",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-018.jpg?v=5dfd99ca604f",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gunpowder Blast [SD11-018]",
+    "type": "Main_Deck",
+    "Number": "SD11-018",
+    "Card_Type": "Main Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Black Swordsman"
+    ],
+    "Keywords": [
+      "Clash",
+      "Overcharge"
+    ],
+    "Effect": "Clash [Opponent's Attack] Give your Leader +1000 Power for the battle. Then, if your Opponent has a Unit with 6000 or more Power, Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-018.jpg?v=5dfd99ca604f"
+  },
+  "SD11-019": {
+    "id": "SD11-019",
+    "face": {
+      "front": {
+        "name": "Cutting Causality",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-019.jpg?v=a43857691b27",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cutting Causality [SD11-019]",
+    "type": "Main_Deck",
+    "Number": "SD11-019",
+    "Card_Type": "Main Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Black Swordsman"
+    ],
+    "Keywords": [],
+    "Effect": "[Activate: Battle] Look at the top 5 cards of your Deck; add up to 1 Unit card with the \"Black Swordsman Party\" Trait to your hand. Then, place the rest at the top or bottom of your Deck in any order. Then, if your Life is at 1 or less, give your card that's in a battle +1000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-019.jpg?v=a43857691b27"
+  },
+  "SD11-020": {
+    "id": "SD11-020",
+    "face": {
+      "front": {
+        "name": "Skull Knight",
+        "type": "JUMP UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/SD11-020.jpg?v=9a54d859f433",
+        "isHorizontal": false,
+        "power": 8000,
+        "sjCost": 2
+      }
+    },
+    "name": "Skull Knight [SD11-020]",
+    "type": "JUMP_Deck",
+    "Number": "SD11-020",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "SD11",
+    "Rarity": "C",
+    "Cost": 6,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 8000,
+    "Counter": null,
+    "Traits": [
+      "Interstice"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Break"
+    ],
+    "Effect": "Break\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 6 or less, ignoring Barrier, negate its skills and remove it from the game.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/SD11-020.jpg?v=9a54d859f433"
+  },
+  "PUP-124": {
+    "id": "PUP-124",
+    "face": {
+      "front": {
+        "name": "Moonlight Boy",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-124.jpg?v=82a27487e7bf",
+        "isHorizontal": false,
+        "power": 0,
+        "sjCost": 2
+      }
+    },
+    "name": "Moonlight Boy [PUP-124]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-124",
+    "Card_Type": "JUMP Unit",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 2,
+    "Life": null,
+    "Power": 0,
+    "Counter": null,
+    "Traits": [
+      "Interstice"
+    ],
+    "Keywords": [
+      "Barrier",
+      "Deflect"
+    ],
+    "Effect": "Deflect Barrier\n[On Play] (3) Draw 1 card; remove this card from the game and play up to 1 \"Griffith\" with a Cost of 5 from your hand Rested.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-124.jpg?v=82a27487e7bf"
+  },
+  "PUP-125": {
+    "id": "PUP-125",
+    "face": {
+      "front": {
+        "name": "Reprieve",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-125.jpg?v=52d8ce66f9ff",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Reprieve [PUP-125]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-125",
+    "Card_Type": "JUMP Action",
+    "Color": "Blue",
+    "Set": "BSK",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Clash",
+      "Once per Turn",
+      "Threshold",
+      "Raid",
+      "Bloom"
+    ],
+    "Effect": "[Your Turn] Once per Turn Raid {2} When your \"Guts\" with a Cost of 7 or more is played, Bloom 1 of your Units with the \"Black Swordsman\" Trait.\nClash [Opponent's Attack] (3) Remove this card from the game: If your Leader is Guts and their Threshold skill is active, place the top card of your Deck at the top of your Life.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-125.jpg?v=52d8ce66f9ff"
+  },
+  "TOKEN-SJM-BSK3": {
+    "id": "TOKEN-SJM-BSK3",
+    "face": {
+      "front": {
+        "name": "SJ Marker BSK3",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BSK3.jpg?v=74815306774e",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker BSK3",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-BSK3",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "BSK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BSK3.jpg?v=74815306774e",
+    "isAccessory": true
   }
 }
