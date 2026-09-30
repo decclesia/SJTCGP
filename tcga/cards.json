@@ -50216,5 +50216,915 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-BSK3.jpg?v=74815306774e",
     "isAccessory": true
+  },
+  "EX9-001": {
+    "id": "EX9-001",
+    "face": {
+      "front": {
+        "name": "Krul Tepes",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-001.jpg?v=acd8e35a9fe4",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Krul Tepes [EX9-001]",
+    "type": "Leader",
+    "Number": "EX9-001",
+    "Card_Type": "Leader",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 5,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Vampire",
+      "Demon",
+      "Michaela"
+    ],
+    "Keywords": [
+      "Once per Turn",
+      "Threshold"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Add 1 card from your Life to your hand: Look at the top 5 cards of your Deck; add up to 1 card to your Life. Then, place the rest at the bottom of your Deck in any order.\nThreshold 1 [Activate: Main] Once per Turn Add 1 card from your Life to your hand: Draw 1 card; place 1 card from your hand in your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-001.jpg?v=acd8e35a9fe4"
+  },
+  "EX9-002": {
+    "id": "EX9-002",
+    "face": {
+      "front": {
+        "name": "Krul Tepes",
+        "type": "MAIN UNIT",
+        "cost": 6,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-002.jpg?v=6edf019760c2",
+        "isHorizontal": false,
+        "power": 7000
+      }
+    },
+    "name": "Krul Tepes [EX9-002]",
+    "type": "Main_Deck",
+    "Number": "EX9-002",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "SR",
+    "Cost": 6,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 7000,
+    "Counter": 0,
+    "Traits": [
+      "Vampire",
+      "Demon",
+      "Michaela"
+    ],
+    "Keywords": [
+      "Dual Attack",
+      "Critical",
+      "Limit 1"
+    ],
+    "Effect": "Dual Attack Critical\n[On Play] If your Leader is \"Krul Tepes\": Add up to 1 card from your Drop to your Life. Then, if you have 2 or less Life cards, draw 1 card.\n[On Attack] Limit 1 Remove 2 SJ Markers: Choose up to 1 of your Opponent's Units and add it to the top of your Opponent's Life cards face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-002.jpg?v=6edf019760c2"
+  },
+  "EX9-003": {
+    "id": "EX9-003",
+    "face": {
+      "front": {
+        "name": "Mikaela Hyakuya",
+        "type": "MAIN UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-003.jpg?v=f61fe722c1da",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Mikaela Hyakuya [EX9-003]",
+    "type": "Main_Deck",
+    "Number": "EX9-003",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "SR",
+    "Cost": 4,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Vampire",
+      "Michaela"
+    ],
+    "Keywords": [
+      "Deflect",
+      "Once per Turn",
+      "Accelcharge"
+    ],
+    "Effect": "Deflect\n[On Play] If your Leader is \"Krul Tepes\": Add 1 card from your Life to your hand; play up to 1 Unit card with a Cost of 3 or less and the \"Vampire\" Trait from your hand Rested.\n[On Attack] Once per Turn Accelcharge 1.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-003.jpg?v=f61fe722c1da"
+  },
+  "EX9-004": {
+    "id": "EX9-004",
+    "face": {
+      "front": {
+        "name": "Yuichiro Hyakuya",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-004.jpg?v=bddbb4a49dfd",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Yuichiro Hyakuya [EX9-004]",
+    "type": "Main_Deck",
+    "Number": "EX9-004",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Accelcharge"
+    ],
+    "Effect": "[Your Turn] If you have 1 or less Life cards, give this card +2000 Power.\n[Activate: Main] Limit 1 If your Leader has the \"Michaela\" Trait and this card was played this turn, Accelcharge 2.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-004.jpg?v=bddbb4a49dfd"
+  },
+  "EX9-005": {
+    "id": "EX9-005",
+    "face": {
+      "front": {
+        "name": "Ferid Bathory",
+        "type": "MAIN UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-005.jpg?v=7cdd4d2ebbd5",
+        "isHorizontal": false,
+        "power": 6000
+      }
+    },
+    "name": "Ferid Bathory [EX9-005]",
+    "type": "Main_Deck",
+    "Number": "EX9-005",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 5,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 6000,
+    "Counter": 0,
+    "Traits": [
+      "Vampire"
+    ],
+    "Keywords": [
+      "Overcharge"
+    ],
+    "Effect": "[On Play] Remove 1 SJ Marker: Choose up to 1 of your Opponent's Units and give it -3000 Power for the turn.\n[End of your Turn] If your Leader is \"Krul Tepes\": Place 1 card from your Life at the bottom of your Deck; Overcharge 2 and you can't Overcharge for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-005.jpg?v=7cdd4d2ebbd5"
+  },
+  "EX9-006": {
+    "id": "EX9-006",
+    "face": {
+      "front": {
+        "name": "Crowley Eusford",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-006.jpg?v=d2d27314ec8e",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Crowley Eusford [EX9-006]",
+    "type": "Main_Deck",
+    "Number": "EX9-006",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 5000,
+    "Counter": 0,
+    "Traits": [
+      "Vampire"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Blocker",
+      "Threshold"
+    ],
+    "Effect": "[Opponent's Turn] If your Leader has the \"Michaela\" Trait and their Threshold skill is active, give this card Blocker and +1000 Power.\n[On K.O.] Limit 1 If this card was K.O.'d by battle: Add up to 1 card from your hand in your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-006.jpg?v=d2d27314ec8e"
+  },
+  "EX9-007": {
+    "id": "EX9-007",
+    "face": {
+      "front": {
+        "name": "Shinoa Hiiragi",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-007.jpg?v=b73c97312a21",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Shinoa Hiiragi [EX9-007]",
+    "type": "Main_Deck",
+    "Number": "EX9-007",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 2000,
+    "Traits": [
+      "Demon Army"
+    ],
+    "Keywords": [],
+    "Effect": "[Activate: Main] Rest this card: Add 1 card from your Life to your hand; draw 1 card. Then, add 1 card from your hand in your Life.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-007.jpg?v=b73c97312a21"
+  },
+  "EX9-008": {
+    "id": "EX9-008",
+    "face": {
+      "front": {
+        "name": "Guren Ichinose",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-008.jpg?v=1cd24ad3b778",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Guren Ichinose [EX9-008]",
+    "type": "Main_Deck",
+    "Number": "EX9-008",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon Army"
+    ],
+    "Keywords": [
+      "Duel"
+    ],
+    "Effect": "Duel\n[On Attack] If you have 1 or less Life cards, choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-008.jpg?v=1cd24ad3b778"
+  },
+  "EX9-009": {
+    "id": "EX9-009",
+    "face": {
+      "front": {
+        "name": "Mitsuba Sangu",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-009.jpg?v=43921ba67eec",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Mitsuba Sangu [EX9-009]",
+    "type": "Main_Deck",
+    "Number": "EX9-009",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon Army"
+    ],
+    "Keywords": [
+      "Limit 1"
+    ],
+    "Effect": "[On Play] Draw 1 card.\n[Activate: Main] Limit 1 If a card was added from your hand to your Life this turn, give this card +2000 Power until the end of your Opponent's next turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-009.jpg?v=43921ba67eec"
+  },
+  "EX9-010": {
+    "id": "EX9-010",
+    "face": {
+      "front": {
+        "name": "Yoichi Saotome",
+        "type": "MAIN UNIT",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-010.jpg?v=439dea2f24a1",
+        "isHorizontal": false,
+        "power": 4000
+      }
+    },
+    "name": "Yoichi Saotome [EX9-010]",
+    "type": "Main_Deck",
+    "Number": "EX9-010",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 4000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon Army"
+    ],
+    "Keywords": [],
+    "Effect": "[On Play] Remove 1 SJ Marker: Choose up to 1 of your Opponent's Units and give it -1000 Power for each card in your Life for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-010.jpg?v=439dea2f24a1"
+  },
+  "EX9-011": {
+    "id": "EX9-011",
+    "face": {
+      "front": {
+        "name": "Shiho Kimizuki",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-011.jpg?v=c9dc6bbf9c55",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Shiho Kimizuki [EX9-011]",
+    "type": "Main_Deck",
+    "Number": "EX9-011",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Demon Army"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Clash"
+    ],
+    "Effect": "Clash [Opponent's Attack] Limit 1 Remove 2 SJ Markers: Play this card from your hand.\n[Activate: Battle] Limit 1 If your Leader has the \"Michaela\" Trait and you have 1 or less Life cards: Give your Leader or up to 1 of your Units +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-011.jpg?v=c9dc6bbf9c55"
+  },
+  "EX9-012": {
+    "id": "EX9-012",
+    "face": {
+      "front": {
+        "name": "Chess Belle",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-012.jpg?v=fdbb9426ce3f",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Chess Belle [EX9-012]",
+    "type": "Main_Deck",
+    "Number": "EX9-012",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Vampire"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Threshold"
+    ],
+    "Effect": "[On Play] Limit 1 If your Leader has the \"Michaela\" Trait and their Threshold skill is active: Place 1 card from your Life in your Drop; add this card and the top card of your Deck to your Life face-down. Then, give your Leader +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-012.jpg?v=fdbb9426ce3f"
+  },
+  "EX9-013": {
+    "id": "EX9-013",
+    "face": {
+      "front": {
+        "name": "Horn Skuld",
+        "type": "MAIN UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-013.jpg?v=91ebeaa7a932",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Horn Skuld [EX9-013]",
+    "type": "Main_Deck",
+    "Number": "EX9-013",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Vampire"
+    ],
+    "Keywords": [
+      "Raid"
+    ],
+    "Effect": "[Activate: Main] Raid {1} When this card is added from your Life to your hand by a skill: Place this card from your hand in your Drop; draw 2 cards.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-013.jpg?v=91ebeaa7a932"
+  },
+  "EX9-014": {
+    "id": "EX9-014",
+    "face": {
+      "front": {
+        "name": "Lacus Welt",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-014.jpg?v=f4dca509297e",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "Lacus Welt [EX9-014]",
+    "type": "Main_Deck",
+    "Number": "EX9-014",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Vampire"
+    ],
+    "Keywords": [
+      "Deflect",
+      "Elusive"
+    ],
+    "Effect": "Deflect Elusive\n[Your Turn] When a card is added from your Life to your hand, give this card +1000 Power for the turn.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-014.jpg?v=f4dca509297e"
+  },
+  "EX9-015": {
+    "id": "EX9-015",
+    "face": {
+      "front": {
+        "name": "René Simm",
+        "type": "MAIN UNIT",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-015.jpg?v=6474a95b7a83",
+        "isHorizontal": false,
+        "power": 3000
+      }
+    },
+    "name": "René Simm [EX9-015]",
+    "type": "Main_Deck",
+    "Number": "EX9-015",
+    "Card_Type": "Main Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 3000,
+    "Counter": 1000,
+    "Traits": [
+      "Vampire"
+    ],
+    "Keywords": [
+      "Clash",
+      "Raid",
+      "Threshold"
+    ],
+    "Effect": "Clash [Opponent's Play] Raid {1} If your Leader has the \"Michaela\" Trait and their Threshold skill is active: Play this card from your hand Rested and give your Leader +1000 Power for the turn.\n[On Play] Draw 1 card.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-015.jpg?v=6474a95b7a83"
+  },
+  "EX9-016": {
+    "id": "EX9-016",
+    "face": {
+      "front": {
+        "name": "Seraph of the End",
+        "type": "MAIN ACTION",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-016.jpg?v=5bcd3c156d53",
+        "isHorizontal": false
+      }
+    },
+    "name": "Seraph of the End [EX9-016]",
+    "type": "Main_Deck",
+    "Number": "EX9-016",
+    "Card_Type": "Main Action",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "SR",
+    "Cost": 3,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Demon"
+    ],
+    "Keywords": [
+      "Limit 1",
+      "Raid",
+      "Barrier"
+    ],
+    "Effect": "[Activate: Main] Limit 1 Raid {3} If your Leader has the \"Michaela\" Trait: Choose up to 1 of your Opponent's Units, ignoring Barrier, and place it at the bottom of its owner's Life face-up. Then, if you have 1 or less Life cards, place this card from your Drop at the bottom of your Life face-up.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-016.jpg?v=5bcd3c156d53"
+  },
+  "EX9-017": {
+    "id": "EX9-017",
+    "face": {
+      "front": {
+        "name": "Arcane's Assistance",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-017.jpg?v=2a0bb093127a",
+        "isHorizontal": false
+      }
+    },
+    "name": "Arcane's Assistance [EX9-017]",
+    "type": "Main_Deck",
+    "Number": "EX9-017",
+    "Card_Type": "Main Action",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Vampire"
+    ],
+    "Keywords": [
+      "Raid"
+    ],
+    "Effect": "[Your Turn] Raid {1} When this card is added from your Life to your hand by a skill: Place this card and 1 other card from your hand in your Drop; add the top 2 cards of your Deck to the top of your Life.\n[Activate: Main] Look at the top 5 cards of your Deck; add up to 2 Unit cards with the \"Vampire\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-017.jpg?v=2a0bb093127a"
+  },
+  "EX9-018": {
+    "id": "EX9-018",
+    "face": {
+      "front": {
+        "name": "Cease being human",
+        "type": "MAIN ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-018.jpg?v=b10622701ff8",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cease being human [EX9-018]",
+    "type": "Main_Deck",
+    "Number": "EX9-018",
+    "Card_Type": "Main Action",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [
+      "Michaela"
+    ],
+    "Keywords": [
+      "Raid"
+    ],
+    "Effect": "[Your Turn] Raid {1} When this card is added from your Life to your hand by a skill: Place this card and 1 other card from your hand in your Drop; play up to 1 Unit card with a Cost of 4 or less and the \"Vampire\" Trait from your hand.\n[Activate: Battle] Give your card that's in a battle +2000 Power for the battle.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-018.jpg?v=b10622701ff8"
+  },
+  "EX9-019": {
+    "id": "EX9-019",
+    "face": {
+      "front": {
+        "name": "Krul Tepes",
+        "type": "JUMP UNIT",
+        "cost": 4,
+        "image": "https://decclesia.github.io/SJTCGP/images/EX9-019.jpg?v=eae9c0a320e0",
+        "isHorizontal": false,
+        "power": 7000,
+        "sjCost": 3
+      }
+    },
+    "name": "Krul Tepes [EX9-019]",
+    "type": "JUMP_Deck",
+    "Number": "EX9-019",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 4,
+    "SJ_Cost": 3,
+    "Life": null,
+    "Power": 7000,
+    "Counter": null,
+    "Traits": [
+      "Vampire",
+      "Demon",
+      "Michaela"
+    ],
+    "Keywords": [
+      "Deflect",
+      "Barrier",
+      "Double Damage"
+    ],
+    "Effect": "Deflect Double Damage\n[On Play] If your Leader is \"Krul Tepes\": Add 1 card from your Life to your hand; choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -5000 Power.\n[End of your Turn] If you have no Life cards, place this card to the top of your Life face-up.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/EX9-019.jpg?v=eae9c0a320e0"
+  },
+  "EX9-020": {
+    "id": "EX9-020",
+    "face": {
+      "front": {
+        "name": "Gnawing Ambush",
+        "type": "JUMP ACTION",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX9-020.jpg?v=ec2f37f55b61",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "Gnawing Ambush [EX9-020]",
+    "type": "JUMP_Deck",
+    "Number": "EX9-020",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Limit 1"
+    ],
+    "Effect": "[Your Turn] Limit 1 When a card is added from your Life to your hand by a skill: Choose up to 1 of your Opponent's Rested Units with a Cost equal to or less than the number of cards in your and your Opponent's Life and K.O. it. Then, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX9-020.jpg?v=ec2f37f55b61"
+  },
+  "EX9-021": {
+    "id": "EX9-021",
+    "face": {
+      "front": {
+        "name": "The Progenitor Council",
+        "type": "JUMP ACTION",
+        "cost": 2,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX9-021.jpg?v=da00efae66ae",
+        "isHorizontal": true,
+        "sjCost": 1
+      }
+    },
+    "name": "The Progenitor Council [EX9-021]",
+    "type": "JUMP_Deck",
+    "Number": "EX9-021",
+    "Card_Type": "JUMP Action",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "EX9",
+    "Rarity": "R",
+    "Cost": 2,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [
+      "Threshold"
+    ],
+    "Effect": "[Opponent's Turn] If your Leader has the \"Michaela\" Trait and their Threshold skill is active: Give all Unit cards with the \"Vampire\" Trait and 0 or 1000 Counter in your hand +1000 Counter.\n[End of Turn] If you have more Life cards than your Opponent, return this card to your JUMP Deck.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Landscape",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX9-021.jpg?v=da00efae66ae"
+  },
+  "PUP-122": {
+    "id": "PUP-122",
+    "face": {
+      "front": {
+        "name": "Hyakuya Siblings",
+        "type": "JUMP UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-122.jpg?v=814e1eab6195",
+        "isHorizontal": false,
+        "power": 2000,
+        "sjCost": 1
+      }
+    },
+    "name": "Hyakuya Siblings [PUP-122]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-122",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 1,
+    "SJ_Cost": 1,
+    "Life": null,
+    "Power": 2000,
+    "Counter": null,
+    "Traits": [
+      "Seraph Experiment"
+    ],
+    "Keywords": [
+      "J-Layer"
+    ],
+    "Effect": "J-Layer 1 \"Mikaela & Yuichiro Hyakuya\"\n[Activate: Main] Add 1 card from your Life to your hand: Play 1 \"Mikaela & Yuichiro Hyakuya\" from under this card and place this card under the played card.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-122.jpg?v=814e1eab6195"
+  },
+  "PUP-123": {
+    "id": "PUP-123",
+    "face": {
+      "front": {
+        "name": "Mikaela & Yuichiro Hyakuya",
+        "type": "JUMP UNIT",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-123.jpg?v=0004c87a3dff",
+        "isHorizontal": false,
+        "power": 1000,
+        "sjCost": 5
+      }
+    },
+    "name": "Mikaela & Yuichiro Hyakuya [PUP-123]",
+    "type": "JUMP_Deck",
+    "Number": "PUP-123",
+    "Card_Type": "JUMP Unit",
+    "Color": "Pink",
+    "Set": "ONS",
+    "Release": "PUP",
+    "Rarity": "P",
+    "Cost": 5,
+    "SJ_Cost": 5,
+    "Life": null,
+    "Power": 1000,
+    "Counter": null,
+    "Traits": [
+      "Vampire",
+      "Michaela"
+    ],
+    "Keywords": [
+      "Permanent",
+      "Threshold"
+    ],
+    "Effect": "Permanent Give this card +1000 Power for each card in your Life.\n[On Play] If your Opponent has more Life cards than you and their Leader's Threshold skill isn't active: Your Opponent adds the top of their Life cards to their hand.\n[On K.O.] Add up to 1 card from your hand to the top of your Life face-up.",
+    "Deck_Zone": "JUMP",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-123.jpg?v=0004c87a3dff"
+  },
+  "TOKEN-GT-ONS": {
+    "id": "TOKEN-GT-ONS",
+    "face": {
+      "front": {
+        "name": "Guard Token ONS",
+        "type": "GUARD TOKEN",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-ONS.jpg?v=abed163d8472",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Token ONS",
+    "type": "Guard_Token_Pile",
+    "Number": "TOKEN-GT-ONS",
+    "Card_Type": "Guard Token",
+    "Color": "",
+    "Set": "ONS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": 3000,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "+3000 Counter during defensive Combo.",
+    "Deck_Zone": "Guard_Token_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/guard-tokens/GT-ONS.jpg?v=abed163d8472",
+    "isAccessory": true
+  },
+  "TOKEN-SJM-ONS": {
+    "id": "TOKEN-SJM-ONS",
+    "face": {
+      "front": {
+        "name": "SJ Marker ONS",
+        "type": "SJ MARKER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ONS.jpg?v=b5ab4769318f",
+        "isHorizontal": false
+      }
+    },
+    "name": "SJ Marker ONS",
+    "type": "SJ_Marker_Pile",
+    "Number": "TOKEN-SJM-ONS",
+    "Card_Type": "SJ Marker",
+    "Color": "",
+    "Set": "ONS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "SJ_Marker_Pile",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ONS.jpg?v=b5ab4769318f",
+    "isAccessory": true
   }
 }

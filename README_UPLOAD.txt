@@ -1,3 +1,3 @@
-SJTCGP SD11 Blue BSK update applied on 2026-09-04.
+SJTCGP EX9 Pink ONS update applied on 2026-10-01.
 
-Adds SD11-001 through SD11-020, PUP-124/PUP-125 and SJM-BSK3. SD11 shares the existing BSK Guard Token and uses generic Energy. PUP-125 is a landscape JUMP Action.
+Adds EX9-001 through EX9-021, PUP-122/PUP-123, GT-ONS and SJM-ONS. EX9-020 and EX9-021 are landscape JUMP Actions. Arena uses generic Energy under the standing policy.

@@ -252,7 +252,9 @@
         "TOKEN-GT-WTG",
         "TOKEN-SJM-WTG1",
         "TOKEN-SJM-WTG2",
-        "TOKEN-SJM-BSK3"
+        "TOKEN-SJM-BSK3",
+        "TOKEN-GT-ONS",
+        "TOKEN-SJM-ONS"
       ],
       "countersStartingValues": [
         0,

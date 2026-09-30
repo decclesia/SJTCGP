@@ -297,6 +297,13 @@
         "TOKEN-SJM-WTG2"
       ],
       "guardToken": "TOKEN-GT-WTG"
+    },
+    "ONS": {
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-ONS"
+      ],
+      "guardToken": "TOKEN-GT-ONS"
     }
   },
   "notes": {
@@ -730,6 +737,14 @@
         "TOKEN-SJM-BSK3"
       ],
       "guardToken": "TOKEN-GT-BSK"
+    },
+    "EX9-001": {
+      "set": "ONS",
+      "energy": "TOKEN-ENERGY-GENERIC",
+      "sjMarkers": [
+        "TOKEN-SJM-ONS"
+      ],
+      "guardToken": "TOKEN-GT-ONS"
     }
   }
 }

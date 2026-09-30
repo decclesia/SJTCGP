@@ -1,22 +1,30 @@
 {
-  "website_cards": 1204,
-  "card_text_records": 1204,
-  "arena_entries": 1334,
-  "sd11_cards": 20,
+  "website_cards": 1227,
+  "card_text_records": 1227,
+  "arena_entries": 1359,
+  "ex9_cards": 21,
   "promos": [
-    "PUP-124",
-    "PUP-125"
+    "PUP-122",
+    "PUP-123"
   ],
   "rarities": {
     "L": 1,
     "SR": 3,
-    "C": 16
+    "R": 17
+  },
+  "split": {
+    "Leader": 1,
+    "Main Unit": 14,
+    "Main Action": 3,
+    "JUMP Unit": 1,
+    "JUMP Action": 2
   },
   "landscape": [
-    "PUP-125"
+    "EX9-020",
+    "EX9-021"
   ],
-  "guard": "TOKEN-GT-BSK shared",
-  "sj": "TOKEN-SJM-BSK3",
+  "guard": "TOKEN-GT-ONS",
+  "sj": "TOKEN-SJM-ONS",
   "energy": "TOKEN-ENERGY-GENERIC",
   "opening_hand": 6,
   "energy_max": 10,
