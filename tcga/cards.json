@@ -6,7 +6,7 @@
         "name": "Control Devil",
         "type": "LEADER",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-001.jpg?v=efe3a6fbc183",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-001.jpg?v=163b5ac3dd4d",
         "isHorizontal": false,
         "power": 5000
       }
@@ -39,7 +39,7 @@
     "Effect": "[Opponent's Attack] Once per Turn Switch the attack target to 1 of your Units.\n[End of Opponent's Turn] Add up to 1 \"Nayuta\" from your Drop to your hand.\nThreshold 4 [Activate: Main] Once per Turn Remove 1 \"Nayuta\" in your Drop from the game; shuffle up to 3 cards with the \"Control Devil\" Trait from your Drop into your Deck. Then, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-001.jpg?v=efe3a6fbc183"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-001.jpg?v=163b5ac3dd4d"
   },
   "ST1-002": {
     "id": "ST1-002",
@@ -84,7 +84,7 @@
         "name": "Nayuta",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-003.jpg?v=fc0be1b1890f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-003.jpg?v=837951045af2",
         "isHorizontal": false,
         "power": 2000
       }
@@ -114,7 +114,7 @@
     "Effect": "[Activate: Main] Limit 1 If your Opponent has no Units in play or has only Rested Units in play: Play this card from your hand.\n[On K.O.] Look at 3 cards from the top of your Deck; add up to 1 card with \"Control Devil\" in its Traits or up to 1 \"Makima\" to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-003.jpg?v=fc0be1b1890f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-003.jpg?v=837951045af2"
   },
   "ST1-004": {
     "id": "ST1-004",
@@ -159,7 +159,7 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-005.jpg?v=867fb5ed506b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-005.jpg?v=40ada5615dfe",
         "isHorizontal": false,
         "power": 7000
       }
@@ -190,7 +190,7 @@
     "Effect": "Limit 1 If your Leader is \"Control Devil\" and this card would be K.O.ed by an Opponent's skill, you may K.O. 1 of your other Units instead.\n[Activate: Main] Rest this card: <Overcharge> 1 for each of your Opponent's Rested Units and you can't <Overcharge> for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-005.jpg?v=867fb5ed506b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-005.jpg?v=40ada5615dfe"
   },
   "ST1-006": {
     "id": "ST1-006",
@@ -199,7 +199,7 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-006.jpg?v=49acbd94105f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-006.jpg?v=09b65e8e2de3",
         "isHorizontal": false,
         "power": 5000
       }
@@ -228,7 +228,7 @@
     "Effect": "[On Play] Limit 1 If your Leader is \"Control Devil\": Choose up to 1 of your Opponent's Rested Units with 5000 Power or less and set its Power to 0 for as long as it's Rested.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-006.jpg?v=49acbd94105f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-006.jpg?v=09b65e8e2de3"
   },
   "ST1-007": {
     "id": "ST1-007",
@@ -237,7 +237,7 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-007.jpg?v=6fb0b13ce945",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-007.jpg?v=43c2cc6b34f7",
         "isHorizontal": false,
         "power": 0
       }
@@ -267,7 +267,7 @@
     "Effect": "[Activate: Main] Limit 1 If your opponent has no Units in play or has only Rested Units in play: Play this card from your hand.\n[On K.O.] Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-007.jpg?v=6fb0b13ce945"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-007.jpg?v=43c2cc6b34f7"
   },
   "ST1-008": {
     "id": "ST1-008",
@@ -276,7 +276,7 @@
         "name": "Fiend",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-008.jpg?v=fcc6774f89f3",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-008.jpg?v=f5fdde970e75",
         "isHorizontal": false,
         "power": 1000
       }
@@ -303,7 +303,7 @@
     "Effect": "[On Play] Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-008.jpg?v=fcc6774f89f3"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-008.jpg?v=f5fdde970e75"
   },
   "ST1-009": {
     "id": "ST1-009",
@@ -385,7 +385,7 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 7,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-011.jpg?v=6b8d6c26a18e",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-011.jpg?v=a995fc025610",
         "isHorizontal": false,
         "power": 7000
       }
@@ -417,7 +417,7 @@
     "Effect": "<Permanent> Your Opponent's Rested Units with 7000 Power or less cannot be switched to Active mode during your Opponent's Charge Phase.\nClash [Opponent's Attack] Limit 1 (1) If your Leader is \"Control Devil\", switch the attack target to your Leader.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-011.jpg?v=6b8d6c26a18e"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-011.jpg?v=a995fc025610"
   },
   "ST1-012": {
     "id": "ST1-012",
@@ -426,7 +426,7 @@
         "name": "Tokyo Special Division 4",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-012.jpg?v=0d5c1d514b07",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-012.jpg?v=2a35c4f26652",
         "isHorizontal": false,
         "power": 4000
       }
@@ -455,7 +455,7 @@
     "Effect": "[On K.O.] Choose up to 1 of your Opponent's Units and Rest it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-012.jpg?v=0d5c1d514b07"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-012.jpg?v=2a35c4f26652"
   },
   "ST1-013": {
     "id": "ST1-013",
@@ -500,7 +500,7 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-014.jpg?v=a60dd745a311",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-014.jpg?v=5a751b60bd52",
         "isHorizontal": false,
         "power": 4000
       }
@@ -530,7 +530,7 @@
     "Effect": "Deflect\n[On Play] Limit 1 Play up to 1 Unit with a Cost of 1 from your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-014.jpg?v=a60dd745a311"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-014.jpg?v=5a751b60bd52"
   },
   "ST1-015": {
     "id": "ST1-015",
@@ -539,7 +539,7 @@
         "name": "Makima’s Dogpack",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-015.jpg?v=2c979c2dd98f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-015.jpg?v=ea9f9d706d4e",
         "isHorizontal": false,
         "power": 4000
       }
@@ -568,7 +568,7 @@
     "Effect": "[On Play] If your Leader is \"Control Devil\", draw 1 card.\nClash (1) [Activate: Battle] This card gains +3000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-015.jpg?v=2c979c2dd98f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-015.jpg?v=ea9f9d706d4e"
   },
   "ST1-016": {
     "id": "ST1-016",
@@ -577,7 +577,7 @@
         "name": "Nayuta’s Dogpack",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-016.jpg?v=105b902cf3d7",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-016.jpg?v=d78219f6900f",
         "isHorizontal": false,
         "power": 5000
       }
@@ -606,7 +606,7 @@
     "Effect": "Unique Deflect\nIf you have \"Nayuta\" in play, reduce this card's Cost in your hand by 2.\n[On K.O.] Add up to 1 Unit card with a Cost of 1 from your Drop to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-016.jpg?v=105b902cf3d7"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-016.jpg?v=d78219f6900f"
   },
   "ST1-017": {
     "id": "ST1-017",
@@ -650,7 +650,7 @@
         "name": "Katana Man",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-018.jpg?v=08151d64abff",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-018.jpg?v=4a7b43876b29",
         "isHorizontal": false,
         "power": 5000
       }
@@ -679,7 +679,7 @@
     "Effect": "[On Attack] (1) Rest up to 1 of your opponent's Units and give it -1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-018.jpg?v=08151d64abff"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-018.jpg?v=4a7b43876b29"
   },
   "ST1-019": {
     "id": "ST1-019",
@@ -688,7 +688,7 @@
         "name": "Angel",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-019.jpg?v=e437a2c35afe",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-019.jpg?v=5d98427afc6f",
         "isHorizontal": false,
         "power": 5000
       }
@@ -714,10 +714,10 @@
       "Once per Turn",
       "On Attack"
     ],
-    "Effect": "[On Attack] <Once per Turn> Rest 1 of your Units; switch this card to Active Mode.",
+    "Effect": "[On Attack] Once per Turn Rest 1 of your Units; switch this card to Active Mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-019.jpg?v=e437a2c35afe"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-019.jpg?v=5d98427afc6f"
   },
   "ST1-020": {
     "id": "ST1-020",
@@ -726,7 +726,7 @@
         "name": "Beam",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-020.jpg?v=8a82d2ccdc36",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-020.jpg?v=76546e24635b",
         "isHorizontal": false,
         "power": 1000
       }
@@ -754,7 +754,7 @@
     "Effect": "[On Play] Choose up to 1 of your Opponent's Units and Rest it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-020.jpg?v=8a82d2ccdc36"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-020.jpg?v=76546e24635b"
   },
   "ST1-021": {
     "id": "ST1-021",
@@ -763,7 +763,7 @@
         "name": "Galgali",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-021.jpg?v=b4ad0b1e89a1",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-021.jpg?v=b310d3ba2ab2",
         "isHorizontal": false,
         "power": 3000
       }
@@ -786,13 +786,12 @@
       "Public Safety Bureau"
     ],
     "Keywords": [
-      "Your Turn",
-      "Permanent"
+      "Your Turn"
     ],
-    "Effect": "Permanent During your turn, this card gains +1000 Power for each of your Opponent's Rested Units.",
+    "Effect": "[Your Turn] Give this card +1000 Power for each of your Opponent's Rested Units.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-021.jpg?v=b4ad0b1e89a1"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-021.jpg?v=b310d3ba2ab2"
   },
   "ST1-022": {
     "id": "ST1-022",
@@ -801,7 +800,7 @@
         "name": "Princi",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-022.jpg?v=2c772525d749",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-022.jpg?v=0d31932f1aca",
         "isHorizontal": false,
         "power": 2000
       }
@@ -829,7 +828,7 @@
     "Effect": "[On K.O.] Add up to 1 \"Makima\" from your Drop to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-022.jpg?v=2c772525d749"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-022.jpg?v=0d31932f1aca"
   },
   "ST1-023": {
     "id": "ST1-023",
@@ -838,7 +837,7 @@
         "name": "Hirokazu Arai",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-023.jpg?v=99245cb32454",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-023.jpg?v=b733c1e39f34",
         "isHorizontal": false,
         "power": 1000
       }
@@ -866,7 +865,7 @@
     "Effect": "<Blocker>",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-023.jpg?v=99245cb32454"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-023.jpg?v=b733c1e39f34"
   },
   "ST1-024": {
     "id": "ST1-024",
@@ -875,7 +874,7 @@
         "name": "Madoka",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-024.jpg?v=c09684e8c9e5",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-024.jpg?v=af717d71b910",
         "isHorizontal": false,
         "power": 1000
       }
@@ -900,10 +899,10 @@
     "Keywords": [
       "On K.O."
     ],
-    "Effect": "[On K.O.] Add up to 1 yellow Action card with a cost of 2 or less from your Drop to your hand.",
+    "Effect": "[On K.O.] Add up to 1 Action card with a Cost of 2 or less from your Drop to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-024.jpg?v=c09684e8c9e5"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-024.jpg?v=af717d71b910"
   },
   "ST1-025": {
     "id": "ST1-025",
@@ -912,7 +911,7 @@
         "name": "Fushi",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-025.jpg?v=2ed73ca1301b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-025.jpg?v=4787fa6f8026",
         "isHorizontal": false,
         "power": 1000
       }
@@ -940,7 +939,7 @@
     "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, choose up to 1 of your Opponent's Rested Units with 1000 Power or less and K.O. it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-025.jpg?v=2ed73ca1301b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-025.jpg?v=4787fa6f8026"
   },
   "ST1-026": {
     "id": "ST1-026",
@@ -1209,7 +1208,7 @@
         "name": "Makunouchi Ippo",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-033.jpg?v=95576ba3b29a",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-033.jpg?v=29bc4fffdcb9",
         "isHorizontal": false,
         "power": 6000
       }
@@ -1236,13 +1235,13 @@
       "Once per Turn",
       "On Attack",
       "Your Turn",
-      "Blocker",
-      "Revenge"
+      "Revenge",
+      "Blocker"
     ],
-    "Effect": "Blocker Revenge\n[On Attack] <Once per Turn> Place 1 card with \"Boxing\" in its Traits from your hand in your Drop: At the end of your turn, set this card to Active mode.",
+    "Effect": "Blocker Revenge\n[On Attack] Once per Turn Place 1 card with \"Boxing\" in its Traits from your hand in your Drop: At the end of your turn, set this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-033.jpg?v=95576ba3b29a"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-033.jpg?v=29bc4fffdcb9"
   },
   "ST1-034": {
     "id": "ST1-034",
@@ -1251,7 +1250,7 @@
         "name": "Mashiba Kumi",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-034.jpg?v=7cfa71d385d6",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-034.jpg?v=d50ad6708e00",
         "isHorizontal": false,
         "power": 2000
       }
@@ -1274,14 +1273,12 @@
     ],
     "Keywords": [
       "Activate: Battle",
-      "Blocker",
-      "Clash",
-      "Deflect"
+      "Clash"
     ],
-    "Effect": "Deflect Blocker\nClash (2) [Activate: Battle] Place up to 2 cards with \"Boxing\" in their Traits from your Drop in your Combo area with their skills negated for the turn. Then, if you placed a card, play this card from your hand.",
+    "Effect": "Clash [Activate: Battle] (1) Place up to 2 cards with the \"Boxing\" Trait from your Drop in your combo area with their skills negated for the turn. Then, play this card from your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-034.jpg?v=7cfa71d385d6"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-034.jpg?v=d50ad6708e00"
   },
   "ST1-035": {
     "id": "ST1-035",
@@ -1290,7 +1287,7 @@
         "name": "Wanpo",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-035.jpg?v=1806a6e07a7c",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-035.jpg?v=699d772e0fb0",
         "isHorizontal": false,
         "power": 2000
       }
@@ -1317,7 +1314,7 @@
     "Effect": "[On Play] Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-035.jpg?v=1806a6e07a7c"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-035.jpg?v=699d772e0fb0"
   },
   "ST1-036": {
     "id": "ST1-036",
@@ -1326,7 +1323,7 @@
         "name": "Kamogawa Genji",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-036.jpg?v=eb10d817b82f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-036.jpg?v=77e362f0d35a",
         "isHorizontal": false,
         "power": 2000
       }
@@ -1353,10 +1350,10 @@
       "On Play",
       "Clash"
     ],
-    "Effect": "[On Play] (1) Look at 5 cards from the top of your Deck; add up to 1 card with \"Boxing\" or \"Kamogawa Gym\" in its Traits to your hand, then place the rest at the bottom of your Deck in any order.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
+    "Effect": "[On Play] (1) Look at the top 5 cards of your Deck; add up to 1 card with the \"Boxing\" or \"Kamogawa Gym\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.\nClash [Opponent's Attack] (1) Remove this card in your Drop from the game: Give your Leader +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-036.jpg?v=eb10d817b82f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-036.jpg?v=77e362f0d35a"
   },
   "ST1-037": {
     "id": "ST1-037",
@@ -1365,7 +1362,7 @@
         "name": "Haruhiko Yagi",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-037.jpg?v=a720a6de43cc",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-037.jpg?v=41141bc70b11",
         "isHorizontal": false,
         "power": 2000
       }
@@ -1395,7 +1392,7 @@
     "Effect": "[On Play] (1) Add up to 1 card from your Life to your hand. Then, if you added a card, draw 1 card.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-037.jpg?v=a720a6de43cc"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-037.jpg?v=41141bc70b11"
   },
   "ST1-038": {
     "id": "ST1-038",
@@ -1404,7 +1401,7 @@
         "name": "Shinoda",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-038.jpg?v=fa3cbf2242c8",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-038.jpg?v=0079ff2b54e0",
         "isHorizontal": false,
         "power": 2000
       }
@@ -1434,7 +1431,7 @@
     "Effect": "[On Play] (1) If your Life is at 2 or less: Give your Red Leader +1000 Power for the turn.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-038.jpg?v=fa3cbf2242c8"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-038.jpg?v=0079ff2b54e0"
   },
   "ST1-039": {
     "id": "ST1-039",
@@ -1443,7 +1440,7 @@
         "name": "Nekota Ginpachi",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-039.jpg?v=57fb2c3975fa",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-039.jpg?v=0b00a17b84f9",
         "isHorizontal": false,
         "power": 2000
       }
@@ -1469,10 +1466,10 @@
       "On Play",
       "Clash"
     ],
-    "Effect": "[On Play] (1) Look at up to 3 cards from the top of your Deck; add up to 1 card with \"Trainer\" or \"Boxer\" in its Traits to your hand, then place the rest in your Drop.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
+    "Effect": "[On Play] (1) Look at the top 3 cards of your Deck; add up to 1 card with the \"Trainer\" or \"Boxer\" Trait to your hand. Then, place the rest in your Drop.\nClash [Opponent's Attack] (1) Remove this card in your Drop from the game: Give your Leader +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-039.jpg?v=57fb2c3975fa"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-039.jpg?v=0b00a17b84f9"
   },
   "ST1-040": {
     "id": "ST1-040",
@@ -1481,7 +1478,7 @@
         "name": "Makunouchi Ippo",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-040.jpg?v=c485d22fc68f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-040.jpg?v=8a634fbdae3c",
         "isHorizontal": false,
         "power": 2000
       }
@@ -1508,10 +1505,10 @@
       "On Play",
       "Clash"
     ],
-    "Effect": "[On Play] (1) Give all of your Opponent's Units with 5000 Power or less -1000 Power for the turn.\nClash (1) [Opponent's Attack] Remove this card in your Drop from the game: Your Leader gains +1000 Power for the battle.",
+    "Effect": "[On Play] (1) Choose all of your Opponent's Units with 5000 or less Power and give them -1000 Power for the turn.\nClash [Opponent's Attack] (1) Remove this card in your Drop from the game: Give your Leader +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-040.jpg?v=c485d22fc68f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-040.jpg?v=8a634fbdae3c"
   },
   "ST1-041": {
     "id": "ST1-041",
@@ -1520,7 +1517,7 @@
         "name": "Aoki Taihei",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-041.jpg?v=9bdd5614c6a6",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-041.jpg?v=79d6ed2a0e0d",
         "isHorizontal": false,
         "power": 1000
       }
@@ -1548,7 +1545,7 @@
     "Effect": "[On Play] (1) Choose 1 of your other Units with \"Boxer\" in its Traits and give it +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-041.jpg?v=9bdd5614c6a6"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-041.jpg?v=79d6ed2a0e0d"
   },
   "ST1-042": {
     "id": "ST1-042",
@@ -1557,7 +1554,7 @@
         "name": "Kaneda Kintaro",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-042.jpg?v=4ae8c4e0f6c9",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-042.jpg?v=5908ecf88e8a",
         "isHorizontal": false,
         "power": 1000
       }
@@ -1585,7 +1582,7 @@
     "Effect": "[On Play] (1) Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-042.jpg?v=4ae8c4e0f6c9"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-042.jpg?v=5908ecf88e8a"
   },
   "ST1-043": {
     "id": "ST1-043",
@@ -1594,7 +1591,7 @@
         "name": "Aoki Masaru",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-043.jpg?v=fa348e774264",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-043.jpg?v=13dd7191a439",
         "isHorizontal": false,
         "power": 4000
       }
@@ -1621,10 +1618,10 @@
       "On Play",
       "Limit 1"
     ],
-    "Effect": "[On Play] (1) Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with \"Boxing\" in its Traits from your Drop in your Combo area with its skills negated for the turn.",
+    "Effect": "[On Play] (1) Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with the \"Boxing\" Trait from your Drop in your combo area with its skills negated for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-043.jpg?v=fa348e774264"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-043.jpg?v=13dd7191a439"
   },
   "ST1-044": {
     "id": "ST1-044",
@@ -1633,7 +1630,7 @@
         "name": "Kimura Tatsuya",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-044.jpg?v=ac687cb80dde",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-044.jpg?v=16444c719688",
         "isHorizontal": false,
         "power": 4000
       }
@@ -1660,10 +1657,10 @@
       "On Play",
       "Limit 1"
     ],
-    "Effect": "[On Play] (1) Add up to 1 card from your Life to your hand; K.O. up to 1 of your Opponent's Units with 2000 Power or less.\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with \"Boxing\" in its Traits from your Drop in your Combo area with its skills negated for the turn.",
+    "Effect": "[On Play] (1) Add up to 1 card from your Life to your hand; choose up to 1 of your Opponent's Units with 2000 or less Power and K.O. it.\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with the \"Boxing\" Trait from your Drop in your combo area with its skills negated for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-044.jpg?v=ac687cb80dde"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-044.jpg?v=16444c719688"
   },
   "ST1-045": {
     "id": "ST1-045",
@@ -1672,7 +1669,7 @@
         "name": "Itagaki Manabu",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-045.jpg?v=61aa433d5e4c",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-045.jpg?v=aa247260d5ee",
         "isHorizontal": false,
         "power": 4000
       }
@@ -1700,10 +1697,10 @@
       "On Play",
       "Limit 1"
     ],
-    "Effect": "[On Play] Add 1 card from your Life to your hand; reduce the [Activate: Main] Cost of the next Action with \"Boxing\" in its Traits you play this turn by (1).\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with \"Boxing\" in its Traits from your Drop in your Combo area with its skills negated for the turn.",
+    "Effect": "[On Play] Add 1 card from your Life to your hand: Reduce the [Activate: Main] Cost of the next Action card with the \"Boxing\" Trait you play from your hand this turn by (1).\n[Activate: Battle] Limit 1 If this card isn't in a battle: Place up to 1 card with the \"Boxing\" Trait from your Drop in your combo area with its skills negated for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-045.jpg?v=61aa433d5e4c"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-045.jpg?v=aa247260d5ee"
   },
   "ST1-046": {
     "id": "ST1-046",
@@ -1712,7 +1709,7 @@
         "name": "Makunouchi Ippo",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-046.jpg?v=4bfaa9dfb559",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-046.jpg?v=0332f6fd2f3c",
         "isHorizontal": false,
         "power": 5000
       }
@@ -1735,15 +1732,15 @@
       "Kamogawa Gym"
     ],
     "Keywords": [
-      "Activate: Battle",
       "Opponent's Attack",
+      "Activate: Battle",
       "Limit 1",
       "Clash"
     ],
-    "Effect": "[Activate: Battle] Limit 1 Place up to 2 cards with \"Boxing\" in their Traits from your Drop in your Combo area with their skills negated for the turn.\nClash (1) [Opponent's Attack] Use this card in a combo.",
+    "Effect": "[Activate: Battle] Limit 1 Place up to 2 cards with the \"Boxing\" Trait from your Drop in your combo area with their skills negated for the turn.\nClash [Opponent's Attack] (1) Use this card in a combo.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-046.jpg?v=4bfaa9dfb559"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-046.jpg?v=0332f6fd2f3c"
   },
   "ST1-047": {
     "id": "ST1-047",
@@ -1752,7 +1749,7 @@
         "name": "Takamura Mamoru",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-047.jpg?v=c6d6060b423f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-047.jpg?v=ea2540acf11b",
         "isHorizontal": false,
         "power": 6000
       }
@@ -1776,14 +1773,14 @@
     ],
     "Keywords": [
       "Opponent's Attack",
+      "Critical",
       "On Play",
-      "Clash",
-      "Critical"
+      "Clash"
     ],
-    "Effect": "[On Play] Place 1 card with \"Boxing\" in its Traits from your hand in your Drop: Choose up to 1 of your Opponent's Units and K.O. it. Then, if you have 6 or less cards in your hand, this card gains Critical for the turn.\nClash (1) [Opponent's Attack] Use this card in a combo.",
+    "Effect": "[On Play] Place 1 card with the \"Boxing\" Trait from your hand in your Drop: Choose up to 1 of your Opponent's Units and K.O. it. Then, if you have 7 or less cards in your hand, give this card Critical for the turn.\nClash [Opponent's Attack] (1) Use this card in a combo.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-047.jpg?v=c6d6060b423f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-047.jpg?v=ea2540acf11b"
   },
   "ST1-048": {
     "id": "ST1-048",
@@ -16893,7 +16890,7 @@
         "name": "Denji",
         "type": "LEADER",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-001.jpg?v=0712304600bb",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-001.jpg?v=ef14f86e2c5a",
         "isHorizontal": false,
         "power": 5000
       }
@@ -16916,17 +16913,16 @@
       "Chainsaw Devil"
     ],
     "Keywords": [
-      "Activate: Battle",
       "Activate: Main",
       "Once per Turn",
       "On Attack",
       "Threshold",
       "Barrier"
     ],
-    "Effect": "[On Attack] Draw 1 card.\n[Activate: Main] <Once per turn> You may add 1 card from your Life to your hand: Choose up to 1 of your Opponent’s Units, ignoring Barrier, and Rest it.\nThreshold 3 [Activate: Battle] <Once per Turn> If this card is in a battle with an Opponent’s Unit, give this card +3000 Power for the battle.",
+    "Effect": "[Activate: Main] Once per turn Add 1 card from your Life to your hand: Choose up to 1 of your Opponent's Units, ignoring Barrier, and Rest it.\nThreshold 3 [On Attack] Draw 1 card. Then, if this card is in a battle with an Opponent's Unit, give this card +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-001.jpg?v=0712304600bb"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-001.jpg?v=ef14f86e2c5a"
   },
   "SD10-002": {
     "id": "SD10-002",
@@ -17302,7 +17298,7 @@
         "name": "Kobeni's Car",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg?v=826e18c3f7b8",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg?v=41ca6268f638",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17325,14 +17321,13 @@
     ],
     "Keywords": [
       "Opponent's Attack",
-      "Opponent's Turn",
       "Threshold",
       "Clash"
     ],
-    "Effect": "[Opponent's Turn] If your Leader is \"Denji\" and your Leader's <Threshold> skill is active, give this card in your hand -4 Cost.\nClash [Opponent's Attack] Play this card and it becomes the new attack target.",
+    "Effect": "Clash [Opponent's Attack] (1) If your Leader is \"Denji\" and their Threshold skill is active: Play this card and make it the new attack target.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg?v=826e18c3f7b8"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg?v=41ca6268f638"
   },
   "SD10-012": {
     "id": "SD10-012",
@@ -17495,7 +17490,7 @@
         "name": "Kon",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg?v=8cc3eabf6515",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg?v=f56d9012cc15",
         "isHorizontal": false
       }
     },
@@ -17516,18 +17511,15 @@
       "Devil"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Attack",
-      "Overcharge",
-      "Limit 1",
+      "Activate: Main",
       "Barrier",
-      "Charge",
       "Clash"
     ],
-    "Effect": "[Activate: Main] Limit 1 If your Opponent has 3 or more Energy in their Overcharge Zone, remove 1 of their Energy.\nClash [Opponent's Attack] (1) Choose your Opponent's Leader or up to 1 of their Units with a Cost of 5 or less, ignoring Barrier; Rest that card.",
+    "Effect": "[Activate: Main] If your Opponent has 3 or more Overcharged Energy: Remove 1 of their Overcharged Energy.\nClash [Opponent's Attack] (1) Choose your Opponent's Leader or up to 1 of their Units with a Cost of 5 or less, ignoring Barrier, and Rest them.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg?v=8cc3eabf6515"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg?v=f56d9012cc15"
   },
   "SD10-017": {
     "id": "SD10-017",
@@ -21014,7 +21006,7 @@
         "name": "Control Devil",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-003.jpg?v=ed2d9e89cf86",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-003.jpg?v=3daadad80a0d",
         "isHorizontal": false,
         "power": 2000
       }
@@ -21044,7 +21036,7 @@
     "Effect": "[Activate: Main] Limit 1 If your Opponent has no Units in play or has only Rested Units in play: Play this card from your hand.\n[Activate: Battle] Limit 1 Rest this Unit: Choose up to 1 of your Opponent's Rested Units and give it -1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-003.jpg?v=ed2d9e89cf86"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-003.jpg?v=3daadad80a0d"
   },
   "PUP-004": {
     "id": "PUP-004",
@@ -21053,7 +21045,7 @@
         "name": "Peak-a-Boo",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-004.jpg?v=bf8496bf573a",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-004.jpg?v=913f831e581f",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -21076,10 +21068,10 @@
       "Activate: Battle",
       "Once per Turn"
     ],
-    "Effect": "[Activate: Battle] <Once per Turn> If your Leader has \"Boxer\" in their Traits and you place 1 card from your hand at the bottom of your Deck: When you use a card in a combo, draw 2 cards.",
+    "Effect": "[Activate: Battle] Once per Turn If your Leader has the \"Boxer\" Trait: When you use a card in a combo, place 1 card from your hand at the bottom of your Deck; draw 2 cards.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-004.jpg?v=bf8496bf573a"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-004.jpg?v=913f831e581f"
   },
   "PUP-005": {
     "id": "PUP-005",
@@ -21766,7 +21758,7 @@
         "name": "Towards Battle",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-023.jpg?v=3d1259b222f7",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-023.jpg?v=a6f57f3c14b9",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -21786,14 +21778,13 @@
     "Counter": null,
     "Traits": [],
     "Keywords": [
-      "Activate: Battle",
-      "On Play",
-      "Clash"
+      "Activate: Main",
+      "Once per Turn"
     ],
-    "Effect": "[On Play] Look at the top 3 cards of your Deck; add 1 card to your hand and place the rest in your Drop.\n!Clash! [Activate: Battle] (1) Remove this card from the game: Return your Unit that's in a battle to the owner's hand.",
+    "Effect": "[Activate: Main] Once per Turn Add 1 card from your Life to your hand: Choose all of your Opponent's Units and give them -1 Cost for the turn. Then, at the end of your Opponent's next turn, return this card to your JUMP Deck; choose all of your Opponent's Units and give them -1 Cost until the end of your next turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-023.jpg?v=3d1259b222f7"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-023.jpg?v=a6f57f3c14b9"
   },
   "PUP-024": {
     "id": "PUP-024",
@@ -43856,7 +43847,7 @@
         "name": "Noelle Silva",
         "type": "MAIN UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST6-031.jpg?v=d430f218bab3",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST6-031.jpg?v=a945b27cac47",
         "isHorizontal": false,
         "power": 2000
       }
@@ -43880,13 +43871,14 @@
     ],
     "Keywords": [
       "Activate: Main",
+      "Your Turn",
       "Limit 1",
       "Evolve"
     ],
-    "Effect": "[Activate: Main] Limit 1 Place this card from your hand in your Drop: Reduce the Cost of the next Evolve skill you activate this turn by (1).\n[Activate: Main] Limit 1 When you play a Unit by Evolve, place this card from your Drop under it.",
+    "Effect": "[Activate: Main] Limit 1 Place this card from your hand in your Drop: Reduce the Cost of the next Evolve skill you activate this turn by (1).\n[Your Turn] Limit 1 When you play a Unit by Evolve, place this card from your Drop under it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST6-031.jpg?v=d430f218bab3"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST6-031.jpg?v=a945b27cac47"
   },
   "ST6-032": {
     "id": "ST6-032",
@@ -48298,7 +48290,7 @@
         "name": "Arborfication",
         "type": "JUMP ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-114.jpg?v=c7a17886da54",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-114.jpg?v=72afb735d3d3",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -48327,7 +48319,7 @@
     "Effect": "[Activate: Main] Add 1 card from your Life to your hand: Choose your Opponent's Leader or up to 1 of their Units, ignoring Barrier, and they cannot attack until the end of your Opponent's next turn.\n[End of your Turn] Remove this card from the game: Place 1 of your Units with the \"Vanguard Party\" Trait and, if you placed a card, Overcharge 1; if you didn't place a card, place 1 card from your hand in your Drop.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-114.jpg?v=c7a17886da54"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-114.jpg?v=72afb735d3d3"
   },
   "TOKEN-GT-JGR": {
     "id": "TOKEN-GT-JGR",
