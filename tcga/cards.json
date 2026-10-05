@@ -1979,7 +1979,7 @@
         "name": "Sand Gourd",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-053.jpg?v=4598c8c37ec4",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-053.jpg?v=e35918e8aa1c",
         "isHorizontal": false
       }
     },
@@ -2003,13 +2003,13 @@
     "Keywords": [
       "Activate: Main",
       "Permanent",
-      "Limit 1",
-      "Critical"
+      "Critical",
+      "Limit 1"
     ],
-    "Effect": "<Permanent> When a card is placed from your hand in your Drop by a skill: You may pay (1) to add this card from your Drop to your hand.\n[Activate: Main] Limit 1 Choose 1 of your Units with \"Gaara\" in its name and give it Critical and +1000 Power for the turn.",
+    "Effect": "Permanent (1) When a card is placed from your hand in your Drop by a skill: Add this card from your Drop to your hand.\n[Activate: Main] Limit 1 Give 1 of your Units with \"Gaara\" in its name +1000 Power and Critical for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-053.jpg?v=4598c8c37ec4"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-053.jpg?v=e35918e8aa1c"
   },
   "ST1-054": {
     "id": "ST1-054",
@@ -2018,7 +2018,7 @@
         "name": "Temari",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-054.jpg?v=4971f224642d",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-054.jpg?v=f7109d32ffd7",
         "isHorizontal": false,
         "power": 3000
       }
@@ -2041,15 +2041,15 @@
       "Sunagakure"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Turn",
-      "Blocker",
-      "Deflect"
+      "Activate: Main",
+      "Deflect",
+      "Blocker"
     ],
-    "Effect": "Deflect Blocker\n[Activate: Main] (1) Place 1 card from your hand in your Drop: Play this card from your Drop.\n[Opponent's Turn] If your Opponent has 5 or more cards in their hand: When this card is removed from the field by an Opponent's skill, your Opponent places 1 card from their hand in their Drop.",
+    "Effect": "Deflect Blocker\n[Activate: Main] (1) Place 1 card from your hand in your Drop: Play this card from your Drop.\n[Opponent's Turn] When this card is removed from the field by your Opponent's skill: If your Opponent has 5 or more cards in their hand, they place 1 card from their hand in their Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-054.jpg?v=4971f224642d"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-054.jpg?v=f7109d32ffd7"
   },
   "ST1-055": {
     "id": "ST1-055",
@@ -2058,7 +2058,7 @@
         "name": "Kankuro",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-055.jpg?v=d0ae322f4d5b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-055.jpg?v=2e1f43676edb",
         "isHorizontal": false,
         "power": 3000
       }
@@ -2081,15 +2081,15 @@
       "Sunagakure"
     ],
     "Keywords": [
-      "On Play",
       "Your Turn",
-      "Limit 1",
-      "Deflect"
+      "On Play",
+      "Deflect",
+      "Limit 1"
     ],
-    "Effect": "Deflect\n[Your Turn] (1) If this card in your hand is placed in your Drop by a skill: Play this card from your Drop.\n[On Play] Limit 1 Play up to 1 \"Karasu\" from your SJ Deck.",
+    "Effect": "Deflect\n[Your Turn] (1) If this card is placed from your hand in your Drop by a skill: Play this card from your Drop.\n[On Play] Limit 1 Play 1 \"Karasu\" from your JUMP Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-055.jpg?v=d0ae322f4d5b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-055.jpg?v=2e1f43676edb"
   },
   "ST1-056": {
     "id": "ST1-056",
@@ -2098,7 +2098,7 @@
         "name": "Karasu",
         "type": "JUMP UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-056.jpg?v=95ad1fc8ae5f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-056.jpg?v=3773c70c1d76",
         "isHorizontal": false,
         "power": 0,
         "sjCost": 1
@@ -2123,13 +2123,13 @@
     ],
     "Keywords": [
       "Your Turn",
-      "Barrier",
-      "Deflect"
+      "Deflect",
+      "Barrier"
     ],
-    "Effect": "Deflect Barrier\n[Your Turn] When your Opponent uses a card in a combo: Return this card to your SJ Deck and place up to 1 card from your Opponent's combo area in their Drop.",
+    "Effect": "Deflect Barrier\n[Your Turn] When your Opponent uses a card in a combo: Return this card to your JUMP Deck; place up to 1 card from your Opponent's combo area in their Drop.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-056.jpg?v=95ad1fc8ae5f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-056.jpg?v=3773c70c1d76"
   },
   "ST1-057": {
     "id": "ST1-057",
@@ -2138,7 +2138,7 @@
         "name": "Temari",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-057.jpg?v=8cbce05cdb7a",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-057.jpg?v=a53c1f813606",
         "isHorizontal": false,
         "power": 4000
       }
@@ -2164,10 +2164,10 @@
       "Once per Turn",
       "Your Turn"
     ],
-    "Effect": "[Your Turn] <Once per Turn> When your opponent activates an Action card, your opponent places 1 card from their hand in their Drop.",
+    "Effect": "[Your Turn] Once per Turn When your Opponent activates an Action card, they place 1 card from their hand in their Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-057.jpg?v=8cbce05cdb7a"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-057.jpg?v=a53c1f813606"
   },
   "ST1-058": {
     "id": "ST1-058",
@@ -3873,7 +3873,7 @@
         "name": "Hirose Yasuho",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-102.jpg?v=753d86020952",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-102.jpg?v=d8f0726b771a",
         "isHorizontal": false,
         "power": 2000
       }
@@ -3897,10 +3897,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Look at 4 cards from the top of your Deck; reveal up to 1 card, excluding \"Hirose Yasuho\", with \"Stand User\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; add up to 1 card with the \"Stand User\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-102.jpg?v=753d86020952"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-102.jpg?v=d8f0726b771a"
   },
   "ST1-103": {
     "id": "ST1-103",
@@ -3909,7 +3909,7 @@
         "name": "Sakunami Karera",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-103.jpg?v=6cde2569f83f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-103.jpg?v=1c41d1d70ef0",
         "isHorizontal": false,
         "power": 2000
       }
@@ -3933,10 +3933,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] If your Leader has the \"JoJo\" Trait: Look at 4 cards from the top of your deck; reveal up to 1 card with a Cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "Effect": "[On Play] If your Leader has the \"JoJo\" Trait: Look at the top 4 cards of your Deck; add up to 1 card with a Cost of 3 or more to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-103.jpg?v=6cde2569f83f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-103.jpg?v=1c41d1d70ef0"
   },
   "ST1-104": {
     "id": "ST1-104",
@@ -3981,7 +3981,7 @@
         "name": "Doremifasolati Do",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-105.jpg?v=ecb9d9299c15",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-105.jpg?v=97b0c16c607f",
         "isHorizontal": false,
         "power": 3000
       }
@@ -4006,10 +4006,10 @@
       "On Play",
       "Elusive"
     ],
-    "Effect": "[On Play] Place this card under one of your Units with \"Rock Human\" in their Traits. During your Opponent's next turn, the card on top of this card gains Elusive.",
+    "Effect": "[On Play] Place this card under 1 of your Units with the \"Rock Human\" Trait. During your Opponent's next turn, give the card on top of this card Elusive.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-105.jpg?v=ecb9d9299c15"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-105.jpg?v=97b0c16c607f"
   },
   "ST1-106": {
     "id": "ST1-106",
@@ -4018,7 +4018,7 @@
         "name": "DoDoDo, DeDaDaDa",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-106.jpg?v=c790ed90de7c",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-106.jpg?v=f4ba23528544",
         "isHorizontal": false,
         "power": 3000
       }
@@ -4042,10 +4042,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] If you have a face-up Life card, K.O. up to 1 of your Opponent's Units with a Cost of 2 or less. Then, turn all of your Life cards face-down.",
+    "Effect": "[On Play] If you have a face-up Life card: Choose up to 1 of your Opponent's Units with a Cost of 2 or less and K.O. it. Then, turn all of your Life cards face-down.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-106.jpg?v=c790ed90de7c"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-106.jpg?v=f4ba23528544"
   },
   "ST1-107": {
     "id": "ST1-107",
@@ -4090,7 +4090,7 @@
         "name": "Higashikata Josuke",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-108.jpg?v=82fd3d12ce67",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-108.jpg?v=d32cc9c7ae5c",
         "isHorizontal": false,
         "power": 5000
       }
@@ -4114,15 +4114,14 @@
     ],
     "Keywords": [
       "End of your Turn",
-      "On Play",
       "Your Turn",
-      "Overcharge",
+      "On Play",
       "Charge"
     ],
-    "Effect": "[On Play] If your Leader has \"JoJo\" in their Traits, <Charge> 2.\n[End of your Turn] If you <Overcharged> 2 or more this turn, draw 1 card.",
+    "Effect": "[On Play] If your Leader has the \"JoJo\" Trait, Charge 2.\n[End of your Turn] If you Overcharged 2 or more Energy this turn, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-108.jpg?v=82fd3d12ce67"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-108.jpg?v=d32cc9c7ae5c"
   },
   "ST1-109": {
     "id": "ST1-109",
@@ -4131,7 +4130,7 @@
         "name": "Hirose Yasuho",
         "type": "UNIT",
         "cost": 7,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-109.jpg?v=3843be925788",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-109.jpg?v=bceb92e0d16c",
         "isHorizontal": false,
         "power": 7000
       }
@@ -4153,15 +4152,15 @@
       "Stand User"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Turn",
+      "Activate: Main",
       "Overcharge",
       "Charge"
     ],
-    "Effect": "[Activate: Main] If you have no Energy, <Charge> 1. Then, Rest up to 1 of your Opponent's Units with a Cost of 4 or less.\n[Start of Opponent's Turn] Rest 1 of your Units: <Overcharge> 1.",
+    "Effect": "[Activate: Main] If you have no Energy, Charge 1. Then, choose up to 1 of your Opponent's Units with a Cost of 4 or less and Rest it.\n[Opponent's Turn] At the start of your Opponent's Turn: Rest 1 of your Units, Overcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-109.jpg?v=3843be925788"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-109.jpg?v=bceb92e0d16c"
   },
   "ST1-110": {
     "id": "ST1-110",
@@ -4170,7 +4169,7 @@
         "name": "Higashikata Norisuke IV",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-110.jpg?v=b6de4861916b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-110.jpg?v=6f06f6572bb4",
         "isHorizontal": false,
         "power": 0
       }
@@ -4195,10 +4194,10 @@
       "On Play",
       "Charge"
     ],
-    "Effect": "[On Play] If your Leader has \"Higashikata\" in their name and you place this card in your Drop: <Charge> 2.",
+    "Effect": "[On Play] If your Leader has \"Higashikata\" in their name and you place this card in your Drop: Charge 2.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-110.jpg?v=b6de4861916b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-110.jpg?v=6f06f6572bb4"
   },
   "ST1-111": {
     "id": "ST1-111",
@@ -4207,7 +4206,7 @@
         "name": "Higashikata Joshu",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-111.jpg?v=432588a66c45",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-111.jpg?v=b760dc0acf49",
         "isHorizontal": false,
         "power": 3000
       }
@@ -4231,10 +4230,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] (1) You may Rest this card: K.O. up to 1 of your Opponent's Rested Units with 8000 Power or less.",
+    "Effect": "[On Play] (1) Rest this card: Choose up to 1 of your Opponent's Rested Units with 8000 or less Power and K.O. it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-111.jpg?v=432588a66c45"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-111.jpg?v=b760dc0acf49"
   },
   "ST1-112": {
     "id": "ST1-112",
@@ -4243,7 +4242,7 @@
         "name": "Mamezuku Rai",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-112.jpg?v=66cf8a8e150e",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-112.jpg?v=89e9c7149d00",
         "isHorizontal": false,
         "power": 5000
       }
@@ -4266,15 +4265,15 @@
     ],
     "Keywords": [
       "Opponent's Turn",
-      "On Play",
       "Overcharge",
+      "On Play",
       "Limit 1",
       "Charge"
     ],
-    "Effect": "[On Play] If you have no Energy, <Charge> 2.\n[Start of Opponent's Turn] Limit 1 You may place this Unit in your Drop: <Overcharge> 1.",
+    "Effect": "[On Play] If you have no Energy, Charge 2.\n[Opponent's Turn] Limit 1 At the start of your Opponent's turn: Place this card in your Drop, Overcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-112.jpg?v=66cf8a8e150e"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-112.jpg?v=89e9c7149d00"
   },
   "ST1-113": {
     "id": "ST1-113",
@@ -4283,7 +4282,7 @@
         "name": "Higashikata Josuke",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-113.jpg?v=1cb23dfcaf12",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-113.jpg?v=f5ca9ec9e7ec",
         "isHorizontal": false,
         "power": 6000
       }
@@ -4307,15 +4306,15 @@
     ],
     "Keywords": [
       "Opponent's Play",
-      "On Play",
       "Overcharge",
+      "On Play",
       "Charge",
       "Clash"
     ],
-    "Effect": "[On Play] If you have no Energy, <Charge> 4. Then, you cannot play Units with a Cost of 5 or more for the turn.\nClash [Opponent's Play] (1) <Overcharge> 2 and you can't <Overcharge> for the turn.",
+    "Effect": "[On Play] If you have no Energy, Charge 4. Then, you cannot play Unit cards with a Cost of 5 or more for the turn.\nClash [Opponent's Play] (1) Overcharge 2 and you can't Overcharge for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-113.jpg?v=1cb23dfcaf12"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-113.jpg?v=f5ca9ec9e7ec"
   },
   "ST1-114": {
     "id": "ST1-114",
@@ -4324,7 +4323,7 @@
         "name": "Higashikata Hato",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-114.jpg?v=349781846e57",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-114.jpg?v=c95cbe650c49",
         "isHorizontal": false,
         "power": 2000
       }
@@ -4348,10 +4347,10 @@
     "Keywords": [
       "Once per Turn"
     ],
-    "Effect": "<Once per Turn> If your Unit(s) with the \"Stand User\" Trait would be K.O.ed by your Opponent's effects, you may pay (1) instead.",
+    "Effect": "Once per Turn If your Unit(s) with the \"Stand User\" Trait would be K.O.'d by your Opponent's skills, you may pay (1) instead.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-114.jpg?v=349781846e57"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-114.jpg?v=c95cbe650c49"
   },
   "ST1-115": {
     "id": "ST1-115",
@@ -4360,7 +4359,7 @@
         "name": "Higashikata Daiya",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-115.jpg?v=65e53ff018bb",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-115.jpg?v=773df8e32ce8",
         "isHorizontal": false,
         "power": 3000
       }
@@ -4386,10 +4385,10 @@
       "Once per Turn",
       "On Attack"
     ],
-    "Effect": "[On Attack / On Opponent's Attack] (2) <Once per Turn> Give this card +2000 Power until the end of your Opponent's next turn.",
+    "Effect": "[On Attack / On Opponent's Attack] (2) Once per Turn Give this card +2000 Power until the end of your Opponent's next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-115.jpg?v=65e53ff018bb"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-115.jpg?v=773df8e32ce8"
   },
   "ST1-116": {
     "id": "ST1-116",
@@ -4398,7 +4397,7 @@
         "name": "Hirose Yasuho",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-116.jpg?v=eb6845fb2002",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-116.jpg?v=7a44ca6b8c05",
         "isHorizontal": false,
         "power": 5000
       }
@@ -4420,16 +4419,17 @@
       "Stand User"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Attack",
+      "End of your Turn",
+      "Your Turn",
       "Blocker",
       "Charge",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] (1) This card cannot be K.O.ed by your Opponent's effects and gains Blocker for the turn.\n[Activate: Main] If you have no Energy: Switch this card to Active mode and <Charge> 1.",
+    "Effect": "Clash [Opponent's Attack] (1) Give this card Blocker and it cannot be K.O.'d by your Opponent's skills for the turn.\n[End of Your Turn] If you have no Energy: Switch this card to Active mode and Charge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-116.jpg?v=eb6845fb2002"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-116.jpg?v=7a44ca6b8c05"
   },
   "ST1-117": {
     "id": "ST1-117",
@@ -4438,7 +4438,7 @@
         "name": "Higashikata Josuke",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-117.jpg?v=88f5be9c094f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-117.jpg?v=a18270b80da1",
         "isHorizontal": false,
         "power": 7000
       }
@@ -4463,15 +4463,14 @@
     "Keywords": [
       "Activate: Main",
       "On Play",
-      "Overcharge",
-      "Limit 1",
       "Barrier",
+      "Limit 1",
       "Charge"
     ],
-    "Effect": "[On Play] If you have no Energy: <Charge> 2 and remove 1 Energy from your Opponent's Overcharge Zone.\n[Activate: Main] (1) Limit 1 Choose up to 1 of your Opponent's Units with a Cost of 5 or more, ignoring Barrier, Rest it and it cannot attack or activate its Skills until the end of your Opponent's next turn.",
+    "Effect": "[On Play] If you have no Energy, Charge 2 and remove 1 of your Opponent's Overcharged Energy.\n[Activate: Main] (1) Limit 1 Choose up to 1 of your Opponent's Units with a Cost of 5 or more, ignoring Barrier, Rest it and it cannot attack or activate its skills until the end of your Opponent's next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-117.jpg?v=88f5be9c094f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-117.jpg?v=a18270b80da1"
   },
   "ST1-118": {
     "id": "ST1-118",
@@ -4480,7 +4479,7 @@
         "name": "Higashikata Josuke & Hirose Yasuho",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-118.jpg?v=4f93a98152f8",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-118.jpg?v=ec58d8b277df",
         "isHorizontal": false,
         "power": 5000
       }
@@ -4503,14 +4502,14 @@
       "Stand User"
     ],
     "Keywords": [
-      "On K.O.",
       "On Play",
+      "On K.O.",
       "Charge"
     ],
-    "Effect": "[On Play] <Charge> 2 and you can't play Units with a Cost of 5 or more for the turn.\n[On K.O.] Add up to 1 \"Higashikata Josuke\" or \"Hirose Yasuho\" from your Drop to your hand.",
+    "Effect": "[On Play] Charge 2 and you can't play Unit cards with a Cost of 5 or more for the turn.\n[On K.O.] Add up to 1 \"Higashikata Josuke\" or \"Hirose Yasuho\" from your Drop to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-118.jpg?v=4f93a98152f8"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-118.jpg?v=ec58d8b277df"
   },
   "ST1-119": {
     "id": "ST1-119",
@@ -4519,7 +4518,7 @@
         "name": "Higashikata Josuke",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-119.jpg?v=1f9f03246898",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-119.jpg?v=751f00b78bce",
         "isHorizontal": false,
         "power": 4000
       }
@@ -4546,10 +4545,10 @@
       "On Play",
       "Charge"
     ],
-    "Effect": "[On Play] Rest up to 1 of your Opponent's Units with a Cost of 2 or less.\n[Activate: Main] If your Leader is \"Higashikata Josuke\": Place this Unit in your Drop, <Charge> 1 and draw 1 card.",
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a Cost of 2 or less and Rest it.\n[Activate: Main] If your Leader is \"Higashikata Josuke\": Place this card in your Drop, Charge 1 and draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-119.jpg?v=1f9f03246898"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-119.jpg?v=751f00b78bce"
   },
   "ST1-120": {
     "id": "ST1-120",
@@ -4558,7 +4557,7 @@
         "name": "Higashikata Josuke",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-120.jpg?v=a59f9a07a27f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-120.jpg?v=bb9b9111c12c",
         "isHorizontal": false,
         "power": 4000
       }
@@ -4585,10 +4584,10 @@
       "On Play",
       "Charge"
     ],
-    "Effect": "[On Play] K.O. up to 1 of your Opponent's Units with 3000 Power or less.\n[Activate: Main] If your Leader is \"Higashikata Josuke\": Place this Unit in your Drop, <Charge> 1 and draw 1 card.",
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with 3000 or less Power and K.O. it.\n[Activate: Main] If your Leader is \"Higashikata Josuke\": Place this Unit in your Drop, Charge 1 and draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-120.jpg?v=a59f9a07a27f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-120.jpg?v=bb9b9111c12c"
   },
   "ST1-121": {
     "id": "ST1-121",
@@ -4597,7 +4596,7 @@
         "name": "Locacaca Fruit",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-121.jpg?v=dbf46e6cb8f3",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-121.jpg?v=e4d40b34c998",
         "isHorizontal": false
       }
     },
@@ -4620,14 +4619,13 @@
     "Keywords": [
       "Activate: Battle",
       "Activate: Main",
-      "Overcharge",
       "Limit 1",
       "Charge"
     ],
-    "Effect": "[Activate: Main] Limit 1 If you have no Energy, <Charge> 2 and your Opponent <Overcharges> 2.\n[Activate: Battle] Limit 1 Add 1 card from your Life to your hand and place this card from your Drop on top of your Life cards.",
+    "Effect": "[Activate: Main] Limit 1 If you have no Energy, Charge 2 and your Opponent Overcharges 2.\n[Activate: Battle] Limit 1 Add 1 card from your Life to your hand and add this card from your Drop at the top of your Life.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-121.jpg?v=dbf46e6cb8f3"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-121.jpg?v=e4d40b34c998"
   },
   "ST1-122": {
     "id": "ST1-122",
@@ -4672,7 +4670,7 @@
         "name": "Desperate Gambit",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-123.jpg?v=9ba71fe088a6",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-123.jpg?v=ef14125d2696",
         "isHorizontal": false
       }
     },
@@ -4696,10 +4694,10 @@
       "Activate: Main",
       "Charge"
     ],
-    "Effect": "[Activate: Main] Add 1 card from your Life to your hand. Choose one:\n• Place the top card of your Life cards in your Drop; at the end of the turn, place up to 1 card from the top of your Deck to your Life.\n• Place 1 of your Units in your Drop; <Charge> X, where X is equal to that card's Cost, and you can't <Charge> for the turn.",
+    "Effect": "[Activate: Main] Add 1 card from your Life to your hand; choose one:\n• Place the top of your Life cards in your Drop; at the end of the turn, add up to 1 card from the top of your Deck to your Life.\n• Place 1 of your Units in your Drop: Charge X, where X is equal to that card's Cost, and you can't Charge for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-123.jpg?v=9ba71fe088a6"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-123.jpg?v=ef14125d2696"
   },
   "ST1-124": {
     "id": "ST1-124",
@@ -4708,7 +4706,7 @@
         "name": "Equivalent Exchange",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-124.jpg?v=a30c9c4e5a41",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-124.jpg?v=5322b4b21a10",
         "isHorizontal": false
       }
     },
@@ -4731,13 +4729,12 @@
     "Keywords": [
       "Opponent's Play",
       "Overcharge",
-      "Charge",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Play] Place 1 card from your hand in your Drop, <Overcharge> 2 and you can't <Overcharge> or activate Actions with Clash for the turn.",
+    "Effect": "Clash [Opponent's Play] Place 1 card from your hand in your Drop, Overcharge 2 and you can't Overcharge or activate Clash skills for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-124.jpg?v=a30c9c4e5a41"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-124.jpg?v=5322b4b21a10"
   },
   "ST1-125": {
     "id": "ST1-125",
@@ -14604,7 +14601,7 @@
         "name": "Toru",
         "type": "LEADER",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-001.jpg?v=d2597847b4bc",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-001.jpg?v=1b8ff273f111",
         "isHorizontal": false,
         "power": 5000
       }
@@ -14627,13 +14624,14 @@
       "Stand User"
     ],
     "Keywords": [
+      "Activate: Main",
       "Once per Turn",
       "Threshold"
     ],
-    "Effect": "If your Unit(s) with the \"Calamity\" Trait would be removed from the Field by your Opponent, you may add 1 card from the top of your Life cards to your hand instead.\nThreshold 0 <Once per Turn> (1) Place 1 card from your hand in your Drop: Add the top card of your Deck to your Life.",
+    "Effect": "If your Unit(s) with the \"Calamity\" Trait would be removed from the Field by your Opponent's skill or K.O.'d, you may add 1 card from the top of your Life cards to your hand instead.\nThreshold 0 [Activate: Main] Once per Turn (1) Place 1 card from your hand in your Drop: Add the top card of your Deck to your Life.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-001.jpg?v=d2597847b4bc"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-001.jpg?v=1b8ff273f111"
   },
   "SD2-002": {
     "id": "SD2-002",
@@ -21449,7 +21447,7 @@
         "name": "Proof of Existence",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-015.jpg?v=c0af811ce19b",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-015.jpg?v=fa708f75a14b",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -21470,14 +21468,14 @@
     "Traits": [],
     "Keywords": [
       "Once per Turn",
-      "On Play",
       "Your Turn",
+      "On Play",
       "Charge"
     ],
-    "Effect": "[On Play] You may add 1 card from your Life to your hand: <Charge> 2.\n[Your Turn] <Once per Turn> When you <Charge> by a Unit's skill, <Charge> 1 and draw 1 card.",
+    "Effect": "[On Play] Add 1 card from your Life to your hand: Charge 2.\n[Your Turn] Once per Turn When you Charge by a Unit's skill, Charge 1 and draw 1 card.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-015.jpg?v=c0af811ce19b"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-015.jpg?v=fa708f75a14b"
   },
   "PUP-016": {
     "id": "PUP-016",
@@ -21486,7 +21484,7 @@
         "name": "Morioh",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-016.jpg?v=aa68a72528ff",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-016.jpg?v=22ddf9c2ac8e",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -21507,14 +21505,13 @@
     "Traits": [],
     "Keywords": [
       "Activate: Main",
-      "On Play",
       "Overcharge",
-      "Charge"
+      "On Play"
     ],
-    "Effect": "[On Play] If your Leader is \"Higashikata Josuke\": Draw cards equal to the number of your current Energy. Then, shuffle cards from your hand into your Deck equal to the number of cards drawn by this effect.\n[Activate: Main] Add 1 card from your Life to your hand and remove this card from the game: <Overcharge> 5 and you can't <Overcharge> until the start of your next turn.",
+    "Effect": "[On Play] If your Leader is \"Higashikata Josuke\": Draw cards equal to the number of your current Energy. Then, shuffle cards from your hand into your Deck equal to the number of cards drawn by this effect.\n[Activate: Main] Add up to 1 card from your Life to your hand and remove this card from the game: Overcharge 5 and you can't Overcharge until the start of your next turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-016.jpg?v=aa68a72528ff"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-016.jpg?v=22ddf9c2ac8e"
   },
   "PUP-017": {
     "id": "PUP-017",
@@ -21523,7 +21520,7 @@
         "name": "Go Beyond",
         "type": "JUMP ACTION",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-017.jpg?v=cf6cb8aad488",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-017.jpg?v=cfd556aca9e5",
         "isHorizontal": true,
         "sjCost": 5
       }
@@ -21543,17 +21540,16 @@
     "Counter": null,
     "Traits": [],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Attack",
+      "Activate: Main",
       "Permanent",
       "Barrier",
-      "Charge",
       "Clash"
     ],
-    "Effect": "<Permanent> If your Leader is \"Higashikata Josuke\", reduce the Cost and SJ Cost of this card in your JUMP Deck by 3.\n[Activate: Main] If there are no cards in your Life and you remove this card from the game: Choose up to 1 of your Opponent's Rested Units, ignoring Barrier, and remove it from the game.\nClash [Opponent's Attack] (1) Remove 1 of your Opponent's Energy; during your next Charge Phase, you will <Charge> 1 less Energy.",
+    "Effect": "Permanent If your Leader is \"Higashikata Josuke\", reduce the Cost and SJ Cost of this card in your JUMP Deck by 4.\n[Activate: Main] If you have no Life cards and you remove this card from the game: Choose up to 1 of your Opponent's Rested Units, ignoring Barrier, and remove it from the game.\nClash [Opponent's Attack] (1) Remove 1 of your Opponent's Energy.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-017.jpg?v=cf6cb8aad488"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-017.jpg?v=cfd556aca9e5"
   },
   "PUP-018": {
     "id": "PUP-018",
