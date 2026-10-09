@@ -384,7 +384,7 @@ function showView(view) {
 }
 
 function populateFilterButtons() {
-  renderFilterSelect(elements.releaseFilters, uniqueValues(allCards.map(c => c.release)).sort(compareRelease), "All releases");
+  renderFilterSelect(elements.releaseFilters, uniqueValues(allCards.flatMap(cardReleases)).sort(compareRelease), "All releases");
   renderFilterSelect(elements.setFilters, uniqueValues(allCards.map(c => c.set)).sort(compareText), "All sets");
   renderFilterGroup(elements.colorFilters, uniqueValues(allCards.map(c => c.color)).sort(compareColors), "color");
   renderFilterGroup(elements.typeFilters, uniqueValues(allCards.map(c => c.deckCategory)).sort(compareTypes), "type");
@@ -427,7 +427,7 @@ function applyUrlState() {
   initialCardNumber = params.get("card") || "";
   linkedCardNumbers = new Set((params.get("cards") || "").split(",").map(value => value.trim()).filter(Boolean));
   const allowed = {
-    release: new Set(allCards.map(card => card.release)),
+    release: new Set(allCards.flatMap(cardReleases)),
     set: new Set(allCards.map(card => card.set)),
     color: new Set(allCards.map(card => card.color)),
     type: new Set(allCards.map(card => card.deckCategory))
@@ -482,7 +482,7 @@ function renderCards() {
   const playableOnly = Boolean(elements.playableOnlyToggle && elements.playableOnlyToggle.checked && leader);
   visibleCards = allCards.filter(card => {
     const searchAliases = [
-      card.number, card.printedNumber, card.release, card.set, card.color, card.cardType, card.deckZone, card.deckCategory, card.rarity, card.image,
+      card.number, card.printedNumber, ...cardReleases(card), ...(card.altImages || []).map(art => art.label), card.set, card.color, card.cardType, card.deckZone, card.deckCategory, card.rarity, card.image,
       card.text.name, card.text.traits, card.text.effect, card.text.rarity, card.text.cost, card.text.sj_cost,
       card.text.life, card.text.power, card.text.counter, card.text.bottom_right_circle,
       card.cardType === "Leader" ? "leader" : "",
@@ -495,7 +495,7 @@ function renderCards() {
     return isPlayableWithLeader &&
       (!linkedCardNumbers.size || linkedCardNumbers.has(card.number)) &&
       (!searchTerms.length || searchTerms.every(term => searchableText.includes(term))) &&
-      (!activeFilters.release || card.release === activeFilters.release) &&
+      (!activeFilters.release || cardReleases(card).includes(activeFilters.release)) &&
       (!activeFilters.set || card.set === activeFilters.set) &&
       (!activeFilters.color || card.color === activeFilters.color) &&
       (!activeFilters.type || card.deckCategory === activeFilters.type);
@@ -576,6 +576,9 @@ function versionedImagePath(imagePath, version) {
   if (!imagePath || !version) return imagePath;
   const separator = imagePath.includes("?") ? "&" : "?";
   return `${imagePath}${separator}v=${encodeURIComponent(version)}`;
+}
+function cardReleases(card) {
+  return [...new Set([card.release, ...(card.altImages || []).map(art => art.release)].filter(Boolean))];
 }
 function cardVariantImages(card) {
   const defaultImage = versionedImagePath(card.image, card.imageVersion);
