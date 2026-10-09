@@ -170,5 +170,35 @@
       "PUP-016",
       "PUP-017"
     ]
+  },
+  "replacement_bundle_2026_10_09": {
+    "cards": [
+      "PUP-005",
+      "PUP-007",
+      "PUP-009",
+      "ST1-026",
+      "ST1-058",
+      "ST1-059",
+      "ST1-060",
+      "ST1-061",
+      "ST1-062",
+      "ST1-063",
+      "ST1-064",
+      "ST1-065",
+      "ST1-066",
+      "ST1-068",
+      "ST1-069",
+      "ST1-070",
+      "ST1-071",
+      "ST1-072",
+      "ST1-073",
+      "ST1-076",
+      "ST1-127"
+    ],
+    "images": 22,
+    "database_cards": 1227,
+    "arena_entries": 1360,
+    "alternate_art": "ST1-026-AA",
+    "counter_change": "ST1-066: 0 -> 1000"
   }
 }

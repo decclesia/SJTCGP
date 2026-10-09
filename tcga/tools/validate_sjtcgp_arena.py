@@ -32,6 +32,29 @@ def main() -> int:
     game = load_json(GAME_PATH)
     errors: list[str] = []
 
+    # Explicitly declared artwork variants must never retain stale rules/stats.
+    metadata_path = REPO_ROOT / "cards.json"
+    if metadata_path.is_file():
+        for item in load_json(metadata_path):
+            for art in item.get("altImages", []):
+                variant_id = art.get("arenaId")
+                if not variant_id:
+                    continue
+                original = cards.get(item["number"], {})
+                variant = cards.get(variant_id, {})
+                if not variant:
+                    fail(errors, f"{variant_id}: missing Arena artwork variant.")
+                    continue
+                for key, value in original.items():
+                    if key not in {"id", "image", "face", "Release", "Artwork"} and variant.get(key) != value:
+                        fail(errors, f"{variant_id}: {key} differs from canonical card.")
+                expected = art["image"]
+                if expected not in variant.get("face", {}).get("front", {}).get("image", ""):
+                    fail(errors, f"{variant_id}: incorrect artwork path.")
+                for key, value in original.get("face", {}).get("front", {}).items():
+                    if key != "image" and variant.get("face", {}).get("front", {}).get(key) != value:
+                        fail(errors, f"{variant_id}: front {key} differs from canonical card.")
+
     classic = game["gameplay"]["Classic"]
     ruleset_categories = {
         category["category"]: category

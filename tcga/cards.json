@@ -948,7 +948,7 @@
         "name": "Makunouchi Ippo",
         "type": "LEADER",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-026.jpg?v=7a2b62e0202d",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-026.jpg?v=abadd25ca088",
         "isHorizontal": false,
         "power": 5000
       }
@@ -973,15 +973,15 @@
     "Keywords": [
       "Activate: Battle",
       "Activate: Main",
-      "Once per Turn",
       "Double Damage",
-      "Your Turn",
-      "Threshold"
+      "Once per Turn",
+      "Threshold",
+      "Your Turn"
     ],
-    "Effect": "[Activate: Main] Once per Turn Add up to 1 card from your Life to your hand: Look at up to 5 cards from the top of your Deck, add up to 1 card with <<Boxing>> in its Traits to your hand, then place the rest at the bottom of your Deck in any order.\n[Activate: Battle] Once per Turn If you have 2 or more cards in your Combo area: Switch this card to Active Mode.\nThreshold 2 [Your Turn] This card gains Double Damage and +1000 Power.",
+    "Effect": "[Activate: Main] Once per Turn Add up to 1 card from your Life to your hand: Look at the top 5 cards of your Deck; add up to 1 card with \"Boxing\" in its Traits to your hand. Then, place the rest at the bottom of your Deck in any order.\n[Activate: Battle] Once per Turn If you have 2 or more cards in your Combo area: Switch this card to Active Mode.\nThreshold 2 [Your Turn] Give this card +1000 Power and Double Damage.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-026.jpg?v=7a2b62e0202d"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-026.jpg?v=abadd25ca088"
   },
   "ST1-027": {
     "id": "ST1-027",
@@ -2176,7 +2176,7 @@
         "name": "Kankuro",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-058.jpg?v=a4a76ec7e37b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-058.jpg?v=d7a242528235",
         "isHorizontal": false,
         "power": 4000
       }
@@ -2201,10 +2201,10 @@
     "Keywords": [
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] Rest this card: if your Opponent has 10 or more cards in their hand, your Opponent places 2 cards from their hand in their Drop.",
+    "Effect": "[Activate: Main] Place this card in your Drop: If your Opponent has 10 or more cards in their hand, they place 2 cards from their hand in their Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-058.jpg?v=a4a76ec7e37b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-058.jpg?v=d7a242528235"
   },
   "ST1-059": {
     "id": "ST1-059",
@@ -2213,7 +2213,7 @@
         "name": "Karura",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-059.jpg?v=e61328b0a758",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-059.jpg?v=a642761e1318",
         "isHorizontal": false,
         "power": 2000
       }
@@ -2239,10 +2239,10 @@
       "Activate: Battle",
       "On Play"
     ],
-    "Effect": "[On Play] Look at 3 cards from the top of your Deck; add up to 1 card with <Sunagakure> in its traits to your hand, then shuffle your Deck.\n[Activate: Battle] (1) Remove this card in your Drop from the game: Choose 1 of your \"Gaara\" and it gets +2000 power for the battle.",
+    "Effect": "[On Play] Look at the top 3 cards of your Deck; add up to 1 card with the \"Sunagakure\" Trait to your hand. Then, shuffle your Deck.\n[Activate: Battle] (1) Remove this card in your Drop from the game: Give 1 of your \"Gaara\" +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-059.jpg?v=e61328b0a758"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-059.jpg?v=a642761e1318"
   },
   "ST1-060": {
     "id": "ST1-060",
@@ -2251,7 +2251,7 @@
         "name": "Yasamaru",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-060.jpg?v=9f42f13f6d01",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-060.jpg?v=f2c3193f3585",
         "isHorizontal": false,
         "power": 2000
       }
@@ -2278,10 +2278,10 @@
       "On Play",
       "Limit 1"
     ],
-    "Effect": "[On Play] Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Limit 1 (1) Place this card in your Drop: Choose 1 of your \"Gaara\" Units and it gets +1000 power for the turn.",
+    "Effect": "[On Play] Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Limit 1 (1) Place this card in your Drop: Give 1 of your \"Gaara\" Units +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-060.jpg?v=9f42f13f6d01"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-060.jpg?v=f2c3193f3585"
   },
   "ST1-061": {
     "id": "ST1-061",
@@ -2290,7 +2290,7 @@
         "name": "Baki",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-061.jpg?v=5df072d7ffb6",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-061.jpg?v=196d18889c0e",
         "isHorizontal": false,
         "power": 3000
       }
@@ -2316,10 +2316,10 @@
       "Your Turn",
       "Limit 1"
     ],
-    "Effect": "[Your Turn] Limit 1\n(1) When this card is placed from your hand in your Drop by a skill: Draw 1 card.",
+    "Effect": "[Your Turn] Limit 1 (1) When this card is placed from your hand in your Drop by a skill: Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-061.jpg?v=5df072d7ffb6"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-061.jpg?v=196d18889c0e"
   },
   "ST1-062": {
     "id": "ST1-062",
@@ -2328,7 +2328,7 @@
         "name": "Gaara",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-062.jpg?v=c8ce1a1ba25b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-062.jpg?v=34608808d623",
         "isHorizontal": false,
         "power": 4000
       }
@@ -2354,10 +2354,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Look at 7 cards from the top of your Deck: Add up to 2 cards with \"Sand Release\" in their Traits to your hand, then shuffle your Deck and, if you added 2 cards, place 1 card from your hand in your Drop.",
+    "Effect": "[On Play] Look at the top 7 cards of your Deck; add up to 2 cards with the \"Sand Release\" Trait to your hand. Then, shuffle your Deck and, if you added 2 cards, place 1 card from your hand in your Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-062.jpg?v=c8ce1a1ba25b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-062.jpg?v=34608808d623"
   },
   "ST1-063": {
     "id": "ST1-063",
@@ -2366,7 +2366,7 @@
         "name": "Gaara",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-063.jpg?v=9a5418cfac28",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-063.jpg?v=4647cd7edf85",
         "isHorizontal": false,
         "power": 4000
       }
@@ -2393,10 +2393,10 @@
       "Once per Turn",
       "Your Turn"
     ],
-    "Effect": "[Your Turn] <Once per Turn> When a card(s) is placed from your Opponent's Life in their Drop: If your Opponent has 5 or more cards in their hand, they place 1 card from their hand in their Drop.",
+    "Effect": "[Your Turn] Once per Turn When a card(s) is placed from your Opponent's Life in their Drop: If your Opponent has 5 or more cards in their hand, they place 1 card from their hand in their Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-063.jpg?v=9a5418cfac28"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-063.jpg?v=4647cd7edf85"
   },
   "ST1-064": {
     "id": "ST1-064",
@@ -2405,7 +2405,7 @@
         "name": "Chakra Infused Sand",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-064.jpg?v=dee3c0f11dd2",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-064.jpg?v=9a8e0ac40d03",
         "isHorizontal": false
       }
     },
@@ -2428,14 +2428,13 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "Your Turn",
       "Overcharge",
-      "Charge"
+      "Your Turn"
     ],
-    "Effect": "[Activate: Main] Add up to 1 card from your Life to your hand. Then, <Overcharge> 2 and you can't <Overcharge> for the turn.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Look at up to 3 cards from the top of your Deck; add up to 1 card with \"Sand Release\" in its Traits to your hand and place the rest at the bottom of your Deck in any order.",
+    "Effect": "[Activate: Main] Add up to 1 card from your Life to your hand; Overcharge 2 and you can't Overcharge for the turn.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Look at the top 4 cards of your Deck; add up to 1 card with the \"Sand Release\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-064.jpg?v=dee3c0f11dd2"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-064.jpg?v=9a8e0ac40d03"
   },
   "ST1-065": {
     "id": "ST1-065",
@@ -2444,7 +2443,7 @@
         "name": "Armour of Sand",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-065.jpg?v=424e83b1f542",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-065.jpg?v=980789fc620e",
         "isHorizontal": false
       }
     },
@@ -2470,10 +2469,10 @@
       "Your Turn",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] Choose up to 1 of your \"Gaara\" Units with a cost of 4 or less and it cannot be K.O.ed by this battle.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Choose up to 1 of your \"Gaara\" Units and give it +1000 Power for the turn.",
+    "Effect": "Clash [Opponent's Attack] Up to 1 of your \"Gaara\" Units with a Cost of 4 or less cannot be K.O.'d for the turn.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Give up to 1 of your \"Gaara\" Units +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-065.jpg?v=424e83b1f542"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-065.jpg?v=980789fc620e"
   },
   "ST1-066": {
     "id": "ST1-066",
@@ -2482,7 +2481,7 @@
         "name": "Gaara",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-066.jpg?v=e52aa4ee2bc2",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-066.jpg?v=866e9d631638",
         "isHorizontal": false,
         "power": 4000
       }
@@ -2499,20 +2498,20 @@
     "SJ_Cost": null,
     "Life": null,
     "Power": 4000,
-    "Counter": 0,
+    "Counter": 1000,
     "Traits": [
       "Shinobi",
       "Jinchuriki",
       "Sunagakure"
     ],
     "Keywords": [
-      "On K.O.",
-      "On Play"
+      "On Play",
+      "On K.O."
     ],
     "Effect": "[On Play] Place 1 card from your hand in your Drop: Draw 1 card and give this card +1000 Power for the turn.\n[On K.O.] Your Opponent places 1 card from their hand in their Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-066.jpg?v=e52aa4ee2bc2"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-066.jpg?v=866e9d631638"
   },
   "ST1-067": {
     "id": "ST1-067",
@@ -2560,7 +2559,7 @@
         "name": "Sand Clone",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-068.jpg?v=b25b058f3dd2",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-068.jpg?v=9b01e74c703f",
         "isHorizontal": false
       }
     },
@@ -2586,10 +2585,10 @@
       "Blocker",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] Negate the attack. Then, you may place 1 card from your hand in your Drop and, if you do, play 1 \"Sand Clone\" Token (0 Power, +0 Counter) and it gains Blocker for the turn.",
+    "Effect": "Clash [Opponent's Attack] Negate the attack. Then, you may place 1 card from your hand in your Drop and, if you do, play 1 \"Sand Clone\" Token (0 Power, +0 Counter) and give it Blocker for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-068.jpg?v=b25b058f3dd2"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-068.jpg?v=9b01e74c703f"
   },
   "ST1-069": {
     "id": "ST1-069",
@@ -2598,7 +2597,7 @@
         "name": "Gaara",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-069.jpg?v=66aff41a3d32",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-069.jpg?v=7504190e6447",
         "isHorizontal": false,
         "power": 5000
       }
@@ -2622,16 +2621,16 @@
       "Sunagakure"
     ],
     "Keywords": [
-      "On Attack",
       "Your Turn",
-      "Limit 1",
+      "On Attack",
+      "Deflect",
       "Blocker",
-      "Deflect"
+      "Limit 1"
     ],
-    "Effect": "Deflect Blocker\n[On Attack] Limit 1 When this card attacks your Opponent's Leader, your Opponent chooses 1 card from their hand and places it in their Drop.\n[Your Turn] Limit 1 If this card is placed from your hand in your Drop by a skill: Give your Leader +1000 Power for the turn.",
+    "Effect": "Deflect Blocker\n[On Attack] Limit 1 If this card is in a battle with your Opponent's Leader, your Opponent places 1 card from their hand in their Drop.\n[Your Turn] Limit 1 When this card is placed from your hand in your Drop by a skill: Give your Leader +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-069.jpg?v=66aff41a3d32"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-069.jpg?v=7504190e6447"
   },
   "ST1-070": {
     "id": "ST1-070",
@@ -2640,7 +2639,7 @@
         "name": "Gaara / Rock Lee",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-070.jpg?v=358a3512aa65",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-070.jpg?v=53965430a125",
         "isHorizontal": false,
         "power": 4000
       }
@@ -2665,15 +2664,15 @@
       "Konohagakure"
     ],
     "Keywords": [
+      "Permanent",
       "On Attack",
       "On Play",
-      "Permanent",
       "Limit 1"
     ],
-    "Effect": "<Permanent> If you have \"Gaara\" or \"Rock Lee\" in play, reduce the cost of this card in your hand by 2.\n[On Play] K.O. 1 of your \"Gaara\" or \"Rock Lee\" Units: Draw 2 cards and place 1 card from your hand in your Drop.\n[On Attack] Limit 1 If this card attacks an Opponent's Unit: Switch this card to Active mode.",
+    "Effect": "Permanent If you have \"Gaara\" or \"Rock Lee\" in play, give this card in your hand -2 Cost.\n[On Play] K.O. 1 of your \"Gaara\" or \"Rock Lee\": Draw 2 cards; place 1 card from your hand in your Drop.\n[On Attack] Limit 1 If this card is in a battle with an Opponent's Unit: Switch this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-070.jpg?v=358a3512aa65"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-070.jpg?v=53965430a125"
   },
   "ST1-071": {
     "id": "ST1-071",
@@ -2682,7 +2681,7 @@
         "name": "Kankuro",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-071.jpg?v=b943bb523be6",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-071.jpg?v=6c13f60d7146",
         "isHorizontal": false,
         "power": 1000
       }
@@ -2707,10 +2706,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a cost of 1 and K.O. it.",
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a cost of 1 or less and K.O. it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-071.jpg?v=b943bb523be6"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-071.jpg?v=6c13f60d7146"
   },
   "ST1-072": {
     "id": "ST1-072",
@@ -2719,7 +2718,7 @@
         "name": "Temari",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-072.jpg?v=83e37ad302ac",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-072.jpg?v=aa405f232367",
         "isHorizontal": false,
         "power": 1000
       }
@@ -2747,7 +2746,7 @@
     "Effect": "[On Play] Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-072.jpg?v=83e37ad302ac"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-072.jpg?v=aa405f232367"
   },
   "ST1-073": {
     "id": "ST1-073",
@@ -2756,7 +2755,7 @@
         "name": "Sand Shield",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-073.jpg?v=c45ca9c6b131",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-073.jpg?v=cfb814354da3",
         "isHorizontal": false
       }
     },
@@ -2782,10 +2781,10 @@
       "Your Turn",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] Give up to 1 of your \"Gaara\" +3000 Power for the battle.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Choose up to 1 of your \"Gaara\" Units and give it +1000 Power for the turn.",
+    "Effect": "Clash [Opponent's Attack] Give up to 1 of your \"Gaara\" +3000 Power for the battle.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Give up to 1 of your \"Gaara\" Units +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-073.jpg?v=c45ca9c6b131"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-073.jpg?v=cfb814354da3"
   },
   "ST1-074": {
     "id": "ST1-074",
@@ -2870,7 +2869,7 @@
         "name": "Possession",
         "type": "ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-076.jpg?v=cd952c2ee62c",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-076.jpg?v=55f621ae256d",
         "isHorizontal": false
       }
     },
@@ -2896,10 +2895,10 @@
       "Permanent",
       "Limit 1"
     ],
-    "Effect": "[Activate: Main] Limit 1 Choose 1 of your \"Gaara\" Units and it gains the following effect for the turn:\n\"<Permanent> At the end of a battle during which this card attacked your Opponent's Leader and dealt no damage: Place 1 card from your Opponent's hand in their Drop\"",
+    "Effect": "[Activate: Main] Limit 1 Give up to 1 of your \"Gaara\" Units the following effect for the turn:\n\"Permanent At the end of a battle during which this card attacked your Opponent's Leader and dealt no damage: Place 1 card from your Opponent's hand in their Drop\"",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-076.jpg?v=cd952c2ee62c"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-076.jpg?v=55f621ae256d"
   },
   "ST1-077": {
     "id": "ST1-077",
@@ -4818,7 +4817,7 @@
         "name": "Gaara",
         "type": "UNIT",
         "cost": 7,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-127.jpg?v=a0eb1b39d1a5",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-127.jpg?v=73aeac63292a",
         "isHorizontal": false,
         "power": 7000
       }
@@ -4842,17 +4841,16 @@
       "Sunagakure"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Turn",
+      "Activate: Main",
       "Once per Turn",
       "Dual Attack",
-      "Deflect",
       "Elusive"
     ],
-    "Effect": "Deflect Elusive\n[Opponent's Turn] <Once per Turn> If this card would be removed from the field by an Opponent's effect, you may trash 1 card from your Opponent's Life instead.\n[Activate: Main] Place 1 card from your hand in your Drop: This card gains Dual Attack for the turn.",
+    "Effect": "Elusive\n[Opponent's Turn] Once per Turn If this card would be removed from the field by an Opponent's skill, you may place 1 card from your Opponent's Life in their Drop instead.\n[Activate: Main] Place 1 card from your hand in your Drop: Give this card Dual Attack for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-127.jpg?v=a0eb1b39d1a5"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-127.jpg?v=73aeac63292a"
   },
   "ST2-001": {
     "id": "ST2-001",
@@ -21078,7 +21076,7 @@
         "name": "High and Low",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-005.jpg?v=00674326a38b",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-005.jpg?v=c59378946a6b",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -21099,13 +21097,12 @@
     "Traits": [],
     "Keywords": [
       "Activate: Battle",
-      "Opponent's Turn",
       "Clash"
     ],
-    "Effect": "Clash (1) [Opponent's Turn] [Activate: Battle] Limit 3 If your Leader is Red: Reveal 1 card from the top of your Deck; if it's a Unit Card, give your card that's in a battle Power equal to the revealed card's Power for the battle and place the revealed card at the bottom of your Deck. Remove this card from the game at the end of the turn.",
+    "Effect": "Clash [Activate: Battle] Limit 3 Reveal 1 card from the top of your Deck; if it's a Unit card, give your card that's in a battle Power equal to the revealed card's Power for the battle and place the revealed card at the bottom of your Deck. Remove this card from the game at the end of the turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-005.jpg?v=00674326a38b"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-005.jpg?v=c59378946a6b"
   },
   "PUP-006": {
     "id": "PUP-006",
@@ -21150,7 +21147,7 @@
         "name": "Bloodlust",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-007.jpg?v=2ffc78d161de",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-007.jpg?v=844ba9c4be6d",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -21172,10 +21169,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Until the end of this turn, the next time an Opponent's Unit is K.O.ed or your Opponent's Life is placed in their Drop: Place 1 card from your Opponent's hand in their Drop. Then, remove this card from the game.",
+    "Effect": "[On Play] Until the end of the turn, the next time an Opponent's Unit is K.O.'d or your Opponent's Life is placed in their Drop: Your Opponent places 1 card from their hand in their Drop. Then, remove this card from the game.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-007.jpg?v=2ffc78d161de"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-007.jpg?v=844ba9c4be6d"
   },
   "PUP-008": {
     "id": "PUP-008",
@@ -21219,7 +21216,7 @@
         "name": "Sand Burial",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-009.jpg?v=a918759582f8",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-009.jpg?v=f028a8642bfa",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -21239,13 +21236,14 @@
     "Counter": null,
     "Traits": [],
     "Keywords": [
+      "Activate: Main / Battle",
       "Activate: Main",
       "Limit 1"
     ],
-    "Effect": "[Activate: Main / Battle] Limit 1 Rest 1 of your \"Gaara\" and return this card to your SJ Deck: Choose up to 1 of your Opponent's Units with a Cost of 4 or less and K.O. it",
+    "Effect": "[Activate: Main / Battle] Limit 1 Rest 1 of your \"Gaara\" and return this card to your JUMP Deck: Choose up to 1 of your Opponent's Units with a Cost of 4 or less and K.O. it.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-009.jpg?v=a918759582f8"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-009.jpg?v=f028a8642bfa"
   },
   "PUP-010": {
     "id": "PUP-010",
@@ -51114,5 +51112,48 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/tcga/assets/sj-markers/SJM-ONS.jpg?v=b5ab4769318f",
     "isAccessory": true
+  },
+  "ST1-026-AA": {
+    "id": "ST1-026-AA",
+    "face": {
+      "front": {
+        "name": "Makunouchi Ippo",
+        "type": "LEADER",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-026-alt1.jpg?v=efc0bca2f283",
+        "isHorizontal": false,
+        "power": 5000
+      }
+    },
+    "name": "Makunouchi Ippo [ST1-026]",
+    "type": "Leader",
+    "Number": "ST1-026",
+    "Card_Type": "Leader",
+    "Color": "Red",
+    "Set": "HNI",
+    "Release": "ST7",
+    "Rarity": "L",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": 6,
+    "Power": 5000,
+    "Counter": null,
+    "Traits": [
+      "Boxer",
+      "Kamogawa Gym"
+    ],
+    "Keywords": [
+      "Activate: Battle",
+      "Activate: Main",
+      "Double Damage",
+      "Once per Turn",
+      "Threshold",
+      "Your Turn"
+    ],
+    "Effect": "[Activate: Main] Once per Turn Add up to 1 card from your Life to your hand: Look at the top 5 cards of your Deck; add up to 1 card with \"Boxing\" in its Traits to your hand. Then, place the rest at the bottom of your Deck in any order.\n[Activate: Battle] Once per Turn If you have 2 or more cards in your Combo area: Switch this card to Active Mode.\nThreshold 2 [Your Turn] Give this card +1000 Power and Double Damage.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-026-alt1.jpg?v=efc0bca2f283",
+    "Artwork": "ST7 Leader Reprint — Alt Art"
   }
 }
