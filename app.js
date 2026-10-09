@@ -186,7 +186,7 @@ function normalizeAltImages(altImages) {
   return altImages
     .map((entry, index) => {
       if (typeof entry === "string") return { label: `Alt Art ${index + 1}`, image: entry };
-      return { label: entry.label || `Alt Art ${index + 1}`, image: entry.image || "" };
+      return { ...entry, label: entry.label || `Alt Art ${index + 1}`, image: entry.image || "" };
     })
     .filter(entry => entry.image);
 }
