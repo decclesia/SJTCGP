@@ -2907,7 +2907,7 @@
         "name": "Asakura Yoh",
         "type": "LEADER",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-077.jpg?v=43fca10c44b5",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-077.jpg?v=be5344c3260f",
         "isHorizontal": false,
         "power": 5000
       }
@@ -2934,10 +2934,10 @@
       "Threshold",
       "Limit 1"
     ],
-    "Effect": "[On Attack] Place 1 \"Amidamaru\" from your hand under this card: Draw 2 cards.\n[Activate: Main] (2) Place 2 cards from under this card at the bottom of your Deck in any order: Choose up to 1 of your Opponent's Units and return it to its owner's hand.\nThreshold 2 [Activate: Main] Limit 1 Add 1 card from under this card to your hand: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and place it at the bottom of the owner's Deck.",
+    "Effect": "[On Attack] Place 1 \"Amidamaru\" from your hand under this card: Draw 2 cards.\n[Activate: Main] (2) Place 2 cards from under this card at the bottom of your Deck in any order: Choose up to 1 of your Opponent's Units and return it to its owner's hand.\nThreshold 2 [Activate: Main] Limit 1 Add 1 card from under this card to your hand: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-077.jpg?v=43fca10c44b5"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-077.jpg?v=be5344c3260f"
   },
   "ST1-078": {
     "id": "ST1-078",
@@ -2946,7 +2946,7 @@
         "name": "Amidamaru",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-078.jpg?v=41fd1b4deeb8",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-078.jpg?v=583736a30684",
         "isHorizontal": false,
         "power": 0
       }
@@ -2970,13 +2970,13 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "On Play",
-      "Limit 1"
+      "Limit 1",
+      "On Play"
     ],
-    "Effect": "[On Play] Limit 1 Draw 1 card.\n[Activate: Main] Place this card from your Field under your Leader or 1 of your Units.",
+    "Effect": "[On Play] Limit 1 Draw 1 card.\n[Activate: Main] Place this card under your Leader or 1 of your Units.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-078.jpg?v=41fd1b4deeb8"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-078.jpg?v=583736a30684"
   },
   "ST1-079": {
     "id": "ST1-079",
@@ -2985,7 +2985,7 @@
         "name": "Amidamaru",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-079.jpg?v=70cb383e5793",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-079.jpg?v=e0cc82f815a7",
         "isHorizontal": false,
         "power": 0
       }
@@ -3009,13 +3009,13 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "On Play",
-      "Limit 1"
+      "Limit 1",
+      "On Play"
     ],
-    "Effect": "[On Play] Limit 1 Look at up to 5 cards from the top of your Deck, add up to 1 \"Asakura Yoh\" among them to your hand, then place the rest at the bottom your Deck in any order.\n[Activate: Main] Place this card from your Field under your Leader or 1 of your Units.",
+    "Effect": "[On Play] Limit 1 Look at the top 5 cards of your Deck; add up to 1 \"Asakura Yoh\" to your hand. Then, place the rest at the bottom your Deck in any order.\n[Activate: Main] Place this card under your Leader or 1 of your Units.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-079.jpg?v=70cb383e5793"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-079.jpg?v=e0cc82f815a7"
   },
   "ST1-080": {
     "id": "ST1-080",
@@ -3024,7 +3024,7 @@
         "name": "Amidamaru",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-080.jpg?v=d678239a9993",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-080.jpg?v=bb4d677d3bfd",
         "isHorizontal": false,
         "power": 0
       }
@@ -3050,10 +3050,10 @@
       "Activate: Main",
       "On Play"
     ],
-    "Effect": "[On Play] If your Leader has the \"Shaman\" Trait: Give up to 1 of your Opponent's Units -1 Cost for the turn.\n[Activate: Main] Place this card from your Field under your Leader or 1 of your Units.",
+    "Effect": "[On Play] If your Leader has the \"Shaman\" Trait: Give up to 1 of your Opponent's Units -1 Cost for the turn.\n[Activate: Main] Place this card under your Leader or 1 of your Units.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-080.jpg?v=d678239a9993"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-080.jpg?v=bb4d677d3bfd"
   },
   "ST1-081": {
     "id": "ST1-081",
@@ -3098,7 +3098,7 @@
         "name": "Umemiya Ryunosuke",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-082.jpg?v=164bcee0efa8",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-082.jpg?v=6b045f967aef",
         "isHorizontal": false,
         "power": 4000
       }
@@ -3123,10 +3123,10 @@
       "Activate: Battle",
       "Once per Turn"
     ],
-    "Effect": "[Activate: Battle] <Once per Turn>\n(1) If this card is used in a combo from your Field: Your Opponent places 1 card from their hand at the bottom of their Deck.",
+    "Effect": "[Activate: Battle] Once per Turn (1) When you use this card in a combo from your field: Your Opponent places 1 card from their hand at the bottom of their Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-082.jpg?v=164bcee0efa8"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-082.jpg?v=6b045f967aef"
   },
   "ST1-083": {
     "id": "ST1-083",
@@ -3135,7 +3135,7 @@
         "name": "Johann Faust VIII",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-083.jpg?v=2ea388ce9bb9",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-083.jpg?v=9c81b9f9ec76",
         "isHorizontal": false,
         "power": 5000
       }
@@ -3157,15 +3157,15 @@
       "Shaman"
     ],
     "Keywords": [
-      "On Play",
       "Your Turn",
+      "Blocker",
       "Limit 1",
-      "Blocker"
+      "On Play"
     ],
-    "Effect": "Blocker\n[On Play] Rest this card. Then, switch this card to Active mode at the end of the turn.\n[Your Turn] Limit 1 When your Unit is removed from your Field: Switch this card to Active mode.",
+    "Effect": "Blocker\n[Your Turn] Limit 1 When a Unit is removed from your field: Switch this card to Active mode.\n[On Play] Rest this card. Then, switch this card to Active mode at the end of the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-083.jpg?v=2ea388ce9bb9"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-083.jpg?v=9c81b9f9ec76"
   },
   "ST1-084": {
     "id": "ST1-084",
@@ -3174,7 +3174,7 @@
         "name": "Kyoyama Anna",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-084.jpg?v=ab467fd16610",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-084.jpg?v=94ed9af3596d",
         "isHorizontal": false,
         "power": 3000
       }
@@ -3198,10 +3198,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Add up to 1 Unit with a Cost of 1 and \"Shaman\" or \"Guardian Ghost\" in its Traits from your Drop to your hand.",
+    "Effect": "[On Play] Add up to 1 Unit card with a Cost of 1 and the \"Shaman\" or \"Guardian Ghost\" Trait from your Drop to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-084.jpg?v=ab467fd16610"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-084.jpg?v=94ed9af3596d"
   },
   "ST1-085": {
     "id": "ST1-085",
@@ -3210,7 +3210,7 @@
         "name": "Kyoyama Anna",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-085.jpg?v=2e173a278a96",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-085.jpg?v=8a4da476ead3",
         "isHorizontal": false,
         "power": 3000
       }
@@ -3232,14 +3232,14 @@
       "Itako"
     ],
     "Keywords": [
-      "On Play",
       "Your Turn",
-      "Limit 1"
+      "Limit 1",
+      "On Play"
     ],
-    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Your Turn] Limit 1 When a card is placed from your hand or Field under your Leader or 1 of your Units: Draw 1 card.",
+    "Effect": "[Your Turn] Limit 1 When a card is placed from your hand or field under your Leader or 1 of your Units: Draw 1 card.\n[On Play] Add up to 1 card from your Life to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-085.jpg?v=2e173a278a96"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-085.jpg?v=8a4da476ead3"
   },
   "ST1-086": {
     "id": "ST1-086",
@@ -3248,7 +3248,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-086.jpg?v=acebb3864788",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-086.jpg?v=5be3a460c021",
         "isHorizontal": false,
         "power": 2000
       }
@@ -3270,14 +3270,14 @@
       "Shaman"
     ],
     "Keywords": [
-      "On Play",
       "Your Turn",
-      "Permanent"
+      "Permanent",
+      "On Play"
     ],
-    "Effect": "[Your Turn] <Permanent> This card gains +1 Cost and +1000 Counter for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 2 or less and return it to its owner's hand.",
+    "Effect": "[Your Turn] Permanent Give this card +1 Cost and +1000 Counter for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 2 or less and return it to its owner's hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-086.jpg?v=acebb3864788"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-086.jpg?v=5be3a460c021"
   },
   "ST1-087": {
     "id": "ST1-087",
@@ -3286,7 +3286,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-087.jpg?v=d0c09aac7500",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-087.jpg?v=d6f87b2cd2ba",
         "isHorizontal": false,
         "power": 2000
       }
@@ -3308,14 +3308,14 @@
       "Shaman"
     ],
     "Keywords": [
-      "On Play",
       "Your Turn",
-      "Permanent"
+      "Permanent",
+      "On Play"
     ],
-    "Effect": "[Your Turn] <Permanent> This card gains +1 Cost and +1000 Counter for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Effect": "[Your Turn] Permanent Give this card +1 Cost and +1000 Counter for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-087.jpg?v=d0c09aac7500"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-087.jpg?v=d6f87b2cd2ba"
   },
   "ST1-088": {
     "id": "ST1-088",
@@ -3324,7 +3324,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-088.jpg?v=04c10e9decc0",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-088.jpg?v=aef653a56f4c",
         "isHorizontal": false,
         "power": 5000
       }
@@ -3346,16 +3346,16 @@
       "Shaman"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Turn",
+      "Activate: Main",
       "Once per Turn",
-      "On Play",
-      "Permanent"
+      "Permanent",
+      "On Play"
     ],
-    "Effect": "[Opponent's Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Main] <Once per Turn> Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
+    "Effect": "[Opponent's Turn] Permanent Give this card +1 Cost and +1000 Power for each card under it.\n[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Main] Once per Turn Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-088.jpg?v=04c10e9decc0"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-088.jpg?v=aef653a56f4c"
   },
   "ST1-089": {
     "id": "ST1-089",
@@ -3364,7 +3364,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-089.jpg?v=7fd5c6373320",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-089.jpg?v=319f7270680d",
         "isHorizontal": false,
         "power": 4000
       }
@@ -3391,10 +3391,10 @@
       "Your Turn",
       "Permanent"
     ],
-    "Effect": "[Your Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[Activate: Main] <Once per Turn> Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units and give it Cost -1 for the turn.",
+    "Effect": "[Your Turn] Permanent Give this card +1 Cost and +1000 Power for each card under it.\n[Activate: Main] Once per Turn Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units and give it Cost -1 for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-089.jpg?v=7fd5c6373320"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-089.jpg?v=319f7270680d"
   },
   "ST1-090": {
     "id": "ST1-090",
@@ -3403,7 +3403,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-090.jpg?v=2fc0b5f54c33",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-090.jpg?v=16df4e418ad7",
         "isHorizontal": false,
         "power": 6000
       }
@@ -3426,13 +3426,13 @@
     ],
     "Keywords": [
       "Opponent's Turn",
-      "On Play",
-      "Permanent"
+      "Permanent",
+      "On Play"
     ],
-    "Effect": "[Opponent's Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units and place it at the bottom of its owner's Deck. Then, play up to 2 \"Amidamaru\" from under your Leader.",
+    "Effect": "[Opponent's Turn] Permanent Give this card +1 Cost and +1000 Power for each card under it.\n[On Play] Choose up to 1 of your Opponent's Units and place it at the bottom of its owner's Deck. Then, play up to 2 \"Amidamaru\" from under your Leader.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-090.jpg?v=2fc0b5f54c33"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-090.jpg?v=16df4e418ad7"
   },
   "ST1-091": {
     "id": "ST1-091",
@@ -3441,7 +3441,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-091.jpg?v=cf56a7ffcf34",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-091.jpg?v=4e97c0d79d5b",
         "isHorizontal": false,
         "power": 4000
       }
@@ -3468,10 +3468,10 @@
       "Your Turn",
       "Permanent"
     ],
-    "Effect": "[Your Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[Activate: Main] <Once per Turn> Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
+    "Effect": "[Your Turn] Permanent Give this card +1 Cost and +1000 Power for each card under it.\n[Activate: Main] Once per Turn Play 1 \"Amidamaru\" from under this card: Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-091.jpg?v=cf56a7ffcf34"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-091.jpg?v=4e97c0d79d5b"
   },
   "ST1-092": {
     "id": "ST1-092",
@@ -3480,7 +3480,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-092.jpg?v=0ef5abd0b29e",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-092.jpg?v=7058ae51f7a1",
         "isHorizontal": false,
         "power": 5000
       }
@@ -3502,19 +3502,17 @@
       "Shaman"
     ],
     "Keywords": [
-      "Activate: Main",
-      "End of your Turn",
       "Opponent's Turn",
+      "Activate: Main",
       "Once per Turn",
       "On Attack",
-      "Your Turn",
       "Permanent",
       "Blocker"
     ],
-    "Effect": "[Opponent's Turn] <Permanent> This card gains +1 Cost and +1000 Power for each card under it.\n[On Attack] If there is a card under your Leader and this card: Choose all of your Opponent's Units and give them Cost -1 for the turn.\n[Activate: Main] <Once per Turn> Play 1 \"Amidamaru\" from under this card: At the end of your turn, switch this card to Active mode and it gains Blocker until the end of your Opponent's next turn.",
+    "Effect": "[Opponent's Turn] Permanent Give this card +1 Cost and +1000 Power for each card under it.\n[On Attack] If there is a card under your Leader and this card: Choose all of your Opponent's Units and give them -1 Cost for the turn.\n[Activate: Main] Once per Turn Play 1 \"Amidamaru\" from under this card: At the end of the turn, switch this card to Active mode and give it Blocker until the end of your Opponent's next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-092.jpg?v=0ef5abd0b29e"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-092.jpg?v=7058ae51f7a1"
   },
   "ST1-093": {
     "id": "ST1-093",
@@ -3523,7 +3521,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-093.jpg?v=2c4b843fa570",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-093.jpg?v=b8022715ca05",
         "isHorizontal": false,
         "power": 5000
       }
@@ -3546,14 +3544,14 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "On Play",
       "Limit 1",
+      "On Play",
       "Deflect"
     ],
-    "Effect": "Deflect\n[On Play] Add 1 card from under one of your other Units to your hand: Draw 1 card and place 1 card from your hand on the top or bottom of your Deck.\n[Activate: Main] Limit 1 Play 1 \"Amidamaru\" from under one of your other Units: Return 1 of your Units to your hand. Then, return up to 1 Unit with a Cost of 2 or less to its owner's hand.",
+    "Effect": "Deflect\n[On Play] Add 1 card from under 1 of Units to your hand: Draw 1 card and place 1 card from your hand at the top or bottom of your Deck.\n[Activate: Main] Limit 1 Play 1 \"Amidamaru\" from under 1 of your other Units: Return 1 of your Units to your hand. Then, choose up to 1 Unit with a Cost of 2 or less and return it to its owner's hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-093.jpg?v=2c4b843fa570"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-093.jpg?v=b8022715ca05"
   },
   "ST1-094": {
     "id": "ST1-094",
@@ -3562,7 +3560,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-094.jpg?v=f5209816f5e5",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-094.jpg?v=96aaebf1bbe0",
         "isHorizontal": false,
         "power": 5000
       }
@@ -3585,14 +3583,14 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "On Play",
       "Limit 1",
+      "On Play",
       "Deflect"
     ],
-    "Effect": "Deflect\n[On Play] Add 1 card from under one of your other Units to your hand: Draw 1 card and place 1 card from your hand on the top or bottom of your Deck.\n[Activate: Main] Limit 1 Play 1 \"Amidamaru\" from under one of your other Units: Place it at the bottom of your Deck. Then, choose up to 1 of your Opponent's Units with a cost of 2 or less and place it at the bottom of its owner's Deck.",
+    "Effect": "Deflect\n[On Play] Add 1 card from under 1 of your Units to your hand: Draw 1 card and place 1 card from your hand at the top or bottom of your Deck.\n[Activate: Main] Limit 1 Play 1 \"Amidamaru\" from under 1 of your other Units: Place 1 of your Units at the bottom of your Deck. Then, choose up to 1 of your Opponent's Units with a cost of 2 or less and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-094.jpg?v=f5209816f5e5"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-094.jpg?v=96aaebf1bbe0"
   },
   "ST1-095": {
     "id": "ST1-095",
@@ -3601,7 +3599,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-095.jpg?v=1896f40ecf0c",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-095.jpg?v=1e97854f62b1",
         "isHorizontal": false,
         "power": 6000
       }
@@ -3623,18 +3621,17 @@
       "Shaman"
     ],
     "Keywords": [
+      "Overcharge",
       "On Attack",
+      "Blocker",
       "On K.O.",
       "On Play",
-      "Overcharge",
-      "Barrier",
-      "Blocker",
-      "Charge"
+      "Barrier"
     ],
-    "Effect": "Barrier Blocker\n[On Play] Place 1 card from your hand at the bottom of your Deck: <Overcharge> 2, then you can't <Overcharge> for the turn.\n[On Attack / On K.O.] (1) Draw 2 cards, then place 2 cards from your hand on the top or bottom of your Deck.",
+    "Effect": "Barrier Blocker\n[On Play] Place 1 card from your hand at the bottom of your Deck: Overcharge 2 and you can't Overcharge for the turn.\n[On Attack / On K.O.] (1) Draw 2 cards; place 2 cards from your hand at the top or bottom of your Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-095.jpg?v=1896f40ecf0c"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-095.jpg?v=1e97854f62b1"
   },
   "ST1-096": {
     "id": "ST1-096",
@@ -3643,7 +3640,7 @@
         "name": "Asakura Yoh",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-096.jpg?v=f766e06f5bac",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-096.jpg?v=b732fc889969",
         "isHorizontal": false,
         "power": 5000
       }
@@ -3666,16 +3663,16 @@
     ],
     "Keywords": [
       "Opponent's Attack",
-      "On Play",
       "Permanent",
-      "Clash",
+      "Elusive",
+      "On Play",
       "Deflect",
-      "Elusive"
+      "Clash"
     ],
-    "Effect": "Deflect Elusive\n<Permanent> Reduce the Cost of your Opponent's Units by 1.\n[On Play] Choose up to 2 of your Opponent's Units with a Cost of 2 or less and place them at the bottom of its owner's Deck.\nClash [Opponent's Attack] (1) Place 1 card from under your Leader or one of your Units at the bottom of your Deck: Give your card that's in a battle +1000 Power for the battle.",
+    "Effect": "Deflect Elusive\nPermanent Give your Opponent's Units -1 Cost.\n[On Play] Choose up to 2 of your Opponent's Units with a Cost of 2 or less and place them at the bottom of their owner's Deck.\nClash [Opponent's Attack] (1) Place 1 card from under your Leader or 1 of your Units at the bottom of your Deck: Give your card that's in a battle +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-096.jpg?v=f766e06f5bac"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-096.jpg?v=b732fc889969"
   },
   "ST1-097": {
     "id": "ST1-097",
@@ -3719,7 +3716,7 @@
         "name": "Spirit Integration",
         "type": "ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-098.jpg?v=dbbd618c3b3c",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-098.jpg?v=7fed78b040b0",
         "isHorizontal": false
       }
     },
@@ -3743,10 +3740,10 @@
     "Keywords": [
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] If your Leader is \"Asakura Yoh\": Place 1 \"Amidamaru\" from under your Leader in your Drop; play up to 1 \"Asakura Yoh\" with a Cost of 4 or less from your hand, then place up to 1 \"Amidamaru\" from under your Leader under it.",
+    "Effect": "[Activate: Main] If your Leader is \"Asakura Yoh\": Place 1 \"Amidamaru\" from under your Leader or 1 of your Units in your Drop; play up to 1 \"Asakura Yoh\" with a Cost of 4 or less from your hand. Then, place up to 1 \"Amidamaru\" from under your Leader or 1 of your Units under it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-098.jpg?v=dbbd618c3b3c"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-098.jpg?v=7fed78b040b0"
   },
   "ST1-099": {
     "id": "ST1-099",
@@ -3794,7 +3791,7 @@
         "name": "Budding Jubilation",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-100.jpg?v=00e65cd1822e",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-100.jpg?v=26a5d914db09",
         "isHorizontal": false
       }
     },
@@ -3817,13 +3814,13 @@
     ],
     "Keywords": [
       "Activate: Battle",
-      "Clash",
-      "Revenge"
+      "Revenge",
+      "Clash"
     ],
-    "Effect": "Clash [Activate: Battle] Your card that's in a battle gains Revenge for the battle; if your Unit is removed from your Field at the end of the battle, draw 1 card.",
+    "Effect": "Clash [Activate: Battle] Give your card that's in a battle Revenge for the battle. Then, if your Unit is removed from your field at the end of the battle, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-100.jpg?v=00e65cd1822e"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-100.jpg?v=26a5d914db09"
   },
   "ST1-101": {
     "id": "ST1-101",
@@ -13834,7 +13831,7 @@
         "name": "Tao Ren",
         "type": "LEADER",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-001.jpg?v=0e8b48da0c44",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-001.jpg?v=457fc72baa6c",
         "isHorizontal": false,
         "power": 5000
       }
@@ -13861,10 +13858,10 @@
       "On Attack",
       "Threshold"
     ],
-    "Effect": "[On Attack] Reveal 1 card with \"Bason\" in its name from your hand: Draw 1 card and place the revealed card at the top of your Deck.\n[Activate: Battle] <Once per Turn> When you use a card in a combo: Draw 1 card. Then, place up to 1 card with \"Bason\" in its name from your combo area under your Leader or 1 of your Units.\nThreshold 4 [Activate: Battle] <Once per Turn> Look at the top card of your Deck and use up to 1 card with \"Bason\" in its name in a combo. Place the rest at the top or bottom of its owner's Deck.",
+    "Effect": "[On Attack] Reveal 1 \"Bason\" from your hand; draw 1 card and place the revealed card at the top of your Deck.\n[Activate: Battle] Once per Turn When you use a card in a combo: Draw 1 card; place up to 1 \"Bason\" in your combo area under your Leader or 1 of your Units.\nThreshold 4 [Activate: Battle] Once per Turn Reveal the top card of your Deck: Use up to 1 \"Bason\" in a combo. Then, place the rest at the top or bottom of your Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-001.jpg?v=0e8b48da0c44"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-001.jpg?v=457fc72baa6c"
   },
   "SD1-002": {
     "id": "SD1-002",
@@ -13873,7 +13870,7 @@
         "name": "Tao Ren",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-002.jpg?v=8a5c21fc3887",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-002.jpg?v=d9584b74f20a",
         "isHorizontal": false,
         "power": 4000
       }
@@ -13895,14 +13892,13 @@
       "Shaman"
     ],
     "Keywords": [
-      "Activate: Battle",
       "Once per Turn",
       "Your Turn"
     ],
-    "Effect": "[Activate: Battle] [Your Turn] <Once per Turn>\nWhen you use a card in a combo while this card is in a battle, draw 1 card.",
+    "Effect": "[Your Turn] Once per Turn When you use a card in a combo while this card is in a battle, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-002.jpg?v=8a5c21fc3887"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-002.jpg?v=d9584b74f20a"
   },
   "SD1-003": {
     "id": "SD1-003",
@@ -13911,7 +13907,7 @@
         "name": "Bason",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-003.jpg?v=d473037669ca",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-003.jpg?v=62bcb678c4be",
         "isHorizontal": false,
         "power": 0
       }
@@ -13938,10 +13934,10 @@
       "Limit 1",
       "Barrier"
     ],
-    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\n<Permanent> While this card is under a \"Tao Ren\" card, the card on top of this card gains Barrier",
+    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\nPermanent While this card is under your \"Tao Ren\", give the card on top of this card Barrier",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-003.jpg?v=d473037669ca"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-003.jpg?v=62bcb678c4be"
   },
   "SD1-004": {
     "id": "SD1-004",
@@ -13950,7 +13946,7 @@
         "name": "Bason",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-004.jpg?v=eb3be18ae77c",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-004.jpg?v=a0c0377efdbd",
         "isHorizontal": false,
         "power": 0
       }
@@ -13977,10 +13973,10 @@
       "Limit 1",
       "Elusive"
     ],
-    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\n[Your Turn] When this card is placed under a \"Tao Ren\" card, the card on top of this card gains Elusive until the end of your Opponent's next turn.",
+    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\n[Your Turn] When this card is placed under your \"Tao Ren\", give the card on top of this card Elusive until the end of your Opponent's next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-004.jpg?v=eb3be18ae77c"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-004.jpg?v=a0c0377efdbd"
   },
   "SD1-005": {
     "id": "SD1-005",
@@ -14482,7 +14478,7 @@
         "name": "Bao-Lei Heirloom",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD1-018.jpg?v=dcd8bb925abe",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD1-018.jpg?v=f863164898ae",
         "isHorizontal": true,
         "sjCost": 3
       }
@@ -14503,13 +14499,13 @@
     "Traits": [],
     "Keywords": [
       "Activate: Battle",
-      "Opponent's Turn",
-      "On Play"
+      "On Play",
+      "Clash"
     ],
-    "Effect": "[On Play] During your Opponent's next turn, give all of your Units with \"Tao Ren\" in their name +1000 Power for each card with \"Bason\" in its name under them.\n[Activate: Battle] [Opponent's Turn] Return this card to your SJ Deck and place 1 card from your hand at the bottom of your Deck: Give your Leader or one of your Units +3000 Power for the battle. Then, if you have a card in your Combo area, draw 1 card.",
+    "Effect": "[On Play] During your Opponent's next turn, give all of your \"Tao Ren\" Units +1000 Power for each \"Bason\" under them.\nClash [Activate: Battle] Return this card to your JUMP Deck and place 1 card from your hand at the bottom of your Deck: Give your Leader or 1 of your Units +3000 Power for the battle. Then, if you have a card in your Combo area, draw 1 card.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD1-018.jpg?v=dcd8bb925abe"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD1-018.jpg?v=f863164898ae"
   },
   "SD1-019": {
     "id": "SD1-019",
@@ -14518,7 +14514,7 @@
         "name": "Spirit of Thunder",
         "type": "JUMP UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-019.jpg?v=da9ab813334d",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-019.jpg?v=77a67757411d",
         "isHorizontal": false,
         "power": 0,
         "sjCost": 2
@@ -14538,19 +14534,20 @@
     "Power": 0,
     "Counter": null,
     "Traits": [
-      "Shaman"
+      "Kami",
+      "Elemental Spirit"
     ],
     "Keywords": [
-      "On Play",
       "Permanent",
-      "J-Layer",
       "Blocker",
+      "J-Layer",
+      "On Play",
       "Deflect"
     ],
-    "Effect": "Deflect Blocker\nJ-Layer 1 \"O.S. Spirit of Thunder\"\n<Permanent> If this card would be removed from the field, place 1 \"O.S. Spirit of Thunder\" from under this card on top of this card instead.\n[On Play] You may return 1 of your Units to the owner's hand: If your Leader has \"Shaman\" in their Traits, return up to 1 Unit with a Cost of 4 or less to the owner's hand.",
+    "Effect": "Deflect Blocker\nJ-Layer 1 \"O.S. Spirit of Thunder\"\nPermanent If this card would be removed from the field, place 1 \"O.S. Spirit of Thunder\" from under this card on top of this card instead.\n[On Play] You may return 1 of your Units to its owner's hand: If your Leader has the \"Shaman\" Trait, choose up to 1 Unit with a Cost of 4 or less and return it to its owner's hand.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-019.jpg?v=da9ab813334d"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-019.jpg?v=77a67757411d"
   },
   "SD1-020": {
     "id": "SD1-020",
@@ -21249,14 +21246,14 @@
     "id": "PUP-010",
     "face": {
       "front": {
-        "name": "Harusame & Futunomitamama no Tsurugi",
+        "name": "Harusame & Futunomitama no Turugi",
         "type": "ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-010.jpg?v=17c284ac3fcb",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-010.jpg?v=343756196f25",
         "isHorizontal": false
       }
     },
-    "name": "Harusame & Futunomitamama no Tsurugi [PUP-010]",
+    "name": "Harusame & Futunomitama no Turugi [PUP-010]",
     "type": "Main_Deck",
     "Number": "PUP-010",
     "Card_Type": "Action",
@@ -21275,12 +21272,13 @@
     ],
     "Keywords": [
       "Activate: Main",
+      "Accelcharge",
       "Limit 1"
     ],
-    "Effect": "[Activate: Main] Limit 1 If your Leader that has the \"Shaman\" Trait attacked during this turn and dealt no damage: Add up to 1 SJ Marker to your JUMP Zone. Then, switch your Leader to Active mode.",
+    "Effect": "[Activate: Main] Limit 1 If your Leader with the \"Shaman\" Trait attacked during this turn and dealt no damage: Accelcharge 1; switch your Leader to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-010.jpg?v=17c284ac3fcb"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-010.jpg?v=343756196f25"
   },
   "PUP-011": {
     "id": "PUP-011",
@@ -21289,7 +21287,7 @@
         "name": "Spirit of Earth",
         "type": "JUMP UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-011.jpg?v=4fd14b72a43d",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-011.jpg?v=b5de2222e602",
         "isHorizontal": false,
         "power": 0,
         "sjCost": 1
@@ -21313,16 +21311,16 @@
       "Elemental Spirit"
     ],
     "Keywords": [
-      "On Play",
       "Permanent",
-      "J-Layer",
       "Blocker",
+      "J-Layer",
+      "On Play",
       "Deflect"
     ],
-    "Effect": "Deflect Blocker\nJ-Layer 1 \"O.S. Spirit of Earth\"\n<Permanent> If this card would be removed from the field, place 1 \"O.S. Spirit of Earth\" from under this card on top of this card instead.\n[On Play] Return 1 of your Units to the owner's hand: Give your Leader +1000 Power for the turn. Then, add up to 1 card from your Life to your hand.",
+    "Effect": "Deflect Blocker\nJ-Layer 1 \"O.S. Spirit of Earth\"\nPermanent If this card would be removed from the field, place 1 \"O.S. Spirit of Earth\" from under this card on top of this card instead.\n[On Play] Return 1 of your Units to its owner's hand: Give your Leader +1000 Power for the turn. Then, add up to 1 card from your Life to your hand.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-011.jpg?v=4fd14b72a43d"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-011.jpg?v=b5de2222e602"
   },
   "PUP-012": {
     "id": "PUP-012",
@@ -21407,7 +21405,7 @@
         "name": "Look Beyond",
         "type": "JUMP ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-014.jpg?v=32195eb1e32b",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-014.jpg?v=62af6293b5cd",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -21427,16 +21425,16 @@
     "Counter": null,
     "Traits": [],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Play",
+      "Activate: Main",
       "Once per Turn",
       "Barrier",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Play] (1) <Once per Turn> If your Opponent plays a Unit: Give the Unit being played -1 Cost. Then, if it has a Cost of 1 or less, place it at the bottom of its owner's Deck instead.\n[Activate: Main] Return this card to your JUMP Deck: Choose up to 1 of your Opponent's Units, ignoring Barrier, and its Cost becomes 0 for the turn.",
+    "Effect": "Clash [Opponent's Play] Once per Turn (1) If your Opponent plays a Unit: Give the Unit being played -1 Cost. Then, if it has a Cost of 1 or less, place it at the bottom of its owner's Deck instead.\n[Activate: Main] Return this card to your JUMP Deck: Choose up to 1 of your Opponent's Units, ignoring Barrier, and set its Cost to 0 for the turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-014.jpg?v=32195eb1e32b"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-014.jpg?v=62af6293b5cd"
   },
   "PUP-015": {
     "id": "PUP-015",
@@ -21636,7 +21634,7 @@
         "name": "Tao Ren",
         "type": "JUMP UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg?v=a6f66b29af36",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg?v=3e7160631762",
         "isHorizontal": false,
         "power": 4000,
         "sjCost": 2
@@ -21664,10 +21662,10 @@
       "On Play",
       "Deflect"
     ],
-    "Effect": "Deflect\n[On Play] Place up to 3 \"Bason\" cards from your Drop under your Leader with their skills negated for the turn.\n[Activate: Battle] Once per Turn Use up to 1 \"Bason\" card from under your Leader or 1 of your Units in a combo.",
+    "Effect": "Deflect\n[On Play] Place up to 3 \"Bason\" from your Drop under your Leader with their skills negated for the turn.\n[Activate: Battle] Once per Turn Use up to 1 \"Bason\" from under your Leader or 1 of your Units in a combo.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg?v=a6f66b29af36"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-020.jpg?v=3e7160631762"
   },
   "PUP-021": {
     "id": "PUP-021",

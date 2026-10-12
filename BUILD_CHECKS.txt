@@ -200,5 +200,55 @@
     "arena_entries": 1360,
     "alternate_art": "ST1-026-AA",
     "counter_change": "ST1-066: 0 -> 1000"
+  },
+  "replacement_bundle_2026_10_12": {
+    "cards": [
+      "PUP-010",
+      "PUP-011",
+      "PUP-014",
+      "PUP-020",
+      "SD1-001",
+      "SD1-002",
+      "SD1-003",
+      "SD1-004",
+      "SD1-018",
+      "SD1-019",
+      "ST1-077",
+      "ST1-078",
+      "ST1-079",
+      "ST1-080",
+      "ST1-082",
+      "ST1-083",
+      "ST1-084",
+      "ST1-085",
+      "ST1-086",
+      "ST1-087",
+      "ST1-088",
+      "ST1-089",
+      "ST1-090",
+      "ST1-091",
+      "ST1-092",
+      "ST1-093",
+      "ST1-094",
+      "ST1-095",
+      "ST1-096",
+      "ST1-098",
+      "ST1-100"
+    ],
+    "images": 31,
+    "database_cards": 1227,
+    "arena_entries": 1360,
+    "metadata_changes": {
+      "PUP-010": {
+        "name": "Harusame & Futunomitama no Turugi"
+      },
+      "SD1-019": {
+        "traits": "Kami / Elemental Spirit"
+      }
+    },
+    "landscape": [
+      "PUP-014",
+      "SD1-018"
+    ]
   }
 }
