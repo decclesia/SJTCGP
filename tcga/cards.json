@@ -7738,7 +7738,7 @@
         "name": "Mori Kurei",
         "type": "LEADER",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-076.jpg?v=4a512ea2ca94",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-076.jpg?v=21bc02ce9808",
         "isHorizontal": false,
         "power": 5000
       }
@@ -7763,13 +7763,13 @@
     "Keywords": [
       "Activate: Main",
       "Once per Turn",
-      "On Attack",
-      "Threshold"
+      "Threshold",
+      "On Attack"
     ],
     "Effect": "When this card is placed in your Leader area, place 1 \"Accursed Phoenix Flame\" from your Deck on your field.\n[On Attack] Place up to 1 Unit card from your Drop under \"Accursed Phoenix Flame\" on your field; choose up to 1 of your Opponent's Units and give it -1 Cost for the turn.\nThreshold 3 [Activate: Main] <Once per Turn> (1) Choose up to 1 of your Opponent's Units with a Cost of 1 or less and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-076.jpg?v=4a512ea2ca94"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-076.jpg?v=21bc02ce9808"
   },
   "ST2-077": {
     "id": "ST2-077",
@@ -7778,7 +7778,7 @@
         "name": "Accursed Phoenix Flame",
         "type": "ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-077.jpg?v=43055fbc8b2f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-077.jpg?v=f0ff0702cc8b",
         "isHorizontal": false
       }
     },
@@ -7799,16 +7799,18 @@
       "Soul Flame"
     ],
     "Keywords": [
+      "End of Your Turn",
       "End of your Turn",
       "Once per Turn",
-      "Your Turn",
       "Overcharge",
-      "Charge"
+      "Your Turn",
+      "Permanent",
+      "Scene"
     ],
-    "Effect": "Scene\nIf your Leader is \"Mori Kurei\" this card gains the following effects for the game:\n[Your Turn] <Once per Turn> When a Unit is removed from the field by your effect, draw 1 card.\n[End of your Turn] Remove 1 card from under this card from the game: <Overcharge> 1.",
+    "Effect": "Scene\nPermanent If your Leader is \"Mori Kurei\" give this card the following effects for the game:\n[Your Turn] Once per Turn When a Unit is removed from the field by your skill(s), draw 1 card.\n[End of your Turn] Remove 1 card from under this card from the game: Overcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-077.jpg?v=43055fbc8b2f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-077.jpg?v=f0ff0702cc8b"
   },
   "ST2-078": {
     "id": "ST2-078",
@@ -7817,7 +7819,7 @@
         "name": "Mori Kurei",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-078.jpg?v=5291ae878622",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-078.jpg?v=23d3505693fd",
         "isHorizontal": false,
         "power": 5000
       }
@@ -7846,7 +7848,7 @@
     "Effect": "[On Play] Draw 1 card.\n[On Attack] Choose up to 1 of your Opponent's Units and give it -2 Cost until the end of your Opponent's next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-078.jpg?v=5291ae878622"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-078.jpg?v=23d3505693fd"
   },
   "ST2-079": {
     "id": "ST2-079",
@@ -7855,7 +7857,7 @@
         "name": "Raiha",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-079.jpg?v=3e5cb98c9216",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-079.jpg?v=38aee9987bc7",
         "isHorizontal": false,
         "power": 4000
       }
@@ -7885,7 +7887,7 @@
     "Effect": "Deflect Elusive\n[Activate: Main] Rest this card: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and return it to its owner's hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-079.jpg?v=3e5cb98c9216"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-079.jpg?v=38aee9987bc7"
   },
   "ST2-080": {
     "id": "ST2-080",
@@ -7894,7 +7896,7 @@
         "name": "Joker",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-080.jpg?v=b8d5c8037fb1",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-080.jpg?v=9c5a8e60aed9",
         "isHorizontal": false,
         "power": 5000
       }
@@ -7917,18 +7919,18 @@
       "Jyushinshuu"
     ],
     "Keywords": [
-      "On Attack",
-      "On Play",
+      "On Play / On Attack",
       "Overcharge",
+      "On Attack",
+      "Revenge",
+      "On Play",
       "Limit 1",
-      "Charge",
-      "Elusive",
-      "Revenge"
+      "Elusive"
     ],
-    "Effect": "Elusive Revenge\n[On Play / On Attack] Limit 1 Remove 1 card from under \"Accursed Phoenix Flame\" on your field from the game; Overcharge 1.",
+    "Effect": "Elusive Revenge\n[On Play / On Attack] Limit 1 Remove 1 card from under your \"Accursed Phoenix Flame\" from the game; Overcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-080.jpg?v=b8d5c8037fb1"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-080.jpg?v=9c5a8e60aed9"
   },
   "ST2-081": {
     "id": "ST2-081",
@@ -13985,7 +13987,7 @@
         "name": "Bason",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-005.jpg?v=c69b25dbc0a7",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-005.jpg?v=88bae6727484",
         "isHorizontal": false,
         "power": 0
       }
@@ -14012,10 +14014,10 @@
       "Limit 1",
       "Blocker"
     ],
-    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\n[Your Turn] When this card is placed under a \"Tao Ren\" card, the card on top of this card gains Blocker until the end of your Opponent's next turn.",
+    "Effect": "Limit 1 When this card is used in a combo from your hand or Deck: Give up to 1 of your \"Tao Ren\" +1000 Power for the battle.\n[Your Turn] When this card is placed under your \"Tao Ren\", give the card on top of this card Blocker until the end of your Opponent's next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-005.jpg?v=c69b25dbc0a7"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-005.jpg?v=88bae6727484"
   },
   "SD1-006": {
     "id": "SD1-006",
@@ -14024,7 +14026,7 @@
         "name": "Tao Jun",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-006.jpg?v=5c083b54f4e3",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-006.jpg?v=d183299848d1",
         "isHorizontal": false,
         "power": 2000
       }
@@ -14051,10 +14053,10 @@
       "Once per Turn",
       "On Play"
     ],
-    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Battle] <Once per Turn>\nWhen this card is used in a combo from your Field: Use up to 1 Unit with \"Guardian Ghost\" in its Traits in a combo from your Drop.",
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Battle] Once per Turn When this card is used in a combo from your field: Use up to 1 Unit with the \"Guardian Ghost\" Trait in a combo from your Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-006.jpg?v=5c083b54f4e3"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-006.jpg?v=d183299848d1"
   },
   "SD1-007": {
     "id": "SD1-007",
@@ -14063,7 +14065,7 @@
         "name": "Tao Ran",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-007.jpg?v=f78772f84237",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-007.jpg?v=d9d8eb75f733",
         "isHorizontal": false,
         "power": 2000
       }
@@ -14088,10 +14090,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "Effect": "[On Play] Look at the top 5 cards of your Deck; place them at the top or bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-007.jpg?v=f78772f84237"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-007.jpg?v=d9d8eb75f733"
   },
   "SD1-008": {
     "id": "SD1-008",
@@ -14100,7 +14102,7 @@
         "name": "Tao En",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-008.jpg?v=f1ab138ba5c7",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-008.jpg?v=f05d2c1884ed",
         "isHorizontal": false,
         "power": 4000
       }
@@ -14123,15 +14125,16 @@
       "Daoshi"
     ],
     "Keywords": [
+      "On Play / On K.O.",
+      "Permanent",
       "On K.O.",
       "On Play",
-      "Permanent",
       "Blocker"
     ],
-    "Effect": "Blocker\n<Permanent> While this card is in a battle and if you have a card in your Combo Area, this card gets +1000 power.\n[On Play / On K.O.] Add up to 1 card from your life to your hand.",
+    "Effect": "Blocker\nPermanent If this card is in a battle and you have a card in your Combo Area, give this card +1000 Power.\n[On Play / On K.O.] Add up to 1 card from your Life to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-008.jpg?v=f1ab138ba5c7"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-008.jpg?v=f05d2c1884ed"
   },
   "SD1-009": {
     "id": "SD1-009",
@@ -14140,7 +14143,7 @@
         "name": "Tao Chin",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-009.jpg?v=51a5902b051c",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-009.jpg?v=3755c7613a5f",
         "isHorizontal": false,
         "power": 3000
       }
@@ -14163,13 +14166,14 @@
       "Daoshi"
     ],
     "Keywords": [
+      "On Play / On K.O.",
       "On K.O.",
       "On Play"
     ],
-    "Effect": "[On Play / On K.O.] Look at 5 cards from the top of your Deck; add up to 1 card with \"Tao\" or \"Bason\" in their Name to your hand. Then, place the rest at the top or bottom of your Deck in any order.",
+    "Effect": "[On Play / On K.O.] Look at the top 5 cards of your Deck; add up to 1 \"Tao\" or \"Bason\" to your hand. Then, place the rest at the top or bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-009.jpg?v=51a5902b051c"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-009.jpg?v=3755c7613a5f"
   },
   "SD1-010": {
     "id": "SD1-010",
@@ -14178,7 +14182,7 @@
         "name": "Tao Ren",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-010.jpg?v=0b0abf47a5ed",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-010.jpg?v=7f07d11f085a",
         "isHorizontal": false,
         "power": 5000
       }
@@ -14203,10 +14207,10 @@
       "Once per Turn",
       "Your Turn"
     ],
-    "Effect": "[Your Turn] <Once per Turn> When you use a card in a combo while this card is in a battle, draw 1 card. Then, switch this card to Active Mode.",
+    "Effect": "[Your Turn] Once per Turn When you use a card in a combo while this card is in a battle, draw 1 card. Then, switch this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-010.jpg?v=0b0abf47a5ed"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-010.jpg?v=7f07d11f085a"
   },
   "SD1-011": {
     "id": "SD1-011",
@@ -14215,7 +14219,7 @@
         "name": "Tao Ren",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-011.jpg?v=84560144f5e7",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-011.jpg?v=a5aa2b619575",
         "isHorizontal": false,
         "power": 4000
       }
@@ -14240,10 +14244,10 @@
       "Activate: Battle",
       "Once per Turn"
     ],
-    "Effect": "[Activate: Battle] <Once per Turn> When you use a card in a combo while this card is in a battle, add up to 1 \"Bason\" from under your Leader or your Units to your hand.",
+    "Effect": "[Activate: Battle] Once per Turn When you use a card in a combo while this card is in a battle, add up to 1 \"Bason\" from under your Leader or 1 of your Units to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-011.jpg?v=84560144f5e7"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-011.jpg?v=a5aa2b619575"
   },
   "SD1-012": {
     "id": "SD1-012",
@@ -14252,7 +14256,7 @@
         "name": "Tao Ren",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-012.jpg?v=d81ec0668226",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-012.jpg?v=beb017328bd8",
         "isHorizontal": false,
         "power": 6000
       }
@@ -14274,15 +14278,14 @@
       "Shaman"
     ],
     "Keywords": [
-      "Activate: Battle",
       "Once per Turn",
-      "On Attack",
-      "Your Turn"
+      "Your Turn",
+      "On Attack"
     ],
-    "Effect": "[On Attack] Choose up to 1 of your Opponent's Unit and give it -1 Cost for the turn.\n[Activate: Battle] [Your Turn] <Once per Turn> When you use a card in a combo while this card is in a battle and you place 3 cards with \"Guardian Ghost\" in their Traits from under your Leader in your Drop: Choose up to 1 of your Opponent's Units with a Cost of 4 or less and place it at the bottom of the owner's Deck.",
+    "Effect": "[On Attack] Choose up to 1 of your Opponent's Unit and give it -1 Cost for the turn.\n[Your Turn] Once per Turn When you use a card in a combo while this card is in a battle and you place 2 cards with the \"Guardian Ghost\" Trait from under your Leader in your Drop: Choose up to 1 of your Opponent's Units and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-012.jpg?v=d81ec0668226"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-012.jpg?v=beb017328bd8"
   },
   "SD1-013": {
     "id": "SD1-013",
@@ -14291,7 +14294,7 @@
         "name": "Tao Ren",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-013.jpg?v=19d20ece96e7",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-013.jpg?v=75abb2922431",
         "isHorizontal": false,
         "power": 6000
       }
@@ -14318,10 +14321,10 @@
       "Limit 1",
       "Clash"
     ],
-    "Effect": "[On Attack] Add up to 2 cards with \"Guardian Ghost\" in their Traits from under your Leader or your Units to your hand; place that many cards from your hand at the bottom of your Deck.\nClash [Opponent's Attack] Limit 1 Place 1 card from under this card in your Drop: Give your Leader or one of your Units +1000 Power for the turn.",
+    "Effect": "[On Attack] Add up to 2 cards with the \"Guardian Ghost\" Trait from under your Leader or 1 of your Units to your hand; place that many cards from your hand at the top or bottom of your Deck.\nClash [Opponent's Attack] Limit 1 Place 1 card from under this card in your Drop: Give your Leader or 1 of your Units +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-013.jpg?v=19d20ece96e7"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-013.jpg?v=75abb2922431"
   },
   "SD1-014": {
     "id": "SD1-014",
@@ -14330,7 +14333,7 @@
         "name": "Tao Ren",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD1-014.jpg?v=a1aba2cbfd8e",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD1-014.jpg?v=4a143893345b",
         "isHorizontal": false,
         "power": 6000
       }
@@ -14354,14 +14357,14 @@
     "Keywords": [
       "Activate: Main",
       "On Attack",
+      "Deflect",
       "Limit 1",
-      "Barrier",
-      "Deflect"
+      "Barrier"
     ],
-    "Effect": "Deflect\n[On Attack] Draw 2 cards and place 1 card from your hand on the top of your Deck.\n[Activate: Main] Limit 1 Place all cards from under your Leader in your Drop: Choose up to 1 of your Opponent's Units with a Cost equal to or less than the number of cards placed in your Drop, ignoring Barrier, and place it at the bottom of the owner's Deck.",
+    "Effect": "Deflect\n[On Attack] Draw 2 cards; place 1 card from your hand at the top of your Deck.\n[Activate: Main] Limit 1 Place all cards from under your Leader in your Drop: Choose up to 1 of your Opponent's Units with a Cost equal to the number of cards placed in your Drop +1, ignoring Barrier, and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD1-014.jpg?v=a1aba2cbfd8e"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD1-014.jpg?v=4a143893345b"
   },
   "SD1-015": {
     "id": "SD1-015",
@@ -14635,7 +14638,7 @@
         "name": "Rock Human",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-002.jpg?v=c6bb27649fb5",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-002.jpg?v=db302f461fee",
         "isHorizontal": false,
         "power": 2000
       }
@@ -14660,10 +14663,10 @@
       "On Block",
       "Blocker"
     ],
-    "Effect": "Blocker\n[On Block] Look at 3 cards from the top of your Deck; reveal up to 1 card with \"Calamity\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Effect": "Blocker\n[On Block] Look at the top 3 cards of your Deck; add up to 1 card with the \"Calamity\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-002.jpg?v=c6bb27649fb5"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-002.jpg?v=db302f461fee"
   },
   "SD2-003": {
     "id": "SD2-003",
@@ -14672,7 +14675,7 @@
         "name": "Toru",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-003.jpg?v=f02e0ccbc76a",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-003.jpg?v=54f443eb8d07",
         "isHorizontal": false,
         "power": 5000
       }
@@ -14694,13 +14697,13 @@
       "Rock Human"
     ],
     "Keywords": [
-      "On Play",
-      "Deflect"
+      "Deflect",
+      "On Play"
     ],
-    "Effect": "Deflect\n[On Play] You may add 1 card from your Life to your hand: If your Leader has \"Rock Human\" or \"Calamity\" in their Traits, add the top card of your Deck to the top of your Life cards. Then, play up to 1 \"Wonder of U\" with a Cost of 5 or less from your hand.",
+    "Effect": "Deflect\n[On Play] Add 1 card from your Life to your hand: If your Leader has the \"Rock Human\" or \"Calamity\" Trait, add the top card of your Deck at the top of your Life. Then, play up to 1 \"Wonder of U\" with a Cost of 5 or less from your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-003.jpg?v=f02e0ccbc76a"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-003.jpg?v=54f443eb8d07"
   },
   "SD2-004": {
     "id": "SD2-004",
@@ -14709,7 +14712,7 @@
         "name": "Toru",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-004.jpg?v=2f38fe7588f5",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-004.jpg?v=d77f3ba2fb59",
         "isHorizontal": false,
         "power": 3000
       }
@@ -14731,13 +14734,14 @@
       "Rock Human"
     ],
     "Keywords": [
+      "Opponent's Turn",
       "Limit 1",
       "Blocker"
     ],
-    "Effect": "Blocker\nLimit 1 When this card is added from your Life to your hand: You may reveal this card and play it.",
+    "Effect": "Blocker\n[Opponent's Turn] Limit 1 If this card would be added from your Life to your hand: You may play it instead.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-004.jpg?v=2f38fe7588f5"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-004.jpg?v=d77f3ba2fb59"
   },
   "SD2-005": {
     "id": "SD2-005",
@@ -14746,7 +14750,7 @@
         "name": "Wu Tomoki",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-005.jpg?v=2c01232de07f",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-005.jpg?v=4312ff5df265",
         "isHorizontal": false,
         "power": 2000
       }
@@ -14771,10 +14775,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] You may add 1 card from your Life to your hand: Rest up to 1 of your Opponent's Units with a Cost of 5 or less.",
+    "Effect": "[On Play] Add 1 card from your Life to your hand: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and Rest it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-005.jpg?v=2c01232de07f"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-005.jpg?v=4312ff5df265"
   },
   "SD2-006": {
     "id": "SD2-006",
@@ -14783,7 +14787,7 @@
         "name": "Poor Tom",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-006.jpg?v=864aa5e97da5",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-006.jpg?v=a82019d7e4a8",
         "isHorizontal": false,
         "power": 2000
       }
@@ -14806,14 +14810,15 @@
       "Stand User"
     ],
     "Keywords": [
+      "End of Your Turn",
       "End of your Turn",
-      "On Play",
-      "Your Turn"
+      "Your Turn",
+      "On Play"
     ],
-    "Effect": "[On Play] If your Leader has \"Rock Human\" in their Traits: Look at the top card of your Deck; place it at the top or bottom of your Deck.\n[End of Your Turn] You may place this Unit in your Drop: If you have 1 or less cards in your Life, add the top of your Deck to your Life.",
+    "Effect": "[On Play] If your Leader has the \"Rock Human\" Trait: Look at the top card of your Deck; place it at the top or bottom of your Deck.\n[End of Your Turn] You may place this card in your Drop: If you have 1 or less Life cards, add the top card of your Deck at the top of your Life.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-006.jpg?v=864aa5e97da5"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-006.jpg?v=a82019d7e4a8"
   },
   "SD2-007": {
     "id": "SD2-007",
@@ -14822,7 +14827,7 @@
         "name": "Urban Guerrilla",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-007.jpg?v=a460093500f3",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-007.jpg?v=7b53a67e913d",
         "isHorizontal": false,
         "power": 2000
       }
@@ -14847,10 +14852,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] If you have less Life cards than your Opponent: Draw 2 cards and place 1 card from your hand in your Drop.",
+    "Effect": "[On Play] If you have less Life cards than your Opponent: Draw 2 cards; place 1 card from your hand in your Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-007.jpg?v=a460093500f3"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-007.jpg?v=7b53a67e913d"
   },
   "SD2-008": {
     "id": "SD2-008",
@@ -14859,7 +14864,7 @@
         "name": "Toru",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-008.jpg?v=0ec0aac8231b",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-008.jpg?v=72bc9732818c",
         "isHorizontal": false,
         "power": 2000
       }
@@ -14883,10 +14888,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] You may turn 1 card from the top of your Life cards face-up: Look at up to 7 cards from the top of your Deck; add up to 2 cards with \"Rock Human\" in their Traits to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Effect": "[On Play] Turn the top of your Life cards face-up: Look at the top 7 cards of your Deck; add up to 2 cards with the \"Rock Human\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-008.jpg?v=0ec0aac8231b"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-008.jpg?v=72bc9732818c"
   },
   "SD2-009": {
     "id": "SD2-009",
@@ -14895,7 +14900,7 @@
         "name": "Toru",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-009.jpg?v=b261fff9f048",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-009.jpg?v=d153f5fa614d",
         "isHorizontal": false,
         "power": 4000
       }
@@ -14919,10 +14924,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your Opponent's Units with a cost equal to or less than the number of your Life cards.",
+    "Effect": "[On Play] Turn the top of your Life cards face-up: Choose up to 1 of your Opponent's Units with a Cost equal to or less than the number of your Life cards and K.O. it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-009.jpg?v=b261fff9f048"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-009.jpg?v=d153f5fa614d"
   },
   "SD2-010": {
     "id": "SD2-010",
@@ -14931,7 +14936,7 @@
         "name": "Wonder of U",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-010.jpg?v=6f9e50756eb8",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-010.jpg?v=14f56f7f6bf0",
         "isHorizontal": false,
         "power": 6000
       }
@@ -14958,10 +14963,10 @@
       "Blocker",
       "Elusive"
     ],
-    "Effect": "Blocker Elusive\n[On Play] If your Leader is \"Toru\" and you have 1 or less Life cards: Add up to 1 card from the top of your Deck to your Life.",
+    "Effect": "Blocker Elusive\n[On Play] If your Leader is \"Toru\" and you have 1 or less Life cards: Add up to 1 card from the top of your Deck at the top of your Life.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-010.jpg?v=6f9e50756eb8"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-010.jpg?v=14f56f7f6bf0"
   },
   "SD2-011": {
     "id": "SD2-011",
@@ -14970,7 +14975,7 @@
         "name": "Wonder of U",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-011.jpg?v=6a0bc7464358",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-011.jpg?v=d5fca5f000e1",
         "isHorizontal": false,
         "power": 5000
       }
@@ -14996,10 +15001,10 @@
       "On Play",
       "Elusive"
     ],
-    "Effect": "Elusive\n[On Play] If your Leader is \"Toru\" and you place 1 card from your hand in your Drop: Add up to 1 card from the top of your Deck to your Life.",
+    "Effect": "Elusive\n[On Play] If your Leader is \"Toru\" and you place 1 card from your hand in your Drop: Add up to 1 card from the top of your Deck at the top of your Life.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-011.jpg?v=6a0bc7464358"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-011.jpg?v=d5fca5f000e1"
   },
   "SD2-012": {
     "id": "SD2-012",
@@ -15008,7 +15013,7 @@
         "name": "Wonder of U",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-012.jpg?v=6fc1b22b8e38",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-012.jpg?v=f6145d453f98",
         "isHorizontal": false,
         "power": 5000
       }
@@ -15035,10 +15040,10 @@
       "Permanent",
       "Elusive"
     ],
-    "Effect": "Elusive\n<Permanent> If you have 2 or less Life cards, give this card in your hand -1 Cost.\n[Opponent's Turn] If your Leader is \"Toru\" and this card is removed from your Field: Your Opponent adds 1 card from their Life to their hand.",
+    "Effect": "Elusive\nPermanent If you have 2 or less Life cards, give this card in your hand -1 Cost.\n[Opponent's Turn] When this card is removed from your field: If your Leader is \"Toru\", your Opponent adds the top of their Life cards to their hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-012.jpg?v=6fc1b22b8e38"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-012.jpg?v=f6145d453f98"
   },
   "SD2-013": {
     "id": "SD2-013",
@@ -15047,7 +15052,7 @@
         "name": "Wonder of U",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-013.jpg?v=480b6a460535",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-013.jpg?v=879646bcd419",
         "isHorizontal": false,
         "power": 6000
       }
@@ -15077,10 +15082,10 @@
       "Blocker",
       "Elusive"
     ],
-    "Effect": "Blocker Elusive\n[On Play] Limit 1 If your Leader is \"Toru\": Place up to 1 card from your hand in your Life. Then, K.O. up to 1 of your Opponent's Units with a cost equal to or less than the number of your Life cards.\n[Activate: Main] (1) <Once per Turn> Give your Leader or 1 of your Units +1000 Power for the turn.",
+    "Effect": "Blocker Elusive\n[On Play] Limit 1 If your Leader is \"Toru\": Add up to 1 card from your hand at the top of your Life. Then, choose up to 1 of your Opponent's Units with a cost equal to or less than the number of your Life cards and K.O. it.\n[Activate: Main] Once per Turn (1) Give your Leader or 1 of your Units +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-013.jpg?v=480b6a460535"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-013.jpg?v=879646bcd419"
   },
   "SD2-014": {
     "id": "SD2-014",
@@ -15089,7 +15094,7 @@
         "name": "Wonder of U",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-014.jpg?v=06ecbc468238",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-014.jpg?v=1fec4b92bfcc",
         "isHorizontal": false,
         "power": 7000
       }
@@ -15118,10 +15123,10 @@
       "Barrier",
       "Elusive"
     ],
-    "Effect": "Barrier Elusive\n[On Play] If your Leader is \"Toru\": Place up to 1 card from your hand in your Life. Then, if you have 2 or less Life cards, draw 1 card.\n[Opponent's Turn] <Once per Turn> When a card is removed from your Life, give your Leader or 1 of your Units +1000 Power for the turn.",
+    "Effect": "Barrier Elusive\n[On Play] If your Leader is \"Toru\": Add up to 1 card from your hand at the top of your Life. Then, if you have 2 or less Life cards, draw 1 card.\n[Opponent's Turn] Once per Turn When a card is removed from your Life, give your Leader or 1 of your Units +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-014.jpg?v=06ecbc468238"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-014.jpg?v=1fec4b92bfcc"
   },
   "SD2-015": {
     "id": "SD2-015",
@@ -15130,7 +15135,7 @@
         "name": "Toru",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-015.jpg?v=a8b4ebe2860a",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-015.jpg?v=291a5049fe79",
         "isHorizontal": false,
         "power": 4000
       }
@@ -15154,10 +15159,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] You may turn 1 card from the top of your Life cards face-up: Play up to 1 Unit with a cost of 2 or less and including \"Rock\" in its Traits from your hand.",
+    "Effect": "[On Play] Turn the top of your Life cards face-up: Play up to 1 Unit card with a Cost of 2 or less and that includes \"Rock\" in its Traits from your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-015.jpg?v=a8b4ebe2860a"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-015.jpg?v=291a5049fe79"
   },
   "SD2-016": {
     "id": "SD2-016",
@@ -15166,7 +15171,7 @@
         "name": "Toru",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-016.jpg?v=35ec0e93f7e1",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-016.jpg?v=0a4d35e432bd",
         "isHorizontal": false,
         "power": 5000
       }
@@ -15191,10 +15196,10 @@
     "Keywords": [
       "Limit 1"
     ],
-    "Effect": "Limit 1 When a card is added from your or your Opponent's Life to the owner's hand: Draw 1 card.",
+    "Effect": "Limit 1 When a card is removed from your or your Opponent's Life: Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-016.jpg?v=35ec0e93f7e1"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-016.jpg?v=0a4d35e432bd"
   },
   "SD2-017": {
     "id": "SD2-017",
@@ -15203,7 +15208,7 @@
         "name": "Locacaca 6251",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-017.jpg?v=18e74aab825f",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-017.jpg?v=4db834a029a9",
         "isHorizontal": false
       }
     },
@@ -15224,14 +15229,14 @@
       "Locacaca"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Attack",
+      "Activate: Main",
       "Clash"
     ],
-    "Effect": "[Activate: Main] If your Leader has \"Rock Human\" in their Traits, place 1 card from the top of your Life cards in your Drop. Then, add up to 1 card from the top of your Deck to your Life and place 1 card from your hand in your Drop.\nClash [Opponent's Attack] Give your card that's in a battle +3000 Power for the battle.",
+    "Effect": "[Activate: Main] If your Leader has the \"Rock Human\" Trait: Place the top of your Life cards in your Drop; add up to 1 card from the top of your Deck at the top of your Life and place 1 card from your hand in your Drop.\nClash [Opponent's Attack] Give your card that's in a battle +3000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-017.jpg?v=18e74aab825f"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-017.jpg?v=4db834a029a9"
   },
   "SD2-018": {
     "id": "SD2-018",
@@ -15240,7 +15245,7 @@
         "name": "Rock Organism Emergence",
         "type": "ACTION",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD2-018.jpg?v=a3eecc387e3e",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD2-018.jpg?v=e94affcb0958",
         "isHorizontal": false
       }
     },
@@ -15264,10 +15269,10 @@
       "Activate: Main",
       "Limit 1"
     ],
-    "Effect": "[Activate: Main] Limit 1 If your Leader has the \"Rock Human\" trait: Choose 1 card in your Drop with a Cost of 3 or less and with only \"Rock Human\", \"Rock Animal\" or \"Rock Insect\" in its Traits; add it to the top of your Life.",
+    "Effect": "[Activate: Main] Limit 1 If your Leader has the \"Rock Human\" Trait: Add 1 card with a Cost of 3 or less and the \"Rock Human\", \"Rock Animal\" or \"Rock Insect\" Trait from your Drop at the top of your Life.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD2-018.jpg?v=a3eecc387e3e"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD2-018.jpg?v=e94affcb0958"
   },
   "SD2-019": {
     "id": "SD2-019",
@@ -15276,7 +15281,7 @@
         "name": "Only a centimeter away",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD2-019.jpg?v=813880572055",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD2-019.jpg?v=fed479e5a546",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -15300,10 +15305,10 @@
       "On Play",
       "Clash"
     ],
-    "Effect": "[On Play] Draw 1 card. Then, give your Leader or up to 1 of your Units +1000 Power for the turn.\nClash [Activate: Battle] Return this card to your SJ Deck: Give your card that's in a battle +2000 Power for the battle. Then, if you have 0 Life cards, draw 1 card.",
+    "Effect": "[On Play] Draw 1 card. Then, give your Leader or up to 1 of your Units +1000 Power for the turn.\nClash [Activate: Battle] Return this card to your JUMP Deck: Give your card that's in a battle +2000 Power for the battle. Then, if you have 0 Life cards, draw 1 card.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD2-019.jpg?v=813880572055"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD2-019.jpg?v=fed479e5a546"
   },
   "SD2-020": {
     "id": "SD2-020",
@@ -15312,7 +15317,7 @@
         "name": "New Locacaca Fruit",
         "type": "JUMP ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD2-020.jpg?v=6fd946d044ad",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD2-020.jpg?v=425a6c45bd82",
         "isHorizontal": true,
         "sjCost": 3
       }
@@ -15335,10 +15340,10 @@
       "Activate: Main",
       "On Play"
     ],
-    "Effect": "[On Play] You may give 1 of your Units -1000 Power for the turn: Give your Leader +1000 Power for the turn.\n[Activate: Main] If your Leader is \"Toru\" and you remove this card from the game: Add 1 card from your Life to your hand; your Opponent adds a card from their Life to their hand. Then, you may place up to 1 card from your hand in your Life and your Opponent places that many cards from their hand in their Life.",
+    "Effect": "[On Play] Give 1 of your Units -1000 Power for the turn: Give your Leader +1000 Power for the turn.\n[Activate: Main] If your Leader is \"Toru\": Remove this card from the game and add 1 card from your Life to your hand; your Opponent adds a card from their Life to their hand. Then, you may add up to 1 card from your hand at the top of your Life; your Opponent places that many cards from their hand at the top of their Life.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD2-020.jpg?v=6fd946d044ad"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD2-020.jpg?v=425a6c45bd82"
   },
   "SD3-001": {
     "id": "SD3-001",
@@ -17673,7 +17678,7 @@
         "name": "Riyo Reaper",
         "type": "LEADER",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-001.jpg?v=5b6e35e230ff",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-001.jpg?v=1d361b9f9bc2",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17701,10 +17706,10 @@
       "Once per Turn",
       "Threshold"
     ],
-    "Effect": "[Activate: Main] <Once per Turn> (X) Place 1 card from your hand in your Drop: Play up to 1 Unit card with a Cost equal to X and \"Cleaner\" in its Traits from your Drop.\nThreshold 2 [Activate: Battle] <Once per Turn> If this card is in a battle and you remove 1 SJ Marker: Use up to 1 Unit card with the \"Cleaner\" Trait from your Drop in a combo.",
+    "Effect": "[Activate: Main] Once per Turn (X) Place 1 card from your hand in your Drop: Play up to 1 Unit card with a Cost equal to X and \"Cleaner\" in its Traits from your Drop.\nThreshold 2 [Activate: Battle] Once per Turn If this card is in a battle and you remove 1 SJ Marker: Use up to 1 Unit card with the \"Cleaner\" Trait from your Drop in a combo.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-001.jpg?v=5b6e35e230ff"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-001.jpg?v=1d361b9f9bc2"
   },
   "EX1-002": {
     "id": "EX1-002",
@@ -17713,7 +17718,7 @@
         "name": "Semiu Grier",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg?v=c8bcf96f89a1",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg?v=d5b0410fde7a",
         "isHorizontal": false,
         "power": 1000
       }
@@ -17738,10 +17743,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] If your Leader has \"Cleaner\" in its Traits, look at 4 cards from the top of your Deck, reveal up to 1 card with \"Cleaner\" in its Traits and add it to your hand. Place the rest at the bottom of your Deck in any order.",
+    "Effect": "[On Play] If your Leader has the \"Cleaner\" Trait: Look at the top 4 cards of your Deck; add up to 1 card with the \"Cleaner\" Trait and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg?v=c8bcf96f89a1"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg?v=d5b0410fde7a"
   },
   "EX1-003": {
     "id": "EX1-003",
@@ -17750,7 +17755,7 @@
         "name": "Adderoy Twins",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-003.jpg?v=dbfe1d7cf36e",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-003.jpg?v=ff256e9afbe9",
         "isHorizontal": false,
         "power": 1000
       }
@@ -17775,10 +17780,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] If this card was played from your hand: Place 1 card with \"Cleaner\" in its Traits from your hand in your Drop and draw 2 cards.",
+    "Effect": "[On Play] If this card was played from your hand: Place 1 card with the \"Cleaner\" Trait from your hand in your Drop; draw 2 cards.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-003.jpg?v=dbfe1d7cf36e"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-003.jpg?v=ff256e9afbe9"
   },
   "EX1-004": {
     "id": "EX1-004",
@@ -17787,7 +17792,7 @@
         "name": "Gris Rubion",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-004.jpg?v=10964fba1e86",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-004.jpg?v=484346b629ad",
         "isHorizontal": false,
         "power": 2000
       }
@@ -17811,13 +17816,12 @@
     "Keywords": [
       "Activate: Main",
       "Accelcharge",
-      "Charge",
       "Unique"
     ],
-    "Effect": "Unique\n[Activate: Main] Rest this card: <Accelcharge> 1. Then, give up to 1 of your Units +1000 Power for the turn.",
+    "Effect": "Unique\n[Activate: Main] Rest this card: Accelcharge 1. Then, give up to 1 of your Units +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-004.jpg?v=10964fba1e86"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-004.jpg?v=484346b629ad"
   },
   "EX1-005": {
     "id": "EX1-005",
@@ -17826,7 +17830,7 @@
         "name": "Follo Tunito",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-005.jpg?v=c6b2302708f8",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-005.jpg?v=b3dce230b8ff",
         "isHorizontal": false,
         "power": 4000
       }
@@ -17849,17 +17853,17 @@
       "Giver"
     ],
     "Keywords": [
+      "On Attack / On K.O.",
+      "Accelcharge",
       "On Attack",
       "On K.O.",
       "On Play",
-      "Accelcharge",
-      "Charge",
       "Raid"
     ],
-    "Effect": "[On Play] Raid {1} Choose up to 1 of your Opponent's Units and give it -3000 Power for the turn.\n[On Attack / On K.O.] <Accelcharge> 1.",
+    "Effect": "[On Play] Raid {1} Choose up to 1 of your Opponent's Units and give it -3000 Power for the turn.\n[On Attack / On K.O.] Accelcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-005.jpg?v=c6b2302708f8"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-005.jpg?v=b3dce230b8ff"
   },
   "EX1-006": {
     "id": "EX1-006",
@@ -17868,7 +17872,7 @@
         "name": "Rudo Surebrec",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-006.jpg?v=31c391b67da0",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-006.jpg?v=ef55e169074d",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17891,18 +17895,18 @@
       "Giver"
     ],
     "Keywords": [
+      "On Attack / On K.O.",
+      "Accelcharge",
+      "Permanent",
       "On Attack",
       "On K.O.",
       "On Play",
-      "Accelcharge",
-      "Permanent",
-      "Charge",
       "Raid"
     ],
-    "Effect": "<Permanent> Give this card in your Drop -2 Cost.\n[On Play] <Accelcharge> 1 and draw 1 card.\n[On Attack / On K.O.] Raid {2} Choose up to 2 of your Opponent's Units with a combined Power of 4000 or less and K.O. them.",
+    "Effect": "Permanent Give this card in your Drop -2 Cost.\n[On Play] Accelcharge 1; draw 1 card.\n[On Attack / On K.O.] Raid {2} Choose up to 2 of your Opponent's Units with a combined Power of 5000 or less and K.O. them.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-006.jpg?v=31c391b67da0"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-006.jpg?v=ef55e169074d"
   },
   "EX1-007": {
     "id": "EX1-007",
@@ -17911,7 +17915,7 @@
         "name": "Rudo Surebrec",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-007.jpg?v=9564137cb4fa",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-007.jpg?v=f96124fabd49",
         "isHorizontal": false,
         "power": 6000
       }
@@ -17934,15 +17938,14 @@
       "Giver"
     ],
     "Keywords": [
-      "On Attack",
-      "On Play",
       "Accelcharge",
-      "Charge"
+      "On Attack",
+      "On Play"
     ],
-    "Effect": "[On Play] If your Leader has \"Cleaner\" in their Traits; place the top 3 cards of your Deck in your Drop. Then, add up to 1 card, excluding \"Rudo Surebrec\", with \"Cleaner\" or \"Jinki\" in Traits from your Drop to your hand.\n[On Attack] <Accelcharge> 1.",
+    "Effect": "[On Play] If your Leader has the \"Cleaner\" Trait; place the top 3 cards of your Deck in your Drop. Then, add up to 1 card, excluding \"Rudo Surebrec\", with the \"Cleaner\" or \"Jinki\" Trait from your Drop to your hand.\n[On Attack] Accelcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-007.jpg?v=9564137cb4fa"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-007.jpg?v=f96124fabd49"
   },
   "EX1-008": {
     "id": "EX1-008",
@@ -17951,7 +17954,7 @@
         "name": "Riyo Reaper",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-008.jpg?v=3ca4fd145e95",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-008.jpg?v=3240c37b96f4",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17963,7 +17966,7 @@
     "Color": "Red",
     "Set": "GKA",
     "Release": "EX1",
-    "Rarity": "SR",
+    "Rarity": "R",
     "Cost": 6,
     "SJ_Cost": null,
     "Life": null,
@@ -17975,15 +17978,14 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "On Play",
       "Accelcharge",
-      "Limit 1",
-      "Charge"
+      "On Play",
+      "Limit 1"
     ],
-    "Effect": "[On Play] <Accelcharge> 1.\n[Activate: Main] Limit 1 Place this card in your Drop: Play up to 1 \"Riyo Reaper\" with a Cost of 8 from your Drop.",
+    "Effect": "[On Play] Accelcharge 1.\n[Activate: Main] Limit 1 Place this card in your Drop: Play up to 1 \"Riyo Reaper\" with a Cost of 8 from your Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-008.jpg?v=3ca4fd145e95"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-008.jpg?v=3240c37b96f4"
   },
   "EX1-009": {
     "id": "EX1-009",
@@ -17992,7 +17994,7 @@
         "name": "Riyo Reaper",
         "type": "UNIT",
         "cost": 8,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-009.jpg?v=3e1e4c7b4d38",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-009.jpg?v=377da3b96d8a",
         "isHorizontal": false,
         "power": 5000
       }
@@ -18004,7 +18006,7 @@
     "Color": "Red",
     "Set": "GKA",
     "Release": "EX1",
-    "Rarity": "R",
+    "Rarity": "SR",
     "Cost": 8,
     "SJ_Cost": null,
     "Life": null,
@@ -18016,14 +18018,14 @@
     ],
     "Keywords": [
       "Activate: Main",
+      "Unblockable",
       "Your Turn",
-      "Raid",
-      "Unblockable"
+      "Raid"
     ],
     "Effect": "[Your Turn] Give this card +1000 Power for every 2 of your SJ Markers.\n[Activate: Main] Raid {1} Give this card Unblockable for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-009.jpg?v=3e1e4c7b4d38"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-009.jpg?v=377da3b96d8a"
   },
   "EX1-010": {
     "id": "EX1-010",
@@ -18032,7 +18034,7 @@
         "name": "Riyo Reaper",
         "type": "UNIT",
         "cost": 8,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-010.jpg?v=7fe2ce0659d8",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-010.jpg?v=89bce79d836d",
         "isHorizontal": false,
         "power": 8000
       }
@@ -18057,14 +18059,14 @@
     "Keywords": [
       "Opponent's Attack",
       "On Play",
+      "Unique",
       "Clash",
-      "Raid",
-      "Unique"
+      "Raid"
     ],
-    "Effect": "Unique\n[On Play] Add up to 1 card with \"Cleaner\" in its Traits from your Drop to your hand. Then, play up to 1 Unit with a Cost of 2 or less from your hand.\nClash [Opponent's Attack] Raid {1} Choose all of your Opponent's Units and give them -1000 Power for the turn.",
+    "Effect": "Unique\n[On Play] Add up to 1 card with the \"Cleaner\" Trait from your Drop to your hand. Then, play up to 1 Unit card with a Cost of 2 or less from your hand.\nClash [Opponent's Attack] Raid {1} Choose all of your Opponent's Units and give them -1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-010.jpg?v=7fe2ce0659d8"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-010.jpg?v=89bce79d836d"
   },
   "EX1-011": {
     "id": "EX1-011",
@@ -18073,7 +18075,7 @@
         "name": "Amo Empool",
         "type": "UNIT",
         "cost": 7,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-011.jpg?v=2f5db8e2e45b",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-011.jpg?v=253a557f862b",
         "isHorizontal": false,
         "power": 5000
       }
@@ -18096,15 +18098,15 @@
       "Giver"
     ],
     "Keywords": [
-      "On Play",
       "Permanent",
+      "On Play",
       "Limit 1",
       "Blocker"
     ],
-    "Effect": "Blocker\n<Permanent> If you have 3 or more SJ Markers in your JUMP Zone: Give this card in your Drop -3 Cost.\n[On Play] Limit 1 Remove 1 SJ Marker: Play up to 1 Unit with a Cost of 3 or less and \"Cleaner\" in its Traits from your Drop, Rested.",
+    "Effect": "Blocker\nPermanent If you have 3 or more SJ Markers: Give this card in your Drop -3 Cost.\n[On Play] Limit 1 Remove 1 SJ Marker: Play up to 1 Unit card with a Cost of 3 or less and the \"Cleaner\" Trait from your Drop Rested.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-011.jpg?v=2f5db8e2e45b"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-011.jpg?v=253a557f862b"
   },
   "EX1-012": {
     "id": "EX1-012",
@@ -18113,7 +18115,7 @@
         "name": "Enjin",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-012.jpg?v=db0a365297ae",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-012.jpg?v=47e3cb16d00a",
         "isHorizontal": false,
         "power": 5000
       }
@@ -18136,14 +18138,13 @@
       "Giver"
     ],
     "Keywords": [
-      "On Play",
       "Permanent",
-      "Limit 1"
+      "On Play"
     ],
-    "Effect": "<Permanent> If you have 3 or more SJ Markers in your JUMP Zone: Give this card in your Drop -1 Cost.\n[On Play] Limit 1 Draw 1.",
+    "Effect": "Permanent If you have 3 or more SJ Markers: Give this card in your Drop -1 Cost.\n[On Play] Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-012.jpg?v=db0a365297ae"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-012.jpg?v=47e3cb16d00a"
   },
   "EX1-013": {
     "id": "EX1-013",
@@ -18152,7 +18153,7 @@
         "name": "August Stiltza",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-013.jpg?v=c47a6578e11e",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-013.jpg?v=997b23ef7f5d",
         "isHorizontal": false,
         "power": 1000
       }
@@ -18180,7 +18181,7 @@
     "Effect": "[Activate: Battle] Limit 1 When this card is used in a combo from your Drop: Give your card that's in a battle +1000 Power for the battle. Then, place this card at the bottom of your Deck at the end of the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-013.jpg?v=c47a6578e11e"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-013.jpg?v=997b23ef7f5d"
   },
   "EX1-014": {
     "id": "EX1-014",
@@ -18189,7 +18190,7 @@
         "name": "Zanka Nijiku",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-014.jpg?v=c4847cdc9b3c",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-014.jpg?v=e7387394d86a",
         "isHorizontal": false,
         "power": 4000
       }
@@ -18212,16 +18213,16 @@
       "Giver"
     ],
     "Keywords": [
+      "Permanent",
       "On Attack",
       "On K.O.",
-      "Permanent",
       "Limit 1",
       "Raid"
     ],
-    "Effect": "<Permanent> Give this card in your Drop -2 Cost.\n[On Attack] Choose up to 1 of your Opponent's Units with 3000 Power or less and K.O. it.\n[On K.O.] Limit 1 Raid {2} If you have 3 or more SJ Markers in your JUMP Zone: Play this card from your Drop.",
+    "Effect": "Permanent Give this card in your Drop -2 Cost.\n[On Attack] Choose up to 1 of your Opponent's Units with 3000 Power or less and K.O. it.\n[On K.O.] Limit 1 Raid {2} If you have 3 or more SJ Markers: Play this card from your Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-014.jpg?v=c4847cdc9b3c"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-014.jpg?v=e7387394d86a"
   },
   "EX1-015": {
     "id": "EX1-015",
@@ -18230,7 +18231,7 @@
         "name": "Eishia Stiltza",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-015.jpg?v=b88bc4107b2c",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-015.jpg?v=e33be577439d",
         "isHorizontal": false,
         "power": 1000
       }
@@ -18254,10 +18255,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, if your Leader has \"Cleaner\" in their Traits, you may place 3 cards from the top of your Deck in your Drop and draw 1 card.",
+    "Effect": "[On Play] Add up to 1 card from your Life to your hand. Then, if your Leader has the \"Cleaner\" Trait, you may place 3 cards from the top of your Deck in your Drop and draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-015.jpg?v=b88bc4107b2c"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-015.jpg?v=e33be577439d"
   },
   "EX1-016": {
     "id": "EX1-016",
@@ -18266,7 +18267,7 @@
         "name": "The Ripper",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-016.jpg?v=68fa74643ead",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-016.jpg?v=a0fb4157b795",
         "isHorizontal": false
       }
     },
@@ -18289,10 +18290,10 @@
     "Keywords": [
       "Activate: Battle"
     ],
-    "Effect": "[Activate: Battle] Give your card that's in a battle +1000 Power for each SJ Marker you have in your JUMP Zone.",
+    "Effect": "[Activate: Battle] Give your card that's in a battle +1000 Power for each of your SJ Markers.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-016.jpg?v=68fa74643ead"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-016.jpg?v=a0fb4157b795"
   },
   "EX1-017": {
     "id": "EX1-017",
@@ -18340,7 +18341,7 @@
         "name": "Last Resort",
         "type": "ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-018.jpg?v=1d072349a67d",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-018.jpg?v=d8d14a6ad894",
         "isHorizontal": false
       }
     },
@@ -18365,10 +18366,10 @@
       "Limit 1",
       "Barrier"
     ],
-    "Effect": "[Activate: Main] Limit 1 If you have 3 or more SJ Markers in your JUMP Zone: Choose up to 1 of your Opponent's Units, ignoring Barrier, and its Power becomes 0 for the turn.\n[Activate: Main] Remove 1 SJ Marker: Remove this card in your Drop from the game; draw 1 card.",
+    "Effect": "[Activate: Main] Limit 1 If you have 3 or more SJ Markers: Choose up to 1 of your Opponent's Units, ignoring Barrier, and set its Power to 0 for the turn.\n[Activate: Main] Remove 1 SJ Marker and remove this card in your Drop from the game: Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-018.jpg?v=1d072349a67d"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-018.jpg?v=d8d14a6ad894"
   },
   "EX1-019": {
     "id": "EX1-019",
@@ -18377,7 +18378,7 @@
         "name": "The Abyss",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX1-019.jpg?v=d0bb68392bf2",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX1-019.jpg?v=81d99dca2290",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -18398,12 +18399,13 @@
     "Traits": [],
     "Keywords": [
       "Once per Turn",
+      "End of Turn",
       "Your Turn"
     ],
-    "Effect": "[Your Turn] <Once per Turn> When you play a Unit card from your Drop: Draw 1 card.\n[End of Turn] If you have no SJ Markers in your JUMP Zone: Remove this card from the game.",
+    "Effect": "[Your Turn] Once per Turn When you play a Unit card from your Drop: Draw 1 card.\n[End of Turn] If you have no SJ Markers: Remove this card from the game.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX1-019.jpg?v=d0bb68392bf2"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX1-019.jpg?v=81d99dca2290"
   },
   "EX1-020": {
     "id": "EX1-020",
@@ -18412,7 +18414,7 @@
         "name": "Cleaners Headquarters",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX1-020.jpg?v=02af79c05d5d",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX1-020.jpg?v=d091f2936476",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -18436,10 +18438,10 @@
       "On Play",
       "Clash"
     ],
-    "Effect": "[On Play] If your Leader has the \"Cleaner\" Trait, give all of your Opponent's Units -1000 Power until the end of your Opponent's next turn.\nClash [Opponent's Attack] (1) If you have 3 or more SJ Markers in your JUMP Zone and you return this card to your JUMP Deck: Negate the attack, then shuffle up to 5 Unit cards with \"Cleaner\" in their Traits from your Drop into your Deck.",
+    "Effect": "[On Play] If your Leader has the \"Cleaner\" Trait, choose all of your Opponent's Units and give them -2000 Power until the end of your Opponent's next turn.\nClash [Opponent's Attack] (1) If you have 3 or more SJ Markers: Return this card to your JUMP Deck; Negate the attack. Then, shuffle up to 5 Unit cards with the \"Cleaner\" Trait from your Drop into your Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX1-020.jpg?v=02af79c05d5d"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/EX1-020.jpg?v=d091f2936476"
   },
   "EX1-021": {
     "id": "EX1-021",
@@ -18448,7 +18450,7 @@
         "name": "Amo Empool",
         "type": "JUMP UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-021.jpg?v=cc0fc3d3f674",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-021.jpg?v=4f7fc9fdbdc6",
         "isHorizontal": false,
         "power": 5000,
         "sjCost": 2
@@ -18473,16 +18475,15 @@
     ],
     "Keywords": [
       "Opponent's Turn",
-      "On Play",
       "Overcharge",
       "Permanent",
-      "Blocker",
-      "Charge"
+      "On Play",
+      "Blocker"
     ],
-    "Effect": "<Permanent> If this card would be removed from the field by your Opponent: Shuffle 3 cards with \"Cleaner\" in their Traits from your Drop into your Deck and return this card to your JUMP Deck instead.\n[On Play] Remove 1 SJ Marker: <Overcharge> 2 and you can't <Overcharge> for the turn.\n[Opponent's Turn] If you have 3 or more SJ Markers in your JUMP Zone: Give this card +1000 Power and Blocker.",
+    "Effect": "Permanent If this card would be removed from your field by your Opponent's skill or K.O.'d: Shuffle 3 cards with the \"Cleaner\" Trait from your Drop into your Deck and return this card to your JUMP Deck instead.\n[Opponent's Turn] If you have 3 or more SJ Markers: Give this card +1000 Power and Blocker.\n[On Play] Remove 1 SJ Marker: Overcharge 2 and you can't Overcharge for the turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-021.jpg?v=cc0fc3d3f674"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-021.jpg?v=4f7fc9fdbdc6"
   },
   "EX2-001": {
     "id": "EX2-001",
@@ -21554,7 +21555,7 @@
         "name": "Enjin",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-018.jpg?v=4ef00b958d6e",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-018.jpg?v=9cdf87b5b9fd",
         "isHorizontal": false,
         "power": 5000
       }
@@ -21577,14 +21578,14 @@
       "Giver"
     ],
     "Keywords": [
+      "Permanent",
       "On K.O.",
-      "On Play",
-      "Permanent"
+      "On Play"
     ],
-    "Effect": "<Permanent> Give this card in your Drop -1 Cost.\n[On Play] Place up to 1 card with the \"Cleaner\" Trait from your Deck in your Drop.\n[On K.O.] Draw 1 card.",
+    "Effect": "Permanent Give this card in your Drop -1 Cost.\n[On Play] Place up to 1 card with the \"Cleaner\" Trait from your Deck in your Drop.\n[On K.O.] Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-018.jpg?v=4ef00b958d6e"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-018.jpg?v=9cdf87b5b9fd"
   },
   "PUP-019": {
     "id": "PUP-019",
@@ -21593,7 +21594,7 @@
         "name": "Fu Ororstor",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-019.jpg?v=497863ecbdc4",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-019.jpg?v=102c0b5eb6b0",
         "isHorizontal": false,
         "power": 3000
       }
@@ -21616,16 +21617,16 @@
       "Giver"
     ],
     "Keywords": [
+      "Permanent",
       "On K.O.",
       "On Play",
-      "Permanent",
       "Limit 1",
       "Raid"
     ],
-    "Effect": "<Permanent> Give this card in your Drop -2 Cost.\n[On Play] Limit 1 Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.\n[On K.O.] Raid {1} Add this card from your Drop to your hand.",
+    "Effect": "Permanent Give this card in your Drop -2 Cost.\n[On Play] Limit 1 Choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.\n[On K.O.] Raid {1} Add this card from your Drop to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-019.jpg?v=497863ecbdc4"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-019.jpg?v=102c0b5eb6b0"
   },
   "PUP-020": {
     "id": "PUP-020",
