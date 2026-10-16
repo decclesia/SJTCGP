@@ -21,7 +21,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "8085fe6c6d10"
+    "imageVersion": "53e685991a1a"
   },
   {
     "number": "ST1-003",
@@ -45,7 +45,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "5295a4e97b3a"
+    "imageVersion": "ee263484c9a1"
   },
   {
     "number": "ST1-005",
@@ -105,7 +105,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "2c4d05a0b37f"
+    "imageVersion": "e1921f83c495"
   },
   {
     "number": "ST1-010",
@@ -117,7 +117,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "39fd7f3c82f5"
+    "imageVersion": "32741b34852d"
   },
   {
     "number": "ST1-011",
@@ -153,7 +153,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "0c5792979794"
+    "imageVersion": "a253552b1fb9"
   },
   {
     "number": "ST1-014",
@@ -201,7 +201,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "d1050b1158ce"
+    "imageVersion": "6eb669aaa0de"
   },
   {
     "number": "ST1-018",
@@ -336,7 +336,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "cbaaba4d35d0"
+    "imageVersion": "753aa5873c2f"
   },
   {
     "number": "ST1-028",
@@ -348,7 +348,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "a291e08ea545"
+    "imageVersion": "352eb4ecd98d"
   },
   {
     "number": "ST1-029",
@@ -360,7 +360,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "d6db8499ca2b"
+    "imageVersion": "d1d89706d89e"
   },
   {
     "number": "ST1-030",
@@ -372,7 +372,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "46531fb744f8"
+    "imageVersion": "7a9a7479e011"
   },
   {
     "number": "ST1-031",
@@ -384,7 +384,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "a242c5fd205b"
+    "imageVersion": "04ff229e5bc1"
   },
   {
     "number": "ST1-032",
@@ -396,7 +396,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "9e069c7c8095"
+    "imageVersion": "67b8a70ca874"
   },
   {
     "number": "ST1-033",
@@ -588,7 +588,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "334c18aa7b5c"
+    "imageVersion": "1ed62e89298f"
   },
   {
     "number": "ST1-049",
@@ -600,7 +600,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "32d396b1df83"
+    "imageVersion": "5ca9a038c1d3"
   },
   {
     "number": "ST1-050",
@@ -624,7 +624,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "9050011f7487"
+    "imageVersion": "b56b206321c3"
   },
   {
     "number": "ST1-052",
@@ -1524,7 +1524,7 @@
     "cardType": "Secret Rare",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "57007653dc06"
+    "imageVersion": "3b8d710aafdf"
   },
   {
     "number": "ST1-127",
@@ -3072,7 +3072,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "cf63f88aaa95"
+    "imageVersion": "32162bba11f2"
   },
   {
     "number": "ST3-001",
@@ -7380,7 +7380,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "db96a57dc358"
+    "imageVersion": "090ca2888895"
   },
   {
     "number": "EX1-001",
@@ -10824,7 +10824,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "912ff11d9016"
+    "imageVersion": "8a98a564a1d8"
   },
   {
     "number": "SD10-003",
@@ -10836,7 +10836,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "6598852233f9"
+    "imageVersion": "2c28d30b9e68"
   },
   {
     "number": "SD10-004",
@@ -10848,7 +10848,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "0aac39072d43"
+    "imageVersion": "e1a5d3806b8a"
   },
   {
     "number": "SD10-005",
@@ -12036,7 +12036,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "95ec8f3a1329"
+    "imageVersion": "c744195e6080"
   },
   {
     "number": "PUP-002",
@@ -12048,7 +12048,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "fbfff43a4b89"
+    "imageVersion": "2f86f3ca6828"
   },
   {
     "number": "PUP-003",
@@ -12096,7 +12096,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "fe58b089f438"
+    "imageVersion": "7830b462e72c"
   },
   {
     "number": "PUP-007",

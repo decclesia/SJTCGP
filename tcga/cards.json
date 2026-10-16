@@ -48,7 +48,7 @@
         "name": "Public Safety Bureau Arrival",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-002.jpg?v=8085fe6c6d10",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-002.jpg?v=53e685991a1a",
         "isHorizontal": false
       }
     },
@@ -72,10 +72,10 @@
     "Keywords": [
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] Look up to 5 cards from the top of your Deck; add up to 1 Action with \"Control Devil\" in its traits to your hand, then you may trash any other Action cards among them and place any remaining cards at the bottom of your Deck in any order.",
+    "Effect": "[Activate: Main] Look at the top 5 cards of your Deck; add up to 1 Action card with the \"Control Devil\" Trait to your hand. Then, you may place any remaining Action cards among them in your Drop and shuffle your Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-002.jpg?v=8085fe6c6d10"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-002.jpg?v=53e685991a1a"
   },
   "ST1-003": {
     "id": "ST1-003",
@@ -123,7 +123,7 @@
         "name": "A corpse is talking",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-004.jpg?v=5295a4e97b3a",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-004.jpg?v=ee263484c9a1",
         "isHorizontal": false
       }
     },
@@ -147,10 +147,10 @@
       "Activate: Main",
       "Limit 1"
     ],
-    "Effect": "[Activate: Main] Limit 1 Choose up to 1 of your opponent's Units and Rest it. Additionally, if your Leader is \"Control Devil\", draw 1 card.",
+    "Effect": "[Activate: Main] Limit 1 Choose up to 1 of your Opponent's Units and Rest it. Then, if your Leader is \"Control Devil\", draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-004.jpg?v=5295a4e97b3a"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-004.jpg?v=ee263484c9a1"
   },
   "ST1-005": {
     "id": "ST1-005",
@@ -312,7 +312,7 @@
         "name": "Save me, Chainsaw Man",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-009.jpg?v=2c4d05a0b37f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-009.jpg?v=e1921f83c495",
         "isHorizontal": false
       }
     },
@@ -336,10 +336,10 @@
       "Opponent's Attack",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] If your Leader is \"Control Devil\": Choose 1 of your Units; choose all of your Opponent's Units with Power less than the chosen card's Power, Rest them and they can't be switched to Active mode for the turn.",
+    "Effect": "Clash [Opponent's Attack] If your Leader is \"Control Devil\": Choose 1 of your Units; choose all of your Opponent's Units with Power less than the chosen card's Power and Rest them.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-009.jpg?v=2c4d05a0b37f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-009.jpg?v=e1921f83c495"
   },
   "ST1-010": {
     "id": "ST1-010",
@@ -348,7 +348,7 @@
         "name": "Wretched Fate",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-010.jpg?v=39fd7f3c82f5",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-010.jpg?v=32741b34852d",
         "isHorizontal": false
       }
     },
@@ -370,13 +370,12 @@
     ],
     "Keywords": [
       "Opponent's Play",
-      "Barrier",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Play] Choose the Unit played, ignoring Barrier, and Rest it. Then, choose all of your Opponent's other Rested Units and reduce their Power by that card's Power for the turn.",
+    "Effect": "Clash [Opponent's Play] When your Opponent plays a Unit: It is played Rest. Then, choose all of your Opponent's other Rested Units and reduce their Power by that card's Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-010.jpg?v=39fd7f3c82f5"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-010.jpg?v=32741b34852d"
   },
   "ST1-011": {
     "id": "ST1-011",
@@ -464,7 +463,7 @@
         "name": "Bang",
         "type": "ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-013.jpg?v=0c5792979794",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-013.jpg?v=a253552b1fb9",
         "isHorizontal": false
       }
     },
@@ -488,10 +487,10 @@
       "Activate: Main",
       "Barrier"
     ],
-    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units for each Action card in your Drop and Rest them. Then, choose up to 1 of your opponent's Rested Units, ignoring Barrier, and K.O. it.",
+    "Effect": "[Activate: Main] Choose 1 of your Opponent's Units for each Action card in your Drop and Rest them. Then, choose up to 1 of your Opponent's Rested Units, ignoring Barrier, and K.O. it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-013.jpg?v=0c5792979794"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-013.jpg?v=a253552b1fb9"
   },
   "ST1-014": {
     "id": "ST1-014",
@@ -615,7 +614,7 @@
         "name": "Thief",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-017.jpg?v=d1050b1158ce",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-017.jpg?v=6eb669aaa0de",
         "isHorizontal": false
       }
     },
@@ -638,10 +637,10 @@
     "Keywords": [
       "Activate: Battle"
     ],
-    "Effect": "[Activate: Battle] K.O. 1 of your Units; give up to 1 of your Opponent's Rested Units -2000 Power for the turn.",
+    "Effect": "[Activate: Battle] K.O. 1 of your Units: Choose up to 1 of your Opponent's Rested Units and give it -1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-017.jpg?v=d1050b1158ce"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-017.jpg?v=6eb669aaa0de"
   },
   "ST1-018": {
     "id": "ST1-018",
@@ -990,7 +989,7 @@
         "name": "Liver Blow",
         "type": "ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-027.jpg?v=cbaaba4d35d0",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-027.jpg?v=753aa5873c2f",
         "isHorizontal": false
       }
     },
@@ -1015,10 +1014,10 @@
       "Activate: Main",
       "Barrier"
     ],
-    "Effect": "[Activate: Main] (3) If your Leader has \"Boxer\" in their Traits: Draw 1 card; choose up to 1 of your Opponent's Units with 5000 Power or less, ignoring Barrier, and K.O. it.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +2000 Power for the battle.",
+    "Effect": "[Activate: Main] (3) If your Leader has the \"Boxer\" Trait: Draw 1 card; choose up to 1 of your Opponent's Units with 5000 or less Power, ignoring Barrier, and K.O. it.\n[Activate: Battle] Place this card in your Combo area: Give your Leader with the \"Boxer\" Trait +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-027.jpg?v=cbaaba4d35d0"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-027.jpg?v=753aa5873c2f"
   },
   "ST1-028": {
     "id": "ST1-028",
@@ -1027,7 +1026,7 @@
         "name": "Gazelle Punch",
         "type": "ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-028.jpg?v=a291e08ea545",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-028.jpg?v=352eb4ecd98d",
         "isHorizontal": false
       }
     },
@@ -1051,10 +1050,10 @@
       "Activate: Battle",
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] (1) If your Leader has \"Boxer\" in their Traits: Draw 1 card. Then, give up to 1 of your Opponent's Units -2000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +2000 Power for the battle.",
+    "Effect": "[Activate: Main] (1) If your Leader has the \"Boxer\" Trait: Draw 1 card; choose up to 1 of your Opponent's Units and give it -2000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: Give your Leader with the \"Boxer\" Trait +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-028.jpg?v=a291e08ea545"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-028.jpg?v=352eb4ecd98d"
   },
   "ST1-029": {
     "id": "ST1-029",
@@ -1063,7 +1062,7 @@
         "name": "Momentum Stop",
         "type": "ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-029.jpg?v=d6db8499ca2b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-029.jpg?v=d1d89706d89e",
         "isHorizontal": false
       }
     },
@@ -1087,10 +1086,10 @@
       "Activate: Battle",
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] (3) Play up to 1 Unit card with a Cost of 4 or less and \"Boxer\" in its Traits from your hand and, if you played a card, it gains +1000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +1000 Power for the battle.",
+    "Effect": "[Activate: Main] (3) Play up to 1 Unit card with a Cost of 4 or less and the \"Boxer\" Trait from your hand and give it +1000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: Give your Leader with the \"Boxer\" Trait +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-029.jpg?v=d6db8499ca2b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-029.jpg?v=d1d89706d89e"
   },
   "ST1-030": {
     "id": "ST1-030",
@@ -1099,7 +1098,7 @@
         "name": "Dempsey Roll",
         "type": "ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-030.jpg?v=46531fb744f8",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-030.jpg?v=7a9a7479e011",
         "isHorizontal": false
       }
     },
@@ -1123,10 +1122,10 @@
       "Activate: Battle",
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] (3) If your Leader has \"Boxer\" in their Traits: Draw 1 card; choose up to 2 of your Opponent's Units and give them -3000 Power for the turn. Then, choose up to 1 of your Opponent's Units with 3000 Power or less and K.O. it.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +2000 Power for the battle.",
+    "Effect": "[Activate: Main] (3) If your Leader has the \"Boxer\" Trait: Draw 1 card; choose up to 2 of your Opponent's Units and give them -3000 Power for the turn. Then, choose up to 1 of your Opponent's Units with 3000 or less Power and K.O. it.\n[Activate: Battle] Place this card in your Combo area: Give your Leader with the \"Boxer\" Trait +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-030.jpg?v=46531fb744f8"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-030.jpg?v=7a9a7479e011"
   },
   "ST1-031": {
     "id": "ST1-031",
@@ -1135,7 +1134,7 @@
         "name": "Dash",
         "type": "ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-031.jpg?v=a242c5fd205b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-031.jpg?v=04ff229e5bc1",
         "isHorizontal": false
       }
     },
@@ -1158,12 +1157,12 @@
     "Keywords": [
       "Activate: Battle",
       "Activate: Main",
-      "Blocker"
+      "Unblockable"
     ],
-    "Effect": "[Activate: Main] (2) If your Leader has \"Boxer\" in their Traits: Your Leader gains +1000 Power for the turn and your Opponent cannot activate Blocker when they attack during this turn.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +1000 Power for the battle.",
+    "Effect": "[Activate: Main] (2) If your Leader has the \"Boxer\" Trait: Give your Leader +1000 Power and Unblockable for the turn.\n[Activate: Battle] Place this card in your Combo area: Give your Leader with the \"Boxer\" Trait +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-031.jpg?v=a242c5fd205b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-031.jpg?v=04ff229e5bc1"
   },
   "ST1-032": {
     "id": "ST1-032",
@@ -1172,7 +1171,7 @@
         "name": "Mitt Training",
         "type": "ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-032.jpg?v=9e069c7c8095",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-032.jpg?v=67b8a70ca874",
         "isHorizontal": false
       }
     },
@@ -1196,10 +1195,10 @@
       "Activate: Battle",
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] (2) If your Leader has \"Boxer\" in their Traits: Your Leader gains +2000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: If your Leader has \"Boxer\" in their Traits, they gain +1000 Power for the battle.",
+    "Effect": "[Activate: Main] (2) If your Leader has the \"Boxer\" Trait: Give your Leader +2000 Power for the turn.\n[Activate: Battle] Place this card in your Combo area: Give your Leader with the \"Boxer\" Trait +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-032.jpg?v=9e069c7c8095"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-032.jpg?v=67b8a70ca874"
   },
   "ST1-033": {
     "id": "ST1-033",
@@ -1789,7 +1788,7 @@
         "name": "Mad Grit",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-048.jpg?v=334c18aa7b5c",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-048.jpg?v=1ed62e89298f",
         "isHorizontal": false
       }
     },
@@ -1815,10 +1814,10 @@
       "Limit 1",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] Limit 1 If your Leader has \"Boxer\" in its Traits: Give up to 1 of your Leader or Units +2000 Power for the battle. Then, you may pay (1) and, if you do, when your Opponent uses a card in a combo for the turn, give it -1000 Counter.",
+    "Effect": "Clash [Opponent's Attack] Limit 1 If your Leader has the \"Boxer\" Trait: Give your Leader or up to 1 of your Units +2000 Power for the battle. Then, you may pay (1): When your Opponent uses a card in a combo during this turn, give it -1000 Counter.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-048.jpg?v=334c18aa7b5c"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-048.jpg?v=1ed62e89298f"
   },
   "ST1-049": {
     "id": "ST1-049",
@@ -1827,7 +1826,7 @@
         "name": "Wind God's Descent",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-049.jpg?v=32d396b1df83",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-049.jpg?v=5ca9a038c1d3",
         "isHorizontal": false
       }
     },
@@ -1852,10 +1851,10 @@
       "Opponent's Play",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Play] When your Opponent plays a Unit: Give the Unit being played -2000 Power for the turn. Then, choose up to 1 of your Units and switch it to Active mode.",
+    "Effect": "Clash [Opponent's Play] When your Opponent plays a Unit: Give the Unit being played -2000 Power for the turn. Then, switch up to 1 of your Units to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-049.jpg?v=32d396b1df83"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-049.jpg?v=5ca9a038c1d3"
   },
   "ST1-050": {
     "id": "ST1-050",
@@ -1901,7 +1900,7 @@
         "name": "Dual Exchange",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-051.jpg?v=9050011f7487",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-051.jpg?v=b56b206321c3",
         "isHorizontal": false
       }
     },
@@ -1925,10 +1924,10 @@
       "Opponent's Attack",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] Choose 1 of your Units and up to 1 of your Opponent's Units with the equal Power: K.O. them.",
+    "Effect": "Clash [Opponent's Attack] Choose 1 of your Units and 1 of your Opponent's Units with equal Power and K.O. them.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-051.jpg?v=9050011f7487"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-051.jpg?v=b56b206321c3"
   },
   "ST1-052": {
     "id": "ST1-052",
@@ -4775,7 +4774,7 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST1-126.jpg?v=57007653dc06",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-126.jpg?v=3b8d710aafdf",
         "isHorizontal": false,
         "power": 6000
       }
@@ -4798,14 +4797,16 @@
       "Four Horsemen"
     ],
     "Keywords": [
-      "On Play",
+      "Opponent's Turn",
       "Barrier",
-      "Deflect"
+      "Deflect",
+      "On Play",
+      "Charge"
     ],
-    "Effect": "Deflect Barrier\n[Opponent’s Turn] Your Opponent's Units with a Cost of 5 or more are played Rested.\n[On Play] Rest up to 1 of your Opponent's Units; it cannot switch to Active mode during your Opponent's next Refresh Phase.",
+    "Effect": "Deflect Barrier\n[Opponent's Turn] Your Opponent's Units with a Cost of 7 or more are played Rested.\n[On Play] Choose up to 1 of your Opponent's Units; Rest it and it cannot switch to Active mode during your Opponent's next Charge Phase.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST1-126.jpg?v=57007653dc06"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-126.jpg?v=3b8d710aafdf"
   },
   "ST1-127": {
     "id": "ST1-127",
@@ -9749,7 +9750,7 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg?v=cf63f88aaa95",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg?v=32162bba11f2",
         "isHorizontal": false,
         "power": 5000
       }
@@ -9773,14 +9774,15 @@
     ],
     "Keywords": [
       "End of your Turn",
-      "On Attack",
+      "End of Your Turn",
       "Your Turn",
+      "On Attack",
       "Limit 1"
     ],
-    "Effect": "[On Attack] Limit 1 Place 1 \"Nayuta\" or Action card with \"Control Devil\" in its Traits from your Deck in your Drop: Draw 1 card.\n[End of your Turn] Rest your Leader or 1 of your Units; switch this card to Active mode.",
+    "Effect": "[On Attack] Limit 1 Place 1 \"Nayuta\" or 1 Action card with the \"Control Devil\" Trait from your Deck in your Drop: Draw 1 card.\n[End of your Turn] Rest your Leader or 1 of your Units: Switch this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg?v=cf63f88aaa95"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg?v=32162bba11f2"
   },
   "ST3-001": {
     "id": "ST3-001",
@@ -16929,7 +16931,7 @@
         "name": "Chainsaw Man",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg?v=912ff11d9016",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg?v=8a98a564a1d8",
         "isHorizontal": false,
         "power": 7000
       }
@@ -16952,17 +16954,17 @@
       "Chainsaw Man"
     ],
     "Keywords": [
-      "On Play",
       "Your Turn",
       "Limit 1",
-      "Break",
+      "Deflect",
+      "On Play",
       "Charge",
-      "Deflect"
+      "Break"
     ],
-    "Effect": "Deflect Break\n[On Play] Your Opponent's Rested Units can't switch to Active mode during the next Charge Phase.\n[Your Turn] Limit 1 If this card K.O.s an Opponent's Unit by battle: Remove that card from the game.",
+    "Effect": "Deflect Break\n[Your Turn] Limit 1 When this card K.O.'s an Opponent's Unit by battle: Remove that card from the game.\n[On Play] Choose all of your Opponent's Rested Units and they can't switch to Active mode during your Opponent's next Charge Phase.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg?v=912ff11d9016"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg?v=8a98a564a1d8"
   },
   "SD10-003": {
     "id": "SD10-003",
@@ -16971,7 +16973,7 @@
         "name": "Denji",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-003.jpg?v=6598852233f9",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-003.jpg?v=2c28d30b9e68",
         "isHorizontal": false,
         "power": 6000
       }
@@ -16995,13 +16997,14 @@
     ],
     "Keywords": [
       "End of your Turn",
-      "On Play",
-      "Your Turn"
+      "End of Your Turn",
+      "Your Turn",
+      "On Play"
     ],
-    "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units with a Cost of 3 or less and K.O. it. Then, give your \"Denji\" Leader +1000 Power for the turn.\n[End of your Turn] If your Opponent has only Rested Units or no Units in play, switch this card to Active mode.",
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units with a Cost of 3 or less and K.O. it. Then, give your \"Denji\" Leader +1000 Power for the turn.\n[End of your Turn] If your Opponent has no Units in play or has only Rested Units in play: Switch this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-003.jpg?v=6598852233f9"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-003.jpg?v=2c28d30b9e68"
   },
   "SD10-004": {
     "id": "SD10-004",
@@ -17010,7 +17013,7 @@
         "name": "Power",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg?v=0aac39072d43",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg?v=e1a5d3806b8a",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17033,16 +17036,15 @@
       "Public Safety Bureau"
     ],
     "Keywords": [
-      "On Attack",
-      "On Play",
       "Overcharge",
+      "On Attack",
       "Limit 1",
-      "Charge"
+      "On Play"
     ],
-    "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units and it can't switch to Active mode during your Opponent's next turn.\n[On Attack] Limit 1 If your Opponent has 2 or more Rested Units or no Units in play, <Overcharge> 1.",
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units and it can't switch to Active mode during your Opponent's next turn.\n[On Attack] Limit 1 If your Opponent has no Units in play or has 2 or more Rested Units in play, Overcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg?v=0aac39072d43"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg?v=e1a5d3806b8a"
   },
   "SD10-005": {
     "id": "SD10-005",
@@ -20930,7 +20932,7 @@
         "name": "Pain Resonance",
         "type": "JUMP ACTION",
         "cost": 0,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-001.jpg?v=13e24b11f0d8",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-001.jpg?v=f552e406568f",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -20953,10 +20955,10 @@
       "Opponent's Attack",
       "Clash"
     ],
-    "Effect": "Clash (1) [Opponent's Attack] If your Leader is Yellow and you remove this card from the game: Your Opponent can only attack with Units one more time for the turn.",
+    "Effect": "Clash [Opponent's Attack] (1) Remove this card from the game: Your Opponent can only attack with Units once more during this turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-001.jpg?v=13e24b11f0d8"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-001.jpg?v=f552e406568f"
   },
   "PUP-002": {
     "id": "PUP-002",
@@ -20965,7 +20967,7 @@
         "name": "Shoulder the Burden",
         "type": "JUMP ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-002.jpg?v=cbbe8fee655e",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-002.jpg?v=332aaab97d42",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -20986,12 +20988,12 @@
     "Traits": [],
     "Keywords": [
       "Activate: Battle",
-      "Opponent's Turn"
+      "Clash"
     ],
-    "Effect": "[Opponent's Turn] [Activate: Battle] Remove this card from the game: Rest 1 of your Units; switch up to 1 of your other Units to Active mode. Then, give your card that's in a battle +2000 Power for the battle.",
+    "Effect": "Clash [Activate: Battle] Remove this card from the game: Rest 1 of your Units; switch up to 1 of your other Units to Active mode. Then, give your card that's in a battle +2000 Power for the battle.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-002.jpg?v=cbbe8fee655e"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-002.jpg?v=332aaab97d42"
   },
   "PUP-003": {
     "id": "PUP-003",
@@ -21109,7 +21111,7 @@
         "name": "Unnerving Presence",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-006.jpg?v=71b1443d7c64",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-006.jpg?v=17cc9ed8b4bd",
         "isHorizontal": true,
         "sjCost": 2
       }
@@ -21130,13 +21132,13 @@
     "Traits": [],
     "Keywords": [
       "Activate: Main",
-      "On Play",
-      "Limit 1"
+      "Limit 1",
+      "On Play"
     ],
-    "Effect": "[On Play] Up to 1 of your cards with \"Boxer\" in their Traits gains +1000 Power for the turn.\n[Activate: Main] Limit 1 Return this card to your JUMP Deck: Choose up to 1 of your Opponent's Units and give it -5000 Power for the turn.",
+    "Effect": "[On Play] Give your Leader or up to 1 of your Units with the \"Boxer\" Trait +1000 Power for the turn.\n[Activate: Main] Limit 1 Return this card to your JUMP Deck: Choose up to 1 of your Opponent's Units and give it -5000 Power for the turn.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-006.jpg?v=71b1443d7c64"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/PUP-006.jpg?v=17cc9ed8b4bd"
   },
   "PUP-007": {
     "id": "PUP-007",
@@ -43412,7 +43414,7 @@
         "name": "Asakura Yoh",
         "type": "JUMP UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST5-128.jpg?v=db96a57dc358",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST5-128.jpg?v=090ca2888895",
         "isHorizontal": false,
         "power": 3000,
         "sjCost": 1
@@ -43436,13 +43438,13 @@
     ],
     "Keywords": [
       "Opponent's Turn",
-      "On Play",
-      "Barrier"
+      "Barrier",
+      "On Play"
     ],
-    "Effect": "Barrier\n[Opponent's Turn] If 1 of your Units would be removed from your field by an Opponent's skill: You may instead return all cards from under it to your hand instead. Then, remove this card from the game.\n[On Play] Add up to 1 card from under your Leader or 1 of your Units to your hand; place up to 1 card from your hand under your Leader or 1 of your Units.",
+    "Effect": "Barrier\n[Opponent's Turn] If 1 of your Units would be removed from your field by an Opponent's skill: You may return all cards from under it to your hand instead. Then, remove this card from the game.\n[On Play] Add up to 1 card from under your Leader or 1 of your Units to your hand; place up to 1 card from your hand under your Leader or 1 of your Units.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST5-128.jpg?v=db96a57dc358"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST5-128.jpg?v=090ca2888895"
   },
   "ST6-021": {
     "id": "ST6-021",

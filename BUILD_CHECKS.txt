@@ -328,5 +328,43 @@
       "SD2-019",
       "SD2-020"
     ]
+  },
+  "replacement_bundle_2026_10_16": {
+    "cards": [
+      "PUP-001",
+      "PUP-002",
+      "PUP-006",
+      "SD10-002",
+      "SD10-003",
+      "SD10-004",
+      "ST1-002",
+      "ST1-004",
+      "ST1-009",
+      "ST1-010",
+      "ST1-013",
+      "ST1-017",
+      "ST1-027",
+      "ST1-028",
+      "ST1-029",
+      "ST1-030",
+      "ST1-031",
+      "ST1-032",
+      "ST1-048",
+      "ST1-049",
+      "ST1-051",
+      "ST1-126",
+      "ST2-128",
+      "ST5-128"
+    ],
+    "images": 24,
+    "changed_transcriptions": 24,
+    "database_cards": 1227,
+    "arena_entries": 1360,
+    "metadata_changes": {},
+    "landscape": [
+      "PUP-001",
+      "PUP-002",
+      "PUP-006"
+    ]
   }
 }
