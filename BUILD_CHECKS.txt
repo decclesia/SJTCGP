@@ -542,5 +542,43 @@
     "original_bytes": 127055861,
     "compressed_bytes": 22183781,
     "arena": "Not changed or tested; retired from update scope by user."
+  },
+  "replacement_bundle_2026_10_18": {
+    "received_images": 98,
+    "canonical_replacements": 97,
+    "alternate_art_replacements": [
+      "ST2-026"
+    ],
+    "changed_transcriptions": 72,
+    "metadata_changes": {
+      "SD4-009": {
+        "cost": "2"
+      },
+      "SD4-019": {
+        "cost": "0"
+      },
+      "ST2-006": {
+        "power": "4000"
+      },
+      "ST2-007": {
+        "cost": "4"
+      },
+      "ST2-075": {
+        "cost": "1",
+        "sj_cost": "1"
+      }
+    },
+    "landscape": [
+      "PUP-032",
+      "PUP-035",
+      "PUP-036",
+      "ST2-074",
+      "ST2-075"
+    ],
+    "original_bytes": 198597769,
+    "compressed_bytes": 34690579,
+    "database_cards": 1227,
+    "arena": "Excluded from update/testing scope; no Arena file changes.",
+    "simulator": "Separate source pins/deployment untouched."
   }
 }
