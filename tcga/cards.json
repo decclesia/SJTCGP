@@ -7940,7 +7940,7 @@
         "name": "Morikawa Ganko",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-081.jpg?v=f0c8a1e5676b",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-081.jpg?v=b0bb7915963a",
         "isHorizontal": false,
         "power": 3000
       }
@@ -7967,10 +7967,10 @@
       "Your Turn",
       "Blocker"
     ],
-    "Effect": "Blocker\n[Your Turn] If there are 3 or more cards under \"Accursed Phoenix Flame\" on your field, give this card in your hand -3 Cost.\n[Opponent's Turn] Give this card +3000 Power.",
+    "Effect": "Blocker\n[Your Turn] If there are 3 or more cards under your \"Accursed Phoenix Flame\", give this card in your hand -3 Cost.\n[Opponent's Turn] Give this card +3000 Power.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-081.jpg?v=f0c8a1e5676b"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-081.jpg?v=b0bb7915963a"
   },
   "ST2-082": {
     "id": "ST2-082",
@@ -7979,7 +7979,7 @@
         "name": "Sakoshita Yanagi",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-082.jpg?v=176bf2aaf7f2",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-082.jpg?v=15b8c1e2cb1f",
         "isHorizontal": false,
         "power": 1000
       }
@@ -8006,7 +8006,7 @@
     "Effect": "[On Play] Draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-082.jpg?v=176bf2aaf7f2"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-082.jpg?v=15b8c1e2cb1f"
   },
   "ST2-083": {
     "id": "ST2-083",
@@ -8015,7 +8015,7 @@
         "name": "Uruha Oto",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-083.jpg?v=9b5344c21d46",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-083.jpg?v=69ccd9c4cf26",
         "isHorizontal": false,
         "power": 3000
       }
@@ -8037,13 +8037,13 @@
       "Uruha"
     ],
     "Keywords": [
-      "On Play",
-      "Blocker"
+      "Blocker",
+      "On Play"
     ],
-    "Effect": "Blocker\n[On Play] If there are 3 or more cards under \"Accursed Phoenix Flame\" on your field: Draw 2 cards; place 1 card from your hand at the bottom of your Deck.",
+    "Effect": "Blocker\n[On Play] If there are 3 or more cards under your \"Accursed Phoenix Flame\": Draw 2 cards; place 1 card from your hand at the bottom of your Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-083.jpg?v=9b5344c21d46"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-083.jpg?v=69ccd9c4cf26"
   },
   "ST2-084": {
     "id": "ST2-084",
@@ -8052,7 +8052,7 @@
         "name": "Jisho",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-084.jpg?v=4d7e6c62bb66",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-084.jpg?v=84f08e2e2438",
         "isHorizontal": false,
         "power": 3000
       }
@@ -8076,13 +8076,13 @@
     "Keywords": [
       "Activate: Main",
       "Once per Turn",
-      "On Play",
-      "Deflect"
+      "Deflect",
+      "On Play"
     ],
-    "Effect": "Deflect\n[On Play] If your Leader is \"Mori Kurei\" and there are 1 or less cards under \"Accursed Phoenix Flame\" on your field, place up to 1 Unit card from your Drop under \"Accursed Phoenix Flame\" on your field.\n[Activate: Main] Once per Turn Place 1 card from under \"Accursed Phoenix Flame\" on your field in your Drop: Draw 1 card; place 1 card from your hand at the bottom of your Deck.",
+    "Effect": "Deflect\n[On Play] If your Leader is \"Mori Kurei\" and there is 1 or less card under your \"Accursed Phoenix Flame\": Place up to 1 Unit card from your Drop under your \"Accursed Phoenix Flame\".\n[Activate: Main] Once per Turn Place 1 card from under your \"Accursed Phoenix Flame\" in your Drop: Draw 1 card; place 1 card from your hand at the bottom of your Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-084.jpg?v=4d7e6c62bb66"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-084.jpg?v=84f08e2e2438"
   },
   "ST2-085": {
     "id": "ST2-085",
@@ -8091,7 +8091,7 @@
         "name": "Kurenai",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-085.jpg?v=b3ebfcc24f6e",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-085.jpg?v=26f9d105c830",
         "isHorizontal": false,
         "power": 1000
       }
@@ -8117,10 +8117,10 @@
       "On K.O.",
       "Deflect"
     ],
-    "Effect": "Deflect\n[Activate: Main] Rest this card: Choose up to 1 of your Opponent's Units and give it -2 Cost for the turn.\n[On K.O.] Place this card under \"Accursed Phoenix Flame\" on your field.",
+    "Effect": "Deflect\n[Activate: Main] Rest this card: Choose up to 1 of your Opponent's Units and give it -2 Cost for the turn.\n[On K.O.] Place this card under your \"Accursed Phoenix Flame\".",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-085.jpg?v=b3ebfcc24f6e"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-085.jpg?v=26f9d105c830"
   },
   "ST2-086": {
     "id": "ST2-086",
@@ -8129,7 +8129,7 @@
         "name": "Magensha",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-086.jpg?v=47fbe6875318",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-086.jpg?v=7c5162e8151a",
         "isHorizontal": false,
         "power": 5000
       }
@@ -8155,10 +8155,10 @@
       "On Play",
       "Barrier"
     ],
-    "Effect": "[On Play] Remove 1 card from under \"Accursed Phoenix Flame\" on your field from the game: Choose up to 1 of your Opponent's Units with a Cost of 2 or less, ignoring Barrier, and return it to the owner's hand.",
+    "Effect": "[On Play] Remove 1 card from under your \"Accursed Phoenix Flame\" from the game: Choose up to 1 of your Opponent's Units with a Cost of 2 or less, ignoring Barrier, and return it to its owner's hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-086.jpg?v=47fbe6875318"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-086.jpg?v=7c5162e8151a"
   },
   "ST2-087": {
     "id": "ST2-087",
@@ -8167,7 +8167,7 @@
         "name": "Gashakura",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-087.jpg?v=1f0a1db18f2f",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-087.jpg?v=11535eadd4eb",
         "isHorizontal": false,
         "power": 5000
       }
@@ -8192,10 +8192,10 @@
     "Keywords": [
       "On Attack"
     ],
-    "Effect": "[On Attack] Remove 1 card from under \"Accursed Phoenix Flame\" on your field from the game: Give this card +1000 Power for the battle. Then, if this card is in a battle with a Unit with a Cost of 0 or less, give it +2000 Power for the battle.",
+    "Effect": "[On Attack] Remove 1 card from under your \"Accursed Phoenix Flame\" from the game: Give this card +1000 Power for the battle. Then, if this card is in a battle with an Opponent's Unit with a Cost of 0 or less, give this card an additional +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-087.jpg?v=1f0a1db18f2f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-087.jpg?v=11535eadd4eb"
   },
   "ST2-088": {
     "id": "ST2-088",
@@ -8204,7 +8204,7 @@
         "name": "Aki",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-088.jpg?v=f2afe39d987d",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-088.jpg?v=fcc8d8243957",
         "isHorizontal": false,
         "power": 2000
       }
@@ -8229,10 +8229,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] If your Leader is \"Mori Kurei\": Add up to 1 card from your Life to your hand. Then, choose up to 1 of your Opponent's Units with a Cost of 0 and place it at the bottom of its owner's Deck.",
+    "Effect": "[On Play] If your Leader is \"Mori Kurei\": Add up to 1 card from your Life to your hand. Then, choose up to 1 of your Opponent's Units with a Cost of 0 or less and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-088.jpg?v=f2afe39d987d"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-088.jpg?v=fcc8d8243957"
   },
   "ST2-089": {
     "id": "ST2-089",
@@ -8241,7 +8241,7 @@
         "name": "Miki",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-089.jpg?v=8a0b91ff340d",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-089.jpg?v=0dad11f7c2f7",
         "isHorizontal": false,
         "power": 1000
       }
@@ -8266,10 +8266,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Place 2 cards with \"Uruha\" in their Traits from your hand in your Drop: If your Leader is \"Mori Kurei\", draw 3 cards.",
+    "Effect": "[On Play] Place 2 cards with the \"Uruha\" Trait from your hand in your Drop: If your Leader is \"Mori Kurei\", draw 3 cards.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-089.jpg?v=8a0b91ff340d"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-089.jpg?v=0dad11f7c2f7"
   },
   "ST2-090": {
     "id": "ST2-090",
@@ -8278,7 +8278,7 @@
         "name": "Neon",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-090.jpg?v=e7a1f76b280e",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-090.jpg?v=033142a3c863",
         "isHorizontal": false,
         "power": 3000
       }
@@ -8303,10 +8303,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] Look at the top 4 cards of your Deck; reveal up to 1 card with \"Uruha\" or \"Soul Flame\" in its Traits and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Effect": "[On Play] Look at the top 4 cards of your Deck; add up to 1 card with the \"Uruha\" or \"Soul Flame\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-090.jpg?v=e7a1f76b280e"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-090.jpg?v=033142a3c863"
   },
   "ST2-091": {
     "id": "ST2-091",
@@ -8315,7 +8315,7 @@
         "name": "Kagerou",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-091.jpg?v=ffb7b1bcaba7",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-091.jpg?v=e63cfb2d8d9f",
         "isHorizontal": false,
         "power": 5000
       }
@@ -8337,13 +8337,13 @@
       "Hokage"
     ],
     "Keywords": [
-      "On Play",
-      "Blocker"
+      "Blocker",
+      "On Play"
     ],
     "Effect": "[On Play] Choose up to 1 of your Opponent's Units with a Cost of 4 or less and place it at the bottom of its owner's Deck. Then, give this card Blocker until the end of your Opponent's next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-091.jpg?v=ffb7b1bcaba7"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-091.jpg?v=e63cfb2d8d9f"
   },
   "ST2-092": {
     "id": "ST2-092",
@@ -8352,7 +8352,7 @@
         "name": "Mori Kurei",
         "type": "UNIT",
         "cost": 7,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-092.jpg?v=da9e1b68afe4",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-092.jpg?v=845851e73bce",
         "isHorizontal": false,
         "power": 8000
       }
@@ -8378,10 +8378,10 @@
       "On Play",
       "Barrier"
     ],
-    "Effect": "[On Play] Remove 2 cards from under \"Accursed Phoenix Flame\" on your field from the game: Choose up to 2 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and return them to the owner's hand.",
+    "Effect": "[On Play] Remove 2 cards from under your \"Accursed Phoenix Flame\" from the game: Choose up to 2 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, and return them to their owner's hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-092.jpg?v=da9e1b68afe4"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-092.jpg?v=845851e73bce"
   },
   "ST2-093": {
     "id": "ST2-093",
@@ -8389,8 +8389,8 @@
       "front": {
         "name": "Flame Rend",
         "type": "ACTION",
-        "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-093.jpg?v=f546078a7d2f",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-093.jpg?v=efa295ff132b",
         "isHorizontal": false
       }
     },
@@ -8402,7 +8402,7 @@
     "Set": "FOR",
     "Release": "ST2",
     "Rarity": "C",
-    "Cost": 6,
+    "Cost": 5,
     "SJ_Cost": null,
     "Life": null,
     "Power": null,
@@ -8417,7 +8417,7 @@
     "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units with a Cost of 6 or more, ignoring Barrier, and place it at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-093.jpg?v=f546078a7d2f"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-093.jpg?v=efa295ff132b"
   },
   "ST2-094": {
     "id": "ST2-094",
@@ -8425,8 +8425,8 @@
       "front": {
         "name": "Flame Manifestation",
         "type": "ACTION",
-        "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-094.jpg?v=1247a849fa69",
+        "cost": 3,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-094.jpg?v=ed0e2e305cb3",
         "isHorizontal": false
       }
     },
@@ -8438,7 +8438,7 @@
     "Set": "FOR",
     "Release": "ST2",
     "Rarity": "C",
-    "Cost": 4,
+    "Cost": 3,
     "SJ_Cost": null,
     "Life": null,
     "Power": null,
@@ -8450,10 +8450,10 @@
       "Activate: Main",
       "Double Damage"
     ],
-    "Effect": "[Activate: Main] Place all cards from under \"Accursed Phoenix Flame\" on your field in your Drop and, if you placed 3 or more cards, give your Leader +3000 Power and Double Damage for the turn.",
+    "Effect": "[Activate: Main] Place all cards from under your \"Accursed Phoenix Flame\" in your Drop and, if you placed 3 or more cards, give your Leader +4000 Power and Double Damage for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-094.jpg?v=1247a849fa69"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-094.jpg?v=ed0e2e305cb3"
   },
   "ST2-095": {
     "id": "ST2-095",
@@ -8462,7 +8462,7 @@
         "name": "Haen",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-095.jpg?v=765da0d54976",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-095.jpg?v=588a0d35af46",
         "isHorizontal": false
       }
     },
@@ -8486,10 +8486,10 @@
       "Activate: Main",
       "Barrier"
     ],
-    "Effect": "[Activate: Main] Remove all cards from under \"Accursed Phoenix Flame\" on your field from the game; if you removed at least 1 card: Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -1 Cost for each card removed from the game by this card's skill for the turn.",
+    "Effect": "[Activate: Main] Remove any number of cards from under your \"Accursed Phoenix Flame\" from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -1 Cost for each card removed from the game by this card's skill for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-095.jpg?v=765da0d54976"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-095.jpg?v=588a0d35af46"
   },
   "ST2-096": {
     "id": "ST2-096",
@@ -8498,7 +8498,7 @@
         "name": "Accursed Binding",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-096.jpg?v=784947e311d0",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-096.jpg?v=2e2dd88e9a05",
         "isHorizontal": false
       }
     },
@@ -8521,10 +8521,10 @@
     "Keywords": [
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units and give it -1 Cost for the turn. Then, if there are 3 or more cards under \"Accursed Phoenix Flame\" on your field, draw 1 card.",
+    "Effect": "[Activate: Main] Choose up to 1 of your Opponent's Units and give it -1 Cost for the turn. Then, if there are 3 or more cards under your \"Accursed Phoenix Flame\", draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-096.jpg?v=784947e311d0"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-096.jpg?v=2e2dd88e9a05"
   },
   "ST2-097": {
     "id": "ST2-097",
@@ -8533,7 +8533,7 @@
         "name": "Jikuryuri",
         "type": "ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-097.jpg?v=573fe06c2145",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-097.jpg?v=6b2afafbcacd",
         "isHorizontal": false
       }
     },
@@ -8558,10 +8558,10 @@
       "Opponent's Attack",
       "Clash"
     ],
-    "Effect": "You can activate this card's Clash skill by removing 2 cards from under \"Accursed Phoenix Flame\" on your field instead of paying its energy cost.\nClash [Opponent's Attack] Negate the attack. Then, return up to 1 of your Units to its owner's hand.",
+    "Effect": "You can activate this card's Clash skill by removing 2 cards from under your \"Accursed Phoenix Flame\" instead of paying its energy cost.\nClash [Opponent's Attack] Negate the attack. Then, return up to 1 of your Units to its owner's hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-097.jpg?v=573fe06c2145"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-097.jpg?v=6b2afafbcacd"
   },
   "ST2-098": {
     "id": "ST2-098",
@@ -8570,7 +8570,7 @@
         "name": "Wakemi",
         "type": "ACTION",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-098.jpg?v=2a395c588746",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-098.jpg?v=2522af45dee4",
         "isHorizontal": false
       }
     },
@@ -8596,10 +8596,10 @@
       "Opponent's Turn",
       "Clash"
     ],
-    "Effect": "[Opponent's Turn] If there are 3 or more cards under \"Accursed Phoenix Flame\" on your field, give this card in your hand -2 Cost.\nClash [Opponent's Attack] Give your Leader +2000 Power for the battle. Then, place this card from your Drop under \"Accursed Phoenix Flame\" on your field.",
+    "Effect": "[Opponent's Turn] If there are 3 or more cards under your \"Accursed Phoenix Flame\", give this card in your hand -2 Cost.\nClash [Opponent's Attack] Give your Leader +2000 Power for the battle. Then, place this card from your Drop under your \"Accursed Phoenix Flame\".",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-098.jpg?v=2a395c588746"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-098.jpg?v=2522af45dee4"
   },
   "ST2-099": {
     "id": "ST2-099",
@@ -8608,7 +8608,7 @@
         "name": "Mori Kurei",
         "type": "JUMP UNIT",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-099.jpg?v=b84a49d54d9d",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-099.jpg?v=763cdbe485a1",
         "isHorizontal": false,
         "power": 6000,
         "sjCost": 2
@@ -8632,17 +8632,17 @@
       "Uruha"
     ],
     "Keywords": [
-      "End of your Turn",
+      "End of Opponent's Turn",
+      "Opponent's Turn",
       "On Attack",
       "On Play",
-      "Your Turn",
-      "V Jump",
-      "Barrier"
+      "Barrier",
+      "V Jump"
     ],
-    "Effect": "V JUMP If your Leader is \"Mori Kurei\", your Life is at 1 or less and you remove 3 cards from under \"Accursed Phoenix Flame\" on your field from the game.\n[On Play] Choose all of your Opponent's Units with a Cost of 0 or less, ignoring Barrier, and place them at the bottom of their owner's Decks.\n[On Attack] Draw 1 card. Then, choose up to 1 of your Opponent's Units with a Cost of 2 or less and place it under \"Accursed Phoenix Flame\" on your field.\n[End of your Turn] Remove 1 card from under \"Accursed Phoenix Flame\" on your field from the game or remove this card from the game.",
+    "Effect": "V JUMP If your Leader is \"Mori Kurei\", your Life is at 1 or less and you remove 3 cards from under your \"Accursed Phoenix Flame\" from the game.\n[On Play] Choose all of your Opponent's Units with a Cost of 0 or less, ignoring Barrier, and place them at the bottom of their owners' Decks.\n[On Attack] Draw 1 card; choose up to 1 of your Opponent's Units with a Cost of 2 or less and place it under your \"Accursed Phoenix Flame\".\n[End of Opponent's Turn] Remove 1 card from under your \"Accursed Phoenix Flame\" from the game or remove this card from the game.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-099.jpg?v=b84a49d54d9d"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-099.jpg?v=763cdbe485a1"
   },
   "ST2-100": {
     "id": "ST2-100",
@@ -9667,8 +9667,8 @@
       "front": {
         "name": "Hanabishi Recca",
         "type": "UNIT",
-        "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-126.jpg?v=d32fac1620e9",
+        "cost": 5,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-126.jpg?v=5d43f60dbf9e",
         "isHorizontal": false,
         "power": 6000
       }
@@ -9681,7 +9681,7 @@
     "Set": "FOR",
     "Release": "ST2",
     "Rarity": "SEC",
-    "Cost": 6,
+    "Cost": 5,
     "SJ_Cost": null,
     "Life": null,
     "Power": 6000,
@@ -9697,10 +9697,10 @@
       "Barrier",
       "Clash"
     ],
-    "Effect": "[On Attack] (1) Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -3 Cost for the turn. Then, if its Cost is 0 or less, negate its <Keywords> for the turn.\nClash [Opponent's Attack] <Once per Turn> Place 1 card from your hand in your Drop: Choose up to 1 of your Opponent's Units and give it -3 Cost for the turn. Then, if that Unit's Cost is 0 or less, negate the attack and place that Unit at the bottom of its owner's Deck.",
+    "Effect": "[On Attack] (1) Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -3 Cost for the turn. Then, if its Cost is 0 or less, negate its Keyword skills for the turn.\nClash [Opponent's Attack] Once per Turn Place 1 card from your hand in your Drop: Choose up to 1 of your Opponent's Units and give it -3 Cost for the turn. Then, if its Cost is 0 or less, negate the attack and place that Unit at the bottom of its owner's Deck.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-126.jpg?v=d32fac1620e9"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-126.jpg?v=5d43f60dbf9e"
   },
   "ST2-127": {
     "id": "ST2-127",
@@ -16931,7 +16931,7 @@
         "name": "Chainsaw Man",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg?v=8a98a564a1d8",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg?v=77bea2e4443b",
         "isHorizontal": false,
         "power": 7000
       }
@@ -16964,7 +16964,7 @@
     "Effect": "Deflect Break\n[Your Turn] Limit 1 When this card K.O.'s an Opponent's Unit by battle: Remove that card from the game.\n[On Play] Choose all of your Opponent's Rested Units and they can't switch to Active mode during your Opponent's next Charge Phase.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg?v=8a98a564a1d8"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-002.jpg?v=77bea2e4443b"
   },
   "SD10-003": {
     "id": "SD10-003",
@@ -16996,8 +16996,8 @@
       "Chainsaw Man"
     ],
     "Keywords": [
-      "End of your Turn",
       "End of Your Turn",
+      "End of your Turn",
       "Your Turn",
       "On Play"
     ],
@@ -17053,7 +17053,7 @@
         "name": "Denji",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-005.jpg?v=072eea88deb3",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-005.jpg?v=3eab0f7825c1",
         "isHorizontal": false,
         "power": 3000
       }
@@ -17077,14 +17077,13 @@
     ],
     "Keywords": [
       "On K.O.",
-      "On Play",
-      "Limit 1",
-      "Deflect"
+      "Deflect",
+      "On Play"
     ],
-    "Effect": "Deflect\n[On Play] If you added a card from your Life to your hand this turn, give this card +2000 Power until the end of your Opponent's next turn.\n[On K.O.] Limit 1 You may rest your Opponent's Leader.",
+    "Effect": "Deflect\n[On Play] If you added a card from your Life to your hand this turn, give this card +2000 Power until the end of your Opponent's next turn.\n[On K.O.] Choose your Opponent's Leader and Rest them.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-005.jpg?v=072eea88deb3"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-005.jpg?v=3eab0f7825c1"
   },
   "SD10-006": {
     "id": "SD10-006",
@@ -17093,7 +17092,7 @@
         "name": "Himeno",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-006.jpg?v=0b3a0682f54c",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-006.jpg?v=7cb3d6d37359",
         "isHorizontal": false,
         "power": 3000
       }
@@ -17117,15 +17116,14 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "On Play",
       "Overcharge",
       "Limit 1",
-      "Charge"
+      "On Play"
     ],
-    "Effect": "[On Play] You may <Overcharge 1> and, if you do, you can't <Overcharge> for the turn.\n[Activate: Main] Limit 1 Add up to 1 card from your Life to your hand. Then, Rest this card and give your \"Denji\" Leader +1000 Power for the turn.",
+    "Effect": "[On Play] Overcharge 1 and you can't Overcharge for the turn.\n[Activate: Main] Limit 1 Add up to 1 card from your Life to your hand. Then, Rest this card and give your \"Denji\" Leader +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-006.jpg?v=0b3a0682f54c"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-006.jpg?v=7cb3d6d37359"
   },
   "SD10-007": {
     "id": "SD10-007",
@@ -17134,7 +17132,7 @@
         "name": "Hayakawa Aki",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg?v=c44779ceab77",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg?v=61f6572cb7e2",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17157,15 +17155,14 @@
       "Public Safety Bureau"
     ],
     "Keywords": [
-      "On Play",
-      "Your Turn",
       "Limit 1",
+      "On Play",
       "Barrier"
     ],
-    "Effect": "Barrier\n[On Play] Choose up to 2 of your Opponent's Units with a Cost of 2 or less, Rest them and negate their skills until the end of your Opponent's next turn.\n[Your Turn] Limit 1 When this card becomes Rested: Give all of your Opponent's Rested Units -1000 Power for as long as they are Rested.",
+    "Effect": "Barrier\n[On Play] Limit 1 If you added a card from your Life to your hand this turn, choose all of your Opponent's Rested Units and give them -1000 Power for as long as they are Rested.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg?v=c44779ceab77"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg?v=61f6572cb7e2"
   },
   "SD10-008": {
     "id": "SD10-008",
@@ -17174,7 +17171,7 @@
         "name": "Power",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg?v=0e2bdd793166",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg?v=23673011c7c7",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17198,14 +17195,13 @@
     ],
     "Keywords": [
       "On Attack",
-      "Your Turn",
       "Limit 1",
       "Deflect"
     ],
-    "Effect": "Deflect\n[On Attack] If this card is in a battle with an Opponent's Unit and your Opponent has 2 or more Rested Units in play, draw 1 card.\n[Your Turn] Limit 1 When this card becomes Rested: Rest up to 1 of your Opponent's Units with a Cost of 2 or less.",
+    "Effect": "Deflect\n[On Attack] Limit 1 If this card is in a battle with an Opponent's Unit and your Opponent has 2 or more Rested Units in play, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg?v=0e2bdd793166"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg?v=23673011c7c7"
   },
   "SD10-009": {
     "id": "SD10-009",
@@ -17214,7 +17210,7 @@
         "name": "Kishibe",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-009.jpg?v=a247d3ea79e8",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-009.jpg?v=ca46d7b542f7",
         "isHorizontal": false,
         "power": 1000
       }
@@ -17238,14 +17234,14 @@
     ],
     "Keywords": [
       "On Attack",
-      "On Play",
       "Limit 1",
+      "On Play",
       "Barrier"
     ],
-    "Effect": "[On Play] Limit 1 Choose up to 1 of your Opponent's Units with 7000 Power or more, ignoring Barrier, Rest it and negate its skills for as long as it is Rested.\n[On Attack] If your Leader is \"Denji\" and this card is in a battle with an Opponent's Unit: This card's Power becomes equal to that Unit's Power for as long as this card is Rested.",
+    "Effect": "[On Play] Limit 1 Choose up to 1 of your Opponent's Units with 7000 or more Power, ignoring Barrier, and Rest it; negate its skills for as long as it is Rested.\n[On Attack] If your Leader is \"Denji\" and this card is in a battle with an Opponent's Unit: This card's Power becomes equal to that Unit's Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-009.jpg?v=a247d3ea79e8"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-009.jpg?v=ca46d7b542f7"
   },
   "SD10-010": {
     "id": "SD10-010",
@@ -17254,7 +17250,7 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-010.jpg?v=80119b7e777e",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-010.jpg?v=64637bcfa389",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17277,19 +17273,19 @@
       "Four Horsemen"
     ],
     "Keywords": [
+      "On Play / On K.O.",
       "Opponent's Play",
-      "On K.O.",
-      "On Play",
       "Accelcharge",
       "Overcharge",
       "Limit 1",
-      "Charge",
+      "On K.O.",
+      "On Play",
       "Clash"
     ],
-    "Effect": "[On Play / On K.O.] If your Leader is \"Denji\" or \"Control Devil\", <Accelcharge> 1 and add up to 1 card with \"Public Safety Bureau\" in its Traits from your Drop to your hand.\nClash [Opponent's Play] Limit 1 Place 1 card from your hand in your Drop: <Overcharge> 1 and you can't <Overcharge> for the turn.",
+    "Effect": "[On Play / On K.O.] If your Leader is \"Denji\" or \"Control Devil\": Accelcharge 1; add up to 1 card with the \"Public Safety Bureau\" Trait from your Drop to your hand.\nClash [Opponent's Play] Limit 1 Place 1 card from your hand in your Drop: Overcharge 1 and you can't Overcharge for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-010.jpg?v=80119b7e777e"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-010.jpg?v=64637bcfa389"
   },
   "SD10-011": {
     "id": "SD10-011",
@@ -17298,7 +17294,7 @@
         "name": "Kobeni's Car",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg?v=41ca6268f638",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg?v=27d0a5446ff9",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17324,10 +17320,10 @@
       "Threshold",
       "Clash"
     ],
-    "Effect": "Clash [Opponent's Attack] (1) If your Leader is \"Denji\" and their Threshold skill is active: Play this card and make it the new attack target.",
+    "Effect": "Clash [Opponent's Attack] (1) If your Leader is \"Denji\" and their Threshold skill is active: Play this card from your hand and make it the new attack target.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg?v=41ca6268f638"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-011.jpg?v=27d0a5446ff9"
   },
   "SD10-012": {
     "id": "SD10-012",
@@ -17336,7 +17332,7 @@
         "name": "Reze",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-012.jpg?v=bdafda1ade5b",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-012.jpg?v=dc1c8d83b526",
         "isHorizontal": false,
         "power": 2000
       }
@@ -17359,14 +17355,14 @@
     ],
     "Keywords": [
       "Once per Turn",
-      "On Play",
       "Your Turn",
-      "Threshold"
+      "Threshold",
+      "On Play"
     ],
-    "Effect": "[On Play] If your Leader's <Threshold> skill is active: Draw 2 cards; place 1 card from your hand in your Drop.\n[Your Turn] <Once per Turn> When this card is Rested by your skill: Switch this card to Active mode.",
+    "Effect": "[On Play] If your Leader's Threshold skill is active: Draw 2 cards; place 1 card from your hand in your Drop.\n[Your Turn] Once per Turn When this card is Rested by your skill(s): Switch this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-012.jpg?v=bdafda1ade5b"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-012.jpg?v=dc1c8d83b526"
   },
   "SD10-013": {
     "id": "SD10-013",
@@ -17375,7 +17371,7 @@
         "name": "Higashiyama Kobeni",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-013.jpg?v=357cf1a63845",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-013.jpg?v=b68cfecf1c10",
         "isHorizontal": false,
         "power": 1000
       }
@@ -17398,15 +17394,15 @@
       "Public Safety Bureau"
     ],
     "Keywords": [
+      "Limit 1",
       "On K.O.",
       "On Play",
-      "Limit 1",
       "Charge"
     ],
-    "Effect": "[On Play] Limit 1 If your Leader is \"Denji\" and you added a card from your Life to your hand this turn: Rest this card; <Charge> 1 for each of your Opponent's Rested Units.\n[On K.O.] Give your Leader or up to 1 of your Units +1000 Power for the turn.",
+    "Effect": "[On Play] Limit 1 If you added a card from your Life to your hand this turn, Rest this card: Charge 1 for each of your Opponent's Rested Units.\n[On K.O.] Give your Leader or up to 1 of your Units +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-013.jpg?v=357cf1a63845"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-013.jpg?v=b68cfecf1c10"
   },
   "SD10-014": {
     "id": "SD10-014",
@@ -17415,7 +17411,7 @@
         "name": "Pochita",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-014.jpg?v=76d4e7428605",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-014.jpg?v=bdb0b1cdd010",
         "isHorizontal": false,
         "power": 2000
       }
@@ -17437,14 +17433,14 @@
       "Devil"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Attack",
+      "Activate: Main",
       "Limit 1"
     ],
-    "Effect": "[Activate: Main] Rest this card: Look at the top 3 cards of your Deck; add up to 1 card that includes \"Chainsaw\" in its Traits to your hand and place the rest at the bottom of your Deck in any order.\n[Opponent's Attack] Limit 1 If this card is in a battle: Switch this card to Active mode and give it +2000 Power for the turn.",
+    "Effect": "[Opponent's Attack] Limit 1 If this card is in a battle: Switch this card to Active mode and give it +2000 Power for the turn.\n[Activate: Main] Rest this card: Look at the top 3 cards of your Deck; add up to 1 card that includes \"Chainsaw\" in its Traits to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-014.jpg?v=76d4e7428605"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-014.jpg?v=bdb0b1cdd010"
   },
   "SD10-015": {
     "id": "SD10-015",
@@ -17453,7 +17449,7 @@
         "name": "Meowy",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-015.jpg?v=a343ad1a7b9d",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-015.jpg?v=08f63f183e2a",
         "isHorizontal": false,
         "power": 0
       }
@@ -17478,10 +17474,10 @@
       "Activate: Main",
       "On K.O."
     ],
-    "Effect": "[Activate: Main] Rest this card: Give up to 1 of your \"Power\" +2000 Power for the turn.\n[On K.O.] Choose up to 1 of your Opponent's Units and give it -1000 Power for the turn.",
+    "Effect": "[Activate: Main] Rest this card: Give 1 of your \"Power\" +2000 Power for the turn.\n[On K.O.] Choose up to 1 of your Opponent's Rested Units and give it -1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-015.jpg?v=a343ad1a7b9d"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-015.jpg?v=08f63f183e2a"
   },
   "SD10-016": {
     "id": "SD10-016",
@@ -17490,7 +17486,7 @@
         "name": "Kon",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg?v=f56d9012cc15",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg?v=0aacbf0ac84f",
         "isHorizontal": false
       }
     },
@@ -17519,7 +17515,7 @@
     "Effect": "[Activate: Main] If your Opponent has 3 or more Overcharged Energy: Remove 1 of their Overcharged Energy.\nClash [Opponent's Attack] (1) Choose your Opponent's Leader or up to 1 of their Units with a Cost of 5 or less, ignoring Barrier, and Rest them.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg?v=f56d9012cc15"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-016.jpg?v=0aacbf0ac84f"
   },
   "SD10-017": {
     "id": "SD10-017",
@@ -17528,7 +17524,7 @@
         "name": "Rev Horizon",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-017.jpg?v=9ba1d1eae4b2",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-017.jpg?v=cf609ce0fb64",
         "isHorizontal": false
       }
     },
@@ -17551,14 +17547,15 @@
       "Chainsaw Man"
     ],
     "Keywords": [
-      "Activate: Main",
       "Opponent's Attack",
+      "Activate: Main",
+      "Barrier",
       "Clash"
     ],
-    "Effect": "[Activate: Main] (3) You may also rest 3 of your Leader and/or Units instead of paying for this cost: Choose up to 1 of your Opponent's Rested Units with 8000 base Power or less and K.O. it.\nClash [Opponent's Attack] Give your \"Denji\" Leader +2000 Power for the battle.",
+    "Effect": "You may also rest 3 of your cards amongst your Leader and/or Units instead of paying for this card's [Activate: Main] skill cost\n[Activate: Main] (3) Choose up to 1 of your Opponent's Rested Units with 8000 or less Power, ignoring Barrier, and K.O. it.\nClash [Opponent's Attack] Give your \"Denji\" Leader +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-017.jpg?v=9ba1d1eae4b2"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-017.jpg?v=cf609ce0fb64"
   },
   "SD10-018": {
     "id": "SD10-018",
@@ -17567,7 +17564,7 @@
         "name": "Impromptu Breakthrough",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-018.jpg?v=8240ff219f7d",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-018.jpg?v=d3f77330dac8",
         "isHorizontal": false
       }
     },
@@ -17592,10 +17589,10 @@
     "Keywords": [
       "Activate: Battle"
     ],
-    "Effect": "[Activate: Battle] Give your card that's in a battle +3000 Power for the battle. Then, if there is a Rested Unit with a cost of 4 or more on any field, draw 1 card.",
+    "Effect": "[Activate: Battle] Give your card that's in a battle +3000 Power for the battle. Then, if there is a Rested Unit with a cost of 4 or more in play, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-018.jpg?v=8240ff219f7d"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-018.jpg?v=d3f77330dac8"
   },
   "SD10-019": {
     "id": "SD10-019",
@@ -17604,10 +17601,10 @@
         "name": "Denji",
         "type": "JUMP UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-019.jpg?v=59bcf24f2ad2",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-019.jpg?v=491e114fb493",
         "isHorizontal": false,
         "power": 5000,
-        "sjCost": 1
+        "sjCost": 2
       }
     },
     "name": "Denji [SD10-019]",
@@ -17619,7 +17616,7 @@
     "Release": "SD10",
     "Rarity": "C",
     "Cost": 2,
-    "SJ_Cost": 1,
+    "SJ_Cost": 2,
     "Life": null,
     "Power": 5000,
     "Counter": null,
@@ -17629,14 +17626,13 @@
     ],
     "Keywords": [
       "Activate: Main",
-      "On Play",
       "Deflect",
       "Raid"
     ],
-    "Effect": "Deflect\n[On Play] If your Leader is \"Denji\": Negate all of your Opponent's <Keywords> for the turn.\n[Activate: Main] Raid {1} Remove this card from the game: Play up to 1 \"Chainsaw Man\" from your hand.",
+    "Effect": "Deflect\n[Activate: Main] Raid {1} Remove this card from the game: Play up to 1 \"Chainsaw Man\" from your hand.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-019.jpg?v=59bcf24f2ad2"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-019.jpg?v=491e114fb493"
   },
   "SD10-020": {
     "id": "SD10-020",
@@ -17645,7 +17641,7 @@
         "name": "That nobel prize is mine!!",
         "type": "JUMP ACTION",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD10-020.jpg?v=e6c076038fa8",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD10-020.jpg?v=5382e3b8a5c1",
         "isHorizontal": true,
         "sjCost": 1
       }
@@ -17668,10 +17664,10 @@
       "Your Turn",
       "Limit 1"
     ],
-    "Effect": "[Your Turn] Limit 1 When one of your Opponent's Rested Units is K.O.ed, switch your \"Denji\" Leader to Active mode and it can't attack your Opponent's Leader for the turn. Then, return this card to your JUMP Deck.",
+    "Effect": "[Your Turn] Limit 1 When your Opponent's Rested Unit is K.O.'d by battle: Switch your \"Denji\" Leader to Active mode and it can't attack your Opponent's Leader for the turn. Then, return this card to your JUMP Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Landscape",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD10-020.jpg?v=e6c076038fa8"
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/landscape-cards/SD10-020.jpg?v=5382e3b8a5c1"
   },
   "EX1-001": {
     "id": "EX1-001",
@@ -17720,7 +17716,7 @@
         "name": "Semiu Grier",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg?v=d5b0410fde7a",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg?v=fe8b912758f9",
         "isHorizontal": false,
         "power": 1000
       }
@@ -17745,10 +17741,10 @@
     "Keywords": [
       "On Play"
     ],
-    "Effect": "[On Play] If your Leader has the \"Cleaner\" Trait: Look at the top 4 cards of your Deck; add up to 1 card with the \"Cleaner\" Trait and add it to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Effect": "[On Play] If your Leader has the \"Cleaner\" Trait: Look at the top 4 cards of your Deck; add up to 1 card with the \"Cleaner\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg?v=d5b0410fde7a"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX1-002.jpg?v=fe8b912758f9"
   },
   "EX1-003": {
     "id": "EX1-003",
@@ -23226,7 +23222,7 @@
         "name": "Energy Marker ANE",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ANE.jpg?v=185486b7e0c6",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ANE.jpg?v=86de0b1d4a97",
         "isHorizontal": false
       }
     },
@@ -23248,7 +23244,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ANE.jpg?v=185486b7e0c6",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ANE.jpg?v=86de0b1d4a97",
     "isAccessory": true
   },
   "TOKEN-CSM": {
@@ -23258,7 +23254,7 @@
         "name": "Energy Marker CSM",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CSM.jpg?v=4e960ac9a926",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CSM.jpg?v=1c7df4092aee",
         "isHorizontal": false
       }
     },
@@ -23280,7 +23276,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CSM.jpg?v=4e960ac9a926",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CSM.jpg?v=1c7df4092aee",
     "isAccessory": true
   },
   "TOKEN-ENS": {
@@ -23290,7 +23286,7 @@
         "name": "Energy Marker ENS",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENS.jpg?v=b9c9fc699e87",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENS.jpg?v=c00f9c3413bf",
         "isHorizontal": false
       }
     },
@@ -23312,7 +23308,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENS.jpg?v=b9c9fc699e87",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ENS.jpg?v=c00f9c3413bf",
     "isAccessory": true
   },
   "TOKEN-FMA": {
@@ -23322,7 +23318,7 @@
         "name": "Energy Marker FMA",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FMA.jpg?v=c204c2a94cc5",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FMA.jpg?v=e40c3bac0f43",
         "isHorizontal": false
       }
     },
@@ -23344,7 +23340,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FMA.jpg?v=c204c2a94cc5",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FMA.jpg?v=e40c3bac0f43",
     "isAccessory": true
   },
   "TOKEN-HNI": {
@@ -23354,7 +23350,7 @@
         "name": "Energy Marker HNI",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/HNI.jpg?v=80514d759b9d",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/HNI.jpg?v=fda610c66d7d",
         "isHorizontal": false
       }
     },
@@ -23376,7 +23372,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/HNI.jpg?v=80514d759b9d",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/HNI.jpg?v=fda610c66d7d",
     "isAccessory": true
   },
   "TOKEN-JBA": {
@@ -23386,7 +23382,7 @@
         "name": "Energy Marker JBA",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JBA.jpg?v=ca574ab1bf04",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JBA.jpg?v=188c982748d9",
         "isHorizontal": false
       }
     },
@@ -23408,7 +23404,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JBA.jpg?v=ca574ab1bf04",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JBA.jpg?v=188c982748d9",
     "isAccessory": true
   },
   "TOKEN-MLM": {
@@ -23418,7 +23414,7 @@
         "name": "Energy Marker MLM",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MLM.jpg?v=15bf9019b0b8",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MLM.jpg?v=e874587f38be",
         "isHorizontal": false
       }
     },
@@ -23440,7 +23436,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MLM.jpg?v=15bf9019b0b8",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MLM.jpg?v=e874587f38be",
     "isAccessory": true
   },
   "TOKEN-NRT": {
@@ -23450,7 +23446,7 @@
         "name": "Energy Marker NRT",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NRT.jpg?v=4be61381e03f",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NRT.jpg?v=02f158a0ba7a",
         "isHorizontal": false
       }
     },
@@ -23472,7 +23468,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NRT.jpg?v=4be61381e03f",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NRT.jpg?v=02f158a0ba7a",
     "isAccessory": true
   },
   "TOKEN-SMK": {
@@ -23482,7 +23478,7 @@
         "name": "Energy Marker SMK",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SMK.jpg?v=ce73d42d3aa7",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SMK.jpg?v=a0f75c15bbf7",
         "isHorizontal": false
       }
     },
@@ -23504,7 +23500,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SMK.jpg?v=ce73d42d3aa7",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SMK.jpg?v=a0f75c15bbf7",
     "isAccessory": true
   },
   "TOKEN-YYH": {
@@ -23514,7 +23510,7 @@
         "name": "Energy Marker YYH",
         "type": "ENERGY",
         "cost": null,
-        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/YYH.jpg?v=110b801ecca2",
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/YYH.jpg?v=fa3b0f7dbcf7",
         "isHorizontal": false
       }
     },
@@ -23536,7 +23532,7 @@
     "Effect": "",
     "Deck_Zone": "Energy_Stack",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/YYH.jpg?v=110b801ecca2",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/YYH.jpg?v=fa3b0f7dbcf7",
     "isAccessory": true
   },
   "TOKEN-SJM-CCS1": {
@@ -51156,5 +51152,1355 @@
     "Orientation": "Portrait",
     "image": "https://decclesia.github.io/SJTCGP/images/ST1-026-alt1.jpg?v=efc0bca2f283",
     "Artwork": "ST7 Leader Reprint — Alt Art"
+  },
+  "ST1-020-AA": {
+    "id": "ST1-020-AA",
+    "face": {
+      "front": {
+        "name": "Beam",
+        "type": "UNIT",
+        "cost": 1,
+        "image": "https://decclesia.github.io/SJTCGP/images/ST1-020-alt1.jpg?v=2ddf96b635ab",
+        "isHorizontal": false,
+        "power": 1000
+      }
+    },
+    "name": "Beam [ST1-020]",
+    "type": "Main_Deck",
+    "Number": "ST1-020",
+    "Card_Type": "Unit",
+    "Color": "Yellow",
+    "Set": "CSM",
+    "Release": "ST1",
+    "Rarity": "C",
+    "Cost": 1,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": 1000,
+    "Counter": 2000,
+    "Traits": [
+      "Fiend",
+      "Public Safety Bureau"
+    ],
+    "Keywords": [
+      "On Play"
+    ],
+    "Effect": "[On Play] Choose up to 1 of your Opponent's Units and Rest it.",
+    "Deck_Zone": "Main",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/images/ST1-020-alt1.jpg?v=2ddf96b635ab",
+    "Artwork": "Alt Art"
+  },
+  "TOKEN-BAK": {
+    "id": "TOKEN-BAK",
+    "face": {
+      "front": {
+        "name": "Energy Marker BAK",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BAK.jpg?v=9229894e19e4",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker BAK",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-BAK",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "BAK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BAK.jpg?v=9229894e19e4",
+    "isAccessory": true
+  },
+  "TOKEN-BCL": {
+    "id": "TOKEN-BCL",
+    "face": {
+      "front": {
+        "name": "Energy Marker BCL",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BCL.jpg?v=fb9a702a1144",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker BCL",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-BCL",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "BCL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BCL.jpg?v=fb9a702a1144",
+    "isAccessory": true
+  },
+  "TOKEN-BLC": {
+    "id": "TOKEN-BLC",
+    "face": {
+      "front": {
+        "name": "Energy Marker BLC",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BLC.jpg?v=d13fe01d6a43",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker BLC",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-BLC",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "BLC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BLC.jpg?v=d13fe01d6a43",
+    "isAccessory": true
+  },
+  "TOKEN-BLK": {
+    "id": "TOKEN-BLK",
+    "face": {
+      "front": {
+        "name": "Energy Marker BLK",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BLK.jpg?v=87a88e60eda1",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker BLK",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-BLK",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "BLK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BLK.jpg?v=87a88e60eda1",
+    "isAccessory": true
+  },
+  "TOKEN-BSK": {
+    "id": "TOKEN-BSK",
+    "face": {
+      "front": {
+        "name": "Energy Marker BSK",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BSK.jpg?v=c53da40bf70c",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker BSK",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-BSK",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "BSK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/BSK.jpg?v=c53da40bf70c",
+    "isAccessory": true
+  },
+  "TOKEN-CCS": {
+    "id": "TOKEN-CCS",
+    "face": {
+      "front": {
+        "name": "Energy Marker CCS",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CCS.jpg?v=caa69a0ea787",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker CCS",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-CCS",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "CCS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CCS.jpg?v=caa69a0ea787",
+    "isAccessory": true
+  },
+  "TOKEN-CLM": {
+    "id": "TOKEN-CLM",
+    "face": {
+      "front": {
+        "name": "Energy Marker CLM",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CLM.jpg?v=24c3f5251587",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker CLM",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-CLM",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "CLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/CLM.jpg?v=24c3f5251587",
+    "isAccessory": true
+  },
+  "TOKEN-DBL": {
+    "id": "TOKEN-DBL",
+    "face": {
+      "front": {
+        "name": "Energy Marker DBL",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/DBL.jpg?v=0f5747329d27",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker DBL",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-DBL",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "DBL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/DBL.jpg?v=0f5747329d27",
+    "isAccessory": true
+  },
+  "TOKEN-DDD": {
+    "id": "TOKEN-DDD",
+    "face": {
+      "front": {
+        "name": "Energy Marker DDD",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/DDD.jpg?v=ec6d0accf00b",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker DDD",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-DDD",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "DDD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/DDD.jpg?v=ec6d0accf00b",
+    "isAccessory": true
+  },
+  "TOKEN-ELF": {
+    "id": "TOKEN-ELF",
+    "face": {
+      "front": {
+        "name": "Energy Marker ELF",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ELF.jpg?v=92a5f8f36849",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker ELF",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-ELF",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "ELF",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ELF.jpg?v=92a5f8f36849",
+    "isAccessory": true
+  },
+  "TOKEN-FOR": {
+    "id": "TOKEN-FOR",
+    "face": {
+      "front": {
+        "name": "Energy Marker FOR",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FOR.jpg?v=f1d4c69c3b41",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker FOR",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-FOR",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "FOR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FOR.jpg?v=f1d4c69c3b41",
+    "isAccessory": true
+  },
+  "TOKEN-FRE": {
+    "id": "TOKEN-FRE",
+    "face": {
+      "front": {
+        "name": "Energy Marker FRE",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FRE.jpg?v=6a248cccf12d",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker FRE",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-FRE",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "FRE",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/FRE.jpg?v=6a248cccf12d",
+    "isAccessory": true
+  },
+  "TOKEN-GKA": {
+    "id": "TOKEN-GKA",
+    "face": {
+      "front": {
+        "name": "Energy Marker GKA",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/GKA.jpg?v=8d1f8a492f33",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker GKA",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-GKA",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "GKA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/GKA.jpg?v=8d1f8a492f33",
+    "isAccessory": true
+  },
+  "TOKEN-GMC": {
+    "id": "TOKEN-GMC",
+    "face": {
+      "front": {
+        "name": "Energy Marker GMC",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/GMC.jpg?v=4f445aacd955",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker GMC",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-GMC",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "GMC",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/GMC.jpg?v=4f445aacd955",
+    "isAccessory": true
+  },
+  "TOKEN-HKY": {
+    "id": "TOKEN-HKY",
+    "face": {
+      "front": {
+        "name": "Energy Marker HKY",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/HKY.jpg?v=96927ae6c0db",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker HKY",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-HKY",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "HKY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/HKY.jpg?v=96927ae6c0db",
+    "isAccessory": true
+  },
+  "TOKEN-INY": {
+    "id": "TOKEN-INY",
+    "face": {
+      "front": {
+        "name": "Energy Marker INY",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/INY.jpg?v=7e4a1fa74001",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker INY",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-INY",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "INY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/INY.jpg?v=7e4a1fa74001",
+    "isAccessory": true
+  },
+  "TOKEN-IWK": {
+    "id": "TOKEN-IWK",
+    "face": {
+      "front": {
+        "name": "Energy Marker IWK",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/IWK.jpg?v=574dab900e4d",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker IWK",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-IWK",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "IWK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/IWK.jpg?v=574dab900e4d",
+    "isAccessory": true
+  },
+  "TOKEN-JGR": {
+    "id": "TOKEN-JGR",
+    "face": {
+      "front": {
+        "name": "Energy Marker JGR",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JGR.jpg?v=e9920c843be0",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker JGR",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-JGR",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "JGR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JGR.jpg?v=e9920c843be0",
+    "isAccessory": true
+  },
+  "TOKEN-JJK": {
+    "id": "TOKEN-JJK",
+    "face": {
+      "front": {
+        "name": "Energy Marker JJK",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JJK.jpg?v=fb28f05f11cd",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker JJK",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-JJK",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "JJK",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/JJK.jpg?v=fb28f05f11cd",
+    "isAccessory": true
+  },
+  "TOKEN-KNB": {
+    "id": "TOKEN-KNB",
+    "face": {
+      "front": {
+        "name": "Energy Marker KNB",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/KNB.jpg?v=ba6bb8497723",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker KNB",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-KNB",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "KNB",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/KNB.jpg?v=ba6bb8497723",
+    "isAccessory": true
+  },
+  "TOKEN-KNY": {
+    "id": "TOKEN-KNY",
+    "face": {
+      "front": {
+        "name": "Energy Marker KNY",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/KNY.jpg?v=d3c74e2749ad",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker KNY",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-KNY",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "KNY",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/KNY.jpg?v=d3c74e2749ad",
+    "isAccessory": true
+  },
+  "TOKEN-MGD": {
+    "id": "TOKEN-MGD",
+    "face": {
+      "front": {
+        "name": "Energy Marker MGD",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MGD.jpg?v=ba56a975819d",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker MGD",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-MGD",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "MGD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MGD.jpg?v=ba56a975819d",
+    "isAccessory": true
+  },
+  "TOKEN-MIA": {
+    "id": "TOKEN-MIA",
+    "face": {
+      "front": {
+        "name": "Energy Marker MIA",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MIA.jpg?v=82e338c72041",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker MIA",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-MIA",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "MIA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/MIA.jpg?v=82e338c72041",
+    "isAccessory": true
+  },
+  "TOKEN-NOG": {
+    "id": "TOKEN-NOG",
+    "face": {
+      "front": {
+        "name": "Energy Marker NOG",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NOG.jpg?v=aec038f76384",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker NOG",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-NOG",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "NOG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NOG.jpg?v=aec038f76384",
+    "isAccessory": true
+  },
+  "TOKEN-NUR": {
+    "id": "TOKEN-NUR",
+    "face": {
+      "front": {
+        "name": "Energy Marker NUR",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NUR.jpg?v=7d5faf2eb9c6",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker NUR",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-NUR",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "NUR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/NUR.jpg?v=7d5faf2eb9c6",
+    "isAccessory": true
+  },
+  "TOKEN-ONS": {
+    "id": "TOKEN-ONS",
+    "face": {
+      "front": {
+        "name": "Energy Marker ONS",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ONS.jpg?v=bf3af2ff3526",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker ONS",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-ONS",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "ONS",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/ONS.jpg?v=bf3af2ff3526",
+    "isAccessory": true
+  },
+  "TOKEN-PAR": {
+    "id": "TOKEN-PAR",
+    "face": {
+      "front": {
+        "name": "Energy Marker PAR",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/PAR.jpg?v=5dc33df5377d",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker PAR",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-PAR",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "PAR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/PAR.jpg?v=5dc33df5377d",
+    "isAccessory": true
+  },
+  "TOKEN-PRO": {
+    "id": "TOKEN-PRO",
+    "face": {
+      "front": {
+        "name": "Energy Marker PRO",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/PRO.jpg?v=d39158aeac3e",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker PRO",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-PRO",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "PRO",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/PRO.jpg?v=d39158aeac3e",
+    "isAccessory": true
+  },
+  "TOKEN-RDR": {
+    "id": "TOKEN-RDR",
+    "face": {
+      "front": {
+        "name": "Energy Marker RDR",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/RDR.jpg?v=59a5202da85f",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker RDR",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-RDR",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "RDR",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/RDR.jpg?v=59a5202da85f",
+    "isAccessory": true
+  },
+  "TOKEN-RKN": {
+    "id": "TOKEN-RKN",
+    "face": {
+      "front": {
+        "name": "Energy Marker RKN",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/RKN.jpg?v=2d28d2a6252b",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker RKN",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-RKN",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "RKN",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/RKN.jpg?v=2d28d2a6252b",
+    "isAccessory": true
+  },
+  "TOKEN-SAF": {
+    "id": "TOKEN-SAF",
+    "face": {
+      "front": {
+        "name": "Energy Marker SAF",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SAF.jpg?v=87be223b575e",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker SAF",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-SAF",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "SAF",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SAF.jpg?v=87be223b575e",
+    "isAccessory": true
+  },
+  "TOKEN-SKD": {
+    "id": "TOKEN-SKD",
+    "face": {
+      "front": {
+        "name": "Energy Marker SKD",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SKD.jpg?v=16a3d3cddf91",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker SKD",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-SKD",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "SKD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SKD.jpg?v=16a3d3cddf91",
+    "isAccessory": true
+  },
+  "TOKEN-SLD": {
+    "id": "TOKEN-SLD",
+    "face": {
+      "front": {
+        "name": "Energy Marker SLD",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SLD.jpg?v=c3fa1a33a652",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker SLD",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-SLD",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "SLD",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SLD.jpg?v=c3fa1a33a652",
+    "isAccessory": true
+  },
+  "TOKEN-SLM": {
+    "id": "TOKEN-SLM",
+    "face": {
+      "front": {
+        "name": "Energy Marker SLM",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SLM.jpg?v=8fa66a69a424",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker SLM",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-SLM",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "SLM",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/SLM.jpg?v=8fa66a69a424",
+    "isAccessory": true
+  },
+  "TOKEN-TKG": {
+    "id": "TOKEN-TKG",
+    "face": {
+      "front": {
+        "name": "Energy Marker TKG",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/TKG.jpg?v=f4a4505a1372",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker TKG",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-TKG",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "TKG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/TKG.jpg?v=f4a4505a1372",
+    "isAccessory": true
+  },
+  "TOKEN-UDU": {
+    "id": "TOKEN-UDU",
+    "face": {
+      "front": {
+        "name": "Energy Marker UDU",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/UDU.jpg?v=414ae91985ac",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker UDU",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-UDU",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "UDU",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/UDU.jpg?v=414ae91985ac",
+    "isAccessory": true
+  },
+  "TOKEN-UTN": {
+    "id": "TOKEN-UTN",
+    "face": {
+      "front": {
+        "name": "Energy Marker UTN",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/UTN.jpg?v=36701c1360cd",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker UTN",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-UTN",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "UTN",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/UTN.jpg?v=36701c1360cd",
+    "isAccessory": true
+  },
+  "TOKEN-WHA": {
+    "id": "TOKEN-WHA",
+    "face": {
+      "front": {
+        "name": "Energy Marker WHA",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/WHA.jpg?v=9774e37bb1cf",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker WHA",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-WHA",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "WHA",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/WHA.jpg?v=9774e37bb1cf",
+    "isAccessory": true
+  },
+  "TOKEN-WTG": {
+    "id": "TOKEN-WTG",
+    "face": {
+      "front": {
+        "name": "Energy Marker WTG",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/WTG.jpg?v=9bda733f276b",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker WTG",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-WTG",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "WTG",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/WTG.jpg?v=9bda733f276b",
+    "isAccessory": true
+  },
+  "TOKEN-WTW": {
+    "id": "TOKEN-WTW",
+    "face": {
+      "front": {
+        "name": "Energy Marker WTW",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/WTW.jpg?v=4d86834556b2",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker WTW",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-WTW",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "WTW",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/WTW.jpg?v=4d86834556b2",
+    "isAccessory": true
+  },
+  "TOKEN-XHL": {
+    "id": "TOKEN-XHL",
+    "face": {
+      "front": {
+        "name": "Energy Marker XHL",
+        "type": "ENERGY",
+        "cost": null,
+        "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/XHL.jpg?v=30b13992bf02",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energy Marker XHL",
+    "type": "Energy_Stack",
+    "Number": "TOKEN-XHL",
+    "Card_Type": "Energy Marker",
+    "Color": "",
+    "Set": "XHL",
+    "Release": "Accessory",
+    "Rarity": "Token",
+    "Cost": null,
+    "SJ_Cost": null,
+    "Life": null,
+    "Power": null,
+    "Counter": null,
+    "Traits": [],
+    "Keywords": [],
+    "Effect": "",
+    "Deck_Zone": "Energy_Stack",
+    "Orientation": "Portrait",
+    "image": "https://decclesia.github.io/SJTCGP/tcga/assets/energy/XHL.jpg?v=30b13992bf02",
+    "isAccessory": true
   }
 }

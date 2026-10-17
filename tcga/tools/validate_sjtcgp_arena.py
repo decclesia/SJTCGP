@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import sys
 from pathlib import Path
 
@@ -61,6 +62,32 @@ def main() -> int:
         for category in game["deckBuilding"]["deckRulesets"]["Standard"]["categories"]
     }
     sections = classic["sections"]["sectionsDict"]
+
+    # Supplied Energy art must stay synchronized with both the gallery and mappings.
+    energy_path = REPO_ROOT / "energy-markers.json"
+    if energy_path.exists():
+        energy = load_json(energy_path)
+        mapping = load_json(REPO_ROOT / "tcga" / "marker-map.json")
+        if len({entry['id'] for entry in energy}) != len(energy):
+            fail(errors, "Duplicate Energy Marker gallery identity.")
+        for entry in energy:
+            marker = cards.get(entry['id'], {})
+            asset = REPO_ROOT / entry['image']
+            if not asset.exists():
+                fail(errors, f"{entry['id']}: missing Energy artwork.")
+                continue
+            digest = hashlib.sha256(asset.read_bytes()).hexdigest()[:12]
+            expected = 'https://decclesia.github.io/SJTCGP/' + entry['image'] + '?v=' + digest
+            if entry['imageVersion'] != digest or marker.get('image') != expected or marker.get('face', {}).get('front', {}).get('image') != expected:
+                fail(errors, f"{entry['id']}: stale or mismatched Energy artwork.")
+            if marker.get('type') != 'Energy_Stack' or marker.get('Set') != entry['set']:
+                fail(errors, f"{entry['id']}: wrong Energy category/series.")
+            if entry['id'] not in classic['tokens'] or mapping['bySeries'].get(entry['set'], {}).get('energy') != entry['id']:
+                fail(errors, f"{entry['id']}: missing token registration or series mapping.")
+        supplied = {entry['set']: entry['id'] for entry in energy}
+        for leader, entry in mapping.get('byLeader', {}).items():
+            if entry['set'] in supplied and entry['energy'] != supplied[entry['set']]:
+                fail(errors, f"{leader}: stale Energy fallback despite supplied series art.")
 
     if classic["mulligan"]["startingHandSize"] != 6:
         fail(errors, "Opening hand must remain 6.")

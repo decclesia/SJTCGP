@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Energy Markers · SJTCG</title>
+  <link rel="stylesheet" href="energy.css">
+  <script defer src="energy-markers-data.js?v=20261017"></script>
+  <script defer src="energy.js?v=20261017"></script>
+</head>
+<body>
+  <header><a href="./">SJTCG <span>Card Database</span></a><nav aria-label="Main views"><a href="./">Cards &amp; Deckbuilder</a><a href="energy.html" aria-current="page">Energy Markers</a></nav></header>
+  <main>
+    <div class="intro"><p class="eyebrow">ACCESSORY COLLECTION</p><h1>Energy Markers</h1><p>All 51 supplied series artworks. Select a marker to inspect it at full size.</p><p class="muted">Accessories do not count toward the 50-card Main Deck. Artwork for a future series does not mean its card release is complete. The generic fallback remains available in Arena.</p></div>
+    <section class="filters" aria-label="Search markers"><label for="energySearch">Search by series code<input id="energySearch" type="search" placeholder="CSM, FOR, JJK…" autocomplete="off"></label><p id="energyCount" aria-live="polite"></p></section>
+    <section id="energyGrid" class="energy-grid" aria-label="Energy Marker gallery"></section>
+    <p id="energyEmpty" hidden>No matching markers.</p>
+  </main>
+  <dialog id="energyDialog" aria-labelledby="energyTitle"><button class="close" type="button" aria-label="Close marker preview">×</button><h2 id="energyTitle"></h2><img id="energyPreview" alt=""><a id="energyFull" target="_blank" rel="noopener">Open full-size image</a></dialog>
+</body>
+</html>

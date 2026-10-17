@@ -1,7 +1,7 @@
 {
   "bySeries": {
     "ANE": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-ANE",
       "sjMarkers": [
         "TOKEN-SJM-ANE1",
         "TOKEN-SJM-ANE2"
@@ -9,7 +9,7 @@
       "guardToken": "TOKEN-GT-ANE"
     },
     "CCS": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-CCS",
       "sjMarkers": [
         "TOKEN-SJM-CCS1",
         "TOKEN-SJM-CCS2"
@@ -42,7 +42,7 @@
       "guardToken": "TOKEN-GT-FMA"
     },
     "FOR": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-FOR",
       "sjMarkers": [
         "TOKEN-SJM-FOR1",
         "TOKEN-SJM-FOR2"
@@ -55,14 +55,14 @@
       "guardToken": null
     },
     "GKA": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-GKA",
       "sjMarkers": [
         "TOKEN-SJM-GKA1"
       ],
       "guardToken": "TOKEN-GT-GKA"
     },
     "GMC": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-GMC",
       "sjMarkers": [
         "TOKEN-SJM-GMC1"
       ],
@@ -86,7 +86,7 @@
       "guardToken": "TOKEN-GT-JBA"
     },
     "MGD": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-MGD",
       "sjMarkers": [
         "TOKEN-SJM-MGD1",
         "TOKEN-SJM-MGD2"
@@ -110,21 +110,21 @@
       "guardToken": "TOKEN-GT-NRT"
     },
     "PRO": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-PRO",
       "sjMarkers": [
         "TOKEN-SJM-PRO"
       ],
       "guardToken": "TOKEN-GT-PRO"
     },
     "SAF": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-SAF",
       "sjMarkers": [
         "TOKEN-SJM-SAF1"
       ],
       "guardToken": "TOKEN-GT-SAF"
     },
     "SLM": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-SLM",
       "sjMarkers": [
         "TOKEN-SJM-SLM1",
         "TOKEN-SJM-SLM2"
@@ -141,7 +141,7 @@
       "guardToken": "TOKEN-GT-SMK"
     },
     "WHA": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-WHA",
       "sjMarkers": [
         "TOKEN-SJM-WHA1",
         "TOKEN-SJM-WHA2"
@@ -149,7 +149,7 @@
       "guardToken": "TOKEN-GT-WHA"
     },
     "WTW": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-WTW",
       "sjMarkers": [
         "TOKEN-SJM-WTW1",
         "TOKEN-SJM-WTW2"
@@ -165,14 +165,14 @@
       "guardToken": "TOKEN-GT-YYH"
     },
     "UTN": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-UTN",
       "sjMarkers": [
         "TOKEN-SJM-UTN1"
       ],
       "guardToken": "TOKEN-GT-UTN"
     },
     "DBL": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-DBL",
       "sjMarkers": [
         "TOKEN-SJM-DBL1",
         "TOKEN-SJM-DBL2"
@@ -180,7 +180,7 @@
       "guardToken": "TOKEN-GT-DBL"
     },
     "KNY": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-KNY",
       "sjMarkers": [
         "TOKEN-SJM-KNY1",
         "TOKEN-SJM-KNY2"
@@ -188,7 +188,7 @@
       "guardToken": "TOKEN-GT-KNY"
     },
     "BSK": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-BSK",
       "sjMarkers": [
         "TOKEN-SJM-BSK1",
         "TOKEN-SJM-BSK2"
@@ -196,7 +196,7 @@
       "guardToken": "TOKEN-GT-BSK"
     },
     "BLC": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-BLC",
       "sjMarkers": [
         "TOKEN-SJM-BLC1",
         "TOKEN-SJM-BLC2"
@@ -204,7 +204,7 @@
       "guardToken": "TOKEN-GT-BLC"
     },
     "RKN": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-RKN",
       "sjMarkers": [
         "TOKEN-SJM-RKN1",
         "TOKEN-SJM-RKN2"
@@ -212,7 +212,7 @@
       "guardToken": "TOKEN-GT-RKN"
     },
     "DDD": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-DDD",
       "sjMarkers": [
         "TOKEN-SJM-DDD1",
         "TOKEN-SJM-DDD2"
@@ -220,7 +220,7 @@
       "guardToken": "TOKEN-GT-DDD"
     },
     "NOG": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-NOG",
       "sjMarkers": [
         "TOKEN-SJM-NOG1",
         "TOKEN-SJM-NOG2"
@@ -228,7 +228,7 @@
       "guardToken": "TOKEN-GT-NOG"
     },
     "INY": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-INY",
       "sjMarkers": [
         "TOKEN-SJM-INY1",
         "TOKEN-SJM-INY2"
@@ -236,7 +236,7 @@
       "guardToken": "TOKEN-GT-INY"
     },
     "NUR": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-NUR",
       "sjMarkers": [
         "TOKEN-SJM-NUR1",
         "TOKEN-SJM-NUR2"
@@ -244,7 +244,7 @@
       "guardToken": "TOKEN-GT-NUR"
     },
     "XHL": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-XHL",
       "sjMarkers": [
         "TOKEN-SJM-XHL1",
         "TOKEN-SJM-XHL2"
@@ -252,7 +252,7 @@
       "guardToken": "TOKEN-GT-XHL"
     },
     "BCL": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-BCL",
       "sjMarkers": [
         "TOKEN-SJM-BCL1",
         "TOKEN-SJM-BCL2"
@@ -260,14 +260,14 @@
       "guardToken": "TOKEN-GT-BCL"
     },
     "SKD": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-SKD",
       "sjMarkers": [
         "TOKEN-SJM-SKD1"
       ],
       "guardToken": "TOKEN-GT-SKD"
     },
     "MIA": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-MIA",
       "sjMarkers": [
         "TOKEN-SJM-MIA1",
         "TOKEN-SJM-MIA2"
@@ -275,7 +275,7 @@
       "guardToken": "TOKEN-GT-MIA"
     },
     "JJK": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-JJK",
       "sjMarkers": [
         "TOKEN-SJM-JJK1",
         "TOKEN-SJM-JJK2"
@@ -283,7 +283,7 @@
       "guardToken": "TOKEN-GT-JJK"
     },
     "JGR": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-JGR",
       "sjMarkers": [
         "TOKEN-SJM-JGR1",
         "TOKEN-SJM-JGR2"
@@ -291,7 +291,7 @@
       "guardToken": "TOKEN-GT-JGR"
     },
     "WTG": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-WTG",
       "sjMarkers": [
         "TOKEN-SJM-WTG1",
         "TOKEN-SJM-WTG2"
@@ -299,17 +299,83 @@
       "guardToken": "TOKEN-GT-WTG"
     },
     "ONS": {
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-ONS",
       "sjMarkers": [
         "TOKEN-SJM-ONS"
       ],
       "guardToken": "TOKEN-GT-ONS"
+    },
+    "BAK": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-BAK"
+    },
+    "BLK": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-BLK"
+    },
+    "CLM": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-CLM"
+    },
+    "ELF": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-ELF"
+    },
+    "FRE": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-FRE"
+    },
+    "HKY": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-HKY"
+    },
+    "IWK": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-IWK"
+    },
+    "KNB": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-KNB"
+    },
+    "PAR": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-PAR"
+    },
+    "RDR": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-RDR"
+    },
+    "SLD": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-SLD"
+    },
+    "TKG": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-TKG"
+    },
+    "UDU": {
+      "sjMarkers": [],
+      "guardToken": null,
+      "energy": "TOKEN-UDU"
     }
   },
   "notes": {
     "energyFallback": "TOKEN-ENERGY-GENERIC",
     "automaticAssignment": "The included deck converter assigns exact Set art when available and uses the generic Energy Marker otherwise.",
-    "arenaLimitation": "TCG Arena itself cannot dynamically change accessory art after a Leader is selected."
+    "arenaLimitation": "TCG Arena itself cannot dynamically change accessory art after a Leader is selected.",
+    "energyCollection": "51 supplied series Energy Markers updated on 2026-10-17. Existing generic marker retained as a fallback; future-series artwork does not imply a released card pool."
   },
   "byLeader": {
     "ST1-001": {
@@ -389,7 +455,7 @@
     },
     "ST2-076": {
       "set": "FOR",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-FOR",
       "sjMarkers": [
         "TOKEN-SJM-FOR1",
         "TOKEN-SJM-FOR2"
@@ -407,7 +473,7 @@
     },
     "ST3-001": {
       "set": "MGD",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-MGD",
       "sjMarkers": [
         "TOKEN-SJM-MGD1",
         "TOKEN-SJM-MGD2"
@@ -416,7 +482,7 @@
     },
     "ST3-021": {
       "set": "SLM",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-SLM",
       "sjMarkers": [
         "TOKEN-SJM-SLM1",
         "TOKEN-SJM-SLM2"
@@ -425,7 +491,7 @@
     },
     "ST3-041": {
       "set": "WHA",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-WHA",
       "sjMarkers": [
         "TOKEN-SJM-WHA1",
         "TOKEN-SJM-WHA2"
@@ -434,7 +500,7 @@
     },
     "ST3-061": {
       "set": "WTW",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-WTW",
       "sjMarkers": [
         "TOKEN-SJM-WTW1",
         "TOKEN-SJM-WTW2"
@@ -443,7 +509,7 @@
     },
     "ST3-081": {
       "set": "CCS",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-CCS",
       "sjMarkers": [
         "TOKEN-SJM-CCS1",
         "TOKEN-SJM-CCS2"
@@ -500,7 +566,7 @@
     },
     "EX1-001": {
       "set": "GKA",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-GKA",
       "sjMarkers": [
         "TOKEN-SJM-GKA1"
       ],
@@ -508,7 +574,7 @@
     },
     "EX2-001": {
       "set": "PRO",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-PRO",
       "sjMarkers": [
         "TOKEN-SJM-PRO"
       ],
@@ -516,7 +582,7 @@
     },
     "EX3-001": {
       "set": "GMC",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-GMC",
       "sjMarkers": [
         "TOKEN-SJM-GMC1"
       ],
@@ -524,7 +590,7 @@
     },
     "EX4-001": {
       "set": "SAF",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-SAF",
       "sjMarkers": [
         "TOKEN-SJM-SAF1"
       ],
@@ -532,7 +598,7 @@
     },
     "EX5-001": {
       "set": "UTN",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-UTN",
       "sjMarkers": [
         "TOKEN-SJM-UTN1"
       ],
@@ -540,7 +606,7 @@
     },
     "ST4-001": {
       "set": "DBL",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-DBL",
       "sjMarkers": [
         "TOKEN-SJM-DBL1",
         "TOKEN-SJM-DBL2"
@@ -549,7 +615,7 @@
     },
     "ST4-026": {
       "set": "KNY",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-KNY",
       "sjMarkers": [
         "TOKEN-SJM-KNY1",
         "TOKEN-SJM-KNY2"
@@ -558,7 +624,7 @@
     },
     "ST4-076": {
       "set": "BSK",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-BSK",
       "sjMarkers": [
         "TOKEN-SJM-BSK1",
         "TOKEN-SJM-BSK2"
@@ -567,7 +633,7 @@
     },
     "ST4-051": {
       "set": "BLC",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-BLC",
       "sjMarkers": [
         "TOKEN-SJM-BLC1",
         "TOKEN-SJM-BLC2"
@@ -576,7 +642,7 @@
     },
     "ST4-101": {
       "set": "RKN",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-RKN",
       "sjMarkers": [
         "TOKEN-SJM-RKN1",
         "TOKEN-SJM-RKN2"
@@ -585,7 +651,7 @@
     },
     "SD5-001": {
       "set": "KNY",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-KNY",
       "sjMarkers": [
         "TOKEN-SJM-KNY3"
       ],
@@ -593,7 +659,7 @@
     },
     "SD6-001": {
       "set": "BLC",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-BLC",
       "sjMarkers": [
         "TOKEN-SJM-BLC3"
       ],
@@ -601,7 +667,7 @@
     },
     "SD7-001": {
       "set": "RKN",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-RKN",
       "sjMarkers": [
         "TOKEN-SJM-RKN3"
       ],
@@ -609,7 +675,7 @@
     },
     "ST5-101": {
       "set": "DDD",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-DDD",
       "sjMarkers": [
         "TOKEN-SJM-DDD1",
         "TOKEN-SJM-DDD2"
@@ -618,7 +684,7 @@
     },
     "ST5-001": {
       "set": "NOG",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-NOG",
       "sjMarkers": [
         "TOKEN-SJM-NOG1",
         "TOKEN-SJM-NOG2"
@@ -627,7 +693,7 @@
     },
     "SD8-001": {
       "set": "NOG",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-NOG",
       "sjMarkers": [
         "TOKEN-SJM-NOG3"
       ],
@@ -635,7 +701,7 @@
     },
     "SD9-001": {
       "set": "ANE",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-ANE",
       "sjMarkers": [
         "TOKEN-SJM-ANE3"
       ],
@@ -643,7 +709,7 @@
     },
     "ST5-076": {
       "set": "ANE",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-ANE",
       "sjMarkers": [
         "TOKEN-SJM-ANE1",
         "TOKEN-SJM-ANE2"
@@ -652,7 +718,7 @@
     },
     "ST5-026": {
       "set": "INY",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-INY",
       "sjMarkers": [
         "TOKEN-SJM-INY1",
         "TOKEN-SJM-INY2"
@@ -661,7 +727,7 @@
     },
     "ST5-051": {
       "set": "NUR",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-NUR",
       "sjMarkers": [
         "TOKEN-SJM-NUR1",
         "TOKEN-SJM-NUR2"
@@ -670,7 +736,7 @@
     },
     "EX6-001": {
       "set": "XHL",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-XHL",
       "sjMarkers": [
         "TOKEN-SJM-XHL1",
         "TOKEN-SJM-XHL2"
@@ -679,7 +745,7 @@
     },
     "ST6-021": {
       "set": "BCL",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-BCL",
       "sjMarkers": [
         "TOKEN-SJM-BCL1",
         "TOKEN-SJM-BCL2"
@@ -688,7 +754,7 @@
     },
     "EX7-001": {
       "set": "SKD",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-SKD",
       "sjMarkers": [
         "TOKEN-SJM-SKD1"
       ],
@@ -696,7 +762,7 @@
     },
     "ST6-081": {
       "set": "MIA",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-MIA",
       "sjMarkers": [
         "TOKEN-SJM-MIA1",
         "TOKEN-SJM-MIA2"
@@ -705,7 +771,7 @@
     },
     "ST6-001": {
       "set": "JJK",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-JJK",
       "sjMarkers": [
         "TOKEN-SJM-JJK1",
         "TOKEN-SJM-JJK2"
@@ -714,7 +780,7 @@
     },
     "ST6-061": {
       "set": "JGR",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-JGR",
       "sjMarkers": [
         "TOKEN-SJM-JGR1",
         "TOKEN-SJM-JGR2"
@@ -723,7 +789,7 @@
     },
     "ST6-041": {
       "set": "WTG",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-WTG",
       "sjMarkers": [
         "TOKEN-SJM-WTG1",
         "TOKEN-SJM-WTG2"
@@ -732,7 +798,7 @@
     },
     "SD11-001": {
       "set": "BSK",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-BSK",
       "sjMarkers": [
         "TOKEN-SJM-BSK3"
       ],
@@ -740,7 +806,7 @@
     },
     "EX9-001": {
       "set": "ONS",
-      "energy": "TOKEN-ENERGY-GENERIC",
+      "energy": "TOKEN-ONS",
       "sjMarkers": [
         "TOKEN-SJM-ONS"
       ],

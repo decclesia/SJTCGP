@@ -48,7 +48,7 @@ def main() -> None:
         raise SystemExit(f"Leader {leader} is not present in the TCG Arena card database.")
 
     leader_set = cards[leader].get("Set", "GENERIC")
-    accessories = marker_map.get("bySeries", {}).get(leader_set, {})
+    accessories = marker_map.get("byLeader", {}).get(leader) or marker_map.get("bySeries", {}).get(leader_set, {})
     energy_id = accessories.get("energy") or marker_map["notes"]["energyFallback"]
     sj_ids = accessories.get("sjMarkers") or []
     guard_id = accessories.get("guardToken")

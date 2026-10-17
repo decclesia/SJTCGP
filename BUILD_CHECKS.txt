@@ -366,5 +366,88 @@
       "PUP-002",
       "PUP-006"
     ]
+  },
+  "replacement_energy_bundle_2026_10_17": {
+    "images": 40,
+    "canonical_replacements": 39,
+    "changed_transcriptions": 33,
+    "metadata_changes": {
+      "SD10-019": {
+        "sj_cost": "2"
+      },
+      "ST2-093": {
+        "cost": "5"
+      },
+      "ST2-094": {
+        "cost": "3"
+      },
+      "ST2-126": {
+        "cost": "5"
+      }
+    },
+    "landscape": [
+      "SD10-020"
+    ],
+    "energy_updated": [
+      "TOKEN-ANE",
+      "TOKEN-CSM",
+      "TOKEN-ENS",
+      "TOKEN-FMA",
+      "TOKEN-HNI",
+      "TOKEN-JBA",
+      "TOKEN-MLM",
+      "TOKEN-NRT",
+      "TOKEN-SMK",
+      "TOKEN-YYH"
+    ],
+    "energy_added": [
+      "TOKEN-BAK",
+      "TOKEN-BCL",
+      "TOKEN-BLC",
+      "TOKEN-BLK",
+      "TOKEN-BSK",
+      "TOKEN-CCS",
+      "TOKEN-CLM",
+      "TOKEN-DBL",
+      "TOKEN-DDD",
+      "TOKEN-ELF",
+      "TOKEN-FOR",
+      "TOKEN-FRE",
+      "TOKEN-GKA",
+      "TOKEN-GMC",
+      "TOKEN-HKY",
+      "TOKEN-INY",
+      "TOKEN-IWK",
+      "TOKEN-JGR",
+      "TOKEN-JJK",
+      "TOKEN-KNB",
+      "TOKEN-KNY",
+      "TOKEN-MGD",
+      "TOKEN-MIA",
+      "TOKEN-NOG",
+      "TOKEN-NUR",
+      "TOKEN-ONS",
+      "TOKEN-PAR",
+      "TOKEN-PRO",
+      "TOKEN-RDR",
+      "TOKEN-RKN",
+      "TOKEN-SAF",
+      "TOKEN-SKD",
+      "TOKEN-SLD",
+      "TOKEN-SLM",
+      "TOKEN-TKG",
+      "TOKEN-UDU",
+      "TOKEN-UTN",
+      "TOKEN-WHA",
+      "TOKEN-WTG",
+      "TOKEN-WTW",
+      "TOKEN-XHL"
+    ],
+    "database_cards": 1227,
+    "arena_entries": 1402,
+    "accessories": 173,
+    "approved_text_image_exception": {
+      "SD10-008": "User confirms On Attack; supplied image still prints On Play and will be corrected next batch."
+    }
   }
 }
