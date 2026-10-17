@@ -9750,9 +9750,9 @@
         "name": "Makima",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg?v=32162bba11f2",
+        "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg?v=97daf04be79b",
         "isHorizontal": false,
-        "power": 5000
+        "power": 4000
       }
     },
     "name": "Makima [ST2-128]",
@@ -9766,7 +9766,7 @@
     "Cost": 3,
     "SJ_Cost": null,
     "Life": null,
-    "Power": 5000,
+    "Power": 4000,
     "Counter": 1000,
     "Traits": [
       "Control Devil",
@@ -9774,15 +9774,13 @@
     ],
     "Keywords": [
       "End of your Turn",
-      "End of Your Turn",
       "Your Turn",
-      "On Attack",
-      "Limit 1"
+      "On Play"
     ],
-    "Effect": "[On Attack] Limit 1 Place 1 \"Nayuta\" or 1 Action card with the \"Control Devil\" Trait from your Deck in your Drop: Draw 1 card.\n[End of your Turn] Rest your Leader or 1 of your Units: Switch this card to Active mode.",
+    "Effect": "[On Play] Place 1 \"Nayuta\" or 1 Action card with the \"Control Devil\" Trait from your Deck in your Drop: Draw 1 card.\n[End of your Turn] Rest your Leader or 1 of your Units: Switch this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg?v=32162bba11f2"
+    "image": "https://decclesia.github.io/SJTCGP/images/ST2-128.jpg?v=97daf04be79b"
   },
   "ST3-001": {
     "id": "ST3-001",
@@ -17013,7 +17011,7 @@
         "name": "Power",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg?v=e1a5d3806b8a",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg?v=94dd75e947e2",
         "isHorizontal": false,
         "power": 5000
       }
@@ -17030,7 +17028,7 @@
     "SJ_Cost": null,
     "Life": null,
     "Power": 5000,
-    "Counter": 1000,
+    "Counter": 0,
     "Traits": [
       "Fiend",
       "Public Safety Bureau"
@@ -17038,13 +17036,13 @@
     "Keywords": [
       "Overcharge",
       "On Attack",
-      "Limit 1",
-      "On Play"
+      "On Play",
+      "Limit 1"
     ],
     "Effect": "[On Play] Choose up to 1 of your Opponent's Rested Units and it can't switch to Active mode during your Opponent's next turn.\n[On Attack] Limit 1 If your Opponent has no Units in play or has 2 or more Rested Units in play, Overcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg?v=e1a5d3806b8a"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-004.jpg?v=94dd75e947e2"
   },
   "SD10-005": {
     "id": "SD10-005",
@@ -17132,9 +17130,9 @@
         "name": "Hayakawa Aki",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg?v=61f6572cb7e2",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg?v=294ecc92863b",
         "isHorizontal": false,
-        "power": 5000
+        "power": 4000
       }
     },
     "name": "Hayakawa Aki [SD10-007]",
@@ -17148,21 +17146,21 @@
     "Cost": 3,
     "SJ_Cost": null,
     "Life": null,
-    "Power": 5000,
+    "Power": 4000,
     "Counter": 1000,
     "Traits": [
       "Human",
       "Public Safety Bureau"
     ],
     "Keywords": [
-      "Limit 1",
       "On Play",
-      "Barrier"
+      "Barrier",
+      "Limit 1"
     ],
-    "Effect": "Barrier\n[On Play] Limit 1 If you added a card from your Life to your hand this turn, choose all of your Opponent's Rested Units and give them -1000 Power for as long as they are Rested.",
+    "Effect": "Barrier\n[On Play] Limit 1 If you added a card from your Life to your hand this turn, choose all of your Opponent’s Rested Units and give them -1000 Power for as long as they are Rested.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg?v=61f6572cb7e2"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-007.jpg?v=294ecc92863b"
   },
   "SD10-008": {
     "id": "SD10-008",
@@ -17171,9 +17169,9 @@
         "name": "Power",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg?v=23673011c7c7",
+        "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg?v=bc69f0b80ce9",
         "isHorizontal": false,
-        "power": 5000
+        "power": 4000
       }
     },
     "name": "Power [SD10-008]",
@@ -17187,7 +17185,7 @@
     "Cost": 3,
     "SJ_Cost": null,
     "Life": null,
-    "Power": 5000,
+    "Power": 4000,
     "Counter": 1000,
     "Traits": [
       "Fiend",
@@ -17195,13 +17193,13 @@
     ],
     "Keywords": [
       "On Attack",
-      "Limit 1",
-      "Deflect"
+      "Deflect",
+      "Limit 1"
     ],
     "Effect": "Deflect\n[On Attack] Limit 1 If this card is in a battle with an Opponent's Unit and your Opponent has 2 or more Rested Units in play, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg?v=23673011c7c7"
+    "image": "https://decclesia.github.io/SJTCGP/images/SD10-008.jpg?v=bc69f0b80ce9"
   },
   "SD10-009": {
     "id": "SD10-009",
@@ -18534,7 +18532,7 @@
         "name": "Lio Fotia",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-002.jpg?v=8d83e3ba9dd3",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-002.jpg?v=e4e11d6fdad2",
         "isHorizontal": false,
         "power": 5000
       }
@@ -18557,16 +18555,17 @@
       "Mad Burnish"
     ],
     "Keywords": [
+      "Opponent’s Turn",
       "Once per Turn",
       "On Play",
-      "Limit 1",
+      "Blocker",
       "Barrier",
-      "Blocker"
+      "Limit 1"
     ],
-    "Effect": "Blocker\n[On Play] Limit 1 Switch up to 1 of your Units with the “Burning Rescue” Trait to Active mode.\n[Opponent’s Turn] Once per Turn When this card is Rested by a skill, draw 1 card and give it Barrier for the turn.",
+    "Effect": "Blocker\n[On Play] Limit 1 Switch up to 1 of your Units with the “Burning Rescue” Trait to Active mode.\n[Opponent’s Turn] Once per Turn When this card is Rested by a skill: Draw 1 card; give this card Barrier for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-002.jpg?v=8d83e3ba9dd3"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-002.jpg?v=e4e11d6fdad2"
   },
   "EX2-003": {
     "id": "EX2-003",
@@ -18575,7 +18574,7 @@
         "name": "Galo Thymos",
         "type": "UNIT",
         "cost": 5,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-003.jpg?v=25b44e90a631",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-003.jpg?v=934f91d32923",
         "isHorizontal": false,
         "power": 6000
       }
@@ -18597,15 +18596,15 @@
       "Burning Rescue"
     ],
     "Keywords": [
-      "On Play",
       "Your Turn",
-      "Limit 1",
-      "Barrier"
+      "On Play",
+      "Barrier",
+      "Limit 1"
     ],
-    "Effect": "[On Play] Rest your Leader or up to 1 of your Units with the “Burnish” Trait: Choose up to 1 of your Opponent’s Units, ignoring Barrier, and it cannot be Rested until the end of your Opponent’s next turn.\n[Your Turn] Limit 1 When this card is Rested by your skill: Draw 1 card.",
+    "Effect": "[Your Turn] Limit 1 When this card is Rested by your skill: Draw 1 card.\n[On Play] Rest your Leader or 1 of your Units with the “Burnish” Trait: Choose up to 1 of your Opponent’s Units, ignoring Barrier, and it cannot be Rested until the end of your Opponent’s next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-003.jpg?v=25b44e90a631"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-003.jpg?v=934f91d32923"
   },
   "EX2-004": {
     "id": "EX2-004",
@@ -18614,7 +18613,7 @@
         "name": "Lio Fotia",
         "type": "UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-004.jpg?v=0035e9e7e72d",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-004.jpg?v=cf471cafcd6c",
         "isHorizontal": false,
         "power": 6000
       }
@@ -18640,15 +18639,14 @@
       "Activate: Main",
       "Once per Turn",
       "Double Damage",
-      "On Attack",
       "Overcharge",
-      "Charge",
+      "On Attack",
       "Deflect"
     ],
-    "Effect": "Deflect\n[On Attack] Once per Turn If this card was switched to Active mode by your skill this turn, give it Double Damage for the battle.\n[Activate: Main] If this card was played this turn: Overcharge 1 for each of your Rested Units with the “Burning Rescue” Trait and you can’t Overcharge for the turn.",
+    "Effect": "Deflect\n[On Attack] Once per Turn If this card was switched to Active mode by your skill(s) this turn, give it Double Damage for the battle.\n[Activate: Main] If this card was played this turn: Overcharge 1 for each of your Rested Units with the “Burning Rescue” Trait and you can’t Overcharge for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-004.jpg?v=0035e9e7e72d"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-004.jpg?v=cf471cafcd6c"
   },
   "EX2-005": {
     "id": "EX2-005",
@@ -18657,7 +18655,7 @@
         "name": "Meis",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-005.jpg?v=97376d3c6ec1",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-005.jpg?v=af16b067c409",
         "isHorizontal": false,
         "power": 2000
       }
@@ -18683,10 +18681,10 @@
       "Your Turn",
       "Limit 1"
     ],
-    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill: Look at the top 5 cards of your Deck; reveal up to 1 “Burning Rescue” card and add it to your hand. Then, shuffle your Deck and place 1 card from your hand in your Drop.",
+    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill: Look at the top 7 cards of your Deck; add up to 1 card with the “Burning Rescue” Trait to your hand. Then, shuffle your Deck and, if you added a card, place 1 card from your hand in your Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-005.jpg?v=97376d3c6ec1"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-005.jpg?v=af16b067c409"
   },
   "EX2-006": {
     "id": "EX2-006",
@@ -18695,7 +18693,7 @@
         "name": "Gueira",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-006.jpg?v=e45156a6cb55",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-006.jpg?v=91c47817645f",
         "isHorizontal": false,
         "power": 3000
       }
@@ -18725,7 +18723,7 @@
     "Effect": "Blocker\n[On Block] Once per Turn If your Leader is “Lio Fotia”, give this card +2000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-006.jpg?v=e45156a6cb55"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-006.jpg?v=91c47817645f"
   },
   "EX2-007": {
     "id": "EX2-007",
@@ -18734,7 +18732,7 @@
         "name": "Aina Ardebit",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-007.jpg?v=394e1f7095b5",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-007.jpg?v=c4a5a07a6ba1",
         "isHorizontal": false,
         "power": 1000
       }
@@ -18759,10 +18757,10 @@
       "Your Turn",
       "Limit 1"
     ],
-    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill and you have a Rested Unit with the “Burnish” Trait: Choose up to 1 of your Opponent’s Units and Rest it.",
+    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill and there is a Rested Unit with the “Burnish” Trait in play: Choose up to 1 of your Opponent’s Units and Rest it.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-007.jpg?v=394e1f7095b5"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-007.jpg?v=c4a5a07a6ba1"
   },
   "EX2-008": {
     "id": "EX2-008",
@@ -18771,7 +18769,7 @@
         "name": "Heris Ardebit",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-008.jpg?v=a3202ff9c8a6",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-008.jpg?v=be0876f8286e",
         "isHorizontal": false,
         "power": 1000
       }
@@ -18796,10 +18794,10 @@
       "Your Turn",
       "Limit 1"
     ],
-    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill and you have a Rested Unit with the “Burnish” Trait: Add up to 1 Unit card with “Burnish” in its Traits from your Drop to your hand.",
+    "Effect": "[Your Turn] Limit 1 When this card is Rested by a skill and there is a Rested Unit with the “Burnish” Trait in play: Add up to 1 Unit card with the “Burnish” Trait from your Drop to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-008.jpg?v=a3202ff9c8a6"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-008.jpg?v=be0876f8286e"
   },
   "EX2-009": {
     "id": "EX2-009",
@@ -18808,7 +18806,7 @@
         "name": "Thyma",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-009.jpg?v=d6c7a81d7949",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-009.jpg?v=48ca744d8d38",
         "isHorizontal": false,
         "power": 1000
       }
@@ -18830,13 +18828,14 @@
       "Burnish"
     ],
     "Keywords": [
+      "On Play / On K.O.",
       "On K.O.",
       "On Play"
     ],
     "Effect": "[On Play / On K.O.] If your Leader is “Lio Fotia”, draw 1 card.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-009.jpg?v=d6c7a81d7949"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-009.jpg?v=48ca744d8d38"
   },
   "EX2-010": {
     "id": "EX2-010",
@@ -18845,7 +18844,7 @@
         "name": "Remi Puguna",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-010.jpg?v=54e46f4dfbe2",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-010.jpg?v=dc5ec1d1cd5d",
         "isHorizontal": false,
         "power": 5000
       }
@@ -18867,15 +18866,15 @@
       "Burning Rescue"
     ],
     "Keywords": [
+      "Opponent’s Turn",
+      "Overcharged",
       "On Play",
-      "Overcharge",
-      "Blocker",
-      "Charge"
+      "Blocker"
     ],
     "Effect": "Blocker\n[Opponent’s Turn] If you have 1 or more Overcharged Energy, give this card +1000 Power.\n[On Play] Add up to 1 card from your Life to your hand.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-010.jpg?v=54e46f4dfbe2"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-010.jpg?v=dc5ec1d1cd5d"
   },
   "EX2-011": {
     "id": "EX2-011",
@@ -18884,7 +18883,7 @@
         "name": "Ignis Ex",
         "type": "UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-011.jpg?v=02deafc0c197",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-011.jpg?v=9bb827e0d0c2",
         "isHorizontal": false,
         "power": 5000
       }
@@ -18913,7 +18912,7 @@
     "Effect": "[On Attack] If your Leader is “Lio Fotia”, switch this card to Active mode and it can’t attack for the turn.\nClash [Activate: Battle] (1) Rest this card: Give your Leader +1000 Power for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-011.jpg?v=02deafc0c197"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-011.jpg?v=9bb827e0d0c2"
   },
   "EX2-012": {
     "id": "EX2-012",
@@ -18922,7 +18921,7 @@
         "name": "Varis Truss",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-012.jpg?v=a173fae7377e",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-012.jpg?v=2750a5c8f103",
         "isHorizontal": false,
         "power": 4000
       }
@@ -18945,15 +18944,15 @@
     ],
     "Keywords": [
       "End of your Turn",
-      "Your Turn",
+      "Opponent’s Play",
       "Overcharge",
-      "Charge",
+      "Your Turn",
       "Clash"
     ],
-    "Effect": "Clash [Opponent’s Play] If your Leader is “Lio Fotia”, you may Rest this card: Overcharge 1.\n[End of your Turn] Add 1 card from your Life to your hand: Switch this card to Active mode.",
+    "Effect": "[End of your Turn] Add 1 card from your Life to your hand: Switch this card to Active mode.\nClash [Opponent’s Play] If your Leader is “Lio Fotia”, you may Rest this card: Overcharge 1.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-012.jpg?v=a173fae7377e"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-012.jpg?v=2750a5c8f103"
   },
   "EX2-013": {
     "id": "EX2-013",
@@ -18962,7 +18961,7 @@
         "name": "Lucia Fex",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-013.jpg?v=1048ba72d8fa",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-013.jpg?v=fd60dc90d3d3",
         "isHorizontal": false,
         "power": 4000
       }
@@ -18985,14 +18984,15 @@
     ],
     "Keywords": [
       "End of your Turn",
+      "Opponent’s Play",
       "Your Turn",
       "Barrier",
       "Clash"
     ],
-    "Effect": "Clash [Opponent’s Play] If your Leader is “Lio Fotia”, you may Rest this card: Give 1 of your Units with the “Burnish” Trait Barrier for the turn.\n[End of your Turn] Add 1 card from your Life to your hand: Switch this card to Active mode.",
+    "Effect": "[End of your Turn] Add 1 card from your Life to your hand: Switch this card to Active mode.\nClash [Opponent’s Play] Rest this card: If your Leader is “Lio Fotia”, give 1 of your Units with the “Burnish” Trait Barrier for the turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-013.jpg?v=1048ba72d8fa"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-013.jpg?v=fd60dc90d3d3"
   },
   "EX2-014": {
     "id": "EX2-014",
@@ -19001,7 +19001,7 @@
         "name": "Vinny",
         "type": "UNIT",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-014.jpg?v=607d98c8d454",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-014.jpg?v=dfe13c39961c",
         "isHorizontal": false,
         "power": 0
       }
@@ -19024,13 +19024,12 @@
     ],
     "Keywords": [
       "On K.O.",
-      "Blocker",
-      "Clash"
+      "Blocker"
     ],
-    "Effect": "Blocker\nClash [On K.O.] (1) If this card was Rested by a skill this turn, choose up to 1 of your Units with the “Burnish” or “Burning Rescue” Trait and give it +1000 Power until the end of your next turn.",
+    "Effect": "Blocker\n[On K.O.] (1) If this card was Rested by a skill this turn, give up to 1 of your Units with the “Burnish” or “Burning Rescue” Trait +1000 Power until the end of your next turn.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-014.jpg?v=607d98c8d454"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-014.jpg?v=dfe13c39961c"
   },
   "EX2-015": {
     "id": "EX2-015",
@@ -19039,7 +19038,7 @@
         "name": "Deus Prometh",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-015.jpg?v=d2613e678287",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-015.jpg?v=f5bc1dfc8599",
         "isHorizontal": false,
         "power": 3000
       }
@@ -19061,14 +19060,16 @@
       "Burning Rescue"
     ],
     "Keywords": [
-      "Permanent",
+      "Activate: Main / Battle",
+      "Opponent’s Attack",
+      "Activate: Main",
       "Limit 1",
       "Clash"
     ],
-    "Effect": "Permanent Limit 1 (1) Rest 1 of your Units with the “Burnish” Trait: Play this card from your hand.\nClash [Opponent’s Attack] (1) Rest this card: Give your Leader or up to 1 of your Units with the “Burnish” Trait +1000 Power for the battle.",
+    "Effect": "[Activate: Main / Battle] Limit 1 (1) Rest 1 of your Units with the “Burnish” Trait: Play this card from your hand.\nClash [Opponent’s Attack] (1) Rest this card: Give your Leader or up to 1 of your Units with the “Burnish” Trait +1000 Power for the battle.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-015.jpg?v=d2613e678287"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-015.jpg?v=f5bc1dfc8599"
   },
   "EX2-016": {
     "id": "EX2-016",
@@ -19077,7 +19078,7 @@
         "name": "Biar Colossus",
         "type": "UNIT",
         "cost": 2,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-016.jpg?v=539bf69f5892",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-016.jpg?v=21c6cb7d9a94",
         "isHorizontal": false,
         "power": 3000
       }
@@ -19099,14 +19100,16 @@
       "Burning Rescue"
     ],
     "Keywords": [
-      "Permanent",
+      "Activate: Main / Battle",
+      "Opponent’s Attack",
+      "Activate: Main",
       "Limit 1",
       "Clash"
     ],
-    "Effect": "Permanent Limit 1 (1) Rest 1 of your Units with the “Burnish” Trait: Play this card from your hand.\nClash [Opponent’s Attack] (1) Rest this card: Draw 2 cards; place 1 card from your hand in your Drop.",
+    "Effect": "[Activate: Main / Battle] Limit 1 (1) Rest 1 of your Units with the “Burnish” Trait: Play this card from your hand.\nClash [Opponent’s Attack] (1) Rest this card: Draw 2 cards; place 1 card from your hand in your Drop.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-016.jpg?v=539bf69f5892"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-016.jpg?v=21c6cb7d9a94"
   },
   "EX2-017": {
     "id": "EX2-017",
@@ -19115,7 +19118,7 @@
         "name": "Galo Thymos",
         "type": "UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-017.jpg?v=030d1e652a1d",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-017.jpg?v=0aa54f3c7db1",
         "isHorizontal": false,
         "power": 5000
       }
@@ -19137,17 +19140,17 @@
       "Burning Rescue"
     ],
     "Keywords": [
-      "Activate: Battle",
       "End of your Turn",
+      "Activate: Battle",
       "Once per Turn",
       "Your Turn",
-      "Barrier",
-      "Deflect"
+      "Deflect",
+      "Barrier"
     ],
-    "Effect": "Deflect Barrier\n[Activate: Battle] Once per Turn (1) Rest this card: Give up to 1 of your “Lio Fotia” +2000 Power for the battle.\n[End of your Turn] If your Unit with the “Burnish” Trait is switched to Active mode by your skill and you place 1 card from your hand in your Drop: Switch this card to Active mode.",
+    "Effect": "Deflect Barrier\n[Activate: Battle] Once per Turn (1) Rest this card: Give up to 1 of your “Lio Fotia” +2000 Power for the battle.\n[End of your Turn] When your Unit with the “Burnish” Trait is switched to Active mode by your skill: Place 1 card from your hand in your Drop; switch this card to Active mode.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-017.jpg?v=030d1e652a1d"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-017.jpg?v=0aa54f3c7db1"
   },
   "EX2-018": {
     "id": "EX2-018",
@@ -19193,7 +19196,7 @@
         "name": "Unkempt Combustion",
         "type": "ACTION",
         "cost": 1,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-019.jpg?v=28910fb7da54",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-019.jpg?v=7b7c945c8f9e",
         "isHorizontal": false
       }
     },
@@ -19217,10 +19220,10 @@
     "Keywords": [
       "Activate: Main"
     ],
-    "Effect": "[Activate: Main] Rest 1 of your Units with the “Burning Rescue” Trait: Look at the top 3 cards of your Deck; add up to 1 Unit card with “Burnish” in its Traits to your hand. Then, place the rest at the bottom of your Deck in any order.",
+    "Effect": "[Activate: Main] Rest 1 of your Units with the “Burning Rescue” Trait: Look at the top 3 cards of your Deck; add up to 1 Unit card with the “Burnish” Trait to your hand. Then, place the rest at the bottom of your Deck in any order.",
     "Deck_Zone": "Main",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-019.jpg?v=28910fb7da54"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-019.jpg?v=7b7c945c8f9e"
   },
   "EX2-020": {
     "id": "EX2-020",
@@ -19229,7 +19232,7 @@
         "name": "Lio Fotia",
         "type": "JUMP UNIT",
         "cost": 4,
-        "image": "https://decclesia.github.io/SJTCGP/images/EX2-020.jpg?v=160fabdff899",
+        "image": "https://decclesia.github.io/SJTCGP/images/EX2-020.jpg?v=d21e8c9c59ab",
         "isHorizontal": false,
         "power": 6000,
         "sjCost": 3
@@ -19253,14 +19256,16 @@
       "Mad Burnish"
     ],
     "Keywords": [
+      "End of Opponent’s Turn",
+      "Opponent’s Turn",
       "Activate: Main",
       "Once per Turn",
       "Barrier"
     ],
-    "Effect": "Barrier\n[Activate: Main] Once per Turn Switch up to 1 of your Rested Units with the “Burning Rescue” Trait to Active mode. Then, give this card +2000 Power for the turn.\n[End of Opponent’s Turn] Return this card to your JUMP Deck.",
+    "Effect": "Barrier\n[Activate: Main] Once per Turn Switch up to 1 of your Rested Units with the “Burning Rescue” Trait to Active mode: Give this card +2000 Power for the turn.\n[End of Opponent’s Turn] Return this card to your JUMP Deck.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/EX2-020.jpg?v=160fabdff899"
+    "image": "https://decclesia.github.io/SJTCGP/images/EX2-020.jpg?v=d21e8c9c59ab"
   },
   "EX2-021": {
     "id": "EX2-021",
@@ -22022,7 +22027,7 @@
         "name": "Matoi Tech",
         "type": "JUMP UNIT",
         "cost": 3,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-030.jpg?v=29c91a83298d",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-030.jpg?v=7d557941c936",
         "isHorizontal": false,
         "power": 5000,
         "sjCost": 1
@@ -22045,14 +22050,16 @@
       "Burning Rescue"
     ],
     "Keywords": [
-      "On Play",
+      "End of Opponent’s Turn",
+      "Opponent’s Turn",
       "Permanent",
-      "Deflect"
+      "Deflect",
+      "On Play"
     ],
-    "Effect": "Deflect\nPermanent When this card leaves the field, play up to 1 Unit card from under this card.\n[On Play] Place 1 Unit card with the “Burning Rescue” Trait from your hand under this card.\n[End of Opponent’s Turn] Add 1 card from your Life to your hand and remove this card from the game.",
+    "Effect": "Deflect\nPermanent When this card would leave the field play up to 1 Unit card from under this card.\n[On Play] Place 1 Unit card with the “Burning Rescue” Trait from your hand under this card.\n[End of Opponent’s Turn] Add 1 card from your Life to your hand; remove this card from the game.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-030.jpg?v=29c91a83298d"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-030.jpg?v=7d557941c936"
   },
   "PUP-031": {
     "id": "PUP-031",
@@ -22061,7 +22068,7 @@
         "name": "Lio de Galon",
         "type": "JUMP UNIT",
         "cost": 6,
-        "image": "https://decclesia.github.io/SJTCGP/images/PUP-031.jpg?v=02654961565d",
+        "image": "https://decclesia.github.io/SJTCGP/images/PUP-031.jpg?v=8f3889cb13d1",
         "isHorizontal": false,
         "power": 7000,
         "sjCost": 5
@@ -22087,15 +22094,15 @@
     ],
     "Keywords": [
       "End of your Turn",
-      "On Attack",
       "Your Turn",
-      "Barrier",
-      "Deflect"
+      "On Attack",
+      "Deflect",
+      "Barrier"
     ],
-    "Effect": "Deflect Barrier\nYou can play this card by removing from the game 1 “Galo Thymos” and 1 “Lio Fotia” with a Cost of 5 or more from your field instead of paying for this card’s Costs\n[On Attack] Your Opponent’s cards in Active mode cannot be Rested and your Opponent’s Rested cards cannot be switched to Active mode until the end of your Opponent’s next turn.\n[End of your Turn] Add 1 card from your Life to your hand and remove this card from the game.",
+    "Effect": "Deflect Barrier\nYou can play this card by removing from the game 1 “Galo Thymos” and 1 “Lio Fotia” with a Cost of 5 or more from your field instead of paying for this card’s Costs.\n[On Attack] Your Opponent’s cards in Active mode cannot be Rested and your Opponent’s Rested cards cannot be switched to Active mode until the end of your Opponent’s next turn.\n[End of your Turn] Add 1 card from your Life to your hand; remove this card from the game.",
     "Deck_Zone": "JUMP",
     "Orientation": "Portrait",
-    "image": "https://decclesia.github.io/SJTCGP/images/PUP-031.jpg?v=02654961565d"
+    "image": "https://decclesia.github.io/SJTCGP/images/PUP-031.jpg?v=8f3889cb13d1"
   },
   "PUP-032": {
     "id": "PUP-032",

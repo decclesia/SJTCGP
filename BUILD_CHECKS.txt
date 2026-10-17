@@ -449,5 +449,28 @@
     "approved_text_image_exception": {
       "SD10-008": "User confirms On Attack; supplied image still prints On Play and will be corrected next batch."
     }
+  },
+  "replacement_bundle_2026_10_17_b": {
+    "images": 24,
+    "canonical_replacements": 24,
+    "changed_transcriptions": 18,
+    "metadata_changes": {
+      "SD10-004": {
+        "counter": "0"
+      },
+      "SD10-007": {
+        "power": "4000"
+      },
+      "SD10-008": {
+        "power": "4000"
+      },
+      "ST2-128": {
+        "power": "4000"
+      }
+    },
+    "landscape": [],
+    "database_cards": 1227,
+    "arena_entries": 1402,
+    "closed_exception": "SD10-008 supplied corrected On Attack print now matches transcription."
   }
 }
