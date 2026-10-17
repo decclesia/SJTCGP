@@ -3,19 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Energy Markers · SJTCG</title>
-  <link rel="stylesheet" href="energy.css">
-  <script defer src="energy-markers-data.js?v=20261017"></script>
-  <script defer src="energy.js?v=20261017"></script>
+  <title>Energy &amp; Markers · SJTCG</title>
+  <link rel="stylesheet" href="energy.css?v=20261017b">
+  <script defer src="accessories-data.js?v=20261017b"></script>
+  <script defer src="energy.js?v=20261017b"></script>
 </head>
 <body>
-  <header><a href="./">SJTCG <span>Card Database</span></a><nav aria-label="Main views"><a href="./">Cards &amp; Deckbuilder</a><a href="energy.html" aria-current="page">Energy Markers</a></nav></header>
+  <header><a href="./">SJTCG <span>Card Database</span></a><nav aria-label="Main views"><a href="./">Cards &amp; Deckbuilder</a><a href="energy.html" aria-current="page">Energy &amp; Markers</a></nav></header>
   <main>
-    <div class="intro"><p class="eyebrow">ACCESSORY COLLECTION</p><h1>Energy Markers</h1><p>All 51 supplied series artworks. Select a marker to inspect it at full size.</p><p class="muted">Accessories do not count toward the 50-card Main Deck. Artwork for a future series does not mean its card release is complete. The generic fallback remains available in Arena.</p></div>
-    <section class="filters" aria-label="Search markers"><label for="energySearch">Search by series code<input id="energySearch" type="search" placeholder="CSM, FOR, JJK…" autocomplete="off"></label><p id="energyCount" aria-live="polite"></p></section>
-    <section id="energyGrid" class="energy-grid" aria-label="Energy Marker gallery"></section>
-    <p id="energyEmpty" hidden>No matching markers.</p>
+    <div class="intro"><p class="eyebrow">ACCESSORY COLLECTION</p><h1>Energy &amp; Markers</h1><p>Energy Markers, Guard Triggers and SJ Markers, grouped by Set. Select any artwork for a full-size preview.</p><p class="muted">Accessories are separate from the 50-card Main Deck. Artwork for a future series does not mean its card release is complete.</p></div>
+    <section class="filters" aria-label="Search and filter accessories">
+      <label for="energySearch">Search accessories<input id="energySearch" type="search" placeholder="Set code, name or marker number…" autocomplete="off"></label>
+      <label for="setFilter">Set<select id="setFilter"><option value="">All Sets</option></select></label>
+      <label for="typeFilter">Accessory type<select id="typeFilter"><option value="">All types</option><option value="energy">Energy Markers</option><option value="guard">Guard Triggers</option><option value="sj">SJ Markers</option></select></label>
+      <button id="resetFilters" type="button">Reset</button>
+    </section>
+    <p id="energyCount" class="result-count" aria-live="polite"></p>
+    <div id="energyGrid" aria-label="Accessories grouped by Set"></div>
+    <p id="energyEmpty" hidden>No matching accessories. Try another Set or accessory type.</p>
   </main>
-  <dialog id="energyDialog" aria-labelledby="energyTitle"><button class="close" type="button" aria-label="Close marker preview">×</button><h2 id="energyTitle"></h2><img id="energyPreview" alt=""><a id="energyFull" target="_blank" rel="noopener">Open full-size image</a></dialog>
+  <dialog id="energyDialog" aria-labelledby="energyTitle"><button class="close" type="button" aria-label="Close marker preview">×</button><h2 id="energyTitle"></h2><p id="energyMeta" class="muted"></p><img id="energyPreview" alt=""><a id="energyFull" target="_blank" rel="noopener">Open full-size image</a></dialog>
 </body>
 </html>
