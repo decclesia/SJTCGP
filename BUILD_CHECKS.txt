@@ -623,5 +623,26 @@
       "PUP-025",
       "PUP-028"
     ]
+  },
+  "maki_fix_2026_10_18": {
+    "images": [
+      {
+        "source": "D:\\ΤΨΓ\\ST2 Burning Passion\\RED ENS\\ST2-026.png",
+        "image": "images/ST2-026.jpg",
+        "version": "7051a5ae3f51",
+        "bytes": 313249,
+        "source_bytes": 1970151
+      },
+      {
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST2-026-AA.png",
+        "image": "images/ST2-026-alt1.jpg",
+        "version": "859e2e8f247b",
+        "bytes": 294395,
+        "source_bytes": 2014128
+      }
+    ],
+    "life": "6 -> 5",
+    "effect": "Main now gives only the friendly Unit +2000; opposing -2000 removed. Attack draw and Threshold 3 Battle +1000 unchanged.",
+    "scope": "Database and planner only; Arena and simulator unchanged."
   }
 }
