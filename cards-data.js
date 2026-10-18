@@ -6010,13 +6010,13 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "8559380d82d6",
+    "imageVersion": "1152823711fb",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST5-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "67f318be3a99"
+        "imageVersion": "f7824534627c"
       }
     ]
   },
@@ -6318,13 +6318,13 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "a408d74f0aa7",
+    "imageVersion": "6714defa61d2",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST5-026-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "37ad94146b88"
+        "imageVersion": "d070ff2afca3"
       }
     ]
   },
@@ -6626,13 +6626,13 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "45d91eadfd1b",
+    "imageVersion": "6fcf0918eeb4",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST5-051-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "beed3ed77cad"
+        "imageVersion": "4eecdef4774c"
       }
     ]
   },

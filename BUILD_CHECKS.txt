@@ -704,5 +704,65 @@
     ],
     "effects": "No gameplay text, Threshold, Power, Trait, rarity or identity changes; existing transcription preserved.",
     "scope": "Database/local planner only; Arena and simulator excluded."
+  },
+  "leader_life_st5_2026_10_19": {
+    "cards": [
+      "ST5-001",
+      "ST5-026",
+      "ST5-051"
+    ],
+    "life": "5 -> 6 for all three Leaders",
+    "images": [
+      {
+        "card": "ST5-001",
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Yellow NOG\\ST5-001.png",
+        "image": "images/ST5-001.jpg",
+        "version": "1152823711fb",
+        "bytes": 376805,
+        "source_bytes": 2310869
+      },
+      {
+        "card": "ST5-001",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST5-001-AA.png",
+        "image": "images/ST5-001-alt1.jpg",
+        "version": "f7824534627c",
+        "bytes": 409692,
+        "source_bytes": 2724428
+      },
+      {
+        "card": "ST5-026",
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Red INY\\ST5-026.png",
+        "image": "images/ST5-026.jpg",
+        "version": "6714defa61d2",
+        "bytes": 401430,
+        "source_bytes": 2427687
+      },
+      {
+        "card": "ST5-026",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST5-026-AA.png",
+        "image": "images/ST5-026-alt1.jpg",
+        "version": "d070ff2afca3",
+        "bytes": 403035,
+        "source_bytes": 2600952
+      },
+      {
+        "card": "ST5-051",
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Green NUR\\ST5-051.png",
+        "image": "images/ST5-051.jpg",
+        "version": "6fcf0918eeb4",
+        "bytes": 333896,
+        "source_bytes": 2106676
+      },
+      {
+        "card": "ST5-051",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST5-051-AA.png",
+        "image": "images/ST5-051-alt1.jpg",
+        "version": "4eecdef4774c",
+        "bytes": 467560,
+        "source_bytes": 3012039
+      }
+    ],
+    "effects": "No gameplay text, Threshold, Power, Trait, rarity or identity changes; existing transcription preserved.",
+    "scope": "Database/local planner only; Arena and simulator excluded."
   }
 }
