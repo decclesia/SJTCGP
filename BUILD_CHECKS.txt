@@ -580,5 +580,40 @@
     "database_cards": 1227,
     "arena": "Excluded from update/testing scope; no Arena file changes.",
     "simulator": "Separate source pins/deployment untouched."
+  },
+  "replacement_bundle_2026_10_18_b": {
+    "received_images": 49,
+    "canonical_replacements": 49,
+    "changed_transcriptions": 34,
+    "metadata_changes": {
+      "PUP-028": {
+        "cost": "1",
+        "sj_cost": "1"
+      },
+      "SD3-011": {
+        "power": "4000",
+        "traits": "2nd Generation Pyrokinetic / 3rd Generation Pyrokinetic"
+      },
+      "SD3-019": {
+        "cost": "1"
+      },
+      "SD3-020": {
+        "sj_cost": "2"
+      },
+      "ST2-048": {
+        "cost": "1"
+      }
+    },
+    "landscape": [
+      "PUP-025",
+      "PUP-028",
+      "SD3-019",
+      "SD3-020"
+    ],
+    "original_bytes": 100903530,
+    "compressed_bytes": 18358368,
+    "database_cards": 1227,
+    "arena": "Excluded from update/testing scope; no Arena file changes.",
+    "simulator": "Separate source pins/deployment untouched."
   }
 }
