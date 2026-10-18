@@ -12670,7 +12670,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "2755ed0a18fa"
+    "imageVersion": "e11e1080e633"
   },
   {
     "number": "PUP-026",
@@ -12706,7 +12706,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "796b9005a6df"
+    "imageVersion": "75a96e2815e6"
   },
   {
     "number": "PUP-029",

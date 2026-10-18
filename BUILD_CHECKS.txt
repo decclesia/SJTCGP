@@ -582,13 +582,14 @@
     "simulator": "Separate source pins/deployment untouched."
   },
   "replacement_bundle_2026_10_18_b": {
-    "received_images": 49,
+    "received_images": 51,
     "canonical_replacements": 49,
     "changed_transcriptions": 34,
     "metadata_changes": {
       "PUP-028": {
         "cost": "1",
-        "sj_cost": "1"
+        "sj_cost": "1",
+        "bottom_right_circle": "R"
       },
       "SD3-011": {
         "power": "4000",
@@ -602,6 +603,9 @@
       },
       "ST2-048": {
         "cost": "1"
+      },
+      "PUP-025": {
+        "bottom_right_circle": "R"
       }
     },
     "landscape": [
@@ -610,10 +614,14 @@
       "SD3-019",
       "SD3-020"
     ],
-    "original_bytes": 100903530,
-    "compressed_bytes": 18358368,
+    "original_bytes": 100707840,
+    "compressed_bytes": 18325091,
     "database_cards": 1227,
     "arena": "Excluded from update/testing scope; no Arena file changes.",
-    "simulator": "Separate source pins/deployment untouched."
+    "simulator": "Separate source pins/deployment untouched.",
+    "corrected_promos": [
+      "PUP-025",
+      "PUP-028"
+    ]
   }
 }
