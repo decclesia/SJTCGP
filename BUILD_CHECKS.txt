@@ -644,5 +644,65 @@
     "life": "6 -> 5",
     "effect": "Main now gives only the friendly Unit +2000; opposing -2000 removed. Attack draw and Threshold 3 Battle +1000 unchanged.",
     "scope": "Database and planner only; Arena and simulator unchanged."
+  },
+  "leader_life_2026_10_18": {
+    "cards": [
+      "ST2-076",
+      "ST2-001",
+      "EX2-001"
+    ],
+    "life": "5 -> 6 for all three Leaders",
+    "images": [
+      {
+        "card": "ST2-076",
+        "source": "D:\\ΤΨΓ\\ST2 Burning Passion\\BLUE FOR\\ST2-076.png",
+        "image": "images/ST2-076.jpg",
+        "version": "b5fac19ed440",
+        "bytes": 372262,
+        "source_bytes": 2164597
+      },
+      {
+        "card": "ST2-076",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST2-076-AA.png",
+        "image": "images/ST2-076-alt1.jpg",
+        "version": "e6abc2cc0c33",
+        "bytes": 486132,
+        "source_bytes": 2702937
+      },
+      {
+        "card": "ST2-001",
+        "source": "D:\\ΤΨΓ\\ST2 Burning Passion\\YELLOW YYH\\ST2-001.png",
+        "image": "images/ST2-001.jpg",
+        "version": "33d592e1e33a",
+        "bytes": 356892,
+        "source_bytes": 2099604
+      },
+      {
+        "card": "ST2-001",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST2-001-AA.png",
+        "image": "images/ST2-001-alt1.jpg",
+        "version": "28721601d5e3",
+        "bytes": 390223,
+        "source_bytes": 2303891
+      },
+      {
+        "card": "EX2-001",
+        "source": "D:\\ΤΨΓ\\ST2 Burning Passion\\EX2 YELLOw PRO\\EX2-001.png",
+        "image": "images/EX2-001.jpg",
+        "version": "404a4bc6b930",
+        "bytes": 378515,
+        "source_bytes": 2142753
+      },
+      {
+        "card": "EX2-001",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\EX2-001-AA.png",
+        "image": "images/EX2-001-alt1.jpg",
+        "version": "64724a3d6aac",
+        "bytes": 409966,
+        "source_bytes": 2231461
+      }
+    ],
+    "effects": "No gameplay text, Threshold, Power, Trait, rarity or identity changes; existing transcription preserved.",
+    "scope": "Database/local planner only; Arena and simulator excluded."
   }
 }
