@@ -764,5 +764,130 @@
     ],
     "effects": "No gameplay text, Threshold, Power, Trait, rarity or identity changes; existing transcription preserved.",
     "scope": "Database/local planner only; Arena and simulator excluded."
+  },
+  "control_devil_2026_10_19": {
+    "images": [
+      {
+        "source": "D:\\ΤΨΓ\\ST1 JUMP Start\\YELLOW CSM\\ST1-001.png",
+        "image": "images/ST1-001.jpg",
+        "version": "78f3fe972667",
+        "bytes": 378561,
+        "source_bytes": 2167490
+      },
+      {
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST1-001-AA.png",
+        "image": "images/ST1-001-alt1.jpg",
+        "version": "112b200424a7",
+        "bytes": 439606,
+        "source_bytes": 2523696
+      }
+    ],
+    "life": "6 -> 5",
+    "threshold": "4 -> 3",
+    "text": "Redirect now prints Make 1 of your Units the new attack target. Threshold removal is followed by a colon, shuffle by semicolon/draw. Existing end-opponent-turn Nayuta recovery retained.",
+    "scope": "Database/local planner only; Arena/simulator untouched."
+  },
+  "leader_life_mgd_blc_2026_10_19": {
+    "cards": [
+      "ST3-001",
+      "SD6-001"
+    ],
+    "life": "5 -> 6 for both Leaders",
+    "images": [
+      {
+        "card": "ST3-001",
+        "source": "D:\\ΤΨΓ\\ST3 Magical Transformation\\YELLOW MGD\\ST3-001.png",
+        "image": "images/ST3-001.jpg",
+        "version": "f7b31463b7a1",
+        "bytes": 378130,
+        "source_bytes": 2129021
+      },
+      {
+        "card": "ST3-001",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST3-001-AA.png",
+        "image": "images/ST3-001-alt1.jpg",
+        "version": "ceb248bcb544",
+        "bytes": 485410,
+        "source_bytes": 2858847
+      },
+      {
+        "card": "SD6-001",
+        "source": "D:\\ΤΨΓ\\ST4 Fatebound\\SD6 BLC\\SD6-001.png",
+        "image": "images/SD6-001.jpg",
+        "version": "3a4f373bc1a0",
+        "bytes": 300303,
+        "source_bytes": 1955801
+      },
+      {
+        "card": "SD6-001",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\SD6-001-AA.png",
+        "image": "images/SD6-001-alt1.jpg",
+        "version": "adb74cc3349e",
+        "bytes": 418683,
+        "source_bytes": 2618214
+      }
+    ],
+    "effects": "No other stat, effect, Threshold, Trait, rarity or identity changes.",
+    "scope": "Database/local planner only."
+  },
+  "leader_life_gmc_ccs_kny_2026_10_19": {
+    "cards": [
+      "EX3-001",
+      "ST3-081",
+      "SD5-001"
+    ],
+    "life": "4 -> 5 for all three Leaders",
+    "images": [
+      {
+        "card": "EX3-001",
+        "source": "D:\\ΤΨΓ\\ST3 Magical Transformation\\EX3 YELLOW GMC\\EX3-001.png",
+        "image": "images/EX3-001.jpg",
+        "version": "28499d03d4cf",
+        "bytes": 342724,
+        "source_bytes": 1952492
+      },
+      {
+        "card": "EX3-001",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\EX3-001-AA.png",
+        "image": "images/EX3-001-alt1.jpg",
+        "version": "4f2e160728ff",
+        "bytes": 460370,
+        "source_bytes": 2369594
+      },
+      {
+        "card": "ST3-081",
+        "source": "D:\\ΤΨΓ\\ST3 Magical Transformation\\PINK CCS\\ST3-081.png",
+        "image": "images/ST3-081.jpg",
+        "version": "61a3f8dc1d11",
+        "bytes": 356989,
+        "source_bytes": 2210913
+      },
+      {
+        "card": "ST3-081",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST3-081-AA.png",
+        "image": "images/ST3-081-alt1.jpg",
+        "version": "021f4679ae2c",
+        "bytes": 412666,
+        "source_bytes": 2416783
+      },
+      {
+        "card": "SD5-001",
+        "source": "D:\\ΤΨΓ\\ST4 Fatebound\\SD5 KNY\\SD5-001.png",
+        "image": "images/SD5-001.jpg",
+        "version": "9c4342de47ab",
+        "bytes": 429578,
+        "source_bytes": 2879720
+      },
+      {
+        "card": "SD5-001",
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\SD5-001-AA.png",
+        "image": "images/SD5-001-alt1.jpg",
+        "version": "c1ddc333504b",
+        "bytes": 469761,
+        "source_bytes": 2737915
+      }
+    ],
+    "effects": "No other stat, effect, Threshold, Trait, rarity or identity changes.",
+    "scope": "Database/local planner only."
   }
 }

@@ -9,13 +9,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "163b5ac3dd4d",
+    "imageVersion": "78f3fe972667",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST1-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "83a4062f7c6a"
+        "imageVersion": "112b200424a7"
       }
     ]
   },
@@ -3158,13 +3158,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "cc860460ca60",
+    "imageVersion": "f7b31463b7a1",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST3-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "14135a69db58"
+        "imageVersion": "ceb248bcb544"
       }
     ]
   },
@@ -4150,13 +4150,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "8def5ea0b52a",
+    "imageVersion": "61a3f8dc1d11",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST3-081-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "85b3ee0a98d3"
+        "imageVersion": "021f4679ae2c"
       }
     ]
   },
@@ -8106,13 +8106,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "2a832aaae568",
+    "imageVersion": "28499d03d4cf",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/EX3-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "064dc6a90de2"
+        "imageVersion": "4f2e160728ff"
       }
     ]
   },
@@ -9878,13 +9878,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "aa41405905d3",
+    "imageVersion": "9c4342de47ab",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/SD5-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "e1043a237394"
+        "imageVersion": "c1ddc333504b"
       }
     ]
   },
@@ -10126,13 +10126,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "5b749b083757",
+    "imageVersion": "3a4f373bc1a0",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/SD6-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "65c2f7426c33"
+        "imageVersion": "adb74cc3349e"
       }
     ]
   },
