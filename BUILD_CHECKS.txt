@@ -889,5 +889,458 @@
     ],
     "effects": "No other stat, effect, Threshold, Trait, rarity or identity changes.",
     "scope": "Database/local planner only."
+  },
+  "replacement_bundle_2026_10_20": {
+    "received_images": 69,
+    "canonical_replacements": 68,
+    "aa_replacements": 1,
+    "changed_transcriptions": 51,
+    "metadata_changes": {
+      "ST3-011": {
+        "counter": "1000"
+      },
+      "ST3-033": {
+        "counter": "0"
+      },
+      "ST3-099": {
+        "cost": "3"
+      }
+    },
+    "landscape": [
+      "PUP-043",
+      "PUP-044",
+      "PUP-047",
+      "PUP-056",
+      "ST3-019",
+      "ST3-020",
+      "ST3-039",
+      "ST3-040",
+      "ST3-100"
+    ],
+    "original_bytes": 139736028,
+    "compressed_bytes": 24797546,
+    "database_cards": 1227,
+    "images": [
+      {
+        "id": "PUP-042",
+        "image": "images/PUP-042.jpg",
+        "version": "e602674e24fd",
+        "bytes": 343348
+      },
+      {
+        "id": "PUP-043",
+        "image": "images/PUP-043.jpg",
+        "version": "a896e6f60304",
+        "bytes": 356997
+      },
+      {
+        "id": "PUP-044",
+        "image": "images/PUP-044.jpg",
+        "version": "59a560fc26f9",
+        "bytes": 381623
+      },
+      {
+        "id": "PUP-045",
+        "image": "images/PUP-045.jpg",
+        "version": "4ed8e4560ea0",
+        "bytes": 323524
+      },
+      {
+        "id": "PUP-046",
+        "image": "images/PUP-046.jpg",
+        "version": "948b2b7d1f93",
+        "bytes": 417881
+      },
+      {
+        "id": "PUP-047",
+        "image": "images/PUP-047.jpg",
+        "version": "531efda6764e",
+        "bytes": 381677
+      },
+      {
+        "id": "PUP-054",
+        "image": "images/PUP-054.jpg",
+        "version": "df8babc830b9",
+        "bytes": 358164
+      },
+      {
+        "id": "PUP-055",
+        "image": "images/PUP-055.jpg",
+        "version": "98d0b6595777",
+        "bytes": 345745
+      },
+      {
+        "id": "PUP-056",
+        "image": "images/PUP-056.jpg",
+        "version": "0688c1fb4cfa",
+        "bytes": 348989
+      },
+      {
+        "id": "ST3-002",
+        "image": "images/ST3-002.jpg",
+        "version": "839e09ee84ec",
+        "bytes": 384446
+      },
+      {
+        "id": "ST3-003",
+        "image": "images/ST3-003.jpg",
+        "version": "81765cfab7e1",
+        "bytes": 379577
+      },
+      {
+        "id": "ST3-004",
+        "image": "images/ST3-004.jpg",
+        "version": "29974d23052d",
+        "bytes": 342717
+      },
+      {
+        "id": "ST3-005",
+        "image": "images/ST3-005.jpg",
+        "version": "3954fba7735d",
+        "bytes": 301952
+      },
+      {
+        "id": "ST3-006",
+        "image": "images/ST3-006.jpg",
+        "version": "eb1e2330776e",
+        "bytes": 413290
+      },
+      {
+        "id": "ST3-007",
+        "image": "images/ST3-007.jpg",
+        "version": "649fd7aa7374",
+        "bytes": 406611
+      },
+      {
+        "id": "ST3-008",
+        "image": "images/ST3-008.jpg",
+        "version": "20c72d14b6fb",
+        "bytes": 348129
+      },
+      {
+        "id": "ST3-009",
+        "image": "images/ST3-009.jpg",
+        "version": "8d4688e16eed",
+        "bytes": 323564
+      },
+      {
+        "id": "ST3-010",
+        "image": "images/ST3-010.jpg",
+        "version": "19beb3ad9cec",
+        "bytes": 421507
+      },
+      {
+        "id": "ST3-011",
+        "image": "images/ST3-011.jpg",
+        "version": "b2a599bf2693",
+        "bytes": 378173
+      },
+      {
+        "id": "ST3-012",
+        "image": "images/ST3-012.jpg",
+        "version": "2f2aca56fe2a",
+        "bytes": 315585
+      },
+      {
+        "id": "ST3-013",
+        "image": "images/ST3-013.jpg",
+        "version": "b23f62e9fedb",
+        "bytes": 438630
+      },
+      {
+        "id": "ST3-014",
+        "image": "images/ST3-014.jpg",
+        "version": "1832440f78a1",
+        "bytes": 368927
+      },
+      {
+        "id": "ST3-015",
+        "image": "images/ST3-015.jpg",
+        "version": "8740de32bf36",
+        "bytes": 347912
+      },
+      {
+        "id": "ST3-016",
+        "image": "images/ST3-016.jpg",
+        "version": "9afa9638c296",
+        "bytes": 422652
+      },
+      {
+        "id": "ST3-017",
+        "image": "images/ST3-017.jpg",
+        "version": "1a10795646e6",
+        "bytes": 401538
+      },
+      {
+        "id": "ST3-018",
+        "image": "images/ST3-018.jpg",
+        "version": "4fce94cd1b94",
+        "bytes": 357711
+      },
+      {
+        "id": "ST3-019",
+        "image": "images/ST3-019.jpg",
+        "version": "45ff0c5b5e3b",
+        "bytes": 439573
+      },
+      {
+        "id": "ST3-020",
+        "image": "images/ST3-020.jpg",
+        "version": "8e556466cf9d",
+        "bytes": 436482
+      },
+      {
+        "id": "ST3-022",
+        "image": "images/ST3-022.jpg",
+        "version": "75c50d64b22f",
+        "bytes": 329257
+      },
+      {
+        "id": "ST3-023",
+        "image": "images/ST3-023.jpg",
+        "version": "3b68dd695d3f",
+        "bytes": 368985
+      },
+      {
+        "id": "ST3-024",
+        "image": "images/ST3-024.jpg",
+        "version": "448eace183f7",
+        "bytes": 313595
+      },
+      {
+        "id": "ST3-025",
+        "image": "images/ST3-025.jpg",
+        "version": "87c02900b1a3",
+        "bytes": 368237
+      },
+      {
+        "id": "ST3-026",
+        "image": "images/ST3-026.jpg",
+        "version": "683954cd4df7",
+        "bytes": 403044
+      },
+      {
+        "id": "ST3-027",
+        "image": "images/ST3-027.jpg",
+        "version": "07a6684a60de",
+        "bytes": 377568
+      },
+      {
+        "id": "ST3-028",
+        "image": "images/ST3-028.jpg",
+        "version": "4dbc426186c0",
+        "bytes": 348088
+      },
+      {
+        "id": "ST3-029",
+        "image": "images/ST3-029.jpg",
+        "version": "173ac62d4d03",
+        "bytes": 376208
+      },
+      {
+        "id": "ST3-030",
+        "image": "images/ST3-030.jpg",
+        "version": "b507736a46c4",
+        "bytes": 362586
+      },
+      {
+        "id": "ST3-031",
+        "image": "images/ST3-031.jpg",
+        "version": "83bd930ae42d",
+        "bytes": 383420
+      },
+      {
+        "id": "ST3-032",
+        "image": "images/ST3-032.jpg",
+        "version": "93e78854c6c0",
+        "bytes": 378181
+      },
+      {
+        "id": "ST3-033",
+        "image": "images/ST3-033.jpg",
+        "version": "b78fd18befc3",
+        "bytes": 295601
+      },
+      {
+        "id": "ST3-034",
+        "image": "images/ST3-034.jpg",
+        "version": "787b6d519664",
+        "bytes": 392654
+      },
+      {
+        "id": "ST3-035",
+        "image": "images/ST3-035.jpg",
+        "version": "681fbff76ce5",
+        "bytes": 316566
+      },
+      {
+        "id": "ST3-036",
+        "image": "images/ST3-036.jpg",
+        "version": "ad449c15611d",
+        "bytes": 426806
+      },
+      {
+        "id": "ST3-037",
+        "image": "images/ST3-037.jpg",
+        "version": "f132a33d9bf2",
+        "bytes": 318534
+      },
+      {
+        "id": "ST3-038",
+        "image": "images/ST3-038.jpg",
+        "version": "c87257da7ade",
+        "bytes": 344572
+      },
+      {
+        "id": "ST3-039",
+        "image": "images/ST3-039.jpg",
+        "version": "6685a86c3a5c",
+        "bytes": 347884
+      },
+      {
+        "id": "ST3-040",
+        "image": "images/ST3-040.jpg",
+        "version": "126b3d3a8c54",
+        "bytes": 362854
+      },
+      {
+        "id": "ST3-081-AA",
+        "image": "images/ST3-081-alt1.jpg",
+        "version": "2269de42b35d",
+        "bytes": 405105
+      },
+      {
+        "id": "ST3-081",
+        "image": "images/ST3-081.jpg",
+        "version": "47282dabba89",
+        "bytes": 362080
+      },
+      {
+        "id": "ST3-082",
+        "image": "images/ST3-082.jpg",
+        "version": "a5706b8cb171",
+        "bytes": 330796
+      },
+      {
+        "id": "ST3-083",
+        "image": "images/ST3-083.jpg",
+        "version": "e3d6973cbc1b",
+        "bytes": 382218
+      },
+      {
+        "id": "ST3-084",
+        "image": "images/ST3-084.jpg",
+        "version": "6e629b4e4291",
+        "bytes": 343187
+      },
+      {
+        "id": "ST3-085",
+        "image": "images/ST3-085.jpg",
+        "version": "d161161c4fec",
+        "bytes": 341898
+      },
+      {
+        "id": "ST3-086",
+        "image": "images/ST3-086.jpg",
+        "version": "3ae8c2e5e222",
+        "bytes": 294490
+      },
+      {
+        "id": "ST3-087",
+        "image": "images/ST3-087.jpg",
+        "version": "c727520d5de6",
+        "bytes": 347828
+      },
+      {
+        "id": "ST3-088",
+        "image": "images/ST3-088.jpg",
+        "version": "fa717aec398b",
+        "bytes": 337013
+      },
+      {
+        "id": "ST3-089",
+        "image": "images/ST3-089.jpg",
+        "version": "74994b1432f3",
+        "bytes": 309181
+      },
+      {
+        "id": "ST3-090",
+        "image": "images/ST3-090.jpg",
+        "version": "40cfcb6f73ae",
+        "bytes": 356718
+      },
+      {
+        "id": "ST3-091",
+        "image": "images/ST3-091.jpg",
+        "version": "3b76e85558ff",
+        "bytes": 337833
+      },
+      {
+        "id": "ST3-092",
+        "image": "images/ST3-092.jpg",
+        "version": "18ff03bb0670",
+        "bytes": 344002
+      },
+      {
+        "id": "ST3-093",
+        "image": "images/ST3-093.jpg",
+        "version": "c485e9d2c055",
+        "bytes": 286209
+      },
+      {
+        "id": "ST3-094",
+        "image": "images/ST3-094.jpg",
+        "version": "eafbb5688165",
+        "bytes": 292081
+      },
+      {
+        "id": "ST3-095",
+        "image": "images/ST3-095.jpg",
+        "version": "32f435d254ae",
+        "bytes": 339231
+      },
+      {
+        "id": "ST3-096",
+        "image": "images/ST3-096.jpg",
+        "version": "a1be8bcd1104",
+        "bytes": 232853
+      },
+      {
+        "id": "ST3-097",
+        "image": "images/ST3-097.jpg",
+        "version": "fa708e9dc527",
+        "bytes": 326115
+      },
+      {
+        "id": "ST3-098",
+        "image": "images/ST3-098.jpg",
+        "version": "9dcad4dd0135",
+        "bytes": 324098
+      },
+      {
+        "id": "ST3-099",
+        "image": "images/ST3-099.jpg",
+        "version": "8107b012e1f2",
+        "bytes": 422811
+      },
+      {
+        "id": "ST3-100",
+        "image": "images/ST3-100.jpg",
+        "version": "7b798c07b642",
+        "bytes": 346565
+      },
+      {
+        "id": "ST3-101",
+        "image": "images/ST3-101.jpg",
+        "version": "2e0b661919b4",
+        "bytes": 433670
+      }
+    ],
+    "print_notes": [
+      "ST3-018 prints activates Bloomed; preserved without reinterpretation.",
+      "ST3-097 prints SJ Marker singular; preserved.",
+      "ST3-081 standard and AA both print Life 5 / Threshold 3."
+    ],
+    "scope": "Database/local planner only; Arena and simulator unchanged."
   }
 }
