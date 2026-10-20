@@ -1342,5 +1342,203 @@
       "ST3-081 standard and AA both print Life 5 / Threshold 3."
     ],
     "scope": "Database/local planner only; Arena and simulator unchanged."
+  },
+  "replacement_bundle_2026_10_21": {
+    "received_images": 26,
+    "canonical_replacements": 26,
+    "aa_replacements": 0,
+    "changed_transcriptions": 19,
+    "metadata_changes": {
+      "EX3-005": {
+        "cost": "3",
+        "power": "4000",
+        "counter": "1000"
+      },
+      "EX3-006": {
+        "cost": "2"
+      },
+      "EX3-007": {
+        "power": "4000"
+      },
+      "EX3-008": {
+        "cost": "2"
+      },
+      "EX3-012": {
+        "counter": "1000"
+      },
+      "PUP-057": {
+        "power": "5000"
+      }
+    },
+    "landscape": [
+      "EX3-021",
+      "PUP-058"
+    ],
+    "original_bytes": 48999064,
+    "compressed_bytes": 9060638,
+    "database_cards": 1227,
+    "images": [
+      {
+        "id": "EX3-002",
+        "image": "images/EX3-002.jpg",
+        "version": "6ea0348d193a",
+        "bytes": 405445
+      },
+      {
+        "id": "EX3-003",
+        "image": "images/EX3-003.jpg",
+        "version": "2cd8f0c8d699",
+        "bytes": 402557
+      },
+      {
+        "id": "EX3-004",
+        "image": "images/EX3-004.jpg",
+        "version": "47a4bdc571ab",
+        "bytes": 403275
+      },
+      {
+        "id": "EX3-005",
+        "image": "images/EX3-005.jpg",
+        "version": "e48a15b7f0ca",
+        "bytes": 302552
+      },
+      {
+        "id": "EX3-006",
+        "image": "images/EX3-006.jpg",
+        "version": "285cdfc5329e",
+        "bytes": 309243
+      },
+      {
+        "id": "EX3-007",
+        "image": "images/EX3-007.jpg",
+        "version": "ae73d1f249c6",
+        "bytes": 303019
+      },
+      {
+        "id": "EX3-008",
+        "image": "images/EX3-008.jpg",
+        "version": "89354388c7c0",
+        "bytes": 303791
+      },
+      {
+        "id": "EX3-009",
+        "image": "images/EX3-009.jpg",
+        "version": "eb54bad05eee",
+        "bytes": 388399
+      },
+      {
+        "id": "EX3-010",
+        "image": "images/EX3-010.jpg",
+        "version": "1c3b9343b892",
+        "bytes": 421828
+      },
+      {
+        "id": "EX3-011",
+        "image": "images/EX3-011.jpg",
+        "version": "701662381c74",
+        "bytes": 348213
+      },
+      {
+        "id": "EX3-012",
+        "image": "images/EX3-012.jpg",
+        "version": "97f61fba6580",
+        "bytes": 345272
+      },
+      {
+        "id": "EX3-013",
+        "image": "images/EX3-013.jpg",
+        "version": "718ad520d048",
+        "bytes": 361966
+      },
+      {
+        "id": "EX3-014",
+        "image": "images/EX3-014.jpg",
+        "version": "f723b33b01c8",
+        "bytes": 369691
+      },
+      {
+        "id": "EX3-015",
+        "image": "images/EX3-015.jpg",
+        "version": "8ff06001bb84",
+        "bytes": 363109
+      },
+      {
+        "id": "EX3-016",
+        "image": "images/EX3-016.jpg",
+        "version": "aac604e74fb8",
+        "bytes": 265883
+      },
+      {
+        "id": "EX3-017",
+        "image": "images/EX3-017.jpg",
+        "version": "4f12b4bcbc8f",
+        "bytes": 383617
+      },
+      {
+        "id": "EX3-018",
+        "image": "images/EX3-018.jpg",
+        "version": "bb8045c1775a",
+        "bytes": 339667
+      },
+      {
+        "id": "EX3-019",
+        "image": "images/EX3-019.jpg",
+        "version": "cbe90b38e567",
+        "bytes": 385630
+      },
+      {
+        "id": "EX3-020",
+        "image": "images/EX3-020.jpg",
+        "version": "4b914810ded5",
+        "bytes": 293571
+      },
+      {
+        "id": "EX3-021",
+        "image": "images/EX3-021.jpg",
+        "version": "da8d0c356a94",
+        "bytes": 357715
+      },
+      {
+        "id": "EX4-002",
+        "image": "images/EX4-002.jpg",
+        "version": "a126e2377ebf",
+        "bytes": 300416
+      },
+      {
+        "id": "EX4-003",
+        "image": "images/EX4-003.jpg",
+        "version": "f0702022507c",
+        "bytes": 268814
+      },
+      {
+        "id": "EX4-004",
+        "image": "images/EX4-004.jpg",
+        "version": "92cb38c3044f",
+        "bytes": 289142
+      },
+      {
+        "id": "PUP-057",
+        "image": "images/PUP-057.jpg",
+        "version": "d28d8437e63f",
+        "bytes": 416195
+      },
+      {
+        "id": "PUP-058",
+        "image": "images/PUP-058.jpg",
+        "version": "94e20928d367",
+        "bytes": 380263
+      },
+      {
+        "id": "ST3-018",
+        "image": "images/ST3-018.jpg",
+        "version": "fc56106a6c22",
+        "bytes": 351365
+      }
+    ],
+    "print_notes": [
+      "ST3-018 now prints is Bloomed, replacing activates Bloomed.",
+      "EX3-021 X replaces its former Overcharge engine with printed Life-to-under-card storage and Clash Life restoration."
+    ],
+    "scope": "Database/local planner only; Arena and simulator unchanged."
   }
 }
