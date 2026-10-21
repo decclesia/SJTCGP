@@ -1540,5 +1540,304 @@
       "EX3-021 X replaces its former Overcharge engine with printed Life-to-under-card storage and Clash Life restoration."
     ],
     "scope": "Database/local planner only; Arena and simulator unchanged."
+  },
+  "replacement_bundle_2026_10_21_b": {
+    "received_images": 44,
+    "canonical_replacements": 43,
+    "aa_replacements": 1,
+    "changed_transcriptions": 32,
+    "metadata_changes": {
+      "EX4-009": {
+        "counter": "2000"
+      },
+      "PUP-060": {
+        "cost": "1",
+        "sj_cost": "1"
+      },
+      "ST3-045": {
+        "power": "4000"
+      }
+    },
+    "landscape": [
+      "EX4-021",
+      "PUP-060",
+      "ST3-060"
+    ],
+    "original_bytes": 94250323,
+    "compressed_bytes": 15487372,
+    "database_cards": 1227,
+    "images": [
+      {
+        "id": "EX4-005",
+        "image": "images/EX4-005.jpg",
+        "version": "815193d379e3",
+        "bytes": 282583
+      },
+      {
+        "id": "EX4-006",
+        "image": "images/EX4-006.jpg",
+        "version": "806345dcd7a4",
+        "bytes": 228624
+      },
+      {
+        "id": "EX4-007",
+        "image": "images/EX4-007.jpg",
+        "version": "ed98686e9f6c",
+        "bytes": 257810
+      },
+      {
+        "id": "EX4-008",
+        "image": "images/EX4-008.jpg",
+        "version": "48175965e0a7",
+        "bytes": 264881
+      },
+      {
+        "id": "EX4-009",
+        "image": "images/EX4-009.jpg",
+        "version": "cc77138d3a53",
+        "bytes": 297640
+      },
+      {
+        "id": "EX4-010",
+        "image": "images/EX4-010.jpg",
+        "version": "78e9ac6b7b7b",
+        "bytes": 295425
+      },
+      {
+        "id": "EX4-011",
+        "image": "images/EX4-011.jpg",
+        "version": "64ef5666ae24",
+        "bytes": 304614
+      },
+      {
+        "id": "EX4-012",
+        "image": "images/EX4-012.jpg",
+        "version": "fc374d7a0f71",
+        "bytes": 334935
+      },
+      {
+        "id": "EX4-013",
+        "image": "images/EX4-013.jpg",
+        "version": "53d109dc0b3e",
+        "bytes": 294327
+      },
+      {
+        "id": "EX4-014",
+        "image": "images/EX4-014.jpg",
+        "version": "fb74c77829f1",
+        "bytes": 328027
+      },
+      {
+        "id": "EX4-015",
+        "image": "images/EX4-015.jpg",
+        "version": "13de3e3d262f",
+        "bytes": 253417
+      },
+      {
+        "id": "EX4-016",
+        "image": "images/EX4-016.jpg",
+        "version": "c3153146c3ee",
+        "bytes": 353009
+      },
+      {
+        "id": "EX4-017",
+        "image": "images/EX4-017.jpg",
+        "version": "3b1f418a1701",
+        "bytes": 307384
+      },
+      {
+        "id": "EX4-018",
+        "image": "images/EX4-018.jpg",
+        "version": "1672225e1cbc",
+        "bytes": 277689
+      },
+      {
+        "id": "EX4-019",
+        "image": "images/EX4-019.jpg",
+        "version": "c5134c314b7e",
+        "bytes": 326840
+      },
+      {
+        "id": "EX4-020",
+        "image": "images/EX4-020.jpg",
+        "version": "e5da61715009",
+        "bytes": 328477
+      },
+      {
+        "id": "EX4-021",
+        "image": "images/EX4-021.jpg",
+        "version": "d3833806b33a",
+        "bytes": 322448
+      },
+      {
+        "id": "PUP-048",
+        "image": "images/PUP-048.jpg",
+        "version": "03d2dd725d9e",
+        "bytes": 455175
+      },
+      {
+        "id": "PUP-049",
+        "image": "images/PUP-049.jpg",
+        "version": "a1b4f754314c",
+        "bytes": 476797
+      },
+      {
+        "id": "PUP-050",
+        "image": "images/PUP-050.jpg",
+        "version": "288d3d4cbb63",
+        "bytes": 402183
+      },
+      {
+        "id": "PUP-059",
+        "image": "images/PUP-059.jpg",
+        "version": "64533b749969",
+        "bytes": 320207
+      },
+      {
+        "id": "PUP-060",
+        "image": "images/PUP-060.jpg",
+        "version": "0db74b6d17cf",
+        "bytes": 346716
+      },
+      {
+        "id": "ST3-041-AA",
+        "image": "images/ST3-041-alt1.jpg",
+        "version": "abdddd753655",
+        "bytes": 492390
+      },
+      {
+        "id": "ST3-041",
+        "image": "images/ST3-041.jpg",
+        "version": "c1dd1755e7be",
+        "bytes": 398622
+      },
+      {
+        "id": "ST3-042",
+        "image": "images/ST3-042.jpg",
+        "version": "3c81f4312ba3",
+        "bytes": 326982
+      },
+      {
+        "id": "ST3-043",
+        "image": "images/ST3-043.jpg",
+        "version": "a76f6436a420",
+        "bytes": 351715
+      },
+      {
+        "id": "ST3-044",
+        "image": "images/ST3-044.jpg",
+        "version": "a5f04dbf5140",
+        "bytes": 331869
+      },
+      {
+        "id": "ST3-045",
+        "image": "images/ST3-045.jpg",
+        "version": "97e434f841d8",
+        "bytes": 380850
+      },
+      {
+        "id": "ST3-046",
+        "image": "images/ST3-046.jpg",
+        "version": "fb828ad65836",
+        "bytes": 375596
+      },
+      {
+        "id": "ST3-047",
+        "image": "images/ST3-047.jpg",
+        "version": "2fa6444baa97",
+        "bytes": 405934
+      },
+      {
+        "id": "ST3-048",
+        "image": "images/ST3-048.jpg",
+        "version": "fe116046b48f",
+        "bytes": 385706
+      },
+      {
+        "id": "ST3-049",
+        "image": "images/ST3-049.jpg",
+        "version": "28bbdf1248f4",
+        "bytes": 395761
+      },
+      {
+        "id": "ST3-050",
+        "image": "images/ST3-050.jpg",
+        "version": "a27bc8e54273",
+        "bytes": 422161
+      },
+      {
+        "id": "ST3-051",
+        "image": "images/ST3-051.jpg",
+        "version": "8445ce381360",
+        "bytes": 366435
+      },
+      {
+        "id": "ST3-052",
+        "image": "images/ST3-052.jpg",
+        "version": "8ae857372054",
+        "bytes": 365097
+      },
+      {
+        "id": "ST3-053",
+        "image": "images/ST3-053.jpg",
+        "version": "439f868da326",
+        "bytes": 312176
+      },
+      {
+        "id": "ST3-054",
+        "image": "images/ST3-054.jpg",
+        "version": "19313ec2add2",
+        "bytes": 430345
+      },
+      {
+        "id": "ST3-055",
+        "image": "images/ST3-055.jpg",
+        "version": "1f9669f3da8d",
+        "bytes": 260826
+      },
+      {
+        "id": "ST3-056",
+        "image": "images/ST3-056.jpg",
+        "version": "0d5eef8b20eb",
+        "bytes": 426622
+      },
+      {
+        "id": "ST3-057",
+        "image": "images/ST3-057.jpg",
+        "version": "1d80fd6a7825",
+        "bytes": 380509
+      },
+      {
+        "id": "ST3-058",
+        "image": "images/ST3-058.jpg",
+        "version": "d36f9d863020",
+        "bytes": 408246
+      },
+      {
+        "id": "ST3-059",
+        "image": "images/ST3-059.jpg",
+        "version": "166276a41a06",
+        "bytes": 426103
+      },
+      {
+        "id": "ST3-060",
+        "image": "images/ST3-060.jpg",
+        "version": "6804a871b896",
+        "bytes": 390319
+      },
+      {
+        "id": "ST3-102",
+        "image": "images/ST3-102.jpg",
+        "version": "0ff02cb39f29",
+        "bytes": 393900
+      }
+    ],
+    "print_notes": [
+      "EX4-014 prints Turn Energy, not the previous Total Energy; retained verbatim without a new ruling.",
+      "PUP-059 prints Silver Sugar and Fairy and draw 2 cards; retained verbatim.",
+      "PUP-060 still prints a Fairy Trait label, but JUMP Actions retain no Traits under the standing schema.",
+      "Coco standard and ST7 AA retain Life 6 / Threshold 4; both now print except by skills."
+    ],
+    "scope": "Database/local planner only; Arena and simulator unchanged."
   }
 }
