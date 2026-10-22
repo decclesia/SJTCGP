@@ -2147,5 +2147,158 @@
       "PUP-053 now prints Remove 1 SJ Marker; Charge 1 after its trigger colon; retained verbatim."
     ],
     "scope": "Database/local planner only; Arena and simulator unchanged."
+  },
+  "replacement_bundle_2026_10_22_b": {
+    "received_images": 19,
+    "canonical_replacements": 19,
+    "aa_replacements": 0,
+    "changed_transcriptions": 14,
+    "metadata_changes": {
+      "ST1-005": {
+        "power": "6000"
+      },
+      "ST1-006": {
+        "power": "4000"
+      },
+      "ST1-008": {
+        "counter": "1000"
+      },
+      "ST1-012": {
+        "cost": "2",
+        "power": "3000"
+      },
+      "ST1-018": {
+        "cost": "4"
+      },
+      "ST1-019": {
+        "cost": "5"
+      }
+    },
+    "landscape": [],
+    "original_bytes": 37346052,
+    "compressed_bytes": 5788210,
+    "database_cards": 1227,
+    "images": [
+      {
+        "id": "PUP-003",
+        "image": "images/PUP-003.jpg",
+        "version": "b029c27168ff",
+        "bytes": 317820
+      },
+      {
+        "id": "ST1-003",
+        "image": "images/ST1-003.jpg",
+        "version": "7b3c32b7ebe5",
+        "bytes": 286855
+      },
+      {
+        "id": "ST1-005",
+        "image": "images/ST1-005.jpg",
+        "version": "2042269f9412",
+        "bytes": 319217
+      },
+      {
+        "id": "ST1-006",
+        "image": "images/ST1-006.jpg",
+        "version": "b4a1d4bfff2c",
+        "bytes": 278936
+      },
+      {
+        "id": "ST1-007",
+        "image": "images/ST1-007.jpg",
+        "version": "858576315ac1",
+        "bytes": 250314
+      },
+      {
+        "id": "ST1-008",
+        "image": "images/ST1-008.jpg",
+        "version": "22cd12b0ee61",
+        "bytes": 375790
+      },
+      {
+        "id": "ST1-011",
+        "image": "images/ST1-011.jpg",
+        "version": "69135f5102a6",
+        "bytes": 272235
+      },
+      {
+        "id": "ST1-012",
+        "image": "images/ST1-012.jpg",
+        "version": "7b8e538e410b",
+        "bytes": 317988
+      },
+      {
+        "id": "ST1-014",
+        "image": "images/ST1-014.jpg",
+        "version": "900c1ab27539",
+        "bytes": 270780
+      },
+      {
+        "id": "ST1-015",
+        "image": "images/ST1-015.jpg",
+        "version": "5d21073aa05e",
+        "bytes": 315086
+      },
+      {
+        "id": "ST1-016",
+        "image": "images/ST1-016.jpg",
+        "version": "9953b0cb45ee",
+        "bytes": 300706
+      },
+      {
+        "id": "ST1-018",
+        "image": "images/ST1-018.jpg",
+        "version": "b221aa07d159",
+        "bytes": 260451
+      },
+      {
+        "id": "ST1-019",
+        "image": "images/ST1-019.jpg",
+        "version": "e37d2a0e69e9",
+        "bytes": 288599
+      },
+      {
+        "id": "ST1-020",
+        "image": "images/ST1-020.jpg",
+        "version": "b5a5f1ae9e34",
+        "bytes": 315242
+      },
+      {
+        "id": "ST1-021",
+        "image": "images/ST1-021.jpg",
+        "version": "d856b59641c5",
+        "bytes": 381233
+      },
+      {
+        "id": "ST1-022",
+        "image": "images/ST1-022.jpg",
+        "version": "839adb4e3e3b",
+        "bytes": 362628
+      },
+      {
+        "id": "ST1-023",
+        "image": "images/ST1-023.jpg",
+        "version": "33a4827d644e",
+        "bytes": 301896
+      },
+      {
+        "id": "ST1-024",
+        "image": "images/ST1-024.jpg",
+        "version": "4f8e8f63adfb",
+        "bytes": 235840
+      },
+      {
+        "id": "ST1-025",
+        "image": "images/ST1-025.jpg",
+        "version": "419baa5f026b",
+        "bytes": 336594
+      }
+    ],
+    "print_notes": [
+      "All 19 supplied images are portrait Yellow CSM Main Units; no AA, JUMP or accessory asset supplied.",
+      "ST1-005 protection is now opponent-turn-only; ST1-011 freeze range is 6000 or less Power.",
+      "ST1-003 retains the newly supplied Control Devil Trait search wording."
+    ],
+    "scope": "Database/local planner only; Arena and simulator unchanged."
   }
 }
