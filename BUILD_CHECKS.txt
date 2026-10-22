@@ -2300,5 +2300,203 @@
       "ST1-003 retains the newly supplied Control Devil Trait search wording."
     ],
     "scope": "Database/local planner only; Arena and simulator unchanged."
+  },
+  "replacement_bundle_2026_10_23": {
+    "received_images": 26,
+    "canonical_replacements": 26,
+    "aa_replacements": 0,
+    "changed_transcriptions": 16,
+    "metadata_changes": {
+      "ST1-083": {
+        "power": "4000"
+      },
+      "ST1-089": {
+        "power": "3000"
+      },
+      "ST1-091": {
+        "power": "3000"
+      },
+      "ST1-092": {
+        "power": "4000"
+      },
+      "SD1-002": {
+        "power": "3000"
+      },
+      "SD1-010": {
+        "power": "4000"
+      },
+      "SD1-011": {
+        "power": "3000"
+      }
+    },
+    "landscape": [],
+    "original_bytes": 49699822,
+    "compressed_bytes": 9199004,
+    "database_cards": 1227,
+    "images": [
+      {
+        "id": "SD1-002",
+        "image": "images/SD1-002.jpg",
+        "version": "270851e2a894",
+        "bytes": 290304
+      },
+      {
+        "id": "SD1-010",
+        "image": "images/SD1-010.jpg",
+        "version": "7b9b401b07f6",
+        "bytes": 335812
+      },
+      {
+        "id": "SD1-011",
+        "image": "images/SD1-011.jpg",
+        "version": "7a6ac10c7159",
+        "bytes": 336956
+      },
+      {
+        "id": "ST1-078",
+        "image": "images/ST1-078.jpg",
+        "version": "211a86837d25",
+        "bytes": 367776
+      },
+      {
+        "id": "ST1-079",
+        "image": "images/ST1-079.jpg",
+        "version": "4e46f14f23dc",
+        "bytes": 355714
+      },
+      {
+        "id": "ST1-080",
+        "image": "images/ST1-080.jpg",
+        "version": "9c330dd0aefd",
+        "bytes": 361858
+      },
+      {
+        "id": "ST1-081",
+        "image": "images/ST1-081.jpg",
+        "version": "06fb7b3f1cf3",
+        "bytes": 272310
+      },
+      {
+        "id": "ST1-082",
+        "image": "images/ST1-082.jpg",
+        "version": "31fdbc40a0ef",
+        "bytes": 293870
+      },
+      {
+        "id": "ST1-083",
+        "image": "images/ST1-083.jpg",
+        "version": "b21888087377",
+        "bytes": 370881
+      },
+      {
+        "id": "ST1-084",
+        "image": "images/ST1-084.jpg",
+        "version": "6a221e86b34c",
+        "bytes": 351739
+      },
+      {
+        "id": "ST1-085",
+        "image": "images/ST1-085.jpg",
+        "version": "9f456c94adc6",
+        "bytes": 336576
+      },
+      {
+        "id": "ST1-086",
+        "image": "images/ST1-086.jpg",
+        "version": "04d6ddcb71b4",
+        "bytes": 362192
+      },
+      {
+        "id": "ST1-087",
+        "image": "images/ST1-087.jpg",
+        "version": "6226a00f54a8",
+        "bytes": 389259
+      },
+      {
+        "id": "ST1-088",
+        "image": "images/ST1-088.jpg",
+        "version": "4cbf78ad481f",
+        "bytes": 365524
+      },
+      {
+        "id": "ST1-089",
+        "image": "images/ST1-089.jpg",
+        "version": "b62b40b852a3",
+        "bytes": 398157
+      },
+      {
+        "id": "ST1-090",
+        "image": "images/ST1-090.jpg",
+        "version": "e1a137e2f8d8",
+        "bytes": 400765
+      },
+      {
+        "id": "ST1-091",
+        "image": "images/ST1-091.jpg",
+        "version": "f11b1f7e00d9",
+        "bytes": 343536
+      },
+      {
+        "id": "ST1-092",
+        "image": "images/ST1-092.jpg",
+        "version": "56dd9af05bdc",
+        "bytes": 363345
+      },
+      {
+        "id": "ST1-093",
+        "image": "images/ST1-093.jpg",
+        "version": "01ceb45b7b6a",
+        "bytes": 393807
+      },
+      {
+        "id": "ST1-094",
+        "image": "images/ST1-094.jpg",
+        "version": "8eeafd2d83c7",
+        "bytes": 374830
+      },
+      {
+        "id": "ST1-095",
+        "image": "images/ST1-095.jpg",
+        "version": "0c071da4907f",
+        "bytes": 401862
+      },
+      {
+        "id": "ST1-096",
+        "image": "images/ST1-096.jpg",
+        "version": "3020fe41c594",
+        "bytes": 418964
+      },
+      {
+        "id": "ST3-002",
+        "image": "images/ST3-002.jpg",
+        "version": "f1d32cf28d89",
+        "bytes": 379643
+      },
+      {
+        "id": "ST3-004",
+        "image": "images/ST3-004.jpg",
+        "version": "16ca398901ec",
+        "bytes": 336939
+      },
+      {
+        "id": "ST3-005",
+        "image": "images/ST3-005.jpg",
+        "version": "3cbcc1aab1ce",
+        "bytes": 291615
+      },
+      {
+        "id": "ST3-012",
+        "image": "images/ST3-012.jpg",
+        "version": "34a024ba6019",
+        "bytes": 304770
+      }
+    ],
+    "print_notes": [
+      "ST1-079 retains printed 'bottom your Deck'; ST1-093 retains 'under 1 of Units'; ST1-094 retains lowercase 'cost'.",
+      "ST1-082 now prints [Your Turn] with its (1) cost and no Once per Turn.",
+      "ST1-083 no longer Rests itself on play; its delayed Active instruction remains.",
+      "ST3-004 explicitly Blooms itself after another friendly Unit is Bloomed during the opponent turn."
+    ],
+    "scope": "Database/local planner only; Support Map retired; Arena and simulator unchanged."
   }
 }
