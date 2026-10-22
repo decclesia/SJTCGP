@@ -1839,5 +1839,313 @@
       "Coco standard and ST7 AA retain Life 6 / Threshold 4; both now print except by skills."
     ],
     "scope": "Database/local planner only; Arena and simulator unchanged."
+  },
+  "replacement_bundle_2026_10_22": {
+    "received_images": 44,
+    "canonical_replacements": 44,
+    "aa_replacements": 0,
+    "changed_transcriptions": 32,
+    "metadata_changes": {
+      "EX5-005": {
+        "power": "4000"
+      },
+      "EX5-006": {
+        "power": "4000"
+      },
+      "EX5-011": {
+        "cost": "3",
+        "power": "3000"
+      },
+      "EX5-018": {
+        "traits": "Rose Duel"
+      },
+      "EX5-019": {
+        "sj_cost": "1"
+      },
+      "PUP-053": {
+        "sj_cost": "1"
+      }
+    },
+    "landscape": [
+      "EX5-021",
+      "PUP-053",
+      "ST3-080"
+    ],
+    "original_bytes": 88129859,
+    "compressed_bytes": 15474933,
+    "database_cards": 1227,
+    "images": [
+      {
+        "id": "EX5-002",
+        "image": "images/EX5-002.jpg",
+        "version": "4bc6dd759017",
+        "bytes": 268093
+      },
+      {
+        "id": "EX5-003",
+        "image": "images/EX5-003.jpg",
+        "version": "14ef76d8b285",
+        "bytes": 292220
+      },
+      {
+        "id": "EX5-004",
+        "image": "images/EX5-004.jpg",
+        "version": "0240bd2e4ed1",
+        "bytes": 304219
+      },
+      {
+        "id": "EX5-005",
+        "image": "images/EX5-005.jpg",
+        "version": "5198fc313178",
+        "bytes": 342991
+      },
+      {
+        "id": "EX5-006",
+        "image": "images/EX5-006.jpg",
+        "version": "b6dacba276e7",
+        "bytes": 371105
+      },
+      {
+        "id": "EX5-007",
+        "image": "images/EX5-007.jpg",
+        "version": "df0d506d1f4e",
+        "bytes": 339370
+      },
+      {
+        "id": "EX5-008",
+        "image": "images/EX5-008.jpg",
+        "version": "1a1ee324ef02",
+        "bytes": 289177
+      },
+      {
+        "id": "EX5-009",
+        "image": "images/EX5-009.jpg",
+        "version": "10ed1dc1f7b2",
+        "bytes": 223220
+      },
+      {
+        "id": "EX5-010",
+        "image": "images/EX5-010.jpg",
+        "version": "59569718fed2",
+        "bytes": 267534
+      },
+      {
+        "id": "EX5-011",
+        "image": "images/EX5-011.jpg",
+        "version": "6a557f790e92",
+        "bytes": 333702
+      },
+      {
+        "id": "EX5-012",
+        "image": "images/EX5-012.jpg",
+        "version": "7243ad89a62b",
+        "bytes": 332067
+      },
+      {
+        "id": "EX5-013",
+        "image": "images/EX5-013.jpg",
+        "version": "9dc65e317ddd",
+        "bytes": 307646
+      },
+      {
+        "id": "EX5-014",
+        "image": "images/EX5-014.jpg",
+        "version": "d461d79b4761",
+        "bytes": 320528
+      },
+      {
+        "id": "EX5-015",
+        "image": "images/EX5-015.jpg",
+        "version": "a6b47c7c3d7d",
+        "bytes": 313214
+      },
+      {
+        "id": "EX5-016",
+        "image": "images/EX5-016.jpg",
+        "version": "aedfbe2e4e53",
+        "bytes": 375686
+      },
+      {
+        "id": "EX5-017",
+        "image": "images/EX5-017.jpg",
+        "version": "0a4b7c469247",
+        "bytes": 367891
+      },
+      {
+        "id": "EX5-018",
+        "image": "images/EX5-018.jpg",
+        "version": "638c11b5ffda",
+        "bytes": 317117
+      },
+      {
+        "id": "EX5-019",
+        "image": "images/EX5-019.jpg",
+        "version": "c9b98982c324",
+        "bytes": 350967
+      },
+      {
+        "id": "EX5-020",
+        "image": "images/EX5-020.jpg",
+        "version": "1b1350f3c35f",
+        "bytes": 379276
+      },
+      {
+        "id": "EX5-021",
+        "image": "images/EX5-021.jpg",
+        "version": "01ed0e4067f2",
+        "bytes": 352413
+      },
+      {
+        "id": "PUP-051",
+        "image": "images/PUP-051.jpg",
+        "version": "190d6b91894e",
+        "bytes": 413523
+      },
+      {
+        "id": "PUP-052",
+        "image": "images/PUP-052.jpg",
+        "version": "cb9e9a558668",
+        "bytes": 343651
+      },
+      {
+        "id": "PUP-053",
+        "image": "images/PUP-053.jpg",
+        "version": "bbdb25947458",
+        "bytes": 344658
+      },
+      {
+        "id": "PUP-061",
+        "image": "images/PUP-061.jpg",
+        "version": "a514f6dc70f1",
+        "bytes": 351373
+      },
+      {
+        "id": "PUP-062",
+        "image": "images/PUP-062.jpg",
+        "version": "9593a07aa693",
+        "bytes": 329030
+      },
+      {
+        "id": "ST3-062",
+        "image": "images/ST3-062.jpg",
+        "version": "8a5909a2899c",
+        "bytes": 374953
+      },
+      {
+        "id": "ST3-063",
+        "image": "images/ST3-063.jpg",
+        "version": "fef57978709b",
+        "bytes": 359423
+      },
+      {
+        "id": "ST3-064",
+        "image": "images/ST3-064.jpg",
+        "version": "03990f843ae3",
+        "bytes": 421715
+      },
+      {
+        "id": "ST3-065",
+        "image": "images/ST3-065.jpg",
+        "version": "90cd4fc0c269",
+        "bytes": 369358
+      },
+      {
+        "id": "ST3-066",
+        "image": "images/ST3-066.jpg",
+        "version": "14c7a022bd8f",
+        "bytes": 371526
+      },
+      {
+        "id": "ST3-067",
+        "image": "images/ST3-067.jpg",
+        "version": "9d1bebd0ea25",
+        "bytes": 398686
+      },
+      {
+        "id": "ST3-068",
+        "image": "images/ST3-068.jpg",
+        "version": "537aef58ca20",
+        "bytes": 337987
+      },
+      {
+        "id": "ST3-069",
+        "image": "images/ST3-069.jpg",
+        "version": "ef9cc6f21e58",
+        "bytes": 415274
+      },
+      {
+        "id": "ST3-070",
+        "image": "images/ST3-070.jpg",
+        "version": "86269e4d8ae8",
+        "bytes": 418552
+      },
+      {
+        "id": "ST3-071",
+        "image": "images/ST3-071.jpg",
+        "version": "ac4d841143a4",
+        "bytes": 375494
+      },
+      {
+        "id": "ST3-072",
+        "image": "images/ST3-072.jpg",
+        "version": "40444588c9da",
+        "bytes": 384642
+      },
+      {
+        "id": "ST3-073",
+        "image": "images/ST3-073.jpg",
+        "version": "a3f03145a066",
+        "bytes": 334340
+      },
+      {
+        "id": "ST3-074",
+        "image": "images/ST3-074.jpg",
+        "version": "79379e40137b",
+        "bytes": 457928
+      },
+      {
+        "id": "ST3-075",
+        "image": "images/ST3-075.jpg",
+        "version": "e2255583729a",
+        "bytes": 400484
+      },
+      {
+        "id": "ST3-076",
+        "image": "images/ST3-076.jpg",
+        "version": "2f397b129281",
+        "bytes": 380243
+      },
+      {
+        "id": "ST3-077",
+        "image": "images/ST3-077.jpg",
+        "version": "4460ef877618",
+        "bytes": 357755
+      },
+      {
+        "id": "ST3-078",
+        "image": "images/ST3-078.jpg",
+        "version": "ad0ec8619e9c",
+        "bytes": 376223
+      },
+      {
+        "id": "ST3-079",
+        "image": "images/ST3-079.jpg",
+        "version": "59a0b4c372d3",
+        "bytes": 297932
+      },
+      {
+        "id": "ST3-080",
+        "image": "images/ST3-080.jpg",
+        "version": "fedb71c73d85",
+        "bytes": 411747
+      }
+    ],
+    "print_notes": [
+      "EX5-018 now prints Rose Duel as its Main Action Trait.",
+      "EX5-019 retains printed End of Your Turn capitalization and Cost 3 wording.",
+      "ST3-074 prints by Swap skill without an article; retained verbatim.",
+      "PUP-053 now prints Remove 1 SJ Marker; Charge 1 after its trigger colon; retained verbatim."
+    ],
+    "scope": "Database/local planner only; Arena and simulator unchanged."
   }
 }
