@@ -2498,5 +2498,51 @@
       "ST3-004 explicitly Blooms itself after another friendly Unit is Bloomed during the opponent turn."
     ],
     "scope": "Database/local planner only; Support Map retired; Arena and simulator unchanged."
+  },
+  "alternate_art_batch1_2026_10_24": {
+    "received": "2026-10-23",
+    "completed": "2026-10-24",
+    "source": "D:/AA.zip",
+    "new_alternate_artworks": 93,
+    "by_release": {
+      "EX1": 3,
+      "EX2": 3,
+      "EX3": 3,
+      "EX4": 3,
+      "EX5": 3,
+      "SD1": 3,
+      "SD2": 3,
+      "SD3": 3,
+      "SD4": 3,
+      "ST1": 22,
+      "ST2": 22,
+      "ST3": 22
+    },
+    "existing_variants_preserved": 50,
+    "total_alternate_artworks": 143,
+    "canonical_cards": 1227,
+    "source_bytes": 261577928,
+    "compressed_bytes": 40427988,
+    "superseding_files": [
+      "D:/AA/ST3-043-AA.png",
+      "D:/AA/ST3-044-AA.png"
+    ],
+    "standard_print_transcription_repairs": {
+      "EX1-008": {
+        "rarity": "SR"
+      },
+      "ST2-007": {
+        "effect": "[On Play / On Attack] Remove 1 SJ Marker: Your Leader or up to 1 of your other Units with the \"Urameshi\" Trait can attack your Opponent's Units in Active mode for the turn.\n[Activate: Battle] Once per Turn Choose up to 1 of your Opponent's Rested Units and switch it to Active mode."
+      },
+      "ST3-102": {
+        "traits": "Witch / Pointed Cap"
+      }
+    },
+    "known_followup_print_differences": [
+      "ST2-028-AA prints Taehisa Hinawa rather than Takehisa Hinawa; correct canonical name retained. User notified.",
+      "ST3-044-AA says Unit rather than standard Unit card.",
+      "ST3-055-AA uses comma/lowercase draw rather than standard colon/Draw."
+    ],
+    "scope": "Database and local planner only; no Arena/simulator/support-map changes."
   }
 }
