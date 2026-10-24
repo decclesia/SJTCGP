@@ -2661,5 +2661,14 @@
     "canonical_cards": 1227,
     "alternates": 143,
     "scope": "Public database and local planner only; four replacement prints resolve explicit BLEACH holds."
+  },
+  "jba_actions_2026_10_24": {
+    "date": "2026-10-24",
+    "baseCommit": "45a2c6678422e7e521dc2773dedebec6453d7001",
+    "effect_updates": 4,
+    "numerical_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "scope": "Database and local planner only."
   }
 }
