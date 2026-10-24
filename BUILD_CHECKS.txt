@@ -2544,5 +2544,39 @@
       "ST3-055-AA uses comma/lowercase draw rather than standard colon/Draw."
     ],
     "scope": "Database and local planner only; no Arena/simulator/support-map changes."
+  },
+  "rkn_smk_fixes_2026_10_24": {
+    "date": "2026-10-24",
+    "sourceSha256": "1d3cdbca3a556e5dd4ba650cf410d801b4d255fa088fd8c0f0a3517152892490",
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "scope": "Public database and local planner only.",
+    "refreshed_images": 51,
+    "revised_text_records": 41,
+    "printed_field_changes": {
+      "ST4-102": {
+        "counter": "1000"
+      },
+      "ST4-110": {
+        "cost": "6"
+      },
+      "ST4-116": {
+        "cost": "4"
+      },
+      "ST4-118": {
+        "counter": "2000"
+      },
+      "ST4-123": {
+        "cost": "4"
+      },
+      "PUP-073": {
+        "power": "3000"
+      },
+      "SD7-008": {
+        "cost": "4",
+        "power": "5000"
+      }
+    },
+    "reviewed_cards": 50
   }
 }
