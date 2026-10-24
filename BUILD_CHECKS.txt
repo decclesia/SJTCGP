@@ -2707,5 +2707,21 @@
     "alternates": 143,
     "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
     "refreshed_images": 21
+  },
+  "smk_four_print_revisions_2026_10_24": {
+    "date": "2026-10-24",
+    "baseCommit": "b5bd1ec6f3f56ded6da605dfc8cc631864860e35",
+    "fields": {
+      "ST1-099": {
+        "cost": "2"
+      }
+    },
+    "effect_changes": 3,
+    "numerical_changes": 1,
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
+    "refreshed_images": 4,
+    "sourceManifestSha256": "fbc526885bd1f993ec76d130f8f7a5ed4075768bcf3a0f5af82fb87b905bce41"
   }
 }
