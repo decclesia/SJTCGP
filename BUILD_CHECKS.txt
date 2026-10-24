@@ -2640,5 +2640,26 @@
       }
     },
     "reviewed_prints": 47
+  },
+  "blc_held_prints_resolved_2026_10_24": {
+    "date": "2026-10-24",
+    "baseCommit": "2938084d17de2a1247d503b3b02a2b9617abe4fa",
+    "resolved_holds": [
+      "PUP-068",
+      "SD6-007",
+      "SD6-008",
+      "SD6-019"
+    ],
+    "effect_updates": 4,
+    "numerical_changes": 0,
+    "rarities": {
+      "PUP-068": "P",
+      "SD6-007": "C",
+      "SD6-008": "C",
+      "SD6-019": "C"
+    },
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "scope": "Public database and local planner only; four replacement prints resolve explicit BLEACH holds."
   }
 }
