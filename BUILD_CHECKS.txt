@@ -2578,5 +2578,67 @@
       }
     },
     "reviewed_cards": 50
+  },
+  "blc_fixes_2026_10_24": {
+    "date": "2026-10-24",
+    "baseCommit": "15602a661dd7823bbfda56337aa2ceababaa3703",
+    "sourceSha256": "32b0d997175db9bea814ed4d937bbdd39e9bb5fb226cebc34b80b1f76563ddf5",
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "held": [
+      "PUP-068",
+      "SD6-007",
+      "SD6-008",
+      "SD6-019"
+    ],
+    "hold_reason": {
+      "PUP-068": "Print shows C instead of promo P.",
+      "SD6-007": "Print shows SR, previous C; SD6 spread would gain an additional SR.",
+      "SD6-008": "Print shows R instead of C.",
+      "SD6-019": "New text omits under-card destination."
+    },
+    "source_wording_retained": [
+      "ST4-054 still prints 10 more rather than 10 or more.",
+      "ST4-062 prints Draw 1; rather than Draw 1 card;."
+    ],
+    "scope": "Public database and local planner only; four cards explicitly held by user.",
+    "refreshed_images": 43,
+    "revised_text_records": 33,
+    "effect_updates": 30,
+    "printed_field_changes": {
+      "ST4-053": {
+        "power": "5000"
+      },
+      "ST4-054": {
+        "cost": "5",
+        "power": "6000"
+      },
+      "SD6-013": {
+        "power": "4000"
+      },
+      "SD6-018": {
+        "cost": "1"
+      },
+      "SD6-020": {
+        "cost": "5",
+        "sj_cost": "1"
+      },
+      "ST4-056": {
+        "traits": "Arrancar / Fracción"
+      },
+      "ST4-057": {
+        "traits": "Arrancar / Fracción"
+      },
+      "ST4-058": {
+        "traits": "Arrancar / Fracción"
+      },
+      "ST4-060": {
+        "traits": "Arrancar / Fracción"
+      },
+      "ST4-061": {
+        "traits": "Arrancar / Fracción"
+      }
+    },
+    "reviewed_prints": 47
   }
 }
