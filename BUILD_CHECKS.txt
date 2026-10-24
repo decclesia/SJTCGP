@@ -2670,5 +2670,42 @@
     "canonical_cards": 1227,
     "alternates": 143,
     "scope": "Database and local planner only."
+  },
+  "sd5_print_revisions_2026_10_24": {
+    "date": "2026-10-24",
+    "baseCommit": "a658a2585795b21f7354060992b4adf0fed14a85",
+    "sourceSha256": "1fcd10be88f4362074928453261d02b942fd0c88d42ef907f014d6ec84d65915",
+    "fields": {
+      "PUP-075": {
+        "power": "4000"
+      },
+      "SD5-002": {
+        "cost": "6",
+        "power": "6000",
+        "counter": "1000"
+      },
+      "SD5-004": {
+        "power": "5000"
+      },
+      "SD5-005": {
+        "cost": "2"
+      },
+      "SD5-006": {
+        "power": "5000"
+      },
+      "SD5-013": {
+        "power": "5000"
+      },
+      "SD5-014": {
+        "cost": "7",
+        "counter": "1000"
+      }
+    },
+    "effect_changes": 14,
+    "numerical_changes": 10,
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
+    "refreshed_images": 21
   }
 }
