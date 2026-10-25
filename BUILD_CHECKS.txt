@@ -2779,5 +2779,21 @@
     "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
     "refreshed_images": 15,
     "supplemental_source_sha256": "96f62021df02147e064ccca4fee2ee0fd8c396a81d588c7359af3c2810cd9614"
+  },
+  "revenge_juri_print_revisions_2026_10_25": {
+    "date": "2026-10-25",
+    "baseCommit": "d4446432300168248fa12ff8cc1676c164e1e3dc",
+    "sourceManifestSha256": "f69cea276490cab243f18f0cf81a51bfc6f0fff0f3d442f61f516919d934d5a5",
+    "fields": {
+      "EX5-019": {
+        "cost": "3"
+      }
+    },
+    "effect_changes": 2,
+    "numerical_changes": 1,
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
+    "refreshed_images": 3
   }
 }

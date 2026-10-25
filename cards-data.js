@@ -1366,7 +1366,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "26a5d914db09"
+    "imageVersion": "80c518774be9"
   },
   {
     "number": "ST1-101",
@@ -9498,7 +9498,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "c9b98982c324"
+    "imageVersion": "3fd6aca76cc4"
   },
   {
     "number": "EX5-020",
@@ -9510,7 +9510,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "1b1350f3c35f"
+    "imageVersion": "4dafbe81a0d0"
   },
   {
     "number": "EX5-021",
