@@ -2723,5 +2723,36 @@
     "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
     "refreshed_images": 4,
     "sourceManifestSha256": "fbc526885bd1f993ec76d130f8f7a5ed4075768bcf3a0f5af82fb87b905bce41"
+  },
+  "kny_print_revisions_2026_10_25": {
+    "date": "2026-10-25",
+    "baseCommit": "d1eb45cf3764f48a1e0d136feee2528246fd59b3",
+    "sourceSha256": "7f12fd7ee67149a2c138f7a1119ed5d3210c82fd4cce448e254e1fd818339d40",
+    "fields": {
+      "ST4-036": {
+        "power": "3000"
+      },
+      "ST4-037": {
+        "power": "4000"
+      },
+      "ST4-046": {
+        "cost": "1"
+      },
+      "ST4-047": {
+        "cost": "2"
+      },
+      "ST4-049": {
+        "power": "5000"
+      },
+      "PUP-066": {
+        "sj_cost": "2"
+      }
+    },
+    "effect_changes": 18,
+    "numerical_changes": 6,
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
+    "refreshed_images": 25
   }
 }
