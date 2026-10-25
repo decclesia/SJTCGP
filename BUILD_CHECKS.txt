@@ -2795,5 +2795,58 @@
     "alternates": 143,
     "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
     "refreshed_images": 3
+  },
+  "st4_yellow_blue_and_aa2_2026_10_25": {
+    "date": "2026-10-25",
+    "baseCommit": "627d8cc3bc3af869c73f4335b1cac01169fac24f",
+    "sourceArchives": {
+      "fixes": "94d0b2e81ce7aa2e3e528998dc009911c50d55d1dd89056b4a328df9ea9b0102",
+      "AA2": "8c35c83f6e6c801d964d3df7185e1ad15c056cb82fa8cdfd56c6ba9f73e5e3d7"
+    },
+    "newAlternates": [
+      "SD5-020",
+      "SD5-003",
+      "SD5-006",
+      "SD6-002",
+      "SD6-009",
+      "SD6-010",
+      "SD7-002",
+      "SD7-003",
+      "SD7-011",
+      "ST4-002",
+      "ST4-003",
+      "ST4-004",
+      "ST4-018",
+      "ST4-027",
+      "ST4-028",
+      "ST4-029",
+      "ST4-049",
+      "ST4-052",
+      "ST4-053",
+      "ST4-054",
+      "ST4-072",
+      "ST4-077",
+      "ST4-078",
+      "ST4-079",
+      "ST4-089",
+      "ST4-102",
+      "ST4-103",
+      "ST4-104",
+      "ST4-122",
+      "ST4-126",
+      "ST4-127"
+    ],
+    "effect_changes": 44,
+    "numerical_changes": 11,
+    "printed_circle_changes": 1,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "clarifications": [
+      "SD5-002-AA filename maps to printed SD5-020; no SD5-002 AA supplied.",
+      "User explicitly authorized Moxie PUP-072 exactly as printed, including R circle; gameplay color remains Blue."
+    ],
+    "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
+    "refreshed_images": 87
   }
 }
