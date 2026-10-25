@@ -2754,5 +2754,30 @@
     "alternates": 143,
     "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
     "refreshed_images": 25
+  },
+  "mixed_print_revisions_2026_10_25": {
+    "date": "2026-10-25",
+    "baseCommit": "4dead5f94ac27b7f4715889d6cbe5650dd08ae2f",
+    "sourceSha256": "62f1d15ccdd272e44d10d99974324b6beba931e478f478c475350bd0be4d12ec",
+    "fields": {
+      "SD1-001": {
+        "life": "5"
+      },
+      "ST1-081": {
+        "power": "1000",
+        "counter": "1000"
+      }
+    },
+    "effect_changes": 9,
+    "numerical_changes": 3,
+    "canonical_cards": 1227,
+    "alternates": 143,
+    "resolved_holds": [
+      "ST4-044"
+    ],
+    "alternate_images": 5,
+    "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
+    "refreshed_images": 15,
+    "supplemental_source_sha256": "96f62021df02147e064ccca4fee2ee0fd8c396a81d588c7359af3c2810cd9614"
   }
 }
