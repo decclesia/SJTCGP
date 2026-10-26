@@ -2864,5 +2864,53 @@
     ],
     "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
     "refreshed_images": 77
+  },
+  "st4_separate_text_corrections_2026_10_26": {
+    "date": "2026-10-26",
+    "baseCommit": "87795c73b82415dd666277ac886163bf030e6d42",
+    "kind": "separate-text-correction",
+    "cards": [
+      "PUP-066",
+      "ST4-119"
+    ],
+    "effect_changes": 2,
+    "stat_changes": 0,
+    "image_changes": 0,
+    "changes": {
+      "PUP-066": {
+        "before": "[Activate: Battle] If your \"Akaza\" is in a battle with an Opponent's Unit: Give your card that's in a battle +4000 Power for the battle. Then, at the end of the battle, if your Opponent's Unit was K.O.'d, draw 1 card and return this card to your JUMP Deck.",
+        "after": "[Activate: Battle] Once per Turn If your \"Akaza\" is in a battle with an Opponent's Unit: Give your card that's in a battle +4000 Power for the battle. Then, at the end of the battle, if your Opponent's Unit was K.O.'d, draw 1 card and return this card to your JUMP Deck."
+      },
+      "ST4-119": {
+        "before": "[Your Turn] If you have a face-up Life card, give this card in your hand -4 Cost.\n[On Play] Limit 1 Give your Units with the \"Juppongatana\" Trait +1000 Power for the turn.\n[End of your Turn] If you have no face-up Life cards, give your Leader +1000 Power until the end of your Opponent's next turn. Then, place this card in your Drop.",
+        "after": "Scene\n[Your Turn] If you have a face-up Life card, give this card in your hand -4 Cost.\n[On Play] Limit 1 Give your Units with the \"Juppongatana\" Trait +1000 Power for the turn.\n[End of your Turn] If you have no face-up Life cards, give your Leader +1000 Power until the end of your Opponent's next turn. Then, place this card in your Drop."
+      }
+    },
+    "sources": [
+      {
+        "id": "PUP-066",
+        "image": "images/PUP-066.jpg",
+        "sha256": "19dfda8b0e170caed6b35bf7099a78cae87f991cc7c110ea6b96d2823921dd52",
+        "changed": false
+      },
+      {
+        "id": "ST4-119",
+        "image": "images/ST4-119.jpg",
+        "sha256": "e40dffb53c9e8aaabdbd009b41f42416332da4849cfd6dc8bf8f7a025dc43e49",
+        "changed": false
+      }
+    ],
+    "humanConfirmation": {
+      "sourceThreadId": "01a1405f-36d1-7950-bc7c-517a01996592",
+      "sourceUserMessageId": "01a17757-9f9e-78f0-aed9-5584127e5fe4",
+      "question": "ST4-Q09 — PUP-066 Blue Silver Chaotic Afterglow has no Once/Limit or activation payment. Once this JUMP Action is on the field, may you activate it repeatedly in the same Akaza-versus-Unit battle, stacking +4000 and a separate end-battle draw each time, or should it have a use restriction?",
+      "answer": "Add Once per Turn"
+    },
+    "PUP_066_artwork_status": "existing print retained; corrected Once per Turn print not supplied",
+    "ST4_119_evidence": "Existing standard image visually verified to print Scene.",
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "scope": "Public database/local planner only; no Arena/simulator changes or Support Map evaluation."
   }
 }
