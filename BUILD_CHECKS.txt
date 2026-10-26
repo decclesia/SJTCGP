@@ -2848,5 +2848,21 @@
     ],
     "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
     "refreshed_images": 87
+  },
+  "mixed_print_revisions_2026_10_26": {
+    "date": "2026-10-26",
+    "baseCommit": "ae2b41906dfae2df138703325dbd5dde3c34b97c",
+    "sourceSha256": "ee155f9b059c3f5f558ad4e8403f6d598325d809afce3d17d63ebc392abdd3a8",
+    "effect_changes": 49,
+    "numerical_changes": 23,
+    "rarity_changes": 1,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "clarifications": [
+      "User explicitly authorizes all77images including SD7-020 rarityR (previousC)."
+    ],
+    "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
+    "refreshed_images": 77
   }
 }
