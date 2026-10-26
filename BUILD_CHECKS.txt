@@ -2917,8 +2917,8 @@
     "date": "2026-10-26",
     "baseCommit": "c8541f98cf779e541e75b8f165c82244a2e534bf",
     "sourceSha256": "bdce5d5678830dcf22d2e2d52f9f97b54a686164b8238e5e7c928803cac4b061",
-    "effect_changes": 14,
-    "numerical_changes": 13,
+    "effect_changes": 15,
+    "numerical_changes": 16,
     "rarity_changes": 1,
     "canonical_cards": 1227,
     "alternates": 174,
@@ -2927,6 +2927,16 @@
       "Newest SD7-020 supplied print restores C rarity, superseding previous R print; PUP-066 corrected Once per Turn artwork supplied and pending artwork resolved."
     ],
     "scope": "Public database and local planner only. No Arena/simulator work or Support Map evaluation.",
-    "refreshed_images": 43
+    "individual_additions": [
+      "ST4-064",
+      "ST4-065",
+      "ST4-066",
+      "ST4-068"
+    ],
+    "resolvedArtwork": [
+      "PUP-066"
+    ],
+    "pendingArtwork": [],
+    "refreshed_images": 47
   }
 }
