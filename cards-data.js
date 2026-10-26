@@ -8930,7 +8930,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "e48a15b7f0ca"
+    "imageVersion": "73f2b2f47d57"
   },
   {
     "number": "EX3-006",

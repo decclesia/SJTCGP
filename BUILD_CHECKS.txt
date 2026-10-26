@@ -2938,5 +2938,26 @@
     ],
     "pendingArtwork": [],
     "refreshed_images": 47
+  },
+  "hajime005_print_correction_2026_10_26": {
+    "date": "2026-10-26",
+    "baseCommit": "65bc6d0f50178a999cc90a43bfdf785ba816755d",
+    "effect_changes": 1,
+    "numerical_changes": 0,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "resolvedFollowups": [
+      "EX3-0057000Power filter versus6000Power EX3-002"
+    ],
+    "humanConfirmation": {
+      "sourceThreadId": "01a1405f-36d1-7950-bc7c-517a01996592",
+      "userMessageId": "01a17a25-00bb-7f40-99e9-d974462c0f21",
+      "request": "updated hajime, sorry i forgot. update the database and also the sim",
+      "suppliedImage": "D:\\ΤΨΓ\\ST3 Magical Transformation\\EX3 YELLOW GMC\\EX3-005.png",
+      "directUserMessageVerified": true
+    },
+    "scope": "Public database/local planner only; main simulator chat owns separately authorized simulator publication. No Arena or Support Map work."
   }
 }
