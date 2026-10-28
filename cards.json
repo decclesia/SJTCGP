@@ -1378,13 +1378,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "9903ef5ec608",
+    "imageVersion": "a6a12915de94",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST1-101-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "7ce6f9afa20f"
+        "imageVersion": "d453e3c8b694"
       }
     ]
   },
@@ -9142,13 +9142,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "8e58a7435eb3",
+    "imageVersion": "16be198b80a6",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/EX4-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "af92bb5da209"
+        "imageVersion": "631203f097c7"
       }
     ]
   },
@@ -9230,7 +9230,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "ed98686e9f6c"
+    "imageVersion": "7dcdab9f40a1"
   },
   {
     "number": "EX4-008",
@@ -9330,7 +9330,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "fb74c77829f1"
+    "imageVersion": "33be86791d32"
   },
   {
     "number": "EX4-015",
@@ -9354,7 +9354,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "c3153146c3ee"
+    "imageVersion": "b25bf792670e"
   },
   {
     "number": "EX4-017",
@@ -9366,7 +9366,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "3b1f418a1701"
+    "imageVersion": "a82e3949d612"
   },
   {
     "number": "EX4-018",
@@ -9378,7 +9378,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "1672225e1cbc"
+    "imageVersion": "b147a3653af8"
   },
   {
     "number": "EX4-019",
@@ -9390,7 +9390,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "c5134c314b7e"
+    "imageVersion": "b0a93f473d4f"
   },
   {
     "number": "EX4-020",
@@ -9402,7 +9402,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "e5da61715009"
+    "imageVersion": "42703e87f108"
   },
   {
     "number": "EX4-021",
@@ -9414,7 +9414,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "d3833806b33a"
+    "imageVersion": "e411f5dd5956"
   },
   {
     "number": "EX5-001",
@@ -14070,7 +14070,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "64533b749969"
+    "imageVersion": "01d5c3b29de0"
   },
   {
     "number": "PUP-060",
