@@ -9162,7 +9162,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "a126e2377ebf"
+    "imageVersion": "327f3a9fab33"
   },
   {
     "number": "EX4-003",
@@ -9194,7 +9194,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "92cb38c3044f"
+    "imageVersion": "8897bf1c152d"
   },
   {
     "number": "EX4-005",
@@ -9206,7 +9206,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "815193d379e3"
+    "imageVersion": "9e66de2454f7"
   },
   {
     "number": "EX4-006",
@@ -9254,7 +9254,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "cc77138d3a53"
+    "imageVersion": "0ec81c5c68c8"
   },
   {
     "number": "EX4-010",
@@ -9278,13 +9278,13 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "64ef5666ae24",
+    "imageVersion": "e53e2fe0f718",
     "altImages": [
       {
         "label": "EX4 — Alt Art",
         "image": "images/EX4-011-alt1.jpg",
         "release": "EX4",
-        "imageVersion": "37b8e87073f4"
+        "imageVersion": "9a6750a1c938"
       }
     ]
   },
@@ -9298,7 +9298,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "fc374d7a0f71"
+    "imageVersion": "58f931299a9c"
   },
   {
     "number": "EX4-013",
@@ -9310,13 +9310,13 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "53d109dc0b3e",
+    "imageVersion": "6f69d5e310ef",
     "altImages": [
       {
         "label": "EX4 — Alt Art",
         "image": "images/EX4-013-alt1.jpg",
         "release": "EX4",
-        "imageVersion": "eabf2275343a"
+        "imageVersion": "b252339498e6"
       }
     ]
   },

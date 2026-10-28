@@ -2989,5 +2989,19 @@
       "Both directly supplied SD5-001 standard/ST7 Leader AA prints agree. On Attack draw1 removed; Threshold Battle boost reduced from3000 to2000; redirect now says make this card the new attack target. Life5/Power5000/Threshold3/Traits/L rarity/R circle and both circled1 payments unchanged."
     ],
     "scope": "Public database/local planner; main simulator Rune owns the separately authorized matching simulator review and publication. Keep user-hold-2026-10-28 active until Alex explicitly requests reopening. No simulator/Arena/Support Map edits."
+  },
+  "SAF_print_stats_2026_10_28": {
+    "date": "2026-10-28",
+    "baseCommit": "2216c97555e6078a375dede56abe05b7621e916c",
+    "effect_changes": 0,
+    "numerical_changes": 7,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "clarifications": [
+      "Ten supplied PNG sources contain nine distinct prints: seven standard cards and two existing AAs. Clipboard image is byte-identical to EX4-012.png and is retained once as a duplicate source. All seven printed effects are unchanged. Supplied EX4-011/013 AAs match revised standard stats and current effects."
+    ],
+    "scope": "Public database/local planner; Alex explicitly requests informing simulator Rune for separately authorized matching review and publication. Preserve user-hold-2026-10-28 until Alex explicitly requests reopening. No Arena/SupportMap/simulator source edits."
   }
 }
