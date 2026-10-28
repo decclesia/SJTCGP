@@ -2975,5 +2975,19 @@
     ],
     "scope": "Public database and local planner. Alex separately authorizes notifying simulator Rune of every non-ST5 change for matching review, implementation and live publication. No Arena/Support Map work or simulator source edits by database chat.",
     "refreshed_images": 121
+  },
+  "rengoku_leader_print_revision_2026_10_28": {
+    "date": "2026-10-28",
+    "baseCommit": "d0be5c7483b3bb2861855a1bc0700743fe307f7a",
+    "effect_changes": 1,
+    "numerical_changes": 0,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "clarifications": [
+      "Both directly supplied SD5-001 standard/ST7 Leader AA prints agree. On Attack draw1 removed; Threshold Battle boost reduced from3000 to2000; redirect now says make this card the new attack target. Life5/Power5000/Threshold3/Traits/L rarity/R circle and both circled1 payments unchanged."
+    ],
+    "scope": "Public database/local planner; main simulator Rune owns the separately authorized matching simulator review and publication. Keep user-hold-2026-10-28 active until Alex explicitly requests reopening. No simulator/Arena/Support Map edits."
   }
 }

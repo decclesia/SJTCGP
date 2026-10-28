@@ -10798,13 +10798,13 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "9c4342de47ab",
+    "imageVersion": "e074f99bbb78",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/SD5-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "c1ddc333504b"
+        "imageVersion": "9827adbfc9f2"
       }
     ]
   },
