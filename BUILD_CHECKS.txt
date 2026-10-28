@@ -3033,5 +3033,71 @@
       "Newest EX2-021 print: removes Limit1 and circular(1) activation fee; now self-removes before colon, then Remove1SJ Marker after colon; boost+3000->+2000. Overcharged-Energy/restand condition unchanged. Retain printed operation order; do not silently move SJ instruction before colon or add a new limit. Printed Cost0/SJ2/landscape/R unchanged."
     ],
     "scope": "Public database/local planner; standing Alex authorization for main simulator Rune matching review,implementation,thumbnails and live publication. Preserve user-hold-2026-10-28 until Alex explicitly reopens. No simulator/Arena/SupportMap source edits."
+  },
+  "INY_FOR_prints_2026_10_28": {
+    "date": "2026-10-28",
+    "baseCommit": "4e0119111bf8494e8df874777c39a34e235fda5c",
+    "sourceSha256": "423e4a53efb87ba6b431ff0df45350821f84b5fadda1759ec70a2bd02d47c694",
+    "effect_changes": 23,
+    "numerical_changes": 17,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "held_sources": [
+      {
+        "id": "ST5-048",
+        "name": "ST5-048-misnamed-held.png",
+        "alternate": false,
+        "sha256": "f7dcb3704625a04cfe254123873f86cb506d2a69f9e97993aebabdb59003e1ef",
+        "bytes": 1868219,
+        "size": [
+          1061,
+          1482
+        ],
+        "held": true,
+        "reason": "Printed ST5-045 Meido Revival; Alex explicitly holds image, do not map/update ST5-045."
+      }
+    ],
+    "held_card_updates": [],
+    "simulatorEligibleIDs": [
+      "PUP-022",
+      "PUP-023"
+    ],
+    "simulatorExcludedST5IDs": [
+      "PUP-085",
+      "PUP-086",
+      "PUP-087",
+      "ST5-027",
+      "ST5-028",
+      "ST5-029",
+      "ST5-030",
+      "ST5-031",
+      "ST5-032",
+      "ST5-033",
+      "ST5-034",
+      "ST5-035",
+      "ST5-036",
+      "ST5-037",
+      "ST5-038",
+      "ST5-039",
+      "ST5-040",
+      "ST5-041",
+      "ST5-042",
+      "ST5-043",
+      "ST5-044",
+      "ST5-046",
+      "ST5-047",
+      "ST5-048",
+      "ST5-049",
+      "ST5-050",
+      "ST5-126"
+    ],
+    "clarifications": [
+      "Alex explicitly held archive ST5-048.png printed ST5-045 Meido Revival; it is retained as held source and does not update ST5-045. Alex then supplied the correctly printed ST5-048 Tenseiga; that replacement publishes.",
+      "All27 INY/ST5 identities, including PUP-085/PUP-086/PUP-087 and ST5-126 SEC, publish to database/planner only; explicitly excluded from simulator until Alex later authorizes ST5. Only FOR PUP-022/PUP-023 qualify for simulator handoff.",
+      "PUP-022 and PUP-023 printed effects unchanged; four printed play Cost/SJ changes only. No alternate art supplied/refreshed; all existing artwork identities/allocations preserved."
+    ],
+    "scope": "Database/local planner all29 identities; main simulator eligible subset ONLY PUP-022 and PUP-023 under Alex explicit non-ST5 limit. No simulator/Arena/SupportMap source edits. Keep user-hold-2026-10-28 active until Alex explicitly reopens."
   }
 }
