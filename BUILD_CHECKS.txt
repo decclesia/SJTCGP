@@ -2959,5 +2959,21 @@
       "directUserMessageVerified": true
     },
     "scope": "Public database/local planner only; main simulator chat owns separately authorized simulator publication. No Arena or Support Map work."
+  },
+  "mixed_print_revisions_2026_10_28": {
+    "date": "2026-10-28",
+    "baseCommit": "765d1453cd07a7308e8dbfb53bb58e8434b21379",
+    "sourceSha256": "55415bfe6bcb0e8003b91e8cb05ce8d20023c146a65b6823f4e08f34ceaeea44",
+    "effect_changes": 88,
+    "numerical_changes": 38,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "clarifications": [
+      "Alex explicitly confirms source SD7-007.png is a filename error; actual printed SD6-007 Yoruichi is the update target. All121 supplied images publish; no batch holds. ST1-003/005 AA-only refreshes match existing standard gameplay. Earlier ST2-028/ST3-044/ST3-055 AA correction follow-ups remain outside this batch."
+    ],
+    "scope": "Public database and local planner. Alex separately authorizes notifying simulator Rune of every non-ST5 change for matching review, implementation and live publication. No Arena/Support Map work or simulator source edits by database chat.",
+    "refreshed_images": 121
   }
 }
