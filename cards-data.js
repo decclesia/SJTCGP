@@ -8846,7 +8846,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "12feaaf9943d"
+    "imageVersion": "1eb3eccb11fd"
   },
   {
     "number": "EX3-001",
@@ -9162,7 +9162,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "327f3a9fab33"
+    "imageVersion": "b3f6b437dd41"
   },
   {
     "number": "EX4-003",

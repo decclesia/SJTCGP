@@ -3018,5 +3018,20 @@
       "Alex added EX4-020/021 and PUP-059 before publication: Challe OnPlay draw3->2; Sugar Confections removes itself instead of returning to JUMP Deck and loses its draw; Mithril draw2->1. All printed costs/SJ/Power/Traits/rarities/orientations unchanged. EX4-021 remains landscape; both JUMP Units have no Counter."
     ],
     "scope": "Public database/local planner; Alex explicitly requests informing simulator Rune for separately authorized matching review and publication. Preserve user-hold-2026-10-28 until Alex explicitly requests reopening. No Arena/SupportMap/simulator source edits."
+  },
+  "Challe_Ignition_2026_10_28": {
+    "date": "2026-10-28",
+    "baseCommit": "395fbf66dbd22d40db5f5a357b459bf5765af3e0",
+    "effect_changes": 2,
+    "numerical_changes": 2,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "clarifications": [
+      "Newest EX4-002 print: Power5000->6000, Counter0->1000, OnBlock+2000->+1000 with unchanged duration. It still reaches7000 after one OnBlock; OnPlay unchanged.",
+      "Newest EX2-021 print: removes Limit1 and circular(1) activation fee; now self-removes before colon, then Remove1SJ Marker after colon; boost+3000->+2000. Overcharged-Energy/restand condition unchanged. Retain printed operation order; do not silently move SJ instruction before colon or add a new limit. Printed Cost0/SJ2/landscape/R unchanged."
+    ],
+    "scope": "Public database/local planner; standing Alex authorization for main simulator Rune matching review,implementation,thumbnails and live publication. Preserve user-hold-2026-10-28 until Alex explicitly reopens. No simulator/Arena/SupportMap source edits."
   }
 }
