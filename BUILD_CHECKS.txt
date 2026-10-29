@@ -3218,5 +3218,19 @@
       "Both portrait standards; no AAs, effect, Counter, Power, rarity, Trait or identity changes. Prior27ST5/INY exclusion and BOTHmaintenancevariables/Decclesianormalpasswordexception retained."
     ],
     "scope": "Database/localplanner plus standingexplicit nonST5 main simulator handoff for gameplay and thumbnails/livepublication. Preserve both SIM_MAINTENANCE=user-hold-2026-10-28 and SIM_MAINTENANCE_ALLOW_USER=Decclesia, normalpassword required; others/signup/recovery closed. No simulator/Arena/SupportMapsource edits."
+  },
+  "ANE_cycle_prints_2026_10_30": {
+    "date": "2026-10-30",
+    "identities": 50,
+    "sourceFiles": 52,
+    "effect_changes": 40,
+    "numerical_changes": 25,
+    "rarity_changes": 0,
+    "refreshedExistingAAs": 2,
+    "newAAs": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "scope": "Public database and local planner only. ST5 is not enabled in the simulator by this update. Arena and retired Support Map remain unchanged."
   }
 }
