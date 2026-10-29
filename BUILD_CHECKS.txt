@@ -3159,5 +3159,39 @@
       "Printed RoyLeader/ST2-056 filters are exactCost5, not5orless. ST2-064 permanentCostSET5 wording retains no duration; subsequentKOceiling3. ST2-074 selfremoval follows colon asprinted; do notsilentlyturn into pre-colonpayment."
     ],
     "scope": "Database/localplanner plus explicitlyauthorizedmainRune handoff for all18nonST5identities, thumbnailsandgameplayreview/tests/livepublication. Keepuser-hold-2026-10-28untilAlexexplicitreopen. Nosimulator/Arena/SupportMapsourceedits."
+  },
+  "BLC_small_prints_2026_10_29": {
+    "date": "2026-10-29",
+    "baseCommit": "885bf68992a0aa2cbc29df8dea0b6a8be5ad240c",
+    "allRefreshedIDs": [
+      "ST4-053",
+      "ST4-054",
+      "ST4-055",
+      "ST4-058",
+      "ST4-065",
+      "ST4-070"
+    ],
+    "effect_changes": 4,
+    "numerical_changes": 3,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "held": [],
+    "simulatorEligibleIDs": [
+      "ST4-053",
+      "ST4-054",
+      "ST4-055",
+      "ST4-058",
+      "ST4-065",
+      "ST4-070"
+    ],
+    "clarifications": [
+      "ST4-053 standard and supplied AA now recover up to1 card named Cero, replacing Action card with Cero Trait; optional mill3/Drop-play condition unchanged. Preserve established independent Then when milling declined.",
+      "ST4-054 standard and AA both now have5000Power; all effect wording including printed 10 more remains unchanged, no new ruling inferred.",
+      "ST4-055 now6000Power with unchanged effect; ST4-058Counter1000/new opposing Overcharged-Energy removal OnKO; ST4-065 moves optional OnPlay from Deck selection to TOP Deck; ST4-070Life-to-hand payment mandatory1 instead of up to1.",
+      "All8 images portrait;6standards/2existingST4AAs. No newartworkidentity/rarity/allocation. NoST5cards present. Preserve prior27ST5INY exclusion."
+    ],
+    "scope": "Database/localplanner plus standingexplicit nonST5 main simulator handoff for gameplay and thumbnails/livepublication. Preserve both SIM_MAINTENANCE=user-hold-2026-10-28 and SIM_MAINTENANCE_ALLOW_USER=Decclesia, normalpassword required; others/signup/recovery closed. No simulator/Arena/SupportMapsource edits."
   }
 }
