@@ -3193,5 +3193,30 @@
       "All8 images portrait;6standards/2existingST4AAs. No newartworkidentity/rarity/allocation. NoST5cards present. Preserve prior27ST5INY exclusion."
     ],
     "scope": "Database/localplanner plus standingexplicit nonST5 main simulator handoff for gameplay and thumbnails/livepublication. Preserve both SIM_MAINTENANCE=user-hold-2026-10-28 and SIM_MAINTENANCE_ALLOW_USER=Decclesia, normalpassword required; others/signup/recovery closed. No simulator/Arena/SupportMapsource edits."
+  },
+  "GKA_small_prints_2026_10_29": {
+    "date": "2026-10-29",
+    "baseCommit": "4e4358e93fb93e8af154cef9210cad147975ac04",
+    "allRefreshedIDs": [
+      "EX1-002",
+      "EX1-015"
+    ],
+    "effect_changes": 0,
+    "numerical_changes": 2,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "held": [],
+    "simulatorEligibleIDs": [
+      "EX1-002",
+      "EX1-015"
+    ],
+    "clarifications": [
+      "EX1-002 Semiu Grier Cost1->2 only; Cleaner-Leader top4 Cleaner search unchanged.",
+      "EX1-015 Eishia Stiltza Cost1->2 only; optionalLife and Cleaner-Leader optionalmill3/draw1 unchanged.",
+      "Both portrait standards; no AAs, effect, Counter, Power, rarity, Trait or identity changes. Prior27ST5/INY exclusion and BOTHmaintenancevariables/Decclesianormalpasswordexception retained."
+    ],
+    "scope": "Database/localplanner plus standingexplicit nonST5 main simulator handoff for gameplay and thumbnails/livepublication. Preserve both SIM_MAINTENANCE=user-hold-2026-10-28 and SIM_MAINTENANCE_ALLOW_USER=Decclesia, normalpassword required; others/signup/recovery closed. No simulator/Arena/SupportMapsource edits."
   }
 }
