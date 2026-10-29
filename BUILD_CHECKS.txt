@@ -3099,5 +3099,65 @@
       "PUP-022 and PUP-023 printed effects unchanged; four printed play Cost/SJ changes only. No alternate art supplied/refreshed; all existing artwork identities/allocations preserved."
     ],
     "scope": "Database/local planner all29 identities; main simulator eligible subset ONLY PUP-022 and PUP-023 under Alex explicit non-ST5 limit. No simulator/Arena/SupportMap source edits. Keep user-hold-2026-10-28 active until Alex explicitly reopens."
+  },
+  "FMA_BSK_prints_2026_10_29": {
+    "date": "2026-10-29",
+    "baseCommit": "24af85444cb35b7d10e7a41141b33faa76c777ab",
+    "effect_changes": 16,
+    "numerical_changes": 3,
+    "rarity_changes": 0,
+    "canonical_cards": 1227,
+    "alternates": 174,
+    "accessories": 173,
+    "allRefreshedIDs": [
+      "PUP-071",
+      "SD4-010",
+      "SD4-011",
+      "SD4-014",
+      "SD4-018",
+      "ST2-051",
+      "ST2-056",
+      "ST2-061",
+      "ST2-063",
+      "ST2-064",
+      "ST2-065",
+      "ST2-068",
+      "ST2-071",
+      "ST2-072",
+      "ST2-073",
+      "ST2-074",
+      "ST4-076",
+      "ST4-085"
+    ],
+    "held": [],
+    "simulatorEligibleIDs": [
+      "PUP-071",
+      "SD4-010",
+      "SD4-011",
+      "SD4-014",
+      "SD4-018",
+      "ST2-051",
+      "ST2-056",
+      "ST2-061",
+      "ST2-063",
+      "ST2-064",
+      "ST2-065",
+      "ST2-068",
+      "ST2-071",
+      "ST2-072",
+      "ST2-073",
+      "ST2-074",
+      "ST4-076",
+      "ST4-085"
+    ],
+    "clarifications": [
+      "Alex sent initial FMA prints and explicitly said more were coming; subsequent FMA/SD4 and final BSK prints complete the combined18identity/21imagebatch.",
+      "All3suppliedAA pairs match standardgameplay:RoyLeaderST2-051/ST7AA,RoyJUMPST2-073/ST2AA,GriffithST4-076/ST7AA. InitiallymissingGriffithAApath was corrected byAlex toST7Legacy; no imagehold remains.",
+      "No ST5 identity present. Preserve exclusion of all27INY/ST5updates from previousbatch.",
+      "Preserve Griffith ST4-R02 normalChargePhase fivecap only; skillCharge/Overcharge may exceed5withinphysical10. NewLeaderbuffrecipient is thiscard only; no newEnergycapruling.",
+      "Printed ControlledIgnitionST2-068 Raid{1}->{2}; normal printedCost1+circular(1) remains. Preserve established alternative-payment rules while applying2SJ alternative.",
+      "Printed RoyLeader/ST2-056 filters are exactCost5, not5orless. ST2-064 permanentCostSET5 wording retains no duration; subsequentKOceiling3. ST2-074 selfremoval follows colon asprinted; do notsilentlyturn into pre-colonpayment."
+    ],
+    "scope": "Database/localplanner plus explicitlyauthorizedmainRune handoff for all18nonST5identities, thumbnailsandgameplayreview/tests/livepublication. Keepuser-hold-2026-10-28untilAlexexplicitreopen. Nosimulator/Arena/SupportMapsourceedits."
   }
 }
