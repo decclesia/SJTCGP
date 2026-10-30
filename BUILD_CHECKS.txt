@@ -3232,5 +3232,55 @@
     "alternates": 174,
     "accessories": 173,
     "scope": "Public database and local planner only. ST5 is not enabled in the simulator by this update. Arena and retired Support Map remain unchanged."
+  },
+  "ST5_AA_receipt_2026_10_30": {
+    "date": "2026-10-30",
+    "baseCommit": "1f53de742f7d32a1683dcce06c32178dd136919a",
+    "sourceArchive": {
+      "path": "D:\\ΤΨΓ\\AA2.zip",
+      "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-07-26\\sjtcgp-database-arena\\work_st5_aa_20261030\\AA2.zip",
+      "sha256": "42bb190f2a7e6ff33feebc43c70b81b9136a50b979961827e9b8f5f63a4f1e77",
+      "bytes": 48484061
+    },
+    "source_files": 19,
+    "newAlternateArtworks": 19,
+    "existingAlternatesPreserved": 174,
+    "totalAlternates": 193,
+    "canonical_cards": 1227,
+    "accessories": 173,
+    "allRefreshedIDs": [
+      "ST5-002",
+      "ST5-003",
+      "ST5-019",
+      "ST5-023",
+      "SD8-007",
+      "SD8-002",
+      "SD8-016",
+      "ST5-027",
+      "ST5-028",
+      "ST5-029",
+      "ST5-042",
+      "ST5-126",
+      "SD9-002",
+      "SD9-003",
+      "SD9-006",
+      "ST5-078",
+      "ST5-077",
+      "ST5-079",
+      "ST5-098"
+    ],
+    "effect_changes": 0,
+    "numerical_changes": 0,
+    "rarity_changes": 0,
+    "standardImagesChanged": 0,
+    "canonicalTextChanged": false,
+    "held": [],
+    "simulatorEligibleIDs": [],
+    "scope": "Database/localplanner ONLY. All19 ST5-cycle AAs excluded fromsimulator; standing ST5hold andmaintenance unchanged. No Arena/SupportMap/source edits.",
+    "clarifications": [
+      "19newrelease-cardAAs: ST5Yellow4/Red4/Blue4 plus1SECextra; SD8three andSD9three. ST5ordinaryreceipt12of20, remainingGreen/Pink8slotsnotinthisarchive.",
+      "All19printedIDs/names/stats/Traits/rarity/effects match currentstandard after quotation-glyph normalization; no gameplay text rewritten.",
+      "Existing174AAs including ST7Leaderreprints retained; total193.19newrecordsaddonly artworkslots, notgameplayidentities/packownership/progress."
+    ]
   }
 }
