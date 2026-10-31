@@ -14750,7 +14750,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "ccc326a3c6ec"
+    "imageVersion": "f58e368f4cfe"
   },
   {
     "number": "PUP-096",

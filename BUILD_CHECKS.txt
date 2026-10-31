@@ -7725,5 +7725,44 @@
       "ST5-125",
       "ST5-127"
     ]
+  },
+  "pup095_typo_correction_2026_10_31": {
+    "date": "2026-10-31",
+    "baseCommit": "90678104ba0fdf73397cd12318d2fd97be7b4ffa",
+    "source_files": 1,
+    "canonical_cards": 1227,
+    "totalAlternates": 205,
+    "accessories": 173,
+    "images": [
+      {
+        "id": "PUP-095",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Pink DDD\\PUP-095.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch3\\sources\\PUP-095.png",
+        "sourceSha256": "540f788628e35793906012235ea2e24756fbc0ab322d2216ccb62d7e79d0cb6b",
+        "path": "images/PUP-095.jpg",
+        "sha256": "f58e368f4cfe7c58279d5aa00d5e6d1038c2962fa79281dac1370fd14aa42a09",
+        "imageVersion": "f58e368f4cfe",
+        "dimensions": [
+          1050,
+          1498
+        ],
+        "bytes": 403709
+      }
+    ],
+    "changes": [
+      {
+        "id": "PUP-095",
+        "fields": {
+          "effect": {
+            "before": "Deflect Critical\n[Your Turn] Once per Turn When you play your second Unit with the \"Kumamori Shrine\" for the turn: Give this card +1000 Power for the turn.\n[On Play] Add the top of your Life cards to your hand; add 1 card from your hand at the top of your Life face-up.",
+            "after": "Deflect Critical\n[Your Turn] When you play your second Unit with the \"Kumamori Shrine\" Trait this turn: Give this card +1000 Power for the turn.\n[On Play] Add the top of your Life cards to your hand; add 1 card from your hand at the top of your Life face-up."
+          }
+        }
+      }
+    ],
+    "simulatorEligibleIDs": [],
+    "scope": "Database/local planner and exact PUP-095 private ST5 groundwork correction handoff only; no runtime import/enablement, Arena or Support Map work.",
+    "elapsedSeconds": 1.9
   }
 }
