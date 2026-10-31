@@ -3282,5 +3282,111 @@
       "All19printedIDs/names/stats/Traits/rarity/effects match currentstandard after quotation-glyph normalization; no gameplay text rewritten.",
       "Existing174AAs including ST7Leaderreprints retained; total193.19newrecordsaddonly artworkslots, notgameplayidentities/packownership/progress."
     ]
+  },
+  "wha_small_print_update_2026_10_31": {
+    "date": "2026-10-31",
+    "baseCommit": "2c0316c6c88a74c13baa753d5bc41fdb1dc1d545",
+    "source_files": 4,
+    "canonical_cards": 1227,
+    "totalAlternates": 193,
+    "accessories": 173,
+    "images": [
+      {
+        "id": "ST3-041",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST3 Magical Transformation\\GREEN WHA\\ST3-041.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\sources\\ST3-041.png",
+        "sourceSha256": "0c4b0e1a77a0725168622cae65d1932602d1f3d6b0a736fe824bb8eb2d8e76b0",
+        "path": "images/ST3-041.jpg",
+        "sha256": "81480e472455c8f656de5b58d90dee466b0776c032482003ab0040482f57bf70",
+        "imageVersion": "81480e472455",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "bytes": 389651
+      },
+      {
+        "id": "ST3-041",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST3-041-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\sources\\ST3-041-AA.png",
+        "sourceSha256": "baf6ef18cfca62f08fb2c3c63bd67fa0289b20cacb4b30736dde1fe8100a0899",
+        "path": "images/ST3-041-alt1.jpg",
+        "sha256": "6db15b1946c7a912515bb2a0592547d84a3db1e0462acbd4893634f8fd0b26a1",
+        "imageVersion": "6db15b1946c7",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 477248
+      },
+      {
+        "id": "ST3-048",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST3 Magical Transformation\\GREEN WHA\\ST3-048.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\sources\\ST3-048.png",
+        "sourceSha256": "36a6e47519eee134601b5de7afceffa5b4517b45fd0397e04e7afcde28629913",
+        "path": "images/ST3-048.jpg",
+        "sha256": "76f1dbf2a376225cced1efc28ce0d28b67cfc76a497e52e8c0309194234f0a28",
+        "imageVersion": "76f1dbf2a376",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 356649
+      },
+      {
+        "id": "PUP-050",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST3 Magical Transformation\\GREEN WHA\\PUP-050.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\sources\\PUP-050.png",
+        "sourceSha256": "a0e8f155d17e72b713277f7145c8cf678fd487ef481c5c7d2c46b0f7e1800c41",
+        "path": "images/PUP-050.jpg",
+        "sha256": "1840cfda248ef1bf3848789e2f050011af96052a1528411e59f41c70c9f8eed6",
+        "imageVersion": "1840cfda248e",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 378874
+      }
+    ],
+    "changes": [
+      {
+        "id": "ST3-041",
+        "fields": {
+          "effect": {
+            "before": "[Opponent's Attack] Once per Turn (1) Choose your Opponent's Leader or up to 1 of their Units and Rest them.\n[Activate: Main] Add 1 card from your Life to your hand: Place 1 \"Magic Book\" from your JUMP Deck on your field and negate this skill for the game.\nThreshold 4 [Activate: Main] Once per Turn If you have a Unit with a Cost of 4 or more and the \"Witch\" Trait in play: Charge 3. Then, you cannot play Units for the turn, except by skills.",
+            "after": "[Opponent's Attack] Once per Turn (1) Choose up to 1 of your Opponent's Units and Rest it.\n[Activate: Main] Add 1 card from your Life to your hand: Place 1 \"Magic Book\" from your JUMP Deck on your field and negate this skill for the game.\nThreshold 4 [Activate: Main] Once per Turn If you have a Unit with a Cost of 5 or more and the \"Witch\" Trait in play: Charge 3. Then, you cannot play Units for the turn, except by skills."
+          }
+        }
+      },
+      {
+        "id": "ST3-048",
+        "fields": {
+          "cost": {
+            "before": "5",
+            "after": "6"
+          }
+        }
+      },
+      {
+        "id": "PUP-050",
+        "fields": {
+          "effect": {
+            "before": "Deflect Barrier\n[On Play] Give this card +2000 Power for the turn.\n[Activate: Main] Remove this card from the game: If an Opponent's Unit was K.O.'d by battle this turn, draw 1 card; play up to 1 Unit card with a Cost of 5 or less and the \"Witch\" Trait from your hand.",
+            "after": "Deflect Barrier\n[On Play] If this card attacks an Opponent's Unit during this turn, give it +2000 Power for the battle.\n[Activate: Main] Remove this card from the game: If an Opponent's Unit was K.O.'d by battle this turn, play up to 1 Unit card with a Cost of 5 or less and the \"Witch\" Trait from your hand."
+          }
+        }
+      }
+    ],
+    "simulatorEligibleIDs": [
+      "ST3-041",
+      "ST3-048",
+      "PUP-050"
+    ],
+    "scope": "Public database and local planner; simulator handoff separately requested. No Arena/Support Map edits.",
+    "elapsedSeconds": 6.03
   }
 }

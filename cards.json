@@ -4070,13 +4070,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "c1dd1755e7be",
+    "imageVersion": "81480e472455",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST3-041-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "abdddd753655"
+        "imageVersion": "6db15b1946c7"
       }
     ]
   },
@@ -4186,7 +4186,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "fe116046b48f"
+    "imageVersion": "76f1dbf2a376"
   },
   {
     "number": "ST3-049",
@@ -14114,7 +14114,7 @@
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "288d3d4cbb63"
+    "imageVersion": "1840cfda248e"
   },
   {
     "number": "PUP-051",
