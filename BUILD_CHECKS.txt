@@ -7860,5 +7860,71 @@
     ],
     "scope": "Public database and local planner print corrections for two existing non-ST5 identities; matching simulator notification requested separately. No Arena or Support Map changes.",
     "elapsedSeconds": 3.54
+  },
+  "for_haen_recca_print_corrections_2026_10_31": {
+    "date": "2026-10-31",
+    "baseCommit": "c8b344893c719707f41998db86d0b207ab5b29f1",
+    "source_files": 2,
+    "canonical_cards": 1227,
+    "totalAlternates": 205,
+    "accessories": 173,
+    "images": [
+      {
+        "id": "ST2-095",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST2 Burning Passion\\BLUE FOR\\ST2-095.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch5\\sources\\ST2-095.png",
+        "sourceSha256": "51ee4e139da2b52c217e647100dc163a79258759d1272217cd371b9c5f02c453",
+        "path": "images/ST2-095.jpg",
+        "sha256": "26a1dfbf2724d29f6691d6998c3534a078e829648f51ecc00ce84238d9cc239d",
+        "imageVersion": "26a1dfbf2724",
+        "dimensions": [
+          1064,
+          1478
+        ],
+        "bytes": 344412
+      },
+      {
+        "id": "ST2-100",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST2 Burning Passion\\BLUE FOR\\ST2-100.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch5\\sources\\ST2-100.png",
+        "sourceSha256": "7e59f34d866fdcd4ae43d2e4919dc31a48413029cf1032b8dddf95f653475944",
+        "path": "images/ST2-100.jpg",
+        "sha256": "a20b493648f5992f51303eb241ffdbeb8886759cc6d9c03df6372dd792756fca",
+        "imageVersion": "a20b493648f5",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 316618
+      }
+    ],
+    "changes": [
+      {
+        "id": "ST2-095",
+        "fields": {
+          "effect": {
+            "before": "[Activate: Main] Remove any number of cards from under your \"Accursed Phoenix Flame\" from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -1 Cost for each card removed from the game by this card's skill for the turn.",
+            "after": "[Activate: Main] Remove any number of cards from under your \"Accursed Phoenix Flame\" from the game: Choose up to 1 of your Opponent's Units, ignoring Barrier, and give it -2 Cost for each card removed from the game by this card's skill for the turn."
+          }
+        }
+      },
+      {
+        "id": "ST2-100",
+        "fields": {
+          "power": {
+            "before": "6000",
+            "after": "5000"
+          }
+        }
+      }
+    ],
+    "simulatorEligibleIDs": [
+      "ST2-095",
+      "ST2-100"
+    ],
+    "scope": "Public database and local planner corrections for two existing FOR identities; matching simulator handoff requested separately. No Arena, Support Map, authentication backend or simulator source edits.",
+    "elapsedSeconds": 17.03
   }
 }
