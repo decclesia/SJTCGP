@@ -3378,13 +3378,13 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "9a9b52316f36",
+    "imageVersion": "2d616d993a98",
     "altImages": [
       {
         "label": "ST2 — Alt Art",
         "image": "images/ST2-120-alt1.jpg",
         "release": "ST2",
-        "imageVersion": "9e5a49b06353"
+        "imageVersion": "a3efde116037"
       }
     ]
   },
@@ -9806,13 +9806,13 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "aedfbe2e4e53",
+    "imageVersion": "173d32b3aee0",
     "altImages": [
       {
         "label": "EX5 — Alt Art",
         "image": "images/EX5-016-alt1.jpg",
         "release": "EX5",
-        "imageVersion": "d06ee6aaf542"
+        "imageVersion": "ad9c132429f9"
       }
     ]
   },

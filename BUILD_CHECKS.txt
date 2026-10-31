@@ -7764,5 +7764,101 @@
     "simulatorEligibleIDs": [],
     "scope": "Database/local planner and exact PUP-095 private ST5 groundwork correction handoff only; no runtime import/enablement, Arena or Support Map work.",
     "elapsedSeconds": 1.9
+  },
+  "djinn_weapon_equip_sword_of_dios_prints_2026_10_31": {
+    "date": "2026-10-31",
+    "baseCommit": "9ffaa1a067e9e6283da0252d1d2bbd724250ebce",
+    "source_files": 4,
+    "canonical_cards": 1227,
+    "totalAlternates": 205,
+    "accessories": 173,
+    "images": [
+      {
+        "id": "ST2-120",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST2 Burning Passion\\PINK MLM\\ST2-120.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch4\\sources\\ST2-120.png",
+        "sourceSha256": "04d149799d53742d71fffbc38bae71d0034aa941f68f93c6f51809212b1248f3",
+        "path": "images/ST2-120.jpg",
+        "sha256": "2d616d993a98ec083cb9a0644a8229f87aa9ff89b8eb340d88ef3ef940db9919",
+        "imageVersion": "2d616d993a98",
+        "dimensions": [
+          1062,
+          1482
+        ],
+        "bytes": 336702
+      },
+      {
+        "id": "ST2-120",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\AA\\ST2-120-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch4\\sources\\ST2-120-AA.png",
+        "sourceSha256": "556ccb2b7b67398102224bb94412658c44e034340f9173cc9e86d6e11acdf782",
+        "path": "images/ST2-120-alt1.jpg",
+        "sha256": "a3efde1160372a13ca750efd6ade50db66a149cfa0ac350cb66d2da0815cc2ca",
+        "imageVersion": "a3efde116037",
+        "dimensions": [
+          1063,
+          1480
+        ],
+        "bytes": 489025
+      },
+      {
+        "id": "EX5-016",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST3 Magical Transformation\\EX5 PINK UTN\\EX5-016.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch4\\sources\\EX5-016.png",
+        "sourceSha256": "e1838ba2627def0818d5ff915871ae17d0a78abdee52ed79f25df7210ebc16cc",
+        "path": "images/EX5-016.jpg",
+        "sha256": "173d32b3aee0d4072cccc9d87d285ee9dec3d0d15b7fdc72197596d95b86e7b1",
+        "imageVersion": "173d32b3aee0",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 373815
+      },
+      {
+        "id": "EX5-016",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\AA\\EX5-016-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch4\\sources\\EX5-016-AA.png",
+        "sourceSha256": "26337eb3a84661e0af3a5fea349f674ec1483eb02c5e21acfa271389e66a31a7",
+        "path": "images/EX5-016-alt1.jpg",
+        "sha256": "ad9c132429f90c68d7ada357ef15edaf694322f2511242d79c23968c8246ccaa",
+        "imageVersion": "ad9c132429f9",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 406539
+      }
+    ],
+    "changes": [
+      {
+        "id": "ST2-120",
+        "fields": {
+          "effect": {
+            "before": "[Activate: Main] Limit 1 Place 1 Unit card with the \"Djinn\" Trait from your hand in your Drop: Play 1 Unit card with the \"King Vessel\" Trait from your hand. Then, if that card's name is the same as your Leader's, draw 1 card and give it +1000 Power for the turn.",
+            "after": "[Activate: Main] Limit 1 Place 1 Unit card with the \"Djinn\" Trait from your hand in your Drop: Play 1 Unit card with the \"King Vessel\" Trait from your hand. Then, if that card's name is the same as your Leader's and your Leader's Threshold skill is active, give it +1000 Power for the turn."
+          }
+        }
+      },
+      {
+        "id": "EX5-016",
+        "fields": {
+          "cost": {
+            "before": "1",
+            "after": "2"
+          }
+        }
+      }
+    ],
+    "simulatorEligibleIDs": [
+      "ST2-120",
+      "EX5-016"
+    ],
+    "scope": "Public database and local planner print corrections for two existing non-ST5 identities; matching simulator notification requested separately. No Arena or Support Map changes.",
+    "elapsedSeconds": 3.54
   }
 }
