@@ -8562,7 +8562,7 @@
     "cost": "7",
     "sj_cost": "",
     "life": "",
-    "power": "7000",
+    "power": "6000",
     "counter": "1000",
     "traits": "Frieza Force / Frieza Clan",
     "set": "DBL",
@@ -8838,7 +8838,7 @@
     "cost": "7",
     "sj_cost": "",
     "life": "",
-    "power": "8000",
+    "power": "7000",
     "counter": "0",
     "traits": "Demon / Upper Rank",
     "set": "KNY",
@@ -11749,7 +11749,7 @@
     "color": "Red",
     "cost": "",
     "sj_cost": "",
-    "life": "6",
+    "life": "5",
     "power": "5000",
     "traits": "Demon / Daiyokai",
     "set": "INY",
@@ -11772,7 +11772,7 @@
     "cost": "7",
     "sj_cost": "",
     "life": "",
-    "power": "7000",
+    "power": "6000",
     "traits": "Demon / Daiyokai",
     "set": "INY",
     "rarity": "SR",
@@ -11924,7 +11924,7 @@
     "card_category": "Unit",
     "deck_limit": 4,
     "orientation": "Portrait",
-    "counter": "1000"
+    "counter": "0"
   },
   "ST5-034": {
     "card_no": "ST5-034",
@@ -11976,7 +11976,7 @@
     "card_no": "ST5-036",
     "name": "Sesshomaru",
     "color": "Red",
-    "cost": "2",
+    "cost": "3",
     "sj_cost": "",
     "life": "",
     "power": "4000",
@@ -12213,8 +12213,8 @@
     "set": "INY",
     "rarity": "UC",
     "bottom_right_circle": "R",
-    "effect": "[Activate: Main] / Clash [Activate: Battle] Limit 1 Raid {1} If you have \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" on your field: Choose all of your Opponent's Units and give them -1000 Power for the turn.",
-    "effect_html": "<span class=\"kw kw-purple\" title=\"Timing window\">[Activate: Main]</span> / <span class=\"kw kw-green\" title=\"Clash\">Clash</span> <span class=\"kw kw-purple\" title=\"Timing window\">[Activate: Battle]</span> <span class=\"kw kw-red\" title=\"Limit X\">Limit 1</span> <span class=\"kw kw-red\" title=\"Raid\">Raid</span> {1} If you have &quot;Tenseiga&quot;, &quot;Tokijin&quot; or &quot;Bakusaiga&quot; on your field: Choose all of your Opponent&#x27;s Units and give them -1000 Power for the turn.",
+    "effect": "[Activate: Main] / Clash [Activate: Battle] Limit 1 Raid {2} If you have \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" on your field: Choose all of your Opponent's Units and give them -1000 Power for the turn.",
+    "effect_html": "<span class=\"kw kw-purple\" title=\"Timing window\">[Activate: Main]</span> / <span class=\"kw kw-green\" title=\"Clash\">Clash</span> <span class=\"kw kw-purple\" title=\"Timing window\">[Activate: Battle]</span> <span class=\"kw kw-red\" title=\"Limit X\">Limit 1</span> <span class=\"kw kw-red\" title=\"Raid\">Raid</span> {2} If you have &quot;Tenseiga&quot;, &quot;Tokijin&quot; or &quot;Bakusaiga&quot; on your field: Choose all of your Opponent&#x27;s Units and give them -1000 Power for the turn.",
     "notes": "",
     "transcription_status": "verified",
     "release": "ST5",
@@ -13741,7 +13741,7 @@
     "card_category": "Unit",
     "deck_limit": 4,
     "orientation": "Portrait",
-    "counter": "0"
+    "counter": "1000"
   },
   "ST5-114": {
     "card_no": "ST5-114",
@@ -13879,7 +13879,7 @@
     "card_category": "Unit",
     "deck_limit": 4,
     "orientation": "Portrait",
-    "counter": "0"
+    "counter": "1000"
   },
   "ST5-120": {
     "card_no": "ST5-120",
@@ -19705,7 +19705,7 @@
     "color": "Yellow",
     "cost": "",
     "sj_cost": "",
-    "life": "5",
+    "life": "4",
     "power": "5000",
     "traits": "Deity",
     "set": "NOG",
@@ -25085,7 +25085,7 @@
     "cost": "1",
     "sj_cost": "",
     "life": "",
-    "power": "3000",
+    "power": "2000",
     "traits": "Kumamori Shrine",
     "set": "DDD",
     "rarity": "P",
@@ -25099,7 +25099,7 @@
     "card_category": "Unit",
     "deck_limit": 4,
     "orientation": "Portrait",
-    "counter": "0"
+    "counter": "1000"
   },
   "PUP-095": {
     "card_no": "PUP-095",
@@ -25223,8 +25223,8 @@
     "set": "ANE",
     "rarity": "P",
     "bottom_right_circle": "B",
-    "effect": "[Activate: Main] Once per Turn (X) If your Leader is \"Mephisto Pheles\": Overcharge X and you can't Overcharge until the start of your next turn.",
-    "effect_html": "<span class=\"kw kw-purple\" title=\"Timing window\">[Activate: Main]</span> <span class=\"kw kw-orange\" title=\"Once per Turn\">Once per Turn</span> (X) If your Leader is &quot;Mephisto Pheles&quot;: <span class=\"kw kw-orange\" title=\"Overcharge\">Overcharge</span> X and you can&#x27;t <span class=\"kw kw-orange\" title=\"Overcharge\">Overcharge</span> until the start of your next turn.",
+    "effect": "[Activate: Main] Once per Turn (X) If your Leader is \"Mephisto Pheles\": Overcharge X and you can't Overcharge by skills for the turn.",
+    "effect_html": "<span class=\"kw kw-purple\" title=\"Timing window\">[Activate: Main]</span> <span class=\"kw kw-orange\" title=\"Once per Turn\">Once per Turn</span> (X) If your Leader is &quot;Mephisto Pheles&quot;: <span class=\"kw kw-orange\" title=\"Overcharge\">Overcharge</span> X and you can&#x27;t <span class=\"kw kw-orange\" title=\"Overcharge\">Overcharge</span> by skills for the turn.",
     "notes": "",
     "transcription_status": "verified",
     "release": "PUP",

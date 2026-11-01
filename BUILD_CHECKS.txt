@@ -7926,5 +7926,385 @@
     ],
     "scope": "Public database and local planner corrections for two existing FOR identities; matching simulator handoff requested separately. No Arena, Support Map, authentication backend or simulator source edits.",
     "elapsedSeconds": 17.03
+  },
+  "normal_print_batch6_2026_11_01": {
+    "date": "2026-11-01",
+    "baseCommit": "6d020e86abc921c33caab9be71d6a9eedb7c7c2c",
+    "source_files": 16,
+    "canonical_cards": 1227,
+    "totalAlternates": 205,
+    "accessories": 173,
+    "images": [
+      {
+        "id": "ST5-026",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Red INY\\ST5-026.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-026.png",
+        "sourceSha256": "1dcd83e36f117a16b5a06f2987d449d5ea45c3b4a333644999335e327b180853",
+        "path": "images/ST5-026.jpg",
+        "sha256": "039440b67db005a25b6579d199c3e8e0f38ec581ea81054b6920f67cb5799a9e",
+        "imageVersion": "039440b67db0",
+        "dimensions": [
+          1065,
+          1477
+        ],
+        "bytes": 397360
+      },
+      {
+        "id": "ST5-026",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST5-026-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-026-AA.png",
+        "sourceSha256": "b089a0720f9bec61349fa9f3f04304239fe89a6af9baa86b0230add9c79842ce",
+        "path": "images/ST5-026-alt1.jpg",
+        "sha256": "1d7f1229116e964cf8a23ed21bcfef8b2d94fa6eaa04e45605df2733812642e1",
+        "imageVersion": "1d7f1229116e",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "bytes": 384819
+      },
+      {
+        "id": "ST5-033",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Red INY\\ST5-033.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-033.png",
+        "sourceSha256": "e2d66433c418fb0dd65980f490d0012c1ae56771319aa920df5f7389ab402024",
+        "path": "images/ST5-033.jpg",
+        "sha256": "ed79373d5078557246617ec853462d5acdbaab659f52739eba1bbff4497e01c1",
+        "imageVersion": "ed79373d5078",
+        "dimensions": [
+          1063,
+          1479
+        ],
+        "bytes": 254304
+      },
+      {
+        "id": "ST5-036",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Red INY\\ST5-036.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-036.png",
+        "sourceSha256": "625bdeb3fe0d8968b09a3aa7c741357b9d5bd02a054e9a24087a095e1304ec87",
+        "path": "images/ST5-036.jpg",
+        "sha256": "7743a5503a55d7d661938c69d20b7c9e9c7d9c80e6d1b1bddd1e3cf32cb72b26",
+        "imageVersion": "7743a5503a55",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 316053
+      },
+      {
+        "id": "ST5-113",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Pink DDD\\ST5-113.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-113.png",
+        "sourceSha256": "3f16bd578d5589f9d8de6a6ea40ac29bd5474f2a661602efc96c222bff535eb4",
+        "path": "images/ST5-113.jpg",
+        "sha256": "4f89bea5fda87db6755ca7256409d5c26ee4c5cc161d2e325eb18faa8b12cbdf",
+        "imageVersion": "4f89bea5fda8",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 355871
+      },
+      {
+        "id": "ST5-119",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Pink DDD\\ST5-119.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-119.png",
+        "sourceSha256": "1f8fb6e6621891c1e137614d07b9938f2afb47d833b6d24160b11dfdc5f4980e",
+        "path": "images/ST5-119.jpg",
+        "sha256": "9695ced80b49d6af47b926602ac274a0ad6961896b341e64424a0431e520881b",
+        "imageVersion": "9695ced80b49",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "bytes": 370777
+      },
+      {
+        "id": "PUP-094",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Pink DDD\\PUP-094.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\PUP-094.png",
+        "sourceSha256": "70b8a5c88644d187ca4b0d024f05e4ae7a532d190cb5ad6d083474abe9a5454a",
+        "path": "images/PUP-094.jpg",
+        "sha256": "c4ba0016b2a1b5e076dcbad8ebb1820a4da6ac3269684f5816ab168bbb13e983",
+        "imageVersion": "c4ba0016b2a1",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 323100
+      },
+      {
+        "id": "SD8-001",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\SD8 NOG\\SD8-001.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\SD8-001.png",
+        "sourceSha256": "54663eea0343a523257209989f1d3cee9536fe9a71af1f5aeaa234cf3f034817",
+        "path": "images/SD8-001.jpg",
+        "sha256": "b452e80c5a545afb6e872b85007687967f762f012ab62254830c995f77047f58",
+        "imageVersion": "b452e80c5a54",
+        "dimensions": [
+          1054,
+          1492
+        ],
+        "bytes": 344228
+      },
+      {
+        "id": "SD8-001",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\SD8-001-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\SD8-001-AA.png",
+        "sourceSha256": "6511b18b9f9bde7d724c3d0d173cee4376a1024d56edbe909888621914b5f77e",
+        "path": "images/SD8-001-alt1.jpg",
+        "sha256": "0ca96a93af221373876d13660f4608fac2d57d9393e87636a7a0004d71311268",
+        "imageVersion": "0ca96a93af22",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "bytes": 396493
+      },
+      {
+        "id": "ST5-027",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Red INY\\ST5-027.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-027.png",
+        "sourceSha256": "d4d6fa4f9b43db7827fb5afbb52b6a3f36e60840266ade55a07787c926d28c47",
+        "path": "images/ST5-027.jpg",
+        "sha256": "3b2e6f7aa3acc666162f94c8c6304399b29d5b08e35eaad2c445c0b70c3c536a",
+        "imageVersion": "3b2e6f7aa3ac",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 371924
+      },
+      {
+        "id": "ST5-027",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\AA\\ST5-027-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-027-AA.png",
+        "sourceSha256": "db645d80c263ceab491c94591eb7efea85a661a42ea010523a38932e4bfa8c18",
+        "path": "images/ST5-027-alt1.jpg",
+        "sha256": "be9934ede50569e770ecf66fe516ef2bd2704f6599e822f40190eb76f9accb52",
+        "imageVersion": "be9934ede505",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 375520
+      },
+      {
+        "id": "ST5-046",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Red INY\\ST5-046.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST5-046.png",
+        "sourceSha256": "a66e0e360d9bc707e45f0a4bba3a73be6eddb28dc0c2cfa211e96ae60ee16c79",
+        "path": "images/ST5-046.jpg",
+        "sha256": "213170ba2be15db3a2e9bf4007756a3931be8b964646c4bd9acdc80422ed5196",
+        "imageVersion": "213170ba2be1",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 354779
+      },
+      {
+        "id": "ST4-015",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST4 Fatebound\\YELLOW DBL\\ST4-015.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST4-015.png",
+        "sourceSha256": "8da6261f2747c1907cf727dfbb6dcf1775b21fecfdcf38d34b0253651636d23f",
+        "path": "images/ST4-015.jpg",
+        "sha256": "688c6acb558d9264255186e62a4d3d46eb906df4704c66ad611b370404639ff4",
+        "imageVersion": "688c6acb558d",
+        "dimensions": [
+          1062,
+          1482
+        ],
+        "bytes": 304729
+      },
+      {
+        "id": "ST4-027",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST4 Fatebound\\RED KNY\\ST4-027.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST4-027.png",
+        "sourceSha256": "e474b90e66ecdd80fd04a5a32bd3d29fc26edf130ba12ce3b0565bb2e2e29bab",
+        "path": "images/ST4-027.jpg",
+        "sha256": "1a9cc283d6a709d1eb47776bc3c668cd746bed8dbe84541736616c04123e0416",
+        "imageVersion": "1a9cc283d6a7",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 327548
+      },
+      {
+        "id": "ST4-027",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\AA\\ST4-027-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\ST4-027-AA.png",
+        "sourceSha256": "76ad784f924239a42780e3305ca733aea7b274106fb54210c22f17b70d6dce38",
+        "path": "images/ST4-027-alt1.jpg",
+        "sha256": "b4facbee8e305131e2c22421b65374157807906a1ee1a60df78a526f5d739c60",
+        "imageVersion": "b4facbee8e30",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 498784
+      },
+      {
+        "id": "PUP-100",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\SD9 ANE\\PUP-100.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch6\\sources\\PUP-100.png",
+        "sourceSha256": "a3393e50b3cac6690a95f8a1cd4cf7a024c82f8bc64a39e726cbc0b6bebc4446",
+        "path": "images/PUP-100.jpg",
+        "sha256": "8f8270b92e11fea9f9d02dceaf58ecb7249a763d73bfb663c8d06dcda70b3b7b",
+        "imageVersion": "8f8270b92e11",
+        "dimensions": [
+          1484,
+          1060
+        ],
+        "bytes": 415560
+      }
+    ],
+    "changes": [
+      {
+        "id": "ST5-026",
+        "fields": {
+          "life": {
+            "before": "6",
+            "after": "5"
+          }
+        }
+      },
+      {
+        "id": "ST5-033",
+        "fields": {
+          "counter": {
+            "before": "1000",
+            "after": "0"
+          }
+        }
+      },
+      {
+        "id": "ST5-036",
+        "fields": {
+          "cost": {
+            "before": "2",
+            "after": "3"
+          }
+        }
+      },
+      {
+        "id": "ST5-113",
+        "fields": {
+          "counter": {
+            "before": "0",
+            "after": "1000"
+          }
+        }
+      },
+      {
+        "id": "ST5-119",
+        "fields": {
+          "counter": {
+            "before": "0",
+            "after": "1000"
+          }
+        }
+      },
+      {
+        "id": "PUP-094",
+        "fields": {
+          "power": {
+            "before": "3000",
+            "after": "2000"
+          },
+          "counter": {
+            "before": "0",
+            "after": "1000"
+          }
+        }
+      },
+      {
+        "id": "SD8-001",
+        "fields": {
+          "life": {
+            "before": "5",
+            "after": "4"
+          }
+        }
+      },
+      {
+        "id": "ST5-027",
+        "fields": {
+          "power": {
+            "before": "7000",
+            "after": "6000"
+          }
+        }
+      },
+      {
+        "id": "ST4-015",
+        "fields": {
+          "power": {
+            "before": "7000",
+            "after": "6000"
+          }
+        }
+      },
+      {
+        "id": "ST5-046",
+        "fields": {
+          "effect": {
+            "before": "[Activate: Main] / Clash [Activate: Battle] Limit 1 Raid {1} If you have \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" on your field: Choose all of your Opponent's Units and give them -1000 Power for the turn.",
+            "after": "[Activate: Main] / Clash [Activate: Battle] Limit 1 Raid {2} If you have \"Tenseiga\", \"Tokijin\" or \"Bakusaiga\" on your field: Choose all of your Opponent's Units and give them -1000 Power for the turn."
+          }
+        }
+      },
+      {
+        "id": "ST4-027",
+        "fields": {
+          "power": {
+            "before": "8000",
+            "after": "7000"
+          }
+        }
+      },
+      {
+        "id": "PUP-100",
+        "fields": {
+          "effect": {
+            "before": "[Activate: Main] Once per Turn (X) If your Leader is \"Mephisto Pheles\": Overcharge X and you can't Overcharge until the start of your next turn.",
+            "after": "[Activate: Main] Once per Turn (X) If your Leader is \"Mephisto Pheles\": Overcharge X and you can't Overcharge by skills for the turn."
+          }
+        }
+      }
+    ],
+    "simulatorEligibleIDs": [
+      "ST5-026",
+      "ST5-033",
+      "ST5-036",
+      "ST5-113",
+      "ST5-119",
+      "PUP-094",
+      "SD8-001",
+      "ST5-027",
+      "ST4-015",
+      "ST5-046",
+      "ST4-027",
+      "PUP-100"
+    ],
+    "scope": "Normal existing-card print refresh to the public canonical archive; protected database requires separate main-owned source-pack/Worker publication. No Prize assets/metadata, gateway, Arena, simulator or Support Map edits.",
+    "elapsedSeconds": 6.61
   }
 }
