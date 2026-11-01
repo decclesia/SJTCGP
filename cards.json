@@ -8074,13 +8074,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "be2eb8898f7e",
+    "imageVersion": "dbf5e3283ff0",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/ST5-101-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "6604f543d9ab"
+        "imageVersion": "104297f74bf6"
       }
     ]
   },
@@ -11790,13 +11790,13 @@
     "cardType": "Leader",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "b452e80c5a54",
+    "imageVersion": "9b9eb9e37ce2",
     "altImages": [
       {
         "label": "ST7 Leader Reprint — Alt Art",
         "image": "images/SD8-001-alt1.jpg",
         "release": "ST7",
-        "imageVersion": "0ca96a93af22"
+        "imageVersion": "eec0cf888bd6"
       }
     ]
   },
@@ -11830,7 +11830,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "4ebdc193cf8a"
+    "imageVersion": "20dc44ab84bf"
   },
   {
     "number": "SD8-004",
@@ -11910,7 +11910,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "ba82d160002c"
+    "imageVersion": "c6ec45e3ef94"
   },
   {
     "number": "SD8-010",
@@ -11922,7 +11922,7 @@
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "432a0b041e1c"
+    "imageVersion": "3c0ff30815b1"
   },
   {
     "number": "SD8-011",

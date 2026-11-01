@@ -8306,5 +8306,176 @@
     ],
     "scope": "Normal existing-card print refresh to the public canonical archive; protected database requires separate main-owned source-pack/Worker publication. No Prize assets/metadata, gateway, Arena, simulator or Support Map edits.",
     "elapsedSeconds": 6.61
+  },
+  "normal_print_batch7_2026_11_02": {
+    "date": "2026-11-02",
+    "baseCommit": "e8e7762fc3efdb907bfbf9602332c126387e6912",
+    "source_files": 7,
+    "canonical_cards": 1227,
+    "totalAlternates": 205,
+    "accessories": 173,
+    "images": [
+      {
+        "id": "SD8-001",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\SD8 NOG\\SD8-001.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch7\\sources\\SD8-001.png",
+        "sourceSha256": "ccee42962a88dc0ff628523526bac2f0d23a28cc451d3fc40324e01dd09111b0",
+        "path": "images/SD8-001.jpg",
+        "sha256": "9b9eb9e37ce20e409086f8749dcb3218559354f19abb3690c9fd3782812ccd2f",
+        "imageVersion": "9b9eb9e37ce2",
+        "dimensions": [
+          1054,
+          1492
+        ],
+        "bytes": 339161
+      },
+      {
+        "id": "SD8-001",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\SD8-001-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch7\\sources\\SD8-001-AA.png",
+        "sourceSha256": "84ea21be641b50b102714e48593be4f59d3638af43a5f0b48c20ea9143a331e8",
+        "path": "images/SD8-001-alt1.jpg",
+        "sha256": "eec0cf888bd65ea581dc0168ccaa72c3e2a81f0595e5346c46b0cd2a8566ff3c",
+        "imageVersion": "eec0cf888bd6",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "bytes": 385766
+      },
+      {
+        "id": "SD8-003",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\SD8 NOG\\SD8-003.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch7\\sources\\SD8-003.png",
+        "sourceSha256": "cc96098eed5254f84604c2ef4580d954d7b637153a3d34ffbf6738f1333d71d8",
+        "path": "images/SD8-003.jpg",
+        "sha256": "20dc44ab84bf5836b021aa854fb557acfcc0ce7c33595c46b2f514326ce98c58",
+        "imageVersion": "20dc44ab84bf",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 347166
+      },
+      {
+        "id": "SD8-009",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\SD8 NOG\\SD8-009.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch7\\sources\\SD8-009.png",
+        "sourceSha256": "d030ee08cbdb6759fb32fb0331a4bbad0e4b512dfd172775ac92245463d411a1",
+        "path": "images/SD8-009.jpg",
+        "sha256": "c6ec45e3ef949de369ec25ca754605c69532bd063e6a9e3a3d46ed33cd44dfe0",
+        "imageVersion": "c6ec45e3ef94",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 385035
+      },
+      {
+        "id": "SD8-010",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\SD8 NOG\\SD8-010.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch7\\sources\\SD8-010.png",
+        "sourceSha256": "41dc9c74e97d4ba1f0dea95891278a271cca55325bb2e80a42103663bbd5e6d4",
+        "path": "images/SD8-010.jpg",
+        "sha256": "3c0ff30815b11e0f002aeecc25ad83f5428e2622b6931a3b514413688618f5e7",
+        "imageVersion": "3c0ff30815b1",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 272136
+      },
+      {
+        "id": "ST5-101",
+        "alternate": false,
+        "source": "D:\\ΤΨΓ\\ST5 Paramount Paranormal\\Pink DDD\\ST5-101.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch7\\sources\\ST5-101.png",
+        "sourceSha256": "4ef4e82b64f2b84038156af565c6eb5b82f134d088f1e9eb2aa019291c611fc9",
+        "path": "images/ST5-101.jpg",
+        "sha256": "dbf5e3283ff02dbc6dd7baefa27fd5fdcecc6e61aa6ff83ba273d3678036f348",
+        "imageVersion": "dbf5e3283ff0",
+        "dimensions": [
+          1054,
+          1492
+        ],
+        "bytes": 348026
+      },
+      {
+        "id": "ST5-101",
+        "alternate": true,
+        "source": "D:\\ΤΨΓ\\ST7 Legacy\\ST5-101-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\batch7\\sources\\ST5-101-AA.png",
+        "sourceSha256": "8a901d16a2c22ea0f8ded7a62e48a84a2924a6777e2ef0caa6f6facc608e64cc",
+        "path": "images/ST5-101-alt1.jpg",
+        "sha256": "104297f74bf65c1155df8306758a26be10c70944840ef7ecd48e85b8bfa1f70a",
+        "imageVersion": "104297f74bf6",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 467656
+      }
+    ],
+    "changes": [
+      {
+        "id": "SD8-001",
+        "fields": {
+          "effect": {
+            "before": "[Activate: Main] Once per Turn Place the top 2 cards of your Deck in your Drop: Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Once per Turn Use up to 1 card with the \"Shinki\" Trait from your Drop in a combo. Then, at the end of the battle, place that card and 1 card from your Drop at the bottom of your Deck.\nThreshold 1 [On Attack] Place 1 card from your Drop at the bottom of your Deck: Add up to 1 Unit card with the \"Deity\" Trait from your Drop to your hand.",
+            "after": "[Activate: Main] Once per Turn Place the top 2 cards of your Deck in your Drop: Draw 1 card; place 1 card from your hand in your Drop.\n[Activate: Battle] Once per Turn (1) Use up to 1 card with the \"Shinki\" Trait from your Drop in a combo. Then, at the end of the battle, place that card and 1 card from your Drop at the bottom of your Deck.\nThreshold 1 [On Attack] Place 2 cards from your Drop at the bottom of your Deck: Add up to 1 Unit card with the \"Deity\" Trait from your Drop to your hand."
+          }
+        }
+      },
+      {
+        "id": "SD8-003",
+        "fields": {
+          "effect": {
+            "before": "Unique Barrier\n[On Play] Choose up to 1 of your Opponent's Rested Units with a Cost of 4 or less and K.O. it. Then, if you K.O.'d a card, place this card at the bottom of your Deck at the end of the turn.\n[Activate: Main] Limit 1 (2) Place 1 card from your hand in your Drop: If your Leader is \"Yato\" and your Turn Energy is 4 or more, play this card from your Drop.",
+            "after": "Barrier\n[On Play] Choose up to 1 of your Opponent's Rested Units with a Cost of 3 or less and K.O. it. Then, if you K.O.'d a card, place this card at the bottom of your Deck at the end of the turn.\n[Activate: Main] (2) Place 1 card from your hand in your Drop: If your Leader is \"Yato\" and your Turn Energy is 4 or more, play this card from your Drop and you can't play \"Yukine\" for the turn."
+          }
+        }
+      },
+      {
+        "id": "SD8-009",
+        "fields": {
+          "effect": {
+            "before": "Unique Deflect\n[On Play] Choose all of your Opponent's Units with a Cost of 4 or less and Rest them. Then, if you Rested a card, place this card at the bottom of your Deck at the end of the turn.\n[Activate: Main] Limit 1 (2) Place 1 card from your hand in your Drop: If your Leader is \"Yato\" and your Turn Energy is 4 or more, play this card from your Drop.",
+            "after": "Deflect\n[On Play] Choose all of your Opponent's Units with a Cost of 3 or less and Rest them. Then, if you Rested a card, place this card at the bottom of your Deck at the end of the turn.\n[Activate: Main] (2) Place 1 card from your hand in your Drop: If your Leader is \"Yato\" and your Turn Energy is 4 or more, play this card from your Drop and you can't play \"Yukine\" for the turn."
+          }
+        }
+      },
+      {
+        "id": "SD8-010",
+        "fields": {
+          "effect": {
+            "before": "Limit 1 When this card is used in a combo from your Drop: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and Rest it.",
+            "after": "Limit 1 When this card is used in a combo from your Drop: Choose up to 1 of your Opponent's Units with a Cost of 2 or less and Rest it."
+          }
+        }
+      },
+      {
+        "id": "ST5-101",
+        "fields": {
+          "life": {
+            "before": "5",
+            "after": "6"
+          }
+        }
+      }
+    ],
+    "simulatorEligibleIDs": [
+      "SD8-001",
+      "SD8-003",
+      "SD8-009",
+      "SD8-010",
+      "ST5-101"
+    ],
+    "scope": "Five existing normal-card identities, seven standard/existing-AA images. Four effects and Momo Life5 to6 only. Canonical archive update; protected source/Worker publication remains separately main-owned. No Prize bytes/metadata, gateway, Arena, simulator or Support Map changes.",
+    "elapsedSeconds": 11.59
   }
 }
