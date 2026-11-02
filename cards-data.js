@@ -13314,7 +13314,15 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "5746feb7c3a5"
+    "imageVersion": "5746feb7c3a5",
+    "altImages": [
+      {
+        "label": "EX7 — Alt Art",
+        "image": "images/EX7-013-alt1.jpg",
+        "release": "EX7",
+        "imageVersion": "3da597120c44"
+      }
+    ]
   },
   {
     "number": "EX7-014",

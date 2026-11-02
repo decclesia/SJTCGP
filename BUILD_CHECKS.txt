@@ -24234,5 +24234,49 @@
     },
     "scope": "Canonical database archive only. Preserve legacy identities/URLs and all unrelated data. No simulator, Arena, Support Map, Prize, account, gateway or ledger changes.",
     "compressionSeconds": 15.219
+  },
+  "ex7_013_corrected_aa_2026_11_02": {
+    "status": "APPLIED_LOCAL_NOT_PUBLISHED",
+    "date": "2026-11-02",
+    "baseCommit": "050c5a383e6d525090201abc98f9e90590afaeae",
+    "source_files": 1,
+    "canonical_cards": 1227,
+    "totalAlternates": 233,
+    "accessories": 173,
+    "images": [
+      {
+        "id": "EX7-013",
+        "alternate": true,
+        "newAlternate": true,
+        "source": "D:\\ΤΨΓ\\AA\\EX7-013-AA.png",
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\st6_20261102\\shin_aa\\EX7-013-AA.png",
+        "sourceSha256": "1f6b8a39146f1e68cacd79303f4c7a0108f8f2ea00e093182250bfe275d1b041",
+        "image": "images/EX7-013-alt1.jpg",
+        "path": "images/EX7-013-alt1.jpg",
+        "sha256": "3da597120c4430269cb5d4814af05c015c3ae45b1a3209e6f7fb38e0577392b1",
+        "imageVersion": "3da597120c44",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 492027,
+        "orientation": "Portrait",
+        "release": "EX7",
+        "agreesWithStandard": true,
+        "printedCost": "3"
+      }
+    ],
+    "changes": [],
+    "metadataChange": "Append exactly one ordinary EX7 AA to existing EX7-013; no gameplay fields/standard image changes.",
+    "resolvedHold": {
+      "oldSourceSha256": "6c181b670f7a559be735122e58c21d2478f5b6db2a82daaa28a4dbff10e6bd27",
+      "correctedSourceSha256": "1f6b8a39146f1e68cacd79303f4c7a0108f8f2ea00e093182250bfe275d1b041",
+      "cost": "3",
+      "historicalReceiptsPreserved": true
+    },
+    "simulatorEligibleIDs": [],
+    "privateGroundworkIDs": [
+      "EX7-013"
+    ]
   }
 }
