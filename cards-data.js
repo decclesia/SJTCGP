@@ -4056,6 +4056,30 @@ window.SJTCG_CARD_DATA = [
     "imageVersion": "21b72b8029b2"
   },
   {
+    "number": "PUP-126",
+    "release": "PUP",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/PUP-126.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "1ceff6876262"
+  },
+  {
+    "number": "PUP-127",
+    "release": "PUP",
+    "set": "CSM",
+    "color": "Yellow",
+    "image": "images/PUP-127.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "229794e856c2"
+  },
+  {
     "number": "SD1-001",
     "release": "SD1",
     "set": "SMK",
@@ -4369,7 +4393,15 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "dc247f298d50"
+    "imageVersion": "dc247f298d50",
+    "altImages": [
+      {
+        "label": "Alt Art",
+        "image": "images/SD10-003-alt1.jpg",
+        "release": "SD10",
+        "imageVersion": "987c76a5f86c"
+      }
+    ]
   },
   {
     "number": "SD10-004",
@@ -4381,7 +4413,15 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "94dd75e947e2"
+    "imageVersion": "94dd75e947e2",
+    "altImages": [
+      {
+        "label": "Alt Art",
+        "image": "images/SD10-004-alt1.jpg",
+        "release": "SD10",
+        "imageVersion": "787cd60454c8"
+      }
+    ]
   },
   {
     "number": "SD10-005",
@@ -4417,7 +4457,15 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "294ecc92863b"
+    "imageVersion": "294ecc92863b",
+    "altImages": [
+      {
+        "label": "Alt Art",
+        "image": "images/SD10-007-alt1.jpg",
+        "release": "SD10",
+        "imageVersion": "166f0bf75ac4"
+      }
+    ]
   },
   {
     "number": "SD10-008",
@@ -7279,10 +7327,12 @@ window.SJTCG_CARD_DATA = [
     "orientation": "Portrait",
     "altImages": [
       {
-        "label": "Alt Art",
+        "label": "SD10 Reprint",
         "image": "images/ST1-020-alt1.jpg",
-        "imageVersion": "2ddf96b635ab",
-        "arenaId": "ST1-020-AA"
+        "imageVersion": "2c75672004e1",
+        "arenaId": "ST1-020-AA",
+        "release": "SD10",
+        "kind": "reprint"
       }
     ],
     "imageVersion": "b5a5f1ae9e34"
