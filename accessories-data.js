@@ -1,5 +1,13 @@
 window.SJTCG_ACCESSORIES = [
   {
+    "id": "TKN-001",
+    "set": "NRT",
+    "kind": "token",
+    "name": "Sand Clone Token",
+    "image": "images/TKN-001.jpg",
+    "imageVersion": "88f603bab5ea"
+  },
+  {
     "id": "TOKEN-ANE",
     "set": "ANE",
     "kind": "energy",

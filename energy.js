@@ -1,7 +1,7 @@
 'use strict';
 (() => {
-  const kindOrder = {energy: 0, guard: 1, sj: 2};
-  const typeNames = {energy: 'Energy Marker', guard: 'Guard Trigger', sj: 'SJ Marker'};
+  const kindOrder = {energy: 0, guard: 1, sj: 2, token: 3};
+  const typeNames = {energy: 'Energy Marker', guard: 'Guard Trigger', sj: 'SJ Marker', token: 'Unit Token'};
   const setCompare = (a,b) => (a==='GENERIC')-(b==='GENERIC') || a.localeCompare(b,undefined,{numeric:true});
   const markers = [...(window.SJTCG_ACCESSORIES || [])].sort((a,b)=>setCompare(a.set,b.set)||kindOrder[a.kind]-kindOrder[b.kind]||a.id.localeCompare(b.id,undefined,{numeric:true}));
   const grid = document.querySelector('#energyGrid');

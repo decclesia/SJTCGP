@@ -25679,5 +25679,1085 @@
     ],
     "scope": "Public database/localplanner and separately coordinated matchingSIM. No Arena/SupportMap/privateart/account mutations in this importer.",
     "elapsedSeconds": 2.94
+  },
+  "nov3_combined_print_corrections_and_sand_clone_2026_11_03": {
+    "status": "APPLIED_LOCAL_NOT_PUBLISHED",
+    "date": "2026-11-03",
+    "baseCommit": "d12cef76203e78076a415ef6b59c22b083b8fe51",
+    "canonical_cards": 1250,
+    "totalAlternates": 237,
+    "accessories": 177,
+    "energyMarkers": 51,
+    "source_files": 34,
+    "revisedIdentities": [
+      "ST6-061",
+      "ST6-062",
+      "ST6-078",
+      "ST6-018",
+      "ST6-019",
+      "ST4-052",
+      "ST4-073",
+      "ST1-059",
+      "ST1-069",
+      "ST1-073",
+      "ST1-067",
+      "ST1-057",
+      "ST1-107",
+      "SD2-004",
+      "SD2-008",
+      "SD2-007",
+      "ST1-077",
+      "SD10-013",
+      "SD10-012",
+      "SD10-011",
+      "SD10-005",
+      "SD10-002",
+      "SD10-003",
+      "SD10-014",
+      "SD10-016",
+      "SD10-017",
+      "SD10-018",
+      "SD10-019"
+    ],
+    "simulatorEligibleIDs": [
+      "ST6-061",
+      "ST6-062",
+      "ST6-078",
+      "ST6-018",
+      "ST6-019",
+      "ST4-052",
+      "ST4-073",
+      "ST1-059",
+      "ST1-069",
+      "ST1-073",
+      "ST1-067",
+      "ST1-057",
+      "ST1-107",
+      "SD2-004",
+      "SD2-008",
+      "SD2-007",
+      "ST1-077"
+    ],
+    "databaseOnlyIDs": [
+      "SD10-013",
+      "SD10-012",
+      "SD10-011",
+      "SD10-005",
+      "SD10-002",
+      "SD10-003",
+      "SD10-014",
+      "SD10-016",
+      "SD10-017",
+      "SD10-018",
+      "SD10-019"
+    ],
+    "images": [
+      {
+        "id": "ST6-061",
+        "source": "D:/ΤΨΓ/ST6 New Generations/Blue JGR/ST6-061.png",
+        "sourceSha256": "f6b7992026154bc8e2cb9549850fdaaf27c2444093df018437034adac8064884",
+        "sourceBytes": 1983969,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST6-061.png",
+        "frozenSha256": "f6b7992026154bc8e2cb9549850fdaaf27c2444093df018437034adac8064884",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST6-061.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST6-061.jpg",
+        "sha256": "7fb495b57d185f7b88314d91d12a3feb6fd838fa2ccdbe7bb349d215edcfa4aa",
+        "imageVersion": "7fb495b57d18",
+        "bytes": 322309,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST6-061",
+        "alternate": true,
+        "source": "D:/ΤΨΓ/ST7 Legacy/ST6-061-AA.png",
+        "sourceSha256": "25cc989ccbe340c89feb064d3a0dcb6b6d52f77c7aa5acbc97ae1eb4b6725444",
+        "sourceBytes": 2427695,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST6-061-AA.png",
+        "frozenSha256": "25cc989ccbe340c89feb064d3a0dcb6b6d52f77c7aa5acbc97ae1eb4b6725444",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST6-061-alt1.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST6-061-alt1.jpg",
+        "sha256": "c797b87077156e86055099755f6f29ba54263ecee71ffff3cb40188615812f57",
+        "imageVersion": "c797b8707715",
+        "bytes": 443372,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST6-062",
+        "alternate": true,
+        "source": "D:/ΤΨΓ/AA/ST6-062-AA.png",
+        "sourceSha256": "715dc6f65ea1b9931f99f1af7bcc34262bf4828095b5c7f3ffea1f65848113a0",
+        "sourceBytes": 2349536,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST6-062-AA.png",
+        "frozenSha256": "715dc6f65ea1b9931f99f1af7bcc34262bf4828095b5c7f3ffea1f65848113a0",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST6-062-alt1.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST6-062-alt1.jpg",
+        "sha256": "a80c583e192c194f69fc954abd63d1e4e1025489775d2e56265e7106f82af5da",
+        "imageVersion": "a80c583e192c",
+        "bytes": 399156,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST6-062",
+        "source": "D:/ΤΨΓ/ST6 New Generations/Blue JGR/ST6-062.png",
+        "sourceSha256": "08d4bf631694050bc0a27eb74a3748187f4d3431204765ac4372160432a344d2",
+        "sourceBytes": 1816394,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST6-062.png",
+        "frozenSha256": "08d4bf631694050bc0a27eb74a3748187f4d3431204765ac4372160432a344d2",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST6-062.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST6-062.jpg",
+        "sha256": "2260b2b9c9ad8a4ce9e56d91a73295673b2e3af5baa143ffb8e8856c0e79b414",
+        "imageVersion": "2260b2b9c9ad",
+        "bytes": 297373,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST6-078",
+        "source": "D:/ΤΨΓ/ST6 New Generations/Blue JGR/ST6-076.png",
+        "filenameMismatchConfirmedByRoot": true,
+        "sourceSha256": "80a5eb9e422c3ff0412473b4e2c209118317d4074eca234e1a67c3916c1fcf5f",
+        "sourceBytes": 1979911,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST6-078.png",
+        "frozenSha256": "80a5eb9e422c3ff0412473b4e2c209118317d4074eca234e1a67c3916c1fcf5f",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST6-078.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST6-078.jpg",
+        "sha256": "976edea0637f6a76739860decb041d79e6ce2f33c640d9bf1fc4eaf0bb41df16",
+        "imageVersion": "976edea0637f",
+        "bytes": 307236,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST6-018",
+        "source": "D:/ΤΨΓ/ST6 New Generations/Yellow JJK/ST6-018.png",
+        "sourceSha256": "9c20ced911edd9840b10e68e6ad90671cbce91a067fdf055a7c75f19add73e6e",
+        "sourceBytes": 1881024,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST6-018.png",
+        "frozenSha256": "9c20ced911edd9840b10e68e6ad90671cbce91a067fdf055a7c75f19add73e6e",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST6-018.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST6-018.jpg",
+        "sha256": "38624ef7b1bbb660808f904330e476188199466d6a57a12cf7622ec8a3219050",
+        "imageVersion": "38624ef7b1bb",
+        "bytes": 309000,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST6-019",
+        "source": "D:/ΤΨΓ/ST6 New Generations/Yellow JJK/ST6-019.png",
+        "sourceSha256": "fa59e3e92a07aa80dbb4757d7ffa6d9013cccad3dc486d13435fc42c895786aa",
+        "sourceBytes": 1924746,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST6-019.png",
+        "frozenSha256": "fa59e3e92a07aa80dbb4757d7ffa6d9013cccad3dc486d13435fc42c895786aa",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST6-019.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST6-019.jpg",
+        "sha256": "756b6885581a1b0fb1fe7b6f3c9638dacb54ab436642d72a6cca8c133efed73b",
+        "imageVersion": "756b6885581a",
+        "bytes": 340310,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST4-073",
+        "source": "D:/ΤΨΓ/ST4 Fatebound/GREEN BLC/ST4-073.png",
+        "sourceSha256": "56c2e3a5128a975168921ce501d8c82a6238adfd277525036719f27937b2117e",
+        "sourceBytes": 2252875,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST4-073.png",
+        "frozenSha256": "56c2e3a5128a975168921ce501d8c82a6238adfd277525036719f27937b2117e",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST4-073.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST4-073.jpg",
+        "sha256": "e9c8a8e2bf38639381bb0e499520d95eebeffb12b313b711277a914921c48f28",
+        "imageVersion": "e9c8a8e2bf38",
+        "bytes": 431328,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST4-052",
+        "alternate": true,
+        "source": "D:/ΤΨΓ/AA/ST4-052-AA.png",
+        "sourceSha256": "f8d13ed3405351b9eb2b635d6aff23198e697214e6b895065c5c74290d773a9c",
+        "sourceBytes": 2910890,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST4-052-AA.png",
+        "frozenSha256": "f8d13ed3405351b9eb2b635d6aff23198e697214e6b895065c5c74290d773a9c",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST4-052-alt1.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST4-052-alt1.jpg",
+        "sha256": "90eda07d8157b0412489729d4d6d9710001bf74bf9fd65431e50e7d3a3abd1c2",
+        "imageVersion": "90eda07d8157",
+        "bytes": 498500,
+        "jpegQuality": 80,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST4-052",
+        "source": "D:/ΤΨΓ/ST4 Fatebound/GREEN BLC/ST4-052.png",
+        "sourceSha256": "e78c9784597666509672dc1dead4be4903769591a95235772c6132b439b9f836",
+        "sourceBytes": 2175522,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST4-052.png",
+        "frozenSha256": "e78c9784597666509672dc1dead4be4903769591a95235772c6132b439b9f836",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST4-052.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST4-052.jpg",
+        "sha256": "1b6e7b61630a6441554ecd814c949018051f0825ab6edc76de6a5ad9119a2e7f",
+        "imageVersion": "1b6e7b61630a",
+        "bytes": 426502,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-059",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/GREEN NRT/ST1-059.png",
+        "sourceSha256": "3091645a4165f1c99381a1b3e944b93b1c52355304b2a7bed27e86da1a46d4f0",
+        "sourceBytes": 1832206,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-059.png",
+        "frozenSha256": "3091645a4165f1c99381a1b3e944b93b1c52355304b2a7bed27e86da1a46d4f0",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-059.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-059.jpg",
+        "sha256": "692a73fc7f0bbd07b2948e5898e1c3503d6476652e8aa2e22e831d308ab233c6",
+        "imageVersion": "692a73fc7f0b",
+        "bytes": 267040,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-059",
+        "alternate": true,
+        "source": "D:/ΤΨΓ/AA/ST1-059-AA.png",
+        "sourceSha256": "3e9af1114749e3d35944fe9e6e419cee9f29c0ce56f9c3041d6d3426e2486c25",
+        "sourceBytes": 3085902,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-059-AA.png",
+        "frozenSha256": "3e9af1114749e3d35944fe9e6e419cee9f29c0ce56f9c3041d6d3426e2486c25",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-059-alt1.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-059-alt1.jpg",
+        "sha256": "7e6227b37be5d3fc3a5d05611251a74443e19c31c0841891e5aa3aaa14375787",
+        "imageVersion": "7e6227b37be5",
+        "bytes": 489440,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "TKN-001",
+        "kind": "token",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/GREEN NRT/TKN-001.png",
+        "printedCostBlank": true,
+        "sourceSha256": "0516ad1c50134fc5c90549316e97a375b0c80f19b46c65e6abf7d409ebdb5f94",
+        "sourceBytes": 2339315,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\TKN-001.png",
+        "frozenSha256": "0516ad1c50134fc5c90549316e97a375b0c80f19b46c65e6abf7d409ebdb5f94",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/TKN-001.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\TKN-001.jpg",
+        "sha256": "88f603bab5ea77ae9daec54ca95aff0f5bac36ca5adae23fa1dbd60406a74e20",
+        "imageVersion": "88f603bab5ea",
+        "bytes": 339133,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-069",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/GREEN NRT/ST1-069.png",
+        "sourceSha256": "834b48f190b6aea07c7ad5e53a3c8616b3ebe82449773436c3fa8817616d62e5",
+        "sourceBytes": 2045329,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-069.png",
+        "frozenSha256": "834b48f190b6aea07c7ad5e53a3c8616b3ebe82449773436c3fa8817616d62e5",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-069.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-069.jpg",
+        "sha256": "d0a428c030d7204b27823e2a2adeaf065414498bf112043221baad2c60b4443e",
+        "imageVersion": "d0a428c030d7",
+        "bytes": 304212,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-073",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/GREEN NRT/ST1-073.png",
+        "sourceSha256": "f7be00bba5b84067b92febcb6ce92ee31d8dcaa5cd9bfd73f1c7529d5d5cff75",
+        "sourceBytes": 2370048,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-073.png",
+        "frozenSha256": "f7be00bba5b84067b92febcb6ce92ee31d8dcaa5cd9bfd73f1c7529d5d5cff75",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-073.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-073.jpg",
+        "sha256": "9fbae5a29c77609806243b6dc38ef8eeb27a51f524f9964a64d9a0d6b775ac5f",
+        "imageVersion": "9fbae5a29c77",
+        "bytes": 378189,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-067",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/GREEN NRT/ST1-067.png",
+        "sourceSha256": "b42036f8651021b73b2dc46c620d4fc9afcbe11e8e000b58ef42851a418a0a39",
+        "sourceBytes": 2378652,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-067.png",
+        "frozenSha256": "b42036f8651021b73b2dc46c620d4fc9afcbe11e8e000b58ef42851a418a0a39",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-067.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-067.jpg",
+        "sha256": "64468c970ad81a75ad0c2fd58f14827a5a4707733d2d7e294ccf0014d9173a39",
+        "imageVersion": "64468c970ad8",
+        "bytes": 408944,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-057",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/GREEN NRT/ST1-057.png",
+        "sourceSha256": "4453621e81272afe0450824f49743861186eb60e02dc33d3e17dfd14b64be0dd",
+        "sourceBytes": 2035988,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-057.png",
+        "frozenSha256": "4453621e81272afe0450824f49743861186eb60e02dc33d3e17dfd14b64be0dd",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-057.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-057.jpg",
+        "sha256": "a271ea6d5745856e773d93f1d05733cd307a3cc5f4536fdab48f6029af99763d",
+        "imageVersion": "a271ea6d5745",
+        "bytes": 328909,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-107",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/PINK JBA/ST1-107.png",
+        "sourceSha256": "23ee949cfd2f4474dbceddd866b551f97253c54ac2508495bf864b13b9c673a6",
+        "sourceBytes": 2379904,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-107.png",
+        "frozenSha256": "23ee949cfd2f4474dbceddd866b551f97253c54ac2508495bf864b13b9c673a6",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-107.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-107.jpg",
+        "sha256": "739357b3012330a4c1bb6da460ca7f266f7f00c3d7e684eec8f2fd7711b99857",
+        "imageVersion": "739357b30123",
+        "bytes": 372621,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD2-004",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/PINK JBA/SD2/SD2-004.png",
+        "sourceSha256": "95c2b6e956e681630d2c1baf1bf953f08438d837426d1511375d53d30882c85e",
+        "sourceBytes": 2389639,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD2-004.png",
+        "frozenSha256": "95c2b6e956e681630d2c1baf1bf953f08438d837426d1511375d53d30882c85e",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD2-004.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD2-004.jpg",
+        "sha256": "761a224ceb2b59ab59335e4b82c5ba7901d9973f64913491ad84ab79fdc09822",
+        "imageVersion": "761a224ceb2b",
+        "bytes": 418791,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD2-008",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/PINK JBA/SD2/SD2-008.png",
+        "sourceSha256": "a7145fa40060daf02769284ca9a6a6e1ccbfae1711829514131a686c52de2f6c",
+        "sourceBytes": 2048982,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD2-008.png",
+        "frozenSha256": "a7145fa40060daf02769284ca9a6a6e1ccbfae1711829514131a686c52de2f6c",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD2-008.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD2-008.jpg",
+        "sha256": "927734aa0275aa0851f34dccf48f19c6ceba98fc6f61ebf33d7b18c19dc6f7a7",
+        "imageVersion": "927734aa0275",
+        "bytes": 347917,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD2-007",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/PINK JBA/SD2/SD2-007.png",
+        "sourceSha256": "e80cdb797af8e1655452370a502b4d294ab1d9fda4cb9bae5c0b94e1984bb9a5",
+        "sourceBytes": 2291494,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD2-007.png",
+        "frozenSha256": "e80cdb797af8e1655452370a502b4d294ab1d9fda4cb9bae5c0b94e1984bb9a5",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD2-007.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD2-007.jpg",
+        "sha256": "1bec4ad86df480dd407c5de642447eba5002306564cdd1eca2e2bf70a6314a3f",
+        "imageVersion": "1bec4ad86df4",
+        "bytes": 398738,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-077",
+        "source": "D:/ΤΨΓ/ST1 JUMP Start/BLUE SMK/ST1-077.png",
+        "sourceSha256": "aa16b17a5059d4bc9252ab394277c9c3c57472d57e96054639d93a775b57e2a0",
+        "sourceBytes": 2078501,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-077.png",
+        "frozenSha256": "aa16b17a5059d4bc9252ab394277c9c3c57472d57e96054639d93a775b57e2a0",
+        "dimensions": [
+          1055,
+          1491
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-077.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-077.jpg",
+        "sha256": "ca3914de423f6b89833dbf66003b1c88c53175ca0c7de7df0dc15df6ecb6dfd5",
+        "imageVersion": "ca3914de423f",
+        "bytes": 335758,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "ST1-077",
+        "alternate": true,
+        "source": "D:/ΤΨΓ/ST7 Legacy/ST1-077-AA.png",
+        "sourceSha256": "89b5b6e93f390749d41c9be9369631b55fd0f498dcf37acb03411d788d66fa6c",
+        "sourceBytes": 2521629,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\ST1-077-AA.png",
+        "frozenSha256": "89b5b6e93f390749d41c9be9369631b55fd0f498dcf37acb03411d788d66fa6c",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "orientation": "Portrait",
+        "path": "images/ST1-077-alt1.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\ST1-077-alt1.jpg",
+        "sha256": "85083280be738c1f86239829033d7067df26f36a2ab7b6bdcb193248f53e893c",
+        "imageVersion": "85083280be73",
+        "bytes": 444237,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-013",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-013.png",
+        "databaseOnly": true,
+        "sourceSha256": "7dfd5044290b15ebe2afaeee978dc0467bf9fea1a88209180a63d0105fb5bbc9",
+        "sourceBytes": 1744722,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-013.png",
+        "frozenSha256": "7dfd5044290b15ebe2afaeee978dc0467bf9fea1a88209180a63d0105fb5bbc9",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-013.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-013.jpg",
+        "sha256": "d2a6ba86dc89a8475c6819b290dec85f1d1ffd72eca6277f4d6fc5b91637e96b",
+        "imageVersion": "d2a6ba86dc89",
+        "bytes": 332316,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-012",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-012.png",
+        "databaseOnly": true,
+        "sourceSha256": "9ed04c8d713d2b228ef2e961df9b10e4fd85bc065c17ec7591e835b58d34bd93",
+        "sourceBytes": 2019665,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-012.png",
+        "frozenSha256": "9ed04c8d713d2b228ef2e961df9b10e4fd85bc065c17ec7591e835b58d34bd93",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-012.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-012.jpg",
+        "sha256": "6cbfe336f1649b25caea0a652640803efb02958727fcdd6f5414840c0dde6ab1",
+        "imageVersion": "6cbfe336f164",
+        "bytes": 394230,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-011",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-011.png",
+        "databaseOnly": true,
+        "sourceSha256": "248985708ceae38a188b24a8ff081f40d85a78f92afea09d5f27fecea99b8bc6",
+        "sourceBytes": 1929593,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-011.png",
+        "frozenSha256": "248985708ceae38a188b24a8ff081f40d85a78f92afea09d5f27fecea99b8bc6",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-011.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-011.jpg",
+        "sha256": "81a745a52c880c952c1b2f2832e5ca22ce8d629d905a5d0c68e6a1389245a6f1",
+        "imageVersion": "81a745a52c88",
+        "bytes": 363789,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-005",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-005.png",
+        "databaseOnly": true,
+        "sourceSha256": "02c714934c83a03ab2cea5e1c9fdeea4b3b5b7473628ee02f089bd9578902586",
+        "sourceBytes": 1895172,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-005.png",
+        "frozenSha256": "02c714934c83a03ab2cea5e1c9fdeea4b3b5b7473628ee02f089bd9578902586",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-005.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-005.jpg",
+        "sha256": "d8e77b11f8938a6a71d5cd4d48397269323fe0717e5076c8969eba8d5d02c686",
+        "imageVersion": "d8e77b11f893",
+        "bytes": 337665,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-002",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-002.png",
+        "databaseOnly": true,
+        "sourceSha256": "947167579568ba37bdb1ae3ffd9f70326cd7a5fb0c7c49846fa75152d43ab429",
+        "sourceBytes": 2098030,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-002.png",
+        "frozenSha256": "947167579568ba37bdb1ae3ffd9f70326cd7a5fb0c7c49846fa75152d43ab429",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-002.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-002.jpg",
+        "sha256": "cc6be5f1a0d57363932649998e7ca9e62697bdf0740c59b26c5de82c513ad8bb",
+        "imageVersion": "cc6be5f1a0d5",
+        "bytes": 386811,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-003",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-003.png",
+        "databaseOnly": true,
+        "sourceSha256": "118b2aadee86480372f7faa198a1f6b5b786125afdcf91f2f8ffa5c66ae104e2",
+        "sourceBytes": 1880699,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-003.png",
+        "frozenSha256": "118b2aadee86480372f7faa198a1f6b5b786125afdcf91f2f8ffa5c66ae104e2",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-003.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-003.jpg",
+        "sha256": "dc247f298d506c950f63aab4eb3d1615da3f58529b5780867bea1bd2adca0919",
+        "imageVersion": "dc247f298d50",
+        "bytes": 321981,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-014",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-014.png",
+        "databaseOnly": true,
+        "sourceSha256": "200098b803ce77ba4dfd86dc9b6ac8ee6697c2d5c16d900f2b6e79aa9bce6ef4",
+        "sourceBytes": 1991618,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-014.png",
+        "frozenSha256": "200098b803ce77ba4dfd86dc9b6ac8ee6697c2d5c16d900f2b6e79aa9bce6ef4",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-014.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-014.jpg",
+        "sha256": "1e2b3bd2c9ef6a83a57b85312c6ce99c15c53fae6b5a4d04d1f5adba492c60b0",
+        "imageVersion": "1e2b3bd2c9ef",
+        "bytes": 397138,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-016",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-016.png",
+        "databaseOnly": true,
+        "sourceSha256": "c31d4424e5d815fa725102faf81e6df771b9026f80531c6df64aae46e6aa885a",
+        "sourceBytes": 2250691,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-016.png",
+        "frozenSha256": "c31d4424e5d815fa725102faf81e6df771b9026f80531c6df64aae46e6aa885a",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-016.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-016.jpg",
+        "sha256": "f72582da9a5c2b82a8b9254480c07f2dcdab9bea0b18f8942337e42324d6c5b3",
+        "imageVersion": "f72582da9a5c",
+        "bytes": 414432,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-017",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-017.png",
+        "databaseOnly": true,
+        "sourceSha256": "71581d592237c91a9c4e2ccf6c82b491ad9eb8b85b0c8e4b4c250bedc7479e49",
+        "sourceBytes": 2195034,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-017.png",
+        "frozenSha256": "71581d592237c91a9c4e2ccf6c82b491ad9eb8b85b0c8e4b4c250bedc7479e49",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-017.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-017.jpg",
+        "sha256": "9e7414f09bbe0b3acd94b71a73e9aa38ab65cfb428ba7ebdc6b05ed0ea770ec6",
+        "imageVersion": "9e7414f09bbe",
+        "bytes": 352475,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-018",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-018.png",
+        "databaseOnly": true,
+        "sourceSha256": "c55529ef866842517342a30032b973539741e95017d796e72361505475108df2",
+        "sourceBytes": 2328305,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-018.png",
+        "frozenSha256": "c55529ef866842517342a30032b973539741e95017d796e72361505475108df2",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-018.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-018.jpg",
+        "sha256": "c69f86d86235a1fa5c548aed65be813cbe44d32c3773278041bee12f4f6d091e",
+        "imageVersion": "c69f86d86235",
+        "bytes": 410605,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      },
+      {
+        "id": "SD10-019",
+        "source": "D:/ΤΨΓ/ST7 Legacy/SD10/SD10-019.png",
+        "databaseOnly": true,
+        "sourceSha256": "03e7d516b8520bfd355e0dc6760aa4aa408bcc6e767068c19a11bd930b0fa147",
+        "sourceBytes": 1907761,
+        "frozen": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\sources\\SD10-019.png",
+        "frozenSha256": "03e7d516b8520bfd355e0dc6760aa4aa408bcc6e767068c19a11bd930b0fa147",
+        "dimensions": [
+          1063,
+          1479
+        ],
+        "orientation": "Portrait",
+        "path": "images/SD10-019.jpg",
+        "staged": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\prints_20261103_takeover\\staged_public\\images\\SD10-019.jpg",
+        "sha256": "bfda85a597e23238a90c7a897320c15ac64ac4ae9e52f468b9834de8fd007e64",
+        "imageVersion": "bfda85a597e2",
+        "bytes": 335996,
+        "jpegQuality": 84,
+        "progressive": true,
+        "nativeDimensions": true
+      }
+    ],
+    "changes": [
+      {
+        "id": "ST6-061",
+        "fields": {
+          "effect": {
+            "before": "[On Attack] (3) Reveal the top card of your Deck; if it's a Unit card with a Cost of 4 or less and the \"Vanguard Party\" Trait, you may play it Rested and draw 1 card.\nThreshold 2 [Your Turn] Once per Turn When you play a Unit card with the \"Vanguard Party\" Trait: Remove 2 SJ Markers; Bloom 1 of your Units with the \"Vanguard Party\" Trait.",
+            "after": "[On Attack] (3) Reveal the top card of your Deck; if it's a Unit card with a Cost of 4 or less and the \"Vanguard Party\" Trait, you may play it Rested.\nThreshold 2 [Your Turn] Once per Turn When you play a Unit card with the \"Vanguard Party\" Trait: Remove 2 SJ Markers; Bloom 1 of your Units with the \"Vanguard Party\" Trait."
+          }
+        }
+      },
+      {
+        "id": "ST6-062",
+        "fields": {
+          "power": {
+            "before": "6000",
+            "after": "5000"
+          }
+        }
+      },
+      {
+        "id": "ST6-078",
+        "fields": {
+          "effect": {
+            "before": "[On Play] Choose up to 1 Unit with an original Cost of 3 or less and return it to its owner's hand.\n[On Attack] Reveal 1 card from the top of your Deck: If it has the \"Vanguard Party\" Trait, draw 2 cards; place 1 card from your hand at the top of your Deck.",
+            "after": "[On Play] Choose up to 1 Unit with an original Cost of 3 or less and return it to its owner's hand.\n[On Attack] Reveal 1 card from the top of your Deck: If it has the \"Vanguard Party\" Trait, draw 1 card; place 1 card from your hand at the top of your Deck."
+          }
+        }
+      },
+      {
+        "id": "ST6-018",
+        "fields": {
+          "power": {
+            "before": "5000",
+            "after": "4000"
+          }
+        }
+      },
+      {
+        "id": "ST6-019",
+        "fields": {
+          "power": {
+            "before": "5000",
+            "after": "4000"
+          },
+          "effect": {
+            "before": "Deflect\n[On Play] Switch 1 of your Rested Units with the \"Sorcerer\" Trait to Active mode: Choose up to 1 of your Opponent's Units with an original Cost of 4 or less and negate its skills for the turn.",
+            "after": "Deflect\n[On Play] Switch your Leader or 1 of your Rested Units with the \"Sorcerer\" Trait to Active mode and give them +1000 Power for the turn."
+          }
+        }
+      },
+      {
+        "id": "ST4-052",
+        "fields": {
+          "power": {
+            "before": "8000",
+            "after": "7000"
+          }
+        }
+      },
+      {
+        "id": "ST4-073",
+        "fields": {
+          "power": {
+            "before": "7000",
+            "after": "6000"
+          }
+        }
+      },
+      {
+        "id": "ST1-059",
+        "fields": {
+          "effect": {
+            "before": "[On Play] Look at the top 3 cards of your Deck; add up to 1 card with the \"Sunagakure\" Trait to your hand. Then, shuffle your Deck.\n[Activate: Battle] (1) Remove this card in your Drop from the game: Give 1 of your \"Gaara\" +2000 Power for the battle.",
+            "after": "[On Play] Look at the top 5 cards of your Deck; add up to 1 card with the \"Sunagakure\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order."
+          }
+        }
+      },
+      {
+        "id": "ST1-069",
+        "fields": {
+          "cost": {
+            "before": "5",
+            "after": "6"
+          }
+        }
+      },
+      {
+        "id": "ST1-073",
+        "fields": {
+          "effect": {
+            "before": "Clash [Opponent's Attack] Give up to 1 of your \"Gaara\" +3000 Power for the battle.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Give up to 1 of your \"Gaara\" Units +1000 Power for the turn.",
+            "after": "Clash [Opponent's Attack] Give up to 1 of your \"Gaara\" +2000 Power for the battle.\n[Your Turn] (1) When this card is placed from your hand in your Drop by a skill: Give up to 1 of your \"Gaara\" Units +1000 Power for the turn."
+          }
+        }
+      },
+      {
+        "id": "ST1-067",
+        "fields": {
+          "power": {
+            "before": "8000",
+            "after": "6000"
+          }
+        }
+      },
+      {
+        "id": "ST1-057",
+        "fields": {
+          "effect": {
+            "before": "[Your Turn] Once per Turn When your Opponent activates an Action card, they place 1 card from their hand in their Drop.",
+            "after": "[Your Turn] Limit 1 When your Opponent activates an Action card, they place 1 card from their hand in their Drop."
+          }
+        }
+      },
+      {
+        "id": "ST1-107",
+        "fields": {
+          "counter": {
+            "before": "2000",
+            "after": "1000"
+          }
+        }
+      },
+      {
+        "id": "SD2-004",
+        "fields": {
+          "counter": {
+            "before": "2000",
+            "after": "1000"
+          }
+        }
+      },
+      {
+        "id": "SD2-008",
+        "fields": {
+          "counter": {
+            "before": "2000",
+            "after": "1000"
+          }
+        }
+      },
+      {
+        "id": "SD2-007",
+        "fields": {
+          "effect": {
+            "before": "[On Play] If you have less Life cards than your Opponent: Draw 2 cards; place 1 card from your hand in your Drop.",
+            "after": "[On Play] If you have less Life cards than your Opponent: Draw 1 card; place 1 card from your hand in your Drop."
+          }
+        }
+      },
+      {
+        "id": "ST1-077",
+        "fields": {
+          "effect": {
+            "before": "[On Attack] Place 1 \"Amidamaru\" from your hand under this card: Draw 2 cards.\n[Activate: Main] (2) Place 2 cards from under this card at the bottom of your Deck in any order: Choose up to 1 of your Opponent's Units and return it to its owner's hand.\nThreshold 2 [Activate: Main] Limit 1 Add 1 card from under this card to your hand: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and place it at the bottom of its owner's Deck.",
+            "after": "[On Attack] Place 1 \"Amidamaru\" from your hand under this card: Draw 1 card.\n[Activate: Main] (2) Place 2 cards from under this card at the bottom of your Deck in any order: Choose up to 1 of your Opponent's Units and return it to its owner's hand.\nThreshold 2 [Activate: Main] Limit 1 Add 1 card from under this card to your hand: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and place it at the bottom of its owner's Deck."
+          }
+        }
+      },
+      {
+        "id": "SD10-013",
+        "fields": {
+          "effect": {
+            "before": "[On Play] Limit 1 If you added a card from your Life to your hand this turn, Rest this card: Charge 1 for each of your Opponent's Rested Units.\n[On K.O.] Give your Leader or up to 1 of your Units +1000 Power for the turn.",
+            "after": "[On Play] Limit 1 If you added a card from your Life to your hand this turn, Rest this card: Draw 1 card.\n[On K.O.] Give your Leader or up to 1 of your Units +1000 Power for the turn."
+          }
+        }
+      },
+      {
+        "id": "SD10-012",
+        "fields": {
+          "effect": {
+            "before": "[On Play] If your Leader's Threshold skill is active: Draw 2 cards; place 1 card from your hand in your Drop.\n[Your Turn] Once per Turn When this card is Rested by your skill(s): Switch this card to Active mode.",
+            "after": "[Your Turn] Once per Turn When this card is Rested by your skill(s): Switch this card to Active mode.\n[On Play] Limit 1 If your Leader's Threshold skill is active: Draw 2 cards; place 1 card from your hand in your Drop."
+          }
+        }
+      },
+      {
+        "id": "SD10-011",
+        "fields": {
+          "power": {
+            "before": "5000",
+            "after": "1000"
+          }
+        }
+      },
+      {
+        "id": "SD10-005",
+        "fields": {
+          "effect": {
+            "before": "Deflect\n[On Play] If you added a card from your Life to your hand this turn, give this card +2000 Power until the end of your Opponent's next turn.\n[On K.O.] Choose your Opponent's Leader and Rest them.",
+            "after": "[On Play] Limit 1 If you added a card from your Life to your hand this turn, give this card +2000 Power until the end of your Opponent's next turn.\n[On K.O.] Choose your Opponent's Leader and Rest them."
+          }
+        }
+      },
+      {
+        "id": "SD10-002",
+        "fields": {
+          "effect": {
+            "before": "Deflect Break\n[Your Turn] Limit 1 When this card K.O.'s an Opponent's Unit by battle: Remove that card from the game.\n[On Play] Choose all of your Opponent's Rested Units and they can't switch to Active mode during your Opponent's next Charge Phase.",
+            "after": "Unique Break\n[Your Turn] Limit 1 When this card K.O.'s an Opponent's Unit by battle and you remove 1 SJ Marker: Remove that card from the game.\n[On Play] If your Leader is \"Denji\": Choose all of your Opponent's Rested Units and they can't switch to Active mode during your Opponent's next Charge Phase."
+          }
+        }
+      },
+      {
+        "id": "SD10-003",
+        "fields": {
+          "power": {
+            "before": "6000",
+            "after": "5000"
+          },
+          "effect": {
+            "before": "[On Play] Choose up to 1 of your Opponent's Rested Units with a Cost of 3 or less and K.O. it. Then, give your \"Denji\" Leader +1000 Power for the turn.\n[End of your Turn] If your Opponent has no Units in play or has only Rested Units in play: Switch this card to Active mode.",
+            "after": "[On Play] Add up to 1 card from your Life to your hand. Then, choose up to 1 of your Opponent's Rested Units with a Cost of 3 or less and K.O. it.\n[End of your Turn] If your Opponent has no Units in play or has only Rested Units in play: Switch this card to Active mode."
+          }
+        }
+      },
+      {
+        "id": "SD10-014",
+        "fields": {
+          "counter": {
+            "before": "2000",
+            "after": "1000"
+          }
+        }
+      },
+      {
+        "id": "SD10-016",
+        "fields": {
+          "effect": {
+            "before": "[Activate: Main] If your Opponent has 3 or more Overcharged Energy: Remove 1 of their Overcharged Energy.\nClash [Opponent's Attack] (1) Choose your Opponent's Leader or up to 1 of their Units with a Cost of 5 or less, ignoring Barrier, and Rest them.",
+            "after": "[Activate: Main] If your Opponent has 3 or more Overcharged Energy: Remove 1 of their Overcharged Energy.\nClash [Opponent's Attack] (1) Choose your Opponent's Leader or up to 1 of their Units with a Cost of 4 or less, ignoring Barrier, and Rest them."
+          }
+        }
+      },
+      {
+        "id": "SD10-017",
+        "fields": {
+          "effect": {
+            "before": "You may also rest 3 of your cards amongst your Leader and/or Units instead of paying for this card's [Activate: Main] skill cost\n[Activate: Main] (3) Choose up to 1 of your Opponent's Rested Units with 8000 or less Power, ignoring Barrier, and K.O. it.\nClash [Opponent's Attack] Give your \"Denji\" Leader +2000 Power for the battle.",
+            "after": "You may also rest 3 of your cards amongst your Leader and/or Units instead of paying for this card's [Activate: Main] skill cost\n[Activate: Main] (3) Choose up to 1 of your Opponent's Rested Units with 6000 or less Power, ignoring Barrier, and K.O. it.\nClash [Opponent's Attack] Give your \"Denji\" Leader +2000 Power for the battle."
+          }
+        }
+      },
+      {
+        "id": "SD10-018",
+        "fields": {
+          "effect": {
+            "before": "[Activate: Battle] Give your card that's in a battle +3000 Power for the battle. Then, if there is a Rested Unit with a cost of 4 or more in play, draw 1 card.",
+            "after": "[Activate: Battle] Limit 1 Give your card that's in a battle +2000 Power for the battle. Then, if there is a Rested Unit with a cost of 4 or more in play, draw 1 card."
+          }
+        }
+      },
+      {
+        "id": "SD10-019",
+        "fields": {
+          "cost": {
+            "before": "2",
+            "after": "4"
+          }
+        }
+      }
+    ],
+    "newGeneratedToken": {
+      "id": "TKN-001",
+      "runtimeIdentity": "TOKEN-SAND-CLONE",
+      "deckEligible": false,
+      "packEligible": false,
+      "printedCost": "",
+      "printedPower": "0",
+      "printedCounter": "0"
+    },
+    "scope": "Normal public database only. Matching simulator17IDs, private Prize refresh, planner and protected publication separately main-owned. SD10 remains database-only; no Arena/Support Map/account/economy changes.",
+    "elapsedSeconds": 5.16
   }
 }
