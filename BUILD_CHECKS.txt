@@ -24278,5 +24278,1406 @@
     "privateGroundworkIDs": [
       "EX7-013"
     ]
+  },
+  "ex8_udu_and_prints_2026_11_03": {
+    "status": "APPLIED_LOCAL_NOT_PUBLISHED",
+    "date": "2026-11-03",
+    "baseCommit": "2f23547a52609a0f32d0c29ac3546593828e3cf2",
+    "canonical_cards": 1250,
+    "totalAlternates": 237,
+    "accessories": 176,
+    "energyMarkers": 51,
+    "source_files": 42,
+    "newIdentities": [
+      "EX8-001",
+      "EX8-002",
+      "EX8-003",
+      "EX8-004",
+      "EX8-005",
+      "EX8-006",
+      "EX8-007",
+      "EX8-008",
+      "EX8-009",
+      "EX8-010",
+      "EX8-011",
+      "EX8-012",
+      "EX8-013",
+      "EX8-014",
+      "EX8-015",
+      "EX8-016",
+      "EX8-017",
+      "EX8-018",
+      "EX8-019",
+      "EX8-020",
+      "EX8-021",
+      "PUP-120",
+      "PUP-121"
+    ],
+    "existingIdentities": [
+      "ST6-012",
+      "ST6-063",
+      "ST6-082",
+      "ST6-086",
+      "ST6-087",
+      "ST6-088",
+      "ST6-091",
+      "ST6-094",
+      "ST6-095"
+    ],
+    "newOrdinaryAAs": [
+      "EX8-002",
+      "EX8-003",
+      "EX8-016"
+    ],
+    "newLeaderAA": "EX8-001",
+    "images": [
+      {
+        "id": "EX8-002",
+        "alternate": true,
+        "newAlternate": true,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-002-AA.png",
+        "sourceSha256": "d1815a8c774c64d7dc32c9a7764349e003b8159b207b4d0c2e74a33bd249e005",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-002-AA.png",
+        "path": "images/EX8-002-alt1.jpg",
+        "sha256": "37a2fbd8fc00c93a28b752da5d9caec9d77b933a08c08985021cdb717effc941",
+        "imageVersion": "37a2fbd8fc00",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 494297,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-001",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-001.png",
+        "sourceSha256": "e6e857e22b26f09229d6543b2781ac6be062fa9c53657184e3fdab0a7a5a7efd",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-001.png",
+        "path": "images/EX8-001.jpg",
+        "sha256": "84e4c357663af611a20695f4d1acc826287a356e62649f21c1926781a16b13b6",
+        "imageVersion": "84e4c357663a",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "bytes": 363616,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-001",
+        "alternate": true,
+        "newAlternate": true,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-001-AA.png",
+        "sourceSha256": "6322c002f454d9325a2ba07b0f5a2f7095fd30455e0ac14c9ec0977a89b13661",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-001-AA.png",
+        "path": "images/EX8-001-alt1.jpg",
+        "sha256": "f9b33dd5847fb4a01b10e035bb510cfc294b52b8cfac5d381838083934ffe779",
+        "imageVersion": "f9b33dd5847f",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "bytes": 467009,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-002",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-002.png",
+        "sourceSha256": "cb50d6d634e0b84c0f3f9cac828882517fcae629448e092ab2900f56345bad50",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-002.png",
+        "path": "images/EX8-002.jpg",
+        "sha256": "4589d84ca2eead572d15b64b245c9ec37fed446d6e8414f6748097ed56675b62",
+        "imageVersion": "4589d84ca2ee",
+        "dimensions": [
+          1042,
+          1509
+        ],
+        "bytes": 293794,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-003",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-003.png",
+        "sourceSha256": "4a5036fd4ae30d8ca70087b2ba80c070b4cdc3c0dc0733429e5a359aa50262be",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-003.png",
+        "path": "images/EX8-003.jpg",
+        "sha256": "330d20196fd8ac7a74749a586006682a43b4dd8669f046632c1d5829fc288d3c",
+        "imageVersion": "330d20196fd8",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 312305,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-016",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-016.png",
+        "sourceSha256": "f7fefcd6fdcdf38e58254be341f540de7f7d695eeacc1d74b3807f98fb3e18d3",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-016.png",
+        "path": "images/EX8-016.jpg",
+        "sha256": "7b1a7f8ba451c18ae6c13cb70454a82e9acc709ca3d05d161a2fe066e2e9dad7",
+        "imageVersion": "7b1a7f8ba451",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 464400,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-004",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-004.png",
+        "sourceSha256": "dadb34a69f3f1abaffa3093d2c5423d1b935e4d0108d9b057f67acfb21498142",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-004.png",
+        "path": "images/EX8-004.jpg",
+        "sha256": "42ff0146ad842a98ff95fad740344dd42ca1cce3d50d31cdba7ed776cea6e229",
+        "imageVersion": "42ff0146ad84",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 346177,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-005",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-005.png",
+        "sourceSha256": "1c342733082e479fc5e5627c1dea46dbc55a1005d9228963a257706dc847818b",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-005.png",
+        "path": "images/EX8-005.jpg",
+        "sha256": "78056a4fc2cfc65efdb5bbd299f1ec7746b15037d99030cece72ea4f44c6d4df",
+        "imageVersion": "78056a4fc2cf",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 339999,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-006",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-006.png",
+        "sourceSha256": "09b55063d0e1cbe8a4ab52e9dae97a5a82e942d8e7d20414684f80236b68a752",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-006.png",
+        "path": "images/EX8-006.jpg",
+        "sha256": "4271817084faeb3807ef58486779d84343f3a947565afdc06076d4c069e5459a",
+        "imageVersion": "4271817084fa",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 327582,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-007",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-007.png",
+        "sourceSha256": "5349a31bea82053858e31cff19e0ab929b33d4a978c075bfee480974ca15405d",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-007.png",
+        "path": "images/EX8-007.jpg",
+        "sha256": "94b566961a571f216db299c8a9010ab7c8c0f9dd24b449fe8da81d7925bd6e05",
+        "imageVersion": "94b566961a57",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 362160,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-008",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-008.png",
+        "sourceSha256": "9df012e9bf0c158d7b710c49d09a3997bf813a873c09fa3a2b9dbf391a3fb0c9",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-008.png",
+        "path": "images/EX8-008.jpg",
+        "sha256": "203716aa393a3f6938f28bdd4cf6622f0ddde95f708ab53def7fcd523cd3d3f7",
+        "imageVersion": "203716aa393a",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 410111,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-009",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-009.png",
+        "sourceSha256": "5a3af786b16a0654b27671a565d18c7bd6ab59f5f988fac0421a78b9fad1a2a1",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-009.png",
+        "path": "images/EX8-009.jpg",
+        "sha256": "2a0cc688bda1dd0eb233dbf5b4d30ca136cd6cd9243229868a60c6e60b8cb0eb",
+        "imageVersion": "2a0cc688bda1",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 381166,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-010",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-010.png",
+        "sourceSha256": "51823def639a2bbf68756f2e17f994d352fc0cdddee2275db1e71b5db4f315af",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-010.png",
+        "path": "images/EX8-010.jpg",
+        "sha256": "37488ac02f32e63add0bfba2f3bce6b92a4561f18695925f766ec8d3f0043a3c",
+        "imageVersion": "37488ac02f32",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 344149,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-011",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-011.png",
+        "sourceSha256": "de29764e99b096c23767ab6df1d12ea214985baf5d6cca3a5344ab1f67356138",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-011.png",
+        "path": "images/EX8-011.jpg",
+        "sha256": "98cb6e6f184063fe2839f4787acc4d2b5dac525eda6f834bb7dbffa2a1460de1",
+        "imageVersion": "98cb6e6f1840",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 350738,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-012",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-012.png",
+        "sourceSha256": "45cee687c39db6a0f3b28d99782c74381e5aeaad8eee8796f03d8f478ddc44ae",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-012.png",
+        "path": "images/EX8-012.jpg",
+        "sha256": "9cca38f4463837ee53b2ad5886d53287e1bad4d90752b6c5674aa41bc0d49458",
+        "imageVersion": "9cca38f44638",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 365932,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-013",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-013.png",
+        "sourceSha256": "8e763a850c9cf92d36bdd50ae6f0a06b35580128139c02e127b506e246e46a21",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-013.png",
+        "path": "images/EX8-013.jpg",
+        "sha256": "e70042332ff5a36c4427e16ceb85a1fee8d5ac6f1d084fdfe0663f2e1df5bb7c",
+        "imageVersion": "e70042332ff5",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 327394,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-014",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-014.png",
+        "sourceSha256": "a2a7d3929860430e0dd036cc3c79d351d31d9c424e62264239c47eb840a69ff3",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-014.png",
+        "path": "images/EX8-014.jpg",
+        "sha256": "5238d1082718861959826589b767187b6ed943d573f4bc6e900fd5379c9658c8",
+        "imageVersion": "5238d1082718",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 387594,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-015",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-015.png",
+        "sourceSha256": "0781898dd8aff25343116a1c112a82c80c791d8222fa544e7763b727e46fc80a",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-015.png",
+        "path": "images/EX8-015.jpg",
+        "sha256": "0cba88c4d8dbb8655ee49948ed4a73587816cf1b4f9e6f1079e2d0f005292108",
+        "imageVersion": "0cba88c4d8db",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 337243,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-017",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-017.png",
+        "sourceSha256": "8edb2a903530ca09abc132b0c7df466506afe9621b87baa1f20870656cd6c239",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-017.png",
+        "path": "images/EX8-017.jpg",
+        "sha256": "0d479966beb414936b2df0c1d8855667883cf3d373638a4dc79d7549f22cd56e",
+        "imageVersion": "0d479966beb4",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 324473,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-018",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-018.png",
+        "sourceSha256": "dd22a0119ff11a349e7c024335c3170fd3333fbdaf8cbc5e03c87338e0b1d864",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-018.png",
+        "path": "images/EX8-018.jpg",
+        "sha256": "15fb6c1137bfa134923c1ce6193b74a103b22309d99b07c74cda981fad453835",
+        "imageVersion": "15fb6c1137bf",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 379833,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-019",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-019.png",
+        "sourceSha256": "054d5aae860bb9ab01c627a5df076b51c10f35c3b2d37e42b8b765537aa62c4c",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-019.png",
+        "path": "images/EX8-019.jpg",
+        "sha256": "ca297f6d804f3743098a3a53e917384ad0d8a5d240cfc103b251f8036d0e2d84",
+        "imageVersion": "ca297f6d804f",
+        "dimensions": [
+          1483,
+          1061
+        ],
+        "bytes": 297502,
+        "orientation": "Landscape"
+      },
+      {
+        "id": "EX8-021",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-021.png",
+        "sourceSha256": "a2936dced1c4133d41d7d9b21b3c72bcf8eee3b058d7fcb51edec15628f5470d",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-021.png",
+        "path": "images/EX8-021.jpg",
+        "sha256": "8f962419b59f6f0064ce63ea8a771b652139f85b503ccbb12cc12f2c9f54efd7",
+        "imageVersion": "8f962419b59f",
+        "dimensions": [
+          1483,
+          1061
+        ],
+        "bytes": 455701,
+        "orientation": "Landscape"
+      },
+      {
+        "id": "EX8-020",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-020.png",
+        "sourceSha256": "f21d466b229d5f514d42f8886c698041bec44efbaa7551c055a33bcf71d08f0d",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-020.png",
+        "path": "images/EX8-020.jpg",
+        "sha256": "baf36ddca151bfa4da10f56a73f12fd83aea8e227e704219cc715d89113fcf22",
+        "imageVersion": "baf36ddca151",
+        "dimensions": [
+          1482,
+          1062
+        ],
+        "bytes": 460705,
+        "orientation": "Landscape"
+      },
+      {
+        "id": "PUP-121",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\PUP-121.png",
+        "sourceSha256": "667491b5d07cd931c0f0b0467eb34b023740f8082dae121cfac4648a60a58c50",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/PUP-121.png",
+        "path": "images/PUP-121.jpg",
+        "sha256": "c8fa6c11e28071443eb403c00688b99c7d34062ad30f8008036776eadcedb1bb",
+        "imageVersion": "c8fa6c11e280",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 418214,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-095",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-095.png",
+        "sourceSha256": "21a48cecc80a3eb2780291dcf8158cc902970dc8dd815cccab0009cf182be971",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-095.png",
+        "path": "images/ST6-095.jpg",
+        "sha256": "5596fdb4ad668f9e7994bfba8b13c28562731d8e29f728a6dd0d82e41b57d05d",
+        "imageVersion": "5596fdb4ad66",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 288008,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-082",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-082.png",
+        "sourceSha256": "a1dffa57429586a944f9e5e6c811f6223741818c5ad2eae25f1cded77123caa5",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-082.png",
+        "path": "images/ST6-082.jpg",
+        "sha256": "0a7008ceba7664d1736d94c783becaee78308e2ad318035329e3f392d33f83e9",
+        "imageVersion": "0a7008ceba76",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 300690,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-082",
+        "alternate": true,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-082-AA.png",
+        "sourceSha256": "f55dba88ac241621e6af9ea942be7e915d9647a27dbd917455ef43e5768be0f9",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-082-AA.png",
+        "path": "images/ST6-082-alt1.jpg",
+        "sha256": "cbdd9a94e4548fb12c11b2c0950a4bd3f4174da69e736ec99bb982aa51a76749",
+        "imageVersion": "cbdd9a94e454",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 349820,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-087",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-087.png",
+        "sourceSha256": "8abb973be25efa36cac0a2e4cd1bada5086f9fbda48872bfd6d7866bc4812eba",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-087.png",
+        "path": "images/ST6-087.jpg",
+        "sha256": "e0003b641ea56d1bfb6f73fe38f9ed963fe0837895a541c6f484ea0b343d5278",
+        "imageVersion": "e0003b641ea5",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 265182,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-086",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-086.png",
+        "sourceSha256": "03b81fefff81386e35197a03c66e62857efacb7cca213c03f97eecee5badc960",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-086.png",
+        "path": "images/ST6-086.jpg",
+        "sha256": "26832296cfef685c413f05def98fb7dae2501833086ce8207dceb1bb0a77b425",
+        "imageVersion": "26832296cfef",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 296154,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-088",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-088.png",
+        "sourceSha256": "a680f4738032a074207ba2e15c74e968a880242ed11d6c6fc74f5305d2d778d9",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-088.png",
+        "path": "images/ST6-088.jpg",
+        "sha256": "254875cc92fb2da3e86a7e11852d8234d4c9859d53410b75de8998dabe0ad33c",
+        "imageVersion": "254875cc92fb",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 287092,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-091",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-091.png",
+        "sourceSha256": "21a0ee7435953a54fefbf9b3a9425f5878485d1594d84500545149f919e57849",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-091.png",
+        "path": "images/ST6-091.jpg",
+        "sha256": "2523c75a293b57894738421a3d55241ac886e6d443b184f2f26a7eca945f3598",
+        "imageVersion": "2523c75a293b",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 341702,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-094",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-094.png",
+        "sourceSha256": "1dcac0ae8daf1aa9c84b0d40464f02fcd909f24c86021810a8b27714cb9ac404",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-094.png",
+        "path": "images/ST6-094.jpg",
+        "sha256": "c256030dfa1c5a627704cfed95efbb1204cb2220f218c58e8b43406e1fb3eda9",
+        "imageVersion": "c256030dfa1c",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 291964,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-003",
+        "alternate": true,
+        "newAlternate": true,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-003-AA.png",
+        "sourceSha256": "b4f3be6c51344d05f0e14832e9f413509151f1ff2db9514bd99649286d4a05f9",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-003-AA.png",
+        "path": "images/EX8-003-alt1.jpg",
+        "sha256": "34b080c2299ec65e97a220088716b6301f2e7ce28cf902c1510bc80cf5cca462",
+        "imageVersion": "34b080c2299e",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 477714,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "EX8-016",
+        "alternate": true,
+        "newAlternate": true,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\EX8-016-AA.png",
+        "sourceSha256": "58b1e2597955442c85db8cdd79442bc74cc620ac88121041388c0453cbe0af3f",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/EX8-016-AA.png",
+        "path": "images/EX8-016-alt1.jpg",
+        "sha256": "b42ba56dd94b25ec40d21dfa44f5f877414f7ec922ff0f03e202e488eb532579",
+        "imageVersion": "b42ba56dd94b",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "bytes": 486911,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-012",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\ST6-012.png",
+        "sourceSha256": "4c086b1eec811687a753d6f7014528179251e08a484289676af0c3bdaa70b534",
+        "origin": "D:\\ΤΨΓ\\fixes.zip",
+        "entry": "fixes/ST6-012.png",
+        "path": "images/ST6-012.jpg",
+        "sha256": "859d0766c55696a50535043880e965b87dbaade1a47872d0e8fa42080fdeebae",
+        "imageVersion": "859d0766c556",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 331898,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-063",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\overrides\\ST6-063.png",
+        "sourceSha256": "db9f39d215c002789a05e21853114082bf4025fde89e0df4bf846da64201eea3",
+        "origin": "D:\\ΤΨΓ\\ST6 New Generations\\Blue JGR\\ST6-063.png",
+        "entry": null,
+        "path": "images/ST6-063.jpg",
+        "sha256": "9c8c5a858fd7705a1422fb63d2728f38f6780449ff4294aa0834c366e6447ba4",
+        "imageVersion": "9c8c5a858fd7",
+        "dimensions": [
+          1075,
+          1463
+        ],
+        "bytes": 301568,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "ST6-063",
+        "alternate": true,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\overrides\\ST6-063-AA.png",
+        "sourceSha256": "f586b4b2f9b5c5b6c26f53eff9115cd789c524abc05fb3adf8c4a355a557ebf1",
+        "origin": "D:\\ΤΨΓ\\AA\\ST6-063-AA.png",
+        "entry": null,
+        "path": "images/ST6-063-alt1.jpg",
+        "sha256": "d6d994110803b19da47621cc9f445516cce6f5b3e339fd342124b162549d95c7",
+        "imageVersion": "d6d994110803",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 437208,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "PUP-120",
+        "alternate": false,
+        "newAlternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\overrides\\PUP-120.png",
+        "sourceSha256": "54ad718efd3fb4dfb8e40687899287faded86d5602b03502f5bd09a33f5cb093",
+        "origin": "D:\\ΤΨΓ\\ST6 New Generations\\EX8 Green UDU\\PUP-120.png",
+        "entry": null,
+        "path": "images/PUP-120.jpg",
+        "sha256": "6f83d391d79376f854dd040cc91e6ba1992a33260903c3887535fe17584e89b2",
+        "imageVersion": "6f83d391d793",
+        "dimensions": [
+          1061,
+          1482
+        ],
+        "bytes": 398883,
+        "orientation": "Portrait"
+      },
+      {
+        "id": "TOKEN-UDU",
+        "accessory": true,
+        "alternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\UDU.png",
+        "sourceSha256": "64848b2c75d9919104b673423d6e048108aa3b328d2700dc464fb06bb8e9aef6",
+        "path": "tcga/assets/energy/UDU.jpg",
+        "sha256": "b5d9da481db691da4d94c1dc2f0d0d4e6a12a12e6711369691e62c920b837155",
+        "imageVersion": "b5d9da481db6",
+        "dimensions": [
+          1054,
+          1492
+        ],
+        "orientation": "Portrait",
+        "bytes": 482617
+      },
+      {
+        "id": "TOKEN-GT-UDU",
+        "accessory": true,
+        "alternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\GT-UDU.png",
+        "sourceSha256": "528719c9c6d3ec5d8efb32d94dbb7a8df8d1831e34b94d74aa1f1889adf976b0",
+        "path": "tcga/assets/guard-tokens/GT-UDU.jpg",
+        "sha256": "0de1d1c3eb8af5134e726e6aba05b61391df95763b4924df9db1d3fd7b6eeaa2",
+        "imageVersion": "0de1d1c3eb8a",
+        "dimensions": [
+          1061,
+          1483
+        ],
+        "orientation": "Portrait",
+        "bytes": 484074
+      },
+      {
+        "id": "TOKEN-SJM-UDU1",
+        "accessory": true,
+        "alternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\SJM-UDU1.png",
+        "sourceSha256": "3a44eff64c24c0fba40114ba4bd70aa02d51f36d4ae854d8586178a40156150c",
+        "path": "tcga/assets/sj-markers/SJM-UDU1.jpg",
+        "sha256": "257f3add0178ab1d0160380082eef00d0b080bd08116a5adb945c039d6811f6a",
+        "imageVersion": "257f3add0178",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "orientation": "Portrait",
+        "bytes": 487475
+      },
+      {
+        "id": "TOKEN-SJM-UDU2",
+        "accessory": true,
+        "alternate": false,
+        "source": "C:\\Users\\User\\Documents\\Codex\\2026-10-31\\continue-as-rune-alex-decclesia-s\\work\\ex8_20261103\\sources\\SJM-UDU2.png",
+        "sourceSha256": "93bf8c3b14970a63121aaf4a876952fdffe6f8d20d0d334e81c9e2e5dae0d986",
+        "path": "tcga/assets/sj-markers/SJM-UDU2.jpg",
+        "sha256": "16c06747f5cb72c400e37196690c55fed2b011127bc1f3a7cca932bd6b36f411",
+        "imageVersion": "16c06747f5cb",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "orientation": "Portrait",
+        "bytes": 485310
+      }
+    ],
+    "changes": [
+      {
+        "id": "ST6-012",
+        "fields": {
+          "effect": {
+            "before": "[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Main] Limit 1 (1) Place this card in your Drop: Play up to 1 \"Megumi Fushiguro\" with a Cost of 3 from your hand or Drop Rested. Then, if your Leader has the \"Sorcerer\" Trait and you have no Energy, Charge 1.",
+            "after": "[On Play] Add up to 1 card from your Life to your hand.\n[Activate: Main] Limit 1 (1) Place this card in your Drop: Play up to 1 \"Megumi Fushiguro\" with a Cost of 3 from your hand or Drop. Then, if your Leader has the \"Sorcerer\" Trait and you have no Energy, Charge 1."
+          }
+        }
+      },
+      {
+        "id": "ST6-063",
+        "fields": {
+          "cost": {
+            "before": "4",
+            "after": "5"
+          }
+        }
+      },
+      {
+        "id": "ST6-082",
+        "fields": {
+          "effect": {
+            "before": "Deflect\n[On Play] Give this card +1 Cost for each of your Life cards. Then, if this card's Cost is 5 or more, Charge 1.\n[On Attack] Limit 1 (1) Place 1 card from your hand in your Drop: If your Leader has the \"Delver\" Trait, Deluge.",
+            "after": "Deflect Unique\n[On Play] Give this card +1 Cost for each of your Life cards. Then, if this card's Cost is 5 or more, Charge 1.\n[On Attack] Limit 1 (1) Place 1 card from your hand in your Drop: If your Leader has the \"Delver\" Trait, Deluge."
+          }
+        }
+      },
+      {
+        "id": "ST6-086",
+        "fields": {
+          "cost": {
+            "before": "2",
+            "after": "3"
+          },
+          "effect": {
+            "before": "Permanent Bond 3 Units with the \"Hollow\" or \"Delver\" Trait: Give this card +2000 Power.\n[On Play] Limit 1 If this card was played from your Deck: Give this card +1 Cost. Then, Deluge.",
+            "after": "Permanent Bond 3 Units with the \"Hollow\" or \"Delver\" Trait: Give this card +2000 Power.\n[On Play] Limit 1 If this card was played from your Deck: Deluge."
+          }
+        }
+      },
+      {
+        "id": "ST6-087",
+        "fields": {
+          "power": {
+            "before": "6000",
+            "after": "5000"
+          }
+        }
+      },
+      {
+        "id": "ST6-088",
+        "fields": {
+          "power": {
+            "before": "3000",
+            "after": "2000"
+          },
+          "rarity": {
+            "before": "UC",
+            "after": "R"
+          }
+        }
+      },
+      {
+        "id": "ST6-091",
+        "fields": {
+          "power": {
+            "before": "3000",
+            "after": "2000"
+          }
+        }
+      },
+      {
+        "id": "ST6-094",
+        "fields": {
+          "cost": {
+            "before": "2",
+            "after": "3"
+          }
+        }
+      },
+      {
+        "id": "ST6-095",
+        "fields": {
+          "power": {
+            "before": "4000",
+            "after": "3000"
+          },
+          "effect": {
+            "before": "[On Play] Bond 2 Units with the \"Hollow\" or \"Delver\" Trait: Overcharge 1.\nClash [Opponent's Play] Limit 1 Place 1 card from your hand in your Drop: If your Leader has the \"Delver\" Trait, play this card from your hand Rested and Deluge.",
+            "after": "Clash [Opponent's Play] Limit 1 (1) Place 1 card from your hand in your Drop: If your Leader has the \"Delver\" Trait, play this card from your hand Rested and Deluge."
+          }
+        }
+      }
+    ],
+    "newRecords": {
+      "EX8-001": {
+        "card_no": "EX8-001",
+        "name": "Andy",
+        "color": "Green",
+        "cost": "",
+        "sj_cost": "",
+        "life": "5",
+        "power": "5000",
+        "counter": "",
+        "traits": "Undead / Negator / Union",
+        "set": "UDU",
+        "rarity": "L",
+        "bottom_right_circle": "G",
+        "effect": "[Opponent's Turn] Once per Turn When you take damage: Draw 1 card; place 1 card from your hand in your Drop. Then, add 1 Loop counter to this card.\n[Activate: Main] Place up to 1 \"Roundtable\" from your JUMP Deck on your field. Then, draw 1 card and negate this skill for the game.\nThreshold 0 [Activate: Battle] Once per Turn For each Loop counter removed from this card by your skill(s) during this battle, give this card +1000 Power for the turn.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Leader",
+        "deck_limit": 1,
+        "orientation": "Portrait"
+      },
+      "EX8-002": {
+        "card_no": "EX8-002",
+        "name": "Andy",
+        "color": "Green",
+        "cost": "5",
+        "sj_cost": "",
+        "life": "",
+        "power": "5000",
+        "counter": "0",
+        "traits": "Undead / Negator / Union",
+        "set": "UDU",
+        "rarity": "SR",
+        "bottom_right_circle": "G",
+        "effect": "Deflect\n[On Attack] Remove all Loop counters from your \"Andy\" Leader and add all of your Life cards to your hand. Then, if you removed 4 or more Loop counters and your Opponent has 2 or more Life, place the top of their Life cards in their Drop.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-003": {
+        "card_no": "EX8-003",
+        "name": "Fuko Izumo",
+        "color": "Green",
+        "cost": "3",
+        "sj_cost": "",
+        "life": "",
+        "power": "4000",
+        "counter": "0",
+        "traits": "Unluck / Negator / Union",
+        "set": "UDU",
+        "rarity": "SR",
+        "bottom_right_circle": "G",
+        "effect": "[On Play] Look at the top 5 cards of your Deck; add up to 1 card with the \"Union\" Trait to your hand. Then, place the rest at the bottom of your Deck in any order.\n[Activate: Battle] Once per Turn If there are 3 or more Loop counters on your \"Andy\" Leader: Give this card +2000 Power until the end of your Opponent's next turn.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-004": {
+        "card_no": "EX8-004",
+        "name": "Shen Xiang",
+        "color": "Green",
+        "cost": "3",
+        "sj_cost": "",
+        "life": "",
+        "power": "5000",
+        "counter": "1000",
+        "traits": "Untruth / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "Permanent If your Leader has 3 or more Loop counters, give this card Break.\n[Activate: Battle] Limit 1 Remove 1 Loop counter from your Leader: Switch up to 1 of your Units with the \"Negator\" Trait to Active mode and it cannot attack for the turn.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-005": {
+        "card_no": "EX8-005",
+        "name": "Juiz d'Arc",
+        "color": "Green",
+        "cost": "2",
+        "sj_cost": "",
+        "life": "",
+        "power": "4000",
+        "counter": "0",
+        "traits": "Unjustice / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "Permanent If your Leader has 3 or more Loop counters, give this card Blocker.\n[On Play / On K.O.] Limit 1 Add 1 Loop counter to your Leader.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-006": {
+        "card_no": "EX8-006",
+        "name": "Billy Alfred",
+        "color": "Green",
+        "cost": "2",
+        "sj_cost": "",
+        "life": "",
+        "power": "1000",
+        "counter": "1000",
+        "traits": "Unfair / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "Deflect\nPermanent Give this card +1000 Power for each Loop counter on your Leader.\n[On Play] If your Leader has 3 or more Loop counters, Overcharge 2 and you can't Overcharge for the turn.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-007": {
+        "card_no": "EX8-007",
+        "name": "Tatiana",
+        "color": "Green",
+        "cost": "3",
+        "sj_cost": "",
+        "life": "",
+        "power": "4000",
+        "counter": "1000",
+        "traits": "Untouchable / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "Permanent If your Leader has 4 or more Loop counters, give this card Barrier and Blocker.\n[On Block] Limit 1 Remove 1 Loop counter from your Leader: Switch this card to Active mode and give it +2000 Power for the turn.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-008": {
+        "card_no": "EX8-008",
+        "name": "Top Bull Sparx",
+        "color": "Green",
+        "cost": "1",
+        "sj_cost": "",
+        "life": "",
+        "power": "1000",
+        "counter": "2000",
+        "traits": "Unstoppable / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[On Play] Choose up to 1 of your Opponent's Units with a Cost equal to or less than the Loop counters on your Leader and K.O. it. Then, K.O. this card.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-009": {
+        "card_no": "EX8-009",
+        "name": "Shigeno Chikara",
+        "color": "Green",
+        "cost": "2",
+        "sj_cost": "",
+        "life": "",
+        "power": "2000",
+        "counter": "2000",
+        "traits": "Unmove / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[On Play] Choose up to 1 of your Opponent's Units with a Cost equal to or less than the Loop counters on your Leader and it cannot attack or be used in a combo until the end of your Opponent's next turn.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-010": {
+        "card_no": "EX8-010",
+        "name": "Gina Chamber",
+        "color": "Green",
+        "cost": "4",
+        "sj_cost": "",
+        "life": "",
+        "power": "4000",
+        "counter": "1000",
+        "traits": "Unchange / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[On Play] If your Leader has the \"Negator\" Trait: Choose up to 1 of your Opponent's Units with a Cost of 3 or less and K.O. it. If your Leader has 5 or more Loop counters, choose up to 1 of your Opponent's Units with a Cost of 4 or less, ignoring Barrier, instead.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-011": {
+        "card_no": "EX8-011",
+        "name": "Rip Tristan",
+        "color": "Green",
+        "cost": "5",
+        "sj_cost": "",
+        "life": "",
+        "power": "5000",
+        "counter": "1000",
+        "traits": "Unrepair / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "Elusive\n[On Play] Remove all Loop counters from your Leader and, if you removed at least 1, choose up to 1 of your Opponent's Units and K.O. it.\n[End of your Turn] If there are 1 or less Loop counter(s) on your Leader: Add 1 Loop counter on your Leader.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-012": {
+        "card_no": "EX8-012",
+        "name": "Nico Vorgeil",
+        "color": "Green",
+        "cost": "2",
+        "sj_cost": "",
+        "life": "",
+        "power": "1000",
+        "counter": "2000",
+        "traits": "Unforgettable / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[On Play] Rest this card: Remove 3 Loop counters from your Leader and add up to 1 Action card with the \"Negator\" Trait from your Drop to your hand.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-013": {
+        "card_no": "EX8-013",
+        "name": "Phil Hawkins",
+        "color": "Green",
+        "cost": "1",
+        "sj_cost": "",
+        "life": "",
+        "power": "1000",
+        "counter": "2000",
+        "traits": "Unfeel / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[On Play] Remove 1 Loop counter from your Leader: Choose up to 2 of your Opponent's Units with a Cost of 1 or less and K.O. them.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-014": {
+        "card_no": "EX8-014",
+        "name": "Creed Deckard",
+        "color": "Green",
+        "cost": "4",
+        "sj_cost": "",
+        "life": "",
+        "power": "5000",
+        "counter": "0",
+        "traits": "Undecrease / Negator / Union",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "Unique\nPermanent If this card's Power would be reduced by your Opponent's skill(s), you may remove 2 Loop counters from your Leader instead.\n[Your Turn] Once per Turn When a Loop counter(s) is removed from your Leader, give this card +1000 Power for the turn.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-015": {
+        "card_no": "EX8-015",
+        "name": "Victor",
+        "color": "Green",
+        "cost": "9",
+        "sj_cost": "",
+        "life": "",
+        "power": "9000",
+        "counter": "0",
+        "traits": "Undead / Negator",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[On Play] Remove up to 3 Loop counters from your Leader: Choose that many of your Opponent's Rested Units, ignoring Barrier, and K.O. them.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-016": {
+        "card_no": "EX8-016",
+        "name": "Undead + Unluck",
+        "color": "Green",
+        "cost": "0",
+        "sj_cost": "",
+        "life": "",
+        "power": "",
+        "counter": "",
+        "traits": "Negator",
+        "set": "UDU",
+        "rarity": "SR",
+        "bottom_right_circle": "G",
+        "effect": "[Activate: Battle] Limit 1 Remove up to 2 Loop counters from your \"Andy\" Leader: Give your Leader or up to 1 of your Units with the \"Negator\" Trait, that's in a battle with your Opponent's Leader, +1000 Power for each counter removed by this card's skill for the battle. Then, at the end of the battle, if no damage was dealt to your Opponent's Leader, you may place 1 card from your hand in your Drop to add this card from your Drop to your hand and place 1 Loop counter on your Leader.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-017": {
+        "card_no": "EX8-017",
+        "name": "To You, From Me",
+        "color": "Green",
+        "cost": "0",
+        "sj_cost": "",
+        "life": "",
+        "power": "",
+        "counter": "",
+        "traits": "Unluck",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[Activate: Main] Limit 1 Remove 2 Loop counters from your Leader: Add up to 1 \"Fuko Izumo\" from your Drop or Archive to your hand.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-018": {
+        "card_no": "EX8-018",
+        "name": "Bad Luck",
+        "color": "Green",
+        "cost": "3",
+        "sj_cost": "",
+        "life": "",
+        "power": "",
+        "counter": "",
+        "traits": "Negator",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "You can also activate this card's Clash skill by removing 2 cards with a Cost of 0 that mention Loop counter(s) in their text in your Drop from the game instead of paying for its Cost.\nClash [Opponent's Attack] Limit 1 Play 1 Unit card with a Cost of 3 or less from your Drop with its skills negated for the game and make it the new attack target; it cannot be K.O.'d by this battle.",
+        "release": "EX8",
+        "deck_zone": "Main",
+        "card_category": "Main Deck",
+        "deck_limit": 4,
+        "orientation": "Portrait"
+      },
+      "EX8-019": {
+        "card_no": "EX8-019",
+        "name": "Roundtable",
+        "color": "Green",
+        "cost": "8",
+        "sj_cost": "8",
+        "life": "",
+        "power": "",
+        "counter": "",
+        "traits": "",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[Opponent's Turn] When your Life becomes 0: Remove all Loop counters from your Leader, add the top of your Deck at the top of your Life and negate this skill for the game.\n[Activate: Main] Once per Turn (1) Add 1 Loop counter to your \"Andy\" Leader. Then, draw 1 card; place 1 card from your hand in your Drop.",
+        "release": "EX8",
+        "deck_zone": "JUMP",
+        "card_category": "Main Deck",
+        "deck_limit": 1,
+        "orientation": "Landscape"
+      },
+      "EX8-020": {
+        "card_no": "EX8-020",
+        "name": "Meteoric Regeneration",
+        "color": "Green",
+        "cost": "1",
+        "sj_cost": "1",
+        "life": "",
+        "power": "",
+        "counter": "",
+        "traits": "",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[Opponent's Turn] Once per Turn When you take damage: Add 1 Loop counter to this card. Then, if this card has 3 Loop counters, negate this skill for the game.\n[Activate: Main] Remove all Loop counters from this card: add that many Loop counters to your \"Andy\" Leader. Then, remove this card from the game.",
+        "release": "EX8",
+        "deck_zone": "JUMP",
+        "card_category": "Main Deck",
+        "deck_limit": 1,
+        "orientation": "Landscape"
+      },
+      "EX8-021": {
+        "card_no": "EX8-021",
+        "name": "Unluck Bullet",
+        "color": "Green",
+        "cost": "2",
+        "sj_cost": "1",
+        "life": "",
+        "power": "",
+        "counter": "",
+        "traits": "",
+        "set": "UDU",
+        "rarity": "R",
+        "bottom_right_circle": "G",
+        "effect": "[Activate: Main] Remove this card from the game: Choose up to 1 of your Opponent's Units with an original Cost of 2 or less and K.O. it. If your Leader is \"Andy\", you may remove 2 Loop counters from your Leader to choose up to 2 of your Opponent's Units with an original Cost of 3 or less instead.",
+        "release": "EX8",
+        "deck_zone": "JUMP",
+        "card_category": "Main Deck",
+        "deck_limit": 1,
+        "orientation": "Landscape"
+      },
+      "PUP-120": {
+        "card_no": "PUP-120",
+        "name": "Andy",
+        "color": "Green",
+        "cost": "4",
+        "sj_cost": "2",
+        "life": "",
+        "power": "4000",
+        "counter": "",
+        "traits": "Undead / Negator / Union",
+        "set": "UDU",
+        "rarity": "P",
+        "bottom_right_circle": "G",
+        "effect": "[On Attack] If this card was played this turn: Add any number of your Life cards to your hand; remove 2 Loop counters from your Leader, switch this card to Active mode and give it +1000 Power for the turn. Then, at the end of the battle, you may place 1 card from your hand in Drop and play 1 \"Andy\" with a Cost of 5 on top of this card from your hand.",
+        "release": "PUP",
+        "deck_zone": "JUMP",
+        "card_category": "Main Deck",
+        "deck_limit": 1,
+        "orientation": "Portrait"
+      },
+      "PUP-121": {
+        "card_no": "PUP-121",
+        "name": "Fuko Izumo",
+        "color": "Green",
+        "cost": "2",
+        "sj_cost": "2",
+        "life": "",
+        "power": "3000",
+        "counter": "",
+        "traits": "Negator / Unluck / Union",
+        "set": "UDU",
+        "rarity": "P",
+        "bottom_right_circle": "G",
+        "effect": "Permanent If your Leader has 3 or more Loop counters, give this card Barrier.\n[Activate: Battle] Once per Turn Remove 1 Loop counter from your Leader: Choose up to 1 of your Opponent's Units that's in a battle with your Leader and give it -1000 Power for the battle.",
+        "release": "PUP",
+        "deck_zone": "JUMP",
+        "card_category": "Main Deck",
+        "deck_limit": 1,
+        "orientation": "Portrait"
+      }
+    },
+    "sourceAgreementReceipts": {
+      "udu": "08035165c745bef7c2df945b2f68e2150ff2e7be748da20d32524e5a2b44a6ab",
+      "fixes": "308cd998b1ab49c54d866e0cb94b82c957eb08a0166bab9d53c85f9390b7030a",
+      "wha": "b070f27c2ec5d13d04904ff6ee2f53b87200adee3b44452fac34b6d67de0f107"
+    },
+    "ordinaryEnergyReplacement": "TOKEN-UDU",
+    "simulatorEligibleIDs": [
+      "EX8-001",
+      "EX8-002",
+      "EX8-003",
+      "EX8-004",
+      "EX8-005",
+      "EX8-006",
+      "EX8-007",
+      "EX8-008",
+      "EX8-009",
+      "EX8-010",
+      "EX8-011",
+      "EX8-012",
+      "EX8-013",
+      "EX8-014",
+      "EX8-015",
+      "EX8-016",
+      "EX8-017",
+      "EX8-018",
+      "EX8-019",
+      "EX8-020",
+      "EX8-021",
+      "PUP-120",
+      "PUP-121",
+      "ST6-012",
+      "ST6-063",
+      "ST6-082",
+      "ST6-086",
+      "ST6-087",
+      "ST6-088",
+      "ST6-091",
+      "ST6-094",
+      "ST6-095"
+    ],
+    "scope": "Public database/localplanner and separately coordinated matchingSIM. No Arena/SupportMap/privateart/account mutations in this importer.",
+    "elapsedSeconds": 2.94
   }
 }
