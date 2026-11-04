@@ -129,7 +129,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "377da3b96d8a"
+    "imageVersion": "5f489a7af46a"
   },
   {
     "number": "EX1-010",
@@ -197,7 +197,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "e7387394d86a"
+    "imageVersion": "42546bd9858f"
   },
   {
     "number": "EX1-015",
@@ -221,7 +221,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "a0fb4157b795"
+    "imageVersion": "bfbc4a7cea20"
   },
   {
     "number": "EX1-017",
@@ -233,7 +233,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "69b348b9f139"
+    "imageVersion": "5d217c75d10d"
   },
   {
     "number": "EX1-018",
@@ -269,7 +269,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "7250d5c20285"
+    "imageVersion": "6379cd9ade91"
   },
   {
     "number": "EX1-021",
@@ -2625,7 +2625,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "7830b462e72c"
+    "imageVersion": "64f5f9016405"
   },
   {
     "number": "PUP-007",
@@ -2697,7 +2697,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Portrait",
-    "imageVersion": "b1b9b691ed7c"
+    "imageVersion": "530c38afa163"
   },
   {
     "number": "PUP-013",
@@ -2757,7 +2757,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "1f45abb3adcb"
+    "imageVersion": "55d84bf5c4f9"
   },
   {
     "number": "PUP-018",
@@ -2781,7 +2781,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "102c0b5eb6b0"
+    "imageVersion": "36bafd4c9084"
   },
   {
     "number": "PUP-020",
@@ -2805,7 +2805,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "4fad5e1a9879"
+    "imageVersion": "3d40b48a7c90"
   },
   {
     "number": "PUP-022",
@@ -5165,7 +5165,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 1,
     "orientation": "Landscape",
-    "imageVersion": "4dd12eaab15a"
+    "imageVersion": "0c6f3ed53ebb"
   },
   {
     "number": "SD3-001",
@@ -8256,7 +8256,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "04d6ddcb71b4"
+    "imageVersion": "8e26c18da07b"
   },
   {
     "number": "ST1-087",
@@ -8268,7 +8268,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "6226a00f54a8"
+    "imageVersion": "081bc1ec05ed"
   },
   {
     "number": "ST1-088",
@@ -8300,7 +8300,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "b62b40b852a3"
+    "imageVersion": "108eacf50e98"
   },
   {
     "number": "ST1-090",
@@ -8332,7 +8332,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "f11b1f7e00d9"
+    "imageVersion": "46365c41af92"
   },
   {
     "number": "ST1-092",
@@ -8344,7 +8344,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "56dd9af05bdc"
+    "imageVersion": "b89886a196e5"
   },
   {
     "number": "ST1-093",
