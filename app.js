@@ -12,8 +12,8 @@ let deckSortMode = "number";
 
 const MAIN_DECK_SIZE = 50;
 const JUMP_DECK_SIZE = 10;
-const colorLetters = { Yellow: "Y", Red: "R", Blue: "B", Green: "G", Pink: "P" };
-const colorOrder = { Yellow: 0, Red: 1, Blue: 2, Green: 3, Pink: 4 };
+const colorLetters = { Yellow: "Y", Red: "R", Blue: "B", Green: "G", Pink: "P", Copper: "C" };
+const colorOrder = { Yellow: 0, Red: 1, Blue: 2, Green: 3, Pink: 4, Copper: 5 };
 const typeOrder = { Leader: 0, "Main Deck": 1, "JUMP Deck": 2 };
 const RED_KEYWORD_GLOSSARY = {
   "Blocker": "When your Opponent attacks, Rest this Unit and make it the new attack target.",
@@ -1146,8 +1146,8 @@ function drawExportHeaderLine(ctx, leader, x, y) {
   ctx.fillText(`•  Main: ${mainDeckTotal()}/50  •  JUMP: ${jumpDeckTotal()}/${JUMP_DECK_SIZE}`, cursor, y);
 }
 function drawColorBadgeOnCanvas(ctx, color, x, y, size) {
-  const fills = { Yellow: "#ffd84d", Red: "#ef5350", Blue: "#42a5f5", Green: "#66bb6a", Pink: "#f48fb1" };
-  const textColors = { Yellow: "#111", Red: "#fff", Blue: "#fff", Green: "#fff", Pink: "#111" };
+  const fills = { Yellow: "#ffd84d", Red: "#ef5350", Blue: "#42a5f5", Green: "#66bb6a", Pink: "#f48fb1", Copper: "#c9824a" };
+  const textColors = { Yellow: "#111", Red: "#fff", Blue: "#fff", Green: "#fff", Pink: "#111", Copper: "#17100b" };
   ctx.save();
   ctx.beginPath();
   ctx.arc(x + size / 2, y + size / 2, size / 2, 0, Math.PI * 2);

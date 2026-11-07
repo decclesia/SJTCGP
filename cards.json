@@ -1,5 +1,581 @@
 [
   {
+    "number": "EW1-001",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "d8f15126263c",
+    "altImages": [
+      {
+        "label": "EW1 — Alt Art",
+        "image": "images/EW1-001-alt1.jpg",
+        "release": "EW1",
+        "imageVersion": "a9771c4c5301"
+      }
+    ]
+  },
+  {
+    "number": "EW1-002",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "133b2213831f",
+    "altImages": [
+      {
+        "label": "EW1 — Alt Art",
+        "image": "images/EW1-002-alt1.jpg",
+        "release": "EW1",
+        "imageVersion": "8e1e23ea1ebf"
+      }
+    ]
+  },
+  {
+    "number": "EW1-003",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "6602793a6b40",
+    "altImages": [
+      {
+        "label": "EW1 — Alt Art",
+        "image": "images/EW1-003-alt1.jpg",
+        "release": "EW1",
+        "imageVersion": "37b2acbc24c7"
+      }
+    ]
+  },
+  {
+    "number": "EW1-004",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "ee81d3e7bbdb",
+    "altImages": [
+      {
+        "label": "EW1 — Alt Art",
+        "image": "images/EW1-004-alt1.jpg",
+        "release": "EW1",
+        "imageVersion": "038e9cbb5aba"
+      }
+    ]
+  },
+  {
+    "number": "EW1-005",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "026e3bcb7a85"
+  },
+  {
+    "number": "EW1-006",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "88e1c1ab5606",
+    "altImages": [
+      {
+        "label": "EW1 — Alt Art",
+        "image": "images/EW1-006-alt1.jpg",
+        "release": "EW1",
+        "imageVersion": "f2d265efd404"
+      }
+    ]
+  },
+  {
+    "number": "EW1-007",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "2c0da212a6fc"
+  },
+  {
+    "number": "EW1-008",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "7fba6d9b1329"
+  },
+  {
+    "number": "EW1-009",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "d12aa0987ebb"
+  },
+  {
+    "number": "EW1-010",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "ea908646b1f2"
+  },
+  {
+    "number": "EW1-011",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "ee6bb1de183c"
+  },
+  {
+    "number": "EW1-012",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "7f10077c7bfb"
+  },
+  {
+    "number": "EW1-013",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "03f8ef47b405"
+  },
+  {
+    "number": "EW1-014",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "f1515696ceb3"
+  },
+  {
+    "number": "EW1-015",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "68bac67a0350"
+  },
+  {
+    "number": "EW1-016",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "af2ee8451b7b"
+  },
+  {
+    "number": "EW1-017",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-017.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "d293580c0985"
+  },
+  {
+    "number": "EW1-018",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "94bd2f668953"
+  },
+  {
+    "number": "EW1-019",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-019.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "1b7cd4864bf1"
+  },
+  {
+    "number": "EW1-020",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-020.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "98be5ebb2ba6"
+  },
+  {
+    "number": "EW1-021",
+    "release": "EW1",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/EW1-021.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "37d1905acfdd"
+  },
+  {
+    "number": "EW3-001",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "1649c561cd1b",
+    "altImages": [
+      {
+        "label": "EW3 — Alt Art",
+        "image": "images/EW3-001-alt1.jpg",
+        "release": "EW3",
+        "imageVersion": "f60ff242ea0c"
+      }
+    ]
+  },
+  {
+    "number": "EW3-002",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "2b1a85788c42"
+  },
+  {
+    "number": "EW3-003",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "7f29d067288f",
+    "altImages": [
+      {
+        "label": "EW3 — Alt Art",
+        "image": "images/EW3-003-alt1.jpg",
+        "release": "EW3",
+        "imageVersion": "d3099e7f40ae"
+      }
+    ]
+  },
+  {
+    "number": "EW3-004",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "80c0543374ed",
+    "altImages": [
+      {
+        "label": "EW3 — Alt Art",
+        "image": "images/EW3-004-alt1.jpg",
+        "release": "EW3",
+        "imageVersion": "9dfe55cb6a23"
+      }
+    ]
+  },
+  {
+    "number": "EW3-005",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "903a77ad8cc6"
+  },
+  {
+    "number": "EW3-006",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "ec6153bfbc4c"
+  },
+  {
+    "number": "EW3-007",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "e08b6393d204"
+  },
+  {
+    "number": "EW3-008",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "1823aa104676"
+  },
+  {
+    "number": "EW3-009",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "dd45af8332fc"
+  },
+  {
+    "number": "EW3-010",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "c546230f0b30"
+  },
+  {
+    "number": "EW3-011",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "5bdf7ed4236d"
+  },
+  {
+    "number": "EW3-012",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "1cc7fa495763",
+    "altImages": [
+      {
+        "label": "EW3 — Alt Art",
+        "image": "images/EW3-012-alt1.jpg",
+        "release": "EW3",
+        "imageVersion": "7d59b79268cf"
+      }
+    ]
+  },
+  {
+    "number": "EW3-013",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "1355ac5207c2"
+  },
+  {
+    "number": "EW3-014",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "f523d4db0eaa"
+  },
+  {
+    "number": "EW3-015",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "3d4c905e640d"
+  },
+  {
+    "number": "EW3-016",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "711fbf3fb38f"
+  },
+  {
+    "number": "EW3-017",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-017.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "178548e63398"
+  },
+  {
+    "number": "EW3-018",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "132bc21c7a5a"
+  },
+  {
+    "number": "EW3-019",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-019.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "cee4d88eb550"
+  },
+  {
+    "number": "EW3-020",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-020.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "8a2171dc3399"
+  },
+  {
+    "number": "EW3-021",
+    "release": "EW3",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/EW3-021.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "7e1d5ba18de4"
+  },
+  {
     "number": "EX1-001",
     "release": "EX1",
     "set": "GKA",
@@ -4078,6 +4654,62 @@
     "deckLimit": 1,
     "orientation": "Portrait",
     "imageVersion": "229794e856c2"
+  },
+  {
+    "number": "PUP-128",
+    "release": "PUP",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/PUP-128.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "1183749be7ec"
+  },
+  {
+    "number": "PUP-129",
+    "release": "PUP",
+    "set": "TRC",
+    "color": "Copper",
+    "image": "images/PUP-129.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "b6883fa2a8ca"
+  },
+  {
+    "number": "PUP-132",
+    "release": "PUP",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/PUP-132.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "82bb9098ce00",
+    "altImages": [
+      {
+        "label": "EW3 — Alt Art",
+        "image": "images/PUP-132-alt1.jpg",
+        "release": "EW3",
+        "imageVersion": "e4522799c38e"
+      }
+    ]
+  },
+  {
+    "number": "PUP-133",
+    "release": "PUP",
+    "set": "ATR",
+    "color": "Copper",
+    "image": "images/PUP-133.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "242fe4cb4c32"
   },
   {
     "number": "SD1-001",

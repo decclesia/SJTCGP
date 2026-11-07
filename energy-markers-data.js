@@ -7,6 +7,13 @@ window.SJTCG_ENERGY_MARKERS = [
     "imageVersion": "86de0b1d4a97"
   },
   {
+    "id": "TOKEN-ATR",
+    "set": "ATR",
+    "name": "Energy Marker ATR",
+    "image": "tcga/assets/energy/ATR.jpg",
+    "imageVersion": "aa0be5e06747"
+  },
+  {
     "id": "TOKEN-BAK",
     "set": "BAK",
     "name": "Energy Marker BAK",
@@ -306,6 +313,13 @@ window.SJTCG_ENERGY_MARKERS = [
     "name": "Energy Marker TKG",
     "image": "tcga/assets/energy/TKG.jpg",
     "imageVersion": "f4a4505a1372"
+  },
+  {
+    "id": "TOKEN-TRC",
+    "set": "TRC",
+    "name": "Energy Marker TRC",
+    "image": "tcga/assets/energy/TRC.jpg",
+    "imageVersion": "d499fb1a4aee"
   },
   {
     "id": "TOKEN-UDU",

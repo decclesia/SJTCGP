@@ -16,6 +16,14 @@ window.SJTCG_ACCESSORIES = [
     "imageVersion": "86de0b1d4a97"
   },
   {
+    "id": "TOKEN-ATR",
+    "set": "ATR",
+    "name": "Energy Marker ATR",
+    "image": "tcga/assets/energy/ATR.jpg",
+    "imageVersion": "aa0be5e06747",
+    "kind": "energy"
+  },
+  {
     "id": "TOKEN-BAK",
     "set": "BAK",
     "kind": "energy",
@@ -166,6 +174,14 @@ window.SJTCG_ACCESSORIES = [
     "name": "Guard Trigger ANE",
     "image": "tcga/assets/guard-tokens/GT-ANE.jpg",
     "imageVersion": "2d193598ab97"
+  },
+  {
+    "id": "TOKEN-GT-ATR",
+    "set": "ATR",
+    "kind": "guard",
+    "name": "Guard Trigger ATR",
+    "image": "tcga/assets/guard-tokens/GT-ATR.jpg",
+    "imageVersion": "c15f01e96261"
   },
   {
     "id": "TOKEN-GT-BCL",
@@ -456,6 +472,14 @@ window.SJTCG_ACCESSORIES = [
     "imageVersion": "bd6fc7cac794"
   },
   {
+    "id": "TOKEN-GT-TRC",
+    "set": "TRC",
+    "kind": "guard",
+    "name": "Guard Trigger TRC",
+    "image": "tcga/assets/guard-tokens/GT-TRC.jpg",
+    "imageVersion": "fb04c266ebea"
+  },
+  {
     "id": "TOKEN-GT-UDU",
     "set": "UDU",
     "kind": "guard",
@@ -702,6 +726,22 @@ window.SJTCG_ACCESSORIES = [
     "name": "SJ Marker ANE3",
     "image": "tcga/assets/sj-markers/SJM-ANE3.jpg",
     "imageVersion": "ea2864f9dc67"
+  },
+  {
+    "id": "TOKEN-SJM-ATR1",
+    "set": "ATR",
+    "kind": "sj",
+    "name": "SJ Marker ATR1",
+    "image": "tcga/assets/sj-markers/SJM-ATR1.jpg",
+    "imageVersion": "f18e61eab5fd"
+  },
+  {
+    "id": "TOKEN-SJM-ATR2",
+    "set": "ATR",
+    "kind": "sj",
+    "name": "SJ Marker ATR2",
+    "image": "tcga/assets/sj-markers/SJM-ATR2.jpg",
+    "imageVersion": "7b6da35061f3"
   },
   {
     "id": "TOKEN-SJM-BCL1",
@@ -1216,6 +1256,22 @@ window.SJTCG_ACCESSORIES = [
     "imageVersion": "b4ba4ff37625"
   },
   {
+    "id": "TOKEN-SJM-TRC1",
+    "set": "TRC",
+    "kind": "sj",
+    "name": "SJ Marker TRC1",
+    "image": "tcga/assets/sj-markers/SJM-TRC1.jpg",
+    "imageVersion": "3ab184da4984"
+  },
+  {
+    "id": "TOKEN-SJM-TRC2",
+    "set": "TRC",
+    "kind": "sj",
+    "name": "SJ Marker TRC2",
+    "image": "tcga/assets/sj-markers/SJM-TRC2.jpg",
+    "imageVersion": "4186700e31d3"
+  },
+  {
     "id": "TOKEN-SJM-UDU1",
     "set": "UDU",
     "kind": "sj",
@@ -1358,6 +1414,14 @@ window.SJTCG_ACCESSORIES = [
     "name": "Energy Marker TKG",
     "image": "tcga/assets/energy/TKG.jpg",
     "imageVersion": "f4a4505a1372"
+  },
+  {
+    "id": "TOKEN-TRC",
+    "set": "TRC",
+    "name": "Energy Marker TRC",
+    "image": "tcga/assets/energy/TRC.jpg",
+    "imageVersion": "d499fb1a4aee",
+    "kind": "energy"
   },
   {
     "id": "TOKEN-UDU",

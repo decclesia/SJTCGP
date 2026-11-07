@@ -1103,3 +1103,6 @@ body.dark .keyword-popover-panel h2 { color: #ff7279; }
   .modal-stats { grid-template-columns: repeat(3, 1fr); }
   body.compact-grid .card-grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
 }
+
+/* Copper — independent Elseworlds releases. */
+.color-copper { background: #c9824a; color: #17100b; }
