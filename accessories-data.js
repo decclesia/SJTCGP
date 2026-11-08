@@ -171,7 +171,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-ANE",
     "set": "ANE",
     "kind": "guard",
-    "name": "Guard Trigger ANE",
+    "name": "Guard Token ANE",
     "image": "tcga/assets/guard-tokens/GT-ANE.jpg",
     "imageVersion": "2d193598ab97"
   },
@@ -179,7 +179,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-ATR",
     "set": "ATR",
     "kind": "guard",
-    "name": "Guard Trigger ATR",
+    "name": "Guard Token ATR",
     "image": "tcga/assets/guard-tokens/GT-ATR.jpg",
     "imageVersion": "c15f01e96261"
   },
@@ -187,7 +187,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-BCL",
     "set": "BCL",
     "kind": "guard",
-    "name": "Guard Trigger BCL",
+    "name": "Guard Token BCL",
     "image": "tcga/assets/guard-tokens/GT-BCL.jpg",
     "imageVersion": "ecc6885a4ef3"
   },
@@ -195,7 +195,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-BLC",
     "set": "BLC",
     "kind": "guard",
-    "name": "Guard Trigger BLC",
+    "name": "Guard Token BLC",
     "image": "tcga/assets/guard-tokens/GT-BLC.jpg",
     "imageVersion": "4a36c00f20f1"
   },
@@ -203,7 +203,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-BSK",
     "set": "BSK",
     "kind": "guard",
-    "name": "Guard Trigger BSK",
+    "name": "Guard Token BSK",
     "image": "tcga/assets/guard-tokens/GT-BSK.jpg",
     "imageVersion": "539dba8b08cf"
   },
@@ -211,7 +211,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-CCS",
     "set": "CCS",
     "kind": "guard",
-    "name": "Guard Trigger CCS",
+    "name": "Guard Token CCS",
     "image": "tcga/assets/guard-tokens/GT-CCS.jpg",
     "imageVersion": "77f4d5de27dd"
   },
@@ -219,7 +219,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-CSM",
     "set": "CSM",
     "kind": "guard",
-    "name": "Guard Trigger CSM",
+    "name": "Guard Token CSM",
     "image": "tcga/assets/guard-tokens/GT-CSM.jpg",
     "imageVersion": "fd44b608f7f7"
   },
@@ -227,7 +227,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-DBL",
     "set": "DBL",
     "kind": "guard",
-    "name": "Guard Trigger DBL",
+    "name": "Guard Token DBL",
     "image": "tcga/assets/guard-tokens/GT-DBL.jpg",
     "imageVersion": "fbcf54e9fc0b"
   },
@@ -235,7 +235,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-DDD",
     "set": "DDD",
     "kind": "guard",
-    "name": "Guard Trigger ST5 DDD",
+    "name": "Guard Token ST5 DDD",
     "image": "tcga/assets/guard-tokens/GT-DDD.jpg",
     "imageVersion": "c995a09e7331"
   },
@@ -243,7 +243,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-ENS",
     "set": "ENS",
     "kind": "guard",
-    "name": "Guard Trigger ENS",
+    "name": "Guard Token ENS",
     "image": "tcga/assets/guard-tokens/GT-ENS.jpg",
     "imageVersion": "7e74a45fe6bd"
   },
@@ -251,7 +251,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-FMA",
     "set": "FMA",
     "kind": "guard",
-    "name": "Guard Trigger FMA",
+    "name": "Guard Token FMA",
     "image": "tcga/assets/guard-tokens/GT-FMA.jpg",
     "imageVersion": "00f4f85e2f5c"
   },
@@ -259,7 +259,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-FOR",
     "set": "FOR",
     "kind": "guard",
-    "name": "Guard Trigger FOR",
+    "name": "Guard Token FOR",
     "image": "tcga/assets/guard-tokens/GT-FOR.jpg",
     "imageVersion": "5422b2e8f746"
   },
@@ -267,7 +267,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-GKA",
     "set": "GKA",
     "kind": "guard",
-    "name": "Guard Trigger GKA",
+    "name": "Guard Token GKA",
     "image": "tcga/assets/guard-tokens/GT-GKA.jpg",
     "imageVersion": "979ee3807a21"
   },
@@ -275,7 +275,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-GMC",
     "set": "GMC",
     "kind": "guard",
-    "name": "Guard Trigger GMC",
+    "name": "Guard Token GMC",
     "image": "tcga/assets/guard-tokens/GT-GMC.jpg",
     "imageVersion": "c6a374cb0609"
   },
@@ -283,7 +283,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-HNI",
     "set": "HNI",
     "kind": "guard",
-    "name": "Guard Trigger HNI",
+    "name": "Guard Token HNI",
     "image": "tcga/assets/guard-tokens/GT-HNI.jpg",
     "imageVersion": "a21bdf9b0af9"
   },
@@ -291,7 +291,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-INY",
     "set": "INY",
     "kind": "guard",
-    "name": "Guard Trigger INY",
+    "name": "Guard Token INY",
     "image": "tcga/assets/guard-tokens/GT-INY.jpg",
     "imageVersion": "51aa6206aff4"
   },
@@ -299,7 +299,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-JBA",
     "set": "JBA",
     "kind": "guard",
-    "name": "Guard Trigger JBA",
+    "name": "Guard Token JBA",
     "image": "tcga/assets/guard-tokens/GT-JBA.jpg",
     "imageVersion": "0760343adcf0"
   },
@@ -307,7 +307,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-JGR",
     "set": "JGR",
     "kind": "guard",
-    "name": "Guard Trigger JGR",
+    "name": "Guard Token JGR",
     "image": "tcga/assets/guard-tokens/GT-JGR.jpg",
     "imageVersion": "d5db5bad39d2"
   },
@@ -315,7 +315,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-JJK",
     "set": "JJK",
     "kind": "guard",
-    "name": "Guard Trigger JJK",
+    "name": "Guard Token JJK",
     "image": "tcga/assets/guard-tokens/GT-JJK.jpg",
     "imageVersion": "57aa3422c51d"
   },
@@ -323,23 +323,15 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-KNY",
     "set": "KNY",
     "kind": "guard",
-    "name": "Guard Trigger KNY",
+    "name": "Guard Token KNY",
     "image": "tcga/assets/guard-tokens/GT-KNY.jpg",
     "imageVersion": "b901bb5c0c71"
-  },
-  {
-    "id": "TOKEN-GT-KNY2",
-    "set": "KNY",
-    "kind": "guard",
-    "name": "Guard Trigger KNY2",
-    "image": "tcga/assets/guard-tokens/GT-KNY2.jpg",
-    "imageVersion": "6d87101ea5be"
   },
   {
     "id": "TOKEN-GT-MGD",
     "set": "MGD",
     "kind": "guard",
-    "name": "Guard Trigger MGD",
+    "name": "Guard Token MGD",
     "image": "tcga/assets/guard-tokens/GT-MGD.jpg",
     "imageVersion": "96324b25ac7b"
   },
@@ -347,7 +339,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-MIA",
     "set": "MIA",
     "kind": "guard",
-    "name": "Guard Trigger MIA",
+    "name": "Guard Token MIA",
     "image": "tcga/assets/guard-tokens/GT-MIA.jpg",
     "imageVersion": "27bd5474220c"
   },
@@ -355,7 +347,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-MLM",
     "set": "MLM",
     "kind": "guard",
-    "name": "Guard Trigger MLM",
+    "name": "Guard Token MLM",
     "image": "tcga/assets/guard-tokens/GT-MLM.jpg",
     "imageVersion": "0eb86dfee2b5"
   },
@@ -363,23 +355,15 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-NOG",
     "set": "NOG",
     "kind": "guard",
-    "name": "Guard Trigger ST5 NOG",
+    "name": "Guard Token ST5 NOG",
     "image": "tcga/assets/guard-tokens/GT-NOG.jpg",
     "imageVersion": "169015438eb2"
-  },
-  {
-    "id": "TOKEN-GT-NOG2",
-    "set": "NOG",
-    "kind": "guard",
-    "name": "Guard Trigger SD8 NOG",
-    "image": "tcga/assets/guard-tokens/GT-NOG2.jpg",
-    "imageVersion": "1a4f2f8196e4"
   },
   {
     "id": "TOKEN-GT-NRT",
     "set": "NRT",
     "kind": "guard",
-    "name": "Guard Trigger NRT",
+    "name": "Guard Token NRT",
     "image": "tcga/assets/guard-tokens/GT-NRT.jpg",
     "imageVersion": "0fc1f02d5ad7"
   },
@@ -387,7 +371,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-NUR",
     "set": "NUR",
     "kind": "guard",
-    "name": "Guard Trigger NUR",
+    "name": "Guard Token NUR",
     "image": "tcga/assets/guard-tokens/GT-NUR.jpg",
     "imageVersion": "4b72d6786025"
   },
@@ -395,7 +379,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-ONS",
     "set": "ONS",
     "kind": "guard",
-    "name": "Guard Trigger ONS",
+    "name": "Guard Token ONS",
     "image": "tcga/assets/guard-tokens/GT-ONS.jpg",
     "imageVersion": "abed163d8472"
   },
@@ -403,7 +387,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-PRO",
     "set": "PRO",
     "kind": "guard",
-    "name": "Guard Trigger PRO",
+    "name": "Guard Token PRO",
     "image": "tcga/assets/guard-tokens/GT-PRO.jpg",
     "imageVersion": "0080b165b753"
   },
@@ -411,7 +395,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-RKN",
     "set": "RKN",
     "kind": "guard",
-    "name": "Guard Trigger RKN",
+    "name": "Guard Token RKN",
     "image": "tcga/assets/guard-tokens/GT-RKN.jpg",
     "imageVersion": "3120eecdc2e7"
   },
@@ -419,39 +403,15 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-SAF",
     "set": "SAF",
     "kind": "guard",
-    "name": "Guard Trigger SAF",
+    "name": "Guard Token SAF",
     "image": "tcga/assets/guard-tokens/GT-SAF.jpg",
     "imageVersion": "f7f90d05f12b"
-  },
-  {
-    "id": "TOKEN-GT-SD6",
-    "set": "BLC",
-    "kind": "guard",
-    "name": "Guard Trigger SD6 BLC",
-    "image": "tcga/assets/guard-tokens/GT-SD6.jpg",
-    "imageVersion": "d89040dfc375"
-  },
-  {
-    "id": "TOKEN-GT-SD7",
-    "set": "RKN",
-    "kind": "guard",
-    "name": "Guard Trigger SD7 RKN",
-    "image": "tcga/assets/guard-tokens/GT-SD7.jpg",
-    "imageVersion": "5ae8d8e4ba77"
-  },
-  {
-    "id": "TOKEN-GT-SD9",
-    "set": "ANE",
-    "kind": "guard",
-    "name": "Guard Trigger SD9",
-    "image": "tcga/assets/guard-tokens/GT-SD9.jpg",
-    "imageVersion": "89553e34f68f"
   },
   {
     "id": "TOKEN-GT-SKD",
     "set": "SKD",
     "kind": "guard",
-    "name": "Guard Trigger SKD",
+    "name": "Guard Token SKD",
     "image": "tcga/assets/guard-tokens/GT-SKD.jpg",
     "imageVersion": "f7775c427021"
   },
@@ -459,7 +419,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-SLM",
     "set": "SLM",
     "kind": "guard",
-    "name": "Guard Trigger SLM",
+    "name": "Guard Token SLM",
     "image": "tcga/assets/guard-tokens/GT-SLM.jpg",
     "imageVersion": "e52de39b93ef"
   },
@@ -467,7 +427,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-SMK",
     "set": "SMK",
     "kind": "guard",
-    "name": "Guard Trigger SMK",
+    "name": "Guard Token SMK",
     "image": "tcga/assets/guard-tokens/GT-SMK.jpg",
     "imageVersion": "bd6fc7cac794"
   },
@@ -475,7 +435,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-TRC",
     "set": "TRC",
     "kind": "guard",
-    "name": "Guard Trigger TRC",
+    "name": "Guard Token TRC",
     "image": "tcga/assets/guard-tokens/GT-TRC.jpg",
     "imageVersion": "fb04c266ebea"
   },
@@ -483,7 +443,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-UDU",
     "set": "UDU",
     "kind": "guard",
-    "name": "Guard Trigger UDU",
+    "name": "Guard Token UDU",
     "image": "tcga/assets/guard-tokens/GT-UDU.jpg",
     "imageVersion": "0de1d1c3eb8a"
   },
@@ -491,7 +451,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-UTN",
     "set": "UTN",
     "kind": "guard",
-    "name": "Guard Trigger UTN",
+    "name": "Guard Token UTN",
     "image": "tcga/assets/guard-tokens/GT-UTN.jpg",
     "imageVersion": "9a8a6d2a7ea6"
   },
@@ -499,7 +459,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-WHA",
     "set": "WHA",
     "kind": "guard",
-    "name": "Guard Trigger WHA",
+    "name": "Guard Token WHA",
     "image": "tcga/assets/guard-tokens/GT-WHA.jpg",
     "imageVersion": "a4cd74d57122"
   },
@@ -507,7 +467,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-WTG",
     "set": "WTG",
     "kind": "guard",
-    "name": "Guard Trigger WTG",
+    "name": "Guard Token WTG",
     "image": "tcga/assets/guard-tokens/GT-WTG.jpg",
     "imageVersion": "322689857ef9"
   },
@@ -515,7 +475,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-WTW",
     "set": "WTW",
     "kind": "guard",
-    "name": "Guard Trigger WTW",
+    "name": "Guard Token WTW",
     "image": "tcga/assets/guard-tokens/GT-WTW.jpg",
     "imageVersion": "51c2ea5cd2ed"
   },
@@ -523,7 +483,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-XHL",
     "set": "XHL",
     "kind": "guard",
-    "name": "Guard Trigger XHL",
+    "name": "Guard Token XHL",
     "image": "tcga/assets/guard-tokens/GT-XHL.jpg",
     "imageVersion": "f044b5e20ee6"
   },
@@ -531,7 +491,7 @@ window.SJTCG_ACCESSORIES = [
     "id": "TOKEN-GT-YYH",
     "set": "YYH",
     "kind": "guard",
-    "name": "Guard Trigger YYH",
+    "name": "Guard Token YYH",
     "image": "tcga/assets/guard-tokens/GT-YYH.jpg",
     "imageVersion": "bb1b87c344e7"
   },
@@ -1142,6 +1102,14 @@ window.SJTCG_ACCESSORIES = [
     "name": "SJ Marker NRT2",
     "image": "tcga/assets/sj-markers/SJM-NRT2.jpg",
     "imageVersion": "ad7ddf94eea3"
+  },
+  {
+    "id": "TOKEN-SJM-NRT3",
+    "set": "NRT",
+    "kind": "sj",
+    "name": "SJ Marker NRT3",
+    "image": "tcga/assets/sj-markers/SJM-NRT3.jpg",
+    "imageVersion": "fb7bf3cb9097"
   },
   {
     "id": "TOKEN-SJM-NUR1",
