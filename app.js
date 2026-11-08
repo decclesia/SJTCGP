@@ -386,7 +386,7 @@ function showView(view) {
 function populateFilterButtons() {
   renderFilterSelect(elements.releaseFilters, uniqueValues(allCards.flatMap(cardReleases)).sort(compareRelease), "All releases");
   renderFilterSelect(elements.setFilters, uniqueValues(allCards.map(c => c.set)).sort(compareText), "All sets");
-  renderFilterGroup(elements.colorFilters, uniqueValues(allCards.map(c => c.color)).sort(compareColors), "color");
+  renderFilterGroup(elements.colorFilters, uniqueValues(allCards.flatMap(c => cardColors(c.color))).sort(compareColors), "color");
   renderFilterGroup(elements.typeFilters, uniqueValues(allCards.map(c => c.deckCategory)).sort(compareTypes), "type");
 }
 function renderFilterSelect(select, values, allLabel) {
@@ -497,7 +497,7 @@ function renderCards() {
       (!searchTerms.length || searchTerms.every(term => searchableText.includes(term))) &&
       (!activeFilters.release || cardReleases(card).includes(activeFilters.release)) &&
       (!activeFilters.set || card.set === activeFilters.set) &&
-      (!activeFilters.color || card.color === activeFilters.color) &&
+      (!activeFilters.color || cardColors(card.color).includes(activeFilters.color)) &&
       (!activeFilters.type || card.deckCategory === activeFilters.type);
   });
   visibleCards = sortCards(visibleCards, elements.sortSelect ? elements.sortSelect.value : "default");
@@ -653,7 +653,8 @@ function cardBadgesHtml(card) {
   else badges.push(`<span class="badge">Limit ${card.deckLimit}</span>`);
   return badges.join(" ");
 }
-function colorBadgeHtml(color) { const safeColor = escapeHtml(color || "Unknown"); const letter = escapeHtml(colorLetters[color] || "?"); return `<span class="color-badge color-${safeColor.toLowerCase()}" title="${safeColor}">${letter}</span>`; }
+function cardColors(color) { return String(color || "").split("/").map(value => value.trim()).filter(Boolean); }
+function colorBadgeHtml(color) { return (cardColors(color).length ? cardColors(color) : ["Unknown"]).map(value => { const safeColor = escapeHtml(value); const letter = escapeHtml(colorLetters[value] || "?"); return `<span class="color-badge color-${safeColor.toLowerCase()}" title="${safeColor}">${letter}</span>`; }).join(" "); }
 
 function openModal(cards, index, updateUrl = true) {
   if (!elements.modal) return;

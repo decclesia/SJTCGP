@@ -4712,6 +4712,42 @@
     "imageVersion": "242fe4cb4c32"
   },
   {
+    "number": "PUP-134",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/PUP-134.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "34a805f1a8a7"
+  },
+  {
+    "number": "PUP-135",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/PUP-135.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "5db8f1a82a0a"
+  },
+  {
+    "number": "PUP-136",
+    "release": "PUP",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/PUP-136.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "b4ad5f3b7f89"
+  },
+  {
     "number": "SD1-001",
     "release": "SD1",
     "set": "SMK",
@@ -17600,6 +17636,366 @@
         "image": "images/ST6-101-JGR-alt1.jpg",
         "release": "ST6",
         "imageVersion": "951c69863853"
+      }
+    ]
+  },
+  {
+    "number": "ST8-001",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "fc0b56599599",
+    "altImages": [
+      {
+        "label": "ST8 — Alt Art",
+        "image": "images/ST8-001-alt1.jpg",
+        "release": "ST8",
+        "imageVersion": "1c18e65bbae4"
+      }
+    ]
+  },
+  {
+    "number": "ST8-002",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "dbe83ad92d14",
+    "altImages": [
+      {
+        "label": "ST8 — Alt Art",
+        "image": "images/ST8-002-alt1.jpg",
+        "release": "ST8",
+        "imageVersion": "5620f74b56f5"
+      }
+    ]
+  },
+  {
+    "number": "ST8-003",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "f3dc1cb08a1b",
+    "altImages": [
+      {
+        "label": "ST8 — Alt Art",
+        "image": "images/ST8-003-alt1.jpg",
+        "release": "ST8",
+        "imageVersion": "457ba22a79f4"
+      }
+    ]
+  },
+  {
+    "number": "ST8-004",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Green/Yellow",
+    "image": "images/ST8-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "4b96db2b65f8",
+    "altImages": [
+      {
+        "label": "ST8 — Alt Art",
+        "image": "images/ST8-004-alt1.jpg",
+        "release": "ST8",
+        "imageVersion": "ac146618ea2d"
+      }
+    ]
+  },
+  {
+    "number": "ST8-005",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "613ce31d3c9c"
+  },
+  {
+    "number": "ST8-006",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "174cd8b259cb"
+  },
+  {
+    "number": "ST8-007",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Green/Yellow",
+    "image": "images/ST8-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "2c8244032bf9"
+  },
+  {
+    "number": "ST8-008",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "3fecd814652e"
+  },
+  {
+    "number": "ST8-009",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "399df02e1a06"
+  },
+  {
+    "number": "ST8-010",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "ba52bcd2785a"
+  },
+  {
+    "number": "ST8-011",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "3e2974070aab"
+  },
+  {
+    "number": "ST8-012",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "96668269523f"
+  },
+  {
+    "number": "ST8-013",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "8bdc8d7866bb"
+  },
+  {
+    "number": "ST8-014",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "0cbbc2f92dc2"
+  },
+  {
+    "number": "ST8-015",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "98e924fdea47"
+  },
+  {
+    "number": "ST8-016",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "a9c158ccb253"
+  },
+  {
+    "number": "ST8-017",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-017.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "517cb1493a64"
+  },
+  {
+    "number": "ST8-018",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "d503f8147564"
+  },
+  {
+    "number": "ST8-019",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-019.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "af7ce451cab8"
+  },
+  {
+    "number": "ST8-020",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-020.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "ea1c3fe1fb82"
+  },
+  {
+    "number": "ST8-021",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-021.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "0b05ebcc3301"
+  },
+  {
+    "number": "ST8-022",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-022.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "e39733eb1c54"
+  },
+  {
+    "number": "ST8-023",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-023.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "bf140b6a9a6f",
+    "altImages": [
+      {
+        "label": "ST8 — Alt Art",
+        "image": "images/ST8-023-alt1.jpg",
+        "release": "ST8",
+        "imageVersion": "eb0c1e49a384"
+      }
+    ]
+  },
+  {
+    "number": "ST8-024",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-024.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "937d0d42c0ef"
+  },
+  {
+    "number": "ST8-025",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Green/Yellow",
+    "image": "images/ST8-025.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "22fd3366c2f0"
+  },
+  {
+    "number": "ST8-126",
+    "release": "ST8",
+    "set": "NRT",
+    "color": "Yellow",
+    "image": "images/ST8-126.jpg",
+    "deckZone": "Main",
+    "cardType": "Secret Rare",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "ee1020b4fabd",
+    "altImages": [
+      {
+        "label": "ST8 — Alt Art",
+        "image": "images/ST8-126-alt1.jpg",
+        "release": "ST8",
+        "imageVersion": "9c115c478704"
       }
     ]
   }
