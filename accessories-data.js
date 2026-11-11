@@ -1112,6 +1112,14 @@ window.SJTCG_ACCESSORIES = [
     "imageVersion": "fb7bf3cb9097"
   },
   {
+    "id": "TOKEN-SJM-NRT4",
+    "set": "NRT",
+    "kind": "sj",
+    "name": "SJ Marker NRT4",
+    "image": "tcga/assets/sj-markers/SJM-NRT4.jpg",
+    "imageVersion": "5f1661dea227"
+  },
+  {
     "id": "TOKEN-SJM-NUR1",
     "set": "NUR",
     "kind": "sj",
