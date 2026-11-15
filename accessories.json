@@ -392,6 +392,14 @@
     "imageVersion": "0080b165b753"
   },
   {
+    "id": "TOKEN-GT-RDR",
+    "set": "RDR",
+    "kind": "guard",
+    "name": "Guard Token RDR",
+    "image": "tcga/assets/guard-tokens/GT-RDR.jpg",
+    "imageVersion": "f135ef4ead3a"
+  },
+  {
     "id": "TOKEN-GT-RKN",
     "set": "RKN",
     "kind": "guard",
