@@ -1152,6 +1152,22 @@ window.SJTCG_ACCESSORIES = [
     "imageVersion": "83466f7bf917"
   },
   {
+    "id": "TOKEN-SJM-RDR1",
+    "set": "RDR",
+    "kind": "sj",
+    "name": "SJ Marker RDR1",
+    "image": "tcga/assets/sj-markers/SJM-RDR1.jpg",
+    "imageVersion": "4722fb36d31f"
+  },
+  {
+    "id": "TOKEN-SJM-RDR2",
+    "set": "RDR",
+    "kind": "sj",
+    "name": "SJ Marker RDR2",
+    "image": "tcga/assets/sj-markers/SJM-RDR2.jpg",
+    "imageVersion": "11c40ca4bc97"
+  },
+  {
     "id": "TOKEN-SJM-RKN1",
     "set": "RKN",
     "kind": "sj",

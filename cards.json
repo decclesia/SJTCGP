@@ -860,6 +860,290 @@
     "imageVersion": "4f7fc9fdbdc6"
   },
   {
+    "number": "EX10-001",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-001.jpg",
+    "deckZone": "Main",
+    "cardType": "Leader",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "059361e3ec4d",
+    "altImages": [
+      {
+        "label": "EX10 — Alt Art",
+        "image": "images/EX10-001-alt1.jpg",
+        "release": "EX10",
+        "imageVersion": "236c17fcb599"
+      }
+    ]
+  },
+  {
+    "number": "EX10-002",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-002.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "e3329e375b9b",
+    "altImages": [
+      {
+        "label": "EX10 — Alt Art",
+        "image": "images/EX10-002-alt1.jpg",
+        "release": "EX10",
+        "imageVersion": "42dbb6edf428"
+      }
+    ]
+  },
+  {
+    "number": "EX10-003",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-003.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "7d923b55c4ac",
+    "altImages": [
+      {
+        "label": "EX10 — Alt Art",
+        "image": "images/EX10-003-alt1.jpg",
+        "release": "EX10",
+        "imageVersion": "e353a0561226"
+      }
+    ]
+  },
+  {
+    "number": "EX10-004",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-004.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "f13715fe2b4a"
+  },
+  {
+    "number": "EX10-005",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-005.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "fa293e54b203"
+  },
+  {
+    "number": "EX10-006",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-006.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "d9ead5c9376a"
+  },
+  {
+    "number": "EX10-007",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-007.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "034fb30cd783"
+  },
+  {
+    "number": "EX10-008",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-008.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "89558231c603"
+  },
+  {
+    "number": "EX10-009",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-009.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "76222dfecf36"
+  },
+  {
+    "number": "EX10-010",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-010.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "a07a9b8242c9"
+  },
+  {
+    "number": "EX10-011",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-011.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "eea05328c8ab"
+  },
+  {
+    "number": "EX10-012",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-012.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "f87f0364924f"
+  },
+  {
+    "number": "EX10-013",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-013.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "eeb7d5d18108",
+    "altImages": [
+      {
+        "label": "EX10 — Alt Art",
+        "image": "images/EX10-013-alt1.jpg",
+        "release": "EX10",
+        "imageVersion": "39a0494188a0"
+      }
+    ]
+  },
+  {
+    "number": "EX10-014",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-014.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "3ad2290163f4"
+  },
+  {
+    "number": "EX10-015",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-015.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "9b1dbd5e17f8"
+  },
+  {
+    "number": "EX10-016",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-016.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "be1b77a71551"
+  },
+  {
+    "number": "EX10-017",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-017.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "c3e41d2e69ca"
+  },
+  {
+    "number": "EX10-018",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-018.jpg",
+    "deckZone": "Main",
+    "cardType": "Main Deck",
+    "deckLimit": 4,
+    "orientation": "Portrait",
+    "imageVersion": "d097b8a8845b"
+  },
+  {
+    "number": "EX10-019",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-019.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "fae9aa9d985a"
+  },
+  {
+    "number": "EX10-020",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-020.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "2f517bc12e5e"
+  },
+  {
+    "number": "EX10-021",
+    "release": "EX10",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/EX10-021.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "c5a5150a2cd2"
+  },
+  {
     "number": "EX2-001",
     "release": "EX2",
     "set": "PRO",
@@ -4770,6 +5054,30 @@
     "deckLimit": 1,
     "orientation": "Landscape",
     "imageVersion": "2b2e0e68e1af"
+  },
+  {
+    "number": "PUP-155",
+    "release": "PUP",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/PUP-155.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Portrait",
+    "imageVersion": "a18529070b31"
+  },
+  {
+    "number": "PUP-156",
+    "release": "PUP",
+    "set": "RDR",
+    "color": "Blue",
+    "image": "images/PUP-156.jpg",
+    "deckZone": "JUMP",
+    "cardType": "Main Deck",
+    "deckLimit": 1,
+    "orientation": "Landscape",
+    "imageVersion": "b5b58aa35b81"
   },
   {
     "number": "SD1-001",
