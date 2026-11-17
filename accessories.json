@@ -440,6 +440,14 @@
     "imageVersion": "bd6fc7cac794"
   },
   {
+    "id": "TOKEN-GT-TKG",
+    "set": "TKG",
+    "kind": "guard",
+    "name": "Guard Token TKG",
+    "image": "tcga/assets/guard-tokens/GT-TKG.jpg",
+    "imageVersion": "ca86521be5a5"
+  },
+  {
     "id": "TOKEN-GT-TRC",
     "set": "TRC",
     "kind": "guard",
@@ -1254,6 +1262,22 @@
     "name": "SJ Marker SMK3",
     "image": "tcga/assets/sj-markers/SJM-SMK3.jpg",
     "imageVersion": "b4ba4ff37625"
+  },
+  {
+    "id": "TOKEN-SJM-TKG1",
+    "set": "TKG",
+    "kind": "sj",
+    "name": "SJ Marker TKG1",
+    "image": "tcga/assets/sj-markers/SJM-TKG1.jpg",
+    "imageVersion": "e093581b3e59"
+  },
+  {
+    "id": "TOKEN-SJM-TKG2",
+    "set": "TKG",
+    "kind": "sj",
+    "name": "SJ Marker TKG2",
+    "image": "tcga/assets/sj-markers/SJM-TKG2.jpg",
+    "imageVersion": "66623ab765d6"
   },
   {
     "id": "TOKEN-SJM-TRC1",
