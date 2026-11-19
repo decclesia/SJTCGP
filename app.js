@@ -137,25 +137,40 @@ async function init() {
 }
 
 async function loadCardData() {
-  const urls = ["cards.json", "./cards.json", "/SJTCGP/cards.json"];
-  let lastError = null;
+  // Older archive HTML may already have executed the versioned mirror.
+  if (Array.isArray(window.SJTCG_CARD_DATA)) return window.SJTCG_CARD_DATA;
+  const mirror = document.querySelector('meta[name="card-data-mirror"]')?.content;
+  async function loadMirror() {
+    if (!mirror) throw new Error("Missing archive mirror reference");
+    const script = document.createElement("script");
+    script.src = mirror;
+    await new Promise((resolve, reject) => {
+      script.onload = resolve;
+      script.onerror = () => reject(new Error("Could not load the archive mirror"));
+      document.head.appendChild(script);
+    });
+    if (!Array.isArray(window.SJTCG_CARD_DATA)) throw new Error("Invalid archive mirror");
+    return window.SJTCG_CARD_DATA;
+  }
 
+  const localFile = location.protocol === "file:";
+  let lastError;
+  if (localFile) {
+    try { return await loadMirror(); } catch (error) { lastError = error; }
+  }
+  const urls = new Set(["cards.json", "/SJTCGP/cards.json"].map(path => new URL(path, document.baseURI).href));
   for (const url of urls) {
     try {
-      const response = await fetch(`${url}?v=${Date.now()}`, { cache: "no-store" });
-      if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+      const response = await fetch(url, { cache: "no-cache" });
+      if (!response.ok) throw new Error(`Catalogue returned ${response.status}`);
       const data = await response.json();
-      if (!Array.isArray(data)) throw new Error(`${url} is not an array`);
+      if (!Array.isArray(data)) throw new Error("Invalid archive catalogue");
       return data;
     } catch (error) {
       lastError = error;
     }
   }
-
-  if (Array.isArray(window.SJTCG_CARD_DATA)) {
-    return window.SJTCG_CARD_DATA;
-  }
-
+  if (!localFile && mirror) return loadMirror();
   throw lastError || new Error("No card data source available");
 }
 

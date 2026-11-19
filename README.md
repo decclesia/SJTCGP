@@ -6,6 +6,10 @@ Canonical card metadata, transcriptions and artwork for the SJTCGP database and 
 
 `main` is the canonical source archive. GitHub Pages serves the separate `database-gateway` branch, which links to the protected database. Publishing new protected catalogue data uses the coordinated database-source workflow; pushing this source archive alone does not deploy the protected database or simulator.
 
+## Updating the database
+
+See the [maintenance tools and update checks](tools/database/README.md) for artwork preparation, protected packaging and receipt matching.
+
 ## Arena retired
 
 TCG Arena integration was retired on 16 November 2026. Its configuration, generated catalogue, starter decks, conversion/build tools, rotated landscape exports and unused Arena-only assets have been removed from the current source tree.
