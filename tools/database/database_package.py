@@ -99,7 +99,7 @@ def install_output(staged, destination):
 
 
 def pack_delta(repo, commit, baseline_file, baseline_sha, policy_file, destination, additions=(), removals=(),
-               canonical_base=None):
+               canonical_base=None, card_additions=()):
     require(re.fullmatch("[0-9a-f]{40}", commit), "Expected a full canonical commit")
     baseline = pinned_json(baseline_file, baseline_sha)
     base = baseline["sourceCommit"]
@@ -116,6 +116,14 @@ def pack_delta(repo, commit, baseline_file, baseline_sha, policy_file, destinati
     policy = pinned_json(policy_file, prior["policy.json"]["sha256"])
     data = {p: git(repo, "show", f"{commit}:{p}") for p in CATALOGUES}
     cards = index(json.loads(data["cards.json"]), "number")
+    if card_additions:
+        old_cards = index(json.loads(git(repo, "show", f"{base}:cards.json")), "number")
+        groups = index(policy["groups"], "id")
+        for group_id, card_id in card_additions:
+            require(card_id in cards and card_id not in old_cards, f"Expected a new card: {card_id}")
+            members = groups[group_id]["cardIds"]
+            members.append(card_id)
+            members.sort()
     accessories = index(json.loads(data["accessories.json"]), "id")
     if digest(data["accessories.json"]) != prior["accessories.json"]["sha256"]:
         old_accessories = index(json.loads(git(repo, "show", f"{base}:accessories.json")), "id")
@@ -184,11 +192,14 @@ if __name__ == "__main__":
     parser.add_argument("--base-commit", help="Canonical prior commit for a multi-commit batch (default: parent)")
     parser.add_argument("--baseline-sha256", required=True)
     parser.add_argument("--add-accessory", nargs=2, action="append", default=[], metavar=("GROUP", "ID"))
+    parser.add_argument("--add-card", nargs=2, action="append", default=[], metavar=("GROUP", "CARD_ID"),
+                        help="Assign a new canonical identity to an explicitly approved group")
     parser.add_argument("--remove-path", action="append", default=[])
     args = parser.parse_args()
     started = monotonic()
     result = pack_delta(args.repo, args.commit, args.baseline, args.baseline_sha256,
-                        args.policy, args.output, args.add_accessory, args.remove_path, args.base_commit)
+                        args.policy, args.output, args.add_accessory, args.remove_path, args.base_commit,
+                        args.add_card)
     print(json.dumps({"phase": "protected-package", "sourceCommit": result["sourceCommit"],
                       "changed": result["changedFiles"], "total": len(result["files"]),
                       "elapsedSeconds": round(monotonic() - started, 3)}))

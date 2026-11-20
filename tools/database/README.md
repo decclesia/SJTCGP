@@ -10,6 +10,8 @@ Use these tools from a local checkout with Git and Python 3.10 or later. Archive
 
 ### Prepare the archive
 
+When transcribing a print, generate `effect_html` with `format_effect(effect, previous_html)` from `format_transcripts.py`. Keep the printed punctuation and casing in `effect`. To list any stored HTML that still needs formatting, run `python tools/database/format_transcripts.py card-text.json`.
+
 ```text
 python tools/database/prepare_database_batch.py --repo REPO --batch BATCH.json --output ARCHIVE_DELTA
 ```
@@ -23,7 +25,7 @@ python tools/database/database_package.py --repo REPO --commit COMMIT --baseline
 python tools/database/pack_database.py --repo REPO --commit COMMIT --planner TRUSTED_PLANNER_JS --approved-policy APPROVED_POLICY --policy-sha256 TRUSTED_DIGEST --output FULL_PACKAGE
 ```
 
-For a delta, take the prior manifest digest from the verified publication. Declare new accessory memberships with `--add-accessory GROUP ID` and intentional removals with `--remove-path PATH`. The default canonical base is the target's parent. Use `--base-commit` for a multi-commit batch. Changed bytes are read back. Unchanged Git blob IDs carry their previous proofs. Use the full packer for wider membership changes and provide the expected counts for the release. A full incremental rebuild needs a previously verified, intact staging directory, its manifest and its paired report. Use separate output directories for new batches.
+For a delta, take the prior manifest digest from the verified publication. Assign new card identities to their confirmed release group with `--add-card GROUP CARD_ID`. Declare new accessory memberships with `--add-accessory GROUP ID` and intentional removals with `--remove-path PATH`. The default canonical base is the target's parent. Use `--base-commit` for a multi-commit batch. Changed bytes are read back. Unchanged Git blob IDs carry their previous proofs. Use the full packer for wider membership changes and provide the expected counts for the release. A full incremental rebuild needs a previously verified, intact staging directory, its manifest and its paired report. Use separate output directories for new batches.
 
 ST1 requires the 27 approved accessories. Both packers derive group artwork only from its approved cards, their variants, energy markers and accessories. The protected publisher takes the frozen delta and verifies the current runtime and asset overlay at release time.
 
