@@ -9624,7 +9624,7 @@ window.SJTCG_CARD_DATA = [
     "cardType": "Main Deck",
     "deckLimit": 4,
     "orientation": "Portrait",
-    "imageVersion": "b760dc0acf49"
+    "imageVersion": "ccb1eb85f22d"
   },
   {
     "number": "ST1-112",
